@@ -575,6 +575,13 @@ export default function BlogPost() {
         pageUrl="https://justlegalsolutions.org/blog/what-makes-process-server-reliable-oklahoma"
         title="What Makes a Process Server Reliable? 10 Traits to Look For"
         description="Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Oklahoma."
+        articleDetails={{
+          headline: 'What Makes a Process Server Reliable? 10 Traits to Look For',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
     </>

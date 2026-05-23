@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // --- Question types ---
 interface Question {
@@ -306,6 +307,18 @@ export default function EServiceValidityChecker() {
   };
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="E Service Validity Checker"
+        pageDescription="E Service Validity Checker — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/e-service-validity-checker"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'E Service Validity Checker', url: '/oklahoma-tools/e-service-validity-checker' },
+        ]}
+      />
     <HubPageLayout
       title="E-Service Validity Checker"
       description="Check whether electronic service of process is valid under Oklahoma law for your specific situation."
@@ -719,5 +732,6 @@ export default function EServiceValidityChecker() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

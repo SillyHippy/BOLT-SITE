@@ -284,6 +284,13 @@ export default function BlogPost() {
         title="How Fast Can a Process Server Deliver Documents in Oklahoma?"
         description="Learn how fast process servers deliver in Oklahoma. Same-day, rush (24-48hr), standard (3-5 days) & more. Tulsa-based serving all 77 counties. Call (539) 367-6832."
         url="https://justlegalsolutions.org/blog/how-fast-can-process-server-deliver-oklahoma"
+        articleDetails={{
+          headline: 'How Fast Can a Process Server Deliver Documents in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

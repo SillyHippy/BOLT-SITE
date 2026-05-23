@@ -291,6 +291,13 @@ export default function BlogPost() {
         title="What Questions Will a Notary Ask Me? Oklahoma Notary Appointment Guide"
         description="Wondering what questions a notary will ask? Learn what to expect during your Oklahoma notary appointment, including ID verification, willingness checks & document review."
         url="https://justlegalsolutions.org/blog/what-questions-will-notary-ask-me-oklahoma"
+        articleDetails={{
+          headline: 'What Questions Will a Notary Ask Me? Oklahoma Notary Appointment Guide',
+          datePublished: '2026-05-28',
+          dateModified: '2026-05-28',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

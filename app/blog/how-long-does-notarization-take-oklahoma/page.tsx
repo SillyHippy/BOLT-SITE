@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "notary appointment time, how long notarization takes, quick notary service Oklahoma, mobile notary timing, notary duration",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {

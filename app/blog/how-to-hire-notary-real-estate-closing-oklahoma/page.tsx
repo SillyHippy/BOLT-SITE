@@ -281,6 +281,13 @@ export default function BlogPost() {
         title="How to Hire a Notary for Real Estate Closing in Oklahoma"
         description="Learn how to hire a qualified real estate closing notary or loan signing agent in Oklahoma. What to expect, documents needed, costs, and how to find a certified professional."
         url="https://justlegalsolutions.org/blog/how-to-hire-notary-real-estate-closing-oklahoma"
+        articleDetails={{
+          headline: 'How to Hire a Notary for Real Estate Closing in Oklahoma',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

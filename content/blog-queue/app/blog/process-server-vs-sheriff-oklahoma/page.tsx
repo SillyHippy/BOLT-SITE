@@ -321,6 +321,13 @@ export default function BlogPost() {
         title="Process Server vs Sheriff: Which Should You Choose in Oklahoma?"
         description="Compare process servers vs sheriffs for serving legal papers in Oklahoma. Learn which option offers better speed, cost, and success rates."
         url="https://justlegalsolutions.org/blog/process-server-vs-sheriff-oklahoma"
+        articleDetails={{
+          headline: 'Process Server vs Sheriff: Which Should You Choose in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

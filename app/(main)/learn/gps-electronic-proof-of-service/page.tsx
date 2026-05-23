@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function GPSElectronicProofOfServicePage() {
   const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});
@@ -47,6 +48,18 @@ export default function GPSElectronicProofOfServicePage() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Gps Electronic Proof Of Service"
+        pageDescription="Gps Electronic Proof Of Service — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/learn/gps-electronic-proof-of-service"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Gps Electronic Proof Of Service', url: '/learn/gps-electronic-proof-of-service' },
+        ]}
+      />
     <HubPageLayout
       title="GPS &amp; Electronic Proof of Service"
       description="Learn why GPS documentation matters for process servers, what Oklahoma courts accept as proof of service, metadata requirements, photo best practices, and the CLEET 3-year record retention rule. Includes an interactive checklist."
@@ -322,5 +335,6 @@ export default function GPSElectronicProofOfServicePage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

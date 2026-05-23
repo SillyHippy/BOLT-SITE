@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Glossary',
@@ -33,6 +34,18 @@ const terms = [
 
 export default function GlossaryPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Glossary"
+        pageDescription="Oklahoma process serving terms and definitions."
+        pageUrl="https://justlegalsolutions.org/glossary"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Glossary', url: '/glossary' },
+        ]}
+      />
     <HubPageLayout
       title="Process Serving Glossary"
       description="Oklahoma-specific terms and definitions for process serving, civil procedure, and legal service."
@@ -50,5 +63,6 @@ export default function GlossaryPage() {
         ))}
       </div>
     </HubPageLayout>
+    </>
   );
 }

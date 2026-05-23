@@ -110,7 +110,14 @@ export default function DifficultDefendantsPage() {
             name="How Do Process Servers Handle Difficult or Evasive Defendants?"
             description="Professional techniques for serving evasive defendants in Oklahoma: stakeouts, surveillance, skip tracing, technology, and proven strategies that get results."
             url="https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'How Do Process Servers Handle Difficult or Evasive Defend...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/difficult-defendants.webp',
+        }}
             image="https://justlegalsolutions.org/images/difficult-defendants.webp"
           />
 

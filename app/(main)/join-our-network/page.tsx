@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Join Our Network — Oklahoma Process Server Opportunities',
@@ -32,6 +33,18 @@ const areas = [
 
 export default function JoinOurNetworkPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Join Our Network — Oklahoma Process Server Opportunities"
+        pageDescription="Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. license required. Apply today."
+        pageUrl="https://justlegalsolutions.org/join-our-network"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Join Our Network — Oklahoma Process Server Opportunities', url: '/join-our-network' },
+        ]}
+      />
     <div className="min-h-screen bg-white font-sans">
       {/* Hero */}
       <section className="bg-gradient-to-br from-gray-900 to-blue-900 text-white py-20 px-4">
@@ -203,5 +216,6 @@ export default function JoinOurNetworkPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

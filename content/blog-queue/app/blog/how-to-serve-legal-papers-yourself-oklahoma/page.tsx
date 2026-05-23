@@ -598,6 +598,13 @@ export default function BlogPost() {
         title="Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro"
         description="Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended."
         url="https://justlegalsolutions.org/blog/how-to-serve-legal-papers-yourself-oklahoma"
+        articleDetails={{
+          headline: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

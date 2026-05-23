@@ -585,6 +585,13 @@ export default function BlogPost() {
         title="How AI Is Changing Legal Support Services in 2026"
         description="Discover how AI is transforming legal support services in 2026. From document automation to skip tracing, learn what AI means for your law firm."
         url="https://justlegalsolutions.org/blog/ai-changing-legal-support-services-2026"
+        articleDetails={{
+          headline: 'How AI Is Changing Legal Support Services in 2026',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

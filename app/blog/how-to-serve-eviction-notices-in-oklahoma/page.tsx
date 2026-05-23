@@ -118,8 +118,8 @@ export default function EvictionNoticeGuide() {
         articleDetails={{
           headline: "How to Serve Eviction Notices in Oklahoma: Notice Rules, Summons Service, and FED Deadlines",
           author: "Joseph Iannazzi",
-          datePublished: "2025-05-15",
-          dateModified: "2026-03-27",
+          datePublished: '2025-05-15',
+          dateModified: '2026-03-27',
           image: "https://justlegalsolutions.org/image-pack/images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

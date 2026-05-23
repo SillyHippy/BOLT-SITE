@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     alternates: {
@@ -17,6 +18,17 @@ title: 'Security Policy',
 export default function SecurityPolicyPage() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Security Policy"
+        pageDescription="Security policy and guidelines for Just Legal Solutions website and services."
+        pageUrl="https://justlegalsolutions.org/security-policy"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Security Policy', url: '/security-policy' },
+        ]}
+      />
       <Navbar />
       <main className="min-h-screen py-16 px-4 mt-12">
         <div className="max-w-4xl mx-auto">

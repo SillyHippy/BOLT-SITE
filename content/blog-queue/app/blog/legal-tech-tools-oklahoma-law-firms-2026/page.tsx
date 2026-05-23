@@ -618,6 +618,13 @@ export default function BlogPost() {
         title="Legal Tech Tools Every Oklahoma Law Firm Should Use in 2026"
         description="Essential legal tech tools for Oklahoma law firms in 2026. Covers case management, eFiling, process serving platforms, and AI legal research."
         url="https://justlegalsolutions.org/blog/legal-tech-tools-oklahoma-law-firms-2026"
+        articleDetails={{
+          headline: 'Legal Tech Tools Every Oklahoma Law Firm Should Use in 2026',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

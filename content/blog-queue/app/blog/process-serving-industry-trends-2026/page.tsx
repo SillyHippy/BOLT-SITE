@@ -160,6 +160,13 @@ export default function BlogPost() {
         title="Process Serving Industry Trends to Watch in 2026"
         description="Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what's shaping the industry."
         url="https://justlegalsolutions.org/blog/process-serving-industry-trends-2026"
+        articleDetails={{
+          headline: 'Process Serving Industry Trends to Watch in 2026',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

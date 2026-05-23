@@ -669,6 +669,13 @@ export default function BlogPost() {
         title="Small Claims in Tulsa County: Step-by-Step Filing Guide"
         description="File small claims in Tulsa County with our guide. Covers the $10,000 limit, required forms, fees, service requirements, and hearing preparation."
         url="https://justlegalsolutions.org/blog/small-claims-tulsa-county-filing-guide"
+        articleDetails={{
+          headline: 'Small Claims in Tulsa County: Step-by-Step Filing Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

@@ -245,6 +245,13 @@ export default function BlogPost() {
         title="Why Process Serving Demand Is Growing in Oklahoma"
         description="Discover why process serving demand is surging in Oklahoma. Population growth, court backlogs, and rising filings drive the need for professional servers."
         url="https://justlegalsolutions.org/blog/process-serving-demand-growing-oklahoma"
+        articleDetails={{
+          headline: 'Why Process Serving Demand Is Growing in Oklahoma',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

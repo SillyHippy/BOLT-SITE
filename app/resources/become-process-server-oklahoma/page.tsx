@@ -1,6 +1,7 @@
 'use client';
 
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const citations = [
   {
@@ -32,6 +33,18 @@ const citations = [
 
 export default function BecomeProcessServerPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Become Process Server Oklahoma"
+        pageDescription="Become Process Server Oklahoma — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/resources/become-process-server-oklahoma"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Become Process Server Oklahoma', url: '/resources/become-process-server-oklahoma' },
+        ]}
+      />
     <HubPageLayout
       title="How to Become a Process Server in Oklahoma"
       description="A complete step-by-step guide to getting licensed, bonded, and working as a professional process server in Oklahoma."
@@ -338,5 +351,6 @@ export default function BecomeProcessServerPage() {
 
       </div>
     </HubPageLayout>
+    </>
   );
 }

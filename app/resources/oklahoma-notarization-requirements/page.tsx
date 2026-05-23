@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   Download, 
   FileCheck, 
@@ -56,6 +57,18 @@ export const metadata: Metadata = {
 
 export default function OklahomaNotarizationRequirementsPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Oklahoma Notarization Requirements Cheat Sheet (Free PDF)"
+        pageDescription="Download our free Oklahoma Notarization Requirements Cheat Sheet. Complete guide to ID requirements, journal entries, certificate types, fees under 49 O.S. § 5, and RON rules."
+        pageUrl="https://justlegalsolutions.org/resources/oklahoma-notarization-requirements"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)', url: '/resources/oklahoma-notarization-requirements' },
+        ]}
+      />
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-16 md:py-24">
@@ -477,5 +490,6 @@ export default function OklahomaNotarizationRequirementsPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

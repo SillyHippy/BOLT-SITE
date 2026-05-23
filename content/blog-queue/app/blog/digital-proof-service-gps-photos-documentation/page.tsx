@@ -376,6 +376,13 @@ export default function BlogPost() {
         title="Digital Proof of Service: GPS, Photos, and Modern Documentation"
         description="Learn how digital proof of service with GPS and photo documentation protects your case. Modern verification methods explained for Oklahoma attorneys."
         url="https://justlegalsolutions.org/blog/digital-proof-service-gps-photos-documentation"
+        articleDetails={{
+          headline: 'Digital Proof of Service: GPS, Photos, and Modern Documentation',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

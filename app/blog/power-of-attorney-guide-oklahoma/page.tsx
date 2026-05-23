@@ -25,7 +25,12 @@ export const metadata = {
     publishedTime: '2025-01-15T00:00:00Z',
     modifiedTime: '2025-01-15T00:00:00Z',
     authors: ['Joseph Iannazzi']
-  }
+  },
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 const jsonLd = {

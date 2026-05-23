@@ -2,6 +2,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const {
+  applyBlogFreshnessDates,
+  hasJsonLdArticleDates,
+  hasMetaArticleDates,
+  releaseDateInChicago,
+} = require('./lib/blog-freshness-dates.js');
 
 const ROOT = process.cwd();
 const DEFAULT_QUEUE_ROOT = path.join(ROOT, 'content', 'blog-queue');
@@ -269,7 +275,21 @@ function validateSeoSchema(source, slug) {
     warnings.push('Could not parse metadata block reliably; checks may be incomplete.');
   }
 
+  if (!hasMetaArticleDates(source) && !hasJsonLdArticleDates(source)) {
+    warnings.push('No article date meta/JSON-LD yet — will be stamped at release.');
+  }
+
   return { slug, errors, warnings };
+}
+
+function stampSourceForRelease(source, slug) {
+  const releaseDate = releaseDateInChicago();
+  return applyBlogFreshnessDates(source, {
+    slug,
+    mode: 'release',
+    datePublished: releaseDate,
+    dateModified: releaseDate,
+  });
 }
 
 function extractReferencedBlogImages(source) {
@@ -433,9 +453,12 @@ function releaseNextPost() {
     const copiedBySlug = copyLikelySlugImages(next.slug);
     const referencedImages = assertAndCopyReferencedImages(source, next.slug);
 
+    const releaseDate = releaseDateInChicago();
+    const stampedSource = stampSourceForRelease(source, next.slug);
+
     if (!BLOG_DRY_RUN) {
       fs.mkdirSync(path.dirname(next.targetPath), { recursive: true });
-      fs.copyFileSync(next.sourcePath, next.targetPath);
+      fs.writeFileSync(next.targetPath, stampedSource, 'utf8');
     }
 
     const releaseRecord = {
@@ -443,6 +466,7 @@ function releaseNextPost() {
       title: next.title,
       category: next.category,
       releasedAt: new Date().toISOString(),
+      releaseDate,
       quality: qualityMetrics,
       images: {
         referenced: referencedImages,

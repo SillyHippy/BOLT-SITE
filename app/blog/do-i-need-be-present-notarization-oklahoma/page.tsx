@@ -306,6 +306,13 @@ export default function BlogPost() {
         title="Do I Need to Be Present When Documents Are Notarized in Oklahoma?"
         description="Physical presence is generally required for notarization in Oklahoma. Learn the presence rules, RON exceptions, penalties for violation, and your alternatives."
         url="https://justlegalsolutions.org/blog/do-i-need-be-present-notarization-oklahoma"
+        articleDetails={{
+          headline: 'Do I Need to Be Present When Documents Are Notarized in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

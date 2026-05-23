@@ -110,7 +110,14 @@ export default function RestrainingOrderServicePage() {
             name="Can a Process Server Serve a Restraining Order in Oklahoma?"
             description="Understanding protective order service requirements, emergency procedures, safety considerations, and timeline requirements for process servers in Oklahoma."
             url="https://justlegalsolutions.org/blog/can-process-server-serve-restraining-order-oklahoma"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'Can a Process Server Serve a Restraining Order in Oklahom...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/restraining-order-service.webp',
+        }}
             image="https://justlegalsolutions.org/images/restraining-order-service.webp"
           />
 

@@ -170,6 +170,13 @@ export default function BlogPost() {
         title="What Legal Documents Can a Process Server Deliver? Complete List"
         description="Comprehensive list of legal documents that process servers can deliver in Oklahoma. From summons to subpoenas to eviction notices."
         url="https://justlegalsolutions.org/blog/types-legal-documents-process-server-deliver"
+        articleDetails={{
+          headline: 'What Legal Documents Can a Process Server Deliver? Complete List',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

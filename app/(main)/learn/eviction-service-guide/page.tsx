@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 type EvictionType = 'five-day' | 'ten-day';
 
@@ -73,6 +74,18 @@ export default function EvictionServiceGuidePage() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Eviction Service Guide"
+        pageDescription="Eviction Service Guide — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/learn/eviction-service-guide"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Eviction Service Guide', url: '/learn/eviction-service-guide' },
+        ]}
+      />
     <HubPageLayout
       title="Eviction Service of Process in Oklahoma"
       description="A step-by-step guide to Oklahoma eviction service of process. Covers the 14-day compressed timeline, notice requirements, who can serve eviction papers, common landlord mistakes, and an interactive eviction timeline calculator."
@@ -462,5 +475,6 @@ export default function EvictionServiceGuidePage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

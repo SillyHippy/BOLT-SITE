@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // --- Oklahoma counties (all 77) ---
 const OKLAHOMA_COUNTIES = [
@@ -217,6 +218,18 @@ export default function ProcessServingCostEstimator() {
   }, [county, speed, defendants, conditions, stakeoutHours]);
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Process Serving Cost Estimator"
+        pageDescription="Process Serving Cost Estimator — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/process-serving-cost-estimator"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Process Serving Cost Estimator', url: '/oklahoma-tools/process-serving-cost-estimator' },
+        ]}
+      />
     <HubPageLayout
       title="Process Serving Cost Estimator"
       description="Estimate the cost of process serving in any Oklahoma county. Get itemized pricing for service speed, additional defendants, and special conditions."
@@ -618,5 +631,6 @@ export default function ProcessServingCostEstimator() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

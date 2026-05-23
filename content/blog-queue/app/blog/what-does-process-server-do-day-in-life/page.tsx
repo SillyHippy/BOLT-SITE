@@ -519,6 +519,13 @@ export default function BlogPost() {
         title="What Does a Process Server Do? A Day in the Life"
         description="Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk."
         url="https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life"
+        articleDetails={{
+          headline: 'What Does a Process Server Do? A Day in the Life',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

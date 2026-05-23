@@ -289,6 +289,13 @@ export default function BlogPost() {
         title="What Happens If Someone Won't Answer the Door for a Process Server?"
         description="What happens when defendants avoid process servers in Oklahoma. Learn about substitute service, nail & mail, stakeouts & legal alternatives under 12 O.S. § 2004."
         url="https://justlegalsolutions.org/blog/what-happens-if-someone-wont-answer-door-process-server"
+        articleDetails={{
+          headline: 'What Happens If Someone Won',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

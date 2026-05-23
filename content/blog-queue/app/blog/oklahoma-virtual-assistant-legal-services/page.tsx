@@ -259,6 +259,13 @@ export default function BlogPost() {
         title="Oklahoma Virtual Assistant Services for Law Firms: Complete Guide"
         description="Guide to virtual assistant services for Oklahoma law firms. Learn about tasks, benefits, security, and how to get started with legal VA services."
         url="https://justlegalsolutions.org/blog/oklahoma-virtual-assistant-legal-services"
+        articleDetails={{
+          headline: 'Oklahoma Virtual Assistant Services for Law Firms: Complete Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

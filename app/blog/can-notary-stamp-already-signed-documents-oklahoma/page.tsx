@@ -267,6 +267,13 @@ export default function BlogPost() {
         title="Can a Notary Stamp Documents That Are Already Signed in Oklahoma?"
         description="Signed your document before seeing the notary? Learn Oklahoma rules about pre-signed documents, witnessing requirements & what options you have to fix the issue."
         url="https://justlegalsolutions.org/blog/can-notary-stamp-already-signed-documents-oklahoma"
+        articleDetails={{
+          headline: 'Can a Notary Stamp Documents That Are Already Signed in Oklahoma?',
+          datePublished: '2026-05-28',
+          dateModified: '2026-05-28',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

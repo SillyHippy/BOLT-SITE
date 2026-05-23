@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function CalendarPage() {
   const router = useRouter();
@@ -69,6 +70,18 @@ END:VCALENDAR`;
   };
   
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Schedule an Appointment"
+        pageDescription="Schedule an Appointment — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/card/calendar"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Schedule an Appointment', url: '/card/calendar' },
+        ]}
+      />
     <div className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4">
       <div className="bg-[#1B2738] rounded-[24px] p-8 max-w-[480px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.8)] relative border border-[#2A3653]">
         <button 
@@ -141,5 +154,6 @@ END:VCALENDAR`;
         </form>
       </div>
     </div>
+    </>
   );
 }

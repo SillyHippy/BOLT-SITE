@@ -287,6 +287,13 @@ export default function BlogPost() {
         title="10 Common Process Serving Mistakes That Can Ruin Your Case"
         description="Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service."
         url="https://justlegalsolutions.org/blog/common-process-serving-mistakes-oklahoma"
+        articleDetails={{
+          headline: '10 Common Process Serving Mistakes That Can Ruin Your Case',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

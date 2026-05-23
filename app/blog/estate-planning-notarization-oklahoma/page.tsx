@@ -23,6 +23,11 @@ export const metadata = {
     type: "article",
     author: "Joseph Iannazzi",
   },
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export default function EstatePlanningNotarizationBlog() {
@@ -84,6 +89,8 @@ export default function EstatePlanningNotarizationBlog() {
         pageUrl="/blog/estate-planning-notarization-oklahoma/"
         title="Estate Planning Notarization in Oklahoma: Complete Guide to Wills, Trusts & Powers of Attorney"
         description="Professional estate planning notarization services in Oklahoma. Mobile notary for wills, trusts, powers of attorney, and advance directives. Expert guidance on self-proving wills under 84 O.S. § 55."
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
       />
       <Navbar />
 

@@ -581,6 +581,13 @@ export default function BlogPost() {
         title="Legal Support Services Beyond Process Serving: Full-Service Guide"
         description="Discover the full range of legal support services beyond process serving. Court filing, notary, skip tracing, courier, and more for Oklahoma law firms."
         url="https://justlegalsolutions.org/blog/legal-support-services-beyond-process-serving"
+        articleDetails={{
+          headline: 'Legal Support Services Beyond Process Serving: Full-Service Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

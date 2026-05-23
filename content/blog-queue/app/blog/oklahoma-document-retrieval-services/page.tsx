@@ -245,6 +245,13 @@ export default function BlogPost() {
         title="Oklahoma Document Retrieval Services: Get the Records You Need"
         description="Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently."
         url="https://justlegalsolutions.org/blog/oklahoma-document-retrieval-services"
+        articleDetails={{
+          headline: 'Oklahoma Document Retrieval Services: Get the Records You Need',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

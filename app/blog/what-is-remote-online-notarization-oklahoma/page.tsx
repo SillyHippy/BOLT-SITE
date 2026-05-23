@@ -305,6 +305,13 @@ export default function BlogPost() {
         title="What is Remote Online Notarization and How Does It Work in Oklahoma?"
         description="Remote online notarization (RON) is now legal in Oklahoma. Learn how RON works step-by-step, technology requirements, Oklahoma law, and how it compares to traditional in-person notarization."
         url="https://justlegalsolutions.org/blog/what-is-remote-online-notarization-oklahoma"
+        articleDetails={{
+          headline: 'What is Remote Online Notarization and How Does It Work in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

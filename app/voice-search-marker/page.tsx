@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata = {
   title: 'Voice Search Marker - Just Legal Solutions',
@@ -22,6 +23,17 @@ export const metadata = {
 export default function VoiceSearchMarker() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Voice Search Marker - Just Legal Solutions"
+        pageDescription="This page marks voice search optimization for Just Legal Solutions. Our services are discoverable and optimized for voice assistants and smart devices."
+        pageUrl="https://justlegalsolutions.org/voice-search-marker"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Voice Search Marker - Just Legal Solutions', url: '/voice-search-marker' },
+        ]}
+      />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-indigo-900">Voice Search Marker</h1>

@@ -304,6 +304,13 @@ export default function BlogPost() {
         title="How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide"
         description="Discover 2026 notary costs in Oklahoma. Learn about state-regulated fees, mobile notary travel charges, after-hours premiums, and what affects notarization pricing."
         url="https://justlegalsolutions.org/blog/how-much-does-notary-cost-oklahoma"
+        articleDetails={{
+          headline: 'How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

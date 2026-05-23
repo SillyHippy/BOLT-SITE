@@ -211,6 +211,13 @@ export default function BlogPost() {
         title="In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide"
         description="Oklahoma attorney's guide to out-of-state service of process. Covers interstate methods, UIDDA, and finding reliable process servers in other states."
         url="https://justlegalsolutions.org/blog/in-state-vs-out-of-state-service-process-oklahoma"
+        articleDetails={{
+          headline: 'In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

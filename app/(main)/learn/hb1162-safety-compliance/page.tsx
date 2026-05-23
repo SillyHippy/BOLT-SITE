@@ -1,5 +1,6 @@
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'HB 1162 Process Server Safety & Compliance | Oklahoma Guide',
@@ -42,6 +43,18 @@ const citations = [
 
 export default function Hb1162SafetyCompliancePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="HB 1162 Process Server Safety & Compliance | Oklahoma Guide"
+        pageDescription="Process server safety requirements, background checks, and on-the-job protocols under Oklahoma HB 1162 (2021)."
+        pageUrl="https://justlegalsolutions.org/learn/hb1162-safety-compliance"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'HB 1162 Process Server Safety & Compliance | Oklahoma Guide', url: '/learn/hb1162-safety-compliance' },
+        ]}
+      />
     <HubPageLayout
       title="HB 1162 Safety & Compliance Guide"
       description="Process server safety requirements, background checks, and on-the-job protocols under Oklahoma law."
@@ -277,5 +290,6 @@ export default function Hb1162SafetyCompliancePage() {
         </div>
       </div>
     </HubPageLayout>
+    </>
   );
 }

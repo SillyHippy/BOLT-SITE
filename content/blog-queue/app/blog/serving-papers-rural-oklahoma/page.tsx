@@ -619,6 +619,13 @@ export default function BlogPost() {
         title="Serving Papers in Rural Oklahoma: Challenges and Solutions"
         description="Learn about the unique challenges of serving legal papers in rural Oklahoma counties and how professional process servers overcome them."
         url="https://justlegalsolutions.org/blog/serving-papers-rural-oklahoma"
+        articleDetails={{
+          headline: 'Serving Papers in Rural Oklahoma: Challenges and Solutions',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

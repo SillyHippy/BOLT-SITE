@@ -188,6 +188,13 @@ export default function BlogPost() {
         title="The Complete Guide to Hiring a Process Server in Oklahoma (2026)"
         description="Learn how to hire a licensed process server in Oklahoma. Our 2026 guide covers licensing, pricing, and what to expect. Serving all 77 counties."
         url="https://justlegalsolutions.org/blog/complete-guide-to-hiring-process-server-oklahoma"
+        articleDetails={{
+          headline: 'The Complete Guide to Hiring a Process Server in Oklahoma (2026)',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

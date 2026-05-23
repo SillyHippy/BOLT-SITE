@@ -594,6 +594,13 @@ export default function BlogPost() {
         title="The Process Server's Safety Guide: Best Practices for Oklahoma"
         description="Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation."
         url="https://justlegalsolutions.org/blog/process-server-safety-guide-oklahoma"
+        articleDetails={{
+          headline: 'The Process Server',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

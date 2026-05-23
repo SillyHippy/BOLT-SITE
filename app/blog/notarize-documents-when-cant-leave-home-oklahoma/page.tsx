@@ -297,6 +297,13 @@ export default function BlogPost() {
         title="How to Notarize Documents When You Cannot Leave Your Home in Oklahoma"
         description="Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile notary services bring document authentication to your doorstep across Oklahoma."
         url="https://justlegalsolutions.org/blog/notarize-documents-when-cant-leave-home-oklahoma"
+        articleDetails={{
+          headline: 'How to Notarize Documents When You Cannot Leave Your Home in Oklahoma',
+          datePublished: '2026-05-28',
+          dateModified: '2026-05-28',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

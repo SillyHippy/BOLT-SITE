@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "notary ID requirements, acceptable ID for notary, identification notarization Oklahoma, what ID for notary, expired ID notarization",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {

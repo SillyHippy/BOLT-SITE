@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const citations = [
   {
@@ -68,6 +69,18 @@ export default function ServiceByPublicationPage() {
   }, [courtOrderDate]);
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Service By Publication"
+        pageDescription="Service By Publication — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/learn/service-by-publication"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Service By Publication', url: '/learn/service-by-publication' },
+        ]}
+      />
     <HubPageLayout
       title="Service by Publication in Oklahoma"
       description="Complete step-by-step guide to Oklahoma service by publication, including due diligence requirements, timeline, and an interactive publication date calculator."
@@ -466,5 +479,6 @@ export default function ServiceByPublicationPage() {
         </div>
       </div>
     </HubPageLayout>
+    </>
   );
 }

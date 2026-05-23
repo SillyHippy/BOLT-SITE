@@ -308,6 +308,13 @@ export default function BlogPost() {
         title="Is Online Notarization Legal in Oklahoma? RON Laws Explained"
         description="Yes — online notarization is legal in Oklahoma. Learn about RON laws, requirements, platform standards & how remote online notarization works under Oklahoma statute."
         url="https://justlegalsolutions.org/blog/is-online-notarization-legal-my-state-oklahoma"
+        articleDetails={{
+          headline: 'Is Online Notarization Legal in Oklahoma? RON Laws Explained',
+          datePublished: '2026-05-28',
+          dateModified: '2026-05-28',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

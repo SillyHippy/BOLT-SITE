@@ -336,6 +336,13 @@ export default function BlogPost() {
         title="How Quickly Can I Get Documents Notarized in Oklahoma?"
         description="Learn how fast you can get documents notarized in Oklahoma. Covers walk-in options, same-day mobile notary, rush appointments, online RON, and tips for urgent notarization needs."
         url="https://justlegalsolutions.org/blog/how-quickly-get-documents-notarized-oklahoma"
+        articleDetails={{
+          headline: 'How Quickly Can I Get Documents Notarized in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

@@ -324,6 +324,13 @@ export default function BlogPost() {
         title="Can a Process Server Serve Documents at Work in Oklahoma?"
         description="Yes — process servers can serve documents at work in Oklahoma. Learn workplace service rules, employer rights, privacy considerations & best practices under state law."
         url="https://justlegalsolutions.org/blog/can-process-server-serve-documents-at-work-oklahoma"
+        articleDetails={{
+          headline: 'Can a Process Server Serve Documents at Work in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

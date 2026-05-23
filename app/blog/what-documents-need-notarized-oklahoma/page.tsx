@@ -324,6 +324,13 @@ export default function BlogPost() {
         title="What Documents Need to Be Notarized in Oklahoma? Complete List"
         description="Complete guide to documents requiring notarization in Oklahoma. Covers legal, financial, real estate, personal, and business documents with Oklahoma-specific requirements."
         url="https://justlegalsolutions.org/blog/what-documents-need-notarized-oklahoma"
+        articleDetails={{
+          headline: 'What Documents Need to Be Notarized in Oklahoma? Complete List',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

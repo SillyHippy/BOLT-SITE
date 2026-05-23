@@ -232,6 +232,13 @@ export default function BlogPost() {
         title="The Growing Importance of Rush and Same-Day Process Serving"
         description="Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed."
         url="https://justlegalsolutions.org/blog/rush-same-day-process-serving-importance"
+        articleDetails={{
+          headline: 'The Growing Importance of Rush and Same-Day Process Serving',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

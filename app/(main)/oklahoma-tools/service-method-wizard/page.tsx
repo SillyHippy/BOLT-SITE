@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // --- Types ---
 interface Question {
@@ -301,6 +302,18 @@ export default function ServiceMethodWizard() {
   const progressPercent = ((currentStep + (showResult ? 1 : 0)) / totalSteps) * 100;
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Service Method Wizard"
+        pageDescription="Service Method Wizard — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/service-method-wizard"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Service Method Wizard', url: '/oklahoma-tools/service-method-wizard' },
+        ]}
+      />
     <HubPageLayout
       title="Service Method Wizard"
       description="Answer 5 questions to find the right Oklahoma process serving method for your specific situation."
@@ -591,5 +604,6 @@ export default function ServiceMethodWizard() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

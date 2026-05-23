@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Download, ClipboardList } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const SLUG = 'JLS-Client-Intake-Form-v1.0';
 
@@ -58,6 +59,18 @@ const SECTIONS = [
 
 export default function ClientIntakeFormPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Process Server Client Intake Form (Oklahoma) — Free PDF & DOCX"
+        pageDescription="Professional intake form for Oklahoma process servers — captures case details, special instructions, rush handling, billing authorization, and signature."
+        pageUrl="https://justlegalsolutions.org/resources/client-intake-form"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Process Server Client Intake Form (Oklahoma) — Free PDF & DOCX', url: '/resources/client-intake-form' },
+        ]}
+      />
     <HubPageLayout
       title="Process Server Client Intake Form"
       description="A professional intake form that captures every detail needed to accept, execute, and bill a process-serving job in Oklahoma."
@@ -127,5 +140,6 @@ export default function ClientIntakeFormPage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

@@ -576,6 +576,13 @@ export default function BlogPost() {
         title="Process Serving in All 77 Oklahoma Counties: Complete Guide"
         description="Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations."
         url="https://justlegalsolutions.org/blog/process-serving-all-77-oklahoma-counties"
+        articleDetails={{
+          headline: 'Process Serving in All 77 Oklahoma Counties: Complete Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

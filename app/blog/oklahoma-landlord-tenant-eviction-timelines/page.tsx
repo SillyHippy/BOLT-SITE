@@ -89,8 +89,8 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
         articleDetails={{
           headline: "Oklahoma Landlord-Tenant Laws: Eviction Timelines & Notice Requirements (2026)",
           author: "Joseph Iannazzi",
-          datePublished: "2026-04-08",
-          dateModified: "2026-04-08",
+          datePublished: '2026-04-08',
+          dateModified: '2026-04-08',
           image: "https://justlegalsolutions.org/image-pack/images/image-100-blog-oklahoma-landlord-tenant-eviction-timelines-card.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

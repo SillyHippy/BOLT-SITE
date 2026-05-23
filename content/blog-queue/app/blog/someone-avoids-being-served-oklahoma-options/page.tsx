@@ -608,6 +608,13 @@ export default function BlogPost() {
         title="What Happens If Someone Avoids Being Served in Oklahoma?"
         description="Learn your options when someone avoids being served in Oklahoma. Discover skip tracing, substituted service, and alternate service methods that keep your case moving."
         url="https://justlegalsolutions.org/blog/someone-avoids-being-served-oklahoma-options"
+        articleDetails={{
+          headline: 'What Happens If Someone Avoids Being Served in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

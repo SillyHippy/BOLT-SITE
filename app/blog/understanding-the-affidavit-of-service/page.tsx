@@ -101,8 +101,8 @@ export default function AffidavitGuide() {
         articleDetails={{
           headline: "Affidavit of Service in Oklahoma: Complete Guide to Proof of Service",
           author: "Joseph Iannazzi",
-          datePublished: "2025-06-01",
-          dateModified: "2026-03-27",
+          datePublished: '2025-06-01',
+          dateModified: '2026-03-27',
           image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

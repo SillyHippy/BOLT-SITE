@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "local notary near me, notary public near me, find notary tulsa, notary nearby, Oklahoma notary locations, mobile notary Oklahoma",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {

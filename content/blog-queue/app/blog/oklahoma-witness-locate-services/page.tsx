@@ -527,6 +527,13 @@ export default function BlogPost() {
         title="Oklahoma Witness Locate Services: Finding People for Legal Proceedings"
         description="Professional witness locate services in Oklahoma. Learn how we find witnesses for court using databases, public records, and proven methods."
         url="https://justlegalsolutions.org/blog/oklahoma-witness-locate-services"
+        articleDetails={{
+          headline: 'Oklahoma Witness Locate Services: Finding People for Legal Proceedings',
+          datePublished: '2025-01-15',
+          dateModified: '2025-01-15',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

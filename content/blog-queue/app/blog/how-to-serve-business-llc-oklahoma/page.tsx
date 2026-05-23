@@ -568,6 +568,13 @@ export default function BlogPost() {
         title="How to Serve a Business or LLC in Oklahoma: Corporate Guide"
         description="Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements."
         url="https://justlegalsolutions.org/blog/how-to-serve-business-llc-oklahoma"
+        articleDetails={{
+          headline: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

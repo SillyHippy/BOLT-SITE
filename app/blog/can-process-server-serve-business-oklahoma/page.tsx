@@ -576,6 +576,13 @@ export default function BlogPost() {
         pageUrl="https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma"
         title="Can a Process Server Serve a Business Instead of an Individual in Oklahoma?"
         description="Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, and partnerships."
+        articleDetails={{
+          headline: 'Can a Process Server Serve a Business Instead of an Individual in Oklahoma?',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
     </>

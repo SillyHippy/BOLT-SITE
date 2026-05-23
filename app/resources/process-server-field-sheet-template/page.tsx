@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   FileText, 
   CheckCircle, 
@@ -43,6 +44,18 @@ title: 'Free Process Server Field Sheet Template',
 
 export default function ProcessServerFieldSheetTemplate() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Free Process Server Field Sheet Template"
+        pageDescription="Download our free Process Server Field Sheet Template. Track service attempts, document recipient information, and maintain legal compliance with professional field documentation."
+        pageUrl="https://justlegalsolutions.org/resources/process-server-field-sheet-template"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Free Process Server Field Sheet Template', url: '/resources/process-server-field-sheet-template' },
+        ]}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -495,5 +508,6 @@ export default function ProcessServerFieldSheetTemplate() {
         </div>
       </section>
     </div>
+    </>
   );
 }

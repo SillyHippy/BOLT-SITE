@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/blog/employment-law-service-oklahoma',
     type: 'article',
   },
+  other: {
+    'article:published_time': '2026-04-27',
+    'article:modified_time': '2026-04-27',
+    'ai-content-type': 'article',
+  },
 };
 
 const faqs = [

@@ -89,8 +89,8 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
         articleDetails={{
           headline: "Certified Mail vs. Personal Service in Oklahoma: When Each Applies",
           author: "Joseph Iannazzi",
-          datePublished: "2026-04-08",
-          dateModified: "2026-04-08",
+          datePublished: '2026-04-08',
+          dateModified: '2026-04-08',
           image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

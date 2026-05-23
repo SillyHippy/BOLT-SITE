@@ -534,6 +534,13 @@ export default function BlogPost() {
         title="National Process Server Week: Celebrating Legal Support Professionals"
         description="Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America."
         url="https://justlegalsolutions.org/blog/national-process-server-week"
+        articleDetails={{
+          headline: 'National Process Server Week: Celebrating Legal Support Professionals',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

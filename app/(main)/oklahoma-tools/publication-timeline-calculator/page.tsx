@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 interface TimelineResult {
   orderDate: Date;
@@ -75,6 +76,18 @@ export default function PublicationTimelineCalculator() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Publication Timeline Calculator"
+        pageDescription="Publication Timeline Calculator — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/publication-timeline-calculator"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Publication Timeline Calculator', url: '/oklahoma-tools/publication-timeline-calculator' },
+        ]}
+      />
     <HubPageLayout
       title="Publication Timeline Calculator"
       description="Calculate the timeline for service by publication in Oklahoma under 12 O.S. \u00A7 2004(C)(3)."
@@ -372,5 +385,6 @@ export default function PublicationTimelineCalculator() {
         </section>
       </div>
     </HubPageLayout>
+    </>
   );
 }

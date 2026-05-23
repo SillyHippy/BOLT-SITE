@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "how long does process serving take, process server timeline oklahoma, how many attempts does process server make, process serving speed, oklahoma process server turnaround",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {
@@ -94,6 +99,13 @@ export default function BlogPost() {
       <UnifiedSchema
         type="article"
         data={articleSchema}
+        articleDetails={{
+          headline: 'Oklahoma Licensed Process Server',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function AttorneyHiringProcessServerPage() {
   const [checkedItems, setCheckedItems] = useState<Record<number, boolean>>({});
@@ -52,6 +53,18 @@ export default function AttorneyHiringProcessServerPage() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Attorney Hiring Process Server"
+        pageDescription="Attorney Hiring Process Server — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/learn/attorney-hiring-process-server"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Attorney Hiring Process Server', url: '/learn/attorney-hiring-process-server' },
+        ]}
+      />
     <HubPageLayout
       title="Attorney&apos;s Guide to Hiring a Process Server in Oklahoma"
       description="A vendor-neutral guide for Oklahoma attorneys on how to hire a licensed process server. Covers license verification, key questions to ask, red flags to avoid, NAPPS membership benefits, and written agreement essentials."
@@ -349,5 +362,6 @@ export default function AttorneyHiringProcessServerPage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

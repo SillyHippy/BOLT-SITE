@@ -299,6 +299,13 @@ export default function BlogPost() {
         title="Can I Get a Notary to Come to My Office in Oklahoma? Mobile Notary Guide"
         description="Learn how mobile notary office visits work in Oklahoma. Covers scheduling, travel radius, group discounts, document preparation, and what to expect from an onsite notary."
         url="https://justlegalsolutions.org/blog/mobile-notary-come-to-office-oklahoma"
+        articleDetails={{
+          headline: 'Can I Get a Notary to Come to My Office in Oklahoma? Mobile Notary Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

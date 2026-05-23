@@ -171,6 +171,13 @@ export default function BlogPost() {
         title="Eviction Notice Service in Oklahoma: A Landlord's Guide"
         description="Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods."
         url="https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide"
+        articleDetails={{
+          headline: 'Eviction Notice Service in Oklahoma: A Landlord',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

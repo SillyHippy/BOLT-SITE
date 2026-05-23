@@ -471,6 +471,13 @@ export default function BlogPost() {
         title="Oklahoma's 180-Day Rule for Service of Process Explained"
         description="Understand Oklahoma's 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case."
         url="https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process"
+        articleDetails={{
+          headline: 'Oklahoma',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

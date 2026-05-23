@@ -185,6 +185,13 @@ export default function BlogPost() {
         title="Oklahoma Real Estate Closing Notary: What to Expect at Closing"
         description="What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained."
         url="https://justlegalsolutions.org/blog/oklahoma-real-estate-closing-notary"
+        articleDetails={{
+          headline: 'Oklahoma Real Estate Closing Notary: What to Expect at Closing',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

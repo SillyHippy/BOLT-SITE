@@ -1,6 +1,7 @@
 'use client';
 
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const citations = [
   {
@@ -32,6 +33,18 @@ const citations = [
 
 export default function FutureOfProcessServingPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Future Of Process Serving"
+        pageDescription="Future Of Process Serving — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/resources/future-of-process-serving"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Future Of Process Serving', url: '/resources/future-of-process-serving' },
+        ]}
+      />
     <HubPageLayout
       title="Future of Process Serving in Oklahoma"
       description="Industry analysis and predictions for 2025-2027 covering technology, regulation, consolidation, and opportunities."
@@ -340,5 +353,6 @@ export default function FutureOfProcessServingPage() {
 
       </div>
     </HubPageLayout>
+    </>
   );
 }

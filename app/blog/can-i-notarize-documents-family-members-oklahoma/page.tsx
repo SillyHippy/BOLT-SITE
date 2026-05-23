@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "notarize family documents, conflict of interest notary, family notarization rules Oklahoma, can notary notarize for family",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {

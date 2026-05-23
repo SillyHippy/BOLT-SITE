@@ -24,7 +24,12 @@ export const metadata = {
     publishedTime: '2025-01-15T00:00:00Z',
     modifiedTime: '2025-01-15T00:00:00Z',
     authors: ['Joseph Iannazzi']
-  }
+  },
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 const faqs = [
@@ -78,6 +83,8 @@ export default function ServingGovernmentEntitiesPage() {
         pageName="Serving Government Entities in Oklahoma"
         description="Expert guide to serving government agencies in Oklahoma. Learn special rules for state, city, county, and federal entities under the Governmental Tort Claims Act."
         url="https://justlegalsolutions.org/blog/serving-government-entities-oklahoma/"
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
       />
       <Navbar />
       {/* Hero Section */}

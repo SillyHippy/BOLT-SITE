@@ -1,5 +1,6 @@
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Electronic Filing & E-Service in Oklahoma | 2024 Guide',
@@ -42,6 +43,18 @@ const citations = [
 
 export default function ElectronicFilingServicePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Electronic Filing & E-Service in Oklahoma | 2024 Guide"
+        pageDescription="Comprehensive guide to Oklahoma electronic filing pilot and e-service rules under 12 O.S. § 2004.5, including consent requirements and participating counties."
+        pageUrl="https://justlegalsolutions.org/learn/electronic-filing-service"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Electronic Filing & E-Service in Oklahoma | 2024 Guide', url: '/learn/electronic-filing-service' },
+        ]}
+      />
     <HubPageLayout
       title="Electronic Filing & E-Service in Oklahoma"
       description="A practical guide to Oklahoma's e-filing pilot program and electronic service rules under 12 O.S. § 2004.5."
@@ -260,5 +273,6 @@ export default function ElectronicFilingServicePage() {
         </div>
       </div>
     </HubPageLayout>
+    </>
   );
 }

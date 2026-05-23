@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Just Legal Solutions Blog' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog' },
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 const categories = [
@@ -229,6 +234,13 @@ export default async function BlogIndex() {
           { name: 'Home', url: '/' },
           { name: 'Blog', url: '/blog' },
         ]}
+        articleDetails={{
+          headline: 'Oklahoma Legal Blog | Process Serving & Legal Guides',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         keywords={['oklahoma legal blog', 'process serving guides', 'oklahoma law articles']}
       />
 

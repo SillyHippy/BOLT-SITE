@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 interface CalculationResult {
   dailyFeeTotal: number;
@@ -60,6 +61,18 @@ export default function SubpoenaWitnessFeeCalculator() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Subpoena Witness Fee Calculator"
+        pageDescription="Subpoena Witness Fee Calculator — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/subpoena-witness-fee-calculator"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Subpoena Witness Fee Calculator', url: '/oklahoma-tools/subpoena-witness-fee-calculator' },
+        ]}
+      />
     <HubPageLayout
       title="Subpoena Witness Fee Calculator"
       description="Calculate witness fees and mileage reimbursement for subpoenaed witnesses in Oklahoma under 28A O.S. \u00A7 28-81."
@@ -287,5 +300,6 @@ export default function SubpoenaWitnessFeeCalculator() {
         </section>
       </div>
     </HubPageLayout>
+    </>
   );
 }

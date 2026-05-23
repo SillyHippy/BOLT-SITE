@@ -112,7 +112,14 @@ export default function QuestionsToAskProcessServerPage() {
             name="25 Questions to Ask Before Hiring a Process Server"
             description="The essential hiring checklist covering licensing, pricing, methods, proof, and timelines — so you choose the right Oklahoma process server the first time."
             url="https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: '25 Questions to Ask Before Hiring a Process Server | Just...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/questions-to-ask-process-server.webp',
+        }}
             image="https://justlegalsolutions.org/images/questions-to-ask-process-server.webp"
           />
 

@@ -106,8 +106,8 @@ export default function HowToFileProtectiveOrderOklahoma() {
         articleDetails={{
           headline: "How to File a Protective Order in Oklahoma (2026) | Step-by-Step Guide",
           author: "Joseph Iannazzi",
-          datePublished: "2026-04-08",
-          dateModified: "2026-04-08",
+          datePublished: '2026-04-08',
+          dateModified: '2026-04-08',
           image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   Clock, 
   FileText, 
@@ -33,6 +34,18 @@ title: 'Oklahoma Eviction Timeline PDF | Free Download',
 
 export default function OklahomaEvictionTimelinePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Oklahoma Eviction Timeline PDF | Free Download"
+        pageDescription="Download our free Oklahoma eviction timeline PDF. Learn the exact timeframe for each stage of the eviction process, from notice to writ of execution. Professional process serving available."
+        pageUrl="https://justlegalsolutions.org/resources/oklahoma-eviction-timeline"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Oklahoma Eviction Timeline PDF | Free Download', url: '/resources/oklahoma-eviction-timeline' },
+        ]}
+      />
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Hero Section */}
       <section className="relative bg-slate-900 text-white py-16 md:py-24">
@@ -516,5 +529,6 @@ export default function OklahomaEvictionTimelinePage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

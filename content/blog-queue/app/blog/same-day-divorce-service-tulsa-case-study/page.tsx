@@ -158,6 +158,13 @@ export default function BlogPost() {
         title="Same-Day Divorce Paper Service in Tulsa: A Case Study in Meeting Critical Court Deadlines"
         description="Case study: Same-day divorce paper service in Tulsa meeting a critical court deadline. Learn how rush service saved the case timeline."
         url="https://justlegalsolutions.org/blog/same-day-divorce-service-tulsa-case-study"
+        articleDetails={{
+          headline: 'Same-Day Divorce Paper Service in Tulsa: A Case Study in Meeting Critical Court Deadlines',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

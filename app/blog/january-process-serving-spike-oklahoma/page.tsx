@@ -89,8 +89,8 @@ export default function JanuaryProcessServingSpikeOklahoma() {
         articleDetails={{
           headline: "Why Process Serving Spikes in January: New Year Divorce & Eviction Season",
           author: "Joseph Iannazzi",
-          datePublished: "2026-04-08",
-          dateModified: "2026-04-08",
+          datePublished: '2026-04-08',
+          dateModified: '2026-04-08',
           image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

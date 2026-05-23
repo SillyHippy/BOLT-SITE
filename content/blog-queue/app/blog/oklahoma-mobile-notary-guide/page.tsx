@@ -591,6 +591,13 @@ export default function BlogPost() {
         title="Oklahoma Mobile Notary Guide: What to Know Before You Book"
         description="Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment."
         url="https://justlegalsolutions.org/blog/oklahoma-mobile-notary-guide"
+        articleDetails={{
+          headline: 'Oklahoma Mobile Notary Guide: What to Know Before You Book',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

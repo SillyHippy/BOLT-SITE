@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Download, FileCheck, ArrowRight } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const SLUG = 'JLS-Chain-Of-Custody-Form-v1.0';
 
@@ -69,6 +70,18 @@ const RETENTION = [
 
 export default function ChainOfCustodyFormPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Chain of Custody Form for Legal Documents (Oklahoma) — Free PDF & DOCX"
+        pageDescription="Tamper-evident chain-of-custody form tracking legal documents from client receipt through court filing. Includes signature blocks for every handoff."
+        pageUrl="https://justlegalsolutions.org/resources/chain-of-custody-form"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Chain of Custody Form for Legal Documents (Oklahoma) — Free PDF & DOCX', url: '/resources/chain-of-custody-form' },
+        ]}
+      />
     <HubPageLayout
       title="Chain of Custody Form for Legal Documents"
       description="Track every handoff of legal documents — from client receipt through field service to courthouse filing — with a tamper-evident form designed for Oklahoma process servers."
@@ -164,5 +177,6 @@ export default function ChainOfCustodyFormPage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

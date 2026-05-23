@@ -145,6 +145,8 @@ export default async function BlogCategoryPage({
           { name: 'Blog', url: 'https://justlegalsolutions.org/blog' },
           { name: category.name, url },
         ]}
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
       />
       <script
         type="application/ld+json"

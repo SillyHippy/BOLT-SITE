@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "what to bring notary, documents needed for notarization, notary appointment preparation, Oklahoma notary requirements, notary checklist",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {

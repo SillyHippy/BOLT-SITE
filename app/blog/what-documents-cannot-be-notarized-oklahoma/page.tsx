@@ -277,6 +277,13 @@ export default function BlogPost() {
         title="What Documents Cannot Be Notarized in Oklahoma?"
         description="Not all documents can be notarized in Oklahoma. Learn the complete list of prohibited documents, incomplete forms, blank documents, ID issues, and conflicts that prevent notarization."
         url="https://justlegalsolutions.org/blog/what-documents-cannot-be-notarized-oklahoma"
+        articleDetails={{
+          headline: 'What Documents Cannot Be Notarized in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

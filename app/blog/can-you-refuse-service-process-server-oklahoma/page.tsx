@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "can you refuse service from process server, what happens if I avoid being served, refusing legal papers oklahoma, alternative service oklahoma, process server refusal",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {
@@ -94,6 +99,13 @@ export default function BlogPost() {
       <UnifiedSchema
         type="article"
         data={articleSchema}
+        articleDetails={{
+          headline: 'Oklahoma Licensed Process Server',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
 

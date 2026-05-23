@@ -116,7 +116,14 @@ export default function MultiplePagesNotaryCostPage() {
             name="How Much Does It Cost to Notarize Multiple Pages in Oklahoma?"
             description="A complete guide to Oklahoma notary pricing for multi-page documents, including per-signature vs. per-document fees, bulk discounts, travel fees, and mobile notary premiums."
             url="https://justlegalsolutions.org/blog/how-much-cost-notarize-multiple-pages-oklahoma"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'How Much Does It Cost to Notarize Multiple Pages in Oklah...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/notary-multiple-pages-cost.webp',
+        }}
             image="https://justlegalsolutions.org/images/notary-multiple-pages-cost.webp"
           />
 

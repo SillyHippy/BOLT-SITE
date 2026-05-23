@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Interactive Tools',
@@ -19,6 +20,18 @@ const tools = [
 
 export default function ToolsPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Interactive Tools"
+        pageDescription="Free interactive calculators and decision tools for Oklahoma process serving."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Interactive Tools', url: '/oklahoma-tools' },
+        ]}
+      />
     <div className="min-h-screen flex flex-col">
       <div className="bg-navy text-white py-8 md:py-12">
         <div className="container mx-auto px-4 md:px-6">
@@ -51,5 +64,6 @@ export default function ToolsPage() {
         </div>
       </main>
     </div>
+    </>
   );
 }

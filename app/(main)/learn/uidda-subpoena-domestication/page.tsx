@@ -1,5 +1,6 @@
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'UIDDA Subpoena Domestication in Oklahoma | Legal Guide',
@@ -42,6 +43,18 @@ const citations = [
 
 export default function UiddaSubpoenaDomesticationPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="UIDDA Subpoena Domestication in Oklahoma | Legal Guide"
+        pageDescription="Step-by-step guide to domesticating out-of-state subpoenas in Oklahoma under the Uniform Interstate Depositions and Discovery Act (12 O.S. § 3253)."
+        pageUrl="https://justlegalsolutions.org/learn/uidda-subpoena-domestication"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'UIDDA Subpoena Domestication in Oklahoma | Legal Guide', url: '/learn/uidda-subpoena-domestication' },
+        ]}
+      />
     <HubPageLayout
       title="UIDDA Subpoena Domestication in Oklahoma"
       description="A complete guide to domesticating out-of-state subpoenas under the Uniform Interstate Depositions and Discovery Act."
@@ -264,5 +277,6 @@ export default function UiddaSubpoenaDomesticationPage() {
         </div>
       </div>
     </HubPageLayout>
+    </>
   );
 }

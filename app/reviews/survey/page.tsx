@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server',
@@ -20,6 +21,18 @@ export const metadata: Metadata = {
 
 export default function ClientSurveyValidation() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Client Survey Reviews - Just Legal Solutions Oklahoma Process Server"
+        pageDescription="Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services."
+        pageUrl="https://justlegalsolutions.org/reviews/survey"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server', url: '/reviews/survey' },
+        ]}
+      />
     <div className="max-w-4xl mx-auto p-8">
       <h1 className="text-3xl font-bold mb-6">Client Survey Review Verification</h1>
       
@@ -1736,5 +1749,6 @@ export default function ClientSurveyValidation() {
         </div>
       </div>
     </div>
+    </>
   );
 }

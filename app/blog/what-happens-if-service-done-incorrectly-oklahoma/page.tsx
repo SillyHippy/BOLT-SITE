@@ -110,7 +110,14 @@ export default function ImproperServicePage() {
             name="What Happens If Service Is Done Incorrectly in Oklahoma?"
             description="Understanding the legal consequences of improper service, the risks to your case, and how to prevent costly mistakes under Oklahoma law."
             url="https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'What Happens If Service Is Done Incorrectly in Oklahoma?...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/improper-service-consequences.webp',
+        }}
             image="https://justlegalsolutions.org/images/improper-service-consequences.webp"
           />
 

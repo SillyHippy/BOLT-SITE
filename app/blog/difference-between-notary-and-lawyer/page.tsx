@@ -109,7 +109,14 @@ export default function NotaryVsLawyerPage() {
             name="What's the Difference Between a Notary and a Lawyer?"
             description="Understanding the distinct roles, responsibilities, and legal boundaries between notaries and attorneys in Oklahoma."
             url="https://justlegalsolutions.org/blog/difference-between-notary-and-lawyer"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'What',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/notary-vs-lawyer.webp',
+        }}
             image="https://justlegalsolutions.org/images/notary-vs-lawyer.webp"
           />
 

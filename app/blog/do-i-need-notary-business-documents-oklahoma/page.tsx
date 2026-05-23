@@ -302,6 +302,13 @@ export default function BlogPost() {
         title="Do I Need a Notary for My Business Documents in Oklahoma?"
         description="Learn which business documents require notarization in Oklahoma. Covers contracts, resolutions, certificates, corporate filings, and the benefits of notarizing business paperwork."
         url="https://justlegalsolutions.org/blog/do-i-need-notary-business-documents-oklahoma"
+        articleDetails={{
+          headline: 'Do I Need a Notary for My Business Documents in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

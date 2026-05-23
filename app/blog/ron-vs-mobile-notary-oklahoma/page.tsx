@@ -81,8 +81,8 @@ export default function RonVsMobileNotaryPage() {
         title="Remote Online Notarization vs Mobile Notary in Oklahoma"
         description="Compare Remote Online Notarization (RON) vs Mobile Notary services in Oklahoma. Learn about Oklahoma RON laws, costs, document types, and which notary service is right for your needs."
         author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
-        datePublished="2024-01-15"
-        dateModified="2024-01-15"
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
       />
       <Navbar />
       <main className="min-h-screen bg-white">

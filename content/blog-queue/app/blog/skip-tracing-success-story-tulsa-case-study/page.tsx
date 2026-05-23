@@ -261,6 +261,13 @@ export default function BlogPost() {
         title="Skip Tracing Success: Serving an Evasive Defendant in Tulsa [Case Study]"
         description="Case study: How skip tracing helped serve an evasive defendant in Tulsa County. Learn the strategy, process, and results from a real case."
         url="https://justlegalsolutions.org/blog/skip-tracing-success-story-tulsa-case-study"
+        articleDetails={{
+          headline: 'Skip Tracing Success: Serving an Evasive Defendant in Tulsa [Case Study]',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

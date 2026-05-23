@@ -1,5 +1,6 @@
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Serving Special Populations in Oklahoma | Legal Guide',
@@ -42,6 +43,18 @@ const citations = [
 
 export default function SpecialPopulationServicePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Serving Special Populations in Oklahoma | Legal Guide"
+        pageDescription="How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma."
+        pageUrl="https://justlegalsolutions.org/learn/special-population-service"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Serving Special Populations in Oklahoma | Legal Guide', url: '/learn/special-population-service' },
+        ]}
+      />
     <HubPageLayout
       title="Special Population Service Guide"
       description="How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma."
@@ -334,5 +347,6 @@ export default function SpecialPopulationServicePage() {
         </div>
       </div>
     </HubPageLayout>
+    </>
   );
 }

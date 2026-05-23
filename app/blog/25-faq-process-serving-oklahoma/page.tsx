@@ -711,6 +711,13 @@ export default function BlogPost() {
         title="25 FAQ About Process Serving in Oklahoma — Answered"
         description="Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered."
         url="https://justlegalsolutions.org/blog/25-faq-process-serving-oklahoma"
+        articleDetails={{
+          headline: '25 FAQ About Process Serving in Oklahoma — Answered',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

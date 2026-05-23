@@ -479,6 +479,13 @@ export default function BlogPost() {
         pageUrl="https://justlegalsolutions.org/blog/is-it-legal-to-serve-yourself-instead-of-process-server"
         title="Is It Legal to Serve Someone Yourself Instead of Hiring a Professional in Oklahoma?"
         description="Learn about Oklahoma's self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost comparison."
+        articleDetails={{
+          headline: 'Is It Legal to Serve Someone Yourself Instead of Hiring a Professional in Oklahoma?',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
     </>

@@ -293,6 +293,13 @@ export default function BlogPost() {
         title="What Happens If My Notarization Is Done Incorrectly in Oklahoma?"
         description="An improper notarization can derail your legal matter. Learn the consequences of incorrect notarization in Oklahoma, how to fix errors, and how to prevent them."
         url="https://justlegalsolutions.org/blog/what-happens-notarization-done-incorrectly-oklahoma"
+        articleDetails={{
+          headline: 'What Happens If My Notarization Is Done Incorrectly in Oklahoma?',
+          datePublished: '2026-05-28',
+          dateModified: '2026-05-28',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

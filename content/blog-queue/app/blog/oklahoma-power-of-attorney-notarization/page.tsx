@@ -177,6 +177,13 @@ export default function BlogPost() {
         title="Oklahoma Power of Attorney Notarization: Requirements and Process"
         description="Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes."
         url="https://justlegalsolutions.org/blog/oklahoma-power-of-attorney-notarization"
+        articleDetails={{
+          headline: 'Oklahoma Power of Attorney Notarization: Requirements and Process',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

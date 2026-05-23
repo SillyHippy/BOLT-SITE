@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     alternates: {
@@ -17,6 +18,18 @@ title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
 
 export default function WhatToDoWhenServedPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle={"What to Do When You've Been Served in Oklahoma | Free Guide"}
+        pageDescription="Free PDF guide: What to do when served with legal papers in Oklahoma. Learn response deadlines, immediate steps, common mistakes to avoid, and when to hire an attorney."
+        pageUrl="https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: "What to Do When Served", url: '/resources/what-to-do-when-served-oklahoma' },
+        ]}
+      />
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
@@ -467,5 +480,6 @@ export default function WhatToDoWhenServedPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

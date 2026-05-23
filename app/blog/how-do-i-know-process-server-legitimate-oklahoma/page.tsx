@@ -329,6 +329,13 @@ export default function BlogPost() {
         title="How Do I Know If a Process Server Is Legitimate in Oklahoma?"
         description="Verify Oklahoma process server legitimacy. Learn license requirements under 12 O.S. § 158.1, bond verification, red flags, scam warning signs & how to check credentials."
         url="https://justlegalsolutions.org/blog/how-do-i-know-process-server-legitimate-oklahoma"
+        articleDetails={{
+          headline: 'How Do I Know If a Process Server Is Legitimate in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

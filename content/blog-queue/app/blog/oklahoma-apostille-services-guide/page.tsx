@@ -624,6 +624,13 @@ export default function BlogPost() {
         title="Oklahoma Apostille Services: Authenticate Documents for International Use"
         description="Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements."
         url="https://justlegalsolutions.org/blog/oklahoma-apostille-services-guide"
+        articleDetails={{
+          headline: 'Oklahoma Apostille Services: Authenticate Documents for International Use',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

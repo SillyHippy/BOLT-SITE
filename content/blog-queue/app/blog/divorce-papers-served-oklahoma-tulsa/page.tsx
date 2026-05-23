@@ -296,6 +296,13 @@ export default function BlogPost() {
         title="Getting Divorced in Tulsa? How Divorce Papers Are Served"
         description="Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases."
         url="https://justlegalsolutions.org/blog/divorce-papers-served-oklahoma-tulsa"
+        articleDetails={{
+          headline: 'Getting Divorced in Tulsa? How Divorce Papers Are Served',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

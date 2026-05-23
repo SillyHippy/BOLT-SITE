@@ -300,6 +300,13 @@ export default function BlogPost() {
         title="Oklahoma Notary vs Attorney: What's the Difference?"
         description="Learn the key differences between Oklahoma notaries and attorneys. Understand what notaries can and cannot do and when you need each professional."
         url="https://justlegalsolutions.org/blog/oklahoma-notary-vs-attorney-whats-difference"
+        articleDetails={{
+          headline: 'Oklahoma Notary vs Attorney: What',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

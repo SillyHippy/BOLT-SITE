@@ -84,8 +84,15 @@ export default function ProcessServingHOABlog() {
           name: 'Just Legal Solutions Team',
           url: 'https://justlegalsolutions.org/about/',
         }}
-        datePublished="2025-01-15"
-        dateModified="2025-01-15"
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
+        articleDetails={{
+          headline: 'Process Serving for HOA & Condo Associations in Oklahoma',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         keywords={['serve HOA papers oklahoma', 'condo association process serving', 'HOA lawsuit service', 'homeowners association process server']}
       />
       <Navbar />

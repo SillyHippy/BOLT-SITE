@@ -629,6 +629,13 @@ export default function BlogPost() {
         title="The Oklahoma Notary Public Act Explained: Rules and Requirements"
         description="Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes."
         url="https://justlegalsolutions.org/blog/oklahoma-notary-public-act-explained"
+        articleDetails={{
+          headline: 'The Oklahoma Notary Public Act Explained: Rules and Requirements',
+          datePublished: '2025-01-15',
+          dateModified: '2025-01-15',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

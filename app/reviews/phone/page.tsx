@@ -1,7 +1,20 @@
+import UnifiedSchema from '@/components/UnifiedSchema';
 import React from 'react';
 
 export default function PhoneReviewValidation() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Phone Consultation Review Verification"
+        pageDescription="Phone Consultation Review Verification — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/reviews/phone"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Phone Consultation Review Verification', url: '/reviews/phone' },
+        ]}
+      />
     <div className="max-w-4xl mx-auto p-8">
       <h1 className="text-3xl font-bold mb-6">Phone Consultation Review Verification</h1>
       
@@ -1869,5 +1882,6 @@ export default function PhoneReviewValidation() {
         </div>
       </div>
     </div>
+    </>
   );
 }

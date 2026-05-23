@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Comparisons',
@@ -16,6 +17,18 @@ const comparisons = [
 
 export default function ComparePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Comparisons"
+        pageDescription="Side-by-side comparisons for Oklahoma process serving decisions."
+        pageUrl="https://justlegalsolutions.org/compare"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Comparisons', url: '/compare' },
+        ]}
+      />
     <div className="min-h-screen flex flex-col">
       <div className="bg-navy text-white py-8 md:py-12">
         <div className="container mx-auto px-4 md:px-6">
@@ -42,5 +55,6 @@ export default function ComparePage() {
         </div>
       </main>
     </div>
+    </>
   );
 }

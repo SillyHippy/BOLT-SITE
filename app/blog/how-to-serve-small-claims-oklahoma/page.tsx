@@ -127,8 +127,8 @@ export default function HowToServeSmallClaimsOklahoma() {
         articleDetails={{
           headline: "How to Serve Small Claims Papers in Oklahoma: A Complete 2026 Guide",
           author: "Joseph Iannazzi",
-          datePublished: "2026-04-02",
-          dateModified: "2026-04-02",
+          datePublished: '2026-04-02',
+          dateModified: '2026-04-02',
           image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}

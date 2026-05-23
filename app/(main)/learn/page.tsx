@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Legal Guides',
@@ -20,6 +21,18 @@ const guides = [
 
 export default function LearnPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Legal Guides"
+        pageDescription="Comprehensive Oklahoma process serving guides for attorneys, pro se litigants, and legal professionals."
+        pageUrl="https://justlegalsolutions.org/learn"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Legal Guides', url: '/learn' },
+        ]}
+      />
     <div className="min-h-screen flex flex-col">
       <div className="bg-navy text-white py-8 md:py-12">
         <div className="container mx-auto px-4 md:px-6">
@@ -47,5 +60,6 @@ export default function LearnPage() {
         </div>
       </main>
     </div>
+    </>
   );
 }

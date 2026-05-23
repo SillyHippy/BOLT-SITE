@@ -98,8 +98,8 @@ export default function BlogPost() {
           title="How to Serve a Restraining Order in Oklahoma | Complete Guide"
           description="Expert guide to serving TROs and VPOs in Oklahoma. 24-48 hour service, GPS tracking, and compliance with 22 O.S. § 60.4."
           url="https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma/"
-          datePublished="2024-01-15"
-          dateModified="2024-01-15"
+          datePublished="2026-05-23"
+          dateModified="2026-05-23"
           author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
         />
         <Navbar />

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 type CaseType = 'divorce' | 'custody' | 'small-claims' | 'eviction' | 'civil' | 'other';
 type PartyType = 'plaintiff' | 'defendant' | 'third-party';
@@ -197,6 +198,18 @@ export default function CanIServeMyOwnPapers() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Can I Serve My Own Papers"
+        pageDescription="Can I Serve My Own Papers — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/can-i-serve-my-own-papers"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Can I Serve My Own Papers', url: '/oklahoma-tools/can-i-serve-my-own-papers' },
+        ]}
+      />
     <HubPageLayout
       title="Can I Serve My Own Papers?"
       description="Interactive decision tree to determine whether you can serve your own legal papers in Oklahoma under 12 O.S. \u00A7 2004."
@@ -517,5 +530,6 @@ export default function CanIServeMyOwnPapers() {
         </section>
       </div>
     </HubPageLayout>
+    </>
   );
 }

@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Link from "next/link";
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function TulsaServiceAreaRedirectPage() {
   useEffect(() => {
@@ -9,6 +10,18 @@ export default function TulsaServiceAreaRedirectPage() {
   }, []);
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Tulsa Service Area"
+        pageDescription="Tulsa Service Area — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/service-areas/tulsa"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Tulsa Service Area', url: '/service-areas/tulsa' },
+        ]}
+      />
     <main className="min-h-[50vh] flex items-center justify-center px-6 py-16 text-center">
       <div className="max-w-xl">
         <h1 className="text-2xl font-bold text-gray-900 mb-3">Tulsa Service Area</h1>
@@ -23,5 +36,6 @@ export default function TulsaServiceAreaRedirectPage() {
         </Link>
       </div>
     </main>
+    </>
   );
 }

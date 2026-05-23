@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server',
@@ -20,6 +21,18 @@ export const metadata: Metadata = {
 
 export default function EmailReviewValidation() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server"
+        pageDescription="Verified client feedback collected via email from our Oklahoma process serving clients. Real insights from attorneys, law firms, and individuals using our legal services."
+        pageUrl="https://justlegalsolutions.org/reviews/email"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server', url: '/reviews/email' },
+        ]}
+      />
     <div className="max-w-4xl mx-auto p-8 bg-gray-50 min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-gray-900">Email Verification Feedback</h1>
       
@@ -141,5 +154,6 @@ export default function EmailReviewValidation() {
         <p>Documented in accordance with Oklahoma Process Server best practices.</p>
       </div>
     </div>
+    </>
   );
 }

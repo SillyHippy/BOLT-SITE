@@ -187,6 +187,13 @@ export default function BlogPost() {
         title="How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma"
         description="Step-by-step guide to serving legal papers in Oklahoma. Learn the 6 essential steps including the 180-day rule and proof of service."
         url="https://justlegalsolutions.org/blog/how-to-serve-legal-papers-oklahoma-step-by-step"
+        articleDetails={{
+          headline: 'How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

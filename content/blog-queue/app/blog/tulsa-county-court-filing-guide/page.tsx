@@ -302,6 +302,13 @@ export default function BlogPost() {
         title="Tulsa County Court Filing Guide: Navigate the Filing Process"
         description="Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines."
         url="https://justlegalsolutions.org/blog/tulsa-county-court-filing-guide"
+        articleDetails={{
+          headline: 'Tulsa County Court Filing Guide: Navigate the Filing Process',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

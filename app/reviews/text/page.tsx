@@ -1,7 +1,20 @@
+import UnifiedSchema from '@/components/UnifiedSchema';
 import React from 'react';
 
 export default function TextReviewValidation() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Text Message Review Verification"
+        pageDescription="Text Message Review Verification — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/reviews/text"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Text Message Review Verification', url: '/reviews/text' },
+        ]}
+      />
     <div className="max-w-4xl mx-auto p-8">
       <h1 className="text-3xl font-bold mb-6">Text Message Review Verification</h1>
       
@@ -1529,5 +1542,6 @@ export default function TextReviewValidation() {
         </div>
       </div>
     </div>
+    </>
   );
 }

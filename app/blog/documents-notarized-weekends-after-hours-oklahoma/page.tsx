@@ -111,7 +111,14 @@ export default function WeekendAfterHoursNotaryPage() {
             name="Can I Get Documents Notarized on Weekends or After Hours in Oklahoma?"
             description="Your complete guide to weekend, after-hours, and emergency notary services in Oklahoma — including availability, pricing, scheduling tips, and what to expect."
             url="https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma"
-            datePublished="2025-06-01"
+            datePublished="2026-05-23"
+        articleDetails={{
+          headline: 'Can I Get Documents Notarized on Weekends or After Hours...',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/weekend-notary-oklahoma.webp',
+        }}
             image="https://justlegalsolutions.org/images/weekend-notary-oklahoma.webp"
           />
 

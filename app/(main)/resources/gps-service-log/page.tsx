@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Download, MapPin } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 const SLUG = 'JLS-GPS-Service-Log-v1.0';
 
@@ -46,6 +47,18 @@ const ADMISSIBILITY = [
 
 export default function GpsServiceLogPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="GPS Service Log Template (Oklahoma) — Free PDF & DOCX"
+        pageDescription="Court-admissible GPS log template for Oklahoma process servers. Records latitude, longitude, timestamps, and event notes for every service attempt."
+        pageUrl="https://justlegalsolutions.org/resources/gps-service-log"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'GPS Service Log Template (Oklahoma) — Free PDF & DOCX', url: '/resources/gps-service-log' },
+        ]}
+      />
     <HubPageLayout
       title="GPS Service Log Template"
       description="A court-admissible GPS log template that documents the exact time, place, and manner of every service attempt — with columns for accuracy, event type, and server initials."
@@ -142,5 +155,6 @@ export default function GpsServiceLogPage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

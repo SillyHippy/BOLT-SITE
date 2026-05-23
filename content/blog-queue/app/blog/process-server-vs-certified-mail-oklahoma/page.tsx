@@ -416,6 +416,13 @@ export default function BlogPost() {
         title="Process Server vs Certified Mail: Which Is Best in OK?"
         description="Compare process servers vs certified mail for serving legal papers in Oklahoma. Learn which method offers better proof, speed, and legal defensibility."
         url="https://justlegalsolutions.org/blog/process-server-vs-certified-mail-oklahoma"
+        articleDetails={{
+          headline: 'Process Server vs Certified Mail: Which Is Best in OK?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

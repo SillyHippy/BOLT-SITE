@@ -243,6 +243,13 @@ export default function BlogPost() {
         title="Oklahoma Legal Courier Services: Secure Document Delivery"
         description="Professional legal courier services in Oklahoma. Secure same-day, rush, and scheduled document delivery with chain of custody tracking across all 77 counties."
         url="https://justlegalsolutions.org/blog/oklahoma-courier-services-legal-documents"
+        articleDetails={{
+          headline: 'Oklahoma Legal Courier Services: Secure Document Delivery',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

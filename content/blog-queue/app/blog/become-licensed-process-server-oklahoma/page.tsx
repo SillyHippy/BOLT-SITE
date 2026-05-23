@@ -725,6 +725,13 @@ export default function BlogPost() {
         title="How to Become a Licensed Process Server in Oklahoma"
         description="Career guide to becoming a licensed process server in Oklahoma. Covers requirements, licensing steps, costs, and income expectations."
         url="https://justlegalsolutions.org/blog/become-licensed-process-server-oklahoma"
+        articleDetails={{
+          headline: 'How to Become a Licensed Process Server in Oklahoma',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

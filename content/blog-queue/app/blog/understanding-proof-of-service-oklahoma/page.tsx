@@ -226,6 +226,13 @@ export default function BlogPost() {
         title="Understanding Proof of Service: Why Your Case Depends On It"
         description="Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case."
         url="https://justlegalsolutions.org/blog/understanding-proof-of-service-oklahoma"
+        articleDetails={{
+          headline: 'Understanding Proof of Service: Why Your Case Depends On It',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

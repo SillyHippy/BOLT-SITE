@@ -352,6 +352,13 @@ export default function BlogPost() {
         title="Electronic Service of Process in Oklahoma: eService Guide"
         description="Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService."
         url="https://justlegalsolutions.org/blog/electronic-service-process-oklahoma-eservice"
+        articleDetails={{
+          headline: 'Electronic Service of Process in Oklahoma: eService Guide',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

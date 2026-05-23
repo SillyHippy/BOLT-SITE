@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata = {
     alternates: {
@@ -17,6 +18,17 @@ title: 'Multi-Search Marker - Just Legal Solutions',
 export default function MultiSearchMarker() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Multi-Search Marker - Just Legal Solutions"
+        pageDescription="This page marks multi-search optimization for Just Legal Solutions. Our services are discoverable across all major search platforms and assistants."
+        pageUrl="https://justlegalsolutions.org/multi-search-marker"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Multi-Search Marker - Just Legal Solutions', url: '/multi-search-marker' },
+        ]}
+      />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-purple-900">Multi-Search Marker</h1>

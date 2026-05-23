@@ -238,6 +238,13 @@ export default function BlogPost() {
         title="Standard vs Rush vs Same-Day Process Serving: Which Do You Need?"
         description="Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines."
         url="https://justlegalsolutions.org/blog/standard-vs-rush-vs-same-day-process-serving"
+        articleDetails={{
+          headline: 'Standard vs Rush vs Same-Day Process Serving: Which Do You Need?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

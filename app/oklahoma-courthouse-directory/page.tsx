@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info',
@@ -115,6 +116,18 @@ const districts = [...new Set(courthouses.map(c => c.district))].sort((a, b) => 
 
 export default function OklahomaCourthouseDirectoryPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info"
+        pageDescription="Complete directory of all 77 Oklahoma county courthouses with addresses, phone numbers, hours, filing info, and OSCN links. Updated 2026. Bookmark this page."
+        pageUrl="https://justlegalsolutions.org/oklahoma-courthouse-directory"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info', url: '/oklahoma-courthouse-directory' },
+        ]}
+      />
     <div className="min-h-screen bg-white font-sans">
       {/* Hero */}
       <section className="bg-gradient-to-br from-gray-900 to-blue-900 text-white py-16 px-4">
@@ -282,5 +295,6 @@ export default function OklahomaCourthouseDirectoryPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

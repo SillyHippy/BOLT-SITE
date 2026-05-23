@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // --- Oklahoma court holidays (fixed-date holidays for 2024-2026) ---
 const OK_COURT_HOLIDAYS: string[] = [
@@ -187,6 +188,18 @@ export default function ServiceDeadlineCalculator() {
   }, [filingDate, deadlineType]);
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Service Deadline Calculator"
+        pageDescription="Service Deadline Calculator — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/service-deadline-calculator"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Service Deadline Calculator', url: '/oklahoma-tools/service-deadline-calculator' },
+        ]}
+      />
     <HubPageLayout
       title="Service Deadline Calculator"
       description="Calculate Oklahoma process serving deadlines based on your filing date. Account for court holidays and business days."
@@ -488,5 +501,6 @@ export default function ServiceDeadlineCalculator() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

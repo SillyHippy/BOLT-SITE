@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
 export default function PrivacyPolicyPage() {
   const lastUpdated = 'April 10, 2026';
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Privacy Policy"
+        pageDescription="Privacy policy for Just Legal Solutions — Oklahoma process server and notary services. How we collect, use, and protect your information."
+        pageUrl="https://justlegalsolutions.org/privacy-policy"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Privacy Policy', url: '/privacy-policy' },
+        ]}
+      />
     <div className="min-h-screen bg-white font-sans">
       <section className="bg-gray-900 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
@@ -133,5 +146,6 @@ export default function PrivacyPolicyPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

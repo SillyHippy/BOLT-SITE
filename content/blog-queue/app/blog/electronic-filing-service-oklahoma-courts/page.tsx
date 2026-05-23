@@ -391,6 +391,13 @@ export default function BlogPost() {
         title="The Future of Electronic Filing and Service in Oklahoma Courts"
         description="Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond."
         url="https://justlegalsolutions.org/blog/electronic-filing-service-oklahoma-courts"
+        articleDetails={{
+          headline: 'The Future of Electronic Filing and Service in Oklahoma Courts',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

@@ -316,6 +316,13 @@ export default function BlogPost() {
         title="Can a Notary Notarize Documents I Sign Electronically in Oklahoma?"
         description="Yes — Oklahoma notaries can notarize electronically signed documents. Learn the difference between electronic and digital signatures, Oklahoma law requirements, and approved platforms."
         url="https://justlegalsolutions.org/blog/can-notary-notarize-electronic-documents-oklahoma"
+        articleDetails={{
+          headline: 'Can a Notary Notarize Documents I Sign Electronically in Oklahoma?',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

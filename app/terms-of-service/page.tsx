@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
@@ -11,6 +12,18 @@ export const metadata: Metadata = {
 export default function TermsOfServicePage() {
   const lastUpdated = 'April 10, 2026';
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Terms of Service"
+        pageDescription="Terms of service for Just Legal Solutions — Oklahoma process server and notary services. Service agreements, payment terms, and liability limitations."
+        pageUrl="https://justlegalsolutions.org/terms-of-service"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Terms of Service', url: '/terms-of-service' },
+        ]}
+      />
     <div className="min-h-screen bg-white font-sans">
       <section className="bg-gray-900 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
@@ -133,5 +146,6 @@ export default function TermsOfServicePage() {
         </div>
       </section>
     </div>
+    </>
   );
 }

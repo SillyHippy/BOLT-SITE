@@ -416,6 +416,13 @@ export default function BlogPost() {
         title="How Skip Tracing Technology Is Revolutionizing Process Serving"
         description="Discover how modern skip tracing technology is transforming process serving. Learn about AI-powered tools, databases, and success rates."
         url="https://justlegalsolutions.org/blog/skip-tracing-technology-process-serving"
+        articleDetails={{
+          headline: 'How Skip Tracing Technology Is Revolutionizing Process Serving',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

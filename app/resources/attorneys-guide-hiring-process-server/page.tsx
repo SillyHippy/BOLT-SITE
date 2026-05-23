@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   Scale, 
   CheckCircle, 
@@ -34,6 +35,18 @@ export const metadata: Metadata = {
 
 export default function AttorneysGuidePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Attorney"
+        pageDescription="Download our free Attorney"
+        pageUrl="https://justlegalsolutions.org/resources/attorneys-guide-hiring-process-server"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Attorney', url: '/resources/attorneys-guide-hiring-process-server' },
+        ]}
+      />
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-4">
@@ -611,5 +624,6 @@ export default function AttorneysGuidePage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

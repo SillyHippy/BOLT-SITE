@@ -24,6 +24,11 @@ export const metadata = {
     modifiedTime: '2024-01-15T08:00:00Z',
     authors: ['Joseph Iannazzi'],
   },
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 const faqs = [
@@ -77,14 +82,21 @@ export default function OklahomaServiceByPublicationGuide() {
         title="Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements"
         description="Complete guide to service by publication in Oklahoma. Learn 12 O.S. § 2004(C)(3) requirements, due diligence standards, approved newspapers, costs, and the affidavit process."
         url="https://justlegalsolutions.org/blog/oklahoma-service-by-publication"
-        datePublished="2024-01-15"
-        dateModified="2024-01-15"
+        datePublished="2026-05-23"
+        dateModified="2026-05-23"
         author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
         breadcrumbs={[
           { name: 'Home', url: 'https://justlegalsolutions.org/' },
           { name: 'Blog', url: 'https://justlegalsolutions.org/blog' },
           { name: 'Oklahoma Service by Publication Guide', url: 'https://justlegalsolutions.org/blog/oklahoma-service-by-publication' }
         ]}
+        articleDetails={{
+          headline: 'Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqItems={faqs}
       />
       <Navbar />

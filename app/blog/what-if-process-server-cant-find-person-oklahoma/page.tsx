@@ -516,6 +516,13 @@ export default function BlogPost() {
         pageUrl="https://justlegalsolutions.org/blog/what-if-process-server-cant-find-person-oklahoma"
         title="What If the Process Server Can't Find the Person in Oklahoma?"
         description="Learn what happens when a process server can't locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next steps."
+        articleDetails={{
+          headline: 'What If the Process Server Can',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
     </>

@@ -579,6 +579,13 @@ export default function BlogPost() {
         pageUrl="https://justlegalsolutions.org/blog/how-much-experience-should-process-server-have"
         title="How Much Experience Should a Process Server Have?"
         description="Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma."
+        articleDetails={{
+          headline: 'How Much Experience Should a Process Server Have?',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
     </>

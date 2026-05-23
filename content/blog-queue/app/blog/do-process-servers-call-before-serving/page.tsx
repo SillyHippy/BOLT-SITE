@@ -544,6 +544,13 @@ export default function BlogPost() {
         title="Do Process Servers Call Before Serving? What to Expect"
         description="Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma."
         url="https://justlegalsolutions.org/blog/do-process-servers-call-before-serving"
+        articleDetails={{
+          headline: 'Do Process Servers Call Before Serving? What to Expect',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

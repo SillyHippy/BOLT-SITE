@@ -241,6 +241,13 @@ export default function BlogPost() {
         title="Oklahoma Court Filing Services: Save Time and Money"
         description="Professional Oklahoma court filing services save law firms time and money. Learn about eFiling, physical filing, and integration with process serving."
         url="https://justlegalsolutions.org/blog/oklahoma-court-filing-services"
+        articleDetails={{
+          headline: 'Oklahoma Court Filing Services: Save Time and Money',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

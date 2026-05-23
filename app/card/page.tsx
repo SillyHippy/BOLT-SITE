@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import ShareModal from "./ShareModal";
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function CardPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,6 +12,18 @@ export default function CardPage() {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Joseph Iannazzi"
+        pageDescription="Joseph Iannazzi — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/card"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Joseph Iannazzi', url: '/card' },
+        ]}
+      />
     <main className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4 relative">
       {/* Light effect */}
       <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] bg-gradient-radial from-white/20 to-transparent rounded-full blur-[200px] opacity-50"></div>
@@ -144,5 +157,6 @@ export default function CardPage() {
       </div>
       <ShareModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </main>
+    </>
   );
 }

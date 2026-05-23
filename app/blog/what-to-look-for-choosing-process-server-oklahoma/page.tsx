@@ -68,6 +68,11 @@ const articleSchema = {
   },
   keywords:
     "how to choose a process server, what to look for in process server, best process server oklahoma, process server selection guide, licensed process server oklahoma",
+  other: {
+    'article:published_time': '2026-05-23',
+    'article:modified_time': '2026-05-23',
+    'ai-content-type': 'article',
+  },
 };
 
 export const metadata: Metadata = {
@@ -94,6 +99,13 @@ export default function BlogPost() {
       <UnifiedSchema
         type="article"
         data={articleSchema}
+        articleDetails={{
+          headline: 'Oklahoma Licensed Process Server',
+          datePublished: '2026-05-23',
+          dateModified: '2026-05-23',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
       />
 

@@ -222,6 +222,13 @@ export default function BlogPost() {
         title="Subpoena Service in Oklahoma: Rules and Best Practices"
         description="Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys."
         url="https://justlegalsolutions.org/blog/subpoena-service-oklahoma-rules"
+        articleDetails={{
+          headline: 'Subpoena Service in Oklahoma: Rules and Best Practices',
+          datePublished: '2026-04-24',
+          dateModified: '2026-04-24',
+          author: 'Just Legal Solutions Team',
+          image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        }}
         faqs={faqs}
         image="https://justlegalsolutions.org/images/jls-logo.webp"
       />

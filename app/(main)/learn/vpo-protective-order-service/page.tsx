@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function VPOProtectiveOrderServicePage() {
   const [openStep, setOpenStep] = useState<number | null>(null);
@@ -55,6 +56,18 @@ export default function VPOProtectiveOrderServicePage() {
   ];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Vpo Protective Order Service"
+        pageDescription="Vpo Protective Order Service — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/learn/vpo-protective-order-service"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Vpo Protective Order Service', url: '/learn/vpo-protective-order-service' },
+        ]}
+      />
     <HubPageLayout
       title="VPO &amp; Protective Order Service in Oklahoma"
       description="Learn how Victim Protective Orders are filed, served, and enforced in Oklahoma. Covers the 24-hour priority service rule, the service process, what happens if the respondent avoids service, and safety resources for victims."
@@ -245,5 +258,6 @@ export default function VPOProtectiveOrderServicePage() {
         </p>
       </div>
     </HubPageLayout>
+    </>
   );
 }

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 type ServiceTier = 'standard' | 'rush' | 'same-day' | 'emergency';
 type CountyType = 'metro' | 'rural';
@@ -85,6 +86,18 @@ export default function RushEmergencyCostCalculator() {
   const allTiers: ServiceTier[] = ['standard', 'rush', 'same-day', 'emergency'];
 
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Rush Emergency Cost Calculator"
+        pageDescription="Rush Emergency Cost Calculator — Just Legal Solutions, Oklahoma process server and legal support services."
+        pageUrl="https://justlegalsolutions.org/oklahoma-tools/rush-emergency-cost-calculator"
+        siteName="Just Legal Solutions"
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Rush Emergency Cost Calculator', url: '/oklahoma-tools/rush-emergency-cost-calculator' },
+        ]}
+      />
     <HubPageLayout
       title="Rush & Emergency Cost Calculator"
       description="Compare estimated costs for standard, rush, same-day, and emergency process serving across Oklahoma."
@@ -358,5 +371,6 @@ export default function RushEmergencyCostCalculator() {
         </section>
       </div>
     </HubPageLayout>
+    </>
   );
 }
