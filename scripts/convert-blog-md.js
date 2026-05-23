@@ -393,6 +393,7 @@ function generatePageTSX(fm, body) {
   page += "    'article:published_time': '" + datePublished + "',\n";
   page += "    'article:modified_time': '" + dateModified + "',\n";
   page += "    'article:author': 'Joseph Iannazzi',\n";
+  page += "    'last-modified': '" + dateModified + "',\n";
   page += "    'ai-content-type': 'article',\n";
   page += "    'ai-summary': '" + esc(description) + "',\n";
   page += "    'ai-key-facts': '" + esc(keywords.slice(0, 3).join('; ')) + "',\n";
@@ -407,6 +408,8 @@ function generatePageTSX(fm, body) {
   page += '        pageTitle="' + escDQ(title.replace(/ \| Just Legal Solutions$/, '')) + '"\n';
   page += '        pageDescription="' + escDQ(description) + '"\n';
   page += '        pageUrl="https://justlegalsolutions.org/blog/' + slug + '"\n';
+  page += '        datePublished="' + datePublished + '"\n';
+  page += '        dateModified="' + dateModified + '"\n';
   page += '        siteName="Just Legal Solutions"\n';
   page += '        reviewCount={156}\n';
   page += "        services={['Process Serving', 'Legal Document Delivery', 'Same-Day Service']}\n";

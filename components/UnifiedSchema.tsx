@@ -1,4 +1,5 @@
 import React from 'react';
+import { formatSchemaDate, resolveFreshnessDates } from '@/lib/content-freshness';
 // import Script from 'next/script';
 
 interface UnifiedSchemaProps {
@@ -277,6 +278,23 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     pageName,
     headline
   } = props;
+
+  const pagePathname = url
+    ? (() => {
+        try {
+          return new URL(url).pathname;
+        } catch {
+          return undefined;
+        }
+      })()
+    : undefined;
+
+  const freshnessDates = resolveFreshnessDates({
+    datePublished: articleDetails?.datePublished ?? datePublished,
+    dateModified: articleDetails?.dateModified ?? dateModified,
+    pathname: pagePathname,
+  });
+
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
     '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ?
@@ -497,17 +515,30 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    datePublished: articleDetails?.datePublished ?
-      (articleDetails.datePublished.includes('T') ? articleDetails.datePublished : `${articleDetails.datePublished}T12:00:00-05:00`) :
-      (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`),
-    dateModified: articleDetails?.dateModified ?
-      (articleDetails.dateModified.includes('T') ? articleDetails.dateModified : `${articleDetails.dateModified}T12:00:00-05:00`) :
-      (dateModified ? (dateModified.includes('T') ? dateModified : `${dateModified}T12:00:00-05:00`) :
-        (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`)),
+    datePublished: formatSchemaDate(freshnessDates.datePublished),
+    dateModified: formatSchemaDate(freshnessDates.dateModified),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': url
     }
+  } : null;
+
+  const webPageSchema = url ? {
+    '@type': 'WebPage',
+    '@id': `${url}#webpage`,
+    url,
+    name: title,
+    description,
+    datePublished: formatSchemaDate(freshnessDates.datePublished),
+    dateModified: formatSchemaDate(freshnessDates.dateModified),
+    isPartOf: {
+      '@id': 'https://justlegalsolutions.org/#website',
+    },
+    ...(pageType !== 'article' && {
+      about: {
+        '@id': 'https://justlegalsolutions.org/#organization',
+      },
+    }),
   } : null;
 
   // Enhanced Organization schema with 2025 SEO dominance features
@@ -783,6 +814,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     organizationSchema,
     websiteSchema
   ];
+
+  if (webPageSchema) (schemaGraph as any[]).push(webPageSchema);
 
   // Add conditional schemas
   if (breadcrumbSchema) (schemaGraph as any[]).push(breadcrumbSchema);

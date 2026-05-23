@@ -230,10 +230,13 @@ Build topical authority by connecting related pages:
 
 ### 7E. Content Freshness Signals
 
-Google rewards regularly updated content:
-- Every key page already has "Last updated: [date]" — keep these current
-- Update pricing, statute references, and county-specific info quarterly
-- Blog posts should include `datePublished` and `dateModified` in schema (UnifiedSchema already does this for article pages)
+Google and AI audit tools (e.g. Framer) reward regularly updated content with in-page date signals:
+
+- **JSON-LD:** `UnifiedSchema` emits a `WebPage` node with `datePublished` and `dateModified` on every page (not only articles). Article pages also keep `Article` dates via `articleDetails`.
+- **Meta tags:** Hub pages use standard `last-modified` and `article:modified_time` via `lib/content-freshness.ts` (`buildFreshnessMetadata`).
+- **Sitemap:** `scripts/generate-sitemap.js` sets `<lastmod>` from page file mtime on postbuild.
+- **Human signal:** Keep visible "Last updated: [date]" on key hub pages; update quarterly when pricing/statutes change.
+- **Verify:** `npm run verify:freshness` probes priority URLs for JSON-LD, meta, and sitemap freshness (6-month window).
 
 ---
 

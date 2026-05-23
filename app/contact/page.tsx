@@ -1,3 +1,16 @@
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Shield, Star, Clock, Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
+
+const contactFreshness = getPageFreshness('/contact')!;
+
 export const metadata = {
   title: '(539) 367-6832 | Contact Just Legal Solutions',
   description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
@@ -42,19 +55,12 @@ export const metadata = {
     description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.webp'],
     site: '@ServeOK',
-  }
+  },
+  ...buildFreshnessMetadata({
+    datePublished: contactFreshness.datePublished,
+    dateModified: contactFreshness.dateModified,
+  }),
 };
-
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { Shield, Star, Clock, Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-
-import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
-import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export default function ContactPage() {
   return (
@@ -69,6 +75,8 @@ export default function ContactPage() {
             "name": "Contact Just Legal Solutions",
             "description": "Contact Just Legal Solutions for professional process serving, courier services, and business solutions in Tulsa County, Oklahoma.",
             "url": "https://justlegalsolutions.org/contact",
+            "datePublished": formatSchemaDate(contactFreshness.datePublished),
+            "dateModified": formatSchemaDate(contactFreshness.dateModified),
             "mainEntity": {
               "@type": "LocalBusiness",
               "@id": "https://justlegalsolutions.org/#localbusiness",

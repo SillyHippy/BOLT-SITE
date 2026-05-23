@@ -12,6 +12,9 @@ import {
 } from '@/components/seo/internal-link-trust-panels';
 import { getPromoDescription } from '@/lib/promo-utils';
 import { getStartingPrice, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
+import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+
+const pricingFreshness = getPageFreshness('/pricing')!;
 
 export const metadata: Metadata = {
   title: 'Pricing | Process Server & Notary Services Oklahoma',
@@ -59,8 +62,10 @@ export const metadata: Metadata = {
   other: {
     'ai-summary': 'Just Legal Solutions transparent pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $35, standard $60, rush $100, same-day $150, triple-attempt $200, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $60. All 77 Oklahoma counties served. These are starting prices; final cost depends on distance, attempts, and complexity.',
     'ai-key-facts': 'Single attempt $35, Standard $60, Rush $100, Same-Day $150, Triple-Attempt $200, Standard Courier $60, Rush Courier $100, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $105/hr, eFiling free, Tulsa County primary service area, (539) 367-6832',
-    'datePublished': '2025-03-01',
-    'dateModified': new Date().toISOString().split('T')[0],
+    ...buildFreshnessMetadata({
+      datePublished: pricingFreshness.datePublished,
+      dateModified: pricingFreshness.dateModified,
+    }).other,
   }
 };
 
@@ -130,6 +135,8 @@ export default function PricingPage() {
         url="https://justlegalsolutions.org/pricing"
         title="Process Server Pricing Oklahoma - Just Legal Solutions"
         description="Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard."
+        datePublished={pricingFreshness.datePublished}
+        dateModified={pricingFreshness.dateModified}
         serviceDetails={{
           name: "Process Server Services Oklahoma",
           description: "Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",

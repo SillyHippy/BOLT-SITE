@@ -6,6 +6,7 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import AIVoiceSupremacy from '../../components/ui/ai-voice-supremacy';
+import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
 import {
   Phone, Mail, Clock, Shield, MapPin, FileText, Scale, Users,
   CheckCircle, HelpCircle, DollarSign, Award, Star, Briefcase,
@@ -14,6 +15,7 @@ import {
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/notary';
+const notaryFreshness = getPageFreshness('/notary')!;
 
 export const metadata: Metadata = {
   title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
@@ -50,13 +52,15 @@ export const metadata: Metadata = {
   },
   other: {
     'article:author': 'Just Legal Solutions Team',
-    'article:published_time': '2026-03-22',
-    'article:modified_time': '2026-03-22',
     'ai-content-type': 'service-page',
     'ai-summary':
       'Oklahoma notary: in-office from $20; mobile notary within ~50 miles of Glenpool (Tulsa County and surrounding counties — Creek, Wagoner, Rogers, Osage, Okmulgee, etc.). Remote Online Notarization (RON): signers anywhere in the United States or worldwide where law and document rules allow; the commissioned notary is physically in Oklahoma during each RON session. Licensed & bonded, 24/7. Fees: $5/act traditional max, $25/act RON (state caps). (539) 367-6832.',
     'ai-key-facts':
       'Mobile notary ~50 mi Glenpool/Tulsa metro; RON signers US + worldwide where allowed, notary in OK; in-office from $20; 24/7; 50+ yrs experience; (539) 367-6832',
+    ...buildFreshnessMetadata({
+      datePublished: notaryFreshness.datePublished,
+      dateModified: notaryFreshness.dateModified,
+    }).other,
   },
 };
 
@@ -266,10 +270,25 @@ const previewFaqs = [
   }
 ];
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonicalUrl}#webpage`,
+  url: canonicalUrl,
+  name: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
+  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma.',
+  datePublished: formatSchemaDate(notaryFreshness.datePublished),
+  dateModified: formatSchemaDate(notaryFreshness.dateModified),
+  isPartOf: {
+    '@id': 'https://justlegalsolutions.org/#website',
+  },
+};
+
 export default function NotaryPage() {
   return (
     <>
       <Navbar />
+      <JsonLd data={webPageSchema} />
       <JsonLd data={notaryServiceSchema} />
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={faqSchema} />

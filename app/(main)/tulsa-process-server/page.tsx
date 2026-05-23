@@ -22,6 +22,9 @@ import RankingSupremacy2026 from '@/components/ui/2026-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import { Metadata } from 'next';
 import Script from 'next/script';
+import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+
+const tulsaFreshness = getPageFreshness('/tulsa-process-server')!;
 
 // Enhanced SEO Metadata combining all Tulsa pages
 export const metadata: Metadata = {
@@ -32,6 +35,10 @@ export const metadata: Metadata = {
     'ai-content-type': 'location-service',
     'ai-summary': 'Just Legal Solutions is a licensed, bonded process server based in the Tulsa metro area serving Tulsa County and all of Oklahoma. Same-day and 2-hour emergency service available. Covers downtown Tulsa, Midtown, Brookside, Broken Arrow, Bixby, Jenks, Owasso, and surrounding areas. Process serving starts at $35 single-attempt and $60 standard. 50+ years combined experience. Available 24/7. Full pricing at https://justlegalsolutions.org/pricing.',
     'ai-key-facts': 'Tulsa process server, licensed bonded insured, same-day and 2-hour emergency, serves all Tulsa County cities, starts at $35 single-attempt and $60 standard, 50+ years experience, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832',
+    ...buildFreshnessMetadata({
+      datePublished: tulsaFreshness.datePublished,
+      dateModified: tulsaFreshness.dateModified,
+    }).other,
   },
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -1065,6 +1072,8 @@ export default function TulsaProcessServerPage() {
         title="Professional Process Server in Tulsa, Oklahoma"
         description="Expert legal document delivery throughout Tulsa County. Licensed, bonded, and available 24/7 for all your process serving needs."
         url="https://justlegalsolutions.org/tulsa-process-server"
+        datePublished={tulsaFreshness.datePublished}
+        dateModified={tulsaFreshness.dateModified}
         image="https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.webp"
         reviewCount={156}
         location={{

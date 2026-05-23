@@ -22,6 +22,9 @@ const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 import Link from 'next/link';
+import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+
+const homeFreshness = getPageFreshness('/')!;
 
 export const metadata: Metadata = {
   title: {
@@ -36,6 +39,10 @@ export const metadata: Metadata = {
     'ai-content-type': 'homepage',
     'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Service tiers (starting prices): single-attempt posting starts at $30, standard process serving starts at $60, rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Skip tracing starts at $50; court filing starts at $25; notary starts at $20; legal courier starts at $35. 50+ years combined experience. Same-day and 24/7 emergency service available. See full pricing at https://justlegalsolutions.org/pricing.',
     'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, starts at $35 single-attempt, starts at $60 standard, starts at $100 rush, starts at $150 same-day, starts at $265 after-hours rush, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@JustLegalSolutions.org, full pricing https://justlegalsolutions.org/pricing',
+    ...buildFreshnessMetadata({
+      datePublished: homeFreshness.datePublished,
+      dateModified: homeFreshness.dateModified,
+    }).other,
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
@@ -74,7 +81,7 @@ export const metadata: Metadata = {
     title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
-  }
+  },
 };
 
 export default function Home() {
@@ -591,6 +598,8 @@ export default function Home() {
         url="https://justlegalsolutions.org/"
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
         description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service starts at $35 (single-attempt) and $60 standard. Full pricing at https://justlegalsolutions.org/pricing. Call (539) 367-6832."
+        datePublished={homeFreshness.datePublished}
+        dateModified={homeFreshness.dateModified}
         image="https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp"
         priceRange={PRICE_RANGE_DISPLAY}
         serviceDetails={{

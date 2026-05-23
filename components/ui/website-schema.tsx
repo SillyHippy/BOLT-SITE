@@ -1,4 +1,5 @@
 import Script from 'next/script';
+import { formatSchemaDate, SITE_CONTENT_REVIEW_DATE } from '@/lib/content-freshness';
 
 interface WebsiteSchemaProps {
   url?: string;
@@ -20,6 +21,8 @@ export default function WebsiteSchema({
     "alternateName": "JLS Process Server",
     "url": url,
     "description": description,
+    "datePublished": formatSchemaDate('2025-03-01'),
+    "dateModified": formatSchemaDate(SITE_CONTENT_REVIEW_DATE),
     "keywords": keywords.join(", "),
     "inLanguage": "en-US",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",

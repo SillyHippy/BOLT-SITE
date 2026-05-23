@@ -4,6 +4,7 @@ import type { ReactNode } from 'react';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
+import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
 import {
   Phone,
   Mail,
@@ -26,6 +27,7 @@ import {
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/mobile-notary';
+const mobileNotaryFreshness = getPageFreshness('/mobile-notary')!;
 
 export const metadata: Metadata = {
   title: 'Mobile Notary Oklahoma | 24/7 Tulsa Traveling Notary',
@@ -64,6 +66,10 @@ export const metadata: Metadata = {
     'ai-content-type': 'service',
     'ai-summary': 'Mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded notaries travel to homes, offices, hospitals, and courthouses. Notary fee cap: $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). $10,000 surety bond required (49 O.S. § 2). NNA-certified, compliant with 49 O.S. § 111 et seq. and Remote Online Notary Act (49 O.S. § 201 et seq.). Same-day and 24/7 availability. Call (539) 367-6832.',
     'ai-key-facts': 'Oklahoma mobile notary: $5/act max fee (49 O.S. § 5), $25/act max RON (49 O.S. § 209). $10,000 surety bond (49 O.S. § 2). Travel fees not capped by law. Government-issued photo ID required (49 O.S. § 113). Covers Tulsa, Creek, Wagoner, Osage, Rogers counties.',
+    ...buildFreshnessMetadata({
+      datePublished: mobileNotaryFreshness.datePublished,
+      dateModified: mobileNotaryFreshness.dateModified,
+    }).other,
   }
 };
 
@@ -515,11 +521,26 @@ const aggregateRatingSchema = {
   }
 };
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonicalUrl}#webpage`,
+  url: canonicalUrl,
+  name: 'Mobile Notary Oklahoma | 24/7 Tulsa Traveling Notary',
+  description: 'Oklahoma mobile notary for hospitals, jails, loan signings and more. Licensed, bonded. Same-day appointments.',
+  datePublished: formatSchemaDate(mobileNotaryFreshness.datePublished),
+  dateModified: formatSchemaDate(mobileNotaryFreshness.dateModified),
+  isPartOf: {
+    '@id': 'https://justlegalsolutions.org/#website',
+  },
+};
+
 export default function MobileNotaryPage() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
       <Navbar />
       <main className="flex-grow">
+        <JsonLd data={webPageSchema} />
         <JsonLd data={notaryServiceSchema} />
         <JsonLd data={localBusinessSchema} />
         <JsonLd data={breadcrumbSchema} />
