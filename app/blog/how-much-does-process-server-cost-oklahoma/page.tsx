@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "How Much Does a Process Server Cost in Oklahoma? 2026 Pri...",
@@ -290,6 +291,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/pricing" className="text-blue-600">request service online</Link>. Single-attempt posting starts at $35.</p>
         </section>
       </main>
+        <AeoProcessServingHubLinks />
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

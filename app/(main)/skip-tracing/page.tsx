@@ -106,6 +106,16 @@ export default function SkipTracingPage() {
                         </p>
                     </div>
 
+                    <div id="when-do-you-need-skip-tracing" className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg mb-10">
+                        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">When do you need skip tracing for process serving?</h2>
+                        <p className="text-gray-800 leading-relaxed">
+                            <strong>You need skip tracing when the person to be served has moved, the address on file is wrong, prior service attempts failed, or a court requires proof of diligent search before service by publication.</strong> Just Legal Solutions combines licensed process serving (12 O.S. § 158.1) with database, social, and field investigation — starting at $50, with optional bundled serve from $80.{' '}
+                            <Link href="/blog/skip-tracing-oklahoma-guide" className="text-purple-800 font-semibold underline">Skip tracing guide</Link>
+                            {' · '}
+                            <Link href="/process-serving" className="text-purple-800 font-semibold underline">Process serving</Link>
+                        </p>
+                    </div>
+
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">How Our Skip Tracing Works</h2>
                         <div className="space-y-6">

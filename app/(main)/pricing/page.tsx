@@ -107,6 +107,10 @@ const serviceCategories = [
 
 const pricingFaqItems = [
   {
+    question: "How much does a process server cost in Tulsa?",
+    answer: "Process server costs in Tulsa start at $35 for a single-attempt posting and $60 for standard service (up to three attempts). Rush service starts at $100; same-day delivery starts at $150. County sheriff service in Tulsa County typically runs $40–$50 per attempt with a longer wait. Just Legal Solutions includes GPS-verified proof and real-time updates in every tier."
+  },
+  {
     question: "What is the cheapest process server option in Oklahoma?",
     answer: "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35."
   },
@@ -233,7 +237,15 @@ export default function PricingPage() {
           </div>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
-            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $35 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
+
+            <div id="process-server-cost-tulsa" className="max-w-3xl mx-auto mb-8 text-left bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6 shadow-sm">
+              <h2 className="text-xl md:text-2xl font-bold text-blue-900 mb-3">How much does a process server cost in Tulsa?</h2>
+              <p className="text-gray-800 leading-relaxed">
+                <strong>Process server costs in Tulsa start at ${getStartingPrice('single-attempt')} for a single-attempt posting and ${getStartingPrice('standard')} for standard service (up to three attempts).</strong> Rush service starts at ${getStartingPrice('rush')}; same-day delivery starts at ${getStartingPrice('same-day')}. County sheriff fees in Tulsa County typically run $40–$50 per attempt with a 2–4 week turnaround. Just Legal Solutions publishes transparent starting rates with GPS-verified proof included — call (539) 367-6832 for a quote.
+              </p>
+            </div>
+
+            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from ${getStartingPrice('single-attempt')} for a single attempt to ${getStartingPrice('after-hours-rush')} for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at ${getStartingPrice('standard')}. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
 
             {/* Trust Badges */}
@@ -280,10 +292,83 @@ export default function PricingPage() {
               <Link href="/reviews/google" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition">
                 Verify Google Reviews
               </Link>
+              <Link href="/process-server-vs-sheriff" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
+                Process Server vs Sheriff
+              </Link>
               <Link href="/process-serving" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
                 Compare Service Methods
               </Link>
             </div>
+
+            {/* Provider comparison — featured snippet table */}
+            <section className="mt-10 max-w-5xl mx-auto text-left" aria-labelledby="oklahoma-process-server-comparison">
+              <h2 id="oklahoma-process-server-comparison" className="text-2xl font-bold text-blue-900 mb-2 text-center">
+                Oklahoma Process Server Cost Comparison
+              </h2>
+              <p className="text-sm text-gray-600 mb-4 text-center max-w-3xl mx-auto">
+                Starting prices for standard civil service in the Tulsa metro. Competitor figures are publicly advertised rates; final quotes vary by county, attempts, and urgency.
+              </p>
+              <div className="overflow-x-auto rounded-xl shadow-md border border-gray-200">
+                <table className="w-full text-sm md:text-base">
+                  <thead className="bg-blue-900 text-white">
+                    <tr>
+                      <th scope="col" className="text-left px-4 py-3 font-semibold">Service tier</th>
+                      <th scope="col" className="text-left px-4 py-3 font-semibold">Just Legal Solutions</th>
+                      <th scope="col" className="text-left px-4 py-3 font-semibold">ABC Legal</th>
+                      <th scope="col" className="text-left px-4 py-3 font-semibold">County Sheriff</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-100">
+                    <tr>
+                      <td className="px-4 py-3 font-medium text-gray-900">Single attempt / posting</td>
+                      <td className="px-4 py-3 text-green-700 font-semibold">From ${getStartingPrice('single-attempt')}</td>
+                      <td className="px-4 py-3 text-gray-700">Varies by market</td>
+                      <td className="px-4 py-3 text-gray-700">$40–$50 typical</td>
+                    </tr>
+                    <tr className="bg-slate-50">
+                      <td className="px-4 py-3 font-medium text-gray-900">Standard (up to 3 attempts)</td>
+                      <td className="px-4 py-3 text-green-700 font-semibold">From ${getStartingPrice('standard')}</td>
+                      <td className="px-4 py-3 text-gray-700">From ~$88</td>
+                      <td className="px-4 py-3 text-gray-700">$40–$50 per attempt</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium text-gray-900">Rush / expedited</td>
+                      <td className="px-4 py-3 text-green-700 font-semibold">From ${getStartingPrice('rush')}</td>
+                      <td className="px-4 py-3 text-gray-700">Premium surcharge</td>
+                      <td className="px-4 py-3 text-gray-700">Not available</td>
+                    </tr>
+                    <tr className="bg-slate-50">
+                      <td className="px-4 py-3 font-medium text-gray-900">Same-day</td>
+                      <td className="px-4 py-3 text-green-700 font-semibold">From ${getStartingPrice('same-day')}</td>
+                      <td className="px-4 py-3 text-gray-700">Limited availability</td>
+                      <td className="px-4 py-3 text-gray-700">Not available</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium text-gray-900">Typical turnaround</td>
+                      <td className="px-4 py-3 text-gray-700">Same day to 5–10 business days</td>
+                      <td className="px-4 py-3 text-gray-700">3–7 business days</td>
+                      <td className="px-4 py-3 text-gray-700">2–4 weeks</td>
+                    </tr>
+                    <tr className="bg-slate-50">
+                      <td className="px-4 py-3 font-medium text-gray-900">GPS-verified proof</td>
+                      <td className="px-4 py-3 text-green-700 font-semibold">Included</td>
+                      <td className="px-4 py-3 text-gray-700">Platform-dependent</td>
+                      <td className="px-4 py-3 text-gray-700">No</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-xs text-gray-500 mt-3 text-center">
+                See also:{' '}
+                <Link href="/process-server-vs-sheriff" className="text-blue-700 underline hover:text-blue-900">
+                  private process server vs county sheriff
+                </Link>
+                {' · '}
+                <Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline hover:text-blue-900">
+                  county-by-county pricing guide
+                </Link>
+              </p>
+            </section>
 
             {/* Temporary Fuel Adjustment Banner */}
             <div className="bg-amber-50 border border-amber-200 rounded-xl text-left px-6 py-5 shadow-sm mt-8 max-w-4xl mx-auto">
@@ -728,6 +813,10 @@ export default function PricingPage() {
               <Link href="/oklahoma-process-serving-costs-comparison" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Serving Costs Comparison</h3>
                 <p className="text-sm text-gray-600 mt-1">Compare process serving fees across Oklahoma providers</p>
+              </Link>
+              <Link href="/process-server-vs-sheriff" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+                <h3 className="font-semibold text-blue-800">Process Server vs County Sheriff</h3>
+                <p className="text-sm text-gray-600 mt-1">Side-by-side comparison for Tulsa and all Oklahoma counties</p>
               </Link>
               <Link href="/oklahoma-process-server-faq" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
                 <h3 className="font-semibold text-blue-800">Process Server FAQ 2026</h3>

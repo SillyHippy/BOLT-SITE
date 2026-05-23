@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How to Hire a Process Server in Oklahoma — 2026 Checklist',
@@ -98,6 +99,7 @@ export default function HowToHireProcessServerOklahoma() {
       />
 
       <Navbar />
+        <AeoProcessServingHubLinks />
       <LocalPromoBanner zips={[]} />
 
       {/* Hero Header */}

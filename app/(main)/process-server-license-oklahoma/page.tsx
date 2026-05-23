@@ -80,6 +80,16 @@ export default function ProcessServerLicenseOklahomaPage() {
                         </p>
                     </div>
 
+                    <div id="who-can-serve-papers-hiring" className="bg-indigo-50 border-l-4 border-indigo-600 p-6 rounded-r-lg mb-10">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-3">Who can serve papers in Oklahoma? (Hiring a server)</h2>
+                        <p className="text-lg text-gray-800">
+                            <strong>If you need documents served — not become a server yourself — Oklahoma allows the sheriff, any non-party adult 18+, or a licensed private process server.</strong> Just Legal Solutions is licensed under 12 O.S. § 158.1 with GPS-verified proof on every job.{' '}
+                            <Link href="/how-to-serve-legal-papers-oklahoma" className="text-indigo-800 font-semibold underline">Client guide: how to serve legal papers</Link>
+                            {' · '}
+                            <Link href="/contact" className="text-indigo-800 font-semibold underline">Get a quote</Link>
+                        </p>
+                    </div>
+
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Oklahoma Process Server License Requirements</h2>
                         <p className="text-gray-700 text-lg mb-6">Under Oklahoma law (12 O.S. § 158.1), private process servers must meet the following requirements to obtain and maintain a license:</p>

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How to Serve Divorce Papers in Oklahoma (2026 Guide)',
@@ -136,6 +137,7 @@ export default function HowToServeDivorcePapersOklahoma() {
       />
 
       <Navbar />
+        <AeoProcessServingHubLinks />
       <LocalPromoBanner zips={[]} />
 
       {/* Hero Header */}

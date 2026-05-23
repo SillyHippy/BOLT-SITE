@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T22:35:46.967Z",
+  "generatedAt": "2026-05-23T22:55:12.838Z",
   "siteContentReviewDate": "2026-05-23",
   "defaultDatePublished": "2025-03-01",
   "pages": {
@@ -75,6 +75,18 @@
       "sourceFile": "app/(main)/for-attorneys/page.tsx",
       "fileMtime": "2026-05-22"
     },
+    "/for-businesses": {
+      "datePublished": "2025-03-01",
+      "dateModified": "2026-05-23",
+      "sourceFile": "app/(main)/for-businesses/page.tsx",
+      "fileMtime": "2026-05-23"
+    },
+    "/for-landlords": {
+      "datePublished": "2025-03-01",
+      "dateModified": "2026-05-23",
+      "sourceFile": "app/(main)/for-landlords/page.tsx",
+      "fileMtime": "2026-05-23"
+    },
     "/glossary": {
       "datePublished": "2025-03-01",
       "dateModified": "2026-05-23",
@@ -83,9 +95,9 @@
     },
     "/how-to-serve-legal-papers-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-04-28",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/how-to-serve-legal-papers-oklahoma/page.tsx",
-      "fileMtime": "2026-04-28"
+      "fileMtime": "2026-05-23"
     },
     "/join-our-network": {
       "datePublished": "2025-03-01",
@@ -239,9 +251,9 @@
     },
     "/process-server-license-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-04-28",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/process-server-license-oklahoma/page.tsx",
-      "fileMtime": "2026-04-28"
+      "fileMtime": "2026-05-23"
     },
     "/process-serving": {
       "datePublished": "2025-03-01",
@@ -335,9 +347,9 @@
     },
     "/skip-tracing": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-04-28",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/skip-tracing/page.tsx",
-      "fileMtime": "2026-04-28"
+      "fileMtime": "2026-05-23"
     },
     "/subpoena-service": {
       "datePublished": "2025-03-01",
@@ -773,9 +785,9 @@
     },
     "/blog/how-to-hire-a-process-server-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-05-14",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/blog/how-to-hire-a-process-server-oklahoma/page.tsx",
-      "fileMtime": "2026-05-14"
+      "fileMtime": "2026-05-23"
     },
     "/blog/how-to-hire-notary-loan-signing-oklahoma": {
       "datePublished": "2025-03-01",
@@ -1937,9 +1949,9 @@
     },
     "/remote-online-notary": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-04-25",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/remote-online-notary/page.tsx",
-      "fileMtime": "2026-04-25"
+      "fileMtime": "2026-05-23"
     },
     "/resources/attorneys-guide-hiring-process-server": {
       "datePublished": "2025-03-01",

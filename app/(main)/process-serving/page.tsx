@@ -60,6 +60,10 @@ export const metadata: Metadata = {
 
 const serviceFaqs = [
     {
+        question: "Who can serve papers in Oklahoma?",
+        answer: "Oklahoma authorizes three main options: the county sheriff, any adult (18+) who is not a party to the lawsuit, or a licensed private process server under 12 O.S. § 158.1. Licensed servers must carry a $5,000 surety bond and are trained to produce court-ready affidavits with GPS verification. For important cases, a licensed server significantly reduces the risk of defective service being challenged in court."
+    },
+    {
         question: "What types of documents can a process server deliver?",
         answer: "Licensed Oklahoma process servers can deliver virtually any legal document that requires formal service, including: summons and complaints, subpoenas (witness and document), divorce petitions, child custody and support papers, eviction notices, restraining orders and protective orders (permanent, not emergency), contract disputes, small claims court papers, and writs of execution. The key requirement under Oklahoma law is that service must be performed by someone at least 18 years old who is not a party to the case."
     },
@@ -169,6 +173,16 @@ export default function ProcessServingPage() {
                                 📝 Get a Free Quote in 15 Minutes
                             </Link>
                         </div>
+                    </div>
+
+                    <div id="who-can-serve-papers-oklahoma" className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg mb-10">
+                        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Who can serve papers in Oklahoma?</h2>
+                        <p className="text-gray-800 leading-relaxed">
+                            <strong>Oklahoma allows the county sheriff, any person 18 or older who is not a party to the case, or a licensed private process server under 12 O.S. § 158.1.</strong> Licensed servers carry a $5,000 surety bond and provide GPS-verified affidavits — the safest choice for court deadlines.{' '}
+                            <Link href="/how-to-serve-legal-papers-oklahoma" className="text-green-800 font-semibold underline">Full serving guide</Link>
+                            {' · '}
+                            <Link href="/process-server-license-oklahoma" className="text-green-800 font-semibold underline">Licensing requirements</Link>
+                        </p>
                     </div>
 
                     {/* Trust Signal Stats Bar */}
@@ -584,6 +598,11 @@ export default function ProcessServingPage() {
                             </div>
                             <p className="text-sm text-gray-600 mt-2 text-center">Watch: Process Server vs. Sheriff — An Honest Comparison</p>
                         </div>
+                        <p className="mt-6 text-center">
+                            <Link href="/process-server-vs-sheriff" className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:underline">
+                                Read the full process server vs. sheriff comparison guide →
+                            </Link>
+                        </p>
                     </section>
 
                     {/* Difficult Serves & Evasive Defendants */}
@@ -750,6 +769,18 @@ export default function ProcessServingPage() {
                     <section className="mb-12">
                         <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Process Serving Services</h2>
                         <div className="grid md:grid-cols-3 gap-4">
+                            <Link href="/for-attorneys" className="block p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                                <h3 className="font-semibold text-slate-800">For Attorneys &amp; Law Firms</h3>
+                                <p className="text-sm text-gray-600 mt-1">Volume accounts, Net-15 billing, same-day affidavits</p>
+                            </Link>
+                            <Link href="/for-landlords" className="block p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors">
+                                <h3 className="font-semibold text-amber-900">For Landlords</h3>
+                                <p className="text-sm text-gray-600 mt-1">Eviction notices &amp; FED service with GPS proof</p>
+                            </Link>
+                            <Link href="/for-businesses" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                                <h3 className="font-semibold text-blue-900">For Businesses</h3>
+                                <p className="text-sm text-gray-600 mt-1">Corporate defendants &amp; registered-agent service</p>
+                            </Link>
                             <Link href="/same-day-process-server" className="block p-4 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors">
                                 <h3 className="font-semibold text-orange-800">Same-Day Process Serving</h3>
                                 <p className="text-sm text-gray-600 mt-1">Rush service with same-day delivery</p>

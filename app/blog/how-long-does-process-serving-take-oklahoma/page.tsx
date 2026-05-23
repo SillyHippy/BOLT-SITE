@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoProcessServingHubLinks from "@/components/seo/aeo-process-serving-hub-links";
 
 const faqs = [
   {
@@ -278,7 +279,8 @@ export default function BlogPost() {
             available on weekends, and situations requiring maximum discretion.
           </p>
 
-          <LocalPromoBanner />
+            <AeoProcessServingHubLinks />
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             Factors That Affect Process Serving Speed

@@ -383,6 +383,28 @@ export default function NotaryPage() {
       </section>
 
       <main className="bg-gray-50">
+        <section className="py-10 bg-purple-50 border-b border-purple-100">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Does Oklahoma allow remote online notary?</h2>
+            <p className="text-lg text-gray-700">
+              <strong>Yes.</strong> Oklahoma authorized Remote Online Notarization (RON) effective January 1, 2020 under 49 O.S. § 201 et seq. Signers can join by secure live video from anywhere U.S. law allows; our commissioned notary stays in Oklahoma for each session.{' '}
+              <Link href="/remote-online-notary" className="text-purple-700 font-semibold underline hover:text-purple-900">
+                Read the full Oklahoma RON guide →
+              </Link>
+            </p>
+          </div>
+        </section>
+
+        <section className="py-10 bg-white border-b border-gray-100">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">How much does a mobile notary charge in Oklahoma?</h2>
+            <p className="text-lg text-gray-700">
+              <strong>In-office notary starts at $20; mobile notary typically starts at $25 per notarial act plus a travel fee based on distance and urgency.</strong> Oklahoma caps the statutory notary fee at $5 per traditional act and $25 for RON (49 O.S. § 5); our service price covers scheduling, travel, and 24/7 availability. Total mobile cost is quoted upfront before we dispatch.{' '}
+              <Link href="/pricing" className="text-purple-700 font-semibold underline">See notary pricing →</Link>
+            </p>
+          </div>
+        </section>
+
         {/* What Does a Notary Public Do? */}
         <section className="py-16 bg-white border-b border-gray-100">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

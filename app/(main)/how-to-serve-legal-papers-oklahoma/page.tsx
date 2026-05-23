@@ -95,7 +95,7 @@ export default function HowToServeLegalPapersOklahomaPage() {
                         </div>
                     </section>
 
-                    <section className="mb-12">
+                    <section className="mb-12" id="who-can-serve-papers">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Who Can Serve Legal Papers in Oklahoma?</h2>
                         <p className="text-gray-700 text-lg mb-6">Oklahoma law authorizes several categories of people to serve legal documents:</p>
                         <div className="grid md:grid-cols-3 gap-6">

@@ -191,6 +191,54 @@ export default function Home() {
           "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/images/jls-logo.webp" } }
         })
       }} />
+
+      {/* How It Works — 3 steps */}
+      <section className="py-16 md:py-20 bg-slate-50 border-b border-slate-200" aria-label="How process serving works">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">How It Works</h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              From intake to court-ready proof — three simple steps for Oklahoma process serving.
+            </p>
+          </div>
+          <ol className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+            <li className="relative flex flex-col items-center text-center bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+              <span className="absolute -top-4 left-1/2 -translate-x-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white" aria-hidden="true">1</span>
+              <FileText className="h-10 w-10 text-blue-600 mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Submit your papers</h3>
+              <p className="text-slate-600 mb-4">
+                Call, text, or send your documents online. We confirm the address, deadline, and service tier before dispatch.
+              </p>
+              <Link href="/contact" className="text-blue-600 font-semibold hover:underline inline-flex items-center gap-1">
+                Request service <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            </li>
+            <li className="relative flex flex-col items-center text-center bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+              <span className="absolute -top-4 left-1/2 -translate-x-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white" aria-hidden="true">2</span>
+              <Truck className="h-10 w-10 text-blue-600 mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">We serve with GPS tracking</h3>
+              <p className="text-slate-600 mb-4">
+                A licensed Oklahoma process server attempts delivery — often same day in Tulsa — with real-time status updates after every try.
+              </p>
+              <Link href="/process-serving" className="text-blue-600 font-semibold hover:underline inline-flex items-center gap-1">
+                Our serving methods <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            </li>
+            <li className="relative flex flex-col items-center text-center bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
+              <span className="absolute -top-4 left-1/2 -translate-x-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white" aria-hidden="true">3</span>
+              <Shield className="h-10 w-10 text-blue-600 mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-slate-900 mb-3">You get court-ready proof</h3>
+              <p className="text-slate-600 mb-4">
+                Receive a notarized affidavit of service with GPS coordinates, timestamps, and photos when applicable — ready to file.
+              </p>
+              <Link href="/pricing" className="text-blue-600 font-semibold hover:underline inline-flex items-center gap-1">
+                View pricing <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            </li>
+          </ol>
+        </div>
+      </section>
+
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">

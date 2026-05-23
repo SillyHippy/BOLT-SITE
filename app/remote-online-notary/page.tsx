@@ -253,6 +253,13 @@ const benefitsComparison = [
 
 const faqItems = [
   {
+    question: 'Does Oklahoma allow remote online notary?',
+    answer:
+      'Yes. Oklahoma allows Remote Online Notarization (RON) under 49 O.S. § 201 et seq., effective January 1, 2020. A commissioned Oklahoma notary authorized for RON may notarize documents via live video with credential analysis and knowledge-based authentication. Just Legal Solutions offers RON statewide — call (539) 367-6832 or visit /contact to book.',
+    answerRich:
+      'Yes. Oklahoma allows Remote Online Notarization (RON) under 49 O.S. § 201 et seq., effective January 1, 2020. A commissioned Oklahoma notary authorized for RON may notarize documents via live video with credential analysis and knowledge-based authentication. Just Legal Solutions offers RON statewide — call (539) 367-6832 or use our contact form to book.'
+  },
+  {
     question: 'Is Oklahoma remote online notarization legal and recognized nationwide?',
     answer:
       'Yes. 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act) authorized RON effective January 1, 2020. Once properly notarized by an Oklahoma RON-authorized notary, the document carries the same legal weight throughout the United States thanks to the Full Faith and Credit Clause and the Uniform Electronic Transactions Act.',
@@ -635,6 +642,21 @@ const RemoteOnlineNotaryPage = () => {
                 <p className="text-white/70 text-sm">Recording Retention</p>
                 <p className="mt-1 text-xl font-bold">7-10 Years</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-slate-900/80 border-y border-emerald-800/40">
+          <div className="mx-auto max-w-5xl px-6 py-12 lg:px-12">
+            <div id="does-oklahoma-allow-ron" className="rounded-2xl border border-emerald-700/50 bg-emerald-950/40 p-6 md:p-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-white">Does Oklahoma allow remote online notary?</h2>
+              <p className="mt-4 text-lg leading-relaxed text-slate-200">
+                <strong>Yes.</strong> Oklahoma has allowed Remote Online Notarization (RON) since January 1, 2020 under the Oklahoma Remote Online Notarization Act (49 O.S. § 201 et seq.). Signers can appear by live video; the notary must be physically in Oklahoma and use state-approved identity proofing. RON documents are recognized nationwide when performed correctly. Just Legal Solutions is Secretary of State–authorized for RON —{' '}
+                <Link href="/contact" className="text-emerald-400 underline">book a session</Link> or call (539) 367-6832.
+              </p>
+              <p className="mt-3 text-sm text-slate-400">
+                Also available: <Link href="/notary" className="text-emerald-400 underline">in-office and mobile notary</Link> · <Link href="/mobile-notary" className="text-emerald-400 underline">mobile notary Tulsa</Link>
+              </p>
             </div>
           </div>
         </section>
