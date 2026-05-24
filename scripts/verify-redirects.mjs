@@ -87,7 +87,18 @@ async function main() {
     (r) => r.src.startsWith('/counties/') && !r.src.endsWith('-county') && !r.src.includes(')**')
   );
   const sampleCounty = countyShort.filter((_, i) => i % 10 === 0);
-  const toTest = [...malformed, ...literalMalformed, ...sampleCounty];
+  const bingCountyFails = [
+    { src: '/counties/payne', dest: '/counties/payne-county' },
+    { src: '/counties/tulsa', dest: '/counties/tulsa-county' },
+    { src: '/counties/seminole', dest: '/counties/seminole-county' },
+    { src: '/counties/pawnee', dest: '/counties/pawnee-county' },
+    { src: '/counties/texas', dest: '/counties/texas-county' },
+    { src: '/counties/le-flore', dest: '/counties/leflore-county' },
+  ];
+  const compareRedirect = [
+    { src: '/compare/process-server-vs-sheriff', dest: '/process-server-vs-sheriff' },
+  ];
+  const toTest = [...malformed, ...literalMalformed, ...compareRedirect, ...bingCountyFails, ...sampleCounty];
 
   const results = [];
   for (const { src, dest } of toTest) {

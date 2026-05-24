@@ -42,7 +42,10 @@ async function main() {
   const rules = [];
 
   /** Counties with routes but no `{slug}-county.md` in this folder (e.g. app-only page). */
-  const extra = [{ src: '/counties/tulsa', dest: '/counties/tulsa-county' }];
+  const extra = [
+    { src: '/counties/tulsa', dest: '/counties/tulsa-county' },
+    { src: '/counties/le-flore', dest: '/counties/leflore-county' },
+  ];
 
   for (const f of md.sort()) {
     const slug = f.replace(/\.md$/, '');
