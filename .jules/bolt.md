@@ -9,3 +9,7 @@
 ## 2025-05-19 - O(1) Lookups in Large Data Sets
 **Learning:** Performing a reverse-lookup using `Object.entries(DATASET).find(...)` inside an array map over a large dataset (like `CITY_GEO` with 5800+ entries) causes significant O(N * M) performance degradation during static site generation.
 **Action:** Always prefer direct property access (O(1)) when the required property (e.g., `slug`) is already available on the target object, or construct a `Map` / `Set` for O(1) lookups before iterating if a reverse-lookup is truly necessary.
+
+## 2026-05-24 - Array.find() O(N^2) Bottleneck in Static Generation
+**Learning:** Performing array `.find()` operations inside a mapping function during Next.js static generation (e.g., `generateStaticParams` calling `slugify` which does `find`) creates severe O(N^2) bottlenecks on large datasets.
+**Action:** Pre-compute O(1) `Map` caches initialized at module load time in the data layer (e.g., `lib/video-data.ts`) to eliminate redundant computations.

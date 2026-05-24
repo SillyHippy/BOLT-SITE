@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
-import { allVideos, normalizeShortSeo, Video } from '@/lib/video-data';
+import { allVideos, normalizeShortSeo, Video, getVideoSlug, getVideoBySlug } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 import SearchDominance2026 from '@/components/ui/2026-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
@@ -12,17 +12,14 @@ import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
    HELPERS
    ───────────────────────────────────────────────────────────────────────────── */
 
+// ⚡ Bolt: Using O(1) cache map instead of O(n) array lookups for video slug resolution
 function slugify(videoId: string): string {
-  const video = allVideos.find((v) => v.videoId === videoId);
-  if (!video) return videoId;
-  return video.title
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
+  return getVideoSlug(videoId);
 }
 
+// ⚡ Bolt: Using O(1) cache map instead of O(n) array lookups for video resolution
 function findVideo(slug: string): Video | undefined {
-  return allVideos.find((v) => slugify(v.videoId) === slug);
+  return getVideoBySlug(slug);
 }
 
 export async function generateStaticParams() {

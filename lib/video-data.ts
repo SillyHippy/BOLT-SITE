@@ -1108,3 +1108,27 @@ export const shorts: Video[] = [
 
 export const seoShorts: Video[] = shorts.map(normalizeShortSeo);
 export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];
+
+
+
+// Pre-computed O(1) caches for performance optimization
+// Replaces O(N) array filtering/finding which is a bottleneck on large datasets during static generation
+export const videoBySlugCache = new Map<string, Video>();
+export const videoSlugByIdCache = new Map<string, string>();
+
+for (const video of allVideos) {
+  const slug = video.title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+  videoBySlugCache.set(slug, video);
+  videoSlugByIdCache.set(video.videoId, slug);
+}
+
+export function getVideoSlug(videoId: string): string {
+  return videoSlugByIdCache.get(videoId) || videoId;
+}
+
+export function getVideoBySlug(slug: string): Video | undefined {
+  return videoBySlugCache.get(slug);
+}
