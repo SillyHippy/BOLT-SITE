@@ -3,7 +3,14 @@ import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
-import { allVideos, normalizeShortSeo, Video } from '@/lib/video-data';
+import {
+  allVideos,
+  normalizeShortSeo,
+  Video,
+  videoIdMap,
+  videoSlugMap,
+  slugifyVideoTitle,
+} from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 import SearchDominance2026 from '@/components/ui/2026-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
@@ -13,20 +20,17 @@ import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
    ───────────────────────────────────────────────────────────────────────────── */
 
 function slugify(videoId: string): string {
-  const video = allVideos.find((v) => v.videoId === videoId);
+  const video = videoIdMap.get(videoId);
   if (!video) return videoId;
-  return video.title
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
+  return slugifyVideoTitle(video.title);
 }
 
 function findVideo(slug: string): Video | undefined {
-  return allVideos.find((v) => slugify(v.videoId) === slug);
+  return videoSlugMap.get(slug);
 }
 
 export async function generateStaticParams() {
-  return allVideos.map((v) => ({ slug: slugify(v.videoId) }));
+  return allVideos.map((v) => ({ slug: slugifyVideoTitle(v.title) }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -459,7 +463,7 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Videos</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {relatedVideos.map((rv) => {
-                const rvSlug = slugify(rv.videoId);
+                const rvSlug = slugifyVideoTitle(rv.title);
                 const rvThumbnail = `https://img.youtube.com/vi/${rv.videoId}/hqdefault.jpg`;
                 return (
                   <Link
