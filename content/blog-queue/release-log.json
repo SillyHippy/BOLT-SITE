@@ -4440,6 +4440,78 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "become-licensed-process-server-oklahoma",
+      "title": "How to Become a Licensed Process Server in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-26T17:52:10.360Z",
+      "releaseDate": "2026-05-26",
+      "quality": {
+        "words": 2935,
+        "headings": 31,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-apostille-services-guide",
+      "title": "Oklahoma Apostille Services: Authenticate Documents for International Use",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-26T17:52:10.364Z",
+      "releaseDate": "2026-05-26",
+      "quality": {
+        "words": 3162,
+        "headings": 15,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "common-process-serving-mistakes-oklahoma",
+      "title": "10 Common Process Serving Mistakes That Can Ruin Your Case",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-26T17:52:10.366Z",
+      "releaseDate": "2026-05-26",
+      "quality": {
+        "words": 3370,
+        "headings": 17,
+        "paragraphs": 40
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-court-filing-services",
+      "title": "Oklahoma Court Filing Services: Save Time and Money",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-26T17:52:10.368Z",
+      "releaseDate": "2026-05-26",
+      "quality": {
+        "words": 2579,
+        "headings": 18,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6664,6 +6736,18 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-05-22T02:10:20.421Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-05-26T17:52:10.361Z"
     }
   ]
 }
