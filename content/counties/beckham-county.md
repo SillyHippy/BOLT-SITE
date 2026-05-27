@@ -171,7 +171,7 @@ Understanding the timeline for process serving in Beckham County helps attorneys
 Most professional process servers attempt first service within **24-48 hours** of receiving documents. Rush and same-day service are available for urgent matters.
 
 ### Due Diligence Period
-If initial attempts fail, Oklahoma law requires "due diligence"—typically **3-5 separate attempts** at different times of day and days of the week—before seeking substituted service or alternative methods.
+If initial attempts fail, additional attempts and documentation help demonstrate reasonableness and support motions for service by publication under 12 O.S. § 2004(C)(3), which requires proof of due diligence to the court. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service under § 2004(C)(1)(c)(1), though courts may scrutinize whether abode service was appropriate.
 
 ### Return of Service
 The server must complete proof of service promptly and within the time the defendant has to respond. Returns include:

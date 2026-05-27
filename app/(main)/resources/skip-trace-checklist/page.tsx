@@ -226,9 +226,11 @@ export default function SkipTraceChecklistPage() {
           <div className="bg-white border border-slate-200 rounded-lg p-4">
             <p className="font-semibold text-navy mb-1">How many attempts before substitute service?</p>
             <p className="text-sm text-slate-700">
-              Oklahoma has no fixed minimum, but most courts expect at least three good-faith
-              attempts at varied times before approving substitute service or service by publication
-              under 12 O.S. § 2004(C)(3).
+              Title 12 does not prescribe a fixed number of prior personal attempts before
+              residential substituted service under 12 O.S. § 2004(C)(1)(c)(1). Service by
+              publication under § 2004(C)(3) is different—it requires proof of due diligence to
+              the court, which often implies multiple failed attempts. Subpoenas and certain
+              government or corporate service require personal delivery only.
             </p>
           </div>
           <div className="bg-white border border-slate-200 rounded-lg p-4">

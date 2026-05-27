@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     question: 'What if the defendant will not answer the door?',
-    answer: 'We come back at different times — early morning, evening, and weekends — across the standard tier (up to three attempts) or the triple-attempt tier starting at $200. If the defendant is at the address but actively avoiding service, Oklahoma allows substitute service under 12 O.S. § 2004(C)(2): the documents are left with another adult resident and a copy is mailed to the same address.',
+    answer: 'We come back at different times — early morning, evening, and weekends — across the standard tier (up to three attempts) or the triple-attempt tier starting at $200. Where permitted under 12 O.S. § 2004(C)(1), substitute (abode) service may leave documents with a resident at least 15 years old at the defendant\'s dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Just Legal Solutions follows the service method each document type requires.',
   },
   {
     question: 'Where do I file the affidavit of service?',

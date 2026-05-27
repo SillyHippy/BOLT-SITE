@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     question: "What happens if my spouse is avoiding service in Oklahoma?",
-    answer: "If personal service cannot be made after diligent attempts, Oklahoma courts may authorize substituted service — such as leaving documents with a competent household member — or service by publication in a local newspaper once per week for three consecutive weeks under 12 O.S. § 2004(C)(2). A professional process server documents all attempts, which is essential evidence for seeking alternative service from the court."
+    answer: "If personal service cannot be made, Oklahoma law may permit residential substituted service under 12 O.S. § 2004(C)(1) or service by publication under § 2004(C)(3) when due diligence is shown to the court. A professional process server documents all attempts, which is essential evidence if publication or other alternative service is needed."
   },
   {
     question: "Can I serve an out-of-state spouse with Oklahoma divorce papers?",
@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     question: "What is substituted service and when can I use it in Oklahoma?",
-    answer: "Substituted service under 12 O.S. § 2004(C)(1) allows leaving divorce papers with a competent household member who is at least 15 years old at your spouse's usual place of residence, when personal service cannot be achieved after diligent attempts. The server must also mail a copy to your spouse's last known address the same day. Courts scrutinize substituted service closely — your server should document all prior personal service attempts made before resorting to substituted service."
+    answer: "Substituted service under 12 O.S. § 2004(C)(1) allows leaving divorce papers with a household member who is at least 15 years old at your spouse's usual place of abode, when that method is permitted. Title 12 does not require a fixed number of prior personal attempts before residential substituted service, though courts may scrutinize whether service was reasonable. Additional mailing is required only where Oklahoma statutes or a court order expressly require it. Just Legal Solutions follows the service method the statute requires for each document."
   },
   {
     question: "Do I need a lawyer to serve divorce papers in Oklahoma?",
@@ -215,10 +215,10 @@ export default function HowToServeDivorcePapersOklahoma() {
 
             <h3>Substituted Service</h3>
             <p>
-              When your spouse cannot be personally located after reasonable diligent effort, 12 O.S. § 2004(C)(1) permits substituted service. This involves leaving a copy of the summons and petition at the respondent&apos;s usual place of residence with a <strong>competent member of the household who is at least 15 years of age</strong>. The server must also mail a copy to the respondent&apos;s last known address the same day.
+              When personal delivery to your spouse is not accomplished, 12 O.S. § 2004(C)(1) permits substituted service in appropriate cases by leaving a copy of the summons and petition at the respondent&apos;s usual place of abode with a <strong>household member who is at least 15 years of age</strong>. Title 12 does not prescribe a fixed number of prior personal attempts before using this residential method, though courts may scrutinize whether service was reasonable under the circumstances.
             </p>
             <p>
-              Courts scrutinize substituted service closely. The server must be prepared to testify that all reasonable efforts to personally serve the respondent were made before resorting to substituted service. A professional process server documents these attempts contemporaneously, which protects the integrity of your case and provides the court with a clear record of diligent effort. Documentation of failed personal service attempts is just as important as documentation of the substituted service itself.
+              Courts scrutinize substituted service closely. A professional process server documents the date, location, recipient, and method on a sworn affidavit. Where personal service is required by law—as with subpoenas or certain government or corporate service—that method must be used instead. Just Legal Solutions follows the service method Oklahoma law requires for each document; where residential substituted service is permitted, our firm may use it when appropriate.
             </p>
 
             <h3>Service by Publication</h3>
@@ -551,7 +551,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               <h3 className="text-xl font-bold text-blue-900 mb-4">Choosing Your Divorce Service Method at a Glance</h3>
               <div className="space-y-3 text-blue-800">
                 <div><strong>Cooperative spouse, known address:</strong> Personal service by licensed process server — fastest and most reliable</div>
-                <div><strong>Avoidant spouse, known address:</strong> Multiple documented personal attempts, then seek substituted service if necessary</div>
+                <div><strong>Avoidant spouse, known address:</strong> Personal service where possible; residential substituted service under § 2004(C)(1) where permitted—document every attempt</div>
                 <div><strong>Spouse whose location is unknown:</strong> Skip trace first; then petition for publication service after exhausting personal efforts</div>
                 <div><strong>Out-of-state spouse:</strong> Coordinate with process servers in the state of residence; Oklahoma long-arm statute provides jurisdiction</div>
                 <div><strong>Active-duty military spouse:</strong> Consult attorney about SCRA requirements before serving — mandatory compliance protects both parties</div>

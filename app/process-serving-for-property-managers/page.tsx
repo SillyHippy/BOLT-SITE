@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     question: "What is substituted service and when is it used for eviction notices?",
-    answer: "Substituted service means delivering the documents to another adult (age 15 or older) who resides at the property, rather than the tenant personally. It is used when the tenant cannot be personally reached after diligent attempts. Oklahoma courts require evidence of diligent attempts at personal service before substituted service is accepted. Our GPS-documented attempt logs provide exactly this evidence, protecting your eviction case from challenges based on service method.",
+    answer: "Substituted service means delivering documents to another adult (age 15 or older) who resides at the property, rather than the tenant personally, when that method is permitted under Oklahoma law. For residential abode service under 12 O.S. § 2004(C)(1), the statute does not prescribe a fixed number of prior personal attempts. Courts may still scrutinize whether service was reasonable, and posting or nail-and-mail in eviction cases under 12 O.S. § 1148.5 has its own due-diligence requirements. Just Legal Solutions follows the method each document type requires and documents every attempt with GPS logs.",
   },
   {
     question: "Can tenants challenge eviction based on improper service?",

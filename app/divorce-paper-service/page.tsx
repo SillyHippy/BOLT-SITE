@@ -181,7 +181,7 @@ export default function DivorcePaperServicePage() {
               <div className="bg-white rounded-xl p-6 shadow-md border border-gray-100">
                 <h3 className="text-xl font-bold text-rose-900 mb-3">Substitute Service</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Authorized under 12 O.S. § 2004(C)(2) when personal service has been attempted with diligence and the respondent cannot be found. The server leaves the documents with a person at least 15 years old who resides at the dwelling, then mails a copy to the same address. We document every prior attempt so the affidavit demonstrates the diligence the rule requires.
+                  Authorized under 12 O.S. § 2004(C)(1) in appropriate cases by leaving documents with a person at least 15 years old who resides at the dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service. Just Legal Solutions follows the service method Oklahoma law requires for each document and documents every attempt on the affidavit.
                 </p>
               </div>
             </div>

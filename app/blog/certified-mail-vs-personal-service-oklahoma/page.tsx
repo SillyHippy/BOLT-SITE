@@ -182,7 +182,7 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
               <li>A person of suitable age and discretion (15 years or older) who resides at the defendant&apos;s dwelling house or usual place of abode</li>
               <li>An authorized agent for business entities</li>
             </ul>
-            <p>Substituted service requires reasonable diligence and typically multiple personal service attempts before it becomes appropriate.</p>
+            <p>Under <strong>12 O.S. § 2004(C)(1)</strong>, residential substituted service is permitted in some civil cases by leaving copies at the defendant&apos;s dwelling with a resident who is at least 15 years old. Title 12 does not prescribe a fixed number of prior personal-service attempts before using that method. Some process types—including subpoenas, certain government agencies, and corporations—require personal service on a specific person and cannot be completed by residential substituted service. See our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> guide for details.</p>
 
             <h2>What 12 O.S. § 2004 Says About Mail Service</h2>
             <p>The Oklahoma statutes governing service of process are found in <strong>Title 12, Section 2004</strong>. The mail service provisions in subsection C(2) establish the framework for when and how certified mail can be used.</p>

@@ -305,7 +305,7 @@ export default function ServeBusinessCorporationOklahoma() {
               <li>Note whether the office appeared open or closed</li>
               <li>Record any interactions with employees</li>
             </ul>
-            <p>Courts expect reasonable diligence before allowing alternative service methods. What constitutes &quot;reasonable&quot; depends on the circumstances, but typically means at least 2-3 documented attempts at different times.</p>
+            <p>Courts expect reasonable diligence before allowing alternative entity service methods—such as service on the Oklahoma Secretary of State when a registered agent cannot be found. That diligence standard is separate from residential substituted service under 12 O.S. § 2004(C)(1), which does not prescribe a fixed number of prior attempts. Corporations must be served on an officer, managing agent, or registered agent—not by leaving papers with any adult at a workplace or residence.</p>
 
             <h3>When the Registered Agent Is Unavailable</h3>
             <p>If the registered agent is consistently unavailable at the registered office, you may have grounds to serve the Secretary of State as described above. You must demonstrate that:</p>

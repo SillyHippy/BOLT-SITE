@@ -73,7 +73,7 @@ const serviceFaqs = [
     },
     {
         question: "What is substitute service and when is it used?",
-        answer: "Substitute service is authorized under Oklahoma 12 O.S. § 2004(C)(2) when the defendant cannot be personally found after diligent efforts. The process server leaves the documents with a person at least 15 years old who resides at the defendant's dwelling, then mails a copy to the same address. This creates a legally valid alternative when personal service proves difficult. Courts may require documentation of multiple personal service attempts before allowing substitute service."
+        answer: "Under Oklahoma 12 O.S. § 2004(C)(1), substitute (abode) service is permitted in some civil cases by leaving documents with a person at least 15 years old who resides at the defendant's dwelling, when that method is allowed by law. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service. Subpoenas, government agencies, and corporations require personal service on specified persons—not residential sub-service. Just Legal Solutions follows the method each document type requires."
     },
     {
         question: "How much does process serving cost in Oklahoma?",
@@ -284,9 +284,9 @@ export default function ProcessServingPage() {
                             <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
                                 <h3 className="text-xl font-bold text-yellow-900 mb-3">&#x1F3E0; Substitute Service</h3>
                                 <p className="text-gray-700 mb-2">
-                                    When the defendant cannot be personally found after diligent attempts, Oklahoma law allows leaving the documents with a responsible person <strong>at least 15 years old</strong> at the defendant&apos;s usual place of residence, then mailing a copy to that address. This is authorized under 12 O.S. § 2004(C)(2).
+                                    Under <strong>12 O.S. § 2004(C)(1)</strong>, Oklahoma permits residential substituted service in some civil cases by leaving documents with a person <strong>at least 15 years old</strong> who resides at the defendant&apos;s usual place of abode, when that method is allowed. It is not available for subpoenas, government agencies, or corporations, which require personal delivery to specified persons.
                                 </p>
-                                <p className="text-sm text-gray-600"><strong>Best for:</strong> Evasive defendants, cases where multiple personal service attempts have failed</p>
+                                <p className="text-sm text-gray-600"><strong>Best for:</strong> Civil summons and petitions where abode service is permitted—not subpoenas or entity service</p>
                             </div>
                             <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
                                 <h3 className="text-xl font-bold text-purple-900 mb-3">&#x1F4F0; Service by Publication</h3>
@@ -328,14 +328,19 @@ export default function ProcessServingPage() {
                                             <td className="px-4 py-3 text-gray-700">Deliver documents directly to named individual; document date, time, location</td>
                                         </tr>
                                         <tr className="bg-white">
-                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(2)</td>
-                                            <td className="px-4 py-3 text-gray-700">Substitute service rules</td>
-                                            <td className="px-4 py-3 text-gray-700">Leave with resident 15+ years old at dwelling, then mail copy to same address</td>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(1)</td>
+                                            <td className="px-4 py-3 text-gray-700">Residential substituted service (where permitted)</td>
+                                            <td className="px-4 py-3 text-gray-700">Leave with resident 15+ at dwelling; not available for subpoenas, government, or corporate service</td>
                                         </tr>
                                         <tr>
-                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004.3</td>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(2)</td>
+                                            <td className="px-4 py-3 text-gray-700">Service by mail</td>
+                                            <td className="px-4 py-3 text-gray-700">Certified mail, return receipt requested, for qualifying defendants</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(3)</td>
                                             <td className="px-4 py-3 text-gray-700">Service by publication</td>
-                                            <td className="px-4 py-3 text-gray-700">3 consecutive weeks in newspaper; minimum 41 days; requires court approval</td>
+                                            <td className="px-4 py-3 text-gray-700">Last resort; requires court approval and proof of due diligence</td>
                                         </tr>
                                         <tr className="bg-white">
                                             <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(J)</td>

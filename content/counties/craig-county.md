@@ -85,13 +85,13 @@ Oklahoma law requires process servers to deliver legal documents directly to the
 
 ### Substituted Service Provisions
 
-When personal service proves impossible, Oklahoma law permits substituted service:
+When personal delivery is not used, Oklahoma law permits residential substituted service under 12 O.S. § 2004(C)(1) in some civil cases:
 
-- **Residence Service** – Leaving copies with a competent family member (15+) at the defendant's dwelling
-- **Business Service** – Delivering to the defendant's place of business with an authorized representative
-- **Corporate Service** – Service on registered agents for corporate defendants
+- **Residence Service** – Leaving copies with a person at least 15 years old who resides at the defendant's dwelling, when that method is allowed
+- **Corporate Service** – Personal service on an officer, managing agent, or registered agent—not residential sub-service
+- **Government Service** – Delivery to the head of the agency or authorized official, not residential sub-service
 
-The Craig County District Court generally requires at least two documented attempts at personal service before accepting substituted service methods.
+Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service under § 2004(C)(1)(c)(1). Service by publication under § 2004(C)(3) requires proof of due diligence to the court.
 
 ### Service Timeframes
 

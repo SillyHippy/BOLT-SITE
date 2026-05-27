@@ -30,15 +30,15 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-08',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn about substitute service in Oklahoma under 12 O.S. § 2004(c). Covers abode service, posting requirements, judicial approval, and documentation.',
-    'ai-key-facts': 'substitute service oklahoma; posting service oklahoma law; abode service oklahoma',
+    'ai-summary': 'Oklahoma substitute service under 12 O.S. § 2004(C)(1): permitted in some civil cases at a dwelling with a resident 15+. Subpoenas, government agencies, and corporations require personal service. No fixed prior attempts required by statute for residential substituted service.',
+    'ai-key-facts': 'Residential substitute service age 15+ where permitted; subpoenas and certain government/corporate service require personal delivery only; no fixed prior attempts under § 2004(C)(1)(c)(1); publication requires due diligence',
   },
 };
 
 const faqs: { question: string; answer: string }[] = [
   {
     question: "Can a process server leave papers at my door in Oklahoma?",
-    answer: "For standard civil cases, simply leaving papers at the door without speaking to a resident is not valid service in Oklahoma. However, if the server first attempts personal service and then leaves papers with a co-resident who is 15 or older, that constitutes valid substitute service. For eviction cases, \"posting\" on the door is permitted after due diligence attempts, but only when combined with mailing."
+    answer: "For standard civil cases, simply leaving papers at the door without speaking to a resident is not valid service in Oklahoma. Valid abode service under 12 O.S. § 2004(C)(1) requires leaving copies with a co-resident who is 15 or older and actually resides at the dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before that method. For eviction cases, \"posting\" on the door is permitted after due diligence under 12 O.S. § 1148.5, but only when combined with mailing. Subpoenas and certain government or corporate service require personal delivery only."
   },
   {
     question: "What age can accept service of process in Oklahoma?",
@@ -50,7 +50,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "How many attempts are required before substitute service in Oklahoma?",
-    answer: "Oklahoma law doesn't specify a fixed number of attempts. However, professional standards and court expectations generally require at least 2-3 documented attempts at different times before substitute service is appropriate. The key is demonstrating \"reasonable diligence\" based on the circumstances."
+    answer: "No. Title 12 § 2004 does not prescribe a fixed number of prior personal-service attempts before residential substituted service under § 2004(C)(1)(c)(1). Service by publication—a separate method under § 2004(C)(3)—requires proof of due diligence to the court. Some process types, including subpoenas and certain government or corporate service, require personal delivery on a specific person and cannot use residential substituted service."
   },
   {
     question: "Can I refuse substitute service in Oklahoma?",
@@ -136,7 +136,7 @@ export default function SubstituteServiceOklahoma() {
       <div className="bg-gray-50 min-h-screen">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
-            <p>You&apos;ve hired a process server to deliver divorce papers to your spouse, but they keep missing them at home. Or maybe you&apos;re a landlord trying to serve an eviction notice, but the tenant is never around. After multiple failed attempts at personal service, what happens next?</p>
+            <p>You&apos;ve hired a process server to deliver divorce papers to your spouse, but they keep missing them at home. Or maybe you&apos;re a landlord trying to serve an eviction notice, but the tenant is never around. When personal delivery isn&apos;t possible—or isn&apos;t required for your document type—what happens next?</p>
             <p>This is where <strong>substitute service</strong> comes in&mdash;a legal alternative when direct hand-delivery isn&apos;t possible. But Oklahoma law has strict rules about when and how you can use substitute service. Get it wrong, and your case could be delayed or dismissed.</p>
             <p>At Just Legal Solutions, we&apos;ve completed thousands of substitute services across all 77 Oklahoma counties. This guide explains everything you need to know about substitute service under Oklahoma law, including when it&apos;s allowed, how to document it properly, and when you need a judge&apos;s approval.</p>
 
@@ -192,17 +192,20 @@ export default function SubstituteServiceOklahoma() {
             <p>Understanding these distinctions is crucial because courts scrutinize substitute service more closely than personal service. If the defendant later claims they never received notice, the validity of your substitute service could be challenged.</p>
 
             <h2>Requirements for Substitute Service in Oklahoma</h2>
-            <p>Oklahoma law doesn&apos;t allow substitute service as a first option. Before leaving papers with a co-resident, the process server must demonstrate that personal service was attempted or was impractical.</p>
+            <p>Under <strong>12 O.S. § 2004(C)(1)</strong>, residential substituted service is permitted in <em>some</em> civil cases by leaving copies at the defendant&apos;s dwelling with a person who resides there and is at least 15 years old, or with an authorized agent when the statute allows. It is <strong>not</strong> available for every document type.</p>
 
-            <h3>The Due Diligence Standard</h3>
-            <p>While Oklahoma statutes don&apos;t explicitly define a specific number of attempts required before substitute service, professional standards and court expectations typically require:</p>
+            <h3>What Oklahoma Law Requires</h3>
+            <p>Title 12 identifies who may receive substituted service and where copies may be left. It does <em>not</em> prescribe a fixed number of prior personal-service attempts before using residential substituted service under § 2004(C)(1)(c)(1). Courts may still scrutinize whether service was reasonable. Service by publication under § 2004(C)(3) is a separate method that requires proof of due diligence to the court.</p>
+
+            <h3>Documents That Require Personal Service—Not Substituted Service</h3>
             <ul>
-              <li><strong>Multiple attempts</strong> at different times of day (morning, afternoon, evening)</li>
-              <li><strong>Attempts on different days</strong> of the week</li>
-              <li><strong>Documentation</strong> of each attempt in the server&apos;s notes</li>
-              <li><strong>Verification</strong> that the defendant actually resides at the address</li>
+              <li><strong>Subpoenas</strong> — must be personally delivered to the named witness or records custodian</li>
+              <li><strong>State and local government agencies</strong> — typically the head of the agency or an authorized official, not residential sub-service</li>
+              <li><strong>Corporations and other entities</strong> — an officer, managing agent, or registered agent, not any adult at a home or workplace</li>
             </ul>
-            <p>At Just Legal Solutions, our standard practice includes at least three documented attempts at varied times before considering substitute service. This documentation becomes critical if the service is later challenged.</p>
+
+            <h3>Just Legal Solutions—Our Service Approach</h3>
+            <p>In every case, we follow the method of service the statute and court rules require. Where substituted service is permitted, our firm may use it on the first attempt; where personal service is required, we complete personal delivery only. We document every attempt with GPS logs and detailed affidavits—our internal standard, not a universal statutory prerequisite for residential substituted service.</p>
 
             <h3>Age and Residency Requirements</h3>
             <p>For substitute service to be valid in Oklahoma, the person receiving the documents must:</p>
@@ -216,6 +219,9 @@ export default function SubstituteServiceOklahoma() {
             <h3>What Cannot Be Used for Substitute Service</h3>
             <p>Oklahoma law is specific about what doesn&apos;t qualify as valid substitute service:</p>
             <ul>
+              <li><strong>Subpoenas</strong> &mdash; Must be personally served on the named witness or custodian; household sub-service is not valid</li>
+              <li><strong>Government agencies</strong> &mdash; Residential sub-service does not satisfy service on the head of agency or authorized official</li>
+              <li><strong>Corporations</strong> &mdash; Service on a random employee or at an officer&apos;s home is not valid entity service</li>
               <li><strong>Workplace service</strong> &mdash; Leaving papers with a coworker or supervisor is not permitted under 12 O.S. § 2004 for general civil cases</li>
               <li><strong>Service on minors under 15</strong> &mdash; Even with parental consent, this is statutorily prohibited</li>
               <li><strong>Service on non-residents</strong> &mdash; Someone merely visiting the home cannot accept service</li>
@@ -239,7 +245,7 @@ export default function SubstituteServiceOklahoma() {
             <p>When performing abode service, a licensed process server should:</p>
             <ol>
               <li><strong>Verify the address</strong> &mdash; Confirm it&apos;s the defendant&apos;s current residence through observation or prior attempts</li>
-              <li><strong>Attempt personal service first</strong> &mdash; Try to reach the defendant directly</li>
+              <li><strong>Use the method the document requires</strong> &mdash; Personal delivery where mandatory; abode service only where § 2004(C)(1) permits</li>
               <li><strong>Identify a qualified recipient</strong> &mdash; Find someone 15+ who resides at the location</li>
               <li><strong>Explain the documents</strong> &mdash; Inform the recipient that these are legal papers for the defendant</li>
               <li><strong>Leave complete copies</strong> &mdash; Provide the summons, petition, and all attached documents</li>
@@ -402,7 +408,7 @@ export default function SubstituteServiceOklahoma() {
             <h3>The Affidavit of Service</h3>
             <p>The affidavit of service (also called &quot;return of service&quot;) is a sworn statement filed with the court proving service was completed. For substitute service, it should specifically state:</p>
             <ul>
-              <li>That personal service was attempted but not accomplished</li>
+              <li>The method used and why it complies with 12 O.S. § 2004 for the document type served</li>
               <li>The reason substitute service was necessary</li>
               <li>That the recipient met statutory requirements (age 15+, resident)</li>
               <li>That the server explained the nature of the documents</li>
