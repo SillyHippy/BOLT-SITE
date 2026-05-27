@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'legal-guide',
-    'ai-summary': 'Oklahoma process serving is governed by 12 O.S. § 2004. Service may be made by a sheriff or licensed private process server. Personal service is primary. Substituted service is permitted at the dwelling on a resident aged 15 or older; no mailing is required for this specific method. Service must typically be made within 180 days of filing.',
-    'ai-key-facts': 'Substituted service age is 15+, Private Process Server License requires bond and residency, Service time limit is 180 days, Certified mail allowed for specific defendants, Just Legal Solutions offers statewide service.',
+    'ai-summary': 'Oklahoma process serving is governed by 12 O.S. § 2004. Personal service is the default. Substituted service at a dwelling with a resident 15+ is permitted in some civil cases when allowed by law; subpoenas, government agencies, and corporations require personal service on specified persons. No fixed number of prior attempts is required by statute before residential substituted service. Service must typically be made within 180 days of filing.',
+    'ai-key-facts': 'Substituted service age is 15+ where permitted, Subpoenas and certain government/corporate service require personal delivery only, Private Process Server License requires bond and residency, Service time limit is 180 days, Just Legal Solutions follows statute-required methods for each document type.',
   },
 };
 
@@ -59,6 +59,10 @@ export default function OklahomaProcessServerLaws() {
     {
       question: "How long do I have to serve a defendant in Oklahoma?",
       answer: "Generally, a plaintiff has 180 days from the date the petition is filed to serve the summons and petition. If service is not made within this time, the action may be dismissed without prejudice unless the plaintiff can show good cause."
+    },
+    {
+      question: "Can all legal documents be served by substituted service in Oklahoma?",
+      answer: "No. While 12 O.S. § 2004(C)(1) permits substituted service at a residence in some civil cases, certain process types require personal service on a specific person. Subpoenas must be personally served on the named witness or records custodian. State and local government agencies generally must be served on the head of the agency or another official authorized to accept service—not by residential sub-service. Corporations must be served on an officer, managing agent, or registered agent—not by leaving papers with any adult at a workplace or residence."
     }
   ];
 
@@ -137,16 +141,30 @@ export default function OklahomaProcessServerLaws() {
                 This is the gold standard. The server hands the Summons and Petition directly to the defendant. The defendant does not need to &quot;accept&quot; or touch the papers; if they refuse them, the server may leave them in their immediate proximity after identifying the nature of the documents.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service</h3>
+              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service (When Permitted by Law)</h3>
               <p>
-                Service to another person when direct personal service is not reasonably possible.
+                Under <strong>12 O.S. § 2004(C)(1)</strong>, substituted service is permitted in <em>some</em> civil cases by leaving copies at the defendant&apos;s dwelling house or usual place of abode with a person who resides there and is at least <strong>15 years of age</strong>. In appropriate cases, service may also be made on an authorized agent, as the statute and court rules allow.
+              </p>
+              <p>
+                <strong>What Oklahoma law requires:</strong> The statute identifies who may receive substituted service and where copies may be left. Title 12 does <em>not</em> prescribe a fixed number of prior personal-service attempts before using residential substituted service under § 2004(C)(1)(c)(1). Courts may still scrutinize whether service was reasonable under the circumstances, and service by publication—a separate method under § 2004(C)(3)—requires proof of due diligence to the court. Additional mailing is required only where Oklahoma statutes or a specific court order expressly require service by mail.
+              </p>
+
+              <h4 className="text-lg font-bold text-slate-900 mt-6 mb-3">Documents That Require Personal Service—Not Substituted Service</h4>
+              <p>
+                Residential substituted service is <strong>not</strong> available for every type of process. Some documents must be personally served on a specific person and cannot be completed by leaving copies with a household member or any adult at an address:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Person of suitable age and discretion (15+ years old) who resides at the defendant&apos;s dwelling</li>
-                <li>At the defendant&apos;s dwelling house or usual place of abode, or on an authorized agent for business entities, consistent with 12 O.S. § 2004</li>
-                <li>Multiple personal&#8209;service attempts and reasonable diligence are expected before relying on substituted service</li>
-                <li>Additional mailing is required only in situations where Oklahoma statutes or a specific court order expressly require service by mail</li>
+                <li><strong>Subpoenas:</strong> Must be personally delivered to the named witness or records custodian. Leaving a subpoena with a household member or mailing it without proper acknowledgment does not satisfy Oklahoma service requirements for attendance subpoenas.</li>
+                <li><strong>State and local government agencies:</strong> Service typically must be made by delivering process to the head of the agency or another official authorized to accept service—not by residential sub-service at an employee&apos;s home or any address other than what the statute designates.</li>
+                <li><strong>Corporations and other business entities:</strong> Service must be made on an officer, managing or general agent, or the entity&apos;s registered agent with the Oklahoma Secretary of State—not on a random employee or by residential sub-service at an officer&apos;s home.</li>
               </ul>
+
+              <div className="bg-slate-50 p-5 rounded-lg border border-slate-200 mb-6">
+                <h4 className="text-lg font-bold text-slate-900 mb-2">Just Legal Solutions—Our Service Approach</h4>
+                <p className="text-sm text-gray-700 mb-0">
+                  Under Oklahoma Title 12 § 2004, substituted service is permitted in some civil cases by leaving copies at the defendant&apos;s dwelling with a resident 15 or older, or with an authorized agent, when that method is allowed by law. Some types of process—such as subpoenas and certain government or corporate service—require strict personal service on a specific person and cannot be completed by substituted service. In every case, Just Legal Solutions follows the method of service the statute and court rules require. Where substituted service is permitted, our firm may use it on the first attempt; where personal service is required, we complete personal delivery only.
+                </p>
+              </div>
 
               <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">3. Service by Mail</h3>
               <p>
@@ -160,7 +178,7 @@ export default function OklahomaProcessServerLaws() {
 
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Service on Entities (LLCs & Corporations)</h2>
               <p>
-                You cannot generally &quot;sub-serve&quot; an entity by leaving papers with a random employee. Service must be made on:
+                Oklahoma law requires personal service on a designated representative—not residential substituted service. You cannot &quot;sub-serve&quot; an entity by leaving papers with a random employee or any adult at a home address. Service must be made on:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li>An officer, director, or managing agent of the company.</li>
@@ -205,7 +223,7 @@ export default function OklahomaProcessServerLaws() {
               <div className="mt-12 p-8 bg-slate-50 rounded-xl border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Need a Licensed Oklahoma Process Server?</h3>
                 <p className="mb-6">
-                  At <strong>Just Legal Solutions</strong>, we understand the nuances of Title 12. We ensure every serve is performed legally, whether it&apos;s personal delivery or substituted service on a co-resident, so your case moves forward without procedural hiccups.
+                  At <strong>Just Legal Solutions</strong>, we follow the service method Oklahoma law requires for each document—personal delivery where mandatory, substituted service only where permitted—so your case moves forward without procedural hiccups.
                 </p>
                 <div className="flex gap-4">
                   <Link href="/contact" className="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
