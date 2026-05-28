@@ -134,7 +134,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       description:
         'Active-duty military members have special protections under the Servicemembers Civil Relief Act (SCRA).',
       details:
-        'The SCRA (50 U.S.C. § 3901 et seq.) provides protections for active-duty service members, including potential stays of proceedings. Personal service is still required, but you must be mindful of SCRA requirements. The court may require an affidavit of non-military service before entering a default judgment. If the service member is stationed on a military base, coordinated base access may be needed. Personal service is the gold standard here — substituted service or mail should only be used as fallback with court approval.',
+        'The SCRA (50 U.S.C. § 3901 et seq.) provides protections for active-duty service members, including potential stays of proceedings. Personal service is still required, but you must be mindful of SCRA requirements. The court may require an affidavit of non-military service before entering a default judgment. If the service member is stationed on a military base, coordinated base access may be needed. Personal service is the gold standard here. Residential substituted service under § 2004(C)(1) may be used where permitted without court approval; publication and other court-ordered methods require judicial authorization.',
       statute: '50 U.S.C. § 3901 et seq. (SCRA)',
       statuteUrl: 'https://www.justice.gov/civil/servicemembers-civil-relief-act-scra',
       pros: ['Fully compliant with federal protections', 'Clear proof of service', 'Avoids SCRA-related challenges'],
@@ -529,20 +529,16 @@ export default function ServiceMethodWizard() {
 
         <div className="bg-white border border-gray-200 rounded-lg p-5">
           <h3 className="text-base font-semibold text-navy mb-2">
-            Substituted Service (12 O.S. § 2004(C)(2))
+            Substituted Service (12 O.S. § 2004(C)(1))
           </h3>
           <p className="text-text-dark text-sm">
-            Substituted service allows delivery to a person of suitable age and
-            discretion residing at the defendant\'s dwelling house or usual place of
-            abode. This method is useful when the defendant is not personally available
-            but someone else at their residence can accept service. It is not available
-            for all document types and has specific requirements that must be met.
+            Residential substituted service under § 2004(C)(1) allows delivery to a person at least 15 years old who resides at the defendant\'s dwelling house or usual place of abode, in some civil cases when that method is permitted. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas, government agencies, and corporations require personal delivery to specified persons.
           </p>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-lg p-5">
           <h3 className="text-base font-semibold text-navy mb-2">
-            Service by Certified Mail (12 O.S. § 2004(D))
+            Service by Certified Mail (12 O.S. § 2004(C)(2))
           </h3>
           <p className="text-text-dark text-sm">
             Certified mail with return receipt requested is permitted for certain
@@ -569,7 +565,7 @@ export default function ServiceMethodWizard() {
 
         <div className="bg-white border border-gray-200 rounded-lg p-5">
           <h3 className="text-base font-semibold text-navy mb-2">
-            Secretary of State Service (12 O.S. § 2004(C)(1))
+            Secretary of State Service (12 O.S. § 2004)
           </h3>
           <p className="text-text-dark text-sm">
             Oklahoma corporations and LLCs must maintain a registered agent for

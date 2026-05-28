@@ -58,7 +58,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'Do I pay extra if the defendant cannot be served?',
-    answer: 'Most reputable Oklahoma servers — including us — bill for diligent attempts even if the defendant ultimately cannot be located. The fee covers the field work, GPS evidence, and the affidavit of non-service that you need to petition for substitute service or service by publication under 12 O.S. § 2004. Skip tracing (starts at $50) is offered separately to confirm or update the address before attempts.'
+    answer: 'Most reputable Oklahoma servers — including us — bill for diligent attempts even if the defendant ultimately cannot be located. The fee covers the field work, GPS evidence, and the affidavit of non-service that you need for service by publication under 12 O.S. § 2004(C)(3), or to document residential substituted service under § 2004(C)(1) where permitted. Skip tracing (starts at $50) is offered separately to confirm or update the address before attempts.'
   },
   {
     question: 'How does pricing differ for rural vs. metro service?',

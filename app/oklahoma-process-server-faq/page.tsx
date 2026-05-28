@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     'article:published_time': '2026-01-01',
     'article:modified_time': '2026-02-17',
     'ai-content-type': 'faq',
-    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $35-$265 in Oklahoma depending on complexity. Servers must be 18+, licensed, and bonded ($5,000). Service includes personal delivery or substituted service on residents 15+. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $35-$265. Servers must be 18+, licensed, bonded ($5,000). Residential substituted service under § 2004(C)(1) permitted in some civil cases with resident 15+; subpoenas and entity/government service require personal delivery. Just Legal Solutions serves all 77 Oklahoma counties.',
     'ai-key-facts': 'Process serving costs $35-$265 in Oklahoma, must be 18+ and posted $5,000 bond, substituted service requires resident 15+, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
   },
 };
@@ -117,7 +117,7 @@ const faqSchema = {
       "name": "What are the 2026 rules for substituted service in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Substituted service may be made at the defendant's dwelling house or usual place of abode with some person residing therein who is at least 15 years of age, per 12 O.S. § 2004(C)(1)(c)(i)."
+        "text": "Under 12 O.S. § 2004(C)(1), residential substituted service may be made at the dwelling with a person at least 15 years of age who resides there, when that method is allowed. Subpoenas, government agencies, and corporations require personal delivery to specified persons. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service."
       }
     },
     {
@@ -281,7 +281,7 @@ const faqCategories = [
         answer: "Oklahoma process serving is governed by Title 12 of Oklahoma Statutes. Key provisions include:",
         details: [
           "Personal Service (12 O.S. § 2004(C)(1)(c)(i)): Direct delivery to the defendant personally.",
-          "Substituted Service (12 O.S. § 2004(C)(1)(c)(i)): Service at the dwelling with a resident at least 15 years of age.",
+          "Substituted Service (12 O.S. § 2004(C)(1)): Where permitted, service at the dwelling with a resident at least 15 years of age. Not available for subpoenas, government agencies, or corporations.",
           "Service by Publication (12 O.S. § 2004(C)(4)): Used when defendant cannot be located after diligent search.",
           "Certified Mail (12 O.S. § 2004(C)(2)(c)): Service by mail with return receipt requested.",
           "Court-Ordered Alternative Service (12 O.S. § 2004(D)): Methods ordered by the court when other means fail.",
@@ -374,7 +374,7 @@ const faqCategories = [
         answer: "Professional process servers have multiple strategies for difficult-to-locate defendants:",
         details: [
           "Diligent Search: Documented efforts to locate the individual.",
-          "Substituted Service: Service on a resident member of the household at least 15 years old.",
+          "Substituted Service: Where § 2004(C)(1) permits, service on a household resident at least 15 years old. Personal delivery required for subpoenas and most entity/government service.",
           "Stakeout Services: Monitoring known locations.",
           "Publication: If all efforts fail, service by publication may be pursued (12 O.S. § 2004(C)(4))."
         ]

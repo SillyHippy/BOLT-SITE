@@ -88,7 +88,7 @@ The preferred method involves delivering copies of the summons and petition dire
 
 ### Substituted Service
 
-When personal service proves difficult, Oklahoma law permits substituted service by leaving copies at the defendant's **dwelling house or usual place of abode** with a person **15 years of age or older** who resides there.
+Under **12 O.S. § 2004(C)(1)**, residential substituted service is permitted in **some civil cases** by leaving copies at the defendant's **dwelling house or usual place of abode** with a person **15 years of age or older** who resides there, when that method is allowed by law. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas, government agencies, and corporations require personal service on specified persons—not residential sub-service.
 
 ## Our Process Serving Services
 

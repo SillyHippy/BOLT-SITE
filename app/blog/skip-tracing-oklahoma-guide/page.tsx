@@ -262,7 +262,7 @@ export default function SkipTracingOklahomaGuide() {
 
             <h2>From Trace to Service</h2>
             <p>Once the address is confirmed, we hand the file directly to a licensed process server. Because the trace and the service happen under one roof, there is no information loss between vendors and no extra coordination cost for you. Every attempt is GPS-tagged, photographed, and documented per the standards in our <Link href="/blog/understanding-the-affidavit-of-service">affidavit of service guide</Link>.</p>
-            <p>If, despite a clean trace, the defendant truly cannot be located, the documented trace report supports a motion for substitute service or service by publication under 12 O.S. § 2004 — see our <Link href="/blog/oklahoma-service-by-publication">service by publication guide</Link>.</p>
+            <p>If, despite a clean trace, the defendant truly cannot be located, the documented trace report supports due diligence for service by publication under 12 O.S. § 2004(C)(3) — see our <Link href="/blog/oklahoma-service-by-publication">service by publication guide</Link>.</p>
 
             <h2>Common Use Cases</h2>
             <ul>

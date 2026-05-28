@@ -276,7 +276,7 @@ A: In Oklahoma, landlords can post certain notices themselves, but formal court 
 LEGAL PROCEDURE QUESTIONS:
 
 Q: What is the difference between personal service and substitute service?
-A: Personal service means handing documents directly to the named person. Substitute service means leaving documents with another adult at the person's home or workplace when the person cannot be found after multiple attempts. Just Legal Solutions attempts personal service first and can pursue substitute service with court approval if needed.
+A: Personal service means handing documents directly to the named person. Under 12 O.S. § 2004(C)(1), residential substitute (abode) service is permitted in some civil cases by leaving copies with a resident 15 or older at the dwelling, when that method is allowed. Title 12 does not require a fixed number of prior personal attempts before that method. Subpoenas, government agencies, and corporations require personal delivery to specified persons. Just Legal Solutions follows the method each document type requires.
 
 Q: Can someone refuse to be served legal papers?
 A: No. In Oklahoma, a person cannot legally refuse service. If they refuse to take the documents, the process server can leave them at their feet ("drop service") and service is still considered complete. Just Legal Solutions documents all service attempts with GPS verification.
@@ -1322,7 +1322,7 @@ Our Solution:
 - Explain situation to client and opposing counsel
 - Re-serve to appropriate party at no charge (if our error)
 - Detailed affidavit explaining circumstances
-- In Oklahoma: Must serve adult 15+ at residence (substitute service)
+- In Oklahoma: Residential substitute service under § 2004(C)(1) may use adult 15+ at residence when permitted; subpoenas and entity/government service require personal delivery
 - For minors as defendants: Must serve parent/guardian
 - Court order for guardian ad litem if necessary
 
@@ -1358,7 +1358,7 @@ Our Counter-Tactics:
 - Skip trace to find alternative addresses
 - Two-server team strategy (one front, one back)
 - Video surveillance to document presence
-- Serve family member as substitute (with court approval)
+- Residential substitute service under § 2004(C)(1) where permitted (not for subpoenas or entity/government service)
 - Request court order for alternative service methods
 
 SCENARIO 6: "Gated Community - Cannot Access"
@@ -1587,7 +1587,7 @@ Complexity: Previous server reported verbal threats and aggressive dog
 Solution:
 - Two-server team deployed
 - Law enforcement notified and on standby
-- Morning service when defendant typically at work (served spouse instead via substitute service)
+- Morning service when defendant at work: residential substitute service under § 2004(C)(1) only where permitted for the document type
 - Video documentation of entire interaction
 - Dog secured by spouse before service
 Result: Substitute service completed safely, no confrontation, defendant properly notified
@@ -2113,7 +2113,7 @@ Description: Complete guide to filing and serving small claims court papers in O
 URL: https://www.youtube.com/watch?v=qDey9Ihtpys
 
 14. Substitute Service in Oklahoma | When Personal Service Fails
-Description: When personal service isn't possible in Oklahoma, substitute service under 12 O.S. § 2004(C)(1) may be your answer.
+Description: Under 12 O.S. § 2004(C)(1), residential substitute service is permitted in some Oklahoma civil cases when allowed by law; subpoenas and certain government or corporate service require personal delivery only.
 URL: https://www.youtube.com/watch?v=tEASEYhCM1o
 
 15. How to Serve a Business or Corporation in Oklahoma

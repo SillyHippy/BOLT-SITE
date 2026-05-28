@@ -436,7 +436,7 @@ export default function GPSTrackedProcessServing() {
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
               <h3 className="text-lg font-bold text-amber-900 mb-2">When GPS Evidence Is Most Critical</h3>
               <p className="text-amber-800">
-                GPS documentation is most valuable in default judgment proceedings where the defendant later claims non-receipt, contested eviction matters where tenants dispute proper notice, cases requiring substitute service or publication where multiple failed attempts must be documented, and post-judgment enforcement actions where the defendant challenges the validity of original service.
+                GPS documentation is most valuable in default judgment proceedings where the defendant later claims non-receipt, contested eviction matters where tenants dispute proper notice, cases requiring residential substituted service under § 2004(C)(1) where permitted, or publication under § 2004(C)(3) where due diligence must be documented, and post-judgment enforcement actions where the defendant challenges the validity of original service.
               </p>
             </div>
           </div>

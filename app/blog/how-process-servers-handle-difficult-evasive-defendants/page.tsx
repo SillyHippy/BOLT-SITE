@@ -40,7 +40,7 @@ const faqs = [
   {
     question: "How many attempts will a process server make before giving up?",
     answer:
-      "The number of attempts depends on the service package and the situation. At Just Legal Solutions, our triple-attempt package includes three strategically timed attempts at different times of day and days of the week. For particularly evasive defendants, we may recommend extended services with additional attempts. If personal service remains impossible after diligent efforts, we document every attempt thoroughly to support a motion for substituted service or service by publication under Title 12 O.S. § 2004.",
+      "The number of attempts depends on the service package and the situation. At Just Legal Solutions, our triple-attempt package includes three strategically timed attempts at different times of day and days of the week. For particularly evasive defendants, we may recommend extended services with additional attempts. If personal delivery is not accomplished, we use residential substituted service where § 2004(C)(1) permits it, document every attempt thoroughly, and pursue court-authorized publication under § 2004(C)(3) when due diligence supports it.",
   },
   {
     question: "What is skip tracing and how does it help find evasive defendants?",
@@ -55,7 +55,7 @@ const faqs = [
   {
     question: "What happens if a defendant absolutely cannot be found?",
     answer:
-      "If all reasonable attempts at personal service fail, the process server will provide detailed documentation of every attempt, including dates, times, locations, and descriptions of what occurred. This affidavit can be used to support a motion for alternative service methods, such as substituted service on a resident adult, service by certified mail, or in some cases, service by publication in a newspaper of general circulation. The court must approve these alternative methods before they can be used.",
+      "The process server documents every attempt with dates, times, locations, and GPS evidence. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave papers with a resident adult 15+ at the dwelling. Subpoenas and entity or government service require personal delivery. Service by publication under § 2004(C)(3) and other alternative methods require court approval and due diligence where applicable.",
   },
 ];
 

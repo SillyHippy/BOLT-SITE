@@ -138,7 +138,7 @@ Just Legal Solutions employs specialized strategies for serving documents around
 - **Seasonal Timing:** We track peak occupancy periods and schedule service attempts accordingly
 - **Multiple Attempt Protocol:** We understand that one visit is rarely sufficient for lake properties
 - **Local Intelligence:** We maintain awareness of tournament schedules, holiday weekends, and community events
-- **Alternative Service Methods:** When personal service proves impossible, we assist with obtaining court orders for substituted service
+- **Alternative Service Methods:** Where § 2004(C)(1) permits residential substituted service, we follow that method; for publication under § 2004(C)(3) or other alternatives, we assist with court orders when due diligence is required
 
 ---
 

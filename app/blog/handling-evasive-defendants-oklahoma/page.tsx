@@ -190,7 +190,7 @@ export default function EvasiveDefendantsPage() {
                 Quick Answer: Handling Evasive Defendants
               </h2>
               <p className="text-blue-800 mb-4">
-                <strong>When a defendant avoids service in Oklahoma, you must demonstrate "due diligence" under 12 O.S. § 2004 before pursuing alternative methods.</strong> This includes multiple service attempts at various times, professional skip tracing, thorough documentation, and potentially stakeout operations. If personal service remains impossible, courts may authorize substituted service or service by publication. Defendants cannot escape legal consequences by evading service—courts recognize refusal to accept documents as valid service when properly documented.
+                <strong>When a defendant avoids service in Oklahoma, document every attempt.</strong> Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may be used in some civil cases at a dwelling with a resident 15+—Title 12 does not prescribe a fixed number of prior personal attempts before that method. Service by publication under § 2004(C)(3) requires proof of due diligence to the court. Subpoenas and entity or government service require personal delivery only. Defendants cannot escape legal consequences by evading service—courts recognize refusal to accept documents as valid service when properly documented.
               </p>
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 <div className="bg-white rounded-lg p-4 border border-blue-100">
@@ -371,13 +371,13 @@ export default function EvasiveDefendantsPage() {
             <h2>Alternative Service Methods for Evasive Defendants</h2>
 
             <p>
-              When personal service proves impossible despite due diligence efforts, Oklahoma law provides alternative methods under 12 O.S. § 2004. These methods require court approval and must follow specific procedures.
+              When personal delivery is not accomplished, residential substituted service under § 2004(C)(1) may be used where permitted. Service by publication and other court-ordered alternatives under § 2004(C)(3) require court approval and due diligence. Subpoenas and entity or government service require personal delivery.
             </p>
 
             <h3>Substituted Service</h3>
 
             <p>
-              Substituted service involves leaving documents with a responsible person at the defendant's residence or place of business. Under Oklahoma law:
+              Residential substituted service under § 2004(C)(1) involves leaving documents with a resident at the defendant's dwelling when that method is permitted. Subpoenas and entity or government service require personal delivery. Under Oklahoma law:
             </p>
 
             <ul>
@@ -385,11 +385,11 @@ export default function EvasiveDefendantsPage() {
               <li>Service at a residence requires leaving documents with a family member or resident</li>
               <li>Service at a business requires leaving documents with a manager, supervisor, or responsible employee</li>
               <li>The person receiving documents should be informed of their contents and importance</li>
-              <li>Due diligence attempts at personal service must be documented first</li>
+              <li>Documentation of each attempt supports reasonableness if service is challenged</li>
             </ul>
 
             <p>
-              Substituted service is often effective when defendants are avoiding direct contact but haven't instructed everyone to refuse documents. It's less drastic than publication and typically approved more readily by courts.
+              Residential substituted service under § 2004(C)(1) may be effective when the defendant is not home but a qualifying resident accepts papers—where that method is permitted for the document type. It is separate from service by publication, which requires court approval and due diligence.
             </p>
 
             <h3>Service by Posting</h3>

@@ -254,7 +254,7 @@ export default function ProcessServingMistakesGuide() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Mistake #5: Alternative Service Procedure Violations</h2>
           <h3 className="text-xl font-bold mb-2">The Problem</h3>
-          <p>When personal service proves impossible, Oklahoma law permits alternative service methods under 12 O.S. §2004(D). However, improper alternative service procedures frequently invalidate service and violate due process requirements.</p>
+          <p>When personal delivery is not accomplished, residential substituted service under § 2004(C)(1) may apply where permitted. Service by publication and other court-ordered alternatives under § 2004(C)(3) require due diligence and court approval. Improper procedures frequently invalidate service.</p>
           <h3 className="text-xl font-bold mb-2">Alternative Service Requirements</h3>
           <ul className="list-disc ml-6 mb-4">
             <li>Multiple address verification attempts</li>

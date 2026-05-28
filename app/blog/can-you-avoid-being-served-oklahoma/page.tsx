@@ -42,7 +42,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "What happens if you hide from a process server?",
-    answer: "If you hide from a process server, they will typically make multiple attempts at different times and days. If personal service proves impossible, the plaintiff can request court authorization for alternative service methods such as substituted service (leaving papers with a co-resident) or service by publication (newspaper notice). The case proceeds regardless."
+    answer: "If you hide from a process server, lawful service can still occur. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave papers with a co-resident 15 or older at the dwelling. Subpoenas and certain government or corporate service require personal delivery only. Service by publication under § 2004(C)(3) requires court approval and due diligence. The case proceeds regardless."
   },
   {
     question: "How many times will a process server try to serve you?",
@@ -147,7 +147,7 @@ export default function CanYouAvoidBeingServedOklahoma() {
             <p>Under <strong>12 O.S. § 2004</strong>, Oklahoma law provides a hierarchy of service methods designed specifically for situations where personal delivery isn&apos;t possible:</p>
             <ol>
               <li><strong>Personal delivery</strong> (the preferred method)</li>
-              <li><strong>Substituted service</strong> (leaving papers with a co-resident age 15+)</li>
+              <li><strong>Residential substituted service</strong> under § 2004(C)(1) where permitted (co-resident age 15+ at dwelling—not for subpoenas or entity/government service)</li>
               <li><strong>Service by mail</strong> (certified mail, return receipt requested)</li>
               <li><strong>Service by publication</strong> (newspaper notice when other methods fail)</li>
             </ol>

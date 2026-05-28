@@ -55,7 +55,7 @@ const faqs = [
   {
     question: 'Is GPS tracking included in every service tier?',
     answer:
-      'Yes. All three tiers—Standard, Rush, and Same-Day—use GPS-tracked attempts with timestamped logs. Each attempt records location data and time of visit so that your affidavit is backed by objective technology. This is especially helpful if opposing counsel questions whether diligent attempts were made before seeking substitute service or publication under Oklahoma rules.',
+      'Yes. All three tiers—Standard, Rush, and Same-Day—use GPS-tracked attempts with timestamped logs. Each attempt records location data and time of visit so that your affidavit is backed by objective technology. This is especially helpful if opposing counsel questions diligence for service by publication under § 2004(C)(3); Title 12 does not prescribe a fixed number of prior attempts before residential substituted service under § 2004(C)(1).',
   },
   {
     question: 'When should I upgrade from Standard to Rush or Same-Day service?',

@@ -57,7 +57,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How must UCCJEA enforcement papers be served in Oklahoma?',
-    answer: 'Under 43 O.S. § 551-309, the petition and order must be served on the respondent and any person who has physical custody of the child "in the manner provided in Section 2004 of Title 12 of the Oklahoma Statutes." This means service must comply with Oklahoma\'s standard civil procedure rules: typically personal delivery, substituted service on a person 15 or older at the respondent\'s dwelling, or in some cases certified mail. Service must be performed by a licensed process server, sheriff\'s deputy, or other person authorized under 12 O.S. § 2004.',
+    answer: 'Under 43 O.S. § 551-309, the petition and order must be served on the respondent and any person who has physical custody of the child "in the manner provided in Section 2004 of Title 12 of the Oklahoma Statutes." This means service must comply with Oklahoma\'s standard civil procedure rules: personal delivery where required, residential substituted service under § 2004(C)(1) on a person 15 or older at the respondent\'s dwelling when permitted, or certified mail where authorized. Service must be performed by a licensed process server, sheriff\'s deputy, or other person authorized under 12 O.S. § 2004.',
   },
   {
     question: 'How long does the other parent have to contest registration of an out-of-state custody order?',
@@ -321,7 +321,7 @@ export default function BlogPost() {
 
           <h3>Service Methods Under 12 O.S. § 2004</h3>
           <p>
-            Once you have identified who needs to be served, the how is governed by 12 O.S. § 2004, Oklahoma's general service of process statute. The primary method is personal delivery — handing the documents directly to the person being served. If the respondent or third-party custodian is not available, substituted service on a person 15 years or older at their dwelling house or usual place of abode is permitted. Service by certified mail is an option in some circumstances. And for out-of-state persons, 43 O.S. § 551-108 provides additional flexibility, allowing service under Oklahoma law or under the law of the state where service is actually made.
+            Once you have identified who needs to be served, the how is governed by 12 O.S. § 2004, Oklahoma's general service of process statute. The primary method is personal delivery — handing the documents directly to the person being served. Where § 2004(C)(1) permits, residential substituted service may leave papers with a person 15 years or older at their dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Service by certified mail is an option in some circumstances. And for out-of-state persons, 43 O.S. § 551-108 provides additional flexibility, allowing service under Oklahoma law or under the law of the state where service is actually made.
           </p>
           <p>
             One practical consideration that comes up frequently: service must be completed within 180 days of filing under 12 O.S. § 2004(I). For UCCJEA registration cases, this is rarely an issue. But for expedited enforcement cases, the 180-day limit is almost irrelevant because the next-judicial-day hearing requirement makes delay functionally impossible. The real constraint is not the statutory deadline — it is the emotional and legal cost of every hour the child remains separated from the petitioner.

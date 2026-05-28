@@ -66,7 +66,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "What happens if my spouse avoids being served divorce papers in Oklahoma?",
-    answer: "If personal service fails after diligent attempts, Oklahoma law provides alternative service methods including substituted service (leaving documents with someone at the residence who is at least 15 years old), certified mail with return receipt, or posting at the residence entrance. As a last resort, the court may authorize service by publication in a newspaper. An experienced process server documents all attempts, which supports a motion for alternative service if needed."
+    answer: "Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave documents with a resident at least 15 years old at the dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas and entity or government service require personal delivery. Certified mail, posting (where authorized), and service by publication under § 2004(C)(3) are separate methods with their own rules. An experienced process server documents every attempt and follows the method each document type requires."
   }
 ];
 

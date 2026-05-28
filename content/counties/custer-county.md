@@ -177,7 +177,7 @@ Yes, we can attempt service at the Custer County Courthouse at 603 B St in Arapa
 Yes, we regularly serve students and staff in Weatherford and understand campus procedures.
 
 **What if the person won't answer the door?**
-We make multiple attempts at different times and days. If necessary, we can pursue substituted service or publication with court approval.
+We document every attempt with GPS logs. Where permitted under 12 O.S. § 2004(C)(1), we may use residential substituted service; subpoenas and entity or government service require personal delivery. Service by publication under § 2004(C)(3) requires court approval and proof of due diligence.
 
 **How much does process serving cost in Custer County?**
 Rates vary based on location urgency and difficulty. Contact us for a specific quote for your case.

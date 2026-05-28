@@ -279,7 +279,7 @@ export default function ProofOfServiceGuidePage() {
           <h3>How: Method of Service</h3>
 
           <p>
-            The proof of service must specify the method by which service was accomplished - whether personal delivery to the defendant, substituted service on a household member, nail-and-mail service, service on an agent, or another authorized method. Each method has specific statutory requirements that must be documented to demonstrate compliance.
+            The proof of service must specify the method by which service was accomplished - whether personal delivery to the defendant, residential substituted service under § 2004(C)(1) where permitted, nail-and-mail or posting where authorized, service on a designated agent or registered agent, or another method the statute requires for that document type. Each method has specific statutory requirements that must be documented to demonstrate compliance.
           </p>
 
           <h2 id="types-of-service">Types of Service and Their Documentation Requirements</h2>

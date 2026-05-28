@@ -321,7 +321,7 @@ export default function SubstituteServiceOklahoma() {
             <p>For general civil substitute service (abode service), mailing is <strong>not statutorily required</strong> under 12 O.S. § 2004, though some attorneys prefer to mail courtesy copies as a best practice.</p>
 
             <h2>Getting Judicial Approval for Substitute Service</h2>
-            <p>In some situations, you need a judge&apos;s permission before using substitute service methods. This typically requires filing a <strong>motion for substituted service</strong> with the court.</p>
+            <p>Court approval is required for posting (outside authorized contexts), publication, and other court-ordered methods—not for standard residential substituted service under § 2004(C)(1) where that method is permitted. Posting and similar methods typically require filing a <strong>motion for substituted service</strong> with the court.</p>
 
             <h3>When Court Approval Is Required</h3>
             <p>Court approval is generally needed when:</p>

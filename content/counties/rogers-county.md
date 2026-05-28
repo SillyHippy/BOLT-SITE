@@ -112,11 +112,12 @@ The gold standard for process serving, personal service involves delivering docu
 
 ### Substituted Service
 
-When personal delivery isn't possible, Oklahoma law permits substituted service by:
+Under 12 O.S. § 2004(C)(1), residential substituted service is permitted in some civil cases by:
 
 - Leaving copies at the defendant's dwelling house or usual place of abode
-- Delivering to a person of suitable age and discretion (15 years or older) residing at the location
-- Service on a person authorized by appointment or law to receive service
+- Delivering to a person at least 15 years old who resides at the location, when that method is allowed
+
+Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas, government agencies, and corporations require personal delivery to specified persons—not residential sub-service. Authorized agents may accept service only where the statute allows.
 
 ### Corporate Service
 

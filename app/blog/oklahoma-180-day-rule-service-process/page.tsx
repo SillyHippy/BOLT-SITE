@@ -263,7 +263,7 @@ export default function BlogPost() {
             <li>
               <strong>Have a backup plan.</strong> If initial attempts fail,
               be ready to escalate to skip tracing, alternative service
-              methods, or a motion for substituted service.
+              methods, or residential substituted service under § 2004(C)(1) where permitted.
             </li>
           </ul>
           <p className="mb-4">

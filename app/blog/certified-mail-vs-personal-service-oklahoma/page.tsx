@@ -177,7 +177,7 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
             </ol>
 
             <h3>Substituted Service as an Alternative</h3>
-            <p>When direct personal service isn&apos;t possible, Oklahoma law permits substituted service under <strong>12 O.S. § 2004(C)(1)</strong>. This involves leaving copies with:</p>
+            <p>Where permitted under <strong>12 O.S. § 2004(C)(1)</strong>, Oklahoma law allows residential substituted service. This involves leaving copies with:</p>
             <ul>
               <li>A person of suitable age and discretion (15 years or older) who resides at the defendant&apos;s dwelling house or usual place of abode</li>
               <li>An authorized agent for business entities</li>

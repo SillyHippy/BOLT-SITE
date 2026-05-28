@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: 'What if the person I am trying to serve avoids service or cannot be found?',
-    answer: 'If a defendant actively avoids service or cannot be located, you have several options. A professional process server can conduct stakeouts and multiple attempts at different times. If personal service remains impossible after diligent effort, you may petition the court for alternative service methods such as substituted service, certified mail, or publication. Oklahoma courts require documented proof of diligent attempts before granting alternative service.',
+    answer: 'If a defendant actively avoids service or cannot be located, you have several options. A professional process server can conduct stakeouts and multiple attempts at different times. Where permitted under § 2004(C)(1), residential substituted service may be used in some civil cases. Service by publication under § 2004(C)(3) requires court approval and proof of due diligence. Subpoenas and entity or government service require personal delivery.',
   },
   {
     question: 'What is a proof of service affidavit and why do I need one?',

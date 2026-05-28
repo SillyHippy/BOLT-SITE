@@ -243,7 +243,7 @@ export default function BlogPost() {
 
           <h3>Skip-Tracing Contractors With No Fixed Office</h3>
           <p>
-            Many subcontractors operate from pickup trucks and cell phones with no permanent office. Due diligence requires attempting service at the last-known address, attempting registered agent service, and checking Secretary of State records before a motion for substituted service can be pursued. Our team uses advanced skip-tracing techniques to locate evasive defendants before deadlines expire. One critical warning: never attempt improvised service methods without court approval — improper service can void a lien or bond claim entirely.
+            Many subcontractors operate from pickup trucks and cell phones with no permanent office. Due diligence requires attempting service at the last-known address, attempting registered agent service, and checking Secretary of State records before a motion for alternative entity service (such as Secretary of State service) can be pursued—residential substituted service under § 2004(C)(1) is a separate method with no fixed prior-attempt requirement. Our team uses advanced skip-tracing techniques to locate evasive defendants before deadlines expire. One critical warning: never attempt improvised service methods without court approval — improper service can void a lien or bond claim entirely.
           </p>
 
           <h2>Bond Claims vs. Lien Claims: Understanding the Different Service Requirements</h2>

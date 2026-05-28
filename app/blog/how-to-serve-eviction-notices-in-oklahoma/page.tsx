@@ -97,7 +97,7 @@ export default function EvictionNoticeGuide() {
             { "@type": "HowToStep", "name": "Determine the Correct Notice Type", "text": "For nonpayment, serve a 5-Day Notice to Quit under Title 41. For lease violations, a 15-Day Notice. For FED lawsuits, use the court-issued FED Summons." },
             { "@type": "HowToStep", "name": "Prepare the Notice with Required Information", "text": "Include the tenant's name, property address, reason for eviction, deadline to cure or vacate, and landlord signature." },
             { "@type": "HowToStep", "name": "Hire a Process Server for FED Summons", "text": "Title 41 notices (ages 12+) can be served by the landlord. FED Summonses (Title 12) require a licensed process server (age 15+ for substituted service). Call (539) 367-6832." },
-            { "@type": "HowToStep", "name": "Serve the Notice", "text": "Attempt personal service first. If unavailable, leave with a resident 12+ (Title 41) or 15+ (FED), then mail a copy the same day." },
+            { "@type": "HowToStep", "name": "Serve the Notice", "text": "Use the method the document requires: Title 41 notices may allow substitute service on a family member 12+ or posting plus mailing; FED summons under Title 12 generally require personal service or substitute service on a resident 15+ at the dwelling when permitted, with posting-and-mailing only where 12 O.S. § 1148.5 or § 1148.5A authorize it." },
             { "@type": "HowToStep", "name": "Document and Return Proof of Service", "text": "Your process server provides an affidavit of service. File it with the district court clerk to proceed with your FED case." }
           ]
         })

@@ -91,7 +91,7 @@ export const featuredVideos: Video[] = [
   {
     videoId: '-rKfHjqATaA',
     title: 'What Is Substitute Service? — Oklahoma Process Serving Explained',
-    description: 'Animated story-driven short explaining what substitute service means in Oklahoma and when courts allow alternatives to personal service.',
+    description: 'Animated short on Oklahoma residential substitute service under 12 O.S. § 2004(C)(1)—when abode service is allowed, and when personal delivery is required instead.',
     datePublished: '2026-05-08',
     duration: 'PT50S',
     relatedPage: '/blog/substitute-service-oklahoma',
@@ -302,7 +302,7 @@ export const featuredVideos: Video[] = [
   {
     videoId: 'tEASEYhCM1o',
     title: 'Substitute Service in Oklahoma | When Personal Service Fails — Your Legal Options',
-    description: 'When personal service isn\'t possible in Oklahoma, substitute service under 12 O.S. § 2004(C)(1) may be your answer. Learn how it works and when courts approve it.',
+    description: 'When personal delivery is not required or not possible in Oklahoma, residential substitute service under 12 O.S. § 2004(C)(1) may apply where permitted. Learn how it works and which documents require personal delivery only.',
     datePublished: '2026-04-01',
     duration: 'PT10M0S',
     relatedPage: '/blog/substitute-service-oklahoma',
@@ -694,7 +694,7 @@ export const shorts: Video[] = [
   {
     videoId: '3-GEE8s0hIU',
     title: 'What Is Substitute Service',
-    description: 'What substitute service means in Oklahoma and when courts may allow alternatives to personal service.',
+    description: 'What residential substitute service means under 12 O.S. § 2004(C)(1) in Oklahoma, and which documents require personal delivery only.',
     datePublished: '2026-04-25',
     duration: 'PT60S',
     relatedPage: '/blog/substitute-service-oklahoma',

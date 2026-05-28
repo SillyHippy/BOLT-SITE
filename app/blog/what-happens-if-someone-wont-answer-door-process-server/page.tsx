@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "What happens if someone won't answer the door for a process server?",
-    answer: "If a defendant refuses to answer the door, the process server will typically make multiple attempts at different times of day and on different days. After several unsuccessful attempts, the server can pursue alternative methods including substitute service (leaving documents with a responsible adult at the residence), nail and mail (posting and mailing), or the plaintiff can petition the court for alternative service authorization. At Just Legal Solutions, our Triple-Attempt Package (our triple-attempt rate) is specifically designed for these situations, using strategic timing and surveillance techniques to catch evasive defendants."
+    answer: "If a defendant refuses to answer the door, the server documents each visit. Where permitted under 12 O.S. § 2004(C)(1), residential substitute service may leave documents with a resident 15+ at the dwelling—Title 12 does not prescribe a fixed number of prior personal attempts before that method. Posting or nail-and-mail may apply in specific contexts when authorized by statute. Subpoenas require personal delivery. Just Legal Solutions follows the method each document type requires and uses strategic timing to maximize lawful service."
   },
   {
     question: 'Can a process server legally enter private property to serve documents?',
@@ -52,11 +52,11 @@ const faqs = [
   },
   {
     question: 'What is nail and mail service in Oklahoma?',
-    answer: "'Nail and mail' is a colloquial term for posting service combined with mailing. Under Oklahoma law, after a process server has made diligent attempts to personally serve a defendant without success, they may be authorized to post the documents at the defendant's primary residence (typically taping or nailing to the door) and simultaneously mail a copy via first-class mail. This method requires court approval in most cases and must be followed by proper documentation. Nail and mail service is commonly used in eviction proceedings and civil cases where the defendant is actively evading service."
+    answer: "'Nail and mail' is a colloquial term for posting service combined with mailing. In Oklahoma evictions, 12 O.S. § 1148.5 authorizes posting and mailing when personal service cannot be made with reasonable diligence. For other civil cases, posting generally requires court authorization—it is not the same as residential substituted service under § 2004(C)(1), which leaves papers with a resident 15+ at the dwelling where permitted. Subpoenas require personal delivery."
   },
   {
     question: 'How many times will a process server try before giving up?',
-    answer: "At Just Legal Solutions, we never simply 'give up.' Our Standard Service includes multiple attempts during different time windows. Our Triple-Attempt Package (our triple-attempt rate) provides up to three separate delivery attempts at strategically different times — morning, afternoon, and evening — maximizing the chance of catching the defendant. If all attempts fail, we work with clients to pursue substitute service, court-authorized alternative service, or stakeout operations. The key is persistence and creativity, not accepting initial failures as final."
+    answer: "At Just Legal Solutions, we never simply 'give up.' Our Standard Service includes multiple attempts during different time windows. Our Triple-Attempt Package (our triple-attempt rate) provides up to three separate delivery attempts at strategically different times — morning, afternoon, and evening — maximizing the chance of catching the defendant. If personal delivery is not accomplished, we use residential substituted service where § 2004(C)(1) permits it, pursue court-authorized publication when due diligence supports it, or continue personal service where the law requires it. The key is persistence and creativity, not accepting initial failures as final."
   },
   {
     question: 'Can a process server conduct a stakeout to catch an evasive defendant?',

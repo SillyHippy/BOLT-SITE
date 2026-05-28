@@ -58,12 +58,12 @@ const faqs = [
   {
     question: 'How many times will a process server attempt service before giving up?',
     answer:
-      'At Just Legal Solutions, our standard protocol includes at least three to five attempts at different times of day and on different days of the week before escalating to alternative methods. Oklahoma law does not specify a fixed number of attempts required before pursuing substituted service, but courts generally expect reasonable diligence. Each attempt is documented with timestamps, location details, and GPS-verified proof of service records to demonstrate due diligence to the court.',
+      'Just Legal Solutions documents every attempt with GPS logs. Oklahoma law does not specify a fixed number of prior personal attempts before residential substituted service under § 2004(C)(1). Service by publication under § 2004(C)(3) requires proof of due diligence to the court. Each attempt is documented with timestamps, location details, and GPS-verified proof of service records to demonstrate due diligence to the court.',
   },
   {
     question: 'What is substituted service and how does it work in Oklahoma?',
     answer:
-      "Substituted service, also known as substituted service of process, allows legal documents to be served on someone other than the named defendant at the defendant's usual place of abode or business. Under Oklahoma law, the substituted recipient must be a person of suitable age and discretion who resides at or is employed at the location. This method requires that the server first make reasonable efforts to serve the defendant personally before resorting to substituted service.",
+      "Residential substituted service under § 2004(C)(1) allows legal documents to be left with a resident at the defendant's dwelling in some civil cases when that method is permitted. The substituted recipient must be at least 15 years old and reside at the dwelling. Subpoenas and entity or government service require personal delivery. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service under § 2004(C)(1)(c)(1). Subpoenas, government agencies, and corporations require personal delivery to specified persons.",
   },
   {
     question: 'Can I serve someone by certified mail in Oklahoma?',
@@ -73,7 +73,7 @@ const faqs = [
   {
     question: 'What is service by publication and when is it used?',
     answer:
-      'Service by publication is a last-resort method used when a defendant cannot be located through reasonable diligence, including skip tracing, multiple personal attempts, and substituted service. The plaintiff must publish a legal notice in a newspaper of general circulation in the area where the defendant was last known to reside. Oklahoma courts require an affidavit demonstrating all other methods were exhausted before granting permission for service by publication. This method is slow, costly, and should only be pursued when no other option exists.',
+      'Service by publication is a last-resort method under § 2004(C)(3) used when a defendant cannot be located after due diligence, including skip tracing and documented attempts. Residential substituted service under § 2004(C)(1) is a separate method that may be used where permitted without court approval. The plaintiff must publish a legal notice in a newspaper of general circulation in the area where the defendant was last known to reside. Oklahoma courts require an affidavit demonstrating all other methods were exhausted before granting permission for service by publication. This method is slow, costly, and should only be pursued when no other option exists.',
   },
   {
     question: 'How can a professional process server help with an evasive defendant?',
@@ -341,13 +341,7 @@ export default function BlogPost() {
             What qualifies as substituted service?
           </h3>
           <p className="mb-4">
-            For substituted service to be valid in Oklahoma, several conditions
-            must be met. The server must first have made reasonable attempts to
-            serve the defendant personally. The substituted recipient must be
-            someone who resides at the defendant's dwelling or works at the
-            defendant's place of employment. The recipient must be of "suitable
-            age and discretion," which generally means an adult who understands
-            the significance of accepting legal documents.
+            For residential substituted service under § 2004(C)(1) to be valid in Oklahoma, several conditions must be met where that method is permitted. Title 12 does not prescribe a fixed number of prior personal attempts before that method. The substituted recipient must be someone who resides at the defendant's dwelling and is at least 15 years old. Subpoenas and entity or government service require personal delivery—not residential sub-service. The recipient must understand the significance of accepting legal documents.
           </p>
           <p className="mb-4">
             A roommate, spouse, adult child, or coworker can typically qualify as
@@ -361,9 +355,7 @@ export default function BlogPost() {
             Workplace substituted service
           </h3>
           <p className="mb-4">
-            Serving a defendant at their workplace through a supervisor, human
-            resources representative, or coworker is also valid under Oklahoma
-            law, though it requires sensitivity. Many employers have policies
+            Workplace service generally requires personal delivery to the defendant or service on an authorized agent as the statute requires for that document type—not residential sub-service at a home address. Workplace attempts require sensitivity. Many employers have policies
             about accepting personal legal documents for employees, and some
             defendants may face professional embarrassment if served at work.
             Professional process servers understand how to navigate workplace

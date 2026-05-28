@@ -359,7 +359,7 @@ export default function BlogPost() {
             least three attempts at different times of day on different days.
             Professional process servers document each attempt meticulously,
             building a record that supports either successful personal service
-            or a motion for substituted service if the recipient cannot be
+            or residential substituted service under § 2004(C)(1) where permitted if the recipient cannot be
             located after reasonable diligence.
           </p>
           <p className="mb-4">

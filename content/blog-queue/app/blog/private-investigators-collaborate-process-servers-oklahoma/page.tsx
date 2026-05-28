@@ -69,7 +69,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'Can PI surveillance evidence be used to support alternative service requests in Oklahoma?',
-    answer: 'Yes. When a defendant cannot be personally served despite diligent efforts, a PI can document surveillance showing the defendant is actively evading service — such as confirming they reside at an address but refuse to answer the door. This evidence supports motions for substituted service under 12 O.S. § 2004(C)(1)(c)(2) or, in extreme cases, service by publication under 12 O.S. § 2004(C)(3). The PI\'s documentation strengthens the affidavit needed for court approval.',
+    answer: 'Yes. When a defendant cannot be personally served despite diligent efforts, a PI can document surveillance showing the defendant is actively evading service — such as confirming they reside at an address but refuse to answer the door. This evidence supports residential substituted service under 12 O.S. § 2004(C)(1) where permitted, or an affidavit of due diligence for service by publication under 12 O.S. § 2004(C)(3), which requires court approval.',
   },
   {
     question: 'What does "due diligence" mean before requesting service by publication in Oklahoma?',
@@ -241,7 +241,7 @@ export default function BlogPost() {
             Let&rsquo;s be crystal clear about what each professional is authorized to do under Oklahoma law:
           </p>
           <p>
-            A licensed process server can serve papers statewide in all 77 Oklahoma counties. They can attempt personal service, substituted service on a person 15 years or older at the dwelling under 12 O.S. § 2004(C)(1)(c)(2), and any other method authorized by statute. What they cannot do is conduct investigations — run database searches, perform surveillance, interview associates, or engage in skip tracing — unless they hold a separate CLEET PI license.
+            A licensed process server can serve papers statewide in all 77 Oklahoma counties. They can attempt personal service, residential substituted service on a person 15 years or older at the dwelling under 12 O.S. § 2004(C)(1), where that method is permitted, and any other method authorized by statute. What they cannot do is conduct investigations — run database searches, perform surveillance, interview associates, or engage in skip tracing — unless they hold a separate CLEET PI license.
           </p>
           <p>
             A licensed private investigator can conduct investigations, surveillance, background checks, and skip tracing. However, they can only serve legal papers if they are also separately licensed as a process server under 12 O.S. § 158.1. A PI without a process server license cannot serve papers in Oklahoma, period.
@@ -328,13 +328,13 @@ export default function BlogPost() {
 
           <h3>How PI Surveillance Supports Service of Process</h3>
           <p>
-            Surveillance is one of the most powerful tools a PI brings to the collaboration. Before a process server attempts substituted service — leaving papers with someone at the defendant&rsquo;s dwelling — a PI can verify who actually lives at the address. Under 12 O.S. § 2004(C)(1)(c)(2), Oklahoma allows substituted service on a person 15 years or older at the defendant&rsquo;s dwelling, which is one of the lowest age thresholds in the nation. But substituted service is only valid if it is directed at the defendant&rsquo;s actual residence. A PI&rsquo;s surveillance can confirm residency before your server takes that step.
+            Surveillance is one of the most powerful tools a PI brings to the collaboration. Before residential substituted service under § 2004(C)(1)—leaving papers with someone at the defendant&rsquo;s dwelling when that method is permitted—a PI can verify who actually lives at the address. Under 12 O.S. § 2004(C)(1), Oklahoma allows residential substituted service on a person 15 years or older at the defendant&rsquo;s dwelling in some civil cases, which is one of the lowest age thresholds in the nation. But substituted service is only valid if it is directed at the defendant&rsquo;s actual residence. A PI&rsquo;s surveillance can confirm residency before your server takes that step.
           </p>
           <p>
             Surveillance also documents evasion. When a PI observes the defendant entering their residence, sees lights turn on and off, notes vehicles coming and going, and then documents the defendant refusing to answer the door for a process server — that is powerful evidence. It demonstrates to the court that personal service was attempted but the defendant is actively avoiding it. GPS tracking for process servers adds another layer of accountability and documentation to these operations.
           </p>
           <p>
-            This surveillance evidence becomes the backbone of motions for alternative service methods. If you ultimately need to request service by publication or substituted service, the court will want to see that you made genuine, documented efforts to achieve personal service first. PI surveillance logs provide exactly that documentation.
+            This surveillance evidence supports proof of residency for residential substituted service under § 2004(C)(1) where permitted, and documents due diligence for service by publication under § 2004(C)(3), which requires court approval. Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service.
           </p>
 
           <h3>Social Media Forensics and Digital Footprints</h3>

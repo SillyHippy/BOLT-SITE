@@ -81,7 +81,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'Is substituted service different in rural Oklahoma compared to urban areas?',
-    answer: 'Under 12 O.S. § 2004(C)(1)(c)(2), substituted service requires leaving copies at the defendant\'s dwelling with a person 15 years or older residing therein. In rural areas, this is often more straightforward than urban settings because rural residents more frequently answer their own doors. However, verifying that a recipient actually resides at the property and is 15+ can be harder when neighbors are distant and properties are spread out. Rural servers document the recipient\'s apparent age, relationship to the defendant, and residence status carefully. The last thing you want is a court questioning whether the person who accepted service really lived at that address.',
+    answer: 'Under 12 O.S. § 2004(C)(1), residential substituted service—where permitted—requires leaving copies at the defendant\'s dwelling with a person 15 years or older residing therein. In rural areas, this is often more straightforward than urban settings because rural residents more frequently answer their own doors. However, verifying that a recipient actually resides at the property and is 15+ can be harder when neighbors are distant and properties are spread out. Rural servers document the recipient\'s apparent age, relationship to the defendant, and residence status carefully. The last thing you want is a court questioning whether the person who accepted service really lived at that address.',
   },
 ];
 

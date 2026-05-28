@@ -58,7 +58,7 @@ const faqs = [
   {
     question: "What happens if the defendant cannot be found?",
     answer:
-      "If personal service is unsuccessful after multiple attempts, your process server should document each attempt thoroughly. Depending on your court's approval, alternative service methods may include substituted service on a household member, service by certified mail, or in some cases, publication. A qualified process server will guide you through these options.",
+      "Your process server should document each attempt thoroughly and follow the service method Oklahoma law requires for your document type. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave papers with a household member 15+ at the dwelling. Subpoenas and entity or government service require personal delivery. Service by publication under § 2004(C)(3) requires court approval and due diligence. A qualified process server will guide you through these options.",
   },
 ];
 

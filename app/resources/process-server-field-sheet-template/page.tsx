@@ -347,7 +347,7 @@ export default function ProcessServerFieldSheetTemplate() {
               <CheckCircle className="w-8 h-8 text-green-400 mb-4" />
               <h3 className="text-lg font-semibold mb-2">Due Diligence Proof</h3>
               <p className="text-blue-100 text-sm">
-                Comprehensive records demonstrate the reasonable efforts required for substituted service.
+                Comprehensive records document each attempt and support service by publication under § 2004(C)(3) when due diligence is required; Title 12 does not prescribe a fixed number of prior attempts before residential substituted service under § 2004(C)(1).
               </p>
             </div>
 

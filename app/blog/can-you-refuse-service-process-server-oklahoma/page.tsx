@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "Can you legally refuse service from a process server in Oklahoma?",
     answer:
-      "Physically avoiding or refusing to accept papers does not stop the legal process. Under Title 12 O.S. \u00a7 2004, if a process server cannot achieve personal service after diligent attempts, the court can authorize alternative service methods such as substituted service, nail-and-mail (posting and mailing), or service by publication in a newspaper. Refusing service often makes the situation worse and more expensive.",
+      "Physically avoiding or refusing to accept papers does not stop the legal process. Under Title 12 O.S. \u00a7 2004, where permitted under 12 O.S. § 2004(C)(1), residential substituted service may be used in some civil cases; nail-and-mail or posting may apply in specific contexts such as evictions when authorized; service by publication under § 2004(C)(3) requires court approval and due diligence. Subpoenas and certain government or corporate service require personal delivery only. Refusing service often makes the situation worse and more expensive.",
   },
   {
     question: "What happens if I avoid being served in Oklahoma?",

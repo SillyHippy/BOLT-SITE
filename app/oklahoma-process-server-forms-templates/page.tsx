@@ -89,7 +89,7 @@ const schemaData = {
           name: 'What is a diligent search affidavit in Oklahoma?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A diligent search affidavit documents the efforts made to locate a defendant when personal service cannot be accomplished. In Oklahoma, this affidavit is required when seeking court approval for substitute service methods such as publication or service on a resident family member.',
+            text: 'A diligent search affidavit documents the efforts made to locate a defendant when personal service cannot be accomplished. In Oklahoma, this affidavit is required when seeking court approval for service by publication under § 2004(C)(3). Residential substituted service under § 2004(C)(1) at a dwelling with a resident 15+ does not require a fixed number of prior attempts, though documentation supports any challenged service.',
           },
         },
         {
@@ -340,7 +340,7 @@ const faqs = [
   },
   {
     question: 'What is a diligent search affidavit in Oklahoma?',
-    answer: 'A diligent search affidavit documents the efforts made to locate a defendant when personal service cannot be accomplished. In Oklahoma, this affidavit is required when seeking court approval for substitute service methods such as publication or service on a resident family member. The affidavit must detail all reasonable efforts made to locate the defendant, including database searches, address verification, contact with neighbors, workplace visits, and other investigative steps.',
+    answer: 'A diligent search affidavit documents the efforts made to locate a defendant when personal service cannot be accomplished. In Oklahoma, this affidavit is required when seeking court approval for service by publication under § 2004(C)(3). Residential substituted service under § 2004(C)(1) at a dwelling with a resident 15+ does not require a fixed number of prior attempts, though documentation supports any challenged service. The affidavit must detail all reasonable efforts made to locate the defendant, including database searches, address verification, contact with neighbors, workplace visits, and other investigative steps.',
   },
   {
     question: 'How long must Oklahoma process servers keep records?',

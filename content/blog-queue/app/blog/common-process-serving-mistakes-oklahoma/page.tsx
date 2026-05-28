@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     question: 'Why is GPS-verified proof of service important in Oklahoma?',
-    answer: 'GPS-verified proof of service provides indisputable evidence of the exact time, date, and location of each service attempt. This documentation is invaluable if service is challenged in court, if the defendant claims they were not served, or if you need to demonstrate due diligence for substituted service. At Just Legal Solutions, we provide GPS verification on all attempts, giving our clients peace of mind and a stronger legal position if service is questioned. Without this level of documentation, it becomes your word against the defendant\'s.',
+    answer: 'GPS-verified proof of service provides indisputable evidence of the exact time, date, and location of each service attempt. This documentation is invaluable if service is challenged in court, if the defendant claims they were not served, or if service is challenged or you need due diligence for service by publication under § 2004(C)(3). At Just Legal Solutions, we provide GPS verification on all attempts, giving our clients peace of mind and a stronger legal position if service is questioned. Without this level of documentation, it becomes your word against the defendant\'s.',
   },
 ];
 
@@ -142,7 +142,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Mistake #5: Inadequate Documentation of Service Attempts</h2>
           <p className="mb-4">
-            Every service attempt must be thoroughly documented. When a defendant is not served on the first attempt and you need to demonstrate due diligence for substituted service or request a court extension, the quality of your documentation can make or break your position. Vague notes, missing timestamps, incomplete address descriptions, and lack of detail about who was contacted and what was observed all weaken your case.
+            Every service attempt must be thoroughly documented. When service is challenged or you need due diligence for service by publication under § 2004(C)(3), the quality of your documentation can make or break your position. Residential substituted service under § 2004(C)(1) may be used where permitted without a fixed number of prior attempts. Vague notes, missing timestamps, incomplete address descriptions, and lack of detail about who was contacted and what was observed all weaken your case.
           </p>
           <p className="mb-4">
             Proper documentation includes the date and time of each attempt, the exact address visited, a description of the location, who answered the door or was present, what was said, any vehicles observed, and the specific reason service could not be completed if the attempt failed. Photos of the location, when appropriate and legally permissible, add additional verification.
@@ -173,7 +173,7 @@ export default function BlogPost() {
             Oklahoma 12 O.S. 2004.1 governs substituted service, which allows service to be completed by leaving copies at the defendant's dwelling with a person of suitable age and discretion when personal service cannot be achieved. This statute exists as an alternative to personal service, but it comes with strict requirements that must be followed precisely. Attempting substituted service without first demonstrating due diligence in trying personal service is a serious mistake.
           </p>
           <p className="mb-4">
-            Due diligence typically means multiple attempts at different times and days before resorting to substituted service. Courts expect to see a genuine effort to achieve personal service before approving substituted methods. Simply making one attempt and then leaving papers with a roommate or family member may not satisfy this requirement. Additionally, the person who receives the substituted service must be of suitable age and discretion, a standard that has specific interpretation under Oklahoma case law.
+            Under 12 O.S. § 2004(C)(1), residential substituted service is permitted in some civil cases at a dwelling with a resident 15 or older when that method is allowed. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Courts may scrutinize whether service was reasonable. Service by publication under § 2004(C)(3) requires proof of due diligence to the court. Subpoenas and certain government or corporate service require personal delivery only. Additionally, the person who receives the substituted service must be of suitable age and discretion, a standard that has specific interpretation under Oklahoma case law.
           </p>
           <p className="mb-4">
             Understanding Oklahoma's process server laws regarding substituted service is essential for both servers and the attorneys or litigants who hire them. An experienced, knowledgeable server will know when substituted service is appropriate and how to document the due diligence that supports it.

@@ -69,7 +69,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'What happens if a homeowner refuses to accept service of HOA documents in Oklahoma?',
-    answer: 'When a homeowner refuses service, Oklahoma law provides alternatives under 12 O.S. \u00a72004. If personal service is refused, the process server can document the refusal and the documents are considered served. For certified mail service, a returned envelope showing refusal constitutes service. After refusal, the server must mail a copy by first-class mail at least 10 days before applying for default judgment. If the homeowner cannot be located after diligent search, service by publication may be authorized by the court. Professional process servers document all refusal attempts with dates, times, and witness information to support substituted service methods in court.',
+    answer: 'When a homeowner refuses service, Oklahoma law provides alternatives under 12 O.S. \u00a72004. If personal service is refused, the process server can document the refusal and the documents are considered served. For certified mail service, a returned envelope showing refusal constitutes service. After refusal, the server must mail a copy by first-class mail at least 10 days before applying for default judgment. If the homeowner cannot be located after diligent search, service by publication may be authorized by the court. Professional process servers document all refusal attempts with dates, times, and witness information. Where § 2004(C)(1) permits, residential substituted service may apply; service by publication requires court approval and due diligence.',
   },
   {
     question: 'Are there special service requirements for condominium associations versus traditional HOAs in Oklahoma?',
@@ -201,7 +201,7 @@ export default function BlogPost() {
 
           <h3>When Individual Board Members Are Named Personally</h3>
           <p>
-            This is where HOA service gets genuinely uncomfortable. Sometimes a lawsuit names individual board members personally — not just in their official capacity, but as individuals. When that happens, each named board member must be served as an individual person, just like any other defendant. That means personal delivery or substitute service at their dwelling under 12 O.S. §2004(C)(1).
+            This is where HOA service gets genuinely uncomfortable. Sometimes a lawsuit names individual board members personally — not just in their official capacity, but as individuals. When that happens, each named board member must be served as an individual person, just like any other defendant. That means personal delivery or residential substituted service at their dwelling under 12 O.S. §2004(C)(1), where that method is permitted.
           </p>
           <p>
             Think about the dynamic here. These are neighbors serving on a volunteer board, often living in the same community as the person suing them. The interpersonal tension can be significant, and board members may be understandably upset about being named personally. Professional process servers approach these situations with discretion, professionalism, and a clear understanding that our job is to effect proper service — not to escalate conflict. We document everything meticulously, because personal service on board members is one of the most frequently challenged types of service in HOA litigation.
@@ -322,7 +322,7 @@ export default function BlogPost() {
 
           <h3>When Access Is Denied: Alternative Service Methods Under 12 O.S. §2004</h3>
           <p>
-            When we simply cannot gain access to a gated community after multiple diligent attempts, Oklahoma law gives us options — but they require court approval and meticulous documentation. Under 12 O.S. §2004(C)(1), we can use substitute service at the dwelling with any person 15 years of age or older who resides there. Oklahoma's 15-year-old threshold is notably lower than most states, and it is frequently challenged in court, which is why we always document the substitute recipient's apparent age and obtain as much identifying information as possible.
+            When we cannot gain access to a gated community, we document every attempt. Under 12 O.S. §2004(C)(1), residential substituted service at the dwelling with a person 15 years of age or older who resides there may be used where that method is permitted—Title 12 does not prescribe a fixed number of prior personal attempts before that method. Oklahoma's 15-year-old threshold is notably lower than most states, and it is frequently challenged in court, which is why we always document the substitute recipient's apparent age and obtain as much identifying information as possible.
           </p>
           <p>
             If substitute service isn't viable — perhaps because we can't reach the dwelling at all — service by publication becomes the last resort under 12 O.S. §2004.3. This requires publishing notice once weekly for three consecutive weeks in a newspaper of general circulation in the county, and it requires court approval after demonstrating that diligent search efforts have failed. It's not ideal — it's slow, it's expensive, and it doesn't always provide actual notice to the defendant — but it's the tool the law gives us when personal service is genuinely impossible.

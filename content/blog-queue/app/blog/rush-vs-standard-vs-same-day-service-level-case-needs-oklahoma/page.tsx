@@ -179,7 +179,7 @@ export default function BlogPost() {
             Standard service is exactly what it sounds like: the baseline, no-frills approach that works perfectly well when time is on your side. With most Oklahoma process servers, standard service means your first attempt happens within 3 to 10 business days of receiving the documents. At Just Legal Solutions, our standard service targets a first attempt within 10 business days and includes up to 3 attempts at varied times — morning, evening, and weekend — to maximize the chance of catching the defendant at home.
           </p>
           <p>
-            Standard service uses what we call "reasonable diligence" pacing. Your server makes multiple personal attempts before considering substituted service under 12 O.S. § 2004(C)(1). That statute requires reasonable diligence before leaving documents with a person 15 years or older at the defendant's dwelling. Standard service gives your server the breathing room to build that attempt record properly.
+            Standard service documents each attempt with GPS logs. Under 12 O.S. § 2004(C)(1), residential substituted service is permitted in some civil cases at a dwelling with a resident 15 or older when allowed by law; Title 12 does not prescribe a fixed number of prior personal attempts before that method. Service by publication under § 2004(C)(3) requires proof of due diligence to the court.
           </p>
           <p>
             Here's something important that many attorneys overlook: standard service produces the exact same legally valid service as rush or same-day. The affidavit of service under 12 O.S. § 2004(G) looks identical regardless of speed. The court doesn't care how fast the server moved. It cares that service was completed lawfully. Speed affects your timeline and your invoice — not the legal validity of the service itself.
@@ -228,7 +228,7 @@ export default function BlogPost() {
             One of our favorite use cases for rush service is what we call the "peace of mind upgrade." You're not in crisis mode. You don't have a hearing tomorrow. But you're at day 100, the defendant is at a known but unreliable address, and you just want the service off your plate. Rush buys you confidence without the same-day premium. It's insurance against case disruption, and in our experience, it's the tier that generates the most satisfied clients.
           </p>
           <p>
-            There's also a strategic angle that many attorneys miss: rush service for substituted service preparation. If you know the defendant is evasive and you'll likely need to move for substituted service, you need multiple documented attempts in a short timeframe. Rush service accelerates that attempt record, giving you the documentation you need to support a motion for substituted service well before the 180-day deadline.
+            There's also a strategic angle that many attorneys miss: rush service for substituted service preparation. If you need documentation for service by publication under § 2004(C)(3), rush service accelerates the attempt record courts expect for due diligence. Residential substituted service under § 2004(C)(1) does not require a fixed number of prior attempts by statute.
           </p>
 
           <h3>Rush vs. Standard: The Real Difference</h3>

@@ -67,7 +67,7 @@ const faqs = [
   {
     question: 'Can a process server leave papers with someone else?',
     answer:
-      'Yes. Under Oklahoma law, if personal service cannot be completed after diligent attempts, a process server may leave the documents with a person of suitable age and discretion who resides at the same dwelling. This is known as substituted service. The server must also mail a copy to the defendant\'s address. Our team at Just Legal Solutions follows all Oklahoma statutes precisely when executing substituted service.',
+      'Yes. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave documents with a person at least 15 years old who resides at the dwelling. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas and entity or government service require personal delivery. Just Legal Solutions follows the service method each document type requires.',
   },
   {
     question: 'What information will a legitimate process server ask for?',

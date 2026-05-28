@@ -13,18 +13,18 @@ const faqs = [
     question:
       "How many times will a process server attempt service before giving up?",
     answer:
-      "At Just Legal Solutions, we typically make three attempts at different times and days before recommending alternative service methods. Under Oklahoma law, there is no fixed statutory number of attempts required before seeking substitute service, but courts generally expect reasonable diligence—which we document meticulously with date-stamped photos, GPS logs, and detailed affidavits of every attempt.",
+      "Under Oklahoma law, Title 12 does not prescribe a fixed number of prior personal attempts before residential substituted service under § 2004(C)(1)(c)(1). Service by publication under § 2004(C)(3) requires proof of due diligence to the court. Just Legal Solutions documents every attempt with date-stamped photos, GPS logs, and detailed affidavits, and follows the service method each document type requires.",
   },
   {
     question:
       "Can I get substitute service approved if the defendant is actively avoiding service?",
     answer:
-      "Yes. If we can demonstrate that the defendant is intentionally evading service—such as by hiding, refusing to answer the door, or having neighbors confirm they are home but refusing to come to the door—Oklahoma courts routinely grant motions for substituted service. Our affidavits document these evasion patterns, which strengthens your motion significantly.",
+      "Yes. Where § 2004(C)(1) permits, residential substituted service may leave papers with a resident 15+ at the dwelling—Title 12 does not require a fixed number of prior personal attempts. Our affidavits document evasion patterns, which also supports due diligence for service by publication under § 2004(C)(3) if that method is needed.",
   },
   {
     question: "How long does the alternative service process take in Oklahoma?",
     answer:
-      "The timeline varies. After completing due diligence attempts, filing a motion for substitute service typically takes 1–2 weeks for a hearing date. If the court grants the motion, publication in an approved newspaper runs for four consecutive weeks. The entire process from first attempt to completed alternative service usually ranges from 6–10 weeks, depending on court scheduling.",
+      "The timeline varies by method. Residential substituted service under § 2004(C)(1) may be completed on a single visit where permitted. Service by publication under § 2004(C)(3) requires court approval, an affidavit of due diligence, and newspaper publication—often 6–10 weeks total depending on court scheduling.",
   },
   {
     question:
@@ -448,8 +448,7 @@ export default function BlogPost() {
             </p>
             <p>
               At <strong>Just Legal Solutions</strong>, our goal is always
-              personal service first. We view alternative service methods as
-              a safety net, not a primary strategy. Our 4.9-star rating and
+              the service method each document type requires under Title 12. Where substituted service is permitted, we may use it on the first attempt; where personal delivery is required, we pursue personal service only. Our 4.9-star rating and
               track record of successful serves across Oklahoma speak to our
               commitment to getting the job done right — even when the job
               is difficult.

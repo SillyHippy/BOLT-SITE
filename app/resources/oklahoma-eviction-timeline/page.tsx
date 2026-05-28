@@ -342,7 +342,7 @@ export default function OklahomaEvictionTimelinePage() {
                 },
                 {
                   issue: 'Tenant Avoiding Service',
-                  solution: 'Professional servers know legal methods for substituted service when tenants evade.',
+                  solution: 'Professional servers follow the method each eviction document requires—personal, substitute residential, or posting-and-mailing only where Oklahoma statutes authorize it.',
                   icon: UserCheck
                 },
               ].map((item, index) => (

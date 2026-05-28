@@ -61,7 +61,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'Can I use Oklahoma state service methods in federal court?',
-    answer: 'Yes. Under FRCP 4(e)(1), an individual may be served in the manner prescribed by the state law where the district court is located (Oklahoma) or where the service is made. This means Oklahoma\'s substituted service methods — such as leaving copies at the defendant\'s dwelling with a person 15 years or older who resides there — may be used in federal court. However, you must still comply with all federal requirements, including the 90-day deadline and proof of service by affidavit. Think of state methods as a tool in your federal toolbox, but the federal frame around that tool is non-negotiable.',
+    answer: 'Yes. Under FRCP 4(e)(1), an individual may be served in the manner prescribed by the state law where the district court is located (Oklahoma) or where the service is made. This means Oklahoma\'s residential substituted service under § 2004(C)(1)—leaving copies at the defendant\'s dwelling with a person 15 years or older who resides there, when permitted for that document type—may be used in federal court. However, you must still comply with all federal requirements, including the 90-day deadline and proof of service by affidavit. Think of state methods as a tool in your federal toolbox, but the federal frame around that tool is non-negotiable.',
   },
   {
     question: 'What are the court locations for filing and serving in each Oklahoma federal district?',

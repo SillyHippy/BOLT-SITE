@@ -198,7 +198,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             </ol>
 
             <h3>Service Requirements in Contract Cases</h3>
-            <p>When suing for breach of contract, proper service is critical. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, service must be made within 180 days of filing the petition. If you can&apos;t serve the defendant personally, Oklahoma allows substituted service on a person of suitable age and discretion (15 or older) who resides at the defendant&apos;s dwelling.</p>
+            <p>When suing for breach of contract, proper service is critical. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, service must be made within 180 days of filing the petition. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave copies with a person at least 15 years old who resides at the defendant&apos;s dwelling. Subpoenas and entity or government service require personal delivery to specified persons.</p>
             <p>For business defendants, service on the registered agent is usually the most reliable method. You can find registered agent information through the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> business entity search.</p>
 
             <h3>Common Contract Disputes for Small Businesses</h3>

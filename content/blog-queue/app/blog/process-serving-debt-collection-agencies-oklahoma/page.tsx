@@ -59,7 +59,7 @@ const faqs: { question: string; answer: string }[] = [
     question:
       'What are the acceptable methods of serving a debt collection lawsuit in Oklahoma?',
     answer:
-      'Oklahoma law (12 O.S. § 2004) permits several methods: (1) personal delivery to the defendant; (2) substituted service by leaving copies at the defendant\'s dwelling with a person 15+ years old who resides there; (3) certified mail with return receipt requested, restricted to the addressee; or (4) service by publication (requires court approval and 3 consecutive weeks in a newspaper). Personal delivery is the gold standard and least challengeable, especially in debt collection cases where defendants often try to avoid service.',
+      'Oklahoma law (12 O.S. § 2004) permits several methods: (1) personal delivery to the defendant; (2) residential substituted service under § 2004(C)(1) by leaving copies at the defendant\'s dwelling with a person 15+ who resides there, when that method is allowed (not for all document types); (3) certified mail with return receipt requested, restricted to the addressee; or (4) service by publication (requires court approval and 3 consecutive weeks in a newspaper). Personal delivery is the gold standard and least challengeable, especially in debt collection cases where defendants often try to avoid service.',
   },
   {
     question:

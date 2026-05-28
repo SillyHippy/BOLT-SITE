@@ -428,7 +428,7 @@ export default function ProcessServingForPropertyManagers() {
                   details: [
                     'This is where professional process serving is critical',
                     'The tenant must be personally served with the FED summons and petition',
-                    'If personal service fails, substituted service or posting rules apply (requires court approval in some cases)',
+                    'If personal service fails, residential substituted service under § 2004(C)(1) may apply where permitted; posting or nail-and-mail in evictions requires statutory authorization (e.g., 12 O.S. § 1148.5); publication requires court approval',
                   ],
                   note: null,
                 },
