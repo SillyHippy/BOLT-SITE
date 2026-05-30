@@ -362,7 +362,7 @@ export function Footer() {
         <div className="flex flex-wrap gap-3 mb-8">
           <button
             onClick={toggleForm}
-            className="ui-btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            className="ui-btn-primary"
             aria-expanded={showForm}
             aria-controls="serve-request-form-container"
           >
