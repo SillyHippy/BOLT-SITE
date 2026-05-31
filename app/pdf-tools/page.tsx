@@ -383,7 +383,7 @@ export default function PDFToolsPage() {
       {/* Quick-jump sticky nav */}
       <nav className="sticky top-0 z-40 bg-white border-b shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-3 overflow-x-auto">
-          <div className="flex gap-2 min-w-max">
+          <div className="flex gap-2 min-w-max" role="group" aria-label="PDF Tools Quick Navigation">
             {tools.map((tool) => {
               const colors = colorMap[tool.color];
               const Icon = tool.icon;
@@ -391,7 +391,8 @@ export default function PDFToolsPage() {
                 <button
                   key={tool.id}
                   onClick={() => handleSelectTool(tool.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${activeTool === tool.id
+                  aria-pressed={activeTool === tool.id}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${activeTool === tool.id
                     ? `${colors.bg} ${colors.border} ${colors.text}`
                     : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
                     }`}
@@ -498,7 +499,7 @@ export default function PDFToolsPage() {
             </div>
           )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" role="group" aria-label="Select PDF Tool">
             {tools.map((tool) => {
               const colors = colorMap[tool.color];
               const Icon = tool.icon;
@@ -508,7 +509,8 @@ export default function PDFToolsPage() {
                 <button
                   key={tool.id}
                   onClick={() => handleSelectTool(tool.id)}
-                  className={`text-left rounded-xl border-2 p-6 transition-all ${isActive
+                  aria-pressed={isActive}
+                  className={`text-left rounded-xl border-2 p-6 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${isActive
                     ? `${colors.bg} ${colors.border} ring-2 ring-offset-2 ${colors.ring}`
                     : `bg-white border-gray-200 ${colors.hoverBg} hover:shadow-md`
                     }`}
