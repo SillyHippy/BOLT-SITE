@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-summary': 'Professional process serving for Oklahoma HOA and condominium associations covering assessment collection lawsuits, covenant violation notices, foreclosure proceedings, and gated community access challenges. Services include serving individual homeowners, HOA boards, and management companies with GPS-tracked documentation and compliance with Title 60 statutes.',
-    'ai-key-facts': 'Oklahoma HOAs governed by Real Estate Development Act (60 O.S. §§851-858); Condominiums under Unit Ownership Estate Act (60 O.S. §§501-530); Assessment collection statute of limitations is 5 years; Oklahoma is judicial foreclosure state; Process servers must follow 12 O.S. §2004 service requirements; Gated community access requires cooperation with security personnel; HOA liens have priority over most other liens except property taxes and first mortgages; Substitute service permitted at dwelling house with person 15+ years old',
+    'ai-key-facts': 'HOAs under 60 O.S. §§851-858; condos under 60 O.S. §§501-530; 5-year assessment collection limit; judicial foreclosure; 12 O.S. §2004 service rules; residential substituted service under § 2004(C)(1) where permitted for civil HOA suits; gated community access has no automatic entry statute; (539) 367-6832',
   },
 };
 

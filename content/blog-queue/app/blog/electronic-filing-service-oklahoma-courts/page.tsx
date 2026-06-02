@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Guide to Oklahoma court e-filing via OSCN—pilot counties electronic, others physical filing. Process serving and e-filing are separate steps; filing a case does not satisfy service of process under 12 O.S. § 2004.',
+    'ai-key-facts': 'OSCN e-filing in pilot counties; service of process still requires authorized delivery method; court filing starts at $25; (539) 367-6832',
   
   
   },

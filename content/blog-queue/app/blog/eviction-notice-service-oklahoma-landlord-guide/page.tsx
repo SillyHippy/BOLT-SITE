@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Oklahoma landlord guide to serving eviction notices under Title 41—initial notices allow substitute service on family 12+ or posting plus mailing under 41 O.S. § 111(E). FED court summons under 12 O.S. § 1148.5 requires personal service or substitute on resident 15+.',
+    'ai-key-facts': '41 O.S. § 111(E) notice rules; FED summons under § 1148.5; posting requires mailing; separate rules for notice vs court summons; (539) 367-6832',
   
   
   },

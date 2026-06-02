@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'If a defendant won't answer the door in Oklahoma, servers document each visit. Residential substitute service under § 2004(C)(1) may leave papers with a resident 15+ at the dwelling where permitted—no fixed prior attempts required by statute. Posting/nail-and-mail applies only when authorized. Subpoenas require personal delivery.',
+    'ai-key-facts': '§ 2004(C)(1) abode service where permitted; no statutory prior-attempt minimum; nail-and-mail requires authorization; stakeouts legal; Just Legal Solutions GPS-documented; (539) 367-6832',
   
   
   },

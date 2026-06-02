@@ -50,8 +50,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Compare Oklahoma process serving tiers: standard ($60, 5-7 days), rush ($100, 1-3 days), same-day ($150), after-hours ($265). Faster tiers reduce risk of missing the 180-day service deadline under § 2004(I).',
+    'ai-key-facts': 'Standard $60 up to 3 attempts; rush $100; same-day $150; after-hours $265; 180-day deadline under § 2004(I); flat-rate no mileage; (539) 367-6832',
   
   },
 };

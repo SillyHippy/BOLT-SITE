@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Safety practices for Oklahoma process servers—de-escalation, situational awareness, reasonable hours, GPS documentation, and knowing when to withdraw and document for alternative service methods under § 2004.',
+    'ai-key-facts': 'Reasonable hours standard; GPS and photo documentation; no harassment; safety-first protocol; licensed Oklahoma servers; (539) 367-6832',
   
   
   },

@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'comprehensive-guide',
-    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma. Covers 12 O.S. §2004 requirements, server qualifications (18+, non-party, bonded), service methods (personal, substituted, electronic), costs ($35-$265), timelines (1-5 days), and affidavit requirements. Just Legal Solutions is a licensed, bonded process server serving all 77 Oklahoma counties with 50+ years combined experience.',
-    'ai-key-facts': 'Oklahoma process serving governed by 12 O.S. §2004, servers must be 18+ bonded non-party, personal substituted and electronic service methods, costs $35-$265, 1-5 day completion, affidavit required, Just Legal Solutions serves all 77 counties, (539) 367-6832',
+    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma under 12 O.S. §2004. Covers personal delivery, residential substituted service under § 2004(C)(1) where permitted, document-type restrictions (subpoenas, government, corporations require personal delivery), publication under § 2004(C)(3), costs ($35-$265), and affidavits. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-key-facts': '12 O.S. §2004 governs service; residential substituted service under § 2004(C)(1) where permitted; subpoenas and entity/government require personal delivery; no fixed prior attempts for abode service; costs $35-$265; affidavit required; all 77 counties; (539) 367-6832',
     'article:published_time': '2024-01-01',
     'article:modified_time': new Date().toISOString(),
     'article:author': 'Just Legal Solutions',

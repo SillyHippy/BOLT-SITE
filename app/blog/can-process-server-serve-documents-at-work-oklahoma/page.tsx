@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Oklahoma process servers may attempt workplace service by personal delivery to the defendant. Workplace substitute service is not the same as residential § 2004(C)(1) abode service—the required method depends on document type and statute.',
+    'ai-key-facts': 'Workplace service requires personal delivery or authorized agent per statute; residential sub-service at dwelling only under § 2004(C)(1); GPS documentation; (539) 367-6832',
   
   
   },

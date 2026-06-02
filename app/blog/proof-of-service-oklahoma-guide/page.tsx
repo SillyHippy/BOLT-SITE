@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-22',
     'article:author': 'Joseph Iannazzi',
     'ai-content-type': 'article',
-    'ai-summary': 'A proof of service, also called an affidavit of service, is a legal document that proves court papers were properly delivered to the intended recipient. In Oklahoma, it must include who served the papers, what was served, when and where service occurred, and how it was accomplished. Oklahoma law under 12 O.S. § 2004 requires specific documentation for different service types including personal service, substituted service, and nail-and-mail service. Improper proof of service can result in case dismissal, default judgments being set aside, and significant delays in legal proceedings.',
-    'ai-key-facts': 'Proof of service must be filed within statutory timeframes; Oklahoma requires detailed affidavits for substituted service; Electronic proof of service is increasingly accepted; Common mistakes include incomplete information and missing signatures; Courts strictly evaluate proof of service for compliance with due process requirements.',
+    'ai-summary': 'A proof of service, also called an affidavit of service, is a legal document that proves court papers were properly delivered to the intended recipient. In Oklahoma, it must include who served the papers, what was served, when and where service occurred, and how it was accomplished. Oklahoma law under 12 O.S. § 2004 requires specific documentation for personal delivery, residential substituted service under § 2004(C)(1) where permitted, and posting or nail-and-mail only where authorized. Improper proof of service can result in case dismissal, default judgments being set aside, and significant delays in legal proceedings.',
+    'ai-key-facts': 'Affidavit must state service method (personal, § 2004(C)(1) residential sub-service where permitted, posting where authorized, registered agent); GPS photos strengthen proof; publication requires diligence affidavit; incomplete affidavits risk dismissal; (539) 367-6832',
   },
 };
 

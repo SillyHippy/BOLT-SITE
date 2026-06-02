@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-17',
     'ai-content-type': 'faq',
     'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $35-$265. Servers must be 18+, licensed, bonded ($5,000). Residential substituted service under § 2004(C)(1) permitted in some civil cases with resident 15+; subpoenas and entity/government service require personal delivery. Just Legal Solutions serves all 77 Oklahoma counties.',
-    'ai-key-facts': 'Process serving costs $35-$265 in Oklahoma, must be 18+ and posted $5,000 bond, substituted service requires resident 15+, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
+    'ai-key-facts': 'Process serving $35-$265; 18+ licensed bonded; residential substituted service under § 2004(C)(1) where permitted (resident 15+); subpoenas and entity/government service require personal delivery; publication requires court approval; (539) 367-6832',
   },
 };
 

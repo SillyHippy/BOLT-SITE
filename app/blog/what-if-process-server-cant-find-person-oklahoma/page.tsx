@@ -57,8 +57,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'When a process server cannot locate a defendant in Oklahoma, residential substituted service under § 2004(C)(1) may apply where permitted without a fixed number of prior attempts. Service by publication under § 2004(C)(3) requires court approval and due diligence. Just Legal Solutions documents every attempt with GPS logs and affidavits.',
+    'ai-key-facts': 'No fixed prior attempts for § 2004(C)(1) residential sub-service; publication requires court approval; skip tracing available; GPS-verified documentation; all 77 Oklahoma counties; (539) 367-6832',
   
   },
   openGraph: {

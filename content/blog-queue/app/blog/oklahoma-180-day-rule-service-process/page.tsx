@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Under 12 O.S. § 2004(I), Oklahoma plaintiffs must complete service within 180 days of filing or risk dismissal. Residential substituted service under § 2004(C)(1) may be used where permitted; publication requires due diligence.',
+    'ai-key-facts': '180-day service deadline under § 2004(I); substituted service under § 2004(C)(1) where permitted; publication needs court approval; (539) 367-6832',
   
   
   },

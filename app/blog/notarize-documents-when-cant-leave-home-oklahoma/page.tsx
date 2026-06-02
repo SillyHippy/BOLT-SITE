@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Oklahoma mobile and remote online notary (RON) options for people who cannot leave home—hospitals, nursing homes, disability accommodations. Notary fees capped at $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209).',
+    'ai-key-facts': 'Mobile notary starts at $25/act plus travel; RON under 49 O.S. § 209; hospital and home visits; separate from process serving; (539) 367-6832',
   
   
   },

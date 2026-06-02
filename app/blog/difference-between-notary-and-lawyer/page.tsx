@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Oklahoma notaries verify identity and witness signatures—they cannot give legal advice. Lawyers represent clients and advise on law. Process servers deliver court papers under 12 O.S. § 2004—three distinct roles.',
+    'ai-key-facts': 'Notaries cannot practice law; process servers deliver legal documents; lawyers provide legal advice; separate licensing in Oklahoma; (539) 367-6832',
   
   },
 };

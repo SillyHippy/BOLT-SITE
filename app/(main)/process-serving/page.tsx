@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $35 for a single attempt, $60 for standard service, $100 for rush, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
-        'ai-key-facts': 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties under 12 O.S. § 2004. Personal delivery where required; residential substituted service under § 2004(C)(1) where permitted (not for subpoenas or entity/government service). Pricing from $35 single-attempt to $265 after-hours rush. Licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
+        'ai-key-facts': '$35-$265 tiered pricing; § 2004(C)(1) residential sub-service where permitted; subpoenas and entity/government require personal delivery; licensed § 158.1; GPS-verified; all 77 counties; https://justlegalsolutions.org/pricing; (539) 367-6832',
         ...buildFreshnessMetadata({
             datePublished: processServingFreshness.datePublished,
             dateModified: processServingFreshness.dateModified,

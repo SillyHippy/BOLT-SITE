@@ -50,7 +50,7 @@ const aeoContent = {
     },
     {
       question: "What is skip tracing and how much does it cost?",
-      answer: "Skip tracing is a service to locate people who have moved or are avoiding service. Just Legal Solutions offers skip tracing starting at $25, using database searches to find current addresses. Results typically within 24-48 hours.",
+      answer: "Skip tracing is a service to locate people who have moved or are avoiding service. Just Legal Solutions offers skip tracing starting at $35, using database searches to find current addresses. Results typically within 24-48 hours.",
       keywords: ["skip tracing cost", "what is skip tracing", "find someone skip trace"]
     },
     {
@@ -72,6 +72,26 @@ const aeoContent = {
       question: "Should I use a process server or sheriff to serve papers?",
       answer: "Professional process servers like Just Legal Solutions are typically faster (same-day vs 2-4 weeks for sheriff) and more flexible with evening/weekend service. They offer competitive pricing starting at $60 and provide detailed GPS-verified affidavits.",
       keywords: ["process server vs sheriff", "sheriff serve papers", "private process server"]
+    },
+    {
+      question: "What is substituted service in Oklahoma?",
+      answer: "Under 12 O.S. § 2004(C)(1), residential substituted service is permitted in some civil cases by leaving copies at the defendant's dwelling with a resident 15 years or older, when that method is allowed. Title 12 does not require a fixed number of prior personal attempts before that method. Subpoenas, government agencies, and corporations require personal delivery to specified persons—not residential sub-service. Full guide: https://justlegalsolutions.org/oklahoma-process-server-laws",
+      keywords: ["substituted service Oklahoma", "substitute service 12 O.S. 2004", "abode service Oklahoma"]
+    },
+    {
+      question: "Can a process server use substituted service on the first attempt in Oklahoma?",
+      answer: "Where § 2004(C)(1) permits residential substituted service, Oklahoma law does not prescribe a fixed number of prior personal attempts. Just Legal Solutions follows the method each document type requires—using substituted service on the first attempt where permitted, and personal delivery only where the statute requires it.",
+      keywords: ["first attempt substitute service Oklahoma", "how many attempts before substitute service"]
+    },
+    {
+      question: "Can all legal documents be served by substituted service in Oklahoma?",
+      answer: "No. Subpoenas, service on government agencies, and service on corporations require personal delivery to specified persons. Residential substituted service under § 2004(C)(1) applies only where permitted for that document type in some civil cases at a dwelling with a resident 15 or older.",
+      keywords: ["subpoena personal service Oklahoma", "serve corporation Oklahoma", "substituted service restrictions"]
+    },
+    {
+      question: "When does substitute service require court approval in Oklahoma?",
+      answer: "Residential substituted service under § 2004(C)(1) generally does not require court approval where permitted. Service by publication under § 2004(C)(3) requires court approval and proof of due diligence. Posting or nail-and-mail outside authorized contexts may require court authorization.",
+      keywords: ["court approval substitute service Oklahoma", "service by publication Oklahoma"]
     }
   ]
 };
@@ -148,7 +168,7 @@ const snippetContent = {
     "table_format": {
       "Service": ["Standard", "Rush", "Same-Day", "Skip Tracing"],
       "Time": ["5-7 days", "1-3 days", "24 hours", "24-48 hours"],
-      "Price": ["$60", "$52", "$105", "$25"]
+      "Price": ["$60", "$100", "$150", "$35"]
     }
   }
 };
