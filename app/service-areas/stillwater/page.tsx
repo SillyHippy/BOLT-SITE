@@ -285,6 +285,7 @@ export default function StillwaterProcessServerPage() {
               <h3 className="font-bold text-gray-900 mb-3">🏢 Services</h3>
               <ul className="space-y-2 text-sm">
                 <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                <li><Link href="/courier-services" className="text-blue-600 hover:underline">Legal Document Courier</Link></li>
                 <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
                 <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
               </ul>

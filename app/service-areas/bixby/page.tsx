@@ -395,6 +395,7 @@ export default function BixbyServiceAreaPage() {
                 <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
                 <ul className="space-y-2">
                   <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                  <li><Link href="/courier-services" className="text-blue-600 hover:underline">Legal Document Courier</Link></li>
                   <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
                   <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link></li>
                   <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
