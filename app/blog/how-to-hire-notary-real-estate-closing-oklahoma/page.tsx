@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: "How to Hire a Notary for Real Estate Closing in Oklahoma",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How to Hire a Notary for Real Estate Closing in Oklahoma' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Hire a Notary for Real Estate Closing in Oklahoma',
+    description: 'Learn how to hire a qualified real estate closing notary or loan signing agent in Oklahoma. What to expect, documents needed, costs, and how to find a certified',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-hire-notary-real-estate-closing-oklahoma' },
   other: {
@@ -275,7 +282,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="How to Hire a Notary for Real Estate Closing in Oklahoma"

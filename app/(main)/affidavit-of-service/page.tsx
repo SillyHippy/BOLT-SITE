@@ -17,10 +17,22 @@ export const metadata: Metadata = {
     'proof of service form',
   ],
   robots: 'index, follow',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Affidavit of Service Generator',
+    description: 'Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving. Fill in case details, manner of service, and notary — then print or save as PDF.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-060-affidavit-of-service-og.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/affidavit-of-service',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-060-affidavit-of-service-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Affidavit of Service Generator',
     description:
       'Professional Affidavit of Service generator for Oklahoma process servers. Fill, print, or save to PDF.',

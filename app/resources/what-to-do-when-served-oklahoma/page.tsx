@@ -1,18 +1,33 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { resourceDownloadHref } from '@/lib/resource-downloads';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
-    alternates: {
-    canonical: 'https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma',
-  },
-title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
+  title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
   description: 'Free PDF guide: What to do when served with legal papers in Oklahoma. Learn response deadlines, immediate steps, common mistakes to avoid, and when to hire an attorney.',
   keywords: 'served with papers Oklahoma, what to do when served, legal papers served, Oklahoma court deadlines, respond to lawsuit Oklahoma, process server Oklahoma',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
     description: 'Free PDF guide with immediate steps, response deadlines, and common mistakes to avoid when served with legal papers in Oklahoma.',
     type: 'website',
+    url: 'https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
+    description: 'Free PDF guide: What to do when served with legal papers in Oklahoma. Learn response deadlines, immediate steps, common mistakes to avoid, and when to hire an attorney.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma',
   },
 };
 
@@ -48,7 +63,7 @@ export default function WhatToDoWhenServedPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="/downloads/what-to-do-when-served-oklahoma.pdf"
+                  href={resourceDownloadHref('what-to-do-when-served-oklahoma.pdf')}
                   download
                   className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg text-center transition-colors shadow-lg"
                 >
@@ -287,7 +302,7 @@ export default function WhatToDoWhenServedPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
             <a
-              href="/downloads/what-to-do-when-served-oklahoma.pdf"
+              href={resourceDownloadHref('what-to-do-when-served-oklahoma.pdf')}
               download
               className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-colors shadow-lg text-lg"
             >
@@ -479,6 +494,10 @@ export default function WhatToDoWhenServedPage() {
           </p>
         </div>
       </section>
+    
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/what-to-do-when-served-oklahoma" />
+
     </main>
     </>
   );

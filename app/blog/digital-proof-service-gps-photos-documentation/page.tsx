@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "Digital Proof of Service: GPS, Photos, and Modern Documen...",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Digital Proof of Service: GPS, Photos, and Modern Documen...' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digital Proof of Service: GPS, Photos, and Modern Documen...',
+    description: 'Learn how digital proof of service with GPS and photo documentation protects your case. Modern verification methods explained for Oklahoma attorneys. Serving al',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/digital-proof-service-gps-photos-documentation' },
   other: {
@@ -370,7 +377,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="Digital Proof of Service: GPS, Photos, and Modern Documentation"

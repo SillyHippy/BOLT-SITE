@@ -7,8 +7,15 @@ import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Serve a Restraining Order Oklahoma — TRO & VPO Guide',
+    description: 'Learn how to serve restraining orders in Oklahoma. TRO and VPO service requirements, 22 O.S. § 60.4, and 24-48 hr service. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma',
   },
@@ -16,6 +23,12 @@ export const metadata: Metadata = {
   description: 'Learn how to serve restraining orders in Oklahoma. TRO and VPO service requirements, 22 O.S. § 60.4, and 24-48 hr service. Call (539) 367-6832.',
   keywords: 'serve restraining order oklahoma, TRO service tulsa, VPO service of process oklahoma, protective order service, victim protective order oklahoma, emergency protective order service',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'How to Serve a Restraining Order in Oklahoma | Complete Guide',
     description: 'Expert guide to serving TROs and VPOs in Oklahoma. 24-48 hour service, GPS tracking, and compliance with 22 O.S. § 60.4.',
     type: 'article',
@@ -512,7 +525,7 @@ export default function BlogPost() {
             <h4 className="font-semibold text-blue-900 mb-2">Rush Service Options</h4>
             <p className="text-blue-800">
               For urgent protective order service,{' '}
-              <Link href="/services/same-day-process-serving/" className="underline font-medium">
+              <Link href="/same-day-process-server/" className="underline font-medium">
                 Just Legal Solutions offers rush service
               </Link>{' '}
               with 24-48 hour completion times and same-day options for emergency situations. Our GPS-tracked service
@@ -909,7 +922,9 @@ export default function BlogPost() {
         </section>
 
 
-        <Footer />
+        
+          <AeoProcessServingHubLinks />
+          <Footer />
       </main>
     </>
   );

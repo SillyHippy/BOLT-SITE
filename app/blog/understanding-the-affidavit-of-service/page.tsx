@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Affidavit of Service Oklahoma — Process Server Proof Guide',
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
       height: 630,
       alt: 'Oklahoma Affidavit of Service Guide - Just Legal Solutions',
     }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Affidavit of Service Oklahoma — Process Server Proof Guide',
+    description: 'Complete guide to Oklahoma Affidavits of Service under 12 O.S. § 2004(G). What must be included, service methods, deadlines, and why details matter.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/understanding-the-affidavit-of-service',
@@ -452,7 +459,9 @@ export default function AffidavitGuide() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

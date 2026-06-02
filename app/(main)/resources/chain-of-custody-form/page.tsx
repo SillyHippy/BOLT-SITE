@@ -3,13 +3,34 @@ import Link from 'next/link';
 import { Download, FileCheck, ArrowRight } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 const SLUG = 'JLS-Chain-Of-Custody-Form-v1.0';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Chain of Custody Form for Legal Documents (Oklahoma) — Free PDF & DOCX',
+    description: 'Tamper-evident chain-of-custody form tracking legal documents from client receipt through court filing. Includes signature blocks for every handoff.',
+    url: 'https://justlegalsolutions.org/resources/chain-of-custody-form',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Chain of Custody Form for Legal Documents (Oklahoma) — Free PDF & DOCX',
   description:
     'Tamper-evident chain-of-custody form tracking legal documents from client receipt through court filing. Includes signature blocks for every handoff.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Chain of Custody Form for Legal Documents (Oklahoma) — Free PDF & DOCX',
+    description: 'Tamper-evident chain-of-custody form tracking legal documents from client receipt through court filing. Includes signature blocks for every handoff.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources/chain-of-custody-form',
   },
@@ -176,6 +197,10 @@ export default function ChainOfCustodyFormPage() {
           for full chain-of-evidence coverage.
         </p>
       </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/chain-of-custody-form" />
+
+
     </HubPageLayout>
     </>
   );

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Oklahoma Process Server Cost Guide 2026' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide',
+    description: 'Oklahoma process server pricing 2026: single-attempt starts at $30, standard $60, rush $100, same-day $150, triple-attempt $200, after-hours rush $265. Sheriff fee comparison & hidden costs explained.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/process-serving-cost-guide-oklahoma' },
   other: {
@@ -345,7 +352,9 @@ export default function ProcessServingCostGuideOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

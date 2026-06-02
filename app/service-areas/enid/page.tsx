@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma process server service area — local legal document delivery',
+    }],
     title: 'Process Server Enid, OK | Garfield County | Vance AFB Service',
     description: 'Licensed process server in Enid, Oklahoma. Garfield County filings, Vance AFB coordination, hospital campuses, and rural Garfield County addresses.',
     url: 'https://justlegalsolutions.org/service-areas/enid',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Enid, OK | Garfield County | Vance AFB Service',
+    description: 'Licensed process server in Enid, Oklahoma. Garfield County filings, Vance AFB coordination, hospital campuses, and rural Garfield County addresses.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/enid',

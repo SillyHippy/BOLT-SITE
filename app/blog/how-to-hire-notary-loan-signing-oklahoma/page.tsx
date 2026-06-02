@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'How to Hire a Notary for Loan Signing in Oklahoma | Just...',
+    description: 'Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to ch',
+    url: 'https://justlegalsolutions.org/blog/how-to-hire-notary-loan-signing-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "How to Hire a Notary for Loan Signing in Oklahoma | Just...",
   description: "Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to ch",
   keywords:
     "loan signing agent, mortgage notary, loan document notarization, signing agent hire, Oklahoma loan signing, hire notary closing",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Hire a Notary for Loan Signing in Oklahoma | Just...',
+    description: 'Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to ch',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-to-hire-notary-loan-signing-oklahoma",
@@ -613,7 +634,9 @@ export default function HireLoanSigningNotaryPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

@@ -10,12 +10,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Out-of-State Subpoena Service in Oklahoma | UIDDA Process Server',
     description: 'Domesticate and serve out-of-state subpoenas in Oklahoma. Expert process servers familiar with the Uniform Interstate Depositions and Discovery Act (UIDDA).',
     url: 'https://justlegalsolutions.org/out-of-state-subpoena',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Out-of-State Subpoena Service in Oklahoma | UIDDA Process Server',
+    description: 'Domesticate and serve out-of-state subpoenas in Oklahoma. Expert process servers familiar with the Uniform Interstate Depositions and Discovery Act (UIDDA). Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/out-of-state-subpoena',

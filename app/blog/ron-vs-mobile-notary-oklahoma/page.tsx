@@ -7,8 +7,15 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RON vs Mobile Notary Oklahoma — Which to Use',
+    description: 'Compare Remote Online Notarization vs Mobile Notary in Oklahoma. Learn costs, laws, and which service fits your needs. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/ron-vs-mobile-notary-oklahoma',
   },
@@ -16,6 +23,12 @@ export const metadata: Metadata = {
   description: 'Compare Remote Online Notarization vs Mobile Notary in Oklahoma. Learn costs, laws, and which service fits your needs. Call (539) 367-6832.',
   keywords: 'remote online notarization vs mobile notary, RON oklahoma, which notary service to use, online notary Oklahoma, mobile notary Tulsa, virtual notary Oklahoma',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'Remote Online Notarization vs Mobile Notary in Oklahoma',
     description: 'Complete comparison guide to help you choose between RON and mobile notary services in Oklahoma.',
     type: 'article',
@@ -865,7 +878,9 @@ export default function RonVsMobileNotaryPage() {
           </Link>
         </div>
       </section>
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </>
   );
 }

@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Oklahoma's 180-Day Rule for Service of Process Explained" }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma',
+    description: 'Understand Oklahoma',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process' },
   other: {
     'article:published_time': '2026-04-24',

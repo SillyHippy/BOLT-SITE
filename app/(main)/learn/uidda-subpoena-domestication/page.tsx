@@ -3,6 +3,29 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/learn/uidda-subpoena-domestication',
+  },
+  openGraph: {
+    title: 'UIDDA Subpoena Domestication in Oklahoma | Legal Guide',
+    description: 'Step-by-step guide to domesticating out-of-state subpoenas in Oklahoma under the Uniform Interstate Depositions and Discovery Act (12 O.S. § 3253).',
+    url: 'https://justlegalsolutions.org/learn/uidda-subpoena-domestication',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'UIDDA Subpoena Domestication in Oklahoma | Legal Guide',
+    description: 'Step-by-step guide to domesticating out-of-state subpoenas in Oklahoma under the Uniform Interstate Depositions and Discovery Act (12 O.S. § 3253).',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'UIDDA Subpoena Domestication in Oklahoma | Legal Guide',
   description:
     'Step-by-step guide to domesticating out-of-state subpoenas in Oklahoma under the Uniform Interstate Depositions and Discovery Act (12 O.S. § 3253).',

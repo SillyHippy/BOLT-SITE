@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: "The Oklahoma Notary Public Act Explained: Rules and Requi...",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'The Oklahoma Notary Public Act Explained: Rules and Requi...',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The Oklahoma Notary Public Act Explained: Rules and Requi...',
+    description: 'Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes. Serving all 77 Oklahom',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical:
@@ -622,7 +629,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
 
       <UnifiedSchema
         pageType="article"

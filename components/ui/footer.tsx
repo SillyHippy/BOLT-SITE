@@ -831,8 +831,26 @@ export function Footer() {
                   <Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
                     Process Serving
                   </Link>
+                  <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Tulsa Process Server
+                  </Link>
+                  <Link href="/mobile-notary" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Mobile Notary
+                  </Link>
                   <Link href="/notary" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
                     Notary Services
+                  </Link>
+                  <Link href="/skip-tracing" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Skip Tracing
+                  </Link>
+                  <Link href="/courier-services" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Courier Services
+                  </Link>
+                  <Link href="/attorney-services" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Attorney Services
+                  </Link>
+                  <Link href="/resources" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Resources
                   </Link>
                   <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
                     Service Areas

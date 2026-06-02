@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   description:
     'How the landmark McGirt v. Oklahoma Supreme Court decision affects process serving on tribal land. Jurisdictional changes, tribal coordination, and practical guidance.',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal process guides from Just Legal Solutions',
+    }],
     title: 'McGirt v. Oklahoma | What Process Servers Need to Know (2026)',
     description:
       'How the landmark McGirt v. Oklahoma Supreme Court decision affects process serving on tribal land. Jurisdictional changes, tribal coordination, and practical guidance.',

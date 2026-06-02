@@ -29,6 +29,12 @@ export const metadata: Metadata = {
       }
     ]
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Resources & Legal Guides',
+    description: 'Free Oklahoma process serving guides, FAQs, and legal resources. Serving starts at $60. Licensed & bonded statewide. Call (539) 367-6832 for same-day service.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources'
   }
@@ -341,6 +347,71 @@ const ResourcesPage = () => {
           </ul>
         </section>
 
+        {/* Free Downloads & Templates */}
+        <section id="downloads" className="mt-16">
+          <div className="flex items-center mb-4">
+            <FileText className="h-8 w-8 text-orange-600 mr-4 flex-shrink-0" />
+            <h2 className="text-3xl font-bold text-gray-800">Free Downloads &amp; Templates</h2>
+          </div>
+          <p className="text-lg text-gray-600 mb-8 ml-12">
+            PDF guides, field sheets, and reference materials for attorneys, landlords, and process servers.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ml-0 md:ml-12">
+            <Link href="/resources/attorneys-guide-hiring-process-server" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Attorney&apos;s Hiring Guide</h3>
+              <p className="text-gray-600 text-sm">Vetting checklist and firm workflow tips (PDF)</p>
+            </Link>
+            <Link href="/resources/oklahoma-service-of-process-reference" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Service of Process Reference</h3>
+              <p className="text-gray-600 text-sm">12 O.S. § 2004 methods and affidavit standards</p>
+            </Link>
+            <Link href="/resources/oklahoma-eviction-timeline" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Oklahoma Eviction Timeline</h3>
+              <p className="text-gray-600 text-sm">Notice periods and court steps for landlords</p>
+            </Link>
+            <Link href="/resources/what-to-do-when-served-oklahoma" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">What to Do When Served</h3>
+              <p className="text-gray-600 text-sm">Rights and deadlines for defendants in Oklahoma</p>
+            </Link>
+            <Link href="/resources/oklahoma-notarization-requirements" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Notarization Requirements</h3>
+              <p className="text-gray-600 text-sm">Mobile notary and RON rules in Oklahoma</p>
+            </Link>
+            <Link href="/resources/process-server-field-sheet-template" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Field Sheet Template</h3>
+              <p className="text-gray-600 text-sm">Attempt log aligned with court proof standards</p>
+            </Link>
+            <Link href="/resources/become-process-server-oklahoma" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Become a Process Server</h3>
+              <p className="text-gray-600 text-sm">Licensing under 12 O.S. § 158.1 and career overview</p>
+            </Link>
+            <Link href="/resources/skip-trace-checklist" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Skip Trace Checklist</h3>
+              <p className="text-gray-600 text-sm">Due diligence before alternate service</p>
+            </Link>
+            <Link href="/resources/chain-of-custody-form" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Chain of Custody Form</h3>
+              <p className="text-gray-600 text-sm">Document handling template for legal teams</p>
+            </Link>
+            <Link href="/resources/client-intake-form" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Client Intake Form</h3>
+              <p className="text-gray-600 text-sm">Case details, billing authorization, and signatures (PDF + DOCX)</p>
+            </Link>
+            <Link href="/resources/gps-service-log" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">GPS Service Log Template</h3>
+              <p className="text-gray-600 text-sm">Court-admissible attempt log with GPS columns (PDF + DOCX)</p>
+            </Link>
+            <Link href="/resources/tools-and-guides" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Tools &amp; Guides Hub</h3>
+              <p className="text-gray-600 text-sm">Career resources, templates, and process server checklists</p>
+            </Link>
+            <Link href="/resources/future-of-process-serving" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group">
+              <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600">Future of Process Serving</h3>
+              <p className="text-gray-600 text-sm">E-filing, electronic service, and industry trends in Oklahoma</p>
+            </Link>
+          </div>
+        </section>
+
         {/* Quick Internal Links */}
         <section className="mt-16 bg-blue-50 rounded-xl p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Quick Links</h2>
@@ -352,7 +423,11 @@ const ResourcesPage = () => {
             <Link href="/service-areas" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All 77 Counties</Link>
             <Link href="/oklahoma-process-server-faq" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
             <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
-            <Link href="/family-law-service-guide-tulsa" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Family Law Service in Tulsa</Link>
+            <Link href="/mobile-notary" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Mobile Notary Tulsa</Link>
+            <Link href="/courier-services" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Courier Services</Link>
+            <Link href="/attorney-services" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Attorney Services</Link>
+            <Link href="/for-landlords" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">For Landlords</Link>
+            <Link href="/counties" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">County Coverage</Link>
           </div>
         </section>
 

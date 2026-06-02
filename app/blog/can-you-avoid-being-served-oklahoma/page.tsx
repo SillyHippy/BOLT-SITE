@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Can You Avoid Being Served in Oklahoma? (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Can You Avoid Being Served? What Really Happens in Oklahoma' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Can You Avoid Being Served in Oklahoma? (2026)',
+    description: 'Thinking about avoiding a process server in Oklahoma? Learn why it doesn\'t work, what evasion means, service by publication, and the real consequences.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/can-you-avoid-being-served-oklahoma' },
   other: {
@@ -442,7 +449,9 @@ export default function CanYouAvoidBeingServedOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

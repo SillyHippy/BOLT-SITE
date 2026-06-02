@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
   description: "Learn what proof of service you receive after documents are served in Oklahoma. Understand affidavits of service, GPS tracking, photos, court-admissible documen",
   keywords: "proof of service oklahoma, affidavit of service, what is proof of service, process server documentation, return of service oklahoma, court proof of service",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "What Proof Do I Get That Documents Were Served in Oklahoma?",
     description: "Understand the types of proof you receive after service in Oklahoma — affidavits, GPS tracking, photos, and court-admissible documentation.",
     url: "https://justlegalsolutions.org/blog/what-proof-do-i-get-documents-served-oklahoma",
@@ -101,9 +108,9 @@ function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
-            <li><Link href="/services/rush-service" className="hover:text-white transition-colors">Rush Service</Link></li>
-            <li><Link href="/services/same-day" className="hover:text-white transition-colors">Same-Day Service</Link></li>
-            <li><Link href="/services/notary" className="hover:text-white transition-colors">Notary Services</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
+            <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
             <li><Link href="/services/skip-tracing" className="hover:text-white transition-colors">Skip Tracing</Link></li>
           </ul>
         </div>
@@ -302,7 +309,7 @@ export default function BlogPost() {
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Electronic vs. Physical Proof Delivery</h2>
           <p className="leading-relaxed mb-6">In today's legal environment, most Oklahoma courts accept electronically filed proof of service. At Just Legal Solutions, we deliver all documentation via secure email in PDF format by default. This allows our clients to file proof of service with the court the same day they receive it, without waiting for physical mail.</p>
 
-          <p className="leading-relaxed mb-6">For courts or clients that require physical copies, we provide notarized original affidavits by mail or courier. Our <Link href="/services/courier" className="text-blue-700 hover:underline">courier service</Link> can deliver original documents to your office or directly to the courthouse if needed. We also accommodate special formatting requirements for specific courts — some Oklahoma counties have unique affidavit templates they prefer, and we maintain copies of all of them.</p>
+          <p className="leading-relaxed mb-6">For courts or clients that require physical copies, we provide notarized original affidavits by mail or courier. Our <Link href="/courier-services" className="text-blue-700 hover:underline">courier service</Link> can deliver original documents to your office or directly to the courthouse if needed. We also accommodate special formatting requirements for specific courts — some Oklahoma counties have unique affidavit templates they prefer, and we maintain copies of all of them.</p>
 
           <LocalPromoBanner />
 
@@ -326,7 +333,9 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

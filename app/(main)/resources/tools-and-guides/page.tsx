@@ -1,8 +1,32 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/resources/tools-and-guides',
+  },
+  openGraph: {
+    title: 'Resources',
+    description: 'Oklahoma process serving career resources and industry information.',
+    url: 'https://justlegalsolutions.org/resources/tools-and-guides',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Resources',
+    description: 'Oklahoma process serving career resources and industry information.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'Resources',
   description: 'Oklahoma process serving career resources and industry information.',
 };
@@ -66,7 +90,11 @@ export default function ResourcesPage() {
             ))}
           </div>
         </div>
-      </main>
+      
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/tools-and-guides" />
+
+    </main>
     </div>
     </>
   );

@@ -3,6 +3,29 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/compare',
+  },
+  openGraph: {
+    title: 'Comparisons',
+    description: 'Side-by-side comparisons for Oklahoma process serving decisions.',
+    url: 'https://justlegalsolutions.org/compare',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Comparisons',
+    description: 'Side-by-side comparisons for Oklahoma process serving decisions.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'Comparisons',
   description: 'Side-by-side comparisons for Oklahoma process serving decisions.',
 };

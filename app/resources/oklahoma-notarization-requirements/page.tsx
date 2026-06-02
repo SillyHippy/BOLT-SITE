@@ -16,6 +16,7 @@ import {
   Clock,
   MapPin
 } from 'lucide-react';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)',
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
     'Oklahoma notary public guide'
   ],
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)',
     description: 'Complete guide to Oklahoma notary requirements, ID verification, fees, and RON rules. Download your free cheat sheet today.',
     type: 'website',
@@ -87,14 +94,13 @@ export default function OklahomaNotarizationRequirementsPage() {
                 fees, and procedures. Perfect for notaries and anyone getting documents notarized.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="/downloads/oklahoma-notarization-requirements.pdf" 
-                  download
+                <Link 
+                  href="/blog/mobile-notary-tulsa-guide"
                   className="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
                 >
                   <Download className="w-5 h-5" />
-                  Download Free PDF
-                </a>
+                  Read Mobile Notary Guide
+                </Link>
                 <Link 
                   href="/notary/" 
                   className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg transition-colors"
@@ -371,16 +377,15 @@ export default function OklahomaNotarizationRequirementsPage() {
             Get instant access to the complete Oklahoma Notarization Requirements Cheat Sheet. 
             No email required—just click and download.
           </p>
-          <a 
-            href="/downloads/oklahoma-notarization-requirements.pdf" 
-            download
+          <Link 
+            href="/blog/mobile-notary-tulsa-guide"
             className="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg transition-colors text-lg"
           >
             <Download className="w-5 h-5" />
-            Download PDF (Free)
-          </a>
+            Read Mobile Notary Guide
+          </Link>
           <p className="text-blue-200 text-sm mt-4">
-            PDF Format • 2 Pages • Instant Download
+            Online guide • Oklahoma notary requirements • Free access
           </p>
         </div>
       </section>
@@ -490,6 +495,10 @@ export default function OklahomaNotarizationRequirementsPage() {
         </div>
       </section>
     </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/oklahoma-notarization-requirements" />
+
+
     </>
   );
 }

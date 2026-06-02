@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
   description: "Learn when Oklahoma process servers work, including weekends and evenings. Understand the law (Title 12 O.S. § 2004), after-hours availability, rush service opt",
   keywords: "do process servers work weekends, after hours process server tulsa, weekend process serving oklahoma, process server availability, same day process serving, 24/7 process server",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "Do Process Servers Work Weekends and Evenings in Oklahoma?",
     description: "Oklahoma process servers can legally serve any day. Learn about weekend, evening, and after-hours service options across all 77 counties.",
     url: "https://justlegalsolutions.org/blog/do-process-servers-work-weekends-evenings-oklahoma",
@@ -101,9 +108,9 @@ function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
-            <li><Link href="/services/rush-service" className="hover:text-white transition-colors">Rush Service</Link></li>
-            <li><Link href="/services/same-day" className="hover:text-white transition-colors">Same-Day Service</Link></li>
-            <li><Link href="/services/notary" className="hover:text-white transition-colors">Notary Services</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
+            <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
             <li><Link href="/services/skip-tracing" className="hover:text-white transition-colors">Skip Tracing</Link></li>
           </ul>
         </div>
@@ -334,7 +341,9 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

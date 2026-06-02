@@ -3,6 +3,29 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/learn/electronic-filing-service',
+  },
+  openGraph: {
+    title: 'Electronic Filing & E-Service in Oklahoma | 2024 Guide',
+    description: 'Comprehensive guide to Oklahoma electronic filing pilot and e-service rules under 12 O.S. § 2004.5, including consent requirements and participating counties.',
+    url: 'https://justlegalsolutions.org/learn/electronic-filing-service',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Electronic Filing & E-Service in Oklahoma | 2024 Guide',
+    description: 'Comprehensive guide to Oklahoma electronic filing pilot and e-service rules under 12 O.S. § 2004.5, including consent requirements and participating counties.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'Electronic Filing & E-Service in Oklahoma | 2024 Guide',
   description:
     'Comprehensive guide to Oklahoma electronic filing pilot and e-service rules under 12 O.S. § 2004.5, including consent requirements and participating counties.',

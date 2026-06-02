@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Eviction Moratorium History & Current Rules',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Oklahoma Eviction Moratorium History & Current Rules' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Eviction Moratorium History & Current Rules',
+    description: 'Oklahoma eviction moratorium history and current rules in 2026. ERA funds, tenant protections, and what landlords need to know.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history' },
   other: {
@@ -461,7 +468,9 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

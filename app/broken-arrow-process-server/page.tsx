@@ -11,6 +11,12 @@ export const metadata: Metadata = {
     'ai-summary': 'Just Legal Solutions is a licensed process server serving Broken Arrow, Oklahoma. Standard service from $60, rush $100, same-day $150. Covers all Broken Arrow neighborhoods including The Rose District, New Town, South Broken Arrow, and Forest Ridge. GPS-tracked, court-ready affidavits same day. (539) 367-6832.',
     'ai-key-facts': 'Broken Arrow process server, licensed bonded, standard $60, rush $100, same-day $150, GPS-tracked, Wagoner and Tulsa county, 24/7 available, (539) 367-6832',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Broken Arrow Process Server | Same-Day Service from $60',
+    description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/broken-arrow-process-server' },
   openGraph: {
     title: 'Broken Arrow Process Server | Same-Day Service from $60',

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Cloud Case Management for Process Servers: Oklahoma Guide',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Cloud Case Management for Process Servers: Oklahoma Guide',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cloud Case Management for Process Servers: Oklahoma Guide',
+    description: 'Discover how cloud-based case management helps Oklahoma process servers work smarter across all 77 counties. Learn about top software, features, and e-filing integration.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/cloud-based-case-management-process-servers-oklahoma',
@@ -358,7 +365,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

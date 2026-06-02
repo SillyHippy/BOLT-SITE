@@ -7,8 +7,28 @@ import { BookOpen } from 'lucide-react';
 import { AuthorBox } from '@/components/ui/author-box';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Legal Glossary for Process Serving',
+    description: 'A comprehensive legal glossary of terms related to process serving, lawsuits, and the Oklahoma legal system.',
+    url: 'https://justlegalsolutions.org/legal-glossary',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-052-glossary-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal glossary — process serving and court terms',
+    }],
+  },
   title: 'Legal Glossary for Process Serving',
   description: 'A comprehensive legal glossary of terms related to process serving, lawsuits, and the Oklahoma legal system.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Legal Glossary for Process Serving',
+    description: 'A comprehensive legal glossary of terms related to process serving, lawsuits, and the Oklahoma legal system.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-052-glossary-og.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/legal-glossary' },
 };
 

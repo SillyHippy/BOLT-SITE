@@ -5,8 +5,28 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Serve a Business or Corporation in Oklahoma | Process Server',
+    description: 'Need to serve an LLC, corporation, or business in Oklahoma? Let our professional process servers handle registered agent service efficiently.',
+    url: 'https://justlegalsolutions.org/serve-business-corporation-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Serve a Business or Corporation in Oklahoma | Process Server',
   description: 'Need to serve an LLC, corporation, or business in Oklahoma? Let our professional process servers handle registered agent service efficiently.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Serve a Business or Corporation in Oklahoma | Process Server',
+    description: 'Need to serve an LLC, corporation, or business in Oklahoma? Let our professional process servers handle registered agent service efficiently.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/serve-business-corporation-oklahoma' },
 };
 

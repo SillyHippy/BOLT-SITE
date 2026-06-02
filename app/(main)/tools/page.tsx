@@ -45,6 +45,12 @@ export const metadata: Metadata = {
       }
     ]
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free Process Server Tools & Forms | Affidavits, Field Sheets, PDF Tools',
+    description: 'Free tools and forms for process servers and legal professionals—Affidavit of Service generator, field sheet creator, 14+ PDF tools, and more. No subscriptions required.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-006-tools-og.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/tools'
   }

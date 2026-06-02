@@ -36,6 +36,12 @@ export const metadata: Metadata = {
     'Professional apostille and document authentication services in Oklahoma. Prepare notarized documents for international use with proper Hague Convention certification.',
   alternates: { canonical: canonicalUrl },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-036-apostille-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Apostille Services Oklahoma | Document Authentication Tulsa',
     description:
       'Professional apostille and document authentication services in Oklahoma. Prepare notarized documents for international use with proper Hague Convention certification.',

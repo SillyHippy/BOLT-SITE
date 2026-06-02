@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma process server service area — local legal document delivery',
+    }],
     title: 'Process Server Kiefer, OK | Licensed Creek County Legal Service',
     description: 'Licensed process server in Kiefer, Oklahoma. Historic Creek County town between Sapulpa and Glenpool. Home of Bridge Crane Specialists and Kiefer Castle. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/kiefer',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Kiefer, OK | Licensed Creek County Legal Service',
+    description: 'Licensed process server in Kiefer, Oklahoma. Historic Creek County town, formerly Praper, renamed 1906. Home of Bridge Crane Specialists and Kiefer Castle. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/kiefer',

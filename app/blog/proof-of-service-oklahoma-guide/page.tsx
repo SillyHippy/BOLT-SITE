@@ -6,6 +6,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { ChevronRight, FileCheck, Shield, Clock, AlertTriangle, Gavel, FileText } from 'lucide-react';
 import Link from 'next/link';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Proof of Service Oklahoma — Complete Guide',
@@ -31,6 +32,12 @@ export const metadata: Metadata = {
       height: 630,
       alt: 'Oklahoma Proof of Service Guide - Just Legal Solutions',
     }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Proof of Service Oklahoma — Complete Guide',
+    description: 'A complete Oklahoma guide to proof of service and affidavits under 12 O.S. § 2004 — service methods, filing deadlines, common mistakes, and court review standards.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
@@ -589,7 +596,9 @@ export default function ProofOfServiceGuidePage() {
         </section>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

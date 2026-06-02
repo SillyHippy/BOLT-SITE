@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma county process serving — licensed and bonded service statewide',
+    }],
     title: 'Process Server Wagoner County, OK | Coweta, Wagoner & Fort Gibson',
     description: 'Licensed process server in Wagoner County, Oklahoma. Serving Coweta, Wagoner, Fort Gibson, Okay & all communities. GPS-tracked, court-ready. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/counties/wagoner-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Wagoner County, OK | Coweta, Wagoner & Fort Gibson',
+    description: 'Licensed process server in Wagoner County, Oklahoma. Serving Coweta, Wagoner, Fort Gibson, Okay & all communities. GPS-tracked, court-ready. (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/wagoner-county',

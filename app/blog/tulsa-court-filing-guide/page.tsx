@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Tulsa County Court Filing Guide — eFiling, Costs & Timelines (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Tulsa County Court Filing Guide 2026' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tulsa County Court Filing Guide — eFiling, Costs & Timelines (2026)',
+    description: 'How to file in Tulsa County District Court 2026: OCIS eFiling, civil cover sheets, court fees, document prep, and courier filing service that starts at $25 plus court costs.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/tulsa-court-filing-guide' },
   other: {
@@ -354,7 +361,9 @@ export default function TulsaCourtFilingGuide() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

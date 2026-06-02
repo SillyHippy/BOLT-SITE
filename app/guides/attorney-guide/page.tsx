@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   description:
     'Complete guide for Oklahoma attorneys on selecting, working with, and depending on professional process servers. Avoid common mistakes and protect your cases.',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal process guides from Just Legal Solutions',
+    }],
     title: 'Process Serving for Oklahoma Attorneys | What You Need to Know',
     description:
       'Complete guide for Oklahoma attorneys on selecting, working with, and depending on professional process servers. Avoid common mistakes and protect your cases.',

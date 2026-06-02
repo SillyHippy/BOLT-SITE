@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary Oklahoma City | 24/7 Traveling Notary',
+    description: 'Oklahoma City mobile notary for hospitals (INTEGRIS Health, Mercy Hospital, and OU Health), jails (Oklahoma County Detention Center), and loan signings. Licensed, bonded, same-day appointments in Oklahoma County. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: canonicalUrl
   },

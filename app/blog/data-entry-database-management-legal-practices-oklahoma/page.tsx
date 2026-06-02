@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Data Entry & Database Management for Oklahoma Law Firms',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Data Entry & Database Management for Oklahoma Law Firms',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Data Entry & Database Management for Oklahoma Law Firms',
+    description: 'Learn how Oklahoma law firms reduce errors with legal data entry virtual assistants. Covers OSCN compliance, database security, and state ethics rules.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/data-entry-database-management-legal-practices-oklahoma',
@@ -436,7 +443,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

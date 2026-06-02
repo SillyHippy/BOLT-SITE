@@ -7,9 +7,29 @@ import JsonLd from '@/components/JsonLd';
 import { CheckCircle2, AlertCircle, Users, FileText, Clock, Shield, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'What to Bring to Your Notary Appointment',
+    description: 'Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides.',
+    url: 'https://justlegalsolutions.org/what-to-bring',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'What to Bring to Your Notary Appointment',
   description: 'Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides.',
   keywords: 'notary appointment, what to bring, valid ID, notarization checklist, document preparation',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What to Bring to Your Notary Appointment',
+    description: 'Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/what-to-bring' },
 };
 

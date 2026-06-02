@@ -3,6 +3,29 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/oklahoma-tools',
+  },
+  openGraph: {
+    title: 'Interactive Tools',
+    description: 'Free interactive calculators and decision tools for Oklahoma process serving.',
+    url: 'https://justlegalsolutions.org/oklahoma-tools',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Interactive Tools',
+    description: 'Free interactive calculators and decision tools for Oklahoma process serving.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'Interactive Tools',
   description: 'Free interactive calculators and decision tools for Oklahoma process serving.',
 };

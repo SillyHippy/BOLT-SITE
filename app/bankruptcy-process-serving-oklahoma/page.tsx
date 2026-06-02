@@ -10,10 +10,22 @@ export const metadata: Metadata = {
   description: 'Professional bankruptcy process serving in Oklahoma. Chapter 7, 11, 13 filings, adversary proceedings, 341 meeting notices. FRBP Rule 7004 compliant. Call (539) 367-6832.',
   keywords: 'bankruptcy process serving oklahoma, serve bankruptcy papers tulsa, chapter 7 service of process, chapter 13 process serving, bankruptcy court tulsa, adversary proceeding service oklahoma',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Bankruptcy Process Serving Oklahoma | Chapter 7, 11, 13 Service',
     description: 'Professional bankruptcy process serving in Oklahoma. Chapter 7, 11, 13 filings, adversary proceedings, 341 meeting notices. FRBP Rule 7004 compliant.',
     type: 'website',
     url: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bankruptcy Process Serving Oklahoma | Chapter 7, 11, 13 Service',
+    description: 'Professional bankruptcy process serving in Oklahoma. Chapter 7, 11, 13 filings, adversary proceedings, 341 meeting notices. FRBP Rule 7004 compliant. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma',

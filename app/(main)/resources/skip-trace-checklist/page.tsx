@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Download, CheckSquare, ShieldAlert, Database, FileSearch, Eye } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 const SLUG = 'JLS-Skip-Trace-Checklist-v1.0';
 
@@ -9,10 +10,22 @@ export const metadata: Metadata = {
   title: 'Skip Trace Checklist for Process Servers (Oklahoma) — Free PDF & DOCX',
   description:
     'Systematic skip-trace checklist for Oklahoma process servers: public records, licensed databases, social media, field verification — all GLB and FCRA compliant.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Skip Trace Checklist for Process Servers (Oklahoma) — Free PDF & DOCX',
+    description: 'Systematic skip-trace checklist for Oklahoma process servers: public records, licensed databases, social media, field verification — all GLB and FCRA compliant.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources/skip-trace-checklist',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Skip Trace Checklist for Process Servers (Oklahoma)',
     description: '25+ item checklist with public-records sources, database tools, and field-verification steps.',
     url: 'https://justlegalsolutions.org/resources/skip-trace-checklist',
@@ -252,6 +265,10 @@ export default function SkipTraceChecklistPage() {
             <Link href="/skip-tracing" className="text-navy underline">skip tracing services</Link>.
           </p>
         </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/skip-trace-checklist" />
+
+
       </HubPageLayout>
     </>
   );

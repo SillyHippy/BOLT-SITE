@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building, Scale, Shield, Clock } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
+import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 
 export const metadata: Metadata = {
   title: 'Process Server Rogers County, OK | Claremore, Chelsea & Foyil',
@@ -11,12 +12,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma county process serving — licensed and bonded service statewide',
+    }],
     title: 'Process Server Rogers County, OK | Claremore, Chelsea & Foyil',
     description: 'Licensed professional process server for Rogers County, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across Claremore, Catoosa, and Chelsea.',
     url: 'https://justlegalsolutions.org/counties/rogers-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Rogers County, OK | Claremore, Chelsea & Foyil',
+    description: 'Licensed professional process server for Rogers County, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across Claremore, Catoosa, and Chelsea.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/rogers-county',
@@ -339,6 +352,8 @@ export default function RogersCountyPage() {
             </div>
           </div>
         </section>
+
+        <CountyRelatedLinks countySlug="rogers-county" countyName="Rogers County" />
 
       </div>
 

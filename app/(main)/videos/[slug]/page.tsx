@@ -430,10 +430,10 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
           <div className="mt-6 pt-6 border-t border-gray-100">
             <p className="text-sm font-semibold text-gray-900 mb-3">Related Services:</p>
             <div className="flex flex-wrap gap-2">
-              <Link href="/service-areas/tulsa-process-server" className="text-xs bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">
+              <Link href="/tulsa-process-server" className="text-xs bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">
                 Tulsa Process Server
               </Link>
-              <Link href="/service-areas/oklahoma-process-server" className="text-xs bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">
+              <Link href="/process-serving" className="text-xs bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">
                 Oklahoma Process Server
               </Link>
               <Link href="/pricing" className="text-xs bg-blue-50 text-blue-700 px-3 py-1.5 rounded-full hover:bg-blue-100 transition-colors">

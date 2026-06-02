@@ -11,6 +11,12 @@ export const metadata: Metadata = {
     'Read Google Business Profile reviews for Just Legal Solutions, a Tulsa-based process server serving Tulsa County and Oklahoma statewide.',
   keywords:
     'Just Legal Solutions Google reviews, Tulsa process server Google reviews, process server reviews Tulsa County',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Google Reviews | Just Legal Solutions Process Server Tulsa',
+    description: 'Read Google Business Profile reviews for Just Legal Solutions, a Tulsa-based process server serving Tulsa County and Oklahoma statewide.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: url },
   openGraph: {
     title: 'Google Reviews | Just Legal Solutions Process Server Tulsa',

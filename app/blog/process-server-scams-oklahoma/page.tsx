@@ -6,15 +6,28 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import { AuthorBox } from '@/components/ui/author-box';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Fake Process Server Scams in Oklahoma: How to Spot Them',
   description:
     'Learn how to identify fake process server scams in Oklahoma, verify credentials, and protect your personal information.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fake Process Server Scams in Oklahoma: How to Spot Them',
+    description: 'Learn how to identify fake process server scams in Oklahoma, verify credentials, and protect your personal information.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/process-server-scams-oklahoma',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'Fake Process Server Scams in Oklahoma: How to Spot Them',
     description:
       'Red flags, legal facts, and practical steps to verify process server legitimacy in Oklahoma.',
@@ -164,7 +177,9 @@ export default function ProcessServerScamsOklahomaPage() {
         </div>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

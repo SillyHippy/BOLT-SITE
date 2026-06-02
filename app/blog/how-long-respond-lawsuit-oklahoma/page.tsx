@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How Long to Respond to a Lawsuit in Oklahoma (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'How Long Do You Have to Respond After Being Served in Oklahoma?' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Long to Respond to a Lawsuit in Oklahoma (2026)',
+    description: 'How long do you have to respond to a lawsuit in Oklahoma? Learn the 20-day rule, case types, military exceptions, and filing an answer.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-long-respond-lawsuit-oklahoma' },
   other: {
@@ -530,7 +537,9 @@ export default function HowLongRespondLawsuitOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "Legal Support Services Beyond Process Serving: Full-Servi...",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'Legal Support Services Beyond Process Serving: Full-Servi...',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Legal Support Services Beyond Process Serving: Full-Servi...',
+    description: 'Discover the full range of legal support services beyond process serving. Court filing, notary, skip tracing, courier, and more for Oklahoma law firms.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical:
@@ -575,7 +582,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="Legal Support Services Beyond Process Serving: Full-Service Guide"

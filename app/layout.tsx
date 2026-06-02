@@ -67,24 +67,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://justlegalsolutions.org',
-    title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options available.',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma'
-      }
-    ]
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp']
   },
   robots: {
     index: true,
@@ -98,7 +81,6 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org',
     languages: {
       'en-US': 'https://justlegalsolutions.org',
       'x-default': 'https://justlegalsolutions.org',

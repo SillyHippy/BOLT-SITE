@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "How AI Is Changing Legal Support Services in 2026",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'How AI Is Changing Legal Support Services in 2026',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How AI Is Changing Legal Support Services in 2026',
+    description: 'Discover how AI is transforming legal support services in 2026. From document automation to skip tracing, learn what AI means for your law firm. Serving all 77',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical:
@@ -579,7 +586,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="How AI Is Changing Legal Support Services in 2026"

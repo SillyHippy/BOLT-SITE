@@ -6,6 +6,7 @@ import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -45,6 +46,12 @@ export const metadata: Metadata = {
   description: "Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Okl",
   keywords:
     "reliable process server traits, professional process server qualities, trustworthy process server",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Makes a Process Server Reliable? 10 Traits to Look F...',
+    description: 'Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Okl',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-makes-process-server-reliable-oklahoma",
@@ -56,6 +63,12 @@ export const metadata: Metadata = {
   
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What Makes a Process Server Reliable? 10 Traits to Look For",
     description:
@@ -491,21 +504,21 @@ export default function BlogPost() {
               </Link>
               ,{" "}
               <Link
-                href="/services/notary"
+                href="/mobile-notary"
                 className="text-blue-600 hover:underline"
               >
                 notary
               </Link>
               ,{" "}
               <Link
-                href="/services/courier"
+                href="/courier-services"
                 className="text-blue-600 hover:underline"
               >
                 courier
               </Link>
               , and{" "}
               <Link
-                href="/services/virtual-assistant"
+                href="/virtual-assistant-services"
                 className="text-blue-600 hover:underline"
               >
                 virtual assistant
@@ -569,7 +582,9 @@ export default function BlogPost() {
         </article>
       </main>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="blog"
         pageUrl="https://justlegalsolutions.org/blog/what-makes-process-server-reliable-oklahoma"

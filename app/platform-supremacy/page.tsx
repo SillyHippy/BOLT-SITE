@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/platform-supremacy',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server - Just Legal Solutions',
+    description: 'Professional process serving across Oklahoma: Google optimization, AI assistants, voice search. Same-day service across all 77 Oklahoma counties. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/platform-supremacy'
   }

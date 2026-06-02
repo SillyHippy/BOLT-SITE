@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'What Happens If Service Is Done Incorrectly in Oklahoma?...',
+    description: 'Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistak',
+    url: 'https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "What Happens If Service Is Done Incorrectly in Oklahoma?...",
   description: "Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistak",
   keywords:
     "improper service consequences, invalid service oklahoma, what happens if service is wrong, Oklahoma process serving mistakes, service of process errors",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Happens If Service Is Done Incorrectly in Oklahoma?...',
+    description: 'Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistak',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma",
@@ -611,7 +632,9 @@ export default function ImproperServicePage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

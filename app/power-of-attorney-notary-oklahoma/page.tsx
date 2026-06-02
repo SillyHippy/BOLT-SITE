@@ -6,6 +6,12 @@ import JsonLd from "@/components/JsonLd";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Power of Attorney Notary Oklahoma | POA Notarization Tulsa',
+    description: 'Professional power of attorney notary services in Oklahoma. Durable, medical, financial & springing POA notarization. 24/7 mobile notary available. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-064-power-of-attorney-notary-oklahoma-og.png'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/power-of-attorney-notary-oklahoma',
   },
@@ -13,6 +19,12 @@ title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
   description: "Professional power of attorney notary services in Oklahoma. Durable, medical, financial & springing POA notarization. 24/7 mobile notary available. Call (539) 367-6832.",
   keywords: "power of attorney notary oklahoma, POA notarization tulsa, durable power of attorney oklahoma, medical power of attorney oklahoma, springing POA, 58 O.S. § 3001",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-064-power-of-attorney-notary-oklahoma-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
     description: "Professional power of attorney notary services in Oklahoma. Durable, medical, financial & springing POA notarization. 24/7 mobile notary available.",
     url: "https://justlegalsolutions.org/power-of-attorney-notary-oklahoma",

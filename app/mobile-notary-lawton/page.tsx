@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary Lawton | 24/7 Traveling Notary',
+    description: 'Lawton mobile notary for hospitals (Comanche County Memorial Hospital and Southwestern Medical Center), jails (Comanche County Detention Center), and loan signings. Licensed, bonded, same-day appointments in Comanche County. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: canonicalUrl
   },

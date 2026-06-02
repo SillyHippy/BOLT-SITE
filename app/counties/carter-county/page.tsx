@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -13,12 +14,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma county process serving — licensed and bonded service statewide',
+    }],
     title: 'Process Server Carter County, OK | Ardmore',
     description: 'Licensed process server in Carter County, Oklahoma. Serving Ardmore, Lone Grove, and all surrounding communities.',
     url: 'https://justlegalsolutions.org/counties/carter-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Carter County, OK | Ardmore',
+    description: 'Licensed process server in Carter County, Oklahoma. Serving Ardmore, Lone Grove, and all surrounding communities.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/carter-county',
@@ -240,6 +253,10 @@ export default function CarterCountyCountyPage() {
             </div>
           </div>
         </section>
+
+        
+        {/* CountyRelatedLinks */}
+        <CountyRelatedLinks countySlug="carter-county" countyName="Carter County" />
 
         <div className="text-center py-4">
           <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">

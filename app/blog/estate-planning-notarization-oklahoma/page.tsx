@@ -6,6 +6,7 @@ import UnifiedSchema from "@/components/UnifiedSchema";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import { ChevronRight, FileText, Shield, Clock, MapPin, Phone, CheckCircle, AlertTriangle, BookOpen } from "lucide-react";
 import Link from "next/link";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata = {
   title: 'Estate Planning Notarization Oklahoma — Wills, Trusts & POA',
@@ -506,7 +507,9 @@ export default function EstatePlanningNotarizationBlog() {
       </div>
 
       <LocalPromoBanner zips={[]} />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </main>
   );
 }

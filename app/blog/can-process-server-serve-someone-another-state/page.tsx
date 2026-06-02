@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
   description: "Learn how to serve out-of-state defendants from Oklahoma. Understand long-arm statutes, interstate service rules, federal procedures, and how to hire licensed s",
   keywords: "serve out of state defendant, interstate process serving, long arm service oklahoma, serve someone in another state, out of state process service, UIDDA oklahoma",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "Can a Process Server Serve Someone in Another State? Oklahoma Guide",
     description: "Your complete guide to serving out-of-state defendants from Oklahoma — long-arm statutes, interstate compacts, and how to coordinate cross-border service.",
     url: "https://justlegalsolutions.org/blog/can-process-server-serve-someone-another-state",
@@ -101,9 +108,9 @@ function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
-            <li><Link href="/services/rush-service" className="hover:text-white transition-colors">Rush Service</Link></li>
-            <li><Link href="/services/same-day" className="hover:text-white transition-colors">Same-Day Service</Link></li>
-            <li><Link href="/services/notary" className="hover:text-white transition-colors">Notary Services</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
+            <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
             <li><Link href="/services/skip-tracing" className="hover:text-white transition-colors">Skip Tracing</Link></li>
           </ul>
         </div>
@@ -322,7 +329,9 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

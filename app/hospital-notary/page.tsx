@@ -51,6 +51,12 @@ export const metadata: Metadata = {
     canonical: canonicalUrl,
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Hospital & Jail Notary Services Oklahoma',
     description: '24/7 mobile notaries for hospitals, nursing homes, hospices, and correctional facilities anywhere in Oklahoma.',
     url: canonicalUrl,

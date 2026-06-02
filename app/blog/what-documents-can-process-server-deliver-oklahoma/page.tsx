@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/what-documents-can-process-server-deliver-oklahoma',
+  },
   title: "What Documents Can a Process Server Deliver in Oklahoma?...",
   description:
     "Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 12 O.S.",
   keywords:
     "what documents can a process server serve, types of legal documents served, process server document types oklahoma, process serving oklahoma, civil process service",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What Documents Can a Process Server Deliver in Oklahoma? Complete List",
     description:
       "Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 12 O.S.",
     url: "https://justlegalsolutions.org/blog/what-documents-can-process-server-deliver-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Documents Can a Process Server Deliver in Oklahoma?...',
+    description: 'Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 1',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -606,7 +622,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

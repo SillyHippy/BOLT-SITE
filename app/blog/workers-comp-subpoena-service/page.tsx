@@ -6,15 +6,28 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import { AuthorBox } from '@/components/ui/author-box';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "Workers' Compensation Subpoena Service in Oklahoma",
   description:
     "Statewide workers' compensation subpoena service in Oklahoma for records, witnesses, and hearing support.",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Workers',
+    description: 'Statewide workers',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/workers-comp-subpoena-service',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "Workers' Compensation Subpoena Service in Oklahoma",
     description:
       "How workers' compensation subpoenas are served in Oklahoma and how to keep hearing deadlines on track.",
@@ -163,7 +176,9 @@ export default function WorkersCompSubpoenaServicePage() {
         </div>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

@@ -3,6 +3,29 @@ import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/glossary',
+  },
+  openGraph: {
+    title: 'Glossary',
+    description: 'Oklahoma process serving terms and definitions.',
+    url: 'https://justlegalsolutions.org/glossary',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-052-glossary-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal glossary — process serving and court terms',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Glossary',
+    description: 'Oklahoma process serving terms and definitions.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-052-glossary-og.png'],
+  },
   title: 'Glossary',
   description: 'Oklahoma process serving terms and definitions.',
 };

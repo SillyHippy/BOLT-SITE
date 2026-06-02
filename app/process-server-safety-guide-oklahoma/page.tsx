@@ -17,6 +17,12 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Safety Guide Oklahoma | Risk Management & Protection',
+    description: 'Comprehensive safety guide for Oklahoma process servers. Learn risk assessment, situational awareness, de-escalation techniques, and emergency procedures to stay safe while serving legal documents.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/process-server-safety-guide-oklahoma',
   },
@@ -24,6 +30,13 @@ title: 'Process Server Safety Guide Oklahoma | Risk Management & Protection',
   description: 'Comprehensive safety guide for Oklahoma process servers. Learn risk assessment, situational awareness, de-escalation techniques, and emergency procedures to stay safe while serving legal documents.',
   keywords: 'process server safety, is process serving dangerous, process server self defense, Oklahoma process server safety, legal document server protection',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+    url: 'https://justlegalsolutions.org/process-server-safety-guide-oklahoma',
     title: 'Process Server Safety Guide Oklahoma | Risk Management & Protection',
     description: 'Essential safety protocols and risk management strategies for Oklahoma process servers. Protect yourself while serving legal documents effectively.',
     type: 'article',

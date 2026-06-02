@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/can-i-notarize-documents-family-members-oklahoma',
+  },
   title: "Can I Notarize Documents for Family Members in Oklahoma?...",
   description:
     "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
   keywords:
     "notarize family documents, conflict of interest notary, family notarization rules Oklahoma, can notary notarize for family",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "Can I Notarize Documents for Family Members in Oklahoma? What the Law Says",
     description:
       "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
     url: "https://justlegalsolutions.org/blog/can-i-notarize-documents-family-members-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Can I Notarize Documents for Family Members in Oklahoma?...',
+    description: 'Learn Oklahoma',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -546,7 +562,9 @@ export default function BlogPost() {
         </section>
       </main>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

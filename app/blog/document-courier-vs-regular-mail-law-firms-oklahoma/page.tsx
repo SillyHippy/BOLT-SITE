@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Courier vs. Mail: Why Oklahoma Law Firms Switch',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Courier vs. Mail: Why Oklahoma Law Firms Switch',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Courier vs. Mail: Why Oklahoma Law Firms Switch',
+    description: 'Oklahoma law authorizes couriers as a certified mail alternative. Discover why law firms are switching to legal courier services for faster, secure court filings.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/document-courier-vs-regular-mail-law-firms-oklahoma',
@@ -617,7 +624,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

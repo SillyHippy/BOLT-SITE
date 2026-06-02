@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'What Is Substitute Service in Oklahoma? (2026 Guide)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'What Is Substitute Service in Oklahoma and When Is It Allowed?' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Is Substitute Service in Oklahoma? (2026 Guide)',
+    description: 'Learn about substitute service in Oklahoma under 12 O.S. § 2004(c). Abode service, posting requirements, judicial approval, and documentation.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/substitute-service-oklahoma' },
   other: {
@@ -545,7 +552,9 @@ export default function SubstituteServiceOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { formDownloadHref } from '@/lib/form-downloads';
 import { 
   FileText, 
   Download, 
@@ -24,10 +25,22 @@ export const metadata: Metadata = {
   keywords: 'affidavit of service template oklahoma, process server forms oklahoma, proof of service template, diligent search affidavit oklahoma, process server invoice template, client intake forms, field sheet template',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Oklahoma Process Server Forms & Templates | Free Downloads',
     description: 'Professional forms and templates for Oklahoma process servers. Download affidavit of service, proof of service, and more.',
     type: 'website',
     locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Forms & Templates | Free Downloads',
+    description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, invoice templates, client intake forms, and field sheets. Professional forms by Joseph Iannazzi, CLEET Licensed Professional.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/oklahoma-process-server-forms-templates',
@@ -549,7 +562,7 @@ export default function OklahomaProcessServerFormsPage() {
                           </p>
                         </div>
                         <Link
-                          href={`/resources/${form.filename}`}
+                          href={formDownloadHref(form.filename)}
                           className="flex-shrink-0 inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium text-sm"
                         >
                           <Download className="w-4 h-4" />

@@ -7,8 +7,28 @@ import { Shield, Clock, MapPin, Users, Mail, Compass } from 'lucide-react';
 import { AuthorBox } from '@/components/ui/author-box';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Types of Service of Process in Oklahoma',
+    description: 'Understand the different types of service of process in Oklahoma, including personal service, substitute service, and service by publication.',
+    url: 'https://justlegalsolutions.org/types-of-service-process-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Types of Service of Process in Oklahoma',
   description: 'Understand the different types of service of process in Oklahoma, including personal service, substitute service, and service by publication.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Types of Service of Process in Oklahoma',
+    description: 'Understand the different types of service of process in Oklahoma, including personal service, substitute service, and service by publication.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/types-of-service-process-oklahoma' },
 };
 

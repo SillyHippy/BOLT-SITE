@@ -31,6 +31,12 @@ import {
 } from '@/components/ui/accordion';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Equipment Checklist | Complete Starter Kit Guide',
+    description: 'Complete process server equipment checklist covering essential gear, vehicle setup, technology, safety equipment, and budget breakdown. Downloadable starter kit guide for Oklahoma process servers.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/process-server-equipment-checklist',
   },
@@ -38,6 +44,12 @@ title: 'Process Server Equipment Checklist | Complete Starter Kit Guide',
   description: 'Complete process server equipment checklist covering essential gear, vehicle setup, technology, safety equipment, and budget breakdown. Downloadable starter kit guide for Oklahoma process servers.',
   keywords: 'process server equipment, what do process servers need, process server starter kit, process server supplies, legal document delivery equipment',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Process Server Equipment Checklist | Complete Starter Kit Guide',
     description: 'Essential equipment guide for process servers in Oklahoma. Vehicle setup, technology, safety gear, and budget breakdown.',
     type: 'article',

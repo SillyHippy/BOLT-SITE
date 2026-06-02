@@ -12,6 +12,12 @@ export const metadata: Metadata = {
     follow: true,
     noarchive: true
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Professional Process Server Directory & Business Verification',
+    description: 'Verify Just Legal Solutions professional credentials and business listings. Trusted Oklahoma process server with established online presence.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/backlinks'
   },

@@ -6,6 +6,7 @@ import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata = {
   title: 'Serving Government Entities in Oklahoma — Complete Legal Guide',
@@ -765,7 +766,9 @@ export default function ServingGovernmentEntitiesPage() {
         <AuthorBox />
       </div>
       <LocalPromoBanner zips={[]} />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </main>
   );
 }

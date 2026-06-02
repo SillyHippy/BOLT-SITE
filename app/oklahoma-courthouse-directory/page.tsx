@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: 'Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info',
   description: 'Complete directory of all 77 Oklahoma county courthouses with addresses, phone numbers, hours, filing info, and OSCN links. Updated 2026. Bookmark this page.',
   keywords: 'oklahoma courthouse directory, oklahoma county courthouse addresses, oklahoma court filing info, tulsa county courthouse, oklahoma district court directory, all 77 oklahoma counties court',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info',
+    description: 'Complete directory of all 77 Oklahoma county courthouses with addresses, phone numbers, hours, filing info, and OSCN links. Updated 2026. Bookmark this page.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/oklahoma-courthouse-directory' },
   openGraph: {
     title: 'Oklahoma Courthouse Directory — All 77 Counties',

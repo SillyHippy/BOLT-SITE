@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Virtual Assistants for Court Filing & eFiling in Oklahoma',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Virtual Assistants for Court Filing & eFiling in Oklahoma',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Virtual Assistants for Court Filing & eFiling in Oklahoma',
+    description: 'Discover how Oklahoma virtual assistants streamline court filing and eFiling on the OSCN portal. Save 500+ billable hours yearly with expert filing support.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/virtual-assistants-court-filing-efiling-support-oklahoma',
@@ -288,7 +295,7 @@ export default function BlogPost() {
               <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors">
                 Get a Free Consultation
               </Link>
-              <Link href="/services/virtual-assistant-services" className="inline-block bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors">
+              <Link href="/virtual-assistant-services" className="inline-block bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-blue-50 transition-colors">
                 Explore Our Virtual Assistant Services
               </Link>
             </div>
@@ -405,7 +412,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Automation Streamlines Legal Document Workflow in Oklahoma',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Automation Streamlines Legal Document Workflow in Oklahoma',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Automation Streamlines Legal Document Workflow in Oklahoma',
+    description: 'Discover how automation streamlines legal document workflows for Oklahoma law firms. Learn about e-filing tools, time savings, and affordable software solutions.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/automation-streamlines-legal-document-workflow-oklahoma',
@@ -440,7 +447,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

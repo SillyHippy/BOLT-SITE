@@ -14,6 +14,12 @@ export const metadata: Metadata = {
   description:
     'How to serve legal documents on Oklahoma military installations including Fort Sill, Tinker AFB, and Altus AFB. Gate access, JAG coordination, and SCRA protections.',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal process guides from Just Legal Solutions',
+    }],
     title:
       'Serving Process on Military Bases in Oklahoma | Complete Guide',
     description:

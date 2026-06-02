@@ -7,6 +7,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata = {
   title: 'Power of Attorney Guide Oklahoma — Complete 2026 POA Resource',
@@ -919,7 +920,9 @@ export default function PowerOfAttorneyGuideOklahoma() {
           </Link>
         </div>
       </section>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </main>
   );
 }

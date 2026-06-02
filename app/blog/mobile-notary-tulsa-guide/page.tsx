@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: 'Mobile Notary in Tulsa — When, Why, and How Much (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Mobile Notary in Tulsa 2026 Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary in Tulsa — When, Why, and How Much (2026)',
+    description: 'Mobile notary Tulsa 2026 guide: hospital, jail, nursing home, business, and after-hours visits. Pricing starts at $25 per act + travel. RON alternative under 49 O.S. § 209 explained.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/mobile-notary-tulsa-guide' },
   other: {
@@ -338,7 +345,9 @@ export default function MobileNotaryTulsaGuide() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </>
   );
 }

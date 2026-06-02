@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Law Firm CRM: Client Relationship Management Guide',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Oklahoma Law Firm CRM: Client Relationship Management Guide',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Law Firm CRM: Client Relationship Management Guide',
+    description: 'Discover how Oklahoma law firms use CRM + virtual assistants to boost client retention, meet ORPC communication rules, and streamline operations across all 77 counties.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/client-relationship-management-oklahoma-law-firms',
@@ -380,7 +387,7 @@ export default function BlogPost() {
             for professional, licensed support across all 77 Oklahoma counties. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
             Want to learn how virtual assistants can handle your CRM data entry, client intake, and follow-ups?{' '}
-            <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">Explore our virtual assistant services</Link>{' '}
+            <Link href="/virtual-assistant-services" className="text-blue-600 hover:underline">Explore our virtual assistant services</Link>{' '}
             or contact us for a free consultation.
           </p>
           </article>
@@ -394,7 +401,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

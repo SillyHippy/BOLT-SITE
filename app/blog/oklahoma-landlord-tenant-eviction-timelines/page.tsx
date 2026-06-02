@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Eviction Timelines & Notice Requirements (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-100-blog-oklahoma-landlord-tenant-eviction-timelines-card.webp', width: 1200, height: 630, alt: 'Oklahoma Landlord-Tenant Laws: Eviction Timelines & Notice Requirements' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Eviction Timelines & Notice Requirements (2026)',
+    description: 'Complete guide to Oklahoma eviction timelines and notice requirements. FED procedures, court timelines, and common landlord mistakes.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-landlord-tenant-eviction-timelines' },
   other: {
@@ -551,7 +558,9 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

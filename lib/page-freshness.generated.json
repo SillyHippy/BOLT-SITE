@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-02T18:32:37.636Z",
+  "generatedAt": "2026-06-02T21:16:42.693Z",
   "siteContentReviewDate": "2026-06-02",
   "defaultDatePublished": "2025-03-01",
   "pages": {
     "/about": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-23",
       "sourceFile": "app/(main)/about/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-23"
     },
     "/affidavit-of-service": {
       "datePublished": "2025-03-01",
@@ -35,9 +35,9 @@
     },
     "/courier-services": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/courier-services/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/courier-services-tulsa": {
       "datePublished": "2025-03-01",
@@ -53,21 +53,21 @@
     },
     "/eviction-notice-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/eviction-notice-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/faq": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2025-12-10",
       "sourceFile": "app/(main)/faq/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2025-12-10"
     },
     "/field-sheet": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/(main)/field-sheet/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/for-attorneys": {
       "datePublished": "2025-03-01",
@@ -95,9 +95,9 @@
     },
     "/how-to-serve-legal-papers-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/(main)/how-to-serve-legal-papers-oklahoma/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/join-our-network": {
       "datePublished": "2025-03-01",
@@ -107,9 +107,9 @@
     },
     "/learn/attorney-hiring-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/learn/attorney-hiring-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/learn/electronic-filing-service": {
       "datePublished": "2025-03-01",
@@ -119,15 +119,15 @@
     },
     "/learn/eviction-service-guide": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/learn/eviction-service-guide/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/learn/gps-electronic-proof-of-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/learn/gps-electronic-proof-of-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/learn/hb1162-safety-compliance": {
       "datePublished": "2025-03-01",
@@ -143,9 +143,9 @@
     },
     "/learn/service-by-publication": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/learn/service-by-publication/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/learn/special-population-service": {
       "datePublished": "2025-03-01",
@@ -161,15 +161,15 @@
     },
     "/learn/vpo-protective-order-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/learn/vpo-protective-order-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-process-server-bond-requirements": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/oklahoma-process-server-bond-requirements/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/oklahoma-process-serving-hub": {
       "datePublished": "2025-03-01",
@@ -179,15 +179,15 @@
     },
     "/oklahoma-tools/can-i-serve-my-own-papers": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/can-i-serve-my-own-papers/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools/e-service-validity-checker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/e-service-validity-checker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools": {
       "datePublished": "2025-03-01",
@@ -197,39 +197,39 @@
     },
     "/oklahoma-tools/process-serving-cost-estimator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/process-serving-cost-estimator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools/publication-timeline-calculator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/publication-timeline-calculator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools/rush-emergency-cost-calculator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/rush-emergency-cost-calculator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools/service-deadline-calculator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/service-deadline-calculator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/oklahoma-tools/service-method-wizard": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/(main)/oklahoma-tools/service-method-wizard/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/oklahoma-tools/subpoena-witness-fee-calculator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/oklahoma-tools/subpoena-witness-fee-calculator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/": {
       "datePublished": "2025-03-01",
@@ -239,21 +239,21 @@
     },
     "/payments": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/(main)/payments/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/pricing": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/pricing/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/process-server-license-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/process-server-license-oklahoma/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/process-serving": {
       "datePublished": "2025-03-01",
@@ -299,15 +299,15 @@
     },
     "/same-day-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/same-day-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/seo/eviction-notice-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/seo/eviction-notice-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/seo/legal-posting-process-server": {
       "datePublished": "2025-03-01",
@@ -317,27 +317,27 @@
     },
     "/seo/process-server-nowata": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-02-17",
       "sourceFile": "app/(main)/seo/process-server-nowata/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-02-17"
     },
     "/seo/process-server-vinita": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-02-17",
       "sourceFile": "app/(main)/seo/process-server-vinita/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-02-17"
     },
     "/seo-dashboard": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/seo-dashboard/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/services": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-02-08",
       "sourceFile": "app/(main)/services/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-02-08"
     },
     "/sitemap": {
       "datePublished": "2025-03-01",
@@ -347,15 +347,15 @@
     },
     "/skip-tracing": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/skip-tracing/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/subpoena-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/subpoena-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/tools": {
       "datePublished": "2025-03-01",
@@ -371,21 +371,21 @@
     },
     "/tulsa-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/(main)/tulsa-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/ultimate-guide-process-serving-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-28",
       "sourceFile": "app/(main)/ultimate-guide-process-serving-oklahoma/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-28"
     },
     "/urgent-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/(main)/urgent-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/videos": {
       "datePublished": "2025-03-01",
@@ -395,15 +395,15 @@
     },
     "/about/joseph-iannazzi": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/about/joseph-iannazzi/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/ai-skip-tracing-guide-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/ai-skip-tracing-guide-oklahoma/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/apostille": {
       "datePublished": "2025-03-01",
@@ -419,9 +419,9 @@
     },
     "/bail-bondsmen-process-serving": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/bail-bondsmen-process-serving/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/bankruptcy-process-serving-oklahoma": {
       "datePublished": "2025-03-01",
@@ -1211,39 +1211,39 @@
     },
     "/can-process-server-serve-on-sunday": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/can-process-server-serve-on-sunday/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/card/calendar": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/card/calendar/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/card": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/card/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/competitor-analysis": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-02-17",
       "sourceFile": "app/competitor-analysis/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-02-17"
     },
     "/contact": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/contact/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/cost-calculator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/cost-calculator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/counties/adair-county": {
       "datePublished": "2025-03-01",
@@ -1499,9 +1499,9 @@
     },
     "/counties": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/counties/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/counties/payne-county": {
       "datePublished": "2025-03-01",
@@ -1565,9 +1565,9 @@
     },
     "/counties/tulsa-county": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/counties/tulsa-county/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/counties/wagoner-county": {
       "datePublished": "2025-03-01",
@@ -1589,27 +1589,27 @@
     },
     "/courthouse-filing-services": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/courthouse-filing-services/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/divorce-paper-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/divorce-paper-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/family-law-service-guide-tulsa": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/family-law-service-guide-tulsa/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/gps-tracked-process-serving": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/gps-tracked-process-serving/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/guides/attorney-guide": {
       "datePublished": "2025-03-01",
@@ -1643,9 +1643,9 @@
     },
     "/high-profile-service-protocols-tulsa": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/high-profile-service-protocols-tulsa/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/hospital-notary": {
       "datePublished": "2025-03-01",
@@ -1685,9 +1685,9 @@
     },
     "/leave-review": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-24",
       "sourceFile": "app/leave-review/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-24"
     },
     "/legal-glossary": {
       "datePublished": "2025-03-01",
@@ -1703,9 +1703,9 @@
     },
     "/local-seo-marker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/local-seo-marker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/mobile-notary": {
       "datePublished": "2025-03-01",
@@ -1757,9 +1757,9 @@
     },
     "/multi-search-marker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/multi-search-marker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/notary/creek-county": {
       "datePublished": "2025-03-01",
@@ -1769,15 +1769,15 @@
     },
     "/notary/joseph": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/notary/joseph/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/notary": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/notary/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/notary/tulsa-county": {
       "datePublished": "2025-03-01",
@@ -1787,21 +1787,21 @@
     },
     "/notary-faqs": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-19",
       "sourceFile": "app/notary-faqs/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-19"
     },
     "/notary-laws": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/notary-laws/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/oklahoma-case-law-service-process": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/oklahoma-case-law-service-process/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/oklahoma-courthouse-directory": {
       "datePublished": "2025-03-01",
@@ -1811,15 +1811,15 @@
     },
     "/oklahoma-electronic-service-guide": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/oklahoma-electronic-service-guide/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/oklahoma-legal-service-areas": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/oklahoma-legal-service-areas/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/oklahoma-process-server-authority": {
       "datePublished": "2025-03-01",
@@ -1829,15 +1829,15 @@
     },
     "/oklahoma-process-server-best-practices-checklist": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/oklahoma-process-server-best-practices-checklist/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/oklahoma-process-server-faq": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-28",
       "sourceFile": "app/oklahoma-process-server-faq/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-28"
     },
     "/oklahoma-process-server-forms-templates": {
       "datePublished": "2025-03-01",
@@ -1853,27 +1853,27 @@
     },
     "/oklahoma-process-server-pricing": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/oklahoma-process-server-pricing/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/oklahoma-process-server-technology": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/oklahoma-process-server-technology/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/oklahoma-process-serving-costs-comparison": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/oklahoma-process-serving-costs-comparison/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/oklahoma-vs-texas-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-02-17",
       "sourceFile": "app/oklahoma-vs-texas-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-02-17"
     },
     "/out-of-state-subpoena": {
       "datePublished": "2025-03-01",
@@ -1883,15 +1883,15 @@
     },
     "/pdf-tools": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-13",
       "sourceFile": "app/pdf-tools/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-13"
     },
     "/performance-marker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/performance-marker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/platform-supremacy": {
       "datePublished": "2025-03-01",
@@ -1931,9 +1931,9 @@
     },
     "/process-server-near-me": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/process-server-near-me/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/process-server-safety-guide-oklahoma": {
       "datePublished": "2025-03-01",
@@ -1943,51 +1943,51 @@
     },
     "/process-server-tulsa-guide": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/process-server-tulsa-guide/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/process-server-vs-sheriff": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-24",
       "sourceFile": "app/process-server-vs-sheriff/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-24"
     },
     "/process-serving-for-debt-collection": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/process-serving-for-debt-collection/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/process-serving-for-insurance-companies": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/process-serving-for-insurance-companies/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/process-serving-for-property-managers": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/process-serving-for-property-managers/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/process-serving-mistakes-guide": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/process-serving-mistakes-guide/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/protective-order-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/protective-order-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/real-estate-notary": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-19",
       "sourceFile": "app/real-estate-notary/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-19"
     },
     "/registered-agent": {
       "datePublished": "2025-03-01",
@@ -1997,9 +1997,9 @@
     },
     "/remote-online-notary": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/remote-online-notary/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/resources/attorneys-guide-hiring-process-server": {
       "datePublished": "2025-03-01",
@@ -2063,15 +2063,15 @@
     },
     "/reviews": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-22",
       "sourceFile": "app/reviews/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-22"
     },
     "/reviews/phone": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/reviews/phone/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/reviews/survey": {
       "datePublished": "2025-03-01",
@@ -2081,15 +2081,15 @@
     },
     "/reviews/text": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/reviews/text/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/rush-vs-standard-vs-same-day-service": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/rush-vs-standard-vs-same-day-service/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/security-policy": {
       "datePublished": "2025-03-01",
@@ -2099,9 +2099,9 @@
     },
     "/seo/what-is-a-process-server": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/seo/what-is-a-process-server/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/serve-business-corporation-oklahoma": {
       "datePublished": "2025-03-01",
@@ -2141,9 +2141,9 @@
     },
     "/service-areas/bethany": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/bethany/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/bixby": {
       "datePublished": "2025-03-01",
@@ -2171,9 +2171,9 @@
     },
     "/service-areas/catoosa": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/catoosa/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/chickasha": {
       "datePublished": "2025-03-01",
@@ -2255,9 +2255,9 @@
     },
     "/service-areas/jenks": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/jenks/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/kellyville": {
       "datePublished": "2025-03-01",
@@ -2291,15 +2291,15 @@
     },
     "/service-areas/midwest-city": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/midwest-city/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/moore": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/moore/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/mounds": {
       "datePublished": "2025-03-01",
@@ -2327,15 +2327,15 @@
     },
     "/service-areas/nowata": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/nowata/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/oklahoma-city": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/oklahoma-city/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/okmulgee": {
       "datePublished": "2025-03-01",
@@ -2351,9 +2351,9 @@
     },
     "/service-areas": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/service-areas/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/service-areas/pauls-valley": {
       "datePublished": "2025-03-01",
@@ -2435,9 +2435,9 @@
     },
     "/service-areas/tulsa": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/service-areas/tulsa/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/service-areas/vinita": {
       "datePublished": "2025-03-01",
@@ -2447,9 +2447,9 @@
     },
     "/service-areas/wagoner": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/service-areas/wagoner/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/service-areas/yukon": {
       "datePublished": "2025-03-01",
@@ -2459,33 +2459,33 @@
     },
     "/service-checker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/service-checker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/service-time-estimator": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/service-time-estimator/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/serving-legal-papers-on-tribal-land": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-04",
       "sourceFile": "app/serving-legal-papers-on-tribal-land/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-04"
     },
     "/small-claims-process-serving": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-27",
       "sourceFile": "app/small-claims-process-serving/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-27"
     },
     "/subpoena-service-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/subpoena-service-oklahoma/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/terms-of-service": {
       "datePublished": "2025-03-01",
@@ -2501,9 +2501,9 @@
     },
     "/tulsa-process-server-faq": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/tulsa-process-server-faq/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     },
     "/types-of-service-process-oklahoma": {
       "datePublished": "2025-03-01",
@@ -2513,27 +2513,27 @@
     },
     "/virtual-assistant-services": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-19",
       "sourceFile": "app/virtual-assistant-services/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-19"
     },
     "/voice-search-marker": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-05-23",
       "sourceFile": "app/voice-search-marker/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-05-23"
     },
     "/wedding-officiant": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-19",
       "sourceFile": "app/wedding-officiant/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-19"
     },
     "/weekend-emergency": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-28",
       "sourceFile": "app/weekend-emergency/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-28"
     },
     "/what-happens-if-someone-refuses-service": {
       "datePublished": "2025-03-01",
@@ -2549,9 +2549,9 @@
     },
     "/why-choose-us": {
       "datePublished": "2025-03-01",
-      "dateModified": "2026-06-02",
+      "dateModified": "2026-04-30",
       "sourceFile": "app/why-choose-us/page.tsx",
-      "fileMtime": "2026-06-02"
+      "fileMtime": "2026-04-30"
     }
   }
 }

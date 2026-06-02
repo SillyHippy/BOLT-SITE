@@ -2,6 +2,7 @@
 
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 const citations = [
   {
@@ -350,6 +351,10 @@ export default function BecomeProcessServerPage() {
         </section>
 
       </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/become-process-server-oklahoma" />
+
+
     </HubPageLayout>
     </>
   );

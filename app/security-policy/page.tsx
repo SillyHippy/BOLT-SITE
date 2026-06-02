@@ -4,6 +4,26 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Security Policy',
+    description: 'Security policy and guidelines for Just Legal Solutions website and services.',
+    url: 'https://justlegalsolutions.org/security-policy',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Security Policy',
+    description: 'Security policy and guidelines for Just Legal Solutions website and services.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/security-policy',
   },

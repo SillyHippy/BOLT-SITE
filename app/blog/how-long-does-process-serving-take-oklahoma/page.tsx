@@ -77,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/how-long-does-process-serving-take-oklahoma',
+  },
   title: "How Long Does Process Serving Usually Take in Oklahoma? T...",
   description:
     "Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.",
   keywords:
     "how long does process serving take, process server timeline oklahoma, how many attempts does process server make, process serving speed, oklahoma process server turnaround",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "How Long Does Process Serving Usually Take in Oklahoma? Timeline Guide",
     description:
       "Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.",
     url: "https://justlegalsolutions.org/blog/how-long-does-process-serving-take-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Long Does Process Serving Usually Take in Oklahoma? T...',
+    description: 'Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 

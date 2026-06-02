@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Skip Tracing in Oklahoma — Find Hard-to-Locate Defendants (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-058-skip-tracing-oklahoma-guide-og.webp', width: 1200, height: 630, alt: 'Skip Tracing in Oklahoma 2026 Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Skip Tracing in Oklahoma — Find Hard-to-Locate Defendants (2026)',
+    description: 'Oklahoma skip tracing guide 2026: legal sources, ethical limits, success rates, and pricing that starts at $50. Locate evasive defendants for service of process under 12 O.S. § 2004.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/skip-tracing-oklahoma-guide' },
   other: {
@@ -349,7 +356,9 @@ export default function SkipTracingOklahomaGuide() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

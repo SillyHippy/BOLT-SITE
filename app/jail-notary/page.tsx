@@ -44,6 +44,12 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: canonicalUrl },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Jail & Prison Notary Services Oklahoma',
     description: 'Professional notarization at Oklahoma correctional facilities. DOC-experienced notaries for power of attorney, real estate, affidavits, and more.',
     url: canonicalUrl,

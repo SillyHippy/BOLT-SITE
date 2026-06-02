@@ -13,6 +13,7 @@
     "verify:redirects": "node scripts/verify-redirects.mjs",
     "verify:audit-export": "node scripts/verify-audit-export.mjs",
     "verify:freshness": "node scripts/verify-freshness-signals.mjs",
+    "validate:links": "node scripts/validate-internal-links.mjs",
     "sync:ai-dates": "node scripts/generate-page-freshness.mjs && node scripts/sync-ai-freshness-dates.mjs",
     "generate:freshness": "node scripts/generate-page-freshness.mjs",
     "verify:http": "node scripts/verify-sitemap-urls.mjs && node scripts/verify-redirects.mjs && node scripts/verify-audit-export.mjs",

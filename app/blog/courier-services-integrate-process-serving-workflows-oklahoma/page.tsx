@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How Courier and Process Serving Workflows Integrate',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'How Courier and Process Serving Workflows Integrate',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Courier and Process Serving Workflows Integrate',
+    description: 'Discover how integrated courier and process serving workflows save Oklahoma law firms time, money, and compliance headaches. Learn the 180-day workflow advantage.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/courier-services-integrate-process-serving-workflows-oklahoma',
@@ -725,7 +732,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

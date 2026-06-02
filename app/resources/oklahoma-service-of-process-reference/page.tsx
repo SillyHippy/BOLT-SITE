@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { resourceDownloadHref } from '@/lib/resource-downloads';
 import { 
   FileText, 
   Scale, 
@@ -22,8 +23,15 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Service of Process Quick Reference Card | Free PDF Download',
+    description: 'Free downloadable quick reference card for Oklahoma service of process. Includes key statutes (12 O.S. § 2004, § 158.1), service methods, deadlines, and prohibited activities. Perfect for process servers, attorneys, and paralegals.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/resources/oklahoma-service-of-process-reference',
   },
@@ -31,6 +39,12 @@ title: 'Oklahoma Service of Process Quick Reference Card | Free PDF Download',
   description: 'Free downloadable quick reference card for Oklahoma service of process. Includes key statutes (12 O.S. § 2004, § 158.1), service methods, deadlines, and prohibited activities. Perfect for process servers, attorneys, and paralegals.',
   keywords: 'Oklahoma service of process, process server reference card, 12 O.S. 2004, service of process statutes, Oklahoma process serving laws, legal document service reference',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'Oklahoma Service of Process Quick Reference Card | Free PDF Download',
     description: 'Pocket-sized reference guide with Oklahoma service of process statutes, methods, deadlines, and prohibited activities. Free download for legal professionals.',
     type: 'article',
@@ -240,7 +254,7 @@ export default function OklahomaServiceOfProcessReference() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg">
-                <Link href="/downloads/oklahoma-service-of-process-reference-card.pdf" target="_blank">
+                <Link href={resourceDownloadHref('oklahoma-service-of-process-reference-card.pdf')} target="_blank">
                   <Download className="w-5 h-5 mr-2" />
                   Download Free PDF
                 </Link>
@@ -494,7 +508,7 @@ export default function OklahomaServiceOfProcessReference() {
             </div>
 
             <Button asChild size="lg" variant="secondary" className="text-lg px-8">
-              <Link href="/downloads/oklahoma-service-of-process-reference-card.pdf" target="_blank">
+              <Link href={resourceDownloadHref('oklahoma-service-of-process-reference-card.pdf')} target="_blank">
                 <Download className="w-5 h-5 mr-2" />
                 Download Free PDF Now
               </Link>
@@ -672,6 +686,10 @@ export default function OklahomaServiceOfProcessReference() {
           </div>
         </div>
       </section>
+    
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/oklahoma-service-of-process-reference" />
+
     </main>
   );
 }

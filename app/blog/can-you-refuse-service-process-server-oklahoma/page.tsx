@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/can-you-refuse-service-process-server-oklahoma',
+  },
   title: "Can You Refuse Service from a Process Server in Oklahoma?",
   description:
     "Learn what happens when you refuse or avoid a process server in Oklahoma. Discover alternative service methods, legal consequences, and why refusal won\u2019t stop your case under Title 12 O.S.",
   keywords:
     "can you refuse service from process server, what happens if I avoid being served, refusing legal papers oklahoma, alternative service oklahoma, process server refusal",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "Can You Refuse Service from a Process Server in Oklahoma?",
     description:
       "Learn what happens when you refuse or avoid a process server in Oklahoma. Discover alternative service methods, legal consequences, and why refusal won\u2019t stop your case under Title 12 O.S.",
     url: "https://justlegalsolutions.org/blog/can-you-refuse-service-process-server-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Can You Refuse Service from a Process Server in Oklahoma?',
+    description: 'Learn what happens when you refuse or avoid a process server in Oklahoma. Discover alternative service methods, legal consequences, and why refusal won\u2019t s',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -645,7 +661,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

@@ -180,7 +180,7 @@ function parseLocationData(content: string, slug: string): LocationData {
   // Adjacent cities
   const adjSection = parseSection(content, 'Adjacent Cities');
   const adjacentCities: AdjacentCity[] = [];
-  const adjMatches = adjSection.matchAll(/\[(.+?)\]\(\/(?:content\/locations|service-areas)\/(.+?)(?:\.md)?\)\s*-\s*(.+)/g);
+  const adjMatches = adjSection.matchAll(/\[(.+?)\]\(\/(?:content\/locations|service-areas)\/(.+?)(?:\.md)?\)\s*[-–—]\s*(.+)/g);
   for (const am of adjMatches) {
     adjacentCities.push({ name: am[1], slug: am[2], distance: am[3].trim() });
   }
@@ -260,7 +260,7 @@ export async function generateMetadata({
         {
           url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
           width: 1200,
-          height: 800,
+          height: 630,
           alt: `Aerial view of a small Oklahoma town — licensed process server serving ${locationName}`,
         },
       ],
@@ -800,6 +800,9 @@ export default async function LocationPage({
                   </Link>
                   <Link href="/process-serving" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <Shield className="w-3 h-3" /> Process Serving
+                  </Link>
+                  <Link href="/courier-services" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
+                    <FileText className="w-3 h-3" /> Legal Document Courier
                   </Link>
                   <Link href="/oklahoma-process-server-faq" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <HelpCircle className="w-3 h-3" /> Process Server FAQ

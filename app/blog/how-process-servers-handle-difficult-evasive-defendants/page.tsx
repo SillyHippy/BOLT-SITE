@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'How Do Process Servers Handle Difficult or Evasive Defend...',
+    description: 'Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.',
+    url: 'https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "How Do Process Servers Handle Difficult or Evasive Defend...",
   description: "Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.",
   keywords:
     "evasive defendant process server, difficult serve process serving, stakeout process server, Oklahoma process server tactics, skip tracing legal",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Do Process Servers Handle Difficult or Evasive Defend...',
+    description: 'Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants",
@@ -631,7 +652,9 @@ export default function DifficultDefendantsPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

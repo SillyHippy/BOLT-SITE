@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "How Fast Can a Process Server Deliver Documents in Oklahoma?",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How Fast Can a Process Server Deliver Documents in Oklahoma?' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Fast Can a Process Server Deliver Documents in Oklahoma?',
+    description: 'Learn how fast process servers deliver in Oklahoma. Same-day, rush (24-48hr), standard (3-5 days) & more. Tulsa-based serving all 77 counties. Call (539) 367-68',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-fast-can-process-server-deliver-oklahoma' },
   other: {
@@ -278,7 +285,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="How Fast Can a Process Server Deliver Documents in Oklahoma?"

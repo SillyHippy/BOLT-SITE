@@ -26,6 +26,12 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Business Startup Guide | Oklahoma 2025',
+    description: 'Complete guide to starting a process serving business in Oklahoma. Learn about business structures, licensing, startup costs, marketing strategies, and scaling your process server company.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/process-server-business-startup-guide',
   },
@@ -34,6 +40,12 @@ title: 'Process Server Business Startup Guide | Oklahoma 2025',
   keywords: 'start process serving business, process serving business plan, process server marketing, Oklahoma process server business, process server startup costs',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Process Server Business Startup Guide | Oklahoma 2025',
     description: 'Complete guide to starting a process serving business in Oklahoma. Business plans, licensing, marketing, and growth strategies.',
     type: 'article',

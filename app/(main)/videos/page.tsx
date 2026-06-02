@@ -30,6 +30,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving & Notary Videos — Oklahoma Legal Guides',
+    description: 'Watch free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/videos' },
 };
 

@@ -10,10 +10,22 @@ export const metadata: Metadata = {
   description: 'Dedicated process serving for Oklahoma attorneys and law firms. Volume pricing, monthly billing, real-time tracking portal, and dedicated account management. Call (539) 367-6832.',
   keywords: 'process serving for attorneys oklahoma, law firm process server tulsa, bulk process serving oklahoma, attorney document delivery, legal support services oklahoma, law firm partnership',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Process Serving for Attorneys & Law Firms | Oklahoma Legal Support',
     description: 'Dedicated process serving for Oklahoma attorneys and law firms. Volume pricing, monthly billing, real-time tracking portal, and dedicated account management.',
     type: 'website',
     url: 'https://justlegalsolutions.org/attorney-services',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving for Attorneys & Law Firms | Oklahoma Legal Support',
+    description: 'Dedicated process serving for Oklahoma attorneys and law firms. Volume pricing, monthly billing, real-time tracking portal, and dedicated account management. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/attorney-services',
@@ -913,6 +925,39 @@ export default function AttorneyServicesPage() {
                   Professional document filing at all Oklahoma state and federal courts. 
                   Same-day filing available for time-sensitive matters.
                 </p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Resources */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">Guides for Oklahoma Attorneys</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Link href="/resources/attorneys-guide-hiring-process-server" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Attorney&apos;s Hiring Guide</h3>
+                <p className="text-gray-600 text-sm">Free PDF on vetting process servers and avoiding service defects</p>
+              </Link>
+              <Link href="/for-attorneys" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">For Attorneys Overview</h3>
+                <p className="text-gray-600 text-sm">Portal access, volume pricing, and firm account setup</p>
+              </Link>
+              <Link href="/process-serving" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Process Serving Services</h3>
+                <p className="text-gray-600 text-sm">Statewide service under Oklahoma Title 12 rules</p>
+              </Link>
+              <Link href="/tulsa-process-server" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Tulsa Process Server</h3>
+                <p className="text-gray-600 text-sm">Tulsa County district court and metro service areas</p>
+              </Link>
+              <Link href="/resources/oklahoma-service-of-process-reference" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Service of Process Reference</h3>
+                <p className="text-gray-600 text-sm">12 O.S. § 2004 personal, substitute, and publication methods</p>
+              </Link>
+              <Link href="/oklahoma-process-serving-hub" className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Calculators &amp; Guides Hub</h3>
+                <p className="text-gray-600 text-sm">Deadlines, witness fees, and service eligibility tools</p>
               </Link>
             </div>
           </div>

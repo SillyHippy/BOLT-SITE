@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Notary Fees & Rules 2026 — Complete Guide',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Oklahoma Notary Fees 2026 Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Notary Fees & Rules 2026 — Complete Guide',
+    description: 'Oklahoma notary fees 2026: $5 max per signature under 49 O.S. § 5. Mobile notary travel fees, RON rates, after-hours surcharges.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-notary-fees-guide' },
   other: {
@@ -431,7 +438,9 @@ export default function OklahomaNotaryFeesGuide() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </>
   );
 }

@@ -30,16 +30,17 @@ jobs:
       - name: Release queued posts (adaptive cadence)
         run: npm run blog:release-weekly
 
-      - name: Regenerate sitemaps and freshness manifest
+      - name: Regenerate sitemaps, AIO assets, and freshness manifest
         run: |
           node scripts/generate-page-freshness.mjs
+          node scripts/answer-engine-optimization.js
           node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add app/blog content/blog-queue lib/page-freshness.generated.json public/blog/images public/sitemap.xml public/video-sitemap.xml public/ai-sitemap.xml
+          git add app/blog content/blog-queue lib/page-freshness.generated.json public/blog/images public/sitemap.xml public/video-sitemap.xml public/ai-sitemap.xml public/ai-search public/_redirects content/blog-queue/pending-redirects.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0

@@ -8,6 +8,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Legal Blog | Process Serving & Legal Guides',
@@ -25,6 +26,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Just Legal Solutions Blog' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Legal Blog | Process Serving & Legal Guides',
+    description: 'Expert Oklahoma legal guides covering process serving, service of process procedures, eviction timelines, court rules, and practical legal information for attorneys and individuals.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog' },
   other: {
@@ -423,7 +430,9 @@ export default async function BlogIndex() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

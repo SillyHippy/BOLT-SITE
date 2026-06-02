@@ -8,8 +8,15 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Handle Evasive Defendants Oklahoma — Process Serving Guide',
+    description: 'Proven strategies for serving evasive defendants in Oklahoma. Skip tracing, due diligence under 12 O.S. § 2004, and alternative service. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/handling-evasive-defendants-oklahoma',
   },
@@ -17,6 +24,12 @@ export const metadata: Metadata = {
   description: 'Proven strategies for serving evasive defendants in Oklahoma. Skip tracing, due diligence under 12 O.S. § 2004, and alternative service. Call (539) 367-6832.',
   keywords: 'defendant avoiding service oklahoma, hard to serve defendant, skip tracing evasive defendant, Oklahoma process server, service by publication, alternative service methods',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'How to Handle Evasive Defendants in Oklahoma',
     description: 'Expert guide to serving hard-to-find defendants in Oklahoma. Skip tracing, legal requirements, and proven strategies.',
     type: 'article',
@@ -742,7 +755,9 @@ export default function EvasiveDefendantsPage() {
         </div>
       </main>
       <LocalPromoBanner zips={[]} />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

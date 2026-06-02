@@ -3,6 +3,20 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server',
+    description: 'Verified client feedback collected via email from our Oklahoma process serving clients. Real insights from attorneys, law firms, and individuals using our legal services.',
+    url: 'https://justlegalsolutions.org/reviews/email',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server',
   description: 'Verified client feedback collected via email from our Oklahoma process serving clients. Real insights from attorneys, law firms, and individuals using our legal services.',
   keywords: 'email feedback, process server testimonials, Oklahoma legal services reviews, verified email reviews, attorney feedback',
@@ -13,6 +27,12 @@ export const metadata: Metadata = {
       index: false,
       follow: false,
     },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Email Feedback Reviews - Just Legal Solutions Oklahoma Process Server',
+    description: 'Verified client feedback collected via email from our Oklahoma process serving clients. Real insights from attorneys, law firms, and individuals using our legal services.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/reviews/email'

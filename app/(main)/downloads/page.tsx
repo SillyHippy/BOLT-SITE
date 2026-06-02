@@ -6,10 +6,22 @@ export const metadata: Metadata = {
   title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
   description:
     '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
+    description: '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/downloads',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'Free Oklahoma Process Serving Downloads',
     description:
       '30 free downloadable resources covering Oklahoma process-serving law, procedure, and operations. DOCX and PDF formats.',

@@ -15,6 +15,7 @@ import {
 import { getCountyData } from '@/lib/county-data';
 import { getCountyGeoData } from '@/lib/county-geo';
 import { getCitiesByCounty } from '@/lib/city-geo';
+import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   const slugs = await getCountySlugs();
@@ -44,8 +45,8 @@ export async function generateMetadata({
       images: [
         {
           url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp',
-          width: 1920,
-          height: 1080,
+          width: 1200,
+          height: 630,
           alt: 'Oklahoma prairie landscape with red dirt roads and vast sky at golden hour',
         },
       ],
@@ -225,6 +226,10 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
             </div>
           </section>
         )}
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+          <CountyRelatedLinks countySlug={slug} countyName={countyName} />
+        </div>
 
         {/* CTA Section */}
         <section className="bg-blue-900 text-white py-16">

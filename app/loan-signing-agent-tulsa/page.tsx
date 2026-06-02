@@ -6,6 +6,12 @@ import JsonLd from '@/components/JsonLd';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
+    description: 'Professional loan signing agent services in Tulsa, Oklahoma. NNA-certified notary signing agents for purchases, refinances, HELOCs & reverse mortgages. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/loan-signing-agent-tulsa',
   },
@@ -13,6 +19,12 @@ title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
   description: 'Professional loan signing agent services in Tulsa, Oklahoma. NNA-certified notary signing agents for purchases, refinances, HELOCs & reverse mortgages. Call (539) 367-6832.',
   keywords: 'loan signing agent tulsa, notary signing agent oklahoma, mortgage closing notary tulsa, refinance closing notary, HELOC notary oklahoma, reverse mortgage notary, eClosing, hybrid closing',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
     description: 'Professional loan signing agent services in Tulsa, Oklahoma. NNA-certified notary signing agents for purchases, refinances, HELOCs & reverse mortgages.',
     type: 'website',

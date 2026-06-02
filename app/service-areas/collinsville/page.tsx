@@ -12,12 +12,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma process server service area — local legal document delivery',
+    }],
     title: 'Process Server Collinsville, OK | North Tulsa County',
     description: 'Licensed professional process server for Collinsville, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across 74021 and North Tulsa County.',
     url: 'https://justlegalsolutions.org/service-areas/collinsville',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Collinsville, OK | North Tulsa County',
+    description: 'Licensed professional process server for Collinsville, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across 74021 and North Tulsa County.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/collinsville',

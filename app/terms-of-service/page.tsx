@@ -3,8 +3,28 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Terms of Service',
+    description: 'Terms of service for Just Legal Solutions — Oklahoma process server and notary services. Service agreements, payment terms, and liability limitations.',
+    url: 'https://justlegalsolutions.org/terms-of-service',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Terms of Service',
   description: 'Terms of service for Just Legal Solutions — Oklahoma process server and notary services. Service agreements, payment terms, and liability limitations.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Service',
+    description: 'Terms of service for Just Legal Solutions — Oklahoma process server and notary services. Service agreements, payment terms, and liability limitations.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/terms-of-service' },
   robots: { index: true, follow: true },
 };

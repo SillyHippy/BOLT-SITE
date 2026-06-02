@@ -33,6 +33,12 @@ export const metadata: Metadata = {
   keywords:
     'Tulsa mobile notary, downtown Tulsa notary, notary public Tulsa OK, Tulsa County notary services, 24/7 notary Tulsa, mobile notary Oklahoma, remote online notarization Tulsa, emergency notary Tulsa County, Brady Arts District notary, Blue Dome District notary, Pearl District notary, Kendall-Whittier notary',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Mobile Notary Tulsa County OK | 24/7 Notary Public Tulsa',
     description:
       'On-demand Tulsa County notary signing agents serving ~669,000 residents. 30-60 min response in Tulsa, 45-90 min to Broken Arrow. Oil & gas, hospitals, courthouses, and residents. Mobile, in-office, and remote online notarization 24/7.',

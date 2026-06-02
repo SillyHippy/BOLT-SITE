@@ -6,15 +6,28 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import { AuthorBox } from '@/components/ui/author-box';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Employment Law Process Serving in Oklahoma',
   description:
     'Process serving for Oklahoma employment disputes including wage claims, discrimination, and wrongful termination matters.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Employment Law Process Serving in Oklahoma',
+    description: 'Process serving for Oklahoma employment disputes including wage claims, discrimination, and wrongful termination matters.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/employment-law-service-oklahoma',
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'Employment Law Process Serving in Oklahoma',
     description:
       'Professional employment law process service for attorneys and legal teams across all 77 Oklahoma counties.',
@@ -166,7 +179,9 @@ export default function EmploymentLawServiceOklahomaPage() {
         </div>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

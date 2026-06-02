@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma process server service area — local legal document delivery',
+    }],
     title: 'Process Server Ardmore, OK | Carter County Seat',
     description: 'Licensed process server in Ardmore, Oklahoma. Serving Carter County District Court and the south-central Oklahoma corridor.',
     url: 'https://justlegalsolutions.org/service-areas/ardmore',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Ardmore, OK | Carter County Seat',
+    description: 'Licensed process server in Ardmore, Oklahoma. Serving Carter County District Court and the south-central Oklahoma corridor.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/ardmore',

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'AI Skip Tracing: Finding Evasive Defendants in Oklahoma',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'AI Skip Tracing: Finding Evasive Defendants in Oklahoma',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AI Skip Tracing: Finding Evasive Defendants in Oklahoma',
+    description: 'AI skip tracing transforms defendant location in Oklahoma. Learn how machine learning and predictive analytics help beat the 180-day service deadline.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/ai-skip-tracing-finding-evasive-defendants-oklahoma',
@@ -457,7 +464,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

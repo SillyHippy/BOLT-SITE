@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "What Happens If Someone Won't Answer the Door for a Proce...",
@@ -24,16 +25,20 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Blog article" }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: "What Happens If Someone Won't Answer the Door for a Process Server?",
+    description: 'What happens when defendants avoid process servers in Oklahoma. Learn about substitute service, nail & mail, stakeouts & legal alternatives under 12 O.S. § 2004',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-happens-if-someone-wont-answer-door-process-server' },
   other: {
     'article:published_time': '2026-04-24',
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'If a defendant won't answer the door in Oklahoma, servers document each visit. Residential substitute service under § 2004(C)(1) may leave papers with a resident 15+ at the dwelling where permitted—no fixed prior attempts required by statute. Posting/nail-and-mail applies only when authorized. Subpoenas require personal delivery.',
+    'ai-summary': 'If a defendant won\'t answer the door in Oklahoma, servers document each visit. Residential substitute service under § 2004(C)(1) may leave papers with a resident 15+ at the dwelling where permitted—no fixed prior attempts required by statute. Posting/nail-and-mail applies only when authorized. Subpoenas require personal delivery.',
     'ai-key-facts': '§ 2004(C)(1) abode service where permitted; no statutory prior-attempt minimum; nail-and-mail requires authorization; stakeouts legal; Just Legal Solutions GPS-documented; (539) 367-6832',
-  
-  
   },
 };
 
@@ -283,7 +288,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="What Happens If Someone Won't Answer the Door for a Process Server?"

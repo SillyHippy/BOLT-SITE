@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Do I Need a Process Server or Can My Lawyer Handle It? |...',
+    description: 'Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.',
+    url: 'https://justlegalsolutions.org/blog/do-i-need-process-server-or-can-lawyer-handle-it',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "Do I Need a Process Server or Can My Lawyer Handle It? |...",
   description: "Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.",
   keywords:
     "do I need a process server, can my lawyer serve papers, attorney vs process server service, Oklahoma process serving, lawyer serve legal documents",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Do I Need a Process Server or Can My Lawyer Handle It? |...',
+    description: 'Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/do-i-need-process-server-or-can-lawyer-handle-it",
@@ -566,7 +587,9 @@ export default function DoINeedProcessServerPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

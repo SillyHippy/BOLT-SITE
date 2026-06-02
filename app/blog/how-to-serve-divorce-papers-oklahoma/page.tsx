@@ -25,6 +25,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-097-blog-how-to-serve-divorce-papers-oklahoma-card.webp', width: 1200, height: 630, alt: 'How to Serve Divorce Papers in Oklahoma' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Serve Divorce Papers in Oklahoma (2026 Guide)',
+    description: 'Complete guide to serving divorce papers in Oklahoma. 12 O.S. § 2004 methods, deadlines, proof of service, and common mistakes. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-serve-divorce-papers-oklahoma' },
   other: {
     'ai-content-type': 'article',

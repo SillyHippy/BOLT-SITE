@@ -7,18 +7,31 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Process Serving for HOA & Condo Associations Oklahoma',
   description: 'Expert process serving for Oklahoma HOA and condo associations. Assessment collection, covenant violations, foreclosures, and gated community access.',
   keywords: 'serve HOA papers oklahoma, condo association process serving, HOA lawsuit service, homeowners association process server, condominium assessment collection, HOA foreclosure service',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'Process Serving for HOA & Condo Associations in Oklahoma',
     description: 'Professional process serving for Oklahoma homeowners associations and condominium associations. Assessment collection, covenant enforcement, and foreclosure proceedings.',
     type: 'article',
     authors: ['Joseph Iannazzi'],
     publishedTime: '2025-01-15',
     modifiedTime: '2025-01-15',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving for HOA & Condo Associations Oklahoma',
+    description: 'Expert process serving for Oklahoma HOA and condo associations. Assessment collection, covenant violations, foreclosures, and gated community access.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/process-serving-hoa-oklahoma',
@@ -473,7 +486,9 @@ export default function ProcessServingHOABlog() {
           </Link>
         </div>
       </section>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

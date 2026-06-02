@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "25 FAQ About Process Serving in Oklahoma — Answered",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: '25 FAQ About Process Serving in Oklahoma — Answered',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '25 FAQ About Process Serving in Oklahoma — Answered',
+    description: 'Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered. Serving all 77 Oklahoma',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical:
@@ -705,7 +712,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="25 FAQ About Process Serving in Oklahoma — Answered"

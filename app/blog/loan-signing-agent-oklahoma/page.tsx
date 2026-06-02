@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: 'Loan Signing Agents in Oklahoma — What You Need to Know (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-063-loan-signing-agent-tulsa-hero.webp', width: 1200, height: 630, alt: 'Loan Signing Agents in Oklahoma 2026' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Loan Signing Agents in Oklahoma — What You Need to Know (2026)',
+    description: 'Oklahoma loan signing agent guide 2026: NNA certification, mortgage closing process, common docs, and pricing that typically starts at $75–$200 per signing. Mobile notary services starts at $25.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/loan-signing-agent-oklahoma' },
   other: {
@@ -372,7 +379,9 @@ export default function LoanSigningAgentOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </>
   );
 }

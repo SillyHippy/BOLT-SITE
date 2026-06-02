@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/what-id-need-for-notarization-oklahoma',
+  },
   title: "What ID Do I Need for Notarization in Oklahoma? Requireme...",
   description:
     "Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.",
   keywords:
     "notary ID requirements, acceptable ID for notary, identification notarization Oklahoma, what ID for notary, expired ID notarization",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What ID Do I Need for Notarization in Oklahoma? Requirements Guide",
     description:
       "Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.",
     url: "https://justlegalsolutions.org/blog/what-id-need-for-notarization-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What ID Do I Need for Notarization in Oklahoma? Requireme...',
+    description: 'Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -637,7 +653,9 @@ export default function BlogPost() {
         </section>
       </main>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

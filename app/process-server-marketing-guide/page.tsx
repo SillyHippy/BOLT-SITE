@@ -29,6 +29,12 @@ import { Separator } from '@/components/ui/separator';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Marketing Guide | How to Get Clients & Grow Your Business',
+    description: 'Complete marketing guide for process servers: Google Business Profile optimization, SEO strategies, attorney networking, online directories, and proven tactics to attract clients.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/process-server-marketing-guide',
   },
@@ -36,6 +42,12 @@ title: 'Process Server Marketing Guide | How to Get Clients & Grow Your Business
   description: 'Complete marketing guide for process servers: Google Business Profile optimization, SEO strategies, attorney networking, online directories, and proven tactics to attract clients.',
   keywords: 'how to get clients process server, process server marketing, process server Google profile, process server SEO, attorney networking, ServeNow, legal service marketing',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Process Server Marketing Guide | How to Get Clients & Grow Your Business',
     description: 'Complete marketing strategies for process servers to attract attorneys, law firms, and legal clients.',
     type: 'article',

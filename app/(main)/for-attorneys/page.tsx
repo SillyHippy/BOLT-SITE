@@ -381,6 +381,38 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
+      {/* Attorney resources */}
+      <section className="py-16 px-6 bg-white border-t border-slate-200">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-slate-900 text-center mb-8">Resources for Your Firm</h2>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+            <Link href="/resources/attorneys-guide-hiring-process-server" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Attorney Hiring Guide (PDF)</h3>
+              <p className="text-slate-600">Vet servers, avoid red flags, protect your cases</p>
+            </Link>
+            <Link href="/resources/oklahoma-service-of-process-reference" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Service of Process Reference</h3>
+              <p className="text-slate-600">12 O.S. § 2004 methods and affidavit requirements</p>
+            </Link>
+            <Link href="/process-serving" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Process Serving Services</h3>
+              <p className="text-slate-600">Statewide coverage with GPS-verified proof</p>
+            </Link>
+            <Link href="/attorney-services" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Attorney Services Hub</h3>
+              <p className="text-slate-600">Volume pricing, billing, and firm workflows</p>
+            </Link>
+            <Link href="/tulsa-process-server" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Tulsa Process Server</h3>
+              <p className="text-slate-600">Tulsa County courthouse and metro coverage</p>
+            </Link>
+            <Link href="/skip-tracing" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Skip Tracing</h3>
+              <p className="text-slate-600">Locate evasive defendants before alternate service</p>
+            </Link>
+          </div>
+        </div>
+      </section>
       {/* Final CTA */}
       <section className="py-16 px-6 bg-gradient-to-br from-blue-700 to-slate-900 text-white text-center">
         <div className="max-w-3xl mx-auto">

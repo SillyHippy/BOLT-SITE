@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -75,18 +76,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/difference-between-process-server-and-lawyer',
+  },
   title: "What\u2019s the Difference Between a Process Server and a...",
   description:
     "Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their distinct legal roles.",
   keywords:
     "process server vs lawyer, difference between process server and attorney, do I need a lawyer or process server, Oklahoma legal services, process serving cost",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What\u2019s the Difference Between a Process Server and a Lawyer?",
     description:
       "Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their distinct legal roles.",
     url: "https://justlegalsolutions.org/blog/difference-between-process-server-and-lawyer",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What\u2019s the Difference Between a Process Server and a...',
+    description: 'Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their disti',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -685,7 +701,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

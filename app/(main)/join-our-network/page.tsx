@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: 'Join Our Network — Oklahoma Process Server Opportunities',
   description: 'Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. license required. Apply today.',
   keywords: 'join process server network oklahoma, process server jobs oklahoma, become process server tulsa, oklahoma psl license work, process server independent contractor oklahoma',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Join Our Network — Oklahoma Process Server Opportunities',
+    description: 'Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. license required. Apply today.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/join-our-network' },
   openGraph: {
     title: 'Join Our Network — Oklahoma Process Server Opportunities',

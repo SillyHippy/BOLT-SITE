@@ -3,6 +3,29 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/learn/special-population-service',
+  },
+  openGraph: {
+    title: 'Serving Special Populations in Oklahoma | Legal Guide',
+    description: 'How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma.',
+    url: 'https://justlegalsolutions.org/learn/special-population-service',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Serving Special Populations in Oklahoma | Legal Guide',
+    description: 'How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   title: 'Serving Special Populations in Oklahoma | Legal Guide',
   description:
     'How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma.',

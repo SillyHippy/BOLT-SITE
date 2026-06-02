@@ -6,9 +6,29 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { CheckCircle2, Clock, MapPin, AlertCircle, Users, TrendingUp, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Mobile Notary vs Bank Notary: Which Is Right For You?',
+    description: 'Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs.',
+    url: 'https://justlegalsolutions.org/mobile-notary-vs-bank',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Mobile Notary vs Bank Notary: Which Is Right For You?',
   description: 'Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs.',
   keywords: 'mobile notary, bank notary, comparison, convenience, expertise',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary vs Bank Notary: Which Is Right For You?',
+    description: 'Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/mobile-notary-vs-bank' },
 };
 

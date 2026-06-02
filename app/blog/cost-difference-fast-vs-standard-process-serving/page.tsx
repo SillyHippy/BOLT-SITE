@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
   description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush (\"00), same-day (\"50), or after-hours (Compare process servin",
   keywords: "fast process serving cost, rush vs standard service, process server pricing tiers explained, same day process serving price, how much does process serving cost oklahoma",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "What's the Cost Difference Between Fast and Standard Process Serving?",
     description: "Side-by-side comparison of process serving pricing tiers in Oklahoma. Understand what you get at each price point and when to upgrade.",
     url: "https://justlegalsolutions.org/blog/cost-difference-fast-vs-standard-process-serving",
@@ -101,9 +108,9 @@ function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
-            <li><Link href="/services/rush-service" className="hover:text-white transition-colors">Rush Service</Link></li>
-            <li><Link href="/services/same-day" className="hover:text-white transition-colors">Same-Day Service</Link></li>
-            <li><Link href="/services/notary" className="hover:text-white transition-colors">Notary Services</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
+            <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
             <li><Link href="/services/skip-tracing" className="hover:text-white transition-colors">Skip Tracing</Link></li>
           </ul>
         </div>
@@ -328,7 +335,9 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

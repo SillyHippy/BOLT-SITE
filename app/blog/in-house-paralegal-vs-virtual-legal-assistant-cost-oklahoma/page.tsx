@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'In-House Paralegal vs. Virtual Legal Assistant: Cost Guide',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'In-House Paralegal vs. Virtual Legal Assistant: Cost Guide',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'In-House Paralegal vs. Virtual Legal Assistant: Cost Guide',
+    description: 'Compare in-house paralegal costs vs virtual legal assistants in Oklahoma. See how much your firm can save with real salary data and hidden cost breakdowns.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma',
@@ -350,7 +357,7 @@ export default function BlogPost() {
             This is where geography matters, and where an Oklahoma-based virtual assistant has a decisive advantage over offshore alternatives. Oklahoma has its own court systems, its own e-filing platforms, and its own local rules that vary by county. An assistant who understands OSCN and ODCR e-filing, who knows the specific formatting requirements for your district court, and who can navigate the nuances of Oklahoma civil procedure is worth far more than one who charges a few dollars less per hour but needs constant guidance on basic tasks.
           </p>
           <p>
-            <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">Our virtual assistant services</Link> at Just Legal Solutions are built specifically for Oklahoma law firms. We understand the local courts, the local rules, and the local expectations because we work in those same courts every day across all 77 Oklahoma counties. That institutional knowledge saves you training time and reduces errors.
+            <Link href="/virtual-assistant-services" className="text-blue-600 hover:underline">Our virtual assistant services</Link> at Just Legal Solutions are built specifically for Oklahoma law firms. We understand the local courts, the local rules, and the local expectations because we work in those same courts every day across all 77 Oklahoma counties. That institutional knowledge saves you training time and reduces errors.
           </p>
 
           <h3>Ethical Compliance Under ORPC Rule 5.3</h3>
@@ -466,7 +473,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

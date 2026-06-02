@@ -16,6 +16,12 @@ export const metadata: Metadata = {
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/how-long-does-process-serving-take', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp', width: 1200, height: 630, alt: 'Process Serving Timeline Guide' }],
     },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Long Does Process Serving Take? | Oklahoma Timelines (2026)',
+    description: 'Process serving timelines in Oklahoma: 2 hours (emergency) to 6 weeks (sheriff). Complete breakdown by service method, speed tier, and location. Learn what affects delivery time.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: { canonical: 'https://justlegalsolutions.org/how-long-does-process-serving-take' },
     other: {
         'ai-content-type': 'article',

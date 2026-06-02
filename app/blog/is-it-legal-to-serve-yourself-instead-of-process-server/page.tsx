@@ -46,6 +46,12 @@ export const metadata: Metadata = {
   description: "Learn about Oklahoma's self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com",
   keywords:
     "can I serve papers myself oklahoma, self service legal documents, DIY process serving",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Is It Legal to Serve Someone Yourself Instead of Hiring a...',
+    description: 'Learn about Oklahoma',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/is-it-legal-to-serve-yourself-instead-of-process-server",
@@ -57,6 +63,12 @@ export const metadata: Metadata = {
   
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "Is It Legal to Serve Someone Yourself Instead of Hiring a Professional in Oklahoma?",
     description:
@@ -408,7 +420,7 @@ export default function BlogPost() {
               </Link>
               ,{" "}
               <Link
-                href="/services/rush-service"
+                href="/same-day-process-server"
                 className="text-blue-600 hover:underline"
               >
                 rush service

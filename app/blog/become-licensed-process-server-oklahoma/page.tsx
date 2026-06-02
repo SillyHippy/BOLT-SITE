@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "How to Become a Licensed Process Server in Oklahoma",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'How to Become a Licensed Process Server in Oklahoma',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Become a Licensed Process Server in Oklahoma',
+    description: 'Career guide to becoming a licensed process server in Oklahoma. Covers requirements, licensing steps, costs, and income expectations. Serving all 77 Oklahoma co',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/become-licensed-process-server-oklahoma',
@@ -719,7 +726,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="How to Become a Licensed Process Server in Oklahoma"

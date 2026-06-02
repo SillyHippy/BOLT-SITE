@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   description:
     'Navigate the unique challenges of rural Oklahoma process serving. GPS tracking, tribal lands, weather, and county-by-county strategies across all 77 counties.',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal process guides from Just Legal Solutions',
+    }],
     title: 'Process Serving in Rural Oklahoma | Complete Guide',
     description:
       'Navigate the unique challenges of rural Oklahoma process serving. GPS tracking, tribal lands, weather, and county-by-county strategies across all 77 counties.',

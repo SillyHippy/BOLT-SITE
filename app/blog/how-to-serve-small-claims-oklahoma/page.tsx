@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How to Serve Small Claims Papers in Oklahoma (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'How to Serve Small Claims Papers in Oklahoma' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Serve Small Claims Papers in Oklahoma (2026)',
+    description: 'Step-by-step guide to serving small claims papers in Oklahoma. $10,000 limit, service methods, timelines, and return of service.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-serve-small-claims-oklahoma' },
   other: {
@@ -643,7 +650,9 @@ export default function HowToServeSmallClaimsOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

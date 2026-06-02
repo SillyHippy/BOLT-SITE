@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary Tulsa | 24/7 Traveling Notary',
+    description: 'Tulsa mobile notary for hospitals (Saint Francis Hospital, Hillcrest Medical Center, Ascension St. John), jails (David L. Moss Criminal Justice Center), and loan signings. Licensed, bonded, same-day appointments in Tulsa County. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-034-mobile-notary-tulsa-og.png'],
+  },
   alternates: {
     canonical: canonicalUrl
   },

@@ -16,6 +16,12 @@ export const metadata: Metadata = {
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/how-much-does-process-server-cost', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp', width: 1200, height: 630, alt: 'Process Server Cost Guide' }],
     },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Much Does a Process Server Cost? (2026 Oklahoma Pricing Guide)',
+    description: 'Process server costs: $35-$265 depending on speed. Sheriff: $25-$40. Full pricing comparison with what\'s included at each tier.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png'],
+  },
     alternates: { canonical: 'https://justlegalsolutions.org/how-much-does-process-server-cost' },
     other: {
         'ai-content-type': 'article',

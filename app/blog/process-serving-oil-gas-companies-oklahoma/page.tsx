@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Process Serving for Oklahoma Oil & Gas Companies (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Process Serving for Oklahoma Oil & Gas Companies: A Complete Guide' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving for Oklahoma Oil & Gas Companies (2026)',
+    description: 'Specialized process serving for Oklahoma oil and gas litigation. Lease disputes, mineral rights, royalty cases, and drilling sites.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/process-serving-oil-gas-companies-oklahoma' },
   other: {
@@ -508,7 +515,9 @@ export default function ProcessServingOilGasCompaniesOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

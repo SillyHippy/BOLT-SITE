@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How to Serve Eviction Notices in Oklahoma — Rules & Deadlines',
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
       height: 630,
       alt: 'Eviction Notice Service Rules Oklahoma - Just Legal Solutions',
     }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Serve Eviction Notices in Oklahoma — Rules & Deadlines',
+    description: 'Complete guide to Oklahoma eviction service rules. Title 41 notices (age 12+) vs Title 12 FED summonses (age 15+). Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/how-to-serve-eviction-notices-in-oklahoma',
@@ -424,7 +431,9 @@ export default function EvictionNoticeGuide() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

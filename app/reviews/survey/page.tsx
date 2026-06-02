@@ -3,6 +3,20 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server',
+    description: 'Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services.',
+    url: 'https://justlegalsolutions.org/reviews/survey',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server',
   description: 'Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services.',
   keywords: 'client reviews, process server testimonials, Oklahoma legal services reviews, verified customer feedback, attorney testimonials',
@@ -13,6 +27,12 @@ export const metadata: Metadata = {
       index: false,
       follow: false,
     },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server',
+    description: 'Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/reviews/survey'

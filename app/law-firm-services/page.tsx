@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-048-law-firm-services-hero.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Law Firm Process Serving | Volume Discounts',
+    description: 'Oklahoma law firm process serving with flat-rate pricing, volume discounts, priority scheduling, and court-ready affidavits. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/law-firm-services',
   },

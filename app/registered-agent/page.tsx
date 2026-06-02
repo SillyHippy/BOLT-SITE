@@ -44,6 +44,12 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: canonicalUrl },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Oklahoma Registered Agent Service | $99/Year',
     description:
       'Reliable registered agent services for Oklahoma businesses. Same-day notifications, secure portal, compliance support.',

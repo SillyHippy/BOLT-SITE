@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: "Oklahoma Mobile Notary Guide: What to Know Before You Book",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'Oklahoma Mobile Notary Guide: What to Know Before You Book',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Mobile Notary Guide: What to Know Before You Book',
+    description: 'Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment. Serving all 77 O',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/oklahoma-mobile-notary-guide',
@@ -585,7 +592,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Mobile Notary Guide: What to Know Before You Book"

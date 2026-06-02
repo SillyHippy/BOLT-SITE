@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -33,6 +34,12 @@ export const metadata: Metadata = {
   description: "Learn how Oklahoma process servers locate hard-to-find defendants. Discover skip tracing techniques, databases, surveillance methods, social media research, and",
   keywords: "how do process servers find people, skip tracing process serving, locate defendant oklahoma, skip tracing databases, find someone for service of process",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: "How Do Process Servers Find People? Skip Tracing Explained",
     description: "Discover the skip tracing techniques Oklahoma process servers use to locate hard-to-find defendants — from databases to surveillance to social media.",
     url: "https://justlegalsolutions.org/blog/how-do-process-servers-find-people-skip-tracing",
@@ -98,9 +105,9 @@ function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
             <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
-            <li><Link href="/services/rush-service" className="hover:text-white transition-colors">Rush Service</Link></li>
-            <li><Link href="/services/same-day" className="hover:text-white transition-colors">Same-Day Service</Link></li>
-            <li><Link href="/services/notary" className="hover:text-white transition-colors">Notary Services</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
+            <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
+            <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
             <li><Link href="/services/skip-tracing" className="hover:text-white transition-colors">Skip Tracing</Link></li>
           </ul>
         </div>
@@ -349,7 +356,9 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

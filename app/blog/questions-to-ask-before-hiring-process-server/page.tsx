@@ -11,10 +11,30 @@ import {
 import AeoProcessServingHubLinks from "@/components/seo/aeo-process-serving-hub-links";
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: '25 Questions to Ask Before Hiring a Process Server | Just...',
+    description: 'The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines fo',
+    url: 'https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "25 Questions to Ask Before Hiring a Process Server | Just...",
   description: "The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines fo",
   keywords:
     "questions to ask process server, interview process server, hire process server checklist, Oklahoma process server hiring, process server qualifications",
+  twitter: {
+    card: 'summary_large_image',
+    title: '25 Questions to Ask Before Hiring a Process Server | Just...',
+    description: 'The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines fo',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server",

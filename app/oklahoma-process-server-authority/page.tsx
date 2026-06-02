@@ -30,6 +30,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-046-oklahoma-process-server-laws-hero.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Directory | Statewide Legal Document Service Authority',
+    description: 'The definitive guide to process serving throughout Oklahoma. Professional legal document delivery across all 77 counties with comprehensive coverage and expertise.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/oklahoma-process-server-authority'
   }

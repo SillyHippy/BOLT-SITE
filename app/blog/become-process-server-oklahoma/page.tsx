@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'How to Become a Process Server in Oklahoma (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-099-blog-become-process-server-oklahoma-card.webp', width: 1200, height: 630, alt: 'How to Become a Process Server in Oklahoma' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Become a Process Server in Oklahoma (2026)',
+    description: 'Complete guide to becoming a process server in Oklahoma. License requirements, CLEET, bonds, costs, and training. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/become-process-server-oklahoma' },
   other: {
@@ -647,7 +654,9 @@ export default function BecomeProcessServerOklahoma2026() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

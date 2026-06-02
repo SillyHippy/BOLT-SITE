@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: 'Sitemap',
   description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
   robots: 'index, follow',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sitemap',
+    description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/sitemap'
   },

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Process Serving Guide for Oklahoma Real Estate Agents',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'What Oklahoma Real Estate Agents Should Know About Process Serving' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving Guide for Oklahoma Real Estate Agents',
+    description: 'Guide for Oklahoma real estate agents on process serving. Contract disputes, escrow issues, HOA enforcement, and quiet title actions.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/real-estate-agents-process-serving-oklahoma' },
   other: {
@@ -450,7 +457,9 @@ export default function RealEstateAgentsProcessServingOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

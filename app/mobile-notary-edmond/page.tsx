@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary Edmond | 24/7 Traveling Notary',
+    description: 'Edmond mobile notary for hospitals (INTEGRIS Health Edmond and OU Medical Center Edmond), jails (Edmond Municipal Jail), and loan signings. Licensed, bonded, same-day appointments in Oklahoma County. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: canonicalUrl
   },

@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: 'Oklahoma Process Serving — Free Tools & Guides',
   description:
     'Free calculators, wizards, and legal guides for Oklahoma service of process — deadlines, publication, e-service, subpoenas, evictions, and more. Just Legal Solutions.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Serving — Free Tools & Guides',
+    description: 'Free calculators, wizards, and legal guides for Oklahoma service of process — deadlines, publication, e-service, subpoenas, evictions, and more. Just Legal Solutions.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/oklahoma-process-serving-hub' },
   openGraph: {
     title: 'Oklahoma Process Serving — Free Tools & Guides | Just Legal Solutions',

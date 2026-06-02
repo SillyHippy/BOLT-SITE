@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Client Portals for Legal Services: Secure Access 24/7',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Client Portals for Legal Services: Secure Access 24/7',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Client Portals for Legal Services: Secure Access 24/7',
+    description: 'Only 26% of law firms offer secure client portals. Learn how Oklahoma attorneys can use portals to meet ethical obligations and give clients 24/7 document access.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/client-portals-legal-services-secure-document-access-oklahoma',
@@ -441,7 +448,7 @@ export default function BlogPost() {
             attorney does not wait for an email, a fax, or a mailed original. The document appears
             in the portal, encrypted, logged, and ready — typically within minutes of the session
             ending.{' '}
-            <Link href="/services/notary" className="text-blue-600 hover:underline">
+            <Link href="/mobile-notary" className="text-blue-600 hover:underline">
               Schedule remote online notarizations and retrieve notarized documents 24/7
             </Link>.
           </p>
@@ -453,7 +460,7 @@ export default function BlogPost() {
             an Oklahoma attorney no longer needs to juggle multiple vendor logins, email threads, and
             phone calls to piece together the status of their case support. One login. One dashboard.
             Every document, every tracking update, every confirmation.{' '}
-            <Link href="/services/courier" className="text-blue-600 hover:underline">
+            <Link href="/courier-services" className="text-blue-600 hover:underline">
               Get real-time delivery confirmations and chain-of-custody documentation
             </Link>{' '}
             through the same secure platform.
@@ -690,7 +697,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

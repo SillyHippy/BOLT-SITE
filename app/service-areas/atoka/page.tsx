@@ -11,12 +11,24 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma process server service area — local legal document delivery',
+    }],
     title: 'Process Server Atoka, OK | Atoka County Seat',
     description: 'Licensed process server in Atoka, Oklahoma. Serving Atoka County District Court and southeast Oklahoma. Rush and same-day available.',
     url: 'https://justlegalsolutions.org/service-areas/atoka',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Atoka, OK | Atoka County Seat',
+    description: 'Licensed process server in Atoka, Oklahoma. Serving Atoka County District Court and southeast Oklahoma. Rush and same-day available.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/atoka',

@@ -18,6 +18,12 @@ export const metadata: Metadata = {
   title: 'Legal Notice Posting Service Tulsa County | Compliance from $60',
   description: 'Expert legal notice posting & mailing for when personal service is not possible. Standard from $60, rush $100, same-day $150. Full Oklahoma compliance. (539) 367-6832.',
   keywords: 'legal notice posting tulsa, posting and mailing service, oklahoma rules of civil procedure, alternative service, process server tulsa',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Legal Notice Posting Service Tulsa County | Compliance from $60',
+    description: 'Expert legal notice posting & mailing for when personal service is not possible. Standard from $60, rush $100, same-day $150. Full Oklahoma compliance. (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo/legal-posting-process-server'
   },

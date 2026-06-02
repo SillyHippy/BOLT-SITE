@@ -97,6 +97,26 @@
 
 # regen: node scripts/prioritize-county-redirects.mjs
 
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
+# regen: node scripts/prioritize-county-redirects.mjs
+
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
@@ -328,9 +348,8 @@
 # Encoded form (Bing/curl percent-encode): ) = %29, * = %2A
 /service-areas/ada%29%2A%2A /service-areas/ada 301
 /service-areas/lawton%29%2A%2A /service-areas/lawton 301
-# Literal form from audit export (browser address bar): splat catches ada)** etc.
-/service-areas/ada* /service-areas/ada 301
-/service-areas/lawton* /service-areas/lawton 301
+# Literal form from audit export (browser address bar): encoded malformed patterns only
+# (Removed broad ada*/lawton* splats — canonical /service-areas/ada and /lawton must not self-match)
 
 # ── 10c. Legacy audit export paths → canonical (2026-05-22) ───────
 /blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
@@ -358,8 +377,15 @@
 /terms /terms-of-service 301
 /request-service /contact 301
 /services/court-filing /courthouse-filing-services 301
+/services/courier /courier-services 301
+/services/notary /mobile-notary 301
+/services/rush-service /same-day-process-server 301
+/services/same-day /same-day-process-server 301
+/services/virtual-assistant /virtual-assistant-services 301
 /services/same-day-process-serving /same-day-process-server 301
 /services/process-serving /process-serving 301
+/notary-services /mobile-notary 301
+/coverage /service-areas 301
 /resources/process-server-safety-guide-oklahoma /process-server-safety-guide-oklahoma 301
 /resources/process-server-forms-oklahoma /oklahoma-process-server-forms-templates 301
 /resources/oklahoma-process-server-forms-templates /oklahoma-process-server-forms-templates 301
@@ -373,5 +399,75 @@
 /service-areas/calumet /service-areas/oklahoma-city 301
 /service-areas/duncan /service-areas/lawton 301
 /careers /contact 301
+
+# ── Legacy /resources/*.pdf → /downloads/JLS-* (forms page now links to /downloads/) ──
+/resources/oklahoma-affidavit-of-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-substitute-service-affidavit.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-publication-service-affidavit.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-corporate-service-affidavit.pdf /downloads/JLS-How-To-Serve-Business-Papers-v1.0.pdf 301
+/resources/oklahoma-proof-personal-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-proof-certified-mail.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-proof-posting-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-diligent-search-checklist.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
+/resources/oklahoma-diligent-search-affidavit.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
+/resources/oklahoma-skip-trace-form.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
+/resources/oklahoma-service-invoice.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-rush-service-invoice.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-attempt-invoice.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
+/resources/oklahoma-monthly-statement.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
+/resources/oklahoma-client-intake-form.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
+/resources/oklahoma-service-request-form.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
+/resources/oklahoma-subject-info-sheet.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
+/resources/oklahoma-attempt-log.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
+/resources/oklahoma-field-notes.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-vehicle-description.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-witness-form.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-service-log.xlsx /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
+/resources/oklahoma-mileage-log.pdf /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
+/resources/oklahoma-expense-report.pdf /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
+/resources/oklahoma-cleet-compliance-checklist.pdf /downloads/JLS-Server-Safety-Checklist-v1.0.pdf 301
+
+# Legacy /downloads/*.pdf resource aliases → JLS files
+/downloads/attorneys-guide-hiring-process-server.pdf /downloads/JLS-Attorney-Quick-Reference-v1.0.pdf 301
+/downloads/oklahoma-eviction-timeline.pdf /downloads/JLS-Landlord-Eviction-Service-Guide-v1.0.pdf 301
+/downloads/oklahoma-service-of-process-reference-card.pdf /downloads/JLS-OK-Statutes-Quick-Reference-v1.0.pdf 301
+/downloads/process-server-field-sheet-template.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/downloads/what-to-do-when-served-oklahoma.pdf /downloads/JLS-Youve-Been-Served-Guide-v1.0.pdf 301
+/downloads/oklahoma-notarization-requirements.pdf /blog/mobile-notary-tulsa-guide 301
+
+# ── interim blog queue redirects ──
+# regen: node scripts/audit-blog-queue-redirects.mjs
+/blog/electronic-filing-service-oklahoma-courts /blog/oklahoma-court-filing-services 301
+/blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma /blog/proof-of-service-oklahoma-guide 301
+/blog/electronic-service-process-oklahoma-eservice /blog/oklahoma-court-filing-services 301
+/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301
+/blog/how-long-to-respond-lawsuit-oklahoma /blog/how-long-respond-lawsuit-oklahoma 301
+/blog/how-to-serve-legal-papers-oklahoma-step-by-step /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/legal-tech-tools-oklahoma-law-firms-2026 /blog/ai-changing-legal-support-services-2026 301
+/blog/national-process-server-week /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/oklahoma-courier-services-legal-documents /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/oklahoma-document-retrieval-services /blog/oklahoma-court-filing-services 301
+/blog/oklahoma-notary-vs-attorney-whats-difference /blog/mobile-notary-tulsa-guide 301
+/blog/oklahoma-power-of-attorney-notarization /blog/mobile-notary-tulsa-guide 301
+/blog/oklahoma-process-server-best-practices-checklist /oklahoma-process-server-best-practices-checklist 301
+/blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
+/blog/oklahoma-process-server-laws /oklahoma-process-server-laws 301
+/blog/oklahoma-real-estate-closing-notary /blog/mobile-notary-tulsa-guide 301
+/blog/oklahoma-witness-locate-services /blog/how-to-serve-a-subpoena-oklahoma 301
+/blog/onboard-virtual-assistant-legal-practice-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
+/blog/process-server-safety-guide-oklahoma /process-server-safety-guide-oklahoma 301
+/blog/process-server-vs-sheriff-oklahoma /process-server-vs-sheriff 301
+/blog/rush-same-day-process-serving-importance /same-day-process-server 301
+/blog/same-day-document-delivery-law-firms-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/scale-solo-practice-virtual-support-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
+/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/skip-tracing-technology-process-serving /blog/skip-tracing-oklahoma-guide 301
+/blog/small-claims-tulsa-county-filing-guide /blog/how-to-serve-small-claims-oklahoma 301
+/blog/someone-avoids-being-served-oklahoma-options /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/tulsa-county-court-filing-guide /blog/tulsa-court-filing-guide 301
+/blog/understanding-proof-of-service-oklahoma /blog/proof-of-service-oklahoma-guide 301
+/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
+/blog/what-does-process-server-do-day-in-life /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/what-happens-if-someone-refuses-service /what-happens-if-someone-refuses-service 301
 
 

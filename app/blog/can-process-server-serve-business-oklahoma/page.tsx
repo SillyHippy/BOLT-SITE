@@ -6,6 +6,7 @@ import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -45,6 +46,12 @@ export const metadata: Metadata = {
   description: "Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, an",
   keywords:
     "serve a business corporation oklahoma, service of process on company, corporate registered agent",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Can a Process Server Serve a Business Instead of an Indiv...',
+    description: 'Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, an',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma",
@@ -56,6 +63,12 @@ export const metadata: Metadata = {
   
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "Can a Process Server Serve a Business Instead of an Individual in Oklahoma?",
     description:
@@ -570,7 +583,9 @@ export default function BlogPost() {
       </main>
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="blog"
         pageUrl="https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma"

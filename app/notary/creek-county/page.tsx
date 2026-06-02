@@ -29,6 +29,12 @@ export const metadata: Metadata = {
   keywords:
     'Creek County notary, mobile notary Sapulpa, notary public Creek County Oklahoma, Sapulpa notary services, remote online notarization Creek County, mobile notary Bristow, oil and gas notary Oklahoma, St. John Sapulpa hospital notary, mineral lease notary',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Mobile Notary Creek County OK | Sapulpa Notary Public',
     description:
       'Certified Creek County notaries for real estate, oil and gas, agricultural business, and estate planning documents. Serving Sapulpa (21,000 residents) with mobile and remote appointments.',

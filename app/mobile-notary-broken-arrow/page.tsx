@@ -54,6 +54,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website'
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mobile Notary Broken Arrow | 24/7 Traveling Notary',
+    description: 'Broken Arrow mobile notary for hospitals (Ascension St. John Broken Arrow and Saint Francis Hospital South), jails (Broken Arrow Municipal Jail), and loan signings. Licensed, bonded, same-day appointments in Tulsa and Wagoner County. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: canonicalUrl
   },

@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'What',
+    description: 'Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice',
+    url: 'https://justlegalsolutions.org/blog/difference-between-notary-and-lawyer',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "What's the Difference Between a Notary and a Lawyer? | Ju...",
   description: "Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice",
   keywords:
     "notary vs lawyer, difference between attorney and notary, notary legal advice, unauthorized practice of law Oklahoma, what can notaries do",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What',
+    description: 'Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/difference-between-notary-and-lawyer",
@@ -645,7 +666,9 @@ export default function NotaryVsLawyerPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

@@ -25,6 +25,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Certified Mail vs. Personal Service in Oklahoma: When Each Applies' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Certified Mail vs Personal Service Oklahoma',
+    description: 'Learn when certified mail service is allowed in Oklahoma vs personal service. 12 O.S. § 2004 rules, return receipts, and strategic tips.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/certified-mail-vs-personal-service-oklahoma' },
   other: {
     'article:published_time': '2026-04-08',

@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/how-long-does-notarization-take-oklahoma',
+  },
   title: "How Long Does Notarization Take in Oklahoma? Timing Guide",
   description:
     "Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times.",
   keywords:
     "notary appointment time, how long notarization takes, quick notary service Oklahoma, mobile notary timing, notary duration",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "How Long Does Notarization Take in Oklahoma? Timing Guide",
     description:
       "Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times.",
     url: "https://justlegalsolutions.org/blog/how-long-does-notarization-take-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Long Does Notarization Take in Oklahoma? Timing Guide',
+    description: 'Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times. Serving all 77 Oklahoma coun',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -533,7 +549,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

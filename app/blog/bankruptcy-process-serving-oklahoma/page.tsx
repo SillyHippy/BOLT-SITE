@@ -7,8 +7,15 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bankruptcy Process Serving Oklahoma — FRBP 7004 Guide',
+    description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service starts at $35. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma',
   },
@@ -16,6 +23,12 @@ export const metadata: Metadata = {
   description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service starts at $35. Call (539) 367-6832.',
   keywords: 'bankruptcy process serving Oklahoma, how to serve bankruptcy papers Oklahoma, bankruptcy process server, chapter 7 service requirements, FRBP 7004, adversary proceeding service, 341 meeting notice',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
     description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004 requirements, Chapter 7/11/13 service rules, and district court procedures.',
     type: 'article',
@@ -723,7 +736,9 @@ export default function BankruptcyProcessServingGuide() {
         {/* Local Promo Banner */}
         <LocalPromoBanner zips={[]} />
       </main>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

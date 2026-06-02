@@ -25,6 +25,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'How to Hire a Process Server in Oklahoma 2026' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Hire a Process Server in Oklahoma — 2026 Checklist',
+    description: 'Step-by-step 2026 checklist for hiring a licensed Oklahoma process server: license/bond verification, GPS proof, court-ready affidavits, transparent pricing starts at $35.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-hire-a-process-server-oklahoma' },
   other: {
     'article:published_time': '2026-04-19',

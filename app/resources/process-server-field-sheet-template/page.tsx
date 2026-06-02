@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { resourceDownloadHref } from '@/lib/resource-downloads';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   FileText, 
@@ -16,8 +17,15 @@ import {
   Mail,
   FileCheck
 } from 'lucide-react';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Free Process Server Field Sheet Template',
+    description: 'Download our free Process Server Field Sheet Template. Track service attempts, document recipient information, and maintain legal compliance with professional field documentation.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/resources/process-server-field-sheet-template',
   },
@@ -35,6 +43,12 @@ title: 'Free Process Server Field Sheet Template',
   ],
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'Free Process Server Field Sheet Template',
     description: 'Professional field documentation template for process servers. Track attempts, document recipients, and maintain legal compliance.',
     type: 'website',
@@ -394,7 +408,7 @@ export default function ProcessServerFieldSheetTemplate() {
             </p>
             
             <a 
-              href="/downloads/process-server-field-sheet-template.pdf" 
+              href={resourceDownloadHref('process-server-field-sheet-template.pdf')} 
               download
               className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-10 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors mb-6"
             >
@@ -508,6 +522,10 @@ export default function ProcessServerFieldSheetTemplate() {
         </div>
       </section>
     </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/process-server-field-sheet-template" />
+
+
     </>
   );
 }

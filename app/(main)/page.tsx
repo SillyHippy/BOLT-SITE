@@ -638,6 +638,31 @@ export default function Home() {
               <h3 className="font-bold text-gray-900 mb-2">Resources & Guides</h3>
               <p className="text-gray-600 text-sm">Legal guides, tools, and educational resources</p>
             </Link>
+            <Link href="/mobile-notary" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+              <div className="text-3xl mb-3">✍️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Mobile Notary Tulsa</h3>
+              <p className="text-gray-600 text-sm">Hospital, office, and after-hours notary signings</p>
+            </Link>
+            <Link href="/attorney-services" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+              <div className="text-3xl mb-3">🏛️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Attorney Services</h3>
+              <p className="text-gray-600 text-sm">Volume pricing and firm account support</p>
+            </Link>
+            <Link href="/for-landlords" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+              <div className="text-3xl mb-3">🏠</div>
+              <h3 className="font-bold text-gray-900 mb-2">Landlord Eviction Service</h3>
+              <p className="text-gray-600 text-sm">Notices and FED service with GPS proof</p>
+            </Link>
+            <Link href="/resources/attorneys-guide-hiring-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+              <div className="text-3xl mb-3">📋</div>
+              <h3 className="font-bold text-gray-900 mb-2">Attorney Hiring Guide</h3>
+              <p className="text-gray-600 text-sm">Free PDF on vetting process servers</p>
+            </Link>
+            <Link href="/oklahoma-process-serving-hub" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+              <div className="text-3xl mb-3">🧮</div>
+              <h3 className="font-bold text-gray-900 mb-2">Calculators &amp; Guides Hub</h3>
+              <p className="text-gray-600 text-sm">Deadlines, fees, and service method tools</p>
+            </Link>
           </div>
           <LastUpdated pathname="/" className="text-center text-sm text-gray-500 mt-8" />
         </div>

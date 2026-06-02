@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "Oklahoma Apostille Services: Authenticate Documents for I...",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
         alt: 'Oklahoma Apostille Services: Authenticate Documents for I...',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Apostille Services: Authenticate Documents for I...',
+    description: 'Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/oklahoma-apostille-services-guide',
@@ -618,7 +625,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Apostille Services: Authenticate Documents for International Use"

@@ -16,6 +16,12 @@ export const metadata: Metadata = {
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.webp', width: 1200, height: 630, alt: 'Tulsa County Divorce Process Serving' }],
     },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tulsa County Divorce Process Serving | Serve Divorce Papers Tulsa',
+    description: 'Professional divorce process serving in Tulsa County, Oklahoma. Serve divorce papers, petitions, and family law documents. Tulsa County Courthouse filing info, service requirements, and professional process servers from $60.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: { canonical: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving' },
     other: {
         'ai-content-type': 'service-page',

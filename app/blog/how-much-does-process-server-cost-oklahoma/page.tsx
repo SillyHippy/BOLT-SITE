@@ -25,6 +25,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pri...' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pri...',
+    description: 'Complete 2026 pricing guide for Oklahoma process servers. Compare single-attempt ($35), standard ($60), rush ($100), same-day ($150) & more. Licensed serving all 77 counties.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-much-does-process-server-cost-oklahoma' },
   other: {
     'article:published_time': '2026-04-24',

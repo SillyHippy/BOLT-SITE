@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     'Oklahoma eviction notice and process serving for landlords. 5-day, 10-day, and 30-day notices served correctly with GPS proof. Licensed under 12 O.S. § 158.1. Call (539) 367-6832.',
   keywords:
     'landlord process server oklahoma, eviction notice service, serve eviction papers tulsa, landlord tenant service of process, oklahoma eviction server',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving for Landlords | Eviction Notices Oklahoma',
+    description: 'Oklahoma eviction notice and process serving for landlords. 5-day, 10-day, and 30-day notices served correctly with GPS proof. Licensed under 12 O.S. § 158.1. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: 'Process Serving for Landlords | Just Legal Solutions Oklahoma',
@@ -181,6 +187,28 @@ export default function ForLandlordsPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-12 px-6 max-w-5xl mx-auto">
+        <h2 className="text-2xl font-bold text-center mb-6">Landlord Resources &amp; Services</h2>
+        <div className="grid sm:grid-cols-2 gap-4 text-sm">
+          <Link href="/process-serving" className="rounded-lg border border-slate-200 bg-white p-4 hover:border-amber-400 transition">
+            <span className="font-semibold text-blue-800">Oklahoma Process Serving</span>
+            <p className="text-gray-600 mt-1">Eviction notices and FED service statewide</p>
+          </Link>
+          <Link href="/resources/oklahoma-eviction-timeline" className="rounded-lg border border-slate-200 bg-white p-4 hover:border-amber-400 transition">
+            <span className="font-semibold text-blue-800">Eviction Timeline Guide</span>
+            <p className="text-gray-600 mt-1">Statutory notice periods and court deadlines</p>
+          </Link>
+          <Link href="/tulsa-process-server" className="rounded-lg border border-slate-200 bg-white p-4 hover:border-amber-400 transition">
+            <span className="font-semibold text-blue-800">Tulsa Process Server</span>
+            <p className="text-gray-600 mt-1">Tulsa County landlord-tenant service</p>
+          </Link>
+          <Link href="/mobile-notary" className="rounded-lg border border-slate-200 bg-white p-4 hover:border-amber-400 transition">
+            <span className="font-semibold text-blue-800">Mobile Notary</span>
+            <p className="text-gray-600 mt-1">Lease signings and affidavit notarization</p>
+          </Link>
         </div>
       </section>
 

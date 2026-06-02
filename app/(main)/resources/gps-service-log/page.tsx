@@ -3,13 +3,34 @@ import Link from 'next/link';
 import { Download, MapPin } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 const SLUG = 'JLS-GPS-Service-Log-v1.0';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'GPS Service Log Template (Oklahoma) — Free PDF & DOCX',
+    description: 'Court-admissible GPS log template for Oklahoma process servers. Records latitude, longitude, timestamps, and event notes for every service attempt.',
+    url: 'https://justlegalsolutions.org/resources/gps-service-log',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'GPS Service Log Template (Oklahoma) — Free PDF & DOCX',
   description:
     'Court-admissible GPS log template for Oklahoma process servers. Records latitude, longitude, timestamps, and event notes for every service attempt.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GPS Service Log Template (Oklahoma) — Free PDF & DOCX',
+    description: 'Court-admissible GPS log template for Oklahoma process servers. Records latitude, longitude, timestamps, and event notes for every service attempt.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources/gps-service-log',
   },
@@ -154,6 +175,10 @@ export default function GpsServiceLogPage() {
           </Link>.
         </p>
       </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/gps-service-log" />
+
+
     </HubPageLayout>
     </>
   );

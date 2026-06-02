@@ -13,6 +13,12 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Laws 2026 | Rules & Requirements Guide',
+    description: 'Accurate guide to Oklahoma process serving laws (12 O.S. § 2004). Covers substituted service, licensing under § 158.1, time limits, and service by mail.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/oklahoma-process-server-laws'
   },

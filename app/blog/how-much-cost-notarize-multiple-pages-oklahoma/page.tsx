@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'How Much Does It Cost to Notarize Multiple Pages in Oklah...',
+    description: 'Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-docum',
+    url: 'https://justlegalsolutions.org/blog/how-much-cost-notarize-multiple-pages-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "How Much Does It Cost to Notarize Multiple Pages in Oklah...",
   description: "Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-docum",
   keywords:
     "notary cost per page, multiple document notarization, bulk notary fees, Oklahoma notary pricing, mobile notary cost",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Much Does It Cost to Notarize Multiple Pages in Oklah...',
+    description: 'Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-docum',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-much-cost-notarize-multiple-pages-oklahoma",
@@ -605,7 +626,9 @@ export default function MultiplePagesNotaryCostPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

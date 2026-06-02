@@ -25,6 +25,12 @@ export const metadata: Metadata = {
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'DIY Service of Process vs. Hiring a Professional: Oklahoma Rules' }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'DIY vs Professional Process Service Oklahoma',
+    description: 'Can you serve papers yourself in Oklahoma? Learn when DIY is allowed, risks of improper service, and why professionals matter.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/diy-vs-professional-service-oklahoma' },
   other: {
     'article:published_time': '2026-04-08',

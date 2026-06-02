@@ -10,6 +10,12 @@ export const metadata: Metadata = {
   description:
     'Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures.',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma legal process guides from Just Legal Solutions',
+    }],
     title: 'Legal Process Serving Guides',
     description:
       'Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures.',

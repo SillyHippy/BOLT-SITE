@@ -14,6 +14,12 @@ export const metadata: Metadata = {
     'Process serving for Oklahoma businesses: registered agent service, corporate defendants, subpoenas, and HR/legal compliance documents. Licensed servers, GPS proof. (539) 367-6832.',
   keywords:
     'corporate process server oklahoma, serve business lawsuit, registered agent service oklahoma, serve corporation oklahoma, business subpoena service',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Corporate Process Serving Oklahoma | Registered Agent Service',
+    description: 'Process serving for Oklahoma businesses: registered agent service, corporate defendants, subpoenas, and HR/legal compliance documents. Licensed servers, GPS proof. (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: canonicalUrl },
   openGraph: {
     title: 'Corporate Process Serving | Just Legal Solutions Oklahoma',

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Legal Document Organization: A Filing System Guide for Oklahoma Attorneys',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Legal Document Organization: A Filing System Guide for Oklahoma Attorneys',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Legal Document Organization: A Filing System Guide for Oklahoma Attorneys',
+    description: 'Learn how to build efficient legal document filing systems for Oklahoma law firms. Discover compliance requirements, digital tools, and how virtual assistants can help.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/document-organization-filing-systems-legal-practices-oklahoma',
@@ -393,7 +400,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

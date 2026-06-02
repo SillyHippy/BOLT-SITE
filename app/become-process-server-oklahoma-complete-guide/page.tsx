@@ -22,6 +22,12 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Become a Process Server in Oklahoma — Complete 2026 Guide',
+    description: 'Complete guide to becoming a licensed process server in Oklahoma. Learn CLEET requirements, licensing fees, application steps, surety bonds, training programs, and timeline from application to first serve.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/become-process-server-oklahoma-complete-guide',
   },
@@ -29,6 +35,12 @@ title: 'Become a Process Server in Oklahoma — Complete 2026 Guide',
   description: 'Complete guide to becoming a licensed process server in Oklahoma. Learn CLEET requirements, licensing fees, application steps, surety bonds, training programs, and timeline from application to first serve.',
   keywords: 'how to become a process server in Oklahoma 2026, process server license oklahoma, CLEET requirements, Oklahoma process server training, process server bond Oklahoma',
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Become a Process Server in Oklahoma — Complete 2026 Guide',
     description: 'Everything you need to know about becoming a licensed process server in Oklahoma. Step-by-step application process, fees, requirements, and timeline.',
     type: 'article',

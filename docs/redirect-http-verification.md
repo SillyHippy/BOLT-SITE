@@ -2,10 +2,10 @@
 
 # Redirect HTTP verification (Layer 2)
 
-- **When:** 2026-05-24T02:43:29.936Z
+- **When:** 2026-06-02T20:46:14.963Z
 - **Base:** https://justlegalsolutions.org
-- **Rules tested:** 14 (4 malformed + 8 county sample of 78)
-- **Failed:** 8
+- **Rules tested:** 19 (2 malformed + 8 county sample of 79)
+- **Failed:** 4
 
 ## Failures
 
@@ -13,12 +13,8 @@
 |--------|----------|-------|-------|------|
 | /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | fetch failed | no |
 | /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | fetch failed | no |
-| /service-areas/ada* | /service-areas/ada | 301 | fetch failed | no |
-| /service-areas/lawton* | /service-areas/lawton | 301 | fetch failed | no |
 | /service-areas/ada)** | /service-areas/ada | 301 | fetch failed | no |
 | /service-areas/lawton)** | /service-areas/lawton | 301 | fetch failed | no |
-| /counties/payne | /counties/payne-county | 404 | 404 | no |
-| /counties/texas | /counties/texas-county | 404 | 404 | no |
 
 ## All tested
 
@@ -26,15 +22,20 @@
 |--------|------|-------|-------------|------|
 | /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | /service-areas/ada%29%2A%2A | no |
 | /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | /service-areas/lawton%29%2A%2A | no |
-| /service-areas/ada* | /service-areas/ada | 301 | /service-areas/ada* | no |
-| /service-areas/lawton* | /service-areas/lawton | 301 | /service-areas/lawton* | no |
 | /service-areas/ada)** | /service-areas/ada | 301 | /service-areas/ada)** | no |
 | /service-areas/lawton)** | /service-areas/lawton | 301 | /service-areas/lawton)** | no |
-| /counties/atoka | /counties/atoka-county | 301 | /counties/atoka-county | yes |
+| /compare/process-server-vs-sheriff | /process-server-vs-sheriff | 301 | /process-server-vs-sheriff | yes |
+| /counties/payne | /counties/payne-county | 301 | /counties/payne-county | yes |
+| /counties/tulsa | /counties/tulsa-county | 301 | /counties/tulsa-county | yes |
+| /counties/seminole | /counties/seminole-county | 301 | /counties/seminole-county | yes |
+| /counties/pawnee | /counties/pawnee-county | 301 | /counties/pawnee-county | yes |
+| /counties/texas | /counties/texas-county | 301 | /counties/texas-county | yes |
+| /counties/le-flore | /counties/leflore-county | 301 | /counties/leflore-county | yes |
+| /counties/le-flore | /counties/leflore-county | 301 | /counties/leflore-county | yes |
 | /counties/carter | /counties/carter-county | 301 | /counties/carter-county | yes |
 | /counties/custer | /counties/custer-county | 301 | /counties/custer-county | yes |
 | /counties/harper | /counties/harper-county | 301 | /counties/harper-county | yes |
 | /counties/leflore | /counties/leflore-county | 301 | /counties/leflore-county | yes |
 | /counties/murray | /counties/murray-county | 301 | /counties/murray-county | yes |
-| /counties/payne | /counties/payne-county | 404 | /counties/payne | no |
-| /counties/texas | /counties/texas-county | 404 | /counties/texas | no |
+| /counties/payne | /counties/payne-county | 301 | /counties/payne-county | yes |
+| /counties/texas | /counties/texas-county | 301 | /counties/texas-county | yes |

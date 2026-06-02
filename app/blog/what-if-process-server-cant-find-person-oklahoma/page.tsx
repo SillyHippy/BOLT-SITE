@@ -51,6 +51,12 @@ export const metadata: Metadata = {
   description: "Learn what happens when a process server can't locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s",
   keywords:
     "what if process server can't find defendant, failed service oklahoma, substitute service requirements",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What If the Process Server Can',
+    description: 'Learn what happens when a process server can',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-if-process-server-cant-find-person-oklahoma",
@@ -62,6 +68,12 @@ export const metadata: Metadata = {
   
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What If the Process Server Can't Find the Person in Oklahoma?",
     description:

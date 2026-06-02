@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/what-to-look-for-choosing-process-server-oklahoma',
+  },
   title: "What Should I Look for When Choosing a Process Server in...",
   description:
     "10-point checklist for choosing the best process server in Oklahoma. Learn about licensing, experience, technology, pricing transparency, reviews & more.",
   keywords:
     "how to choose a process server, what to look for in process server, best process server oklahoma, process server selection guide, licensed process server oklahoma",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "What Should I Look for When Choosing a Process Server in Oklahoma?",
     description:
       "10-point checklist for choosing the best process server in Oklahoma. Learn about licensing, experience, technology, pricing transparency, reviews & more.",
     url: "https://justlegalsolutions.org/blog/what-to-look-for-choosing-process-server-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Should I Look for When Choosing a Process Server in...',
+    description: '10-point checklist for choosing the best process server in Oklahoma. Learn about licensing, experience, technology, pricing transparency, reviews & more.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -619,7 +635,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

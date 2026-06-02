@@ -6,6 +6,7 @@ import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
 import LastUpdated from '@/components/ui/last-updated';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 import {
   Phone,
   Mail,
@@ -45,10 +46,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-034-mobile-notary-tulsa-og.webp',
         width: 1200,
         height: 630,
-        alt: 'Just Legal Solutions Mobile Notary Team'
+        alt: 'Mobile notary professional entering vehicle for a client appointment in Tulsa',
       }
     ],
     locale: 'en_US',
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Just Legal Solutions | Oklahoma Mobile Notary',
     description: '24/7 hospital, jail, and real estate loan signing coverage across Tulsa metro. Call (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/images/notary-mobile-og.jpg']
+    images: ['https://justlegalsolutions.org/image-pack/images/image-034-mobile-notary-tulsa-og.webp']
   },
   alternates: {
     canonical: canonicalUrl
@@ -362,7 +363,7 @@ const notaryServiceSchema = {
   '@type': 'ProfessionalService',
   name: 'Just Legal Solutions Mobile Notary',
   url: canonicalUrl,
-  image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
+  image: 'https://justlegalsolutions.org/image-pack/images/image-034-mobile-notary-tulsa-og.webp',
   telephone: '+1-539-367-6832',
   email: 'info@JustLegalSolutions.org',
   description: 'Professional mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded Oklahoma notaries come to your location. Same-day appointments available.',
@@ -889,6 +890,10 @@ export default function MobileNotaryPage() {
             </p>
           </div>
         </section>
+
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+          <AeoNotaryHubLinks />
+        </div>
 
         <section className="py-16">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

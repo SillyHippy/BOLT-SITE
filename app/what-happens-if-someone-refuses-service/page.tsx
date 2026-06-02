@@ -17,6 +17,12 @@ export const metadata: Metadata = {
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/what-happens-if-someone-refuses-service', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp', width: 1200, height: 630, alt: 'What Happens If Someone Refuses Legal Papers' }],
     },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Happens If Someone Refuses to Accept Papers? | Oklahoma Law',
+    description: 'What happens when someone refuses to accept legal papers in Oklahoma? Refusal does NOT prevent valid service. Learn about drop service, substitute service, and your legal options under 12 O.S. § 2004.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
     alternates: { canonical: 'https://justlegalsolutions.org/what-happens-if-someone-refuses-service' },
     other: {
         'ai-content-type': 'article',

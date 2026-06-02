@@ -5,6 +5,7 @@ import { Navbar } from "@/components/ui/navbar";
 import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 const faqs = [
   {
@@ -76,18 +77,33 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/find-local-notary-near-me-oklahoma',
+  },
   title: "Where Can I Find a Local Notary Near Me in Oklahoma? Comp...",
   description:
     "Looking for a local notary in Oklahoma? Learn where to find notary services at banks, UPS stores, libraries & the benefits of mobile notary that comes to you.",
   keywords:
     "local notary near me, notary public near me, find notary tulsa, notary nearby, Oklahoma notary locations, mobile notary Oklahoma",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "Where Can I Find a Local Notary Near Me in Oklahoma? Complete Guide",
     description:
       "Looking for a local notary in Oklahoma? Learn where to find notary services at banks, UPS stores, libraries & the benefits of mobile notary that comes to you.",
     url: "https://justlegalsolutions.org/blog/find-local-notary-near-me-oklahoma",
     type: "article",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Where Can I Find a Local Notary Near Me in Oklahoma? Comp...',
+    description: 'Looking for a local notary in Oklahoma? Learn where to find notary services at banks, UPS stores, libraries & the benefits of mobile notary that comes to you.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
 };
 
@@ -627,7 +643,9 @@ export default function BlogPost() {
         </article>
       </main>
 
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

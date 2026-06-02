@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Why Process Serving Spikes in January — Oklahoma',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Why Process Serving Spikes in January: New Year Divorce & Eviction Season' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Why Process Serving Spikes in January — Oklahoma',
+    description: 'Why do legal filings spike in January in Oklahoma? Post-holiday divorce filings, lease terminations, and how to prepare.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/january-process-serving-spike-oklahoma' },
   other: {
@@ -457,7 +464,9 @@ export default function JanuaryProcessServingSpikeOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

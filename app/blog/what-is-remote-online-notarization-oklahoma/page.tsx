@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: "What is Remote Online Notarization and How Does It Work i...",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What is Remote Online Notarization and How Does It Work i...' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What is Remote Online Notarization and How Does It Work i...',
+    description: 'Remote online notarization (RON) is now legal in Oklahoma. Learn how RON works step-by-step, technology requirements, Oklahoma law, and how it compares to tradi',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-is-remote-online-notarization-oklahoma' },
   other: {
@@ -299,7 +306,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="What is Remote Online Notarization and How Does It Work in Oklahoma?"

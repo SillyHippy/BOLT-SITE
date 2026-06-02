@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
   title: "What Documents Need to Be Notarized in Oklahoma? Complete...",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Documents Need to Be Notarized in Oklahoma? Complete...' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What Documents Need to Be Notarized in Oklahoma? Complete...',
+    description: 'Complete guide to documents requiring notarization in Oklahoma. Covers legal, financial, real estate, personal, and business documents with Oklahoma-specific re',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-documents-need-notarized-oklahoma' },
   other: {
@@ -318,7 +325,9 @@ export default function BlogPost() {
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="What Documents Need to Be Notarized in Oklahoma? Complete List"

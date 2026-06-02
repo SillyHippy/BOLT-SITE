@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Court Deadline Tracking & Calendar Management in Oklahoma',
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
         alt: 'Court Deadline Tracking & Calendar Management in Oklahoma',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Court Deadline Tracking & Calendar Management in Oklahoma',
+    description: 'Missed deadlines cause 33-40% of malpractice claims. See how Oklahoma law firms use virtual assistants for court deadline tracking & calendar management.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/calendar-management-court-deadline-tracking-virtual-support-oklahoma',
@@ -695,7 +702,9 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

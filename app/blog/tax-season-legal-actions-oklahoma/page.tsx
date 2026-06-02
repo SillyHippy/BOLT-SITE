@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Tax Season & Legal Actions: Oklahoma Guide (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Tax Season & Legal Actions: What Oklahoma Residents Should Know' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tax Season & Legal Actions: Oklahoma Guide (2026)',
+    description: 'Learn about Oklahoma tax liens, IRS levies, and state tax warrants. How tax-related legal actions are served and what you need to know.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/tax-season-legal-actions-oklahoma' },
   other: {
@@ -418,7 +425,9 @@ export default function TaxSeasonLegalActionsOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

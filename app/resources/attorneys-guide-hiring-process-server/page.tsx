@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { resourceDownloadHref } from '@/lib/resource-downloads';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   Scale, 
@@ -17,16 +18,29 @@ import {
   Briefcase,
   Award
 } from 'lucide-react';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
   title: "Attorney's Guide to Hiring a Process Server | Free PDF Download",
   description: "Download our free Attorney's Guide to Hiring a Process Server. Learn how to vet process servers, avoid red flags, compare pricing, and protect your law firm's reputation. Written by Joseph Iannazzi.",
   keywords: "attorney guide process server, hiring process server law firm, process server vetting checklist, legal process service, Oklahoma process server, attorney services",
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: "Attorney's Guide to Hiring a Process Server | Free PDF",
     description: "Essential guide for attorneys on vetting, hiring, and working with professional process servers. Protect your cases and your firm's reputation.",
     type: 'article',
     authors: ['Joseph Iannazzi'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Attorney',
+    description: 'Download our free Attorney',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
   },
   alternates: {
     canonical: '/resources/attorneys-guide-hiring-process-server/',
@@ -72,7 +86,7 @@ export default function AttorneysGuidePage() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a 
-                  href="/downloads/attorneys-guide-hiring-process-server.pdf"
+                  href={resourceDownloadHref('attorneys-guide-hiring-process-server.pdf')}
                   download
                   className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-blue-600/25"
                 >
@@ -463,7 +477,7 @@ export default function AttorneysGuidePage() {
             </div>
             
             <a 
-              href="/downloads/attorneys-guide-hiring-process-server.pdf"
+              href={resourceDownloadHref('attorneys-guide-hiring-process-server.pdf')}
               download
               className="w-full inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-lg"
             >
@@ -623,6 +637,10 @@ export default function AttorneysGuidePage() {
           </p>
         </div>
       </section>
+    
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/attorneys-guide-hiring-process-server" />
+
     </main>
     </>
   );

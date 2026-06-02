@@ -822,6 +822,18 @@ export default function ProcessServingPage() {
                                 <h3 className="font-semibold text-cyan-800">Out-of-State Subpoena (UIDDA)</h3>
                                 <p className="text-sm text-gray-600 mt-1">Interstate subpoena domestication &amp; service</p>
                             </Link>
+                            <Link href="/tulsa-process-server" className="block p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                                <h3 className="font-semibold text-slate-800">Tulsa Process Server</h3>
+                                <p className="text-sm text-gray-600 mt-1">Tulsa County metro and courthouse coverage</p>
+                            </Link>
+                            <Link href="/oklahoma-process-serving-hub" className="block p-4 bg-rose-50 rounded-lg hover:bg-rose-100 transition-colors">
+                                <h3 className="font-semibold text-rose-800">Calculators &amp; Guides Hub</h3>
+                                <p className="text-sm text-gray-600 mt-1">Deadlines, fees, and service method tools</p>
+                            </Link>
+                            <Link href="/mobile-notary" className="block p-4 bg-violet-50 rounded-lg hover:bg-violet-100 transition-colors">
+                                <h3 className="font-semibold text-violet-800">Mobile Notary Tulsa</h3>
+                                <p className="text-sm text-gray-600 mt-1">Affidavit notarization and loan signings</p>
+                            </Link>
                         </div>
                     </section>
 

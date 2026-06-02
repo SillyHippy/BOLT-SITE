@@ -22,6 +22,9 @@ const statePath = path.join(queueRoot, 'release-state.json');
 const logPath = path.join(queueRoot, 'release-log.json');
 const targetBlogRoot = path.join(ROOT, 'app', 'blog');
 const targetPublicBlogImagesRoot = path.join(ROOT, 'public', 'blog', 'images');
+const pendingRedirectsPath = path.join(ROOT, 'content', 'blog-queue', 'pending-redirects.json');
+const siteRedirectsPath = path.join(ROOT, 'public', '_redirects');
+const INTERIM_REDIRECT_MARKER = '# ── interim blog queue redirects ──';
 
 const QUALITY_MIN_WORDS = Number(process.env.BLOG_MIN_WORDS || 900);
 const QUALITY_MIN_HEADINGS = Number(process.env.BLOG_MIN_HEADINGS || 4);
@@ -63,6 +66,37 @@ function readJson(pathname) {
 function writeJson(pathname, value) {
   fs.mkdirSync(path.dirname(pathname), { recursive: true });
   fs.writeFileSync(pathname, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+/** Remove interim blog-queue redirect after a slug is published. */
+function removePendingRedirect(slug) {
+  if (!fs.existsSync(pendingRedirectsPath)) return false;
+
+  const pending = readJson(pendingRedirectsPath);
+  if (!pending.redirects || !pending.redirects[slug]) return false;
+
+  delete pending.redirects[slug];
+  pending.lastPublishedSlug = slug;
+  pending.lastPublishedAt = new Date().toISOString();
+  writeJson(pendingRedirectsPath, pending);
+
+  if (!fs.existsSync(siteRedirectsPath)) return true;
+
+  const rulePrefix = `/blog/${slug} `;
+  let redirectsText = fs.readFileSync(siteRedirectsPath, 'utf8');
+  const lines = redirectsText.split('\n');
+  const filtered = lines.filter((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) return true;
+    return !trimmed.startsWith(rulePrefix);
+  });
+
+  if (filtered.length !== lines.length) {
+    fs.writeFileSync(siteRedirectsPath, filtered.join('\n'), 'utf8');
+    console.log(`Removed interim redirect for /blog/${slug}`);
+  }
+
+  return true;
 }
 
 function getSourceSnippet(source, startToken, endToken = '};') {
@@ -459,6 +493,7 @@ function releaseNextPost() {
     if (!BLOG_DRY_RUN) {
       fs.mkdirSync(path.dirname(next.targetPath), { recursive: true });
       fs.writeFileSync(next.targetPath, stampedSource, 'utf8');
+      removePendingRedirect(next.slug);
     }
 
     const releaseRecord = {

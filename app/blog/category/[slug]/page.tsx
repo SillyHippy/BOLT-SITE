@@ -18,6 +18,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { BLOG_CATEGORIES, getAllCategorySlugs, getCategoryBySlug } from '@/lib/blog-categories';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const dynamicParams = false;
 
@@ -283,7 +284,9 @@ export default async function BlogCategoryPage({
         </section>
       </main>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </div>
   );
 }

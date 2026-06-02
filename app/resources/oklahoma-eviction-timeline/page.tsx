@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { resourceDownloadHref } from '@/lib/resource-downloads';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { 
   Clock, 
@@ -16,8 +17,15 @@ import {
   UserCheck,
   Home
 } from 'lucide-react';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Eviction Timeline PDF | Free Download',
+    description: 'Download our free Oklahoma eviction timeline PDF. Learn the exact timeframe for each stage of the eviction process, from notice to writ of execution. Professional process serving available.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
+  },
     alternates: {
     canonical: 'https://justlegalsolutions.org/resources/oklahoma-eviction-timeline',
   },
@@ -26,6 +34,12 @@ title: 'Oklahoma Eviction Timeline PDF | Free Download',
   keywords: 'Oklahoma eviction timeline, eviction process Oklahoma, landlord eviction steps, Oklahoma eviction timeframe, eviction notice service, writ of execution Oklahoma',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
+      width: 1200,
+      height: 630,
+      alt: 'Free Oklahoma process server forms and legal document downloads',
+    }],
     title: 'Oklahoma Eviction Timeline PDF - Free Download',
     description: 'Master the Oklahoma eviction process with our comprehensive timeline guide. Download your free PDF today.',
     type: 'website',
@@ -66,7 +80,7 @@ export default function OklahomaEvictionTimelinePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="/downloads/oklahoma-eviction-timeline.pdf" 
+                href={resourceDownloadHref('oklahoma-eviction-timeline.pdf')} 
                 download
                 className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
               >
@@ -436,7 +450,7 @@ export default function OklahomaEvictionTimelinePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <a 
-                href="/downloads/oklahoma-eviction-timeline.pdf" 
+                href={resourceDownloadHref('oklahoma-eviction-timeline.pdf')} 
                 download
                 className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg"
               >
@@ -529,6 +543,10 @@ export default function OklahomaEvictionTimelinePage() {
         </div>
       </section>
     </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/oklahoma-eviction-timeline" />
+
+
     </>
   );
 }

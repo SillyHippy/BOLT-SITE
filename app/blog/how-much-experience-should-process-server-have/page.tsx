@@ -6,6 +6,7 @@ import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import Link from "next/link";
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 const faqs = [
   {
@@ -45,6 +46,12 @@ export const metadata: Metadata = {
   description: "Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma.",
   keywords:
     "process server experience requirements, qualified process server, experienced process server oklahoma",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How Much Experience Should a Process Server Have? | Just...',
+    description: 'Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-much-experience-should-process-server-have",
@@ -56,6 +63,12 @@ export const metadata: Metadata = {
   
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
     title:
       "How Much Experience Should a Process Server Have?",
     description:
@@ -489,7 +502,7 @@ export default function BlogPost() {
               </Link>
               ,{" "}
               <Link
-                href="/services/rush-service"
+                href="/same-day-process-server"
                 className="text-blue-600 hover:underline"
               >
                 rush service
@@ -573,7 +586,9 @@ export default function BlogPost() {
       </main>
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="blog"
         pageUrl="https://justlegalsolutions.org/blog/how-much-experience-should-process-server-have"

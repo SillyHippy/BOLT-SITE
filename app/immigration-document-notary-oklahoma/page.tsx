@@ -49,6 +49,12 @@ export const metadata: Metadata = {
     canonical: canonicalUrl,
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
     title: 'Immigration Document Notary Tulsa | I-130, I-485, I-751',
     description: 'Professional notary for USCIS forms in Tulsa. Bilingual services. Oklahoma fee cap $5/act (49 O.S. § 5). Call (539) 367-6832.',
     url: canonicalUrl,

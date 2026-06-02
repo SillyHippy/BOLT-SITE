@@ -3,13 +3,34 @@ import Link from 'next/link';
 import { Download, ClipboardList } from 'lucide-react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 const SLUG = 'JLS-Client-Intake-Form-v1.0';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Process Server Client Intake Form (Oklahoma) — Free PDF & DOCX',
+    description: 'Professional intake form for Oklahoma process servers — captures case details, special instructions, rush handling, billing authorization, and signature.',
+    url: 'https://justlegalsolutions.org/resources/client-intake-form',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Process Server Client Intake Form (Oklahoma) — Free PDF & DOCX',
   description:
     'Professional intake form for Oklahoma process servers — captures case details, special instructions, rush handling, billing authorization, and signature.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Client Intake Form (Oklahoma) — Free PDF & DOCX',
+    description: 'Professional intake form for Oklahoma process servers — captures case details, special instructions, rush handling, billing authorization, and signature.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources/client-intake-form',
   },
@@ -139,6 +160,10 @@ export default function ClientIntakeFormPage() {
           including the field sheet, attempt log, and chain-of-custody form.
         </p>
       </div>
+      {/* ResourceRelatedLinks */}
+      <ResourceRelatedLinks currentPath="/resources/client-intake-form" />
+
+
     </HubPageLayout>
     </>
   );

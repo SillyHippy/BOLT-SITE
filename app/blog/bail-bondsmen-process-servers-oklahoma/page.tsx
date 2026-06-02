@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Bail Bondsmen & Process Servers (2026)',
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'How Oklahoma Bail Bondsmen Work With Process Servers' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Bail Bondsmen & Process Servers (2026)',
+    description: 'How bail bondsmen and process servers work together in Oklahoma. FTA warrants, bond forfeiture, and skip tracing. Call (539) 367-6832.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/bail-bondsmen-process-servers-oklahoma' },
   other: {
@@ -457,7 +464,9 @@ export default function BailBondsmenProcessServersOklahoma() {
         </div>
       </div>
 
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
     </>
   );
 }

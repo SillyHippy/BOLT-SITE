@@ -8,12 +8,33 @@ import {
   LocalPromoBanner,
   UnifiedSchema,
 } from "../components";
+import AeoNotaryHubLinks from '@/components/seo/aeo-notary-hub-links';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Can I Get Documents Notarized on Weekends or After Hours...',
+    description: 'Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarizatio',
+    url: 'https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions blog — Oklahoma process serving and legal support',
+    }],
+  },
   title: "Can I Get Documents Notarized on Weekends or After Hours...",
   description: "Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarizatio",
   keywords:
     "weekend notary, after hours notary, 24 hour notary, emergency notary, Oklahoma notary weekend, mobile notary after hours",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Can I Get Documents Notarized on Weekends or After Hours...',
+    description: 'Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarizatio',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
+  },
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma",
@@ -646,7 +667,9 @@ export default function WeekendAfterHoursNotaryPage() {
 
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
-      <Footer />
+      
+          <AeoNotaryHubLinks />
+          <Footer />
     </div>
   );
 }

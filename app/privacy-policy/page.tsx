@@ -3,8 +3,28 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
+  openGraph: {
+    title: 'Privacy Policy',
+    description: 'Privacy policy for Just Legal Solutions — Oklahoma process server and notary services. How we collect, use, and protect your information.',
+    url: 'https://justlegalsolutions.org/privacy-policy',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+    }],
+  },
   title: 'Privacy Policy',
   description: 'Privacy policy for Just Legal Solutions — Oklahoma process server and notary services. How we collect, use, and protect your information.',
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy',
+    description: 'Privacy policy for Just Legal Solutions — Oklahoma process server and notary services. How we collect, use, and protect your information.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
+  },
   alternates: { canonical: 'https://justlegalsolutions.org/privacy-policy' },
   robots: { index: true, follow: true },
 };

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-links';
 
 export const metadata: Metadata = {
   title: "Digital Proof of Service: How Technology Protects Your Case",
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Digital Proof of Service: How Technology Protects Your Case' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Digital Proof of Service: How Technology Protects Your Case',
+    description: 'Learn how digital proof of service with GPS and timestamps protects your case. Modern documentation methods explained for Oklahoma attorneys. Serving all 77 Okl',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/digital-proof-service-modern-documentation' },
   other: {
@@ -150,7 +157,9 @@ export default function BlogPost() {
       </main>
       <LocalPromoBanner />
       <AuthorBox />
-      <Footer />
+      
+          <AeoProcessServingHubLinks />
+          <Footer />
       <UnifiedSchema
         pageType="article"
         title="Digital Proof of Service: How Technology Protects Your Case"
