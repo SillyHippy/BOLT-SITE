@@ -904,7 +904,7 @@ export default function AttorneyServicesPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
               Related Services for Law Firms
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <Link href="/law-firm-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Law Firm Partnerships</h3>
                 <p className="text-gray-700">
@@ -917,6 +917,13 @@ export default function AttorneyServicesPage() {
                 <p className="text-gray-700">
                   Professional process serving for all document types throughout Oklahoma. 
                   Learn more about our comprehensive service offerings.
+                </p>
+              </Link>
+              <Link href="/courier-services" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-3">Legal Document Courier</h3>
+                <p className="text-gray-700">
+                  Secure same-day delivery between law offices, courts, and opposing counsel with 
+                  chain-of-custody documentation statewide.
                 </p>
               </Link>
               <Link href="/courthouse-filing-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">

@@ -890,6 +890,9 @@ export default function TulsaCountyProcessServer() {
                 <div>
                   <h4 className="font-semibold text-blue-900 mb-3">Specialized Services</h4>
                   <div className="space-y-2">
+                    <Link href="/courier-services" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Legal Document Courier (Statewide)
+                    </Link>
                     <Link href="/courier-services-tulsa" className="block text-blue-600 hover:text-blue-800 text-sm">
                       Courier Services Tulsa
                     </Link>

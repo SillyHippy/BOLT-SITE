@@ -398,6 +398,10 @@ export default function ForAttorneysPage() {
               <h3 className="font-bold text-blue-800 mb-1">Process Serving Services</h3>
               <p className="text-slate-600">Statewide coverage with GPS-verified proof</p>
             </Link>
+            <Link href="/courier-services" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
+              <h3 className="font-bold text-blue-800 mb-1">Legal Document Courier</h3>
+              <p className="text-slate-600">Same-day court filings and inter-office delivery</p>
+            </Link>
             <Link href="/attorney-services" className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition">
               <h3 className="font-bold text-blue-800 mb-1">Attorney Services Hub</h3>
               <p className="text-slate-600">Volume pricing, billing, and firm workflows</p>
