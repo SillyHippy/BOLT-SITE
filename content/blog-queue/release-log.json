@@ -4512,6 +4512,86 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "complete-guide-to-hiring-process-server-oklahoma",
+      "title": "The Complete Guide to Hiring a Process Server in Oklahoma (2026)",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-02T18:32:37.547Z",
+      "releaseDate": "2026-06-02",
+      "quality": {
+        "words": 2649,
+        "headings": 14,
+        "paragraphs": 40
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-mobile-notary-guide",
+      "title": "Oklahoma Mobile Notary Guide: What to Know Before You Book",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-02T18:32:37.551Z",
+      "releaseDate": "2026-06-02",
+      "quality": {
+        "words": 2811,
+        "headings": 16,
+        "paragraphs": 31
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "digital-proof-service-gps-photos-documentation",
+      "title": "Digital Proof of Service: GPS, Photos, and Modern Documentation",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-02T18:32:37.553Z",
+      "releaseDate": "2026-06-02",
+      "quality": {
+        "words": 3003,
+        "headings": 14,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-public-act-explained",
+      "title": "The Oklahoma Notary Public Act Explained: Rules and Requirements",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-02T18:32:37.555Z",
+      "releaseDate": "2026-06-02",
+      "quality": {
+        "words": 2962,
+        "headings": 24,
+        "paragraphs": 44
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6748,6 +6828,18 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-05-26T17:52:10.361Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-02T18:32:37.548Z"
     }
   ]
 }
