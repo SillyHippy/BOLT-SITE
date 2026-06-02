@@ -117,6 +117,8 @@
 
 # regen: node scripts/prioritize-county-redirects.mjs
 
+# regen: node scripts/prioritize-county-redirects.mjs
+
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
