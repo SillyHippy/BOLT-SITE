@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/legal-resources-og.jpg',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Legal Resources and Process Serving Guides'

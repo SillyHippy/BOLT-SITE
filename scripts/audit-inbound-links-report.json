@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T21:49:35.857Z",
+  "generated": "2026-06-02T21:56:29.193Z",
   "stats": [
     {
       "route": "/(main)",
@@ -927,21 +927,6 @@
       "sources": []
     },
     {
-      "route": "/resources/client-intake-form",
-      "count": 0,
-      "sources": []
-    },
-    {
-      "route": "/resources/future-of-process-serving",
-      "count": 0,
-      "sources": []
-    },
-    {
-      "route": "/resources/tools-and-guides",
-      "count": 0,
-      "sources": []
-    },
-    {
       "route": "/reviews/email",
       "count": 0,
       "sources": []
@@ -1413,14 +1398,28 @@
       ]
     },
     {
-      "route": "/resources/gps-service-log",
+      "route": "/resources/client-intake-form",
       "count": 1,
       "sources": [
-        "app\\(main)\\resources\\chain-of-custody-form\\page.tsx"
+        "app\\(main)\\resources\\page.tsx"
+      ]
+    },
+    {
+      "route": "/resources/future-of-process-serving",
+      "count": 1,
+      "sources": [
+        "app\\(main)\\resources\\page.tsx"
       ]
     },
     {
       "route": "/resources/skip-trace-checklist",
+      "count": 1,
+      "sources": [
+        "app\\(main)\\resources\\page.tsx"
+      ]
+    },
+    {
+      "route": "/resources/tools-and-guides",
       "count": 1,
       "sources": [
         "app\\(main)\\resources\\page.tsx"
@@ -1682,6 +1681,14 @@
       "count": 2,
       "sources": [
         "app\\(main)\\resources\\gps-service-log\\page.tsx",
+        "app\\(main)\\resources\\page.tsx"
+      ]
+    },
+    {
+      "route": "/resources/gps-service-log",
+      "count": 2,
+      "sources": [
+        "app\\(main)\\resources\\chain-of-custody-form\\page.tsx",
         "app\\(main)\\resources\\page.tsx"
       ]
     },
@@ -2445,18 +2452,6 @@
       ]
     },
     {
-      "route": "/oklahoma-process-serving-hub",
-      "count": 6,
-      "sources": [
-        "app\\(main)\\downloads\\page.tsx",
-        "app\\(main)\\page.tsx",
-        "app\\(main)\\process-serving\\page.tsx",
-        "app\\(main)\\resources\\page.tsx",
-        "app\\(main)\\tools\\page.tsx",
-        "app\\attorney-services\\page.tsx"
-      ]
-    },
-    {
       "route": "/process-serving-for-insurance-companies",
       "count": 6,
       "sources": [
@@ -2582,19 +2577,6 @@
       ]
     },
     {
-      "route": "/courier-services",
-      "count": 7,
-      "sources": [
-        "app\\(main)\\process-serving\\page.tsx",
-        "app\\(main)\\resources\\page.tsx",
-        "app\\blog\\client-portals-legal-services-secure-document-access-oklahoma\\page.tsx",
-        "app\\blog\\what-makes-process-server-reliable-oklahoma\\page.tsx",
-        "app\\blog\\what-proof-do-i-get-documents-served-oklahoma\\page.tsx",
-        "components\\seo\\aeo-notary-hub-links.tsx",
-        "components\\ui\\footer.tsx"
-      ]
-    },
-    {
       "route": "/hospital-notary",
       "count": 7,
       "sources": [
@@ -2618,6 +2600,19 @@
         "app\\notary-laws\\page.tsx",
         "app\\remote-online-notary\\page.tsx",
         "app\\resources\\oklahoma-notarization-requirements\\page.tsx"
+      ]
+    },
+    {
+      "route": "/oklahoma-process-serving-hub",
+      "count": 7,
+      "sources": [
+        "app\\(main)\\downloads\\page.tsx",
+        "app\\(main)\\page.tsx",
+        "app\\(main)\\process-serving\\page.tsx",
+        "app\\(main)\\resources\\page.tsx",
+        "app\\(main)\\tools\\page.tsx",
+        "app\\attorney-services\\page.tsx",
+        "app\\blog\\page.tsx"
       ]
     },
     {
@@ -3338,6 +3333,35 @@
       ]
     },
     {
+      "route": "/courier-services",
+      "count": 23,
+      "sources": [
+        "app\\(main)\\for-attorneys\\page.tsx",
+        "app\\(main)\\process-serving\\page.tsx",
+        "app\\(main)\\resources\\page.tsx",
+        "app\\attorney-services\\page.tsx",
+        "app\\blog\\client-portals-legal-services-secure-document-access-oklahoma\\page.tsx",
+        "app\\blog\\page.tsx",
+        "app\\blog\\what-makes-process-server-reliable-oklahoma\\page.tsx",
+        "app\\blog\\what-proof-do-i-get-documents-served-oklahoma\\page.tsx",
+        "app\\counties\\tulsa-county\\page.tsx",
+        "app\\service-areas\\bixby\\page.tsx",
+        "app\\service-areas\\broken-arrow\\page.tsx",
+        "app\\service-areas\\edmond\\page.tsx",
+        "app\\service-areas\\jenks\\page.tsx",
+        "app\\service-areas\\midwest-city\\page.tsx",
+        "app\\service-areas\\moore\\page.tsx",
+        "app\\service-areas\\norman\\page.tsx",
+        "app\\service-areas\\oklahoma-city\\page.tsx",
+        "app\\service-areas\\owasso\\page.tsx",
+        "app\\service-areas\\sand-springs\\page.tsx",
+        "app\\service-areas\\stillwater\\page.tsx",
+        "app\\service-areas\\[slug]\\page.tsx",
+        "components\\seo\\aeo-notary-hub-links.tsx",
+        "components\\ui\\footer.tsx"
+      ]
+    },
+    {
       "route": "/blog/how-to-apostille-document-oklahoma",
       "count": 24,
       "sources": [
@@ -3499,7 +3523,7 @@
     },
     {
       "route": "/mobile-notary",
-      "count": 29,
+      "count": 30,
       "sources": [
         "app\\(main)\\for-landlords\\page.tsx",
         "app\\(main)\\page.tsx",
@@ -3513,6 +3537,7 @@
         "app\\blog\\how-do-process-servers-find-people-skip-tracing\\page.tsx",
         "app\\blog\\how-to-apostille-document-oklahoma\\page.tsx",
         "app\\blog\\oklahoma-notary-fees-guide\\page.tsx",
+        "app\\blog\\page.tsx",
         "app\\blog\\ron-vs-mobile-notary-oklahoma\\page.tsx",
         "app\\blog\\what-makes-process-server-reliable-oklahoma\\page.tsx",
         "app\\blog\\what-proof-do-i-get-documents-served-oklahoma\\page.tsx",
@@ -4123,7 +4148,7 @@
     },
     {
       "route": "/process-serving",
-      "count": 91,
+      "count": 92,
       "sources": [
         "app\\(main)\\courier-services\\page.tsx",
         "app\\(main)\\eviction-notice-service\\page.tsx",
@@ -4168,6 +4193,7 @@
         "app\\blog\\oklahoma-180-day-rule-service-process\\page.tsx",
         "app\\blog\\oklahoma-default-judgment-guide\\page.tsx",
         "app\\blog\\oklahoma-service-by-publication\\page.tsx",
+        "app\\blog\\page.tsx",
         "app\\blog\\power-of-attorney-guide-oklahoma\\page.tsx",
         "app\\blog\\process-serving-cost-guide-oklahoma\\page.tsx",
         "app\\blog\\process-serving-healthcare-hospitals-oklahoma\\page.tsx",
@@ -6147,21 +6173,6 @@
       "sources": []
     },
     {
-      "route": "/resources/client-intake-form",
-      "count": 0,
-      "sources": []
-    },
-    {
-      "route": "/resources/future-of-process-serving",
-      "count": 0,
-      "sources": []
-    },
-    {
-      "route": "/resources/tools-and-guides",
-      "count": 0,
-      "sources": []
-    },
-    {
       "route": "/reviews/email",
       "count": 0,
       "sources": []
@@ -6633,14 +6644,28 @@
       ]
     },
     {
-      "route": "/resources/gps-service-log",
+      "route": "/resources/client-intake-form",
       "count": 1,
       "sources": [
-        "app\\(main)\\resources\\chain-of-custody-form\\page.tsx"
+        "app\\(main)\\resources\\page.tsx"
+      ]
+    },
+    {
+      "route": "/resources/future-of-process-serving",
+      "count": 1,
+      "sources": [
+        "app\\(main)\\resources\\page.tsx"
       ]
     },
     {
       "route": "/resources/skip-trace-checklist",
+      "count": 1,
+      "sources": [
+        "app\\(main)\\resources\\page.tsx"
+      ]
+    },
+    {
+      "route": "/resources/tools-and-guides",
       "count": 1,
       "sources": [
         "app\\(main)\\resources\\page.tsx"
