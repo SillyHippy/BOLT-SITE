@@ -15,13 +15,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "electronic-service-process-oklahoma-eservice": {
-      "target": "/blog/oklahoma-court-filing-services",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "gps-tracking-revolutionizes-process-serving-accountability-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -68,20 +61,6 @@
       "target": "/blog/oklahoma-court-filing-services",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 3,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
-    "oklahoma-notary-vs-attorney-whats-difference": {
-      "target": "/blog/mobile-notary-tulsa-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
-    "oklahoma-power-of-attorney-notarization": {
-      "target": "/blog/mobile-notary-tulsa-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
@@ -225,5 +204,7 @@
       "inQueue": false,
       "updatedAt": "2026-06-02"
     }
-  }
+  },
+  "lastPublishedSlug": "oklahoma-power-of-attorney-notarization",
+  "lastPublishedAt": "2026-06-09T17:18:18.120Z"
 }

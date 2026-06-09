@@ -4592,6 +4592,82 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "do-process-servers-call-before-serving",
+      "title": "Do Process Servers Call Before Serving? What to Expect",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-09T17:18:18.105Z",
+      "releaseDate": "2026-06-09",
+      "quality": {
+        "words": 2415,
+        "headings": 15,
+        "paragraphs": 22
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-vs-attorney-whats-difference",
+      "title": "Oklahoma Notary vs Attorney: What\\",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-09T17:18:18.115Z",
+      "releaseDate": "2026-06-09",
+      "quality": {
+        "words": 2548,
+        "headings": 18,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "electronic-service-process-oklahoma-eservice",
+      "title": "Electronic Service of Process in Oklahoma: eService Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-09T17:18:18.118Z",
+      "releaseDate": "2026-06-09",
+      "quality": {
+        "words": 2679,
+        "headings": 20,
+        "paragraphs": 35
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-power-of-attorney-notarization",
+      "title": "Oklahoma Power of Attorney Notarization: Requirements and Process",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-09T17:18:18.120Z",
+      "releaseDate": "2026-06-09",
+      "quality": {
+        "words": 2745,
+        "headings": 21,
+        "paragraphs": 38
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6840,6 +6916,30 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-06-02T18:32:37.548Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-09T17:18:18.107Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-09T17:18:18.116Z"
     }
   ]
 }

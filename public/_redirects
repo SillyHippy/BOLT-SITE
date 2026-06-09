@@ -441,7 +441,6 @@
 # regen: node scripts/audit-blog-queue-redirects.mjs
 /blog/electronic-filing-service-oklahoma-courts /blog/oklahoma-court-filing-services 301
 /blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma /blog/proof-of-service-oklahoma-guide 301
-/blog/electronic-service-process-oklahoma-eservice /blog/oklahoma-court-filing-services 301
 /blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/how-long-to-respond-lawsuit-oklahoma /blog/how-long-respond-lawsuit-oklahoma 301
 /blog/how-to-serve-legal-papers-oklahoma-step-by-step /blog/how-to-hire-a-process-server-oklahoma 301
@@ -449,8 +448,6 @@
 /blog/national-process-server-week /blog/how-to-hire-a-process-server-oklahoma 301
 /blog/oklahoma-courier-services-legal-documents /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
 /blog/oklahoma-document-retrieval-services /blog/oklahoma-court-filing-services 301
-/blog/oklahoma-notary-vs-attorney-whats-difference /blog/mobile-notary-tulsa-guide 301
-/blog/oklahoma-power-of-attorney-notarization /blog/mobile-notary-tulsa-guide 301
 /blog/oklahoma-process-server-best-practices-checklist /oklahoma-process-server-best-practices-checklist 301
 /blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
 /blog/oklahoma-process-server-laws /oklahoma-process-server-laws 301
