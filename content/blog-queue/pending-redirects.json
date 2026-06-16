@@ -29,13 +29,6 @@
       "inQueue": false,
       "updatedAt": "2026-06-02"
     },
-    "how-to-serve-legal-papers-oklahoma-step-by-step": {
-      "target": "/blog/how-to-hire-a-process-server-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 4,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "legal-tech-tools-oklahoma-law-firms-2026": {
       "target": "/blog/ai-changing-legal-support-services-2026",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -83,13 +76,6 @@
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 1,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
-    },
-    "oklahoma-real-estate-closing-notary": {
-      "target": "/blog/mobile-notary-tulsa-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
       "updatedAt": "2026-06-02"
     },
     "oklahoma-witness-locate-services": {
@@ -169,13 +155,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "tulsa-county-court-filing-guide": {
-      "target": "/blog/tulsa-court-filing-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "understanding-proof-of-service-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -205,6 +184,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "oklahoma-power-of-attorney-notarization",
-  "lastPublishedAt": "2026-06-09T17:18:18.120Z"
+  "lastPublishedSlug": "tulsa-county-court-filing-guide",
+  "lastPublishedAt": "2026-06-16T18:52:16.627Z"
 }

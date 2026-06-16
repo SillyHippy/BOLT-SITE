@@ -4668,6 +4668,82 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "how-to-serve-business-llc-oklahoma",
+      "title": "How to Serve a Business or LLC in Oklahoma: Corporate Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-16T18:52:16.614Z",
+      "releaseDate": "2026-06-16",
+      "quality": {
+        "words": 2686,
+        "headings": 15,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "oklahoma-real-estate-closing-notary",
+      "title": "Oklahoma Real Estate Closing Notary: What to Expect at Closing",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-16T18:52:16.623Z",
+      "releaseDate": "2026-06-16",
+      "quality": {
+        "words": 3105,
+        "headings": 19,
+        "paragraphs": 45
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-oklahoma-step-by-step",
+      "title": "How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-16T18:52:16.625Z",
+      "releaseDate": "2026-06-16",
+      "quality": {
+        "words": 2799,
+        "headings": 16,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "tulsa-county-court-filing-guide",
+      "title": "Tulsa County Court Filing Guide: Navigate the Filing Process",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-16T18:52:16.628Z",
+      "releaseDate": "2026-06-16",
+      "quality": {
+        "words": 3119,
+        "headings": 20,
+        "paragraphs": 34
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6940,6 +7016,40 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-06-09T17:18:18.116Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-16T18:52:16.595Z"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-16T18:52:16.596Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-16T18:52:16.615Z"
     }
   ]
 }
