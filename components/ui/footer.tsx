@@ -432,15 +432,15 @@ export function Footer() {
                 <hr/>
               
                 {/* New Service Type Section */}
-                <div>
-                  <label className="block text-sm font-bold text-gray-700">Service Type</label>
+                <fieldset>
+                  <legend className="block text-sm font-bold text-gray-700">Service Type</legend>
                   <div className="mt-2 space-y-4">
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-standard" name="service_type" type="radio" value="Standard - $60" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-standard" className="font-medium text-gray-900">Standard Service <span className="text-xs italic text-gray-600">starting at</span> $60</label><p className="text-gray-500">Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)</p></div></div>
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-rush" name="service_type" type="radio" value="Rush - $100" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-rush" className="font-medium text-gray-900">Rush Service <span className="text-xs italic text-gray-600">starting at</span> $100</label><p className="text-gray-500">For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability</p></div></div>
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-same-day" name="service_type" type="radio" value="Same Day - $150" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-same-day" className="font-medium text-gray-900">Same Day Service <span className="text-xs italic text-gray-600">starting at</span> $150</label><p className="text-gray-500">For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability</p></div></div>
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" aria-label="Other service type details" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
                   </div>
-                </div>
+                </fieldset>
 
                 {/* Your Information Section */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
@@ -494,14 +494,14 @@ export function Footer() {
                   <div><label htmlFor="servee-phone" className="block text-sm font-bold text-gray-700">Servee Phone Number</label><input type="tel" id="servee-phone" name="servee_phone_number" placeholder="(555) 555-5555" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                   <div><label htmlFor="servee-phone-2" className="block text-sm font-bold text-gray-700">Servee Secondary Phone <span className="text-xs font-normal text-gray-500">(optional)</span></label><input type="tel" id="servee-phone-2" name="servee_phone_secondary" placeholder="(555) 555-5555" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                   <div><label htmlFor="servee-email" className="block text-sm font-bold text-gray-700">Servee Email <span className="text-xs font-normal text-gray-500">(optional)</span></label><input type="email" id="servee-email" name="servee_email" placeholder="servee@example.com" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                  <div>
-                    <label className="block text-sm font-bold text-gray-700">Type of Address</label>
+                  <fieldset>
+                    <legend className="block text-sm font-bold text-gray-700">Type of Address</legend>
                     <div className="mt-3 flex items-center gap-6">
                       <div className="flex items-center"><input id="addr-home" name="address_type" type="radio" value="Home" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
                       <div className="flex items-center"><input id="addr-biz" name="address_type" type="radio" value="Business" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
                       <div className="flex items-center"><input id="addr-other" name="address_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
                     </div>
-                  </div>
+                  </fieldset>
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></label>
@@ -517,14 +517,14 @@ export function Footer() {
                   <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions / Notes <span className="text-xs font-normal text-gray-500">(optional — do not attach files, enter instructions here)</span></label>
                   <textarea id="instructions" name="service_instructions" rows={3} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                 </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</label>
+                <fieldset>
+                  <legend className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</legend>
                   <div className="mt-2 flex items-center gap-6">
                       <div className="flex items-center"><input id="cooperative-yes" name="is_servee_cooperative" type="radio" value="Yes" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-yes" className="ml-2 block text-sm text-gray-900">Yes</label></div>
                       <div className="flex items-center"><input id="cooperative-no" name="is_servee_cooperative" type="radio" value="No" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-no" className="ml-2 block text-sm text-gray-900">No</label></div>
                       <div className="flex items-center"><input id="cooperative-unknown" name="is_servee_cooperative" type="radio" value="Unknown" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-unknown" className="ml-2 block text-sm text-gray-900">Unknown</label></div>
                   </div>
-                </div>
+                </fieldset>
 
                 {/* Submit Documents Section - Drag & Drop Upload */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
