@@ -397,7 +397,7 @@ export default function EServiceValidityChecker() {
                 <button
                   key={option.value}
                   onClick={() => handleSelect(option.value)}
-                  className={`w-full text-left border rounded-lg p-4 transition-all duration-200 ${
+                  className={`w-full text-left border rounded-lg p-4 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 ${
                     isSelected
                       ? 'border-gold bg-gold/5 ring-1 ring-gold'
                       : 'border-gray-200 hover:border-gold/50 hover:bg-gray-50'
@@ -429,7 +429,7 @@ export default function EServiceValidityChecker() {
           {currentStep > 0 && (
             <button
               onClick={handleBack}
-              className="mt-4 text-sm text-navy underline hover:text-indigo-700 transition-colors"
+              className="mt-4 text-sm text-navy underline hover:text-indigo-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 rounded"
               aria-label="Go back to previous question"
             >
               ← Back to previous question
@@ -551,13 +551,13 @@ export default function EServiceValidityChecker() {
           <div className="flex flex-wrap gap-3">
             <button
               onClick={handleRestart}
-              className="bg-navy text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-navy/90 transition-colors"
+              className="bg-navy text-white px-5 py-2.5 rounded-md text-sm font-medium hover:bg-navy/90 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2"
             >
               Check Another Scenario
             </button>
             <button
               onClick={handleBack}
-              className="border border-gray-300 text-navy px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-50 transition-colors"
+              className="border border-gray-300 text-navy px-5 py-2.5 rounded-md text-sm font-medium hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2"
             >
               Change Answers
             </button>
