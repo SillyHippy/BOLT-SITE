@@ -125,7 +125,7 @@
   }
 
   .ui-nav-link {
-    @apply rounded-lg px-2.5 py-1.5 text-[15px] font-medium text-slate-700 transition-all hover:bg-slate-100 hover:text-slate-900;
+    @apply rounded-lg px-2.5 py-1.5 text-[15px] font-medium text-slate-700 transition-all hover:bg-slate-100 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
   }
 
   .ui-nav-link-active {
@@ -141,11 +141,11 @@
   }
 
   .ui-btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-blue-700 hover:shadow-md;
+    @apply inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-blue-700 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
   }
 
   .ui-btn-secondary {
-    @apply inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-all hover:-translate-y-0.5 hover:bg-slate-50 hover:shadow-sm;
+    @apply inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-all hover:-translate-y-0.5 hover:bg-slate-50 hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
   }
 
   .ui-surface-card {
@@ -347,6 +347,10 @@ a[target="_blank"]::after {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(26, 39, 68, 0.2);
 }
+.btn-primary:focus-visible {
+  outline: 2px solid var(--hub-gold);
+  outline-offset: 2px;
+}
 
 .btn-secondary {
   display: inline-flex;
@@ -366,6 +370,10 @@ a[target="_blank"]::after {
 .btn-secondary:hover {
   background: white;
   color: var(--hub-navy);
+}
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--hub-gold);
+  outline-offset: 2px;
 }
 
 .card {
