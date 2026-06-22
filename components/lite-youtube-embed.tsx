@@ -63,7 +63,7 @@ export function LiteYouTubeEmbed({
   return (
     <div
       ref={containerRef}
-      className="absolute inset-0 w-full h-full cursor-pointer group"
+      className="absolute inset-0 w-full h-full cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
       onClick={activateVideo}
       role="button"
       tabIndex={0}
