@@ -2,24 +2,24 @@
 
 # Content freshness verification
 
-- **When:** 2026-05-24T02:22:57.512Z
+- **When:** 2026-06-23T02:10:50.919Z
 - **Base:** https://justlegalsolutions.org
 - **Pass threshold:** date signal within ~6 months
 - **Passed:** 14/14
 
 | Path | HTTP | JSON-LD | Meta | Sitemap lastmod | Pass |
 |------|------|---------|------|-----------------|------|
-| `/` | 200 | yes (2) | yes (3) | 2026-05-04 | PASS |
-| `/tulsa-process-server` | 200 | yes (2) | yes (3) | 2026-05-04 | PASS |
-| `/pricing` | 200 | yes (2) | yes (3) | 2026-05-22 | PASS |
-| `/contact` | 200 | yes (2) | yes (3) | 2026-05-04 | PASS |
-| `/process-serving` | 200 | yes (2) | yes (3) | 2026-05-04 | PASS |
-| `/same-day-process-server` | 200 | yes (2) | no (0) | 2026-05-04 | PASS |
-| `/urgent-process-server` | 200 | yes (2) | no (0) | 2026-05-04 | PASS |
-| `/skip-tracing` | 200 | yes (2) | no (0) | 2026-04-28 | PASS |
-| `/subpoena-service` | 200 | yes (2) | no (0) | 2026-05-04 | PASS |
-| `/eviction-notice-service` | 200 | yes (2) | no (0) | 2026-05-04 | PASS |
-| `/courier-services` | 200 | yes (2) | no (0) | 2026-05-04 | PASS |
-| `/notary` | 200 | yes (2) | yes (3) | 2026-05-04 | PASS |
-| `/mobile-notary` | 200 | yes (2) | yes (3) | 2026-04-28 | PASS |
-| `/apostille` | 200 | yes (2) | yes (3) | 2026-04-19 | PASS |
+| `/` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/tulsa-process-server` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/pricing` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/contact` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/process-serving` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/same-day-process-server` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/urgent-process-server` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/skip-tracing` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/subpoena-service` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/eviction-notice-service` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/courier-services` | 200 | yes (2) | no (0) | 2026-06-16 | PASS |
+| `/notary` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/mobile-notary` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
+| `/apostille` | 200 | yes (2) | yes (3) | 2026-06-16 | PASS |
