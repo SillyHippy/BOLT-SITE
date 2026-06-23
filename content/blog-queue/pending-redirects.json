@@ -29,20 +29,6 @@
       "inQueue": false,
       "updatedAt": "2026-06-02"
     },
-    "legal-tech-tools-oklahoma-law-firms-2026": {
-      "target": "/blog/ai-changing-legal-support-services-2026",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 3,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
-    "national-process-server-week": {
-      "target": "/blog/how-to-hire-a-process-server-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "oklahoma-courier-services-legal-documents": {
       "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -155,13 +141,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "understanding-proof-of-service-oklahoma": {
-      "target": "/blog/proof-of-service-oklahoma-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "virtual-assistant-transform-law-firm-efficiency-oklahoma": {
       "target": "/blog/virtual-assistants-court-filing-efiling-support-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -184,6 +163,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "process-serving-all-77-oklahoma-counties",
-  "lastPublishedAt": "2026-06-23T02:29:48.906Z"
+  "lastPublishedSlug": "national-process-server-week",
+  "lastPublishedAt": "2026-06-23T17:10:45.036Z"
 }

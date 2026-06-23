@@ -4818,6 +4818,80 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "dry-run"
+    },
+    {
+      "slug": "understanding-proof-of-service-oklahoma",
+      "title": "Understanding Proof of Service: Why Your Case Depends On It",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-23T17:10:44.917Z",
+      "releaseDate": "2026-06-23",
+      "quality": {
+        "words": 2360,
+        "headings": 20,
+        "paragraphs": 26
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-yourself-oklahoma",
+      "title": "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-23T17:10:44.922Z",
+      "releaseDate": "2026-06-23",
+      "quality": {
+        "words": 2625,
+        "headings": 18,
+        "paragraphs": 26
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "legal-tech-tools-oklahoma-law-firms-2026",
+      "title": "Legal Tech Tools Every Oklahoma Law Firm Needs in 2026",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-23T17:10:45.032Z",
+      "releaseDate": "2026-06-23",
+      "quality": {
+        "words": 3232,
+        "headings": 16,
+        "paragraphs": 39
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "national-process-server-week",
+      "title": "National Process Server Week: Celebrating Legal Support",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-23T17:10:45.080Z",
+      "releaseDate": "2026-06-23",
+      "quality": {
+        "words": 2692,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -7158,6 +7232,360 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-06-23T02:27:11.978Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-23T17:10:44.895Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-23T17:10:44.919Z"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.920Z"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 179 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.923Z"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 170 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.925Z"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.926Z"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 194 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.928Z"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 61 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 185 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.929Z"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.930Z"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 186 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.932Z"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 14 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.933Z"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 66 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.934Z"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.935Z"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.937Z"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.938Z"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.940Z"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 90 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.942Z"
+    },
+    {
+      "slug": "notary-services-immigration-documents-i9-affidavits-oklahoma",
+      "title": "Notary Immigration Documents Oklahoma | I-9 & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 105 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.943Z"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 167 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.945Z"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 161 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: UnifiedSchema title prop missing",
+        "SEO/schema: UnifiedSchema description prop missing",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T17:10:44.947Z"
     }
   ]
 }
