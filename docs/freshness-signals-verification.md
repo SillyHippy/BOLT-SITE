@@ -2,7 +2,7 @@
 
 # Content freshness verification
 
-- **When:** 2026-06-23T02:10:50.919Z
+- **When:** 2026-06-23T02:23:03.417Z
 - **Base:** https://justlegalsolutions.org
 - **Pass threshold:** date signal within ~6 months
 - **Passed:** 14/14

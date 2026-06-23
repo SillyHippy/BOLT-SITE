@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T20:18:52.573Z",
+  "generatedAt": "2026-06-23T02:30:00.000Z",
   "redirects": {
     "electronic-filing-service-oklahoma-courts": {
       "target": "/blog/oklahoma-court-filing-services",
@@ -106,6 +106,13 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
+    "process-serving-all-77-oklahoma-counties": {
+      "target": "/ultimate-guide-process-serving-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 2,
+      "inQueue": true,
+      "updatedAt": "2026-06-23"
+    },
     "rush-same-day-process-serving-importance": {
       "target": "/same-day-process-server",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -147,6 +154,13 @@
       "inboundLinkCount": 1,
       "inQueue": true,
       "updatedAt": "2026-06-02"
+    },
+    "types-legal-documents-process-server-deliver": {
+      "target": "/blog/how-to-serve-legal-papers-oklahoma-step-by-step",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-06-23"
     },
     "someone-avoids-being-served-oklahoma-options": {
       "target": "/blog/how-to-hire-a-process-server-oklahoma",

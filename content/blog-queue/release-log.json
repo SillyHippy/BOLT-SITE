@@ -4744,6 +4744,80 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-yourself-oklahoma",
+      "title": "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-23T02:27:11.977Z",
+      "releaseDate": "2026-06-22",
+      "quality": {
+        "words": 2625,
+        "headings": 18,
+        "paragraphs": 26
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "types-legal-documents-process-server-deliver",
+      "title": "What Legal Documents Can a Process Server Deliver? Complete List",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-23T02:27:11.979Z",
+      "releaseDate": "2026-06-22",
+      "quality": {
+        "words": 2162,
+        "headings": 23,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "legal-tech-tools-oklahoma-law-firms-2026",
+      "title": "Legal Tech Tools Every Oklahoma Law Firm Needs in 2026",
+      "category": "Process Serving",
+      "releasedAt": "2026-06-23T02:27:11.980Z",
+      "releaseDate": "2026-06-22",
+      "quality": {
+        "words": 3232,
+        "headings": 16,
+        "paragraphs": 39
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "understanding-proof-of-service-oklahoma",
+      "title": "Understanding Proof of Service: Why Your Case Depends On It",
+      "category": "Notary Services",
+      "releasedAt": "2026-06-23T02:27:11.982Z",
+      "releaseDate": "2026-06-22",
+      "quality": {
+        "words": 2360,
+        "headings": 20,
+        "paragraphs": 26
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
     }
   ],
   "failures": [
@@ -7050,6 +7124,40 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "checkedAt": "2026-06-16T18:52:16.615Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-23T02:27:11.919Z"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-06-23T02:27:11.921Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-06-23T02:27:11.978Z"
     }
   ]
 }

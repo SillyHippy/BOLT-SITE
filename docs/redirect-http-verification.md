@@ -2,28 +2,26 @@
 
 # Redirect HTTP verification (Layer 2)
 
-- **When:** 2026-06-02T20:46:14.963Z
+- **When:** 2026-06-23T02:23:39.018Z
 - **Base:** https://justlegalsolutions.org
 - **Rules tested:** 19 (2 malformed + 8 county sample of 79)
-- **Failed:** 4
+- **Failed:** 2
 
 ## Failures
 
 | Source | Expected | First | Final | Pass |
 |--------|----------|-------|-------|------|
-| /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | fetch failed | no |
-| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | fetch failed | no |
-| /service-areas/ada)** | /service-areas/ada | 301 | fetch failed | no |
-| /service-areas/lawton)** | /service-areas/lawton | 301 | fetch failed | no |
+| /service-areas/ada)** | /service-areas/ada | 404 | 404 | no |
+| /service-areas/lawton)** | /service-areas/lawton | 404 | 404 | no |
 
 ## All tested
 
 | Source | Dest | First | Final URL | Pass |
 |--------|------|-------|-------------|------|
-| /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | /service-areas/ada%29%2A%2A | no |
-| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | /service-areas/lawton%29%2A%2A | no |
-| /service-areas/ada)** | /service-areas/ada | 301 | /service-areas/ada)** | no |
-| /service-areas/lawton)** | /service-areas/lawton | 301 | /service-areas/lawton)** | no |
+| /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | /service-areas/ada | yes |
+| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | /service-areas/lawton | yes |
+| /service-areas/ada)** | /service-areas/ada | 404 | /service-areas/ada)** | no |
+| /service-areas/lawton)** | /service-areas/lawton | 404 | /service-areas/lawton)** | no |
 | /compare/process-server-vs-sheriff | /process-server-vs-sheriff | 301 | /process-server-vs-sheriff | yes |
 | /counties/payne | /counties/payne-county | 301 | /counties/payne-county | yes |
 | /counties/tulsa | /counties/tulsa-county | 301 | /counties/tulsa-county | yes |
