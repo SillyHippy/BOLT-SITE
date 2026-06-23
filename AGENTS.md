@@ -5,6 +5,9 @@
 - Does not want git commits unless explicitly asked.
 - Optimizes for both traditional SEO and AIO (answer-engine / AI citation surfaces).
 - Legal and process-serving copy must reflect Oklahoma Title 12 § 2004 accurately, including document-type limits on substituted service (e.g. subpoenas, government agencies, corporations).
+- Wants plain-language summaries of what a PR changes before approving or merging.
+- Primary SEO ranking goal is Oklahoma process serving (#1); secondary is Tulsa-area notary services.
+- Expects `npm run validate:links`, production build, and spot-checks to pass before deploy is recommended.
 
 ## Learned Workspace Facts
 
@@ -14,6 +17,8 @@
 - Interim blog-queue bridges are tracked in `content/blog-queue/pending-redirects.json` with matching rules in `public/_redirects`; `scripts/release-weekly-blog-post.js` should remove a redirect when its slug is published.
 - AIO assets live under `public/ai-search/`; `scripts/answer-engine-optimization.js` regenerates them on build and should run after weekly blog publish.
 - Static `app/counties/*/page.tsx` and `app/service-areas/*/page.tsx` routes take precedence over dynamic `app/counties/[slug]` and `app/service-areas/[slug]` at build time.
+- `npm run validate:links` runs `scripts/validate-internal-links.mjs` and fails on broken internal links unless covered by `public/_redirects` or `content/blog-queue/pending-redirects.json`.
+- Palette/Jules bot PRs often duplicate the same fix and bundle generated build outputs (`public/sitemap.xml`, `public/ai-search/*`, lockfiles); cherry-pick substantive source-only changes and close the rest.
 
 ## Cursor Cloud specific instructions
 
