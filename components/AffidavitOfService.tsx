@@ -89,7 +89,7 @@ export default function AffidavitOfService() {
       <div className="no-print-affidavit" style={{ background: '#fff', padding: 10, marginBottom: 20, borderRadius: 5, textAlign: 'center', fontFamily: 'sans-serif', display: 'flex', justifyContent: 'center', gap: 20, alignItems: 'center', flexWrap: 'wrap' }}>
         <button
           onClick={handlePrint}
-          style={{ padding: '8px 16px', background: '#2563eb', color: 'white', border: 'none', cursor: 'pointer', fontWeight: 'bold', borderRadius: 4, fontSize: 14 }}
+          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded cursor-pointer text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         >
           Print / Save to PDF
         </button>
@@ -253,8 +253,8 @@ export default function AffidavitOfService() {
           <div ref={attemptsEndRef} />
 
           <div className="attempt-controls" style={{ marginTop: 5, marginBottom: 10, textAlign: 'left', paddingLeft: 25 }}>
-            <button onClick={addAttempt} style={btnActionStyle}>+ Add Attempt</button>{' '}
-            <button onClick={removeAttempt} style={btnActionStyle}>- Remove Last</button>
+            <button onClick={addAttempt} className="px-3 py-1.5 bg-gray-600 hover:bg-gray-700 text-white font-bold rounded cursor-pointer text-xs transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2">+ Add Attempt</button>{' '}
+            <button onClick={removeAttempt} className="px-3 py-1.5 bg-gray-600 hover:bg-gray-700 text-white font-bold rounded cursor-pointer text-xs transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2">- Remove Last</button>
           </div>
         </div>
 
