@@ -68,7 +68,7 @@ export default function FieldSheet() {
       <div className="no-print-field-sheet text-center mb-6 pt-4">
         <button
           onClick={handlePrint}
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg shadow-md transition-colors cursor-pointer text-base"
+          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg shadow-md transition-colors cursor-pointer text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         >
           Print / Save to PDF
         </button>
