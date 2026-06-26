@@ -86,7 +86,7 @@ const serviceCategories = [
       { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. <strong>eFiling is free in Oklahoma upon request</strong>. For in-person filing in Tulsa County, the fee is <strong>$35 plus court costs</strong>. Fees for other counties will be quoted upfront.' },
       { title: 'Posting Affidavits', description: 'For services that require posting a notice (e.g., eviction notices) instead of personal delivery, the fee is <strong>$35</strong>.' },
       { title: 'Certified Mailing', description: 'We can send affidavits via certified mail for <strong>$35 plus postage costs</strong>.' },
-      { title: 'Printing Documents', description: 'A printing fee of <strong>$0.20 per page</strong> may apply for documents requiring substantial printing. Please contact us for details regarding large or complex print jobs.' },
+      { title: 'Printing Documents', description: 'A printing fee of <strong>$0.25 per page</strong> may apply for documents requiring more than 10 pages. Please contact us for details regarding large or complex print jobs.' },
     ]
   },
   {
