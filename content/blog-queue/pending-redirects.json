@@ -29,20 +29,6 @@
       "inQueue": false,
       "updatedAt": "2026-06-02"
     },
-    "oklahoma-courier-services-legal-documents": {
-      "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
-    "oklahoma-document-retrieval-services": {
-      "target": "/blog/oklahoma-court-filing-services",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 3,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "oklahoma-process-server-best-practices-checklist": {
       "target": "/oklahoma-process-server-best-practices-checklist",
       "reason": "No published page — redirect to closest live topic",
@@ -62,13 +48,6 @@
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 1,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
-    },
-    "oklahoma-witness-locate-services": {
-      "target": "/blog/how-to-serve-a-subpoena-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
       "updatedAt": "2026-06-02"
     },
     "onboard-virtual-assistant-legal-practice-oklahoma": {
@@ -163,6 +142,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "national-process-server-week",
-  "lastPublishedAt": "2026-06-23T17:10:45.036Z"
+  "lastPublishedSlug": "oklahoma-witness-locate-services",
+  "lastPublishedAt": "2026-06-30T17:03:46.720Z"
 }
