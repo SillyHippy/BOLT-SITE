@@ -16,14 +16,24 @@ function haversineMiles(
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+// ⚡ Bolt: Cache nearby counties to eliminate redundant O(N log N) distance calculations and sorting.
+// Expected Impact: Significant reduction in CPU time during static generation or runtime rendering for county pages.
+const nearbyCountiesCache = new Map<string, { slug: string; countyName: string }[]>();
+
 export function getNearbyCounties(
   slug: string,
   limit = 4
 ): { slug: string; countyName: string }[] {
+  const cacheKey = `${slug}-${limit}`;
+  const cached = nearbyCountiesCache.get(cacheKey);
+  if (cached) {
+    return cached;
+  }
+
   const current = COUNTY_GEO[slug];
   if (!current) return [];
 
-  return Object.values(COUNTY_GEO)
+  const result = Object.values(COUNTY_GEO)
     .filter((c) => c.slug !== slug)
     .map((c) => ({
       slug: c.slug,
@@ -38,4 +48,7 @@ export function getNearbyCounties(
     .sort((a, b) => a.dist - b.dist)
     .slice(0, limit)
     .map(({ slug: s, countyName }) => ({ slug: s, countyName }));
+
+  nearbyCountiesCache.set(cacheKey, result);
+  return result;
 }
