@@ -16,14 +16,21 @@ function haversineMiles(
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+const cache = new Map<string, { slug: string; countyName: string }[]>();
+
 export function getNearbyCounties(
   slug: string,
   limit = 4
 ): { slug: string; countyName: string }[] {
+  const cacheKey = `${slug}-${limit}`;
+  if (cache.has(cacheKey)) {
+    return cache.get(cacheKey)!;
+  }
+
   const current = COUNTY_GEO[slug];
   if (!current) return [];
 
-  return Object.values(COUNTY_GEO)
+  const result = Object.values(COUNTY_GEO)
     .filter((c) => c.slug !== slug)
     .map((c) => ({
       slug: c.slug,
@@ -38,4 +45,7 @@ export function getNearbyCounties(
     .sort((a, b) => a.dist - b.dist)
     .slice(0, limit)
     .map(({ slug: s, countyName }) => ({ slug: s, countyName }));
+
+  cache.set(cacheKey, result);
+  return result;
 }
