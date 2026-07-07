@@ -57,20 +57,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "process-server-safety-guide-oklahoma": {
-      "target": "/process-server-safety-guide-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
-    "process-server-vs-sheriff-oklahoma": {
-      "target": "/process-server-vs-sheriff",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "rush-same-day-process-serving-importance": {
       "target": "/same-day-process-server",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -142,6 +128,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "oklahoma-witness-locate-services",
-  "lastPublishedAt": "2026-06-30T17:03:46.720Z"
+  "lastPublishedSlug": "process-server-vs-sheriff-oklahoma",
+  "lastPublishedAt": "2026-07-07T17:05:46.988Z"
 }
