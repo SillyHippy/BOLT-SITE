@@ -13,3 +13,7 @@
 ## 2026-05-24 - Eliminate O(N^2) Next.js static generation bottleneck in videos array
 **Learning:** Performing array `.find()` operations inside a mapping function during Next.js static generation (e.g., `generateStaticParams`) creates severe O(N^2) bottlenecks on large datasets.
 **Action:** Always pre-compute O(1) `Map` caches initialized at module load time in the data layer (e.g., `lib/video-data.ts`) to eliminate redundant computations.
+
+## 2026-06-25 - Caching expensive static generation utilities
+**Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), repeatedly executing the logic during static site generation causes a measurable overhead.
+**Action:** Always implement an in-memory caching mechanism like a `Map` to store previously computed results, shifting O(N log N) operations to fast O(1) lookups during repeated renders or static generation.
