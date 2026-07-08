@@ -101,7 +101,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
         <div className="space-y-3">
           {/* Copy Card Link */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleCopyLink}
             role="button"
             tabIndex={0}
@@ -118,7 +118,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via Text */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleTextShare}
             role="button"
             tabIndex={0}
@@ -135,7 +135,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via Email */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleEmailShare}
             role="button"
             tabIndex={0}
@@ -152,7 +152,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via WhatsApp */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleWhatsAppShare}
             role="button"
             tabIndex={0}
@@ -169,7 +169,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
         </div>
         <button 
           onClick={onClose} 
-          className="mt-6 w-full bg-[#2A3B58] text-[#CBD5E1] h-[48px] rounded-[12px] hover:bg-[#263448] transition-colors font-medium"
+          className="mt-6 w-full bg-[#2A3B58] text-[#CBD5E1] h-[48px] rounded-[12px] hover:bg-[#263448] transition-colors font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
         >
           Close
         </button>

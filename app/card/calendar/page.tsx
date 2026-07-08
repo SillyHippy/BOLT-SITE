@@ -86,8 +86,8 @@ END:VCALENDAR`;
       <div className="bg-[#1B2738] rounded-[24px] p-8 max-w-[480px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.8)] relative border border-[#2A3653]">
         <button 
           onClick={() => router.push('/card')}
-          className="absolute top-4 left-4 text-white p-2 rounded-full hover:bg-[#2A3B58] transition-all"
-          aria-label="Back"
+          className="absolute top-4 left-4 text-white p-2 rounded-full hover:bg-[#2A3B58] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          aria-label="Back to digital business card"
         >
           ← Back
         </button>
@@ -124,7 +124,7 @@ END:VCALENDAR`;
           
           <button 
             type="submit" 
-            className="relative flex items-center justify-center bg-[#1B2738] text-white h-[64px] px-8 rounded-[16px] hover:bg-[#263448] transition-all duration-200 group shadow-[0_6px_20px_rgba(0,0,0,0.4)] w-full mt-8"
+            className="relative flex items-center justify-center bg-[#1B2738] text-white h-[64px] px-8 rounded-[16px] hover:bg-[#263448] transition-all duration-200 group shadow-[0_6px_20px_rgba(0,0,0,0.4)] w-full mt-8 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
           >
             <div
               className="absolute top-1/2 transform -translate-y-1/2 flex items-center justify-center bg-[#2A3B58] rounded-full overflow-hidden"
