@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import AuthorBio from '@/components/AuthorBio';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -515,6 +516,7 @@ export default function CreekCountyProcessServer() {
           <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
         </p>
         <CountyRelatedLinks countySlug="creek-county" countyName="Creek County" />
+        <AuthorBio />
 </div>
 </>
   );

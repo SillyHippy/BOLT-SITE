@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import AuthorBio from '@/components/AuthorBio';
 import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -334,6 +335,7 @@ export default function WagonerCountyCountyPage() {
         <p className="text-sm text-gray-500 mt-6 mb-2 text-center">
           <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
         </p>
+        <AuthorBio />
 
         <div className="text-center py-4">
           <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
