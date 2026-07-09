@@ -172,6 +172,60 @@ export default function BlogPost() {
             Side-by-Side Comparison
           </h2>
 
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full border border-gray-200 rounded-lg text-sm">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Factor</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Process Server</th>
+                  <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Certified Mail</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Proof of Service</td>
+                  <td className="border border-gray-200 px-4 py-3">Sworn affidavit + GPS stamp, court-testimony capable</td>
+                  <td className="border border-gray-200 px-4 py-3">USPS signature card only (unknown signer)</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Speed</td>
+                  <td className="border border-gray-200 px-4 py-3">24–72 hours (same-day available)</td>
+                  <td className="border border-gray-200 px-4 py-3">3–10 business days, no guarantee</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Success Rate</td>
+                  <td className="border border-gray-200 px-4 py-3">~85% (multiple attempts, skip tracing)</td>
+                  <td className="border border-gray-200 px-4 py-3">~70% (refusals = failed attempt)</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Cost (Oklahoma)</td>
+                  <td className="border border-gray-200 px-4 py-3">$35–$265 (routine to same-day)</td>
+                  <td className="border border-gray-200 px-4 py-3">~$7–$15 USPS fee + re-service cost on failure</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Recourse on Failure</td>
+                  <td className="border border-gray-200 px-4 py-3">Additional attempts at no/low cost, stake-out option</td>
+                  <td className="border border-gray-200 px-4 py-3">Must re-mail or hire a server anyway</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Court Acceptance</td>
+                  <td className="border border-gray-200 px-4 py-3">Gold standard — accepted in all OK courts</td>
+                  <td className="border border-gray-200 px-4 py-3">Allowed per 12 O.S. § 2004(C)(2)(c), but contested often</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">After-Hours / Weekend</td>
+                  <td className="border border-gray-200 px-4 py-3">Yes — evening & weekend service available</td>
+                  <td className="border border-gray-200 px-4 py-3">No — USPS delivery hours only</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-3 font-medium">Identity Confirmation</td>
+                  <td className="border border-gray-200 px-4 py-3">Server verifies recipient identity on-site</td>
+                  <td className="border border-gray-200 px-4 py-3">No identity verification by USPS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           <h3 className="text-xl font-semibold mb-3 mt-6">Proof Strength and Legal Defensibility</h3>
           <p className="mb-4">
             Personal service produces an affidavit of service — a sworn

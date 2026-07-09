@@ -258,6 +258,9 @@ export default function OsageCountyCountyPage() {
         </section>
 
         
+                <p className="text-sm text-gray-500 mt-6 mb-2">
+          <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
+        </p>
         {/* CountyRelatedLinks */}
         <CountyRelatedLinks countySlug="osage-county" countyName="Osage County" />
 
