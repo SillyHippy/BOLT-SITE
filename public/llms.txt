@@ -217,6 +217,7 @@ Allow: /
 - Service Areas: https://justlegalsolutions.org/service-areas
 - Master FAQ Hub: https://justlegalsolutions.org/faq
 - Oklahoma Process Serving Statistics: https://justlegalsolutions.org/process-serving-statistics-oklahoma
+- Oklahoma Process Serving Laws Simplified: https://justlegalsolutions.org/oklahoma-process-serving-laws-simplified
 - FAQ: https://justlegalsolutions.org/oklahoma-process-server-faq-2026
 - Oklahoma Laws (canonical): https://justlegalsolutions.org/oklahoma-process-server-laws
 - Substitute Service Guide: https://justlegalsolutions.org/blog/substitute-service-oklahoma
