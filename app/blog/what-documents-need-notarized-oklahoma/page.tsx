@@ -80,6 +80,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>What Documents Need to Be Notarized in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Documents Need to Be Notarized in Oklahoma? Complete List</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Common Oklahoma documents requiring notarization include <strong>powers of attorney, deeds, affidavits, wills, vehicle titles, and real estate documents</strong>. The signer must appear in person with valid ID. Just Legal Solutions provides mobile notary service across <strong>77 counties</strong> — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Notarization is a critical step in the execution of many important documents in Oklahoma. But with so many different types of documents out there, it can be confusing to know which ones actually need a notary stamp and which ones do not. As a mobile notary service that has handled thousands of documents across all 77 Oklahoma counties, Just Legal Solutions has seen virtually every document type that requires notarization. In this comprehensive guide, we break down every major category of documents that require or strongly benefit from notarization under Oklahoma law.
         </p>

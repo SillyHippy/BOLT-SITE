@@ -116,6 +116,11 @@ export default function ImproperServicePage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               What Happens If Service Is Done Incorrectly in Oklahoma?
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">If service is done incorrectly in Oklahoma, <strong>the court may dismiss the case, void judgments, or require re-service</strong> under 12 O.S. § 2004. Improper service violates due process and can delay your case by weeks. Just Legal Solutions ensures compliant service the first time — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Understanding the legal consequences of improper service, the
               risks to your case, and how to prevent costly mistakes under

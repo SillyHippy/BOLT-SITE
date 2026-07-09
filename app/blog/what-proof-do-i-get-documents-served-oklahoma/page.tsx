@@ -201,6 +201,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">What Proof Do I Get That Documents Were Served in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">After service in Oklahoma, you receive a <strong>signed, notarized Affidavit of Service</strong> documenting the recipient, date, time, location, and method — filed with the court under 12 O.S. § 2004. Just Legal Solutions provides GPS-stamped proof on every serve — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-lg text-slate-600 mb-2">Understanding affidavits of service, GPS tracking, photographs, and court-admissible documentation after process serving.</p>
         <p className="text-sm text-slate-400 mb-10">Published January 22, 2024 by Just Legal Solutions</p>
 

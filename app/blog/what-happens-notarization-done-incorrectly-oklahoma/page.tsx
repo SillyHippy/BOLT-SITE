@@ -81,6 +81,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Happens If My Notarization Is Done Incorrectly in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">If an Oklahoma notarization is done incorrectly, <strong>the document may be void, transactions can be delayed, and the notary faces civil liability and commission revocation</strong> under Title 49 O.S. Just Legal Solutions notaries follow strict compliance to prevent errors — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           A notarization seems like a simple formality — until it is done wrong. An incorrect notarization can derail a real estate closing, delay a court case, void a power of attorney, or create legal liability for everyone involved. Whether the error is a missing seal, a wrong date, a failure to verify identification, or a more serious procedural violation, the consequences can range from minor inconvenience to catastrophic legal exposure. At Just Legal Solutions, we have seen the aftermath of improper notarizations and helped countless Oklahoma clients fix errors and get their documents properly executed. This guide explains what can go wrong, what happens when it does, and how to protect yourself from notarization mistakes.
         </p>

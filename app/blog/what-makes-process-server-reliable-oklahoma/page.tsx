@@ -95,6 +95,11 @@ export default function BlogPost() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               What Makes a Process Server Reliable? 10 Traits to Look For
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A reliable Oklahoma process server is <strong>licensed under 12 O.S. § 158.1, bonded, carries GPS verification, provides court-compliant affidavits, has 24/7 availability, and covers all 77 counties</strong>. Just Legal Solutions meets all of these with 50+ years combined experience — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
             <p className="text-lg text-gray-600 mb-4">
               A comprehensive guide to identifying trustworthy, professional
               process servers who will protect your case and deliver results.

@@ -122,6 +122,11 @@ export default function SubstituteServiceOklahoma() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
             What Is Substitute Service in Oklahoma and When Is It Allowed? (2026)
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Substitute service in Oklahoma allows leaving documents with a <strong>competent household member (age 13+) or person in charge</strong> of a business when the defendant is absent, per 12 O.S. § 2004. The server must also mail a copy. Just Legal Solutions performs compliant substitute service statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">

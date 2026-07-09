@@ -100,6 +100,11 @@ export default function BlogPost() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               What If the Process Server Can't Find the Person in Oklahoma?
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">If an Oklahoma process server can't find the person, options include <strong>skip tracing, substitute service, service by publication (after diligent search), or a court order for alternative service</strong> under 12 O.S. § 2004. Just Legal Solutions offers skip tracing statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
             <p className="text-lg text-gray-600 mb-4">
               Understanding your options when personal service fails — from
               due diligence to alternative service methods approved by Oklahoma

@@ -81,6 +81,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Questions Will a Notary Ask Me? Oklahoma Notary Appointment Guide</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An Oklahoma notary will ask for <strong>your government-issued photo ID, whether you are signing willingly, whether you understand the document, and whether you are the person named in it</strong>. They cannot give legal advice. Just Legal Solutions notaries guide you through every appointment — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Walking into a notary appointment unprepared can feel nerve-wracking — especially if you have never been notarized before or if the document carries significant legal weight. The good news is that Oklahoma notaries follow a well-defined, predictable process designed to protect everyone involved. Understanding <strong>what questions a notary will ask</strong> before you arrive helps ensure a smooth, efficient appointment and reduces the chance of delays or complications. In this comprehensive guide, we will walk through every question and verification step you can expect during a standard Oklahoma notarization, explain why each question matters, and share practical tips from our mobile notary team at Just Legal Solutions to help you prepare.
         </p>

@@ -74,6 +74,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Notary vs Attorney: What's the Difference?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An <strong>Oklahoma notary verifies identity and witnesses signatures</strong>; an <strong>attorney provides legal advice and representation</strong>. Notaries cannot give legal advice under Title 49 O.S. — doing so is the unauthorized practice of law. For notarization only, Just Legal Solutions notaries are available — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and a team licensed and bonded under Oklahoma Title 12 O.S. 158.1, Just Legal Solutions has helped thousands of Oklahomans navigate legal document requirements. One of the most common questions we hear is: <strong>Do I need a notary or an attorney?</strong> While both play important roles in legal matters, their functions, authority, and limitations are very different. Understanding these differences can save you time, money, and unnecessary frustration.

@@ -102,6 +102,11 @@ export default function ProcessServerScamsOklahomaPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Fake Process Server Scams in Oklahoma: How to Spot Them
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Fake process server scams in Oklahoma involve <strong>callers demanding payment, threatening arrest, or claiming you'll be sued</strong> unless you pay immediately. <strong>Real process servers never demand money</strong> — they deliver documents only. Verify any server's license under 12 O.S. § 158.1. Suspect a scam? Call Just Legal Solutions to verify — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         </div>
       </section>
 

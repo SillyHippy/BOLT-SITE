@@ -123,6 +123,11 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             What Should I Bring When Getting Documents Notarized in Oklahoma?
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Bring a <strong>current government-issued photo ID, the unsigned document(s), any required witnesses, and payment</strong> to an Oklahoma notary appointment. Do <strong>not</strong> sign the document beforehand — you must sign in the notary's presence. Just Legal Solutions mobile notaries come to you — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             A complete checklist for your notary appointment — ID requirements,
             document preparation, witness rules, and common mistakes to avoid.
