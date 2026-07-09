@@ -287,6 +287,10 @@ export default function OklahomaProcessServerPricing2026() {
               </ul>
             </div>
           </div>
+
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 rounded text-sm text-gray-700">
+            <p><strong>Note on Service Area:</strong> Standard rates cover Tulsa County and parts of Creek County (Sapulpa) and Wagoner County (Broken Arrow). We serve all 77 Oklahoma counties through our trusted network of partner process servers. Areas outside standard zones may include a travel surcharge. <Link href="/contact" className="text-blue-700 font-semibold underline">Contact us for a precise quote</Link>.</p>
+          </div>
         </section>
 
         <section className="mb-8">

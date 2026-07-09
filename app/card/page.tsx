@@ -32,8 +32,8 @@ export default function CardPage() {
         {/* Share Icon */}
         <button
           onClick={handleShareClick}
-          className="absolute top-4 right-4 flex items-center justify-center bg-primary text-primary-foreground hover:bg-primary/80 rounded-md px-3 py-2 text-sm font-medium transition-colors z-10 cursor-pointer shadow-sm"
-          aria-label="Share"
+          className="absolute top-4 right-4 flex items-center justify-center bg-primary text-primary-foreground hover:bg-primary/80 rounded-md px-3 py-2 text-sm font-medium transition-colors z-10 cursor-pointer shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          aria-label="Share digital business card"
         >
           <Image
             src="/landingpage/icons/share.svg"
@@ -123,7 +123,7 @@ export default function CardPage() {
               key={label}
               href={href}
               {...(download ? { download: true } : {})}
-              className="relative flex items-center bg-[#1B2738] text-white h-[64px] px-8 rounded-[16px] hover:bg-[#263448] transition-all duration-200 group shadow-[0_6px_20px_rgba(0,0,0,0.4)]"
+              className="relative flex items-center bg-[#1B2738] text-white h-[64px] px-8 rounded-[16px] hover:bg-[#263448] transition-all duration-200 group shadow-[0_6px_20px_rgba(0,0,0,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             >
               <div
                 className="absolute top-1/2 transform -translate-y-1/2 flex items-center justify-center bg-[#2A3B58] rounded-full overflow-hidden"
