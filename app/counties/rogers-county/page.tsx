@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import AuthorBio from '@/components/AuthorBio';
 import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building, Scale, Shield, Clock } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -357,6 +358,7 @@ export default function RogersCountyPage() {
           <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
         </p>
         <CountyRelatedLinks countySlug="rogers-county" countyName="Rogers County" />
+        <AuthorBio />
 
       </div>
 
