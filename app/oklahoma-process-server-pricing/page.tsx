@@ -391,6 +391,16 @@ export default function OklahomaProcessServerPricing2026() {
               <p>Standard process serving ($60-$125) includes: up to 3 service attempts, GPS-verified location tracking, same-day status updates via client portal, notarized affidavit of service, and document filing assistance. Single attempts start at $35, with more complex services up to $125. Service is completed within 5-7 business days.</p>
             </div>
           </div>
+
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 my-6">
+            <p className="text-sm text-blue-900">
+              <strong>Looking for more answers?</strong> See our complete{' '}
+              <Link href="/faq" className="text-blue-600 hover:underline font-semibold">
+                Oklahoma Process Server &amp; Notary FAQ
+              </Link>{' '}
+              with all questions in one place.
+            </p>
+          </div>
         </section>
 
         <section className="mb-8" aria-labelledby="guarantee-heading">
