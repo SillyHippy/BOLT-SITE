@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import AuthorBio from '@/components/AuthorBio';
 import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
@@ -263,6 +264,7 @@ export default function PottawatomieCountyCountyPage() {
         </p>
         {/* CountyRelatedLinks */}
         <CountyRelatedLinks countySlug="pottawatomie-county" countyName="Pottawatomie County" />
+        <AuthorBio />
 
         <div className="text-center py-4">
           <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
