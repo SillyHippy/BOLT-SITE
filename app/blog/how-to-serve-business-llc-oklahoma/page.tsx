@@ -104,6 +104,11 @@ export default function BlogPost() {
           How to Serve a Business or LLC in Oklahoma: Corporate Guide
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">To serve an LLC in Oklahoma, you must <strong>serve the registered agent listed with the Oklahoma Secretary of State</strong>. If the registered agent cannot be found, you may <strong>serve the Secretary of State</strong> as statutory agent for the business.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Serving legal papers on a business entity in Oklahoma is not as
           simple as handing documents to any employee. State law requires

@@ -97,6 +97,11 @@ export default function BlogPost() {
           Do Process Servers Call Before Serving? What to Expect in Oklahoma
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">In Oklahoma, <strong>process servers generally do not call ahead</strong> because it allows recipients to avoid service. However, some situations may require a courtesy call. <strong>Oklahoma law does not require advance notice</strong> before serving legal documents.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           If you have been told someone is trying to serve you legal papers, you
           might be wondering: will a process server call me first? With over 50

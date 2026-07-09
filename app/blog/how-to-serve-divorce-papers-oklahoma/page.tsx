@@ -183,6 +183,11 @@ export default function HowToServeDivorcePapersOklahoma() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
+            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+              <p className="text-gray-800">In Oklahoma, <strong>divorce papers must be served by a licensed process server, sheriff, or by certified mail</strong> (with return receipt). <strong>Personal service is required within 180 days</strong> of filing under 12 O.S. § 2005.</p>
+            </div>
+
             <p className="text-xl text-gray-700 leading-relaxed">
               Filing for divorce in Oklahoma is only the first step. Before your case can proceed, your spouse must be formally notified through a legally recognized process called <strong>service of process</strong>. Improperly served divorce papers can delay your case for months, get your case dismissed, or allow a future appeal on procedural grounds. This guide walks you through every requirement under Oklahoma law so you can proceed with confidence. For a broader overview of process serving in Oklahoma, see our Ultimate Guide to Process Serving in Oklahoma.
             </p>

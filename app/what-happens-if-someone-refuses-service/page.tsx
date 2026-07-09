@@ -54,11 +54,9 @@ export default function RefusedServicePage() {
 
                     <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Happens If Someone Refuses to Accept Legal Papers?</h1>
-                        <div className="bg-white p-4 rounded border border-red-200 shadow-sm mb-4">
-                            <h2 className="text-lg font-bold text-red-800 mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer</h2>
-                            <p className="text-lg text-gray-800 leading-relaxed">
-                                <strong>Refusing to accept papers does NOT prevent valid service in Oklahoma.</strong> Once a licensed process server identifies the person and tenders (offers) the documents, service is legally complete — whether or not the person physically takes the papers. The server documents the refusal in the affidavit of service, and the court considers the case properly served under <Link href="/oklahoma-process-server-laws" className="text-red-700 font-bold hover:underline">Oklahoma 12 O.S. § 2004</Link>.
-                            </p>
+                        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+                            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+                            <p className="text-gray-800">In Oklahoma, if someone refuses service, the process server can use <strong>&ldquo;drop service&rdquo; (leaving documents at their feet)</strong> and document the refusal in the affidavit. <strong>Service is still considered legally valid</strong> under <Link href="/oklahoma-process-server-laws" className="text-green-800 font-bold hover:underline">Oklahoma 12 O.S. § 2004</Link>.</p>
                         </div>
                     </div>
 
