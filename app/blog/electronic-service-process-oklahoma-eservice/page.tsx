@@ -74,6 +74,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Electronic Service of Process in Oklahoma: eService Guide</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Electronic service of process in Oklahoma is authorized under <strong>12 O.S. § 2004.5</strong> and requires the receiving party's written consent. Just Legal Solutions serves all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong> for eService guidance.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, 
           the Just Legal Solutions Team has witnessed firsthand how technology is transforming legal service delivery. 

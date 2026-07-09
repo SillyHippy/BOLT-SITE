@@ -80,6 +80,10 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>How Much Does a Notary Cost in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Notarization in Oklahoma costs <strong>$5–$10 per notarial act</strong> by state statute. Mobile notary travel fees vary by distance. Call <strong>(539) 367-6832</strong> for same-day service across all <strong>77 Oklahoma counties</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           If you need a document notarized in Oklahoma, one of your first questions is probably about cost. Whether you are finalizing real estate paperwork, signing a power of attorney, or notarizing a business contract, understanding what you will pay helps you budget and avoid surprises. In this 2026 pricing guide, we break down everything you need to know about notary costs in Oklahoma, from state-regulated fees to mobile notary travel charges and after-hour premiums.
         </p>

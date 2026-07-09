@@ -96,6 +96,10 @@ export default function BlogPost() {
               Is It Legal to Serve Someone Yourself Instead of Hiring a
               Professional in Oklahoma?
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">No — Oklahoma law <strong>prohibits parties from serving their own legal papers</strong>. Service must be performed by a licensed process server under <strong>12 O.S. § 158.1</strong>. Call <strong>(539) 367-6832</strong> for professional service across all <strong>77 counties</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 mb-4">
               Understanding Oklahoma's self-service rules, the real risks of
               DIY process serving, and why hiring a professional often saves

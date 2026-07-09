@@ -122,6 +122,10 @@ export default function MultiplePagesNotaryCostPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               How Much Does It Cost to Notarize Multiple Pages in Oklahoma?
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma notaries charge <strong>$5–$10 per notarial act</strong> (not per page). Mobile notary travel fees may apply. Just Legal Solutions serves all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong> for a quote.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               A complete guide to Oklahoma notary pricing for multi-page
               documents, including per-signature vs. per-document fees, bulk

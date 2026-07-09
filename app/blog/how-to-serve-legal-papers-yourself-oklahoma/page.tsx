@@ -104,6 +104,10 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">In Oklahoma, <strong>you cannot serve your own legal papers</strong> — service must be performed by a licensed process server under <strong>12 O.S. § 158.1</strong>. Call <strong>(539) 367-6832</strong> for professional service across all <strong>77 counties</strong>.</p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           One of the most common questions we hear at Just Legal Solutions is

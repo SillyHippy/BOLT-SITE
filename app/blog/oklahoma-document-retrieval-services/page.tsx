@@ -74,6 +74,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Document Retrieval Services: Get the Records You Need</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Professional document retrieval services obtain <strong>court records, archived filings, and case documents</strong> from Oklahoma courthouses across all <strong>77 counties</strong>. Call <strong>(539) 367-6832</strong> for fast retrieval with <strong>50+ years experience</strong>.</p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Law firms and legal professionals across Oklahoma regularly need access to court records, county documents, and certified copies to build strong cases and serve their clients effectively. At Just Legal Solutions, our team brings over 50 years of combined experience retrieving documents from every corner of the state. We have served thousands of documents across all 77 Oklahoma counties and developed the systems and relationships necessary to get records quickly and accurately. Whether you need a certified copy of a divorce decree, a property deed from a rural county, or a complete court case file, professional document retrieval services save your firm time and ensure you receive the correct documents the first time. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle every request with the professionalism and confidentiality your cases demand.

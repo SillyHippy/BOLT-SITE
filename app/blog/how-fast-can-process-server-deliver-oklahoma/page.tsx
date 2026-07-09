@@ -89,6 +89,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How Fast Can a Process Server Deliver Documents in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Standard process serving in Oklahoma takes <strong>1–3 business days</strong>; rush and same-day service is available. Just Legal Solutions offers <strong>24/7 scheduling</strong> across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           When you're up against a court deadline, filing an emergency motion, or simply need legal documents delivered quickly, speed matters. One of the most common questions we hear at Just Legal Solutions is: <em>how fast can a process server deliver my documents?</em> The answer depends on the service tier you choose, the location of the defendant, and several practical factors. In this comprehensive guide, we'll break down every speed option available in Oklahoma, explain what affects delivery timelines, and help you choose the right service level for your timeline.
         </p>

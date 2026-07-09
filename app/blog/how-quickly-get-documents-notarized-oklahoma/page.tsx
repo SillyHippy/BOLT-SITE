@@ -80,6 +80,10 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>How Quickly Can I Get Documents Notarized in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How Quickly Can I Get Documents Notarized in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Same-day mobile notary service is available across all <strong>77 Oklahoma counties</strong>. A single notarization takes <strong>5–15 minutes</strong> — call <strong>(539) 367-6832</strong> for <strong>24/7</strong> scheduling.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           When you need a document notarized, time is often of the essence. Maybe you have a real estate closing scheduled for tomorrow. Maybe a legal filing deadline is looming. Maybe you just realized an important document needs a notary stamp before you can move forward with a transaction. Whatever your situation, understanding your options for fast notarization in Oklahoma can save you hours of frustration. In this guide, we break down every speed option available, from walk-in notary services to same-day mobile notary appointments, rush services, and online remote notarization.
         </p>

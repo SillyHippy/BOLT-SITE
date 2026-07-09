@@ -114,6 +114,10 @@ export default function BlogPost() {
           Legal Support Services Beyond Process Serving: Your Complete Guide to
           Full-Service Legal Support in Oklahoma
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Beyond process serving, Oklahoma law firms need <strong>court filing, document retrieval, notarization, and courier services</strong>. Just Legal Solutions provides full legal support across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
 
         {/* OPENING PARAGRAPH WITH EEAT SIGNAL */}
         <p className="text-gray-600 mb-8 text-lg">

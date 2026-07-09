@@ -101,6 +101,10 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Legal Tech Tools Every Oklahoma Law Firm Should Use in 2026
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Top legal tech tools for Oklahoma firms include <strong>e-filing, eService, GPS-tracked process serving, and case management software</strong>. Just Legal Solutions integrates technology across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Technology has become the competitive differentiator for law firms of

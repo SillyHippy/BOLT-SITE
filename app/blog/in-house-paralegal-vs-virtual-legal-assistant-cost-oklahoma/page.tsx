@@ -436,6 +436,10 @@ export default function BlogPost() {
               </div>
               <div className="relative z-10">
                 <h2 className="text-3xl font-bold mb-4">Need Professional Legal Support?</h2>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Virtual legal assistants save law firms <strong>40–60% vs. in-house paralegals</strong> while providing the same document preparation, filing, and research services. Just Legal Solutions offers virtual support across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
                 <p className="text-blue-100 mb-8 text-lg max-w-2xl mx-auto">
                   Just Legal Solutions provides licensed, bonded, and insured process serving, courier, and notary services across all 77 Oklahoma counties.
                 </p>

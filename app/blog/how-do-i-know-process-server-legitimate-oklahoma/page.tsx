@@ -89,6 +89,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How Do I Know If a Process Server Is Legitimate in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A legitimate Oklahoma process server is licensed under <strong>12 O.S. § 158.1</strong>, bonded, and provides GPS-verified proof of service. Just Legal Solutions has <strong>50+ years experience</strong> — call <strong>(539) 367-6832</strong> to verify credentials.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           Whether you're a legal professional hiring a process server or an individual who's been approached by someone claiming to serve legal documents, verifying legitimacy is critical. An unlicensed or fraudulent process server can derail your court case, compromise your personal information, or scam you out of money. Oklahoma has specific legal requirements for process servers, and knowing how to verify credentials protects you from fraud and ensures your legal documents are served properly. In this comprehensive guide, we'll cover everything you need to know about verifying process server legitimacy in Oklahoma — from licensing requirements under <strong>Title 12 O.S. § 158.1</strong> to recognizing scam red flags.
         </p>

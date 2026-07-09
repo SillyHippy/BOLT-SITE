@@ -81,6 +81,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How to Notarize Documents When You Cannot Leave Your Home in Oklahoma</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Use a <strong>mobile notary</strong> who comes to your location or <strong>Remote Online Notarization (RON)</strong> via secure video. Both available across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           Life does not always allow a trip to the notary's office. Whether you are recovering from surgery at home, caring for an aging parent in a nursing home, sitting bedside with a loved one in hospice, or managing a chronic condition that makes travel difficult — your legal documents still need to be notarized. The good news is that <strong>Oklahoma law fully supports mobile notarization</strong>, and professional mobile notaries can come to you wherever you are. At Just Legal Solutions, we specialize in bringing notary services to homes, hospitals, nursing facilities, and hospice centers across all 77 Oklahoma counties. This guide explains everything you need to know about getting documents notarized when you cannot leave home.
         </p>

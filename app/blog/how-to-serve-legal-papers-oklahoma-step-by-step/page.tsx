@@ -73,6 +73,10 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>How to Serve Legal Papers in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">File your petition, hire a <strong>licensed process server</strong> (12 O.S. § 158.1), receive GPS-verified proof of service. Costs <strong>$35–$265</strong> across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">Serving legal papers is a critical step in any court case, and doing it correctly ensures your case can proceed without delays. At Just Legal Solutions, our team brings over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties. In this guide, we will walk you through the six essential steps to serving legal papers in Oklahoma, including the critical 180-day deadline under 12 O.S. 2004 and the documentation you need to move your case forward.</p>
         <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 

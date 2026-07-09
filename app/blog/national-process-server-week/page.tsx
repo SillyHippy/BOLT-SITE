@@ -105,6 +105,10 @@ export default function BlogPost() {
           National Process Server Week: Celebrating the Legal Support
           Professionals Who Protect Due Process
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">National Process Server Week is celebrated the <strong>first full week of May</strong> each year, honoring the professionals who ensure due process. Just Legal Solutions proudly serves all <strong>77 Oklahoma counties</strong> with <strong>50+ years experience</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
 
         {/* OPENING PARAGRAPH WITH EEAT SIGNAL */}
         <p className="text-gray-600 mb-8 text-lg">

@@ -579,6 +579,10 @@ export default function HowToFileProtectiveOrderOklahoma() {
 
           <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">File a protective order petition at your local Oklahoma courthouse — <strong>emergency orders can be issued immediately</strong>. Just Legal Solutions provides service of protective orders across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <details key={index} className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all duration-300">
