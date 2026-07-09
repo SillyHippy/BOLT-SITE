@@ -123,6 +123,11 @@ export default function BecomeProcessServerOklahoma2026() {
             How to Become a Process Server in Oklahoma (2026)
           </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Becoming a process server in Oklahoma requires licensing under <strong>12 O.S. § 158.1</strong>, passing a background check, and posting a bond. Process serving costs <strong>$35–$265</strong> per attempt, and Just Legal Solutions covers all <strong>77 counties</strong> with 24/7 availability.</p>
+        </div>
+
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
               <span className="text-blue-200 text-sm">By</span>

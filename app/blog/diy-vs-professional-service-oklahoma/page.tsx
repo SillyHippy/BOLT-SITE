@@ -124,6 +124,11 @@ export default function DiyVsProfessionalServiceOklahoma() {
             DIY Service of Process vs. Hiring a Professional: Oklahoma Rules
           </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">DIY process serving in Oklahoma risks <strong>improper service, case dismissal, and personal safety issues</strong> — licensed servers under <strong>12 O.S. § 158.1</strong> ensure valid service with GPS proof. Just Legal Solutions costs <strong>$35–$265</strong> across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
               <span className="text-blue-200 text-sm">By</span>

@@ -105,6 +105,11 @@ export default function BlogPost() {
           How to Become a Licensed Process Server in Oklahoma
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">To become a licensed process server in Oklahoma, you must meet requirements under <strong>12 O.S. § 158.1</strong>, including a background check, bond, and statutory qualifications. Just Legal Solutions offers 50+ years of combined experience and serves all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Process serving is a rewarding career that plays a vital role in the
           American legal system. Every lawsuit, divorce, eviction, and custody

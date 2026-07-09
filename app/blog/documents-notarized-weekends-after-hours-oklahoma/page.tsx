@@ -117,6 +117,11 @@ export default function WeekendAfterHoursNotaryPage() {
               Can I Get Documents Notarized on Weekends or After Hours in
               Oklahoma?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, documents can be notarized on <strong>weekends and after hours</strong> in Oklahoma by mobile notaries who travel to your location. Just Legal Solutions offers 24/7 notary and process serving across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Your complete guide to weekend, after-hours, and emergency
               notary services in Oklahoma — including availability, pricing,

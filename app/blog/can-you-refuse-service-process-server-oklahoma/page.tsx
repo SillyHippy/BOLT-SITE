@@ -137,6 +137,11 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             Can You Refuse Service from a Process Server in Oklahoma?
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">You <strong>cannot legally refuse service</strong> of process in Oklahoma — refusing to accept papers does not invalidate service. A licensed process server under <strong>12 O.S. § 158.1</strong> can leave documents near you or use substitute service. Just Legal Solutions serves all <strong>77 counties</strong>.</p>
+        </div>
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             The truth about refusing legal papers in Oklahoma \u2014 why it
             won\u2019t stop your case and what happens next under state law.

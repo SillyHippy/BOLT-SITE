@@ -82,6 +82,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Can a Notary Stamp Documents That Are Already Signed in Oklahoma?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">In Oklahoma, a notary <strong>can stamp an already-signed document</strong> as long as the signer personally appears, provides valid ID, and acknowledges the signature was freely made. The signer must be present — Just Legal Solutions offers notarization across all <strong>77 counties</strong>, call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           It happens more often than you might think. A person receives an important document, reads through it, fills in the blanks, signs their name — and only then realizes the signature needs to be notarized. Panic sets in. The document is already signed. Can the notary still help? The answer, under Oklahoma law, is <strong>usually no</strong> — with important nuances depending on the type of notarization needed. Understanding why notaries cannot simply stamp pre-signed documents, and knowing your options when this situation arises, can save you time, money, and significant frustration. In this guide, the mobile notary team at Just Legal Solutions explains Oklahoma's signature witnessing rules, the difference between acknowledgments and jurats, and exactly what to do if you have already signed your document.
         </p>

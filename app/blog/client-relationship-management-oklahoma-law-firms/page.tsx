@@ -143,6 +143,11 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Law Firm CRM: Client Relationship Management Guide
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">CRM systems help Oklahoma law firms <strong>track client interactions, automate follow-ups, and improve retention</strong> while ensuring compliance with state regulations. Just Legal Solutions integrates with firm CRMs to provide seamless process serving across all <strong>77 counties</strong> under <strong>12 O.S. § 158.1</strong>.</p>
+        </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

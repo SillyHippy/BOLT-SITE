@@ -89,6 +89,11 @@ export default function BlogPost() {
           Getting Divorced in Tulsa? How Divorce Papers Are Served in Oklahoma
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Divorce papers in Oklahoma must be served by a <strong>licensed process server</strong> under <strong>12 O.S. § 158.1</strong> or by certified mail with return receipt. Just Legal Solutions serves divorce papers across all <strong>77 counties</strong> including Tulsa with GPS verification — call <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Divorce is one of the most challenging experiences anyone can go through — and the legal process of serving divorce papers can add stress to an already emotional situation. With over 50 years of combined experience handling family law document service across all 77 Oklahoma counties, the Just Legal Solutions Team understands the sensitivity and urgency involved in serving divorce papers. This guide explains everything you need to know about how divorce papers are served in Oklahoma, including the 20-day response window, the 90-day waiting period for cases involving children, and what to do if your spouse avoids service.
         </p>

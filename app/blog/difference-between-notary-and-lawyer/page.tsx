@@ -116,6 +116,11 @@ export default function NotaryVsLawyerPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               What's the Difference Between a Notary and a Lawyer?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A notary <strong>witnesses signatures and verifies identity</strong> but cannot give legal advice, while a lawyer <strong>provides legal counsel, drafts documents, and represents clients in court</strong>. In Oklahoma, notaries are governed by state notary law and lawyers by the bar — Just Legal Solutions offers notary services across all <strong>77 counties</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Understanding the distinct roles, responsibilities, and legal
               boundaries between notaries and attorneys in Oklahoma.

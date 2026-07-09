@@ -201,6 +201,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">Can a Process Server Serve Someone in Another State? Oklahoma Guide</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A process server licensed in Oklahoma generally <strong>cannot serve documents in another state</strong> unless they are also licensed in that state or work with a local server. For multi-state service needs, Just Legal Solutions coordinates with licensed servers nationwide — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-lg text-slate-600 mb-2">Understanding how to serve out-of-state defendants when your case is filed in Oklahoma.</p>
         <p className="text-sm text-slate-400 mb-10">Published January 29, 2024 by Just Legal Solutions</p>
 

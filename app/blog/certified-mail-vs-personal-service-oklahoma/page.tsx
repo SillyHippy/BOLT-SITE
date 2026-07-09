@@ -124,6 +124,11 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
             Certified Mail vs. Personal Service in Oklahoma: When Each Applies
           </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Personal service by a <strong>licensed process server</strong> under <strong>12 O.S. § 158.1</strong> provides proof of delivery and is faster than certified mail, which can be refused or go unclaimed. Just Legal Solutions offers GPS-verified personal service across all <strong>77 Oklahoma counties</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
               <span className="text-blue-200 text-sm">By</span>

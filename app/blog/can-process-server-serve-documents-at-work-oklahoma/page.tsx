@@ -89,6 +89,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Can a Process Server Serve Documents at Work in Oklahoma?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, process servers in Oklahoma <strong>can serve legal documents at a person's workplace</strong> as long as they do not breach the peace or violate workplace policies. Service is valid under <strong>12 O.S. § 2004</strong> — Just Legal Solutions provides licensed service across all <strong>77 counties</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           One of the most common questions we receive at Just Legal Solutions — from both plaintiffs and defendants — is whether legal documents can be served at someone's workplace. The short answer is <strong>yes</strong>. Under Oklahoma law, process servers can serve legal documents at a defendant's place of employment. However, workplace service comes with unique considerations, etiquette, and restrictions that both employers and employees should understand. In this comprehensive guide, we'll explore the legal framework for workplace service in Oklahoma, discuss privacy and discretion concerns, explain employer rights and obligations, and provide practical advice for everyone involved.
         </p>

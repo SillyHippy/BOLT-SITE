@@ -62,6 +62,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Digital Proof of Service</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Digital Proof of Service: How Technology Protects Your Case</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Modern digital proof of service replaces paper affidavits with <strong>GPS coordinates, timestamped photos, and electronic signatures</strong> for court-admissible documentation. Just Legal Solutions provides digital proof across all <strong>77 Oklahoma counties</strong> under <strong>12 O.S. § 158.1</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">With over 50 years of combined experience serving legal documents across Oklahoma, the team at Just Legal Solutions has witnessed firsthand how digital proof of service technology has transformed the process serving industry. What once relied solely on handwritten paper affidavits now leverages GPS verification, timestamped photography, and real-time digital records — creating a documentation standard that protects your case from service challenges and gives Oklahoma courts the reliable evidence they demand. If you need <Link href="/process-serving" className="text-blue-600 hover:underline">professional process serving</Link> backed by modern technology, understanding these advancements is essential.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
 

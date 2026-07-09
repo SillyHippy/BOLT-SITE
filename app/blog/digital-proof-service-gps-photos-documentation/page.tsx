@@ -81,6 +81,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Digital Proof of Service: GPS, Photos, and Modern Documentation</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Digital proof of service uses <strong>GPS timestamps, geo-tagged photos, and electronic affidavits</strong> to verify that legal documents were properly delivered. Just Legal Solutions provides GPS-verified proof across all <strong>77 Oklahoma counties</strong> under <strong>12 O.S. § 158.1</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, 
           the Just Legal Solutions Team has seen the evolution of proof of service from simple paper affidavits to 

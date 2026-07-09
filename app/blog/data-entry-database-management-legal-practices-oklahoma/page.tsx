@@ -143,6 +143,11 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Data Entry & Database Management for Oklahoma Law Firms
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Accurate data entry and database management help Oklahoma legal practices <strong>reduce errors, speed up filings, and maintain compliance</strong> with court requirements. Just Legal Solutions uses structured databases alongside licensed process serving under <strong>12 O.S. § 158.1</strong> across all <strong>77 counties</strong>.</p>
+        </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-23').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
