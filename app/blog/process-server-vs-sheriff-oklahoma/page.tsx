@@ -77,6 +77,11 @@ export default function BlogPost() {
           Process Server vs Sheriff: Which Should You Choose in Oklahoma?
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A <strong>private process server in Oklahoma typically completes service faster</strong> (same-day available) with GPS verification, while the <strong>county sheriff charges less ($40-50) but takes 2-4 weeks</strong>. Private servers have higher success rates and provide court-ready affidavits.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           When you need legal papers served in Oklahoma, you have two primary options: a licensed private process server or your local sheriff's office. Making the right choice can directly impact your case timeline, your stress level, and even the outcome of your legal matter. At Just Legal Solutions, our team brings over 50 years of combined experience serving legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we've helped thousands of attorneys, businesses, and individuals navigate the service of process. This comprehensive comparison breaks down the key differences between process servers and sheriffs so you can make an informed decision for your case.
         </p>

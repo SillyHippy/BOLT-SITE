@@ -71,11 +71,9 @@ export default function SundayServicePage() {
 
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Can a Process Server Serve Papers on Sunday in Oklahoma?</h1>
-                        <div className="bg-white p-4 rounded border border-blue-200 shadow-sm mb-4">
-                            <h2 className="text-lg font-bold text-blue-800 mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer</h2>
-                            <p className="text-lg text-gray-800 leading-relaxed">
-                                <strong>Yes.</strong> Oklahoma law places <strong>no restrictions on the day or time</strong> that legal documents can be served. Process servers can legally deliver papers on Sundays, Saturdays, holidays, evenings, and early mornings. There is no &ldquo;safe day&rdquo; to avoid being served. Just Legal Solutions offers <Link href="/weekend-emergency" className="text-blue-700 font-bold hover:underline">24/7 weekend and holiday service</Link> across all 77 Oklahoma counties. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
-                            </p>
+                        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+                            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+                            <p className="text-gray-800"><strong>Yes, in Oklahoma, process servers can legally serve papers on Sundays.</strong> There is <strong>no legal restriction preventing service on any day of the week</strong> — including Saturdays, holidays, evenings, and early mornings. Just Legal Solutions offers <Link href="/weekend-emergency" className="text-green-800 font-bold hover:underline">24/7 weekend and holiday service</Link> across all 77 Oklahoma counties.</p>
                         </div>
                     </div>
 

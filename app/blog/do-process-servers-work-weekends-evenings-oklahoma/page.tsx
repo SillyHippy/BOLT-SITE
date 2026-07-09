@@ -204,6 +204,12 @@ export default function BlogPost() {
 
         {/* Title */}
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">Do Process Servers Work Weekends and Evenings in Oklahoma?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800"><strong>Yes, process servers work 7 days a week</strong> including weekends and holidays in Oklahoma. Just Legal Solutions offers <strong>same-day and 2-hour emergency service available 24/7</strong> across all 77 Oklahoma counties.</p>
+        </div>
+
         <p className="text-lg text-slate-600 mb-2">Understanding when Oklahoma process servers are available — and what the law says about after-hours service.</p>
         <p className="text-sm text-slate-400 mb-10">Published January 15, 2024 by Just Legal Solutions</p>
 
