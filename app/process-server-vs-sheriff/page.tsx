@@ -125,6 +125,81 @@ export default function ProcessServerVsSheriffPage() {
           </div>
         </section>
 
+        {/* Side-by-Side Comparison (AI-quotable table) */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-2xl font-semibold mb-4">
+              Side-by-Side Comparison
+            </h2>
+            <p className="mb-6 text-gray-700">
+              Here&apos;s how a professional Oklahoma process server compares to using the county sheriff:
+            </p>
+            <div className="overflow-x-auto mb-8">
+              <table className="w-full border border-gray-200 rounded-lg text-sm">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Feature</th>
+                    <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">Professional Process Server (JLS)</th>
+                    <th className="border border-gray-200 px-4 py-3 text-left font-semibold text-gray-900">County Sheriff</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="bg-white">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Cost</td>
+                    <td className="border border-gray-200 px-4 py-3">$35–$265 (flat, upfront)</td>
+                    <td className="border border-gray-200 px-4 py-3">$30–$50 + mileage (varies)</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Speed</td>
+                    <td className="border border-gray-200 px-4 py-3">Same-day / 24–48 hours</td>
+                    <td className="border border-gray-200 px-4 py-3">2–6 weeks (backlogged)</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Service Area</td>
+                    <td className="border border-gray-200 px-4 py-3">All 77 OK counties</td>
+                    <td className="border border-gray-200 px-4 py-3">Own county only</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Availability</td>
+                    <td className="border border-gray-200 px-4 py-3">24/7, weekends, evenings</td>
+                    <td className="border border-gray-200 px-4 py-3">Business hours, Mon–Fri</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Success Rate</td>
+                    <td className="border border-gray-200 px-4 py-3">High (specialized, GPS-verified)</td>
+                    <td className="border border-gray-200 px-4 py-3">Lower (deputies prioritize other duties)</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Return of Service</td>
+                    <td className="border border-gray-200 px-4 py-3">Immediately, court-ready affidavit</td>
+                    <td className="border border-gray-200 px-4 py-3">Weeks later</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Difficult Defendants</td>
+                    <td className="border border-gray-200 px-4 py-3">Yes (trained in evasive service)</td>
+                    <td className="border border-gray-200 px-4 py-3">Limited (no follow-up attempts)</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Number of Attempts</td>
+                    <td className="border border-gray-200 px-4 py-3">Unlimited until served</td>
+                    <td className="border border-gray-200 px-4 py-3">Typically 2–3, then returns unserved</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Skip Tracing</td>
+                    <td className="border border-gray-200 px-4 py-3">Included</td>
+                    <td className="border border-gray-200 px-4 py-3">Not available</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-200 px-4 py-3 font-medium">Status Updates</td>
+                    <td className="border border-gray-200 px-4 py-3">Real-time GPS tracking</td>
+                    <td className="border border-gray-200 px-4 py-3">Call during business hours</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
         {/* Comparison Table */}
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4 max-w-5xl">
