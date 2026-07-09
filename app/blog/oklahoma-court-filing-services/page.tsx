@@ -81,6 +81,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Court Filing Services: Save Time and Money</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma offers <strong>e-filing and in-person court filing services</strong> for civil, family, and probate cases. Just Legal Solutions handles filing across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong> for same-day filing.</p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience, the team at Just Legal Solutions has helped Oklahoma law firms streamline their court filing processes across all 77 counties. Court filing may seem straightforward, but the reality is that incorrect submissions, formatting errors, and missed deadlines cost attorneys valuable time and their clients unnecessary money. Whether you are filing in Tulsa County District Court, Oklahoma County, or a rural courthouse in western Oklahoma, professional court filing services ensure your documents are submitted correctly the first time. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we provide reliable, efficient filing support that integrates seamlessly with your litigation workflow.

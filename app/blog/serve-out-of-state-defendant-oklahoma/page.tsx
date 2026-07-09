@@ -122,6 +122,11 @@ export default function ServeOutOfStateDefendantOklahoma() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
             How to Serve an Out-of-State Defendant in Oklahoma (2026)
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An out-of-state defendant can be served in Oklahoma under the <strong>Oklahoma Long Arm Statute (12 O.S. § 2004)</strong> by certified mail, personal service in the other state, or service on the Oklahoma Secretary of State for nonresident defendants. Just Legal Solutions coordinates out-of-state service — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">

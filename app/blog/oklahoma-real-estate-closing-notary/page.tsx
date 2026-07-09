@@ -55,6 +55,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Real Estate Closing Notary</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Real Estate Closing Notary: What to Expect at Closing</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma real estate closings require a <strong>notary to verify signer identity and witness document signing</strong> for deeds, mortgages, and affidavits. Closings often involve a title company or attorney plus a mobile notary. Just Legal Solutions provides mobile closing notaries across <strong>77 counties</strong> — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">A real estate closing is one of the most significant financial transactions most people will ever make — and the notary plays a critical role in ensuring everything is executed properly. At Just Legal Solutions, our team brings over 50 years of combined experience in legal document services and has facilitated thousands of successful closings across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we work with buyers, sellers, refinancers, and real estate professionals to make the closing process smooth, accurate, and stress-free. Whether you are purchasing your first home, refinancing your mortgage, or handling a complex commercial property transaction, this guide explains exactly what to expect from your closing notary.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>

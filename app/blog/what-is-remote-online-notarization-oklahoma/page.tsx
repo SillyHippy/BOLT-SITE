@@ -89,6 +89,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What is Remote Online Notarization and How Does It Work in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Remote Online Notarization (RON) in Oklahoma lets you <strong>notarize documents via audio-video technology</strong> with an approved platform, permitted under Oklahoma law and Secretary of State rules. Signers need a government-issued photo ID and internet access. Just Legal Solutions offers RON — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Remote online notarization — commonly called RON — has transformed how documents get notarized in Oklahoma and across the country. If you have ever struggled to find time to meet a notary in person, driven across town only to realize you forgot your ID, or needed a document notarized while traveling out of state, RON offers a convenient, secure alternative. In this comprehensive guide, we will explain exactly what remote online notarization is, how it works under Oklahoma law, the technology you need, how it compares to traditional in-person notarization, and what you should know before choosing this option. At Just Legal Solutions, we have helped hundreds of Oklahoma clients complete remote notarizations efficiently and securely.
         </p>

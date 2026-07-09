@@ -81,6 +81,11 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Tulsa County Court Filing Guide: Navigate the Filing Process with Confidence
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Tulsa County court filings are handled at the <strong>Tulsa County Courthouse, 500 S Denver Ave, Tulsa, OK 74103</strong>. Most civil filings use the Oklahoma State Courts Network (OSCN) eFiling system. Filing fees vary by case type. Just Legal Solutions offers eFiling support — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
         <p className="text-gray-600 mb-8 text-lg">
           Filing court documents in Tulsa County can feel overwhelming — especially if you are navigating the legal system for the first time. With over 50 years of combined experience handling court filings and process serving across Oklahoma, the Just Legal Solutions Team has helped thousands of clients successfully file and serve legal documents in Tulsa County District Court. Whether you are initiating a lawsuit, responding to a petition, or filing post-judgment motions, this guide walks you through everything you need to know about the Tulsa County court filing process — from courthouse logistics to eFiling and beyond.

@@ -73,6 +73,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Understanding Proof of Service</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Understanding Proof of Service: Why Your Case Depends On It</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Proof of service in Oklahoma is a <strong>sworn affidavit signed by the server</strong> detailing who was served, when, where, and how, filed with the court under 12 O.S. § 2004. Without it, your case can be dismissed. Just Legal Solutions provides court-compliant proof on every serve — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Every legal case in Oklahoma hinges on one foundational requirement: proof that the opposing party was properly notified. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team has seen firsthand how a well-documented proof of service can secure a case, and how a flawed one can unravel months of preparation. This guide explains what proof of service is, what it must include, and how to ensure yours holds up in any Oklahoma courtroom.
         </p>

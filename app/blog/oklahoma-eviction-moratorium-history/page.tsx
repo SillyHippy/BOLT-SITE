@@ -425,6 +425,10 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
 
           <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma's pandemic eviction moratorium <strong>ended in 2021</strong>; standard landlord-tenant laws now apply. Current eviction requires proper notice and court process. Call <strong>(539) 367-6832</strong> for eviction service across all <strong>77 counties</strong>.</p>
+        </div>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <details key={index} className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all duration-300">

@@ -73,6 +73,10 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Legal Courier Services</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Legal Courier Services: Secure Document Delivery</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Secure legal courier services provide <strong>same-day, hand-delivered transport</strong> of legal documents with chain-of-custody tracking across all <strong>77 Oklahoma counties</strong>. Call <strong>(539) 367-6832</strong> for urgent courier needs.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience, the team at Just Legal Solutions understands that legal documents cannot simply be dropped in the mail. Court filings, contracts, discovery materials, and confidential records require secure, tracked, and timely delivery. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, our legal courier services provide the chain of custody documentation that attorneys and courts demand. We have served thousands of documents across all 77 Oklahoma counties, giving law firms the confidence that their critical paperwork arrives safely and on schedule.
         </p>

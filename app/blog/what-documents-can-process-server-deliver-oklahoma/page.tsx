@@ -135,6 +135,11 @@ export default function BlogPost() {
             What Documents Can a Process Server Deliver in Oklahoma? Complete
             List
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma process servers can deliver <strong>summons and petitions, subpoenas, eviction notices, divorce papers, small-claims complaints, orders to show cause, and writs of execution</strong> under 12 O.S. § 2004. Just Legal Solutions serves all of these statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             A comprehensive guide to every type of document Oklahoma process
             servers can legally serve — from summons and subpoenas to divorce

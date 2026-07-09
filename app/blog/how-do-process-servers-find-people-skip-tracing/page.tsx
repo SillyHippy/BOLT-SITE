@@ -198,6 +198,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">How Do Process Servers Find People? Skip Tracing Explained</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Process servers use <strong>skip tracing</strong> — combining public records, database searches, social media, and surveillance — to locate evasive defendants. Just Legal Solutions has <strong>50+ years experience</strong> finding hard-to-serve individuals across all <strong>77 Oklahoma counties</strong>.</p>
+        </div>
         <p className="text-lg text-slate-600 mb-2">The complete guide to skip tracing — how Oklahoma process servers locate hard-to-find defendants.</p>
         <p className="text-sm text-slate-400 mb-10">Published February 12, 2024 by Just Legal Solutions</p>
 

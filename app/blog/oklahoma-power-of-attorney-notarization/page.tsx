@@ -55,6 +55,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Power of Attorney Notarization</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Power of Attorney Notarization: Requirements and Process</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An Oklahoma power of attorney must be <strong>notarized</strong> to be legally valid and, for real estate matters, typically recorded with the county. The principal must appear in person with valid ID and sign in the notary's presence. Just Legal Solutions notarizes POAs statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">A power of attorney is one of the most important legal documents you can create — but only if it is properly executed and notarized. At Just Legal Solutions, our team brings 50+ years of combined experience in legal document services and has served thousands of documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help individuals and families navigate the notarization process with confidence. Whether you need a durable, medical, financial, or limited power of attorney notarized, this guide covers everything you need to know to ensure your document is legally valid in the State of Oklahoma.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
 

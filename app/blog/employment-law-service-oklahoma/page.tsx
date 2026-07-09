@@ -97,6 +97,10 @@ export default function EmploymentLawServiceOklahomaPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Employment Law Process Serving in Oklahoma
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Employment law papers in Oklahoma must be served per <strong>12 O.S. § 2004</strong> by a licensed process server. Costs range from <strong>$35–$265</strong>, and Just Legal Solutions has <strong>50+ years experience</strong> serving all 77 counties with GPS verification.</p>
+        </div>
         </div>
       </section>
 

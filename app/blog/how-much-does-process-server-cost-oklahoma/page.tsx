@@ -89,6 +89,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Process serving in Oklahoma costs <strong>$35–$265</strong> depending on urgency, location, and difficulty. Just Legal Solutions is licensed under <strong>12 O.S. § 158.1</strong> with <strong>50+ years experience</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           If you're filing a lawsuit, serving a subpoena, or handling any legal matter in Oklahoma, one of your first questions is likely: <em>how much does a process server cost?</em> The answer depends on several factors including urgency, location, and the complexity of service. In this comprehensive 2026 pricing guide, we'll break down every cost tier, explain what drives pricing, and help you budget accurately for process serving across all 77 Oklahoma counties.
         </p>

@@ -111,6 +111,10 @@ export default function BlogPost() {
           Oklahoma Apostille Services: Authenticate Documents for International
           Use
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An <strong>apostille authenticates Oklahoma documents for international use</strong> under the Hague Convention. Processing takes 5–10 business days through the Secretary of State. Call <strong>(539) 367-6832</strong> for apostille assistance across all <strong>77 counties</strong>.</p>
+        </div>
 
         {/* Opening Expertise Signal */}
         <p className="text-gray-600 mb-8 text-lg">

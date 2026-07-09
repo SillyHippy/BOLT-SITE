@@ -116,6 +116,11 @@ export default function RestrainingOrderServicePage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Can a Process Server Serve a Restraining Order in Oklahoma?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, licensed process servers in Oklahoma <strong>can serve restraining orders and protective orders</strong> as part of their duties under <strong>12 O.S. § 158.1</strong>. Timely service is critical — Just Legal Solutions offers 24/7 service with GPS verification across all <strong>77 counties</strong>, call <strong>(539) 367-6832</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Understanding protective order service requirements, emergency
               procedures, safety considerations, and timeline requirements for

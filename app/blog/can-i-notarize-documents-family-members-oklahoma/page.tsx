@@ -123,6 +123,11 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             Can I Notarize Documents for Family Members in Oklahoma?
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">In Oklahoma, notaries <strong>should not notarize documents for immediate family members</strong> to avoid conflicts of interest and potential challenges to the notarization. Oklahoma notaries must follow strict impartiality rules — contact Just Legal Solutions at <strong>(539) 367-6832</strong> for unbiased notarization services.</p>
+        </div>
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             Understanding conflict of interest rules, when family
             notarization is allowed, and best practices for keeping your

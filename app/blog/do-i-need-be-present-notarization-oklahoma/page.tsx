@@ -89,6 +89,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Do I Need to Be Present When Documents Are Notarized in Oklahoma?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, in Oklahoma you <strong>must personally appear</strong> before a notary with valid identification — remote notarization is available through approved RON platforms. Just Legal Solutions offers notarization across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           If you have a document that needs notarization, one of the first questions that comes to mind is whether you need to be physically in the room with the notary. The short answer is: <strong>for traditional notarization, yes — your physical presence is required.</strong> But like many areas of law, the full answer is more nuanced. Oklahoma has evolved its notary laws in recent years to accommodate remote online notarization, creating a limited but important exception to the physical presence rule. At Just Legal Solutions, we handle both traditional in-person and remote online notarizations daily, and we help our clients understand which option works best for their situation. In this comprehensive guide, we will explain Oklahoma's physical presence requirements, the remote notarization exception, what happens when the rules are violated, and the practical alternatives available when you simply cannot be present.
         </p>

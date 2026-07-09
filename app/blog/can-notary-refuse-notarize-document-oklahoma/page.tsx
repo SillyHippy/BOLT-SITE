@@ -116,6 +116,11 @@ export default function NotaryRefusalPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Can a Notary Refuse to Notarize a Document in Oklahoma?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, an Oklahoma notary can and <strong>must refuse</strong> to notarize a document if the signer cannot be properly identified, appears coerced, or the document is incomplete. Notaries have a legal duty to prevent fraud — contact Just Legal Solutions at <strong>(539) 367-6832</strong> for professional notarization.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Understanding when an Oklahoma notary can legally refuse service,
               including incomplete documents, lack of ID, coercion, conflicts of

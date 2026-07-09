@@ -123,6 +123,10 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             How Long Does Notarization Take in Oklahoma?
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A single-document notarization takes <strong>5–15 minutes</strong>; real estate closings take <strong>45 minutes–2 hours</strong>. Mobile notaries serve all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong> to schedule.</p>
+        </div>
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             From quick single-document notarizations to complex real estate
             closings — here's exactly how much time to plan for your Oklahoma

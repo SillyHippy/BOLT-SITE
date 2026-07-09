@@ -105,6 +105,11 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Oklahoma Witness Locate Services: Finding People for Legal Proceedings
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma witness locate services use <strong>public records, databases, and field investigation</strong> to find witnesses for legal proceedings. Skip tracing is legal when performed for legitimate case preparation. Just Legal Solutions offers witness locate services across all <strong>77 counties</strong> — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
         {/* Intro */}
         <p className="text-gray-600 mb-8 text-lg">

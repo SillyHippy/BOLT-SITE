@@ -81,6 +81,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Is Online Notarization Legal in Oklahoma? RON Laws Explained</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes — <strong>Remote Online Notarization (RON) is legal in Oklahoma</strong> under 49 O.S. § 128. Documents can be notarized via secure video from anywhere. Call <strong>(539) 367-6832</strong> for RON services across all <strong>77 counties</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           The short answer is <strong>yes</strong> — online notarization is legal in Oklahoma. Since November 2020, Oklahoma has authorized remote online notarization (RON), allowing notaries and signers to complete notarial acts without being physically in the same room. This technology-driven approach has transformed how Oklahomans handle everything from real estate documents to powers of attorney, especially for those in rural areas, homebound individuals, and busy professionals. In this guide, we will explore Oklahoma's RON laws in detail, explain the requirements for both notaries and signers, compare online vs. traditional notarization, and help you determine whether remote online notarization is the right choice for your situation.
         </p>

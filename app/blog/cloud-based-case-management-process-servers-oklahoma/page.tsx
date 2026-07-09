@@ -143,6 +143,11 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Cloud Case Management for Process Servers: Oklahoma Guide
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Cloud-based case management gives process servers <strong>real-time access to case files, GPS tracking, and instant proof-of-service uploads</strong> from anywhere. Just Legal Solutions uses cloud systems alongside licensed service under <strong>12 O.S. § 158.1</strong> across all <strong>77 Oklahoma counties</strong>.</p>
+        </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-08').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

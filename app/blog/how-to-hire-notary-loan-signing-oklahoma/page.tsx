@@ -116,6 +116,10 @@ export default function HireLoanSigningNotaryPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               How to Hire a Notary for Loan Signing in Oklahoma
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Hire a <strong>certified loan signing agent</strong> for real estate closings. Just Legal Solutions provides certified signing agents across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong> for same-day scheduling.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Everything you need to know about finding, vetting, and hiring a
               certified loan signing agent in Oklahoma — from NSA certification

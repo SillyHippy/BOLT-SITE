@@ -84,6 +84,11 @@ export default function BlogPost() {
           10 Common Process Serving Mistakes That Can Ruin Your Case
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Common process serving mistakes in Oklahoma include <strong>serving the wrong person, failing to document attempts, and missing statutory deadlines</strong> under <strong>12 O.S. § 2004</strong>. Just Legal Solutions avoids these errors with GPS verification and 50+ years of experience across all <strong>77 counties</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Service of process is the foundation of due process in the American legal system. When service is done incorrectly, everything that follows in your case can be called into question, from court jurisdiction to the validity of a final judgment. At Just Legal Solutions, our team brings over 50 years of combined experience serving legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we have seen firsthand how simple mistakes can derail otherwise strong cases. This guide covers the ten most common process serving mistakes in Oklahoma and explains how to avoid each one.
         </p>

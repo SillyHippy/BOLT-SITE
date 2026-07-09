@@ -109,6 +109,10 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Oklahoma Mobile Notary Guide: What to Know Before You Book
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Mobile notaries travel to your location across all <strong>77 Oklahoma counties</strong>, charging <strong>$5–$10 per notarial act</strong> plus travel fees. Same-day service available — call <strong>(539) 367-6832</strong> to book your appointment.</p>
+        </div>
 
         {/* Opening Expertise Signal */}
         <p className="text-gray-600 mb-8 text-lg">

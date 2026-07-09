@@ -89,6 +89,10 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How to Hire a Notary for Real Estate Closing in Oklahoma</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Hire a <strong>certified notary signing agent</strong> experienced in real estate transactions (typically <strong>45 min–2 hours</strong>). Just Legal Solutions serves all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           A real estate closing is one of the most significant financial transactions most people will ever complete — whether you are buying your first home, refinancing your mortgage, or selling investment property. At the center of this process is the notary public or loan signing agent who verifies your identity, witnesses your signature, and notarizes the stack of documents that make the transaction legally binding. Hiring the right notary for your real estate closing is not just a formality — it is a critical decision that affects the accuracy, efficiency, and legality of your closing. At Just Legal Solutions, we have facilitated thousands of real estate closings across all 77 Oklahoma counties, and we know exactly what it takes to make your closing smooth and stress-free.
         </p>

@@ -138,6 +138,10 @@ export default function BlogPost() {
             How Long Does Process Serving Usually Take in Oklahoma? Timeline
             Guide
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Standard process serving in Oklahoma takes <strong>1–3 business days</strong> after receiving documents. Rush and same-day options available across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong> for <strong>24/7</strong> scheduling.</p>
+        </div>
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             A detailed breakdown of process serving timelines, service tiers,
             and what to expect at every stage of service in Oklahoma.

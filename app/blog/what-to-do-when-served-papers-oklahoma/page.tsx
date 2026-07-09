@@ -126,6 +126,11 @@ export default function WhatToDoWhenServedPapersOklahoma() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
             What to Do When You Get Served Papers in Oklahoma (2026)
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">If you're served papers in Oklahoma, <strong>read the documents carefully, note the response deadline (typically 20 days), and contact an attorney immediately</strong>. Do not ignore service — a default judgment can be entered against you. Just Legal Solutions serves papers professionally statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">

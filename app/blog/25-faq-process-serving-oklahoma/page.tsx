@@ -107,6 +107,11 @@ export default function BlogPost() {
           25 FAQ About Process Serving in Oklahoma — Answered
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Process serving in Oklahoma is regulated under <strong>12 O.S. § 158.1</strong>, requires licensed and bonded servers, costs <strong>$35–$265</strong>, and covers all <strong>77 counties</strong>. Just Legal Solutions offers 24/7 service with GPS verification and 50+ years of combined experience — call <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Process serving is one of the most important — and most misunderstood —
           parts of the legal system. Whether you are an attorney managing dozens

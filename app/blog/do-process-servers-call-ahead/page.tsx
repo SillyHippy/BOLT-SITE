@@ -97,6 +97,11 @@ export default function DoProcessServersCallAheadPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Do Process Servers Call Ahead? What to Expect in Oklahoma
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Licensed process servers in Oklahoma generally <strong>do not call ahead</strong> before serving, as advance notice allows recipients to evade service. Just Legal Solutions uses skip tracing and strategic timing across all <strong>77 counties</strong> under <strong>12 O.S. § 158.1</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         </div>
       </section>
 

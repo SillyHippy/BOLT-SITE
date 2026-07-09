@@ -116,6 +116,11 @@ export default function DoINeedProcessServerPage() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Do I Need a Process Server or Can My Lawyer Handle It?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">In Oklahoma, lawyers <strong>cannot serve process themselves</strong> in most cases — a <strong>licensed process server</strong> under <strong>12 O.S. § 158.1</strong> must handle service. Just Legal Solutions provides licensed service across all <strong>77 counties</strong> with GPS verification — call <strong>(539) 367-6832</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
               Understanding when attorneys can serve papers directly, why
               professional process servers are usually the better choice, and

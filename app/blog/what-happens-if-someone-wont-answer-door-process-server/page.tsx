@@ -87,6 +87,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Happens If Someone Won't Answer the Door for a Process Server?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">If someone won't answer the door in Oklahoma, a process server can use <strong>substitute service (leaving documents with a competent household member 13+) plus mailing</strong>, or request a court order for alternative service under 12 O.S. § 2004. Just Legal Solutions handles evasive recipients statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           It's a scenario that plays out regularly across Oklahoma: a process server arrives at the defendant's address, knocks firmly, and... nobody answers. Or worse, someone is clearly home — curtains move, a shadow passes the window — but the door stays shut. If you're the plaintiff waiting for service to be completed, this can be incredibly frustrating. If you're the person being served, you might wonder whether ignoring the server makes the problem go away. The short answer: it doesn't. In this comprehensive guide, we'll explain exactly what happens when someone refuses to answer the door for a process server, the legal alternatives available under Oklahoma law, and how professional process servers handle evasive defendants.
         </p>

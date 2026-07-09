@@ -80,6 +80,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Do I Need a Notary for My Business Documents in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Do I Need a Notary for My Business Documents in Oklahoma?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Many Oklahoma business documents require notarization, including <strong>articles of incorporation, powers of attorney, contracts, and real estate deeds</strong>. Just Legal Solutions provides mobile notary services across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           Running a business in Oklahoma involves a mountain of paperwork. From incorporation documents and operating agreements to contracts, resolutions, and certificates, the number of documents requiring signatures can feel overwhelming. One question we hear frequently at Just Legal Solutions is whether business documents need to be notarized. The answer depends on the type of document, who is requesting it, and the level of protection you want. In this comprehensive guide, we break down which business documents require notarization in Oklahoma, which benefit from it, and how professional notary services can support your business operations.
         </p>

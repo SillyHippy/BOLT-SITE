@@ -136,6 +136,11 @@ export default function BlogPost() {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             What\u2019s the Difference Between a Process Server and a Lawyer?
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A process server <strong>delivers legal documents</strong> under <strong>12 O.S. § 158.1</strong> but cannot give legal advice, while a lawyer <strong>provides legal counsel and represents clients in court</strong>. Just Legal Solutions is a licensed process serving company — for legal advice, consult an Oklahoma attorney. Call <strong>(539) 367-6832</strong>.</p>
+        </div>
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
             Understanding the distinct roles of process servers and attorneys in
             Oklahoma\u2019s legal system \u2014 and knowing when you need each one.

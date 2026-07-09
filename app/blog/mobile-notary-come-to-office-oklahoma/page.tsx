@@ -80,6 +80,10 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Can I Get a Notary to Come to My Office in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Can I Get a Notary to Come to My Office in Oklahoma? Mobile Notary Guide</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes — mobile notaries travel to your office, home, or any location across all <strong>77 Oklahoma counties</strong>. Typical arrival is <strong>30–60 minutes</strong> in metro areas — call <strong>(539) 367-6832</strong> to schedule.</p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           If you are an Oklahoma business owner, professional, or employee who needs documents notarized during the workday, you have probably asked yourself whether a notary can come to you instead of you leaving the office to find one. The answer is a resounding yes. Mobile notary services are specifically designed for this exact scenario. In this comprehensive guide, we explain everything you need to know about getting a notary to come to your office in Oklahoma, from how scheduling works to what you can expect during the appointment.
         </p>

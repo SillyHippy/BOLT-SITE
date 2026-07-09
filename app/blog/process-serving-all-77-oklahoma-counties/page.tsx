@@ -79,6 +79,11 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Process Serving in All 77 Oklahoma Counties: Complete Guide
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Just Legal Solutions serves legal documents in <strong>all 77 Oklahoma counties</strong> through a bonded network of licensed process servers under <strong>12 O.S. § 158.1</strong>. Standard rates cover Tulsa, Creek, and Wagoner counties; travel surcharges may apply elsewhere. Call <strong>(539) 367-6832</strong> for a precise quote.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Oklahoma is a state of remarkable geographic and demographic diversity,
           stretching from the urban corridors of Tulsa and Oklahoma City to the

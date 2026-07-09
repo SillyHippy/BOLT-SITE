@@ -97,6 +97,11 @@ export default function WorkersCompSubpoenaServicePage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Workers&apos; Compensation Subpoena Service in Oklahoma
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma workers' compensation subpoenas must be served on the <strong>employer, insurer, healthcare provider, or witness</strong> named, with proof of service filed with the Oklahoma Workers' Compensation Commission. Service follows 12 O.S. § 2004 rules. Just Legal Solutions handles workers' comp subpoenas statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         </div>
       </section>
 

@@ -204,6 +204,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-tight mb-4">What's the Cost Difference Between Fast and Standard Process Serving?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Standard process serving in Oklahoma costs <strong>$35–$75</strong> with 2–3 day turnaround, while rush/same-day service ranges from <strong>$100–$265</strong>. Just Legal Solutions offers transparent pricing with GPS verification across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
         <p className="text-lg text-slate-600 mb-2">A side-by-side comparison of pricing tiers, value analysis, and when to choose each service level in Oklahoma.</p>
         <p className="text-sm text-slate-400 mb-10">Published February 5, 2024 by Just Legal Solutions</p>
 

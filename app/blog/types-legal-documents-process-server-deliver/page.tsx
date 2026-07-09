@@ -55,6 +55,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Types of Legal Documents Process Servers Deliver</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Legal Documents Can a Process Server Deliver? Complete List</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma process servers deliver <strong>summons, subpoenas, complaints, eviction notices, divorce papers, small-claims petitions, orders to appear, and writs</strong> under 12 O.S. § 2004. Just Legal Solutions serves all document types statewide with court-compliant affidavits — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">Understanding what documents a process server can deliver is essential for attorneys, landlords, and individuals navigating the legal system. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle virtually every type of legal document that requires personal service. In this guide, we break down the complete list of documents a process server can deliver and explain the specific handling requirements for each category.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>

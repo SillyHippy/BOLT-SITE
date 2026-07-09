@@ -116,6 +116,11 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           The Oklahoma Notary Public Act Explained: Rules and Requirements
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">The Oklahoma Notary Public Act (Title 49 of the Oklahoma Statutes) governs how notaries are appointed, what acts they may perform, and penalties for misconduct. Notaries must be <strong>18+, Oklahoma residents, and bonded</strong>, and cannot give legal advice. Just Legal Solutions provides compliant notary services statewide — call <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
         {/* Intro */}
         <p className="text-gray-600 mb-8 text-lg">

@@ -122,6 +122,11 @@ export default function RealEstateAgentsProcessServingOklahoma() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
             What Oklahoma Real Estate Agents Should Know About Process Serving (2026)
           </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma real estate agents may need process serving for <strong>evictions, breach-of-contract suits, commission disputes, or tenant notices</strong>. Proper service under 12 O.S. § 2004 protects the agent's case from dismissal. Just Legal Solutions serves tenants, landlords, and parties statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">

@@ -409,6 +409,10 @@ export default function EvictionNoticeGuide() {
             <div className="relative p-8 md:p-12 text-center">
               <Shield className="w-16 h-16 text-yellow-500 mx-auto mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Need an FED Court Summons Served Fast?</h2>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Eviction notices in Oklahoma require <strong>proper written notice</strong> before filing (5-day for nonpayment, 30-day for no-cause). Licensed process servers ensure compliance — call <strong>(539) 367-6832</strong> for service across all <strong>77 counties</strong>.</p>
+        </div>
               <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">Once you file your FED action, the clock starts ticking. Just Legal Solutions provides verified, statutorily compliant process serving for evictions across all 77 Oklahoma counties.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5">

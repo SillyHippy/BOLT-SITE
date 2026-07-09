@@ -95,6 +95,10 @@ export default function BlogPost() {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
               How Much Experience Should a Process Server Have?
             </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Choose a process server with at least <strong>5+ years experience</strong> and proper licensing under <strong>12 O.S. § 158.1</strong>. Just Legal Solutions brings <strong>50+ years combined experience</strong> across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+        </div>
             <p className="text-lg text-gray-600 mb-4">
               Understanding experience benchmarks, why expertise matters, and
               how to evaluate a process server's qualifications in Oklahoma.

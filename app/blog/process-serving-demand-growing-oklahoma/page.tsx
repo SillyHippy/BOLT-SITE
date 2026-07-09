@@ -73,6 +73,11 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Why Process Serving Demand Is Growing in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Why Process Serving Demand Is Growing in Oklahoma</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Demand for process serving in Oklahoma is rising due to <strong>increased civil filings, eviction actions, debt-collection lawsuits, and divorce cases</strong>. Population growth in the Tulsa and OKC metros has expanded caseloads statewide. Just Legal Solutions handles growing volume across <strong>77 counties</strong> — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the team at Just Legal Solutions has witnessed firsthand the dramatic increase in demand for professional process serving. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we have a unique vantage point on the trends driving this growth. Whether you are an attorney managing a growing caseload or an individual navigating the legal system, understanding these demand factors can help you plan accordingly and secure reliable service when you need it most.
         </p>

@@ -123,6 +123,11 @@ export default function CanYouAvoidBeingServedOklahoma() {
             Can You Avoid Being Served? What Really Happens in Oklahoma (2026)
           </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Avoiding service of process in Oklahoma is <strong>not legally effective</strong> — courts can grant alternative service (publication, email, or posting) if a defendant evades a licensed process server. Under <strong>12 O.S. § 158.1</strong>, servers use skip tracing and GPS tracking across all <strong>77 counties</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center gap-4 mt-6">
             <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
               <span className="text-blue-200 text-sm">By</span>

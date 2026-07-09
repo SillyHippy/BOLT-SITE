@@ -143,6 +143,11 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Courier vs. Mail: Why Oklahoma Law Firms Switch
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Document couriers provide <strong>faster delivery, chain-of-custody tracking, and proof of receipt</strong> compared to regular mail, which can be lost or delayed. Just Legal Solutions offers courier and process serving across all <strong>77 Oklahoma counties</strong> under <strong>12 O.S. § 158.1</strong>.</p>
+        </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-28').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

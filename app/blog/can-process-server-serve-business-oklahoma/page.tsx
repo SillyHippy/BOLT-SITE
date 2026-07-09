@@ -96,6 +96,11 @@ export default function BlogPost() {
               Can a Process Server Serve a Business Instead of an Individual
               in Oklahoma?
             </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, a licensed process server in Oklahoma can serve a business by delivering papers to <strong>a registered agent, officer, or managing member</strong> under <strong>12 O.S. § 158.1</strong> and <strong>12 O.S. § 2004</strong>. Just Legal Solutions serves businesses across all <strong>77 counties</strong> with GPS verification.</p>
+        </div>
             <p className="text-lg text-gray-600 mb-4">
               Understanding how service of process works for corporations,
               LLCs, partnerships, and out-of-state businesses under Oklahoma

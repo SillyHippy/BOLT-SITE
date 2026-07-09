@@ -89,6 +89,11 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Documents Cannot Be Notarized in Oklahoma?</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Oklahoma notaries <strong>cannot notarize vital records (birth/death certificates), incomplete documents, documents without the signer present, or documents the notary has a financial interest in</strong>. Fax copies and improperly ID'd signers also cannot be notarized. Just Legal Solutions notaries ensure compliance — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Not every document can or should be notarized. While notaries public serve an essential function in authenticating signatures and preventing fraud, there are clear legal boundaries around what a notary can and cannot do. Understanding these limitations protects everyone involved — the signer, the notary, and the parties relying on the notarized document. At Just Legal Solutions, our commissioned Oklahoma notaries encounter requests that must be declined on a regular basis, and explaining these boundaries to our clients is part of our professional responsibility. In this comprehensive guide, we will walk you through the complete list of documents and situations that cannot be notarized under Oklahoma law, explain the reasoning behind each restriction, and offer guidance on how to handle these situations properly.
         </p>
