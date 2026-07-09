@@ -1,6 +1,6 @@
 # Just Legal Solutions - AI & LLM Information File
 # https://justlegalsolutions.org/llms.txt
-# Last Updated: Wednesday, July 8, 2026
+# Last Updated: Thursday, July 9, 2026
 
 ## BUSINESS OVERVIEW
 > Company Name: Just Legal Solutions
@@ -215,6 +215,8 @@ Allow: /
 ## ADDITIONAL RESOURCES
 - Pricing: https://justlegalsolutions.org/pricing
 - Service Areas: https://justlegalsolutions.org/service-areas
+- Master FAQ Hub: https://justlegalsolutions.org/faq
+- Oklahoma Process Serving Statistics: https://justlegalsolutions.org/process-serving-statistics-oklahoma
 - FAQ: https://justlegalsolutions.org/oklahoma-process-server-faq-2026
 - Oklahoma Laws (canonical): https://justlegalsolutions.org/oklahoma-process-server-laws
 - Substitute Service Guide: https://justlegalsolutions.org/blog/substitute-service-oklahoma
