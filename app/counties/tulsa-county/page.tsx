@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import AuthorBio from '@/components/AuthorBio';
+import LastUpdated from '@/components/ui/last-updated';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -1648,9 +1649,7 @@ export default function TulsaCountyProcessServer() {
             </div>
           </div>
         </section>
-        <p className="text-sm text-gray-500 mt-6 mb-2 text-center">
-          <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
-        </p>
+        <LastUpdated pathname="/counties/tulsa-county" label="Last reviewed" className="text-sm text-gray-500 mt-6 mb-2 text-center" />
         <AuthorBio />
       </div>
 </>

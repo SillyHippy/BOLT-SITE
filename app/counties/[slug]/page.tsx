@@ -17,6 +17,7 @@ import { getCountyGeoData } from '@/lib/county-geo';
 import { getCitiesByCounty } from '@/lib/city-geo';
 import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 import AuthorBio from '@/components/AuthorBio';
+import LastUpdated from '@/components/ui/last-updated';
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   const slugs = await getCountySlugs();
@@ -229,9 +230,7 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
         )}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-                  <p className="text-sm text-gray-500 mt-6 mb-2">
-          <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
-        </p>
+        <LastUpdated pathname={`/counties/${slug}`} label="Last reviewed" className="text-sm text-gray-500 mt-6 mb-2" />
         <CountyRelatedLinks countySlug={slug} countyName={countyName} />
         <AuthorBio />
         </div>

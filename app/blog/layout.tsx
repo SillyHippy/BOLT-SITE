@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import CountyLinksCTA from '@/components/ui/CountyLinksCTA';
 import AuthorBio from '@/components/AuthorBio';
+import BlogLastUpdated from '@/components/ui/blog-last-updated';
 
 // Shared layout for /blog/*.
 // Appends a county cross-link section and an E-E-A-T author attribution
@@ -12,6 +13,7 @@ export default function BlogLayout({ children }: { children: ReactNode }) {
     <>
       {children}
       <div className="max-w-4xl mx-auto px-4 pb-12">
+        <BlogLastUpdated />
         <CountyLinksCTA />
         <AuthorBio />
       </div>

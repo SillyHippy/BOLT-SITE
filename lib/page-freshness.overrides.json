@@ -1,5 +1,9 @@
 {
   "_comment": "Optional manual date bumps when content was reviewed without editing page.tsx. Use ISO date YYYY-MM-DD; applied only if newer than file mtime.",
-  "/pricing": { "dateModified": "2026-05-04" },
-  "/": { "dateModified": "2026-05-04" }
+  "/pricing": { "dateModified": "2026-07-09" },
+  "/": { "dateModified": "2026-07-09" },
+  "/faq": { "dateModified": "2026-07-09" },
+  "/oklahoma-process-serving-laws-simplified": { "dateModified": "2026-07-09" },
+  "/process-serving-statistics-oklahoma": { "dateModified": "2026-07-09" },
+  "/process-server-vs-certified-mail": { "dateModified": "2026-07-09" }
 }
