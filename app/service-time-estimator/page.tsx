@@ -117,7 +117,7 @@ export default function ServiceTimeEstimatorPage() {
                   <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
                     Step 2 — Where is the recipient?
                   </label>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3" role="group" aria-label="Recipient Location Selection">
                     {counties.map((c) => (
                       <button
                         key={c.id}
@@ -140,7 +140,7 @@ export default function ServiceTimeEstimatorPage() {
                   <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
                     Step 3 — How fast do you need it?
                   </label>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-3" role="group" aria-label="Service Speed Selection">
                     {urgencyLevels.map((u) => (
                       <button
                         key={u.id}

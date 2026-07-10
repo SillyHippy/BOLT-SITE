@@ -121,7 +121,7 @@ export default function RushEmergencyCostCalculator() {
           {/* Tier Selector */}
           <div className="mb-5">
             <label className="label block mb-2">Service tier</label>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2" role="group" aria-label="Service Tier Selection">
               {allTiers.map((t) => {
                 const labels: Record<ServiceTier, string> = {
                   standard: 'Standard (1–3 days)',

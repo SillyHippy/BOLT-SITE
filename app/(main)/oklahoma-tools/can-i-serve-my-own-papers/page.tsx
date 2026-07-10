@@ -247,7 +247,7 @@ export default function CanIServeMyOwnPapers() {
           {/* Question 1: Case Type */}
           <div className="mb-6">
             <p className="label block mb-2">1. What type of case is this?</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2" role="group" aria-label="Case Type Selection">
               {[
                 { value: 'divorce', label: 'Divorce' },
                 { value: 'custody', label: 'Child Custody' },
@@ -283,7 +283,7 @@ export default function CanIServeMyOwnPapers() {
           {caseType && (
             <div className="mb-6 animate-fade-in">
               <p className="label block mb-2">2. Are you a party to the case?</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2" role="group" aria-label="Party Type Selection">
                 {[
                   { value: 'plaintiff', label: 'Plaintiff (I filed the case)' },
                   { value: 'defendant', label: 'Defendant (I was sued)' },
@@ -316,7 +316,7 @@ export default function CanIServeMyOwnPapers() {
           {partyType && (
             <div className="mb-6 animate-fade-in">
               <p className="label block mb-2">3. Is the defendant an Oklahoma resident?</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2" role="group" aria-label="Oklahoma Resident Status">
                 {[
                   { value: 'yes', label: 'Yes' },
                   { value: 'no', label: 'No' },
@@ -348,7 +348,7 @@ export default function CanIServeMyOwnPapers() {
           {okResident && (
             <div className="mb-6 animate-fade-in">
               <p className="label block mb-2">4. Do you know the defendant&apos;s current address?</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2" role="group" aria-label="Defendant Address Status">
                 {[
                   { value: 'yes', label: 'Yes' },
                   { value: 'no', label: 'No' },
@@ -378,7 +378,7 @@ export default function CanIServeMyOwnPapers() {
           {knowAddress === 'no' && (
             <div className="mb-6 animate-fade-in">
               <p className="label block mb-2">5. Is the defendant likely to cooperate?</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2" role="group" aria-label="Defendant Cooperation Status">
                 {[
                   { value: 'yes', label: 'Yes' },
                   { value: 'probably-not', label: 'Probably not' },

@@ -153,7 +153,7 @@ export default function CostCalculatorPage() {
                 <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
                   Step 2 — Select Service Type
                 </label>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3" role="group" aria-label="Service Type Selection">
                   {serviceTypes.map((s) => (
                     <button
                       key={s.id}
