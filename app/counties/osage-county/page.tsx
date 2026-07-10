@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import AuthorBio from '@/components/AuthorBio';
+import LastUpdated from '@/components/ui/last-updated';
 import { CountyRelatedLinks } from '@/components/ui/county-related-links';
 import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
@@ -257,11 +258,7 @@ export default function OsageCountyCountyPage() {
             </div>
           </div>
         </section>
-
-        
-                <p className="text-sm text-gray-500 mt-6 mb-2">
-          <time dateTime="2026-07-08">Last reviewed: July 8, 2026</time> by Just Legal Solutions
-        </p>
+        <LastUpdated pathname="/counties/osage-county" label="Last reviewed" className="text-sm text-gray-500 mt-6 mb-2" />
         {/* CountyRelatedLinks */}
         <CountyRelatedLinks countySlug="osage-county" countyName="Osage County" />
         <AuthorBio />
