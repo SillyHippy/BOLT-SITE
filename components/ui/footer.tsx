@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useRef, useCallback } from "react";
@@ -265,6 +264,29 @@ export function Footer() {
         const notes = data['service_instructions'] || '';
         
         await uploadFilesToDrive(clientName, caseNumber, email, notes);
+      }
+
+      // Fire-and-forget: notify Zo Computer → Telegram instantly (zero AI credits)
+      try {
+        const notifyPayload = {
+          name: data['firm_or_company_name'] || data['your_name'] || '',
+          phone: data['your_phone_number'] || '',
+          email: data['your_email_address'] || '',
+          serviceType: data['service_type'] || data['service_type_other_details'] || 'Process Service',
+          county: data['service_county'] || data['county'] || '',
+          deadline: data['service_deadline'] || data['court_date'] || '',
+          contactMethod: data['preferred_contact_method'] || '',
+          details: data['service_instructions'] || data['additional_notes'] || '',
+        };
+        void fetch('https://sillyhippy.zo.space/api/service-request', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(notifyPayload),
+        }).catch((err) => {
+          console.warn('Zo notify request failed (non-blocking):', err);
+        });
+      } catch (notifyErr) {
+        console.warn('Zo notify payload build failed (non-blocking):', notifyErr);
       }
 
       // Fire-and-forget: ask the Apps Script backend to create a Helcim invoice
