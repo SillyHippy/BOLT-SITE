@@ -57,13 +57,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "rush-same-day-process-serving-importance": {
-      "target": "/same-day-process-server",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "same-day-document-delivery-law-firms-oklahoma": {
       "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -128,6 +121,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "process-server-vs-sheriff-oklahoma",
-  "lastPublishedAt": "2026-07-07T17:05:46.988Z"
+  "lastPublishedSlug": "rush-same-day-process-serving-importance",
+  "lastPublishedAt": "2026-07-14T16:08:24.690Z"
 }
