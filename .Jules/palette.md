@@ -4,3 +4,7 @@
 ## 2026-07-10 - Added ARIA role="group" and aria-label to calculator buttons
 **Learning:** Found several tools (Cost Calculator, Time Estimator, etc.) where `<button>` elements were used to simulate radio groups for selecting single options, but the wrapper `<div>` elements lacked `role="group"` and `aria-label`. Without this context, assistive technologies won't announce these buttons as a related set of choices.
 **Action:** When creating custom interactive widgets that group `<button>` elements to behave like `<input type="radio">` (e.g. step selections), always ensure the parent container includes `role="group"` and an explicit, descriptive `aria-label`.
+
+## 2026-07-15 - Focus-visible styles on dynamic interactive buttons
+**Learning:** Interactive elements such as selection options built using styled `<button>` tags (e.g., Yes/No toggle inputs) across tools lack keyboard accessibility out of the box because Tailwind removes focus styles by default.
+**Action:** When building custom interactive elements, always explicitly apply `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color] focus-visible:ring-offset-2` classes to restore accessibility.
