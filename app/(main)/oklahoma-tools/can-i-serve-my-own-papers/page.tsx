@@ -238,7 +238,7 @@ export default function CanIServeMyOwnPapers() {
             <button
               type="button"
               onClick={reset}
-              className="text-sm text-blue-600 hover:text-blue-800 underline"
+              className="text-sm text-blue-600 hover:text-blue-800 underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 rounded"
             >
               Reset all
             </button>
@@ -266,7 +266,7 @@ export default function CanIServeMyOwnPapers() {
                     setKnowAddress('');
                     setWillCooperate('');
                   }}
-                  className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors text-left ${
+                  className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 text-left ${
                     caseType === opt.value
                       ? 'bg-navy text-white border-navy'
                       : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -298,7 +298,7 @@ export default function CanIServeMyOwnPapers() {
                       setKnowAddress('');
                       setWillCooperate('');
                     }}
-                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       partyType === opt.value
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -330,7 +330,7 @@ export default function CanIServeMyOwnPapers() {
                       setKnowAddress('');
                       setWillCooperate('');
                     }}
-                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       okResident === opt.value
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -360,7 +360,7 @@ export default function CanIServeMyOwnPapers() {
                       setKnowAddress(opt.value as KnowAddress);
                       setWillCooperate('');
                     }}
-                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       knowAddress === opt.value
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -387,7 +387,7 @@ export default function CanIServeMyOwnPapers() {
                     key={opt.value}
                     type="button"
                     onClick={() => setWillCooperate(opt.value as WillCooperate)}
-                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-4 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       willCooperate === opt.value
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -513,13 +513,13 @@ export default function CanIServeMyOwnPapers() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="tel:539-367-6832"
-              className="inline-block bg-[#d4a017] text-navy font-semibold px-6 py-2.5 rounded hover:bg-[#c29415] transition-colors"
+              className="inline-block bg-[#d4a017] text-navy font-semibold px-6 py-2.5 rounded hover:bg-[#c29415] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2"
             >
               Call (539) 367-6832
             </a>
             <a
               href="mailto:info@JustLegalSolutions.org"
-              className="inline-block bg-white/10 text-white font-semibold px-6 py-2.5 rounded hover:bg-white/20 transition-colors"
+              className="inline-block bg-white/10 text-white font-semibold px-6 py-2.5 rounded hover:bg-white/20 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-navy"
             >
               Email for Quote
             </a>
