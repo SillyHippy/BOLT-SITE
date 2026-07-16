@@ -33,7 +33,7 @@ const FAQItem = memo(({
     <button
       id={`${baseId}-faq-question-${index}`}
       onClick={() => onToggle(index)}
-      className="w-full text-left p-6 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
+      className="w-full text-left p-6 hover:bg-gray-50 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset"
       aria-expanded={isOpen}
       aria-controls={`${baseId}-faq-answer-${index}`}
     >
