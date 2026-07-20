@@ -417,7 +417,7 @@ export default function PricingPage() {
               </p>
               <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
-                  <span className="font-semibold">Note on Service Area:</span> Standard rates cover <strong>Tulsa County</strong> and parts of <strong>Creek County (Sapulpa)</strong> and <strong>Wagoner County (Broken Arrow)</strong>. We serve all 77 Oklahoma counties through our trusted network of partner process servers. Areas outside standard zones may include a travel surcharge.{' '}<a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Contact us for a precise quote</a>.
+                  <span className="font-semibold">Note on Pricing &amp; Service Area:</span> With fuel costs and inflation where they are, all rates shown are <strong>starting prices only</strong> — not a locked quote. Your actual price is confirmed from the service address (mileage/fuel) and timing. Even in our primary coverage (<strong>Tulsa County</strong>, <strong>Broken Arrow</strong>, <strong>Sapulpa</strong>, and nearby areas), some locations cost more. Example: Rush may list at the starting rate, then land higher once fuel and area are factored in. We serve all 77 Oklahoma counties through our partner network; jobs outside our primary zone may include an additional travel surcharge.{' '}<a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Contact us for a firm quote</a>.
                 </p>
               </div>
             </div>
@@ -520,7 +520,7 @@ export default function PricingPage() {
               </div>
             </div>
             <p className="text-center text-sm text-gray-500 mt-8">
-              Courier pricing applies to Tulsa County, Broken Arrow, &amp; the Sapulpa area. A surcharge applies to other locations.<br />
+              Courier rates are starting prices for Tulsa County, Broken Arrow, &amp; the Sapulpa area. Some addresses in those areas may cost more based on mileage and fuel; a surcharge applies to other locations.<br />
               <span className="text-gray-600 font-medium">Note: Rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
             </p>
           </div>

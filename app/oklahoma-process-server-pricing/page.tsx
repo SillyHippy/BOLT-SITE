@@ -289,7 +289,7 @@ export default function OklahomaProcessServerPricing2026() {
           </div>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6 rounded text-sm text-gray-700">
-            <p><strong>Note on Service Area:</strong> Standard rates cover Tulsa County and parts of Creek County (Sapulpa) and Wagoner County (Broken Arrow). We serve all 77 Oklahoma counties through our trusted network of partner process servers. Areas outside standard zones may include a travel surcharge. <Link href="/contact" className="text-blue-700 font-semibold underline">Contact us for a precise quote</Link>.</p>
+            <p><strong>Note on Pricing &amp; Service Area:</strong> With fuel costs and inflation where they are, all rates shown are <strong>starting prices only</strong> — not a locked quote. Your actual price is confirmed from the service address (mileage/fuel) and timing. Even in our primary coverage (Tulsa County, Broken Arrow, Sapulpa, and nearby areas), some locations cost more. Example: Rush may list at the starting rate, then land higher once fuel and area are factored in. We serve all 77 Oklahoma counties through our partner network; jobs outside our primary zone may include an additional travel surcharge. <Link href="/contact" className="text-blue-700 font-semibold underline">Contact us for a firm quote</Link>.</p>
           </div>
         </section>
 
