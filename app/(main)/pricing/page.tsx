@@ -241,7 +241,7 @@ export default function PricingPage() {
             <div id="process-server-cost-tulsa" className="max-w-3xl mx-auto mb-8 text-left bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-6 shadow-sm">
               <h2 className="text-xl md:text-2xl font-bold text-blue-900 mb-3">How much does a process server cost in Tulsa?</h2>
               <p className="text-gray-800 leading-relaxed">
-                <strong>Process server costs in Tulsa start at ${getStartingPrice('single-attempt')} for a single-attempt posting and ${getStartingPrice('standard')} for standard service (up to three attempts).</strong> Rush service starts at ${getStartingPrice('rush')}; same-day delivery starts at ${getStartingPrice('same-day')}. County sheriff fees in Tulsa County typically run $40–$50 per attempt with a 2–4 week turnaround. Just Legal Solutions publishes transparent starting rates with GPS-verified proof included — call (539) 367-6832 for a quote.
+                <strong>Process server costs in Tulsa start at ${getStartingPrice('single-attempt')} for a single-attempt posting and ${getStartingPrice('standard')} for standard service (up to three attempts).</strong> Rush service starts at ${getStartingPrice('rush')}; same-day delivery starts at ${getStartingPrice('same-day')}. County sheriff fees in Tulsa County typically run $40–$50 per attempt, with about 2–4 weeks per attempt. Just Legal Solutions publishes transparent starting rates with GPS-verified proof included — call (539) 367-6832 for a quote.
               </p>
             </div>
 
@@ -346,8 +346,8 @@ export default function PricingPage() {
                     <tr>
                       <td className="px-4 py-3 font-medium text-gray-900">Typical turnaround</td>
                       <td className="px-4 py-3 text-gray-700">Same day to 5–10 business days</td>
-                      <td className="px-4 py-3 text-gray-700">3–7 business days</td>
-                      <td className="px-4 py-3 text-gray-700">2–4 weeks</td>
+                      <td className="px-4 py-3 text-gray-700">Typically 3–21 business days (can stretch if attempts are spaced out)</td>
+                      <td className="px-4 py-3 text-gray-700">About 2–4 weeks per attempt</td>
                     </tr>
                     <tr className="bg-slate-50">
                       <td className="px-4 py-3 font-medium text-gray-900">GPS-verified proof</td>
