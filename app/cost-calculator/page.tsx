@@ -34,14 +34,14 @@ const areaPriceAdders: Record<string, number> = {
 };
 
 const serviceTypes = [
-  { id: 'standard', label: 'Standard Service', base: 60, desc: 'Up to 3 attempts within 10 business days' },
-  { id: 'rush', label: 'Rush Service', base: 100, desc: 'Attempt within 72 hours' },
-  { id: 'sameday', label: 'Same-Day Service', base: 150, desc: 'Attempt within 24 hours' },
+  { id: 'standard', label: 'Standard Service', base: 80, desc: 'Up to 3 attempts within 10 business days' },
+  { id: 'rush', label: 'Rush Service', base: 120, desc: 'Attempt within 72 hours' },
+  { id: 'sameday', label: 'Same-Day Service', base: 170, desc: 'Attempt within 24 hours' },
   { id: 'triple', label: 'Triple-Attempt Rush', base: 200, desc: '3 guaranteed attempts within 72 hours' },
 ];
 
 const addOns = [
-  { id: 'stakeout', label: 'Stakeout (per hour, 2hr min)', cost: 105 },
+  { id: 'stakeout', label: 'Stakeout (per hour, 2hr min)', cost: 110 },
   { id: 'skip_trace', label: 'Skip Tracing', cost: 75 },
   { id: 'court_filing', label: 'In-person court filing (Tulsa Co.)', cost: 35 },
   { id: 'certified_mail', label: 'Certified mailing', cost: 35 },
@@ -279,7 +279,7 @@ export default function CostCalculatorPage() {
 
           {/* Disclaimer + Cross-links */}
           <div className="mt-8 bg-white rounded-xl border border-gray-200 p-5 text-sm text-gray-600">
-            <p className="mb-3"><strong>About these estimates:</strong> Pricing reflects our standard rates as of April 2026. A temporary fuel surcharge is currently in effect for fuel-dependent services. Surcharges for distant counties are estimated and will be confirmed before you commit. All quotes are free.</p>
+            <p className="mb-3"><strong>About these estimates:</strong> Current fuel-dependent rates include the temporary $20 fuel and operating-cost adjustment effective July 21, 2026. Distance charges are estimates and will be confirmed before you commit. All quotes are free.</p>
             <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-gray-100">
               <Link href="/pricing" className="text-blue-600 hover:underline font-medium">Full Pricing Page →</Link>
               <Link href="/contact" className="text-blue-600 hover:underline font-medium">Request Service →</Link>
@@ -298,7 +298,7 @@ export default function CostCalculatorPage() {
           {
             "@type": "Question",
             "name": "How much does a process server cost in Oklahoma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Standard process serving in Oklahoma starts at $60 for Tulsa County. Rush service (within 72 hours) is $100. Same-day service is $150. Additional fees apply for distant counties and add-on services. Use our cost calculator above to estimate your total." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Current standard process serving in Oklahoma starts at $80 for Tulsa County. Rush service (within 72 hours) starts at $120. Same-day service starts at $170. These fuel-dependent rates include a temporary $20 fuel and operating-cost adjustment. Additional fees may apply for mileage, distant counties, and add-on services. Use our cost calculator above to estimate your total." },
           },
           {
             "@type": "Question",
@@ -308,7 +308,7 @@ export default function CostCalculatorPage() {
           {
             "@type": "Question",
             "name": "What is the cost for same-day process serving in Oklahoma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Same-day process serving in Oklahoma starts at $150 for Tulsa County, with any applicable county surcharges added. Same-day service guarantees an attempt within 24 hours of your order." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Current same-day process serving in Oklahoma starts at $170 for Tulsa County, with any applicable mileage or county charges added. Same-day service guarantees an attempt within 24 hours of your order." },
           },
         ],
       })}} />

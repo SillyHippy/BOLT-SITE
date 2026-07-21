@@ -20,17 +20,17 @@ export type StartingPrice = {
 
 export const STARTING_PRICES: readonly StartingPrice[] = [
   { id: 'single-attempt', label: 'Single-Attempt Posting', startsAt: 35, note: '1-3 business days' },
-  { id: 'standard', label: 'Standard Service', startsAt: 60, note: 'up to 3 attempts, 5-10 business days' },
-  { id: 'rush', label: 'Rush Service', startsAt: 100, note: '1-3 business days' },
-  { id: 'same-day', label: 'Same-Day Service', startsAt: 150, note: 'within 4-8 hours' },
+  { id: 'standard', label: 'Standard Service', startsAt: 80, note: 'up to 3 attempts, 5-10 business days' },
+  { id: 'rush', label: 'Rush Service', startsAt: 120, note: '1-3 business days' },
+  { id: 'same-day', label: 'Same-Day Service', startsAt: 170, note: 'within 4-8 hours' },
   { id: 'triple-attempt', label: 'Triple-Attempt Service', startsAt: 200, note: 'over 3 business days, up to 3 attempts, evasive respondents' },
   { id: 'after-hours-rush', label: 'After-Hours Rush', startsAt: 265, note: '2-hour response' },
 ] as const;
 
 /** Add-on / non-process-serving services. Optional; for richer pricing pages. */
 export const ANCILLARY_STARTING_PRICES: readonly StartingPrice[] = [
-  { id: 'standard-courier', label: 'Standard Courier', startsAt: 60, note: 'same-day or next-morning' },
-  { id: 'rush-courier', label: 'Rush Courier', startsAt: 100, note: '2-3 hour priority' },
+  { id: 'standard-courier', label: 'Standard Courier', startsAt: 80, note: 'same-day or next-morning' },
+  { id: 'rush-courier', label: 'Rush Courier', startsAt: 120, note: '2-3 hour priority' },
   { id: 'notary-in-office', label: 'In-Office Notary', startsAt: 20, note: 'Mon-Fri 8am-6pm' },
   { id: 'notary-mobile', label: 'Mobile Notary / RON', startsAt: 25, note: 'per act, travel fee may apply' },
   { id: 'skip-tracing', label: 'Skip Tracing', startsAt: 50, note: 'standard turnaround' },

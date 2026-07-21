@@ -20,8 +20,8 @@ const pricingFreshness = getPageFreshness('/pricing')!;
 export const metadata: Metadata = {
   title: 'Pricing | Process Server & Notary Services Oklahoma',
   description: getPromoDescription(
-    'Process server & notary pricing in Oklahoma. Service starts at $35 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees. Licensed & bonded.',
-    '25% OFF select ZIPs! Process server & notary pricing in Oklahoma. Starts at $35 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees.'
+    'Process server & notary pricing in Oklahoma. Service starts at $35 single-attempt, $80 standard; notary starts at $20. Same-day available. Clear current rates. Licensed & bonded.',
+    '25% OFF select ZIPs! Process server & notary pricing in Oklahoma. Starts at $35 single-attempt, $80 standard; notary starts at $20. Same-day available. Clear current rates.'
   ),
   keywords: 'process server pricing Oklahoma, notary fees Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services, mobile notary cost, RON notary Oklahoma',
   alternates: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
-    description: 'Transparent process server pricing in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. No hidden fees.',
+    description: 'Transparent process server pricing in Oklahoma. Service starts at $35 single-attempt, $80 standard, $120 rush, $170 same-day, $265 after-hours. Clear current rates.',
     url: 'https://justlegalsolutions.org/pricing',
     siteName: 'Just Legal Solutions',
     images: [
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
-    description: 'Transparent process server pricing in Oklahoma. Starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
+    description: 'Transparent process server pricing in Oklahoma. Starts at $35 single-attempt, $80 standard, $120 rush, $170 same-day, $265 after-hours.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.webp'],
   },
   robots: {
@@ -61,8 +61,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'ai-summary': 'Just Legal Solutions transparent pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $35, standard $60, rush $100, same-day $150, triple-attempt $200, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $60. All 77 Oklahoma counties served. These are starting prices; final cost depends on distance, attempts, and complexity.',
-    'ai-key-facts': 'Single attempt $35, Standard $60, Rush $100, Same-Day $150, Triple-Attempt $200, Standard Courier $60, Rush Courier $100, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $105/hr, eFiling free, Tulsa County primary service area, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions transparent current pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $35, standard $80, rush $120, same-day $170, triple-attempt $200, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $80. Current fuel-dependent rates include a temporary $20 operating-cost adjustment. All 77 Oklahoma counties served. Final cost depends on location, mileage, timing, attempts, and complexity.',
+    'ai-key-facts': 'Single attempt $35, Standard $80 current ($60 regular plus $20 temporary adjustment), Rush $120 current, Same-Day $170 current, Triple-Attempt $200, Standard Courier $80 current, Rush Courier $120 current, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $110/hr current, eFiling free, Tulsa County primary service area, (539) 367-6832',
     ...buildFreshnessMetadata({
       datePublished: pricingFreshness.datePublished,
       dateModified: pricingFreshness.dateModified,
@@ -108,11 +108,11 @@ const serviceCategories = [
 const pricingFaqItems = [
   {
     question: "How much does a process server cost in Tulsa?",
-    answer: "Process server costs in Tulsa start at $35 for a single-attempt posting and $60 for standard service (up to three attempts). Rush service starts at $100; same-day delivery starts at $150. County sheriff service in Tulsa County typically runs $40–$50 per attempt with a longer wait. Just Legal Solutions includes GPS-verified proof and real-time updates in every tier."
+    answer: "Process server costs in Tulsa start at $35 for a single-attempt posting and $80 for standard service (up to three attempts). Rush service starts at $120; same-day delivery starts at $170. Current fuel-dependent rates include a temporary $20 operating-cost adjustment. County sheriff service in Tulsa County typically runs $40–$50 per attempt with a longer wait. Just Legal Solutions includes GPS-verified proof and real-time updates in every tier."
   },
   {
     question: "What is the cheapest process server option in Oklahoma?",
-    answer: "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35."
+    answer: "Our current Standard Service starts at $80 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35."
   },
   {
     question: "Are there any hidden fees for process serving?",
@@ -139,13 +139,13 @@ export default function PricingPage() {
         pageType="service"
         url="https://justlegalsolutions.org/pricing"
         title="Process Server Pricing Oklahoma - Just Legal Solutions"
-        description="Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard."
+        description="Professional process serving and legal document delivery in Oklahoma with transparent current starting prices. Service starts at $35 single-attempt, $80 standard."
         datePublished={pricingFreshness.datePublished}
         dateModified={pricingFreshness.dateModified}
         serviceDetails={{
           name: "Process Server Services Oklahoma",
-          description: "Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",
-          price: "$60-$265",
+          description: "Professional process serving and legal document delivery in Oklahoma with transparent current starting prices. Service starts at $35 single-attempt, $80 standard, $120 rush, $170 same-day, $265 after-hours.",
+          price: "$80-$265",
           areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
           serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
         }}
@@ -155,7 +155,7 @@ export default function PricingPage() {
             {
               name: "Standard Process Service",
               description: "First service attempt within 10 business days",
-              price: "$60",
+              price: "$80",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Standard Process Service",
@@ -165,7 +165,7 @@ export default function PricingPage() {
             {
               name: "Rush Process Service",
               description: "Service attempt within 72 hours or sooner",
-              price: "$100",
+              price: "$120",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Rush Process Service",
@@ -175,7 +175,7 @@ export default function PricingPage() {
             {
               name: "Same-Day Rush Service",
               description: "Emergency same-day service available",
-              price: "$150",
+              price: "$170",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Same-Day Rush Service",
@@ -370,40 +370,41 @@ export default function PricingPage() {
               </p>
             </section>
 
-            {/* Temporary Fuel Adjustment Banner */}
-            <div className="bg-amber-50 border border-amber-200 rounded-xl text-left px-6 py-5 shadow-sm mt-8 max-w-4xl mx-auto">
-              <div className="flex items-start gap-3 mb-4">
-                <span className="text-2xl flex-shrink-0" aria-hidden="true">⛽</span>
+            {/* Current fuel and operating-cost adjustment */}
+            <div className="bg-amber-50 border-2 border-amber-300 rounded-2xl text-left px-5 py-6 md:px-8 shadow-md mt-8 max-w-5xl mx-auto">
+              <div className="flex flex-col md:flex-row md:items-start gap-4 mb-6">
+                <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center text-2xl flex-shrink-0" aria-hidden="true">⛽</div>
                 <div>
-                  <p className="font-bold text-amber-900 text-base">Temporary Fuel Adjustment — Effective April 8, 2026</p>
-                  <p className="text-amber-800 text-sm mt-1">
-                    Due to recent increases in fuel costs in Oklahoma, a temporary $10
-                    fuel surcharge has been applied to all fuel-dependent services. We will reduce rates promptly if fuel prices
-                    stabilize or drop.{' '}
-                    <Link href="/contact" className="font-semibold underline text-amber-900 hover:text-amber-700">
-                      Questions? Contact us.
-                    </Link>
+                  <p className="text-xs font-bold uppercase tracking-wider text-amber-700 mb-1">Current pricing notice</p>
+                  <h2 className="font-bold text-amber-950 text-xl md:text-2xl">Temporary $20 Fuel &amp; Operating-Cost Adjustment</h2>
+                  <p className="text-amber-900 mt-2 leading-relaxed">
+                    Effective July 21, 2026, current rates for fuel-dependent services include a temporary <strong>$20 adjustment</strong> because of continued increases in fuel, vehicle maintenance, and other operating costs. For example, Standard Service is normally $60 and is currently $80. We will continue reviewing the adjustment as costs change.
                   </p>
                 </div>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              <div className="overflow-hidden rounded-xl border border-amber-200 bg-white">
+                <div className="grid grid-cols-[1fr_auto_auto] gap-3 bg-amber-100 px-4 py-2 text-xs font-bold uppercase tracking-wide text-amber-900">
+                  <span>Service</span><span>Regular</span><span>Current</span>
+                </div>
                 {[
-                  { label: 'Standard Service', old: '$60', new: '$70' },
-                  { label: 'Rush Service', old: '$100', new: '$110' },
-                  { label: 'Same-Day Rush', old: '$150', new: '$160' },
-                  { label: 'Standard Courier', old: '$60', new: '$70' },
-                  { label: 'Rush Courier', old: '$100', new: '$110' },
-                  { label: 'Stakeout', old: '$90/hr', new: '$100/hr' },
-                ].map(({ label, old, new: newPrice }) => (
-                  <div key={label} className="bg-amber-100/60 rounded-lg px-4 py-3">
-                    <p className="text-xs font-semibold text-amber-900 mb-1">{label}</p>
-                    <p className="text-sm">
-                      <span className="line-through text-amber-600 mr-1">{old}</span>
-                      <span className="font-bold text-amber-900">{newPrice}</span>
-                    </p>
+                  { label: 'Standard Service', regular: '$60', current: '$80' },
+                  { label: 'Rush Service', regular: '$100', current: '$120' },
+                  { label: 'Same-Day Rush', regular: '$150', current: '$170' },
+                  { label: 'Standard Courier', regular: '$60', current: '$80' },
+                  { label: 'Rush Courier', regular: '$100', current: '$120' },
+                  { label: 'Stakeout', regular: '$90/hr', current: '$110/hr' },
+                ].map(({ label, regular, current }) => (
+                  <div key={label} className="grid grid-cols-[1fr_auto_auto] gap-3 items-center border-t border-amber-100 px-4 py-3">
+                    <span className="font-semibold text-gray-900">{label}</span>
+                    <span className="text-sm text-gray-500 line-through">{regular}</span>
+                    <span className="min-w-16 text-right font-extrabold text-amber-900">{current}</span>
                   </div>
                 ))}
               </div>
+              <p className="text-sm text-amber-900 mt-4">
+                Rates shown are starting prices. Exact location, mileage, timing, and service complexity may affect your final quote.{' '}
+                <Link href="/contact" className="font-bold underline hover:text-amber-700">Get an exact quote</Link>.
+              </p>
             </div>
           </div>
         </section>
@@ -413,11 +414,11 @@ export default function PricingPage() {
             <div className="text-center">
               <h2 className="text-3xl font-bold text-gray-900">Process Service Packages</h2>
               <p className="text-lg text-gray-600 mt-2 mb-6">
-                Explore our competitive pricing plans tailored for your legal needs.
+                Choose the turnaround that fits your deadline. Current starting prices are shown below.
               </p>
               <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
-                  <span className="font-semibold">Note on Pricing &amp; Service Area:</span> With fuel costs and inflation where they are, all rates shown are <strong>starting prices only</strong> — not a locked quote. Your actual price is confirmed from the service address (mileage/fuel) and timing. Even in our primary coverage (<strong>Tulsa County</strong>, <strong>Broken Arrow</strong>, <strong>Sapulpa</strong>, and nearby areas), some locations cost more. Example: Rush may list at the starting rate, then land higher once fuel and area are factored in. We serve all 77 Oklahoma counties through our partner network; jobs outside our primary zone may include an additional travel surcharge.{' '}<a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Contact us for a firm quote</a>.
+                  <span className="font-semibold">How quotes work:</span> These are <strong>starting prices</strong>. Your exact quote is based on the service address, mileage, timing, and complexity. Some addresses in Tulsa County, Broken Arrow, Sapulpa, and nearby areas may cost more because of distance. We also serve all 77 Oklahoma counties through our partner network; locations outside our primary area may include an additional travel charge.{' '}<a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Contact us for an exact quote</a>.
                 </p>
               </div>
             </div>
@@ -508,19 +509,19 @@ export default function PricingPage() {
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
+                <p className="text-4xl font-bold mb-4 text-gray-800">$80</p>
                 <p className="text-xs text-gray-500 mb-2">starting price</p>
                 <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
+                <p className="text-4xl font-bold mb-4 text-gray-800">$120</p>
                 <p className="text-xs text-gray-500 mb-2">starting price</p>
                 <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
               </div>
             </div>
             <p className="text-center text-sm text-gray-500 mt-8">
-              Courier rates are starting prices for Tulsa County, Broken Arrow, &amp; the Sapulpa area. Some addresses in those areas may cost more based on mileage and fuel; a surcharge applies to other locations.<br />
+              Current courier rates include the temporary $20 fuel and operating-cost adjustment. Prices shown are starting rates; mileage and location may affect the final quote.<br />
               <span className="text-gray-600 font-medium">Note: Rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
             </p>
           </div>
@@ -779,7 +780,7 @@ export default function PricingPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">What is the cheapest process server option in Oklahoma?</h3>
-                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+                <p className="text-gray-600 leading-relaxed">Our current Standard Service starts at $80 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">Are there any hidden fees?</h3>
@@ -867,7 +868,7 @@ export default function PricingPage() {
           "@context": "https://schema.org",
           "@type": "VideoObject",
           "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
-          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Learn what affects your final cost.",
+          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Current service starts at $35 single-attempt, $80 standard, $120 rush, $170 same-day, and $265 after-hours. Learn what affects your final cost.",
           "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
           "uploadDate": "2026-04-01T08:00:00-05:00",
           "duration": "PT5M00S",
