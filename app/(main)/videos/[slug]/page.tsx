@@ -10,6 +10,7 @@ import {
   videoIdMap,
   videoSlugMap,
   slugifyVideoTitle,
+  videosByCategory,
 } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 import SearchDominance2026 from '@/components/ui/2026-search-dominance';
@@ -302,8 +303,8 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
     ],
   };
 
-  const relatedVideos = allVideos
-    .filter((v) => v.videoId !== video.videoId && v.category === video.category)
+  const relatedVideos = (videosByCategory.get(video.category) || [])
+    .filter((v) => v.videoId !== video.videoId)
     .slice(0, 4);
 
   // Generate dynamic meta keywords based on video category

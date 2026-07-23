@@ -1119,7 +1119,15 @@ export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];
 export const videoIdMap = new Map<string, Video>();
 export const videoSlugMap = new Map<string, Video>();
 
+// ⚡ Bolt: Cache array filters into a Map for O(1) lookups during Next.js SSG
+export const videosByCategory = new Map<string, Video[]>();
+
 for (const video of allVideos) {
   videoIdMap.set(video.videoId, video);
   videoSlugMap.set(slugifyVideoTitle(video.title), video);
+
+  if (!videosByCategory.has(video.category)) {
+    videosByCategory.set(video.category, []);
+  }
+  videosByCategory.get(video.category)!.push(video);
 }
