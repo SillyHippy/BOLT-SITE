@@ -317,11 +317,11 @@ export default function WhatToDoWhenServedPage() {
               <input
                 type="email"
                 placeholder="Enter your email (optional)"
-                className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2"
               />
               <button
                 type="submit"
-                className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-3 px-6 rounded-lg transition-colors"
+                className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-3 px-6 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 focus-visible:ring-offset-2"
               >
                 Subscribe
               </button>

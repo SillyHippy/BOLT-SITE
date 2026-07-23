@@ -4,3 +4,6 @@
 ## 2026-07-10 - Added ARIA role="group" and aria-label to calculator buttons
 **Learning:** Found several tools (Cost Calculator, Time Estimator, etc.) where `<button>` elements were used to simulate radio groups for selecting single options, but the wrapper `<div>` elements lacked `role="group"` and `aria-label`. Without this context, assistive technologies won't announce these buttons as a related set of choices.
 **Action:** When creating custom interactive widgets that group `<button>` elements to behave like `<input type="radio">` (e.g. step selections), always ensure the parent container includes `role="group"` and an explicit, descriptive `aria-label`.
+## 2026-07-23 - Focus rings for grouped interactive UI buttons
+**Learning:** Found several tools where `<button>` elements function as selectors for various settings (e.g. tiers, regions, options), but lacked explicit `focus-visible` classes. While they used `border-colors` on hover and active states, keyboard focus was not readily apparent.
+**Action:** When working on interactive selection buttons that utilize dynamic tailwind classes for active states (e.g., `tier === t ? 'bg-navy text-white border-navy' : ...`), always append explicit `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[theme-color]` to ensure robust keyboard accessibility.
