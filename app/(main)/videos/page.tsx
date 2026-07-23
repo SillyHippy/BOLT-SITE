@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import { allVideos, featuredVideos, fullVideos, seoShorts, Video } from '@/lib/video-data';
+import { allVideos, featuredVideos, fullVideos, seoShorts, Video, videosByCategory } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 export const metadata: Metadata = {
@@ -123,7 +123,7 @@ export default function VideosPage() {
             {categories.map((cat) => (
               <a key={cat} href={`#${cat.toLowerCase().replace(/\s+/g, '-')}`}
                 className="px-4 py-1.5 bg-white border border-gray-200 text-gray-700 text-sm rounded-full hover:border-blue-400 hover:text-blue-700 transition-colors">
-                {cat} ({allVideos.filter((v) => v.category === cat).length})
+                {cat} ({videosByCategory.get(cat)?.length || 0})
               </a>
             ))}
           </div>
