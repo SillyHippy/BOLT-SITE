@@ -134,7 +134,7 @@ export default function RushEmergencyCostCalculator() {
                     key={t}
                     type="button"
                     onClick={() => setTier(t)}
-                    className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       tier === t
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -155,7 +155,7 @@ export default function RushEmergencyCostCalculator() {
               <button
                 type="button"
                 onClick={() => setCounty('metro')}
-                className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                   county === 'metro'
                     ? 'bg-navy text-white border-navy'
                     : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -167,7 +167,7 @@ export default function RushEmergencyCostCalculator() {
               <button
                 type="button"
                 onClick={() => setCounty('rural')}
-                className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                   county === 'rural'
                     ? 'bg-navy text-white border-navy'
                     : 'bg-white text-navy border-gray-300 hover:border-navy/50'
@@ -192,7 +192,7 @@ export default function RushEmergencyCostCalculator() {
                   key={addon.key}
                   type="button"
                   onClick={() => addon.setter(!addon.state)}
-                  className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                  className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                     addon.state
                       ? 'bg-[#d4a017] text-navy border-[#d4a017]'
                       : 'bg-white text-navy border-gray-300 hover:border-navy/50'
