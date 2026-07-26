@@ -17,3 +17,7 @@
 ## 2026-05-24 - Pre-compute and cache heavy static mathematical operations
 **Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), executing the operations dynamically inside repetitive renders or static generation loops results in significant performance bottlenecks.
 **Action:** Implement an in-memory caching mechanism like a `Map` initialized at module load time to store previously computed results, shifting O(N log N) operations and repeated mathematical calculations to fast O(1) lookups during execution.
+
+## 2026-07-26 - O(N) bottlenecks in Server Components
+**Learning:** Performing array operations like `.filter()` across large, static datasets inside functional React components (especially during mapping/rendering or Next.js static generation) creates severe O(N^2) or redundant O(N) performance bottlenecks that scale poorly as the dataset grows.
+**Action:** Instead of inline `.filter()` calls, pre-compute O(1) `Map` caches (e.g., grouping items by category) initialized once at module load time in the data layer, and use `.get()` in the components to shift operations from O(N) to fast O(1) lookups.

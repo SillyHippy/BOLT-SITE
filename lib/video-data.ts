@@ -1118,8 +1118,13 @@ export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];
 
 export const videoIdMap = new Map<string, Video>();
 export const videoSlugMap = new Map<string, Video>();
+export const videoCategoryMap = new Map<string, Video[]>();
 
 for (const video of allVideos) {
   videoIdMap.set(video.videoId, video);
   videoSlugMap.set(slugifyVideoTitle(video.title), video);
+
+  const categoryVideos = videoCategoryMap.get(video.category) || [];
+  categoryVideos.push(video);
+  videoCategoryMap.set(video.category, categoryVideos);
 }
