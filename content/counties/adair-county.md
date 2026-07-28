@@ -173,7 +173,7 @@ Process servers operating in Adair County often require knowledge of adjacent ju
 - [Delaware County](/counties/delaware-county) (north)
 - [Sequoyah County](/counties/sequoyah-county) (southwest)
 - [Ottawa County](/counties/ottawa-county) (northwest)
-- [Crawford County, Arkansas](/counties/crawford-county-ar) (east)
+- Crawford County, Arkansas (east — neighboring jurisdiction, not served)
 
 ---
 
