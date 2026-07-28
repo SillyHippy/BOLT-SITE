@@ -85,13 +85,6 @@
       "inQueue": true,
       "updatedAt": "2026-06-02"
     },
-    "what-does-process-server-do-day-in-life": {
-      "target": "/blog/how-to-hire-a-process-server-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "what-happens-if-someone-refuses-service": {
       "target": "/what-happens-if-someone-refuses-service",
       "reason": "No published page — redirect to closest live topic",
@@ -100,6 +93,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "someone-avoids-being-served-oklahoma-options",
-  "lastPublishedAt": "2026-07-21T16:16:13.271Z"
+  "lastPublishedSlug": "what-does-process-server-do-day-in-life",
+  "lastPublishedAt": "2026-07-28T16:28:10.525Z"
 }
