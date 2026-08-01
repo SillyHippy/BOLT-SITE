@@ -5224,6 +5224,238 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-01T18:23:32.041Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 3138,
+        "headings": 24,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:23:32.043Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2286,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:23:32.077Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2661,
+        "headings": 24,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-01T18:23:46.329Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 3138,
+        "headings": 24,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:23:46.330Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2286,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:23:46.364Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2661,
+        "headings": 24,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-01T18:24:00.289Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 3138,
+        "headings": 24,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:24:00.291Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2286,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:24:00.326Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2661,
+        "headings": 24,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-01T18:24:12.366Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 3138,
+        "headings": 24,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-01T18:24:12.368Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 2286,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "dry-run"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-01T18:24:12.370Z",
+      "releaseDate": "2026-08-01",
+      "quality": {
+        "words": 4036,
+        "headings": 22,
+        "paragraphs": 47
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "dry-run"
     }
   ],
   "failures": [
@@ -11048,6 +11280,644 @@
       ],
       "warnings": [],
       "checkedAt": "2026-07-28T16:28:10.622Z"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.045Z"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.047Z"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.050Z"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.052Z"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 61 chars (must be <= 60)",
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.053Z"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.055Z"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.057Z"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.058Z"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.059Z"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.061Z"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.064Z"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.065Z"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.068Z"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.071Z"
+    },
+    {
+      "slug": "notary-services-immigration-documents-i9-affidavits-oklahoma",
+      "title": "Notary Immigration Documents Oklahoma | I-9 & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.072Z"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.074Z"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:32.075Z"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.333Z"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.335Z"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.338Z"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.339Z"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.341Z"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.342Z"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.344Z"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.345Z"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.347Z"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.349Z"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.351Z"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.353Z"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.355Z"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.358Z"
+    },
+    {
+      "slug": "notary-services-immigration-documents-i9-affidavits-oklahoma",
+      "title": "Notary Immigration Documents Oklahoma | I-9 & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.360Z"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.361Z"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ array not found: expected const faqs = [...]",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:23:46.363Z"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:24:00.294Z"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.296Z"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.299Z"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.300Z"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.302Z"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.304Z"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:24:00.305Z"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:24:00.306Z"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:24:00.308Z"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.309Z"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.312Z"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.315Z"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.316Z"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.319Z"
+    },
+    {
+      "slug": "notary-services-immigration-documents-i9-affidavits-oklahoma",
+      "title": "Notary Immigration Documents Oklahoma | I-9 & Affidavits",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.322Z"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-08-01T18:24:00.323Z"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: FAQ count is 10 (must be 5-6)",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "checkedAt": "2026-08-01T18:24:00.325Z"
     }
   ]
 }
