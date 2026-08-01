@@ -138,6 +138,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistants for Court Filing & eFiling in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma <strong>e-filing</strong> is live in <strong>13 OCIS counties</strong>; VAs format <strong>OSCN-ready PDFs</strong>, submit before the <strong>5:00 PM</strong> cutoff, and track confirmations—while <strong>12 O.S. § 2004.5</strong> requires separate <strong>e-service consent</strong> from court filing.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-23').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -174,7 +182,7 @@ export default function BlogPost() {
             Oklahoma launched its first permanent e-filing pilot program in July 2024 after nearly 27 years of development. Yes, you read that correctly — 27 years. The system is a module of the Oklahoma Unified Court Management System, operated by the Administrative Office of the Courts. The pilot started in Cleveland, Logan, and Oklahoma counties and has since expanded to include 13 total counties. The system allows attorneys and self-represented litigants to file documents electronically through the OSCN portal rather than walking paper into the courthouse.
           </p>
           <p>
-            This is significant progress, but it is important to understand the current reality: Oklahoma's e-filing system is still a pilot program. It is not statewide. It is not universal. And it comes with restrictions that affect what you can file, where you can file it, and how the process works. For efiling support legal Oklahoma, understanding these limitations is the foundation of effective filing support.
+            This is significant progress, but it is important to understand the current reality: Oklahoma&apos;s e-filing system is still a pilot program. It is not statewide. It is not universal. And it comes with restrictions that affect what you can file, where you can file it, and how the process works. Understanding these limitations is the foundation of effective Oklahoma e-filing support.
           </p>
 
           <h3>The OCIS vs. KellPro County Divide — Why It Matters</h3>
@@ -261,7 +269,7 @@ export default function BlogPost() {
 
           <h3>The Local Expertise Advantage — Why Oklahoma-Specific VAs Win</h3>
           <p>
-            National VA services like C&S Virtual Paralegals or Virtual Nexgen Solutions offer e-filing support, but they do not understand Oklahoma's unique landscape. They do not know which counties are OCIS versus KellPro. They are not familiar with 12 O.S. § 2004.5 and its written consent requirements. They cannot tell you whether a case in Garfield County can be e-filed or whether someone needs to walk it into the Enid courthouse. A legal virtual assistant Oklahoma with local training and experience fills this gap completely.
+            National VA services may offer generic e-filing support, but they often do not understand Oklahoma&apos;s unique landscape. They may not know which counties are OCIS versus KellPro. They may be unfamiliar with 12 O.S. § 2004.5 and its written consent requirements. They cannot tell you whether a case in Garfield County can be e-filed or whether someone needs to walk it into the Enid courthouse. An Oklahoma-trained legal virtual assistant fills this gap completely.
           </p>
 
           <h3>The Hybrid Model — Virtual E-Filing + Physical Courier Coverage</h3>

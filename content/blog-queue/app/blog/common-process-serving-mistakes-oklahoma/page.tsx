@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "10 Common Process Serving Mistakes That Can Ruin Your Case",
-  description: "Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service. Serving all 77 Oklahoma counti",
+  description: "Ten Oklahoma process serving mistakes that can void service—from the 180-day deadline and unlicensed servers to DIY service and weak proof documentation.",
   keywords: 'process serving mistakes, common service of process errors, Oklahoma process server errors',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service. Serving all 77 Oklahoma counti Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Ten Oklahoma service-of-process mistakes—from the 180-day deadline and unlicensed servers to DIY service and missing affidavits—that can delay or dismiss your case.',
+    'ai-key-facts': 'Service must usually be completed within 180 days under 12 O.S. 2004; Parties to a case cannot serve their own documents in Oklahoma; Private servers must be licensed under Title 12 O.S. 158.1; GPS-verified attempt records help defend service and substituted service motions',
   
   
   },
@@ -77,10 +77,21 @@ export default function BlogPost() {
           10 Common Process Serving Mistakes That Can Ruin Your Case
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Most Oklahoma cases fail on service errors—not the underlying claim. <strong>Miss the 180-day deadline</strong>, use an unlicensed server, DIY as a party, or file weak affidavits and the court may dismiss your case or force you to start over. Licensed servers, verified addresses, GPS documentation, and prompt proof-of-service filing prevent these outcomes.
+          </p>
+          
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Service of process is the foundation of due process in the American legal system. When service is done incorrectly, everything that follows in your case can be called into question, from court jurisdiction to the validity of a final judgment. At Just Legal Solutions, our team brings over 50 years of combined experience serving legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we have seen firsthand how simple mistakes can derail otherwise strong cases. This guide covers the ten most common process serving mistakes in Oklahoma and explains how to avoid each one.
         </p>
-        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+        
 
         {/* MISTAKE 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -278,7 +289,6 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
-            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

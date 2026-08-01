@@ -8,8 +8,9 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "Tulsa County Court Filing Guide: Navigate the Filing Process",
-  description: "Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines. Serving all 77 O",
+  title: 'Tulsa County Court Filing Guide: Navigate the Filing Process',
+  description:
+    'Step-by-step Tulsa County court filing at 500 S Denver Ave: OSCN eFiling, fees, forms, and service of process under Title 12 O.S. 158.1 and 12 O.S. § 2004.',
   keywords: 'Tulsa County court filing, how to file court papers Tulsa, Tulsa County District Court, Oklahoma court filing, eFiling Tulsa, OSCN Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Tulsa County Court Filing Guide: Navigate the Filing Process',
-    description: 'Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines.',
+    description:
+      'Step-by-step Tulsa County court filing at 500 S Denver Ave: OSCN eFiling, fees, forms, and service of process under Title 12 O.S. 158.1 and 12 O.S. § 2004.',
     url: 'https://justlegalsolutions.org/blog/tulsa-county-court-filing-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines. Serving all 77 O Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Tulsa County filing at 500 S Denver Ave: divisions, OSCN eFiling, fees, and service of process under Title 12 O.S. 158.1 and 12 O.S. § 2004 timelines.',
+    'ai-key-facts':
+      'Clerk windows typically close by 4:30 PM weekdays; OSCN eFiling available for most civil and family matters; Service requires licensed server under Title 12 O.S. 158.1; IFP fee waivers available for qualifying filers; Common errors include wrong division and DIY service attempts',
   },
 };
 
@@ -81,11 +83,19 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Tulsa County Court Filing Guide: Navigate the Filing Process with Confidence
         </h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Tulsa County court filings are handled at the <strong>Tulsa County Courthouse, 500 S Denver Ave, Tulsa, OK 74103</strong>.
+            Most civil filings use the Oklahoma State Courts Network (OSCN) eFiling system. Filing fees vary by case type. Just Legal
+            Solutions offers eFiling support — <strong>(539) 367-6832</strong>.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Filing court documents in Tulsa County can feel overwhelming — especially if you are navigating the legal system for the first time. With over 50 years of combined experience handling court filings and process serving across Oklahoma, the Just Legal Solutions Team has helped thousands of clients successfully file and serve legal documents in Tulsa County District Court. Whether you are initiating a lawsuit, responding to a petition, or filing post-judgment motions, this guide walks you through everything you need to know about the Tulsa County court filing process — from courthouse logistics to eFiling and beyond.
         </p>
-        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: Courthouse Info */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -178,7 +188,8 @@ export default function BlogPost() {
             For litigants who cannot afford filing fees, Oklahoma law provides an <em>in forma pauperis</em> (IFP) procedure. If you qualify based on income guidelines, the court may waive or defer your filing fees. The IFP application must be filed simultaneously with your initiating documents and requires a detailed financial affidavit.
           </p>
           <p className="mb-4">
-            It is important to note that filing fees are separate from service of process costs. After filing, you will need to arrange for a licensed process server or the sheriff's department to serve your documents — and that carries its own fee structure. For information about our competitive service rates, visit our pricing page.
+            It is important to note that filing fees are separate from service of process costs. After filing, you will need to arrange for a licensed process server or the sheriff&apos;s department to serve your documents — and that carries its own fee structure. For information about our competitive service rates, visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>.
           </p>
         </section>
 
@@ -220,7 +231,8 @@ export default function BlogPost() {
             The typical timeline works like this: (1) You file your petition or complaint with the Clerk of Court; (2) The Clerk issues a summons; (3) A licensed process server or authorized individual delivers the documents to the defendant/respondent; (4) The server completes an affidavit of service (return of service); and (5) The return of service is filed with the court to prove service was completed properly.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and we have served thousands of documents across all 77 Oklahoma counties. We provide GPS-verified proof of service, same-day and rush service options, and real-time status updates. Click here to learn about our process serving services.
+            At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1, and we have served thousands of documents across all 77 Oklahoma counties. We provide GPS-verified proof of service, same-day and rush service options, and real-time status updates.{' '}
+            <Link href="/process-serving" className="text-blue-600 hover:underline">Learn about our process serving services</Link>.
           </p>
           <p className="mb-4">
             Importantly, your case cannot move forward until valid service has been documented. If the opposing party is not served within the timeframe specified on the summons, the court may dismiss your case for lack of prosecution. This makes timely, professional service of process a critical component of your overall filing strategy — not an afterthought.
@@ -286,21 +298,22 @@ export default function BlogPost() {
             Navigating the Tulsa County court system does not have to be a solo journey. With over 50 years of combined experience and thousands of successful filings and services across all 77 Oklahoma counties, Just Legal Solutions is your trusted partner for court filing, process serving, and legal support services in Tulsa and beyond. We offer same-day and rush filing assistance, GPS-verified proof of service, and transparent pricing with no hidden fees.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, view our pricing page.
+            For current pricing on all our services,{' '}
+            <Link href="/pricing" className="text-blue-600 font-semibold hover:underline">view our pricing page</Link>.
           </p>
           <p className="font-semibold">
-            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or request service online. We serve all 77 Oklahoma counties — from Tulsa to the Texas Panhandle border.
+            Call <a href="tel:5393676832" className="text-blue-600">(539) 367-6832</a> or{' '}
+            <Link href="/contact" className="text-blue-600 hover:underline">request service online</Link>. We serve all 77 Oklahoma counties — from Tulsa to the Texas Panhandle border.
           </p>
         </section>
       </main>
-            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />
       <UnifiedSchema
         pageType="article"
         title="Tulsa County Court Filing Guide: Navigate the Filing Process"
-        description="Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines."
+        description="Step-by-step Tulsa County court filing at 500 S Denver Ave: OSCN eFiling, fees, forms, and service of process under Title 12 O.S. 158.1 and 12 O.S. § 2004."
         url="https://justlegalsolutions.org/blog/tulsa-county-court-filing-guide"
         articleDetails={{
           headline: 'Tulsa County Court Filing Guide: Navigate the Filing Process',

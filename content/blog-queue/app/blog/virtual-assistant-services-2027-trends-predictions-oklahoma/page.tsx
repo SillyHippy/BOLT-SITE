@@ -36,9 +36,13 @@ export const metadata: Metadata = {
   },
   other: {
     'article:published_time': '2026-12-16',
-    'article:modified_time': '2026-12-16',
+    'article:modified_time': '2026-08-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      '2027 legal VA trends favor hybrid human-AI support, specialized Oklahoma legal assistants, integrated process serving and notary coordination, and stricter ORPC supervision—not fully autonomous agentic AI replacing legal staff.',
+    'ai-key-facts':
+      'Global VA services projected near $8–10B in 2027 with U.S. growth near 9% CAGR; Gartner warns many fully autonomous agentic AI projects may fail by 2027; 55% of legal professionals expected to use Gen AI tools by 2027; Hybrid models pair human judgment with AI for research and document review; Oklahoma firms benefit from VAs who know Title 12 service rules and OSCN workflows',
   },
 };
 
@@ -127,7 +131,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'Virtual Assistant Services: 2027 Trends and Predictions',
           datePublished: '2026-12-16',
-          dateModified: '2026-12-16',
+          dateModified: '2026-08-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -159,6 +163,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistant Services: 2027 Trends and Predictions
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              By <strong>2027</strong>, Oklahoma law firms will rely on <strong>hybrid human–AI virtual assistants</strong>—specialized legal VAs using AI for routine tasks while attorneys supervise under <strong>ORPC</strong>—not fully autonomous systems replacing judgment on <strong>Title 12</strong> deadlines and client communication.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

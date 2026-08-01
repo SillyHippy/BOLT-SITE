@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'In-House Paralegal vs. Virtual Legal Assistant: Cost Guide',
-  description: 'Compare in-house paralegal costs vs virtual legal assistants in Oklahoma. See how much your firm can save with real salary data and hidden cost breakdowns.',
+  description: 'Compare Oklahoma in-house paralegal costs ($75K–$90K) with virtual legal assistants ($20K–$35K)—payroll, taxes, benefits, and ORPC 5.3.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'In-House Paralegal vs. Virtual Legal Assistant: Cost Guide',
-    description: 'Compare in-house paralegal costs vs virtual legal assistants in Oklahoma. See how much your firm can save with real salary data and hidden cost breakdowns.',
+    description: 'Compare Oklahoma in-house paralegal costs ($75K–$90K) with virtual legal assistants ($20K–$35K)—payroll, taxes, benefits, and ORPC 5.3.',
     url: 'https://justlegalsolutions.org/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -93,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="In-House Paralegal vs. Virtual Legal Assistant: Cost Guide"
-        pageDescription="Compare in-house paralegal costs vs virtual legal assistants in Oklahoma. See how much your firm can save with real salary data and hidden cost breakdowns."
+        pageDescription="Compare Oklahoma in-house paralegal costs ($75K–$90K) with virtual legal assistants ($20K–$35K)—payroll, taxes, benefits, and ORPC 5.3."
         pageUrl="https://justlegalsolutions.org/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -138,6 +138,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             In-House Paralegal vs. Virtual Legal Assistant: Cost Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A fully loaded Oklahoma in-house paralegal typically costs <strong>$75,000–$90,000</strong> per year after salary, payroll taxes, benefits, and office overhead, while a comparable <strong>virtual legal assistant</strong> runs about <strong>$20,000–$35,000</strong>. <strong>ORPC Rule 5.3</strong> permits supervised remote assistants; many firms use a hybrid model.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-22').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -152,6 +158,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             If you are running a law firm in Oklahoma, you have probably asked yourself this question more than once: is hiring an in-house paralegal really worth the cost, or should I explore a virtual legal assistant? The answer could save your firm $40,000 to $70,000 every single year. Let us walk through the real numbers, the hidden costs most firms never budget for, and why an increasing number of Oklahoma attorneys are making the switch to virtual legal support in 2026.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Oklahoma Law Firms Are Rethinking Their Staffing Model</h2>
 

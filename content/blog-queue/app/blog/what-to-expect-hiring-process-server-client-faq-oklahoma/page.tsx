@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Hiring an Oklahoma process server: verify 12 O.S. § 158.1 licensing and bonding, expect GPS-tracked attempts, flat-rate quotes, and court-ready affidavits within 24 hours of successful service.',
+    'ai-key-facts':
+      'Parties cannot serve their own case papers in Oklahoma; 12 O.S. § 158.1 license plus $5,000 bond required; Standard private service often completes in 1–7 business days vs. 2–6 weeks for sheriff; Refusal does not block valid drop service under 12 O.S. § 2004; 180-day filing deadline under § 2004(I) applies',
   },
 };
 
@@ -136,6 +140,19 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             What to Expect When Hiring a Process Server in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Verify an active <strong>12 O.S. § 158.1</strong> license and <strong>$5,000 bond</strong>, get a
+              written flat-rate quote, and expect <strong>GPS-tagged</strong> attempt updates plus a{' '}
+              <strong>notarized affidavit within 24 hours</strong> of successful service. Provide full defendant
+              details upfront; under <strong>12 O.S. § 2004</strong>, refusal still allows valid{' '}
+              <strong>drop service</strong>, and you must complete service within the <strong>180-day</strong>{' '}
+              window under <strong>§ 2004(I)</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

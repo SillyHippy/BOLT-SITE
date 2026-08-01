@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Witness Locate Services: Find People for Legal P...",
-  description: "Professional witness locate services in Oklahoma. Learn how we find witnesses for court using databases, public records, and proven methods. Serving all 77 Okla",
+  description:
+    'Oklahoma witness locate uses licensed databases and county records to find trial witnesses—often 24–72 hours—with optional subpoena service in all 77 counties.',
   keywords:
     'witness locate Oklahoma, find witness for court, legal witness location, witness finder Tulsa, subpoena witness Oklahoma, locate witness legal case',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Witness Locate Services: Find People for Legal Proceedings',
     description:
-      'Professional witness locate services in Oklahoma. Learn how we find witnesses for court using databases, public records, and proven methods.',
+      'Oklahoma witness locate uses licensed databases and county records to find trial witnesses—often 24–72 hours—with optional subpoena service in all 77 counties.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-witness-locate-services',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,8 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2025-01-15',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Professional witness locate services in Oklahoma. Learn how we find witnesses for court using databases, public records, and proven methods. Serving all 77 Okla Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary':
+      'Professional witness locate in Oklahoma cross-references restricted databases, county public records, and field verification to find people needed for depositions and trials—distinct from adversarial skip tracing.',
+    'ai-key-facts':
+      'Typical turnaround is 24–72 hours when adequate identifiers are provided; Success exceeds 90% with full name plus DOB, SSN, or last known address; Witness locate differs from skip tracing because subjects are not always evading legal obligations; Locate-and-serve workflows can chain directly into subpoena service under Title 12; All searches must comply with FCRA and Oklahoma privacy statutes',
   
   
   },
@@ -106,6 +109,15 @@ export default function BlogPost() {
           Oklahoma Witness Locate Services: Finding People for Legal Proceedings
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Witness locate</strong> finds people needed for <strong>depositions and trials</strong> using <strong>restricted databases</strong>, <strong>county records</strong>, and verification—not the same as <strong>skip tracing</strong> for evasive debtors. Most Oklahoma searches finish in <strong>24–72 hours</strong> and can chain into <strong>subpoena service</strong> statewide.
+          </p>
+          
+
+        </div>
+
         {/* Intro */}
         <p className="text-gray-600 mb-8 text-lg">
           Every successful legal case depends on credible witnesses—but what
@@ -120,7 +132,8 @@ export default function BlogPost() {
           served thousands of documents and located hundreds of witnesses for
           attorneys, law firms, and pro se litigants throughout the state.
         </p>
-        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: What Are Witness Locate Services */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -516,8 +529,6 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
-
-            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />
@@ -525,7 +536,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Witness Locate Services: Finding People for Legal Proceedings"
-        description="Professional witness locate services in Oklahoma. Learn how we find witnesses for court using databases, public records, and proven methods."
+        description="Oklahoma witness locate uses licensed databases and county records to find trial witnesses—often 24–72 hours—with optional subpoena service in all 77 counties."
         url="https://justlegalsolutions.org/blog/oklahoma-witness-locate-services"
         articleDetails={{
           headline: 'Oklahoma Witness Locate Services: Finding People for Legal Proceedings',

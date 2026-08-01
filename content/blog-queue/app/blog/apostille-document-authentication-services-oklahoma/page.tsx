@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Apostille & Document Authentication in Oklahoma',
-  description: 'Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties.',
+  description:
+    'Oklahoma apostille steps: $25 per doc at the Secretary of State, Hague one-step vs. embassy legalization, fresh vital records, same-day walk-in, and RON.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Apostille & Document Authentication in Oklahoma',
-    description: 'Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties.',
+    description:
+      'Oklahoma apostille steps: $25 per doc at the Secretary of State, Hague one-step vs. embassy legalization, fresh vital records, same-day walk-in, and RON.',
     url: 'https://justlegalsolutions.org/blog/apostille-document-authentication-services-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-13',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma apostille and authentication for international use: Hague one-step certificates versus embassy legalization, $25 Secretary of State fees, 12-month vital record copies, OKC walk-in timing, and RON-notarized documents.',
+    'ai-key-facts':
+      'Oklahoma Secretary of State charges $25 per apostille at 421 NW 13th St, Oklahoma City; Vital records must be certified copies issued within the last 12 months; Hague member countries accept a single Oklahoma apostille; Non-Hague destinations require state authentication, U.S. Department of State review, and embassy legalization; Oklahoma RON notarizations since January 2020 qualify for state apostille',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Apostille & Document Authentication in Oklahoma"
-        pageDescription="Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties."
+        pageDescription="Oklahoma apostille steps: $25 per doc at the Secretary of State, Hague one-step vs. embassy legalization, fresh vital records, same-day walk-in, and RON."
         pageUrl="https://justlegalsolutions.org/blog/apostille-document-authentication-services-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Apostille & Document Authentication in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Use an Oklahoma apostille when your destination country is a <strong>Hague Convention member</strong>—the Secretary of State attaches one $25 certificate to documents issued or notarized in Oklahoma. Non-Hague countries need <strong>authentication plus federal and embassy legalization</strong>. Submit <strong>certified vital records from the last 12 months</strong>, complete notarial certificates under 49 O.S., and expect <strong>same-day walk-in service</strong> at the OKC office; RON-notarized documents qualify too.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-13').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>

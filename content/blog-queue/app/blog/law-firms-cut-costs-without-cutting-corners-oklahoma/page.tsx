@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Oklahoma Law Firms Can Cut Costs Without Cutting Corners',
-  description: 'Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services.',
+  description: 'Oklahoma firms cut costs with VAs, licensed servers, mobile/RON notary, and bundled support—recover ~600 billable hours yearly without cutting corners.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How Oklahoma Law Firms Can Cut Costs Without Cutting Corners',
-    description: 'Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services.',
+    description: 'Oklahoma firms cut costs with VAs, licensed servers, mobile/RON notary, and bundled support—recover ~600 billable hours yearly without cutting corners.',
     url: 'https://justlegalsolutions.org/blog/law-firms-cut-costs-without-cutting-corners-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-25',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Six Oklahoma cost strategies—delegating admin to virtual assistants, outsourcing service under 12 O.S. § 2004, mobile/RON under 49 O.S. §§ 5 and 209, bundling vendors, and free OBA MAP resources.',
+    'ai-key-facts':
+      'Attorneys lose ~600 non-billable hours yearly per Bloomberg 2025 survey; In-house legal assistants often exceed $95k fully loaded vs ~$27k average VA cost; Oklahoma process serving commonly starts at $35–$60 vs $250+ attorney hour; RON capped at $25 per act under 49 O.S. § 209; Delegation must stay within ORPC limits—attorneys retain responsibility for legal work',
   },
 };
 
@@ -111,7 +115,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Oklahoma Law Firms Can Cut Costs Without Cutting Corners"
-        pageDescription="Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services."
+        pageDescription="Oklahoma firms cut costs with VAs, licensed servers, mobile/RON notary, and bundled support—recover ~600 billable hours yearly without cutting corners."
         pageUrl="https://justlegalsolutions.org/blog/law-firms-cut-costs-without-cutting-corners-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -156,6 +160,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Oklahoma Law Firms Can Cut Costs Without Cutting Corners
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma attorneys lose roughly <strong>600 billable hours a year</strong> to admin; <strong>virtual assistants</strong> often cut support costs <strong>40–75%</strong>, while <strong>licensed process servers</strong> ($35–$60) and <strong>mobile/RON notary</strong> beat attorney travel time—bundling filing, service, notary, and courier under one vendor reduces coordination overhead without cutting client service.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-25').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -176,6 +188,8 @@ export default function BlogPost() {
             enter small practices — those numbers are not just abstract figures on a page.
             They represent real money walking out your door every single week.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <p>
             Oklahoma&rsquo;s legal industry is valued at $2.5 billion, with approximately

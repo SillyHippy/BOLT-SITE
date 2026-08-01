@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How VAs Help With Legal Research & Discovery in OK',
-  description: 'Learn how virtual assistants support legal research and discovery in Oklahoma, including OSCN.net workflows, discovery deadlines, and ORPC Rule 5.3 compliance.',
+  description:
+    'Oklahoma VAs research on OSCN.net, organize discovery, and track 12 O.S. § 3226 deadlines under ORPC Rule 5.3—attorneys must review every work product.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How VAs Help With Legal Research & Discovery in OK',
-    description: 'Learn how virtual assistants support legal research and discovery in Oklahoma, including OSCN.net workflows, discovery deadlines, and ORPC Rule 5.3 compliance.',
+    description:
+    'Oklahoma VAs research on OSCN.net, organize discovery, and track 12 O.S. § 3226 deadlines under ORPC Rule 5.3—attorneys must review every work product.',
     url: 'https://justlegalsolutions.org/blog/virtual-assistants-legal-research-discovery-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-19',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Supervised Oklahoma VAs handle OSCN.net research, Bates-stamped discovery, and 12 O.S. § 3226 deadline tracking under ORPC Rule 5.3 while attorneys retain review, signing authority, and all legal judgment.',
+    'ai-key-facts':
+      'VAs may research OSCN.net and Fastcase and organize discovery under attorney supervision; 12 O.S. § 3226 sets 60-day initial disclosure and 30-day response timelines; ORPC Rule 5.3 requires reasonable supervision of all nonlawyer assistants; VAs cannot interpret law, advise clients, or sign court filings; Firms often reclaim 10–15 billable hours weekly after delegating research admin',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How VAs Help With Legal Research & Discovery in OK"
-        pageDescription="Learn how virtual assistants support legal research and discovery in Oklahoma, including OSCN.net workflows, discovery deadlines, and ORPC Rule 5.3 compliance."
+        pageDescription="Oklahoma VAs research on OSCN.net, organize discovery, and track 12 O.S. § 3226 deadlines under ORPC Rule 5.3—attorneys must review every work product."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistants-legal-research-discovery-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How VAs Help With Legal Research & Discovery in OK
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>ORPC Rule 5.3</strong>, trained VAs can <strong>research OSCN.net</strong>,{' '}
+              <strong>organize discovery</strong>, and <strong>track 12 O.S. § 3226 deadlines</strong>—but{' '}
+              <strong>attorneys must review</strong> all work; VAs cannot give <strong>legal advice</strong> or{' '}
+              <strong>sign filings</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

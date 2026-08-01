@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Electronic Service of Process in Oklahoma: eService Guide",
-  description: "Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService. Serving all 77 Oklahoma counti",
+  description: 'Oklahoma eService requires written consent under 12 O.S. § 2004.5 and cannot replace initial summons—eFiling vs eService, proof logs, and server limits.',
   keywords: 'electronic service of process, eService Oklahoma legal, Oklahoma eService laws',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Electronic Service of Process in Oklahoma: eService Guide',
-    description: 'Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService.',
+    description: 'Oklahoma eService requires written consent under 12 O.S. § 2004.5 and cannot replace initial summons—eFiling vs eService, proof logs, and server limits.',
     url: 'https://justlegalsolutions.org/blog/electronic-service-process-oklahoma-eservice',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService. Serving all 77 Oklahoma counti Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary': '12 O.S. § 2004.5 allows eService only with written consent and for qualifying subsequent filings—eFiling to OSCN is not the same as serving summons on an unrepresented defendant.',
+    'ai-key-facts': 'Written consent is required before electronic service under 12 O.S. § 2004.5; eFiling submits documents to the court; eService delivers copies to other parties; Initial summons and petition still need personal or approved physical service; Retain transmission confirmations as proof if service is challenged; Licensed process servers remain essential when consent or locate efforts fail',
   },
 };
 
@@ -74,6 +72,14 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Electronic Service of Process in Oklahoma: eService Guide</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Under <strong>12 O.S. § 2004.5</strong>, Oklahoma <strong>eService</strong> is allowed only when the receiving party has <strong>written consent</strong> and typically covers subsequent filings—not the initial summons and petition. <strong>eFiling</strong> sends documents to the court; eService delivers copies to other parties, and you must keep system confirmations as proof.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, 
           the Just Legal Solutions Team has witnessed firsthand how technology is transforming legal service delivery. 
@@ -350,7 +356,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Electronic Service of Process in Oklahoma: eService Guide"
-        description="Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService."
+        description="Oklahoma eService requires written consent under 12 O.S. § 2004.5 and cannot replace initial summons—eFiling vs eService, proof logs, and server limits."
         url="https://justlegalsolutions.org/blog/electronic-service-process-oklahoma-eservice"
         articleDetails={{
           headline: 'Electronic Service of Process in Oklahoma: eService Guide',

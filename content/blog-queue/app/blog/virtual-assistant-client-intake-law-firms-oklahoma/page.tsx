@@ -36,9 +36,13 @@ export const metadata: Metadata = {
   },
   other: {
     'article:published_time': '2026-01-29',
-    'article:modified_time': '2026-01-29',
+    'article:modified_time': '2026-08-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma law firms use supervised virtual assistants under ORPC Rule 5.3 to answer intake within minutes, run conflict checks, and book consultations—without legal advice—turning slow web-form response into signed retainers.',
+    'ai-key-facts':
+      'Firms responding within five minutes convert far better than those waiting 30+ minutes; Average law firm web-form response still measured in days, not minutes; VAs may gather facts and schedule consults but cannot interpret law under Rule 5.5; Attorney-client privilege extends to lawyer representatives under 12 O.S. § 2502 when safeguards are documented; Structured intake SOPs cover conflict screening, logging, and consultation booking',
   },
 };
 
@@ -124,7 +128,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'Virtual Assistants for Law Firm Client Intake in Oklahoma',
           datePublished: '2026-01-29',
-          dateModified: '2026-01-29',
+          dateModified: '2026-08-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -156,6 +160,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistants for Law Firm Client Intake in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>ORPC Rule 5.3</strong>, a supervised virtual assistant can answer Oklahoma intake calls and web forms within minutes, capture core facts, run <strong>conflict checks</strong>, and book consults—while the attorney retains all <strong>legal advice</strong> and final conflict decisions under <strong>Rules 5.5 and 1.6</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-29').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -176,6 +188,14 @@ export default function BlogPost() {
             their intake pipeline, stay compliant with the Oklahoma Rules of
             Professional Conduct, and capture more cases without adding a single
             employee to payroll.
+          </p>
+
+          <p>
+            Once intake converts a client,{' '}
+            <Link href="/blog/virtual-assistant-case-management-help-oklahoma" className="text-blue-600 hover:underline">
+              virtual case management support
+            </Link>{' '}
+            keeps the matter organized through filing, discovery, and resolution under the same ORPC supervision framework.
           </p>
 
           <h2>The $200,000 Intake Problem — Why Speed Is Everything</h2>

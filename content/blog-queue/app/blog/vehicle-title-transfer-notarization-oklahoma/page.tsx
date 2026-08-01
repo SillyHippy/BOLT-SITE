@@ -36,9 +36,13 @@ export const metadata: Metadata = {
   },
   other: {
     'article:published_time': '2026-07-07',
-    'article:modified_time': '2026-07-07',
+    'article:modified_time': '2026-08-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma sellers must notarize vehicle title assignments under 47 O.S. § 1107; only the seller signs before a notary; July 2025 electronic titles use notarized Form 718; RON helps out-of-state sellers under 49 O.S. §§ 201-214.',
+    'ai-key-facts':
+      'Only the seller\'s signature is notarized under 47 O.S. § 1107; AND, AND/OR, or missing conjunctions require all sellers to sign; Electronic titles after July 1, 2025 use Form 718 with the same notary rules; In-person notary fees cap at $5 and RON at $25 under Title 49; White-out or erasures void paper titles; Transfer clock for buyers usually runs 30 days from the notary date',
   },
 };
 
@@ -104,7 +108,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'Oklahoma Vehicle Title Notarization: What Sellers Must Know',
           datePublished: '2026-07-07',
-          dateModified: '2026-07-07',
+          dateModified: '2026-08-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Vehicle Title Notarization: What Sellers Must Know
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>47 O.S. § 1107</strong>, only the <strong>seller&rsquo;s signature</strong> on an Oklahoma vehicle title must be <strong>notarized</strong>; buyers sign later at the tag agency. Since <strong>July 2025 electronic titles</strong>, sellers usually complete and notarize <strong>Form 718</strong>; <strong>RON</strong> works for out-of-state sellers when an Oklahoma notary performs the act.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-07').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -168,7 +180,9 @@ export default function BlogPost() {
           </p>
 
           <p>
-            The bottom line is this: if you are selling a vehicle in a private sale in Oklahoma, your signature on the title must be notarized. Without that notarization, the title transfer will be rejected. It really is that straightforward. If you need help finding a qualified notary, our notary services page has everything you need to get started.
+            The bottom line is this: if you are selling a vehicle in a private sale in Oklahoma, your signature on the title must be notarized. Without that notarization, the title transfer will be rejected. It really is that straightforward. If you need help finding a qualified notary, visit our{' '}
+            <Link href="/notary" className="text-blue-600 hover:underline">notary services</Link>{' '}
+            page to get started.
           </p>
 
           <h3>Who Needs Their Signature Notarized (and Who Doesn&rsquo;t)</h3>
@@ -423,7 +437,9 @@ export default function BlogPost() {
           </p>
 
           <p>
-            For sellers, it is worth noting that your responsibility does not fully end until the buyer completes this transfer. That is why it is so important to make sure the notarization is done correctly and promptly &mdash; it starts the clock on the buyer&rsquo;s obligation to register the vehicle in their name. If you want the added security of knowing your documents have been delivered safely, our courier services can transport your notarized title directly to the buyer or tag agency.
+            For sellers, it is worth noting that your responsibility does not fully end until the buyer completes this transfer. That is why it is so important to make sure the notarization is done correctly and promptly &mdash; it starts the clock on the buyer&rsquo;s obligation to register the vehicle in their name. If you want the added security of knowing your documents have been delivered safely, our{' '}
+            <Link href="/courier-services" className="text-blue-600 hover:underline">courier services</Link>{' '}
+            can transport your notarized title directly to the buyer or tag agency.
           </p>
           </article>
           

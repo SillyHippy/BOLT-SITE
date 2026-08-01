@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary Immigration Documents Oklahoma | I-9 & Affidavits',
-  description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma',
+  description: 'USCIS forms rarely need notaries; Oklahoma lawful presence affidavits, sworn support statements, and I-9 reps do. Avoid notario fraud under 49 O.S. § 6(B).',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notary Immigration Documents Oklahoma | I-9 & Affidavits',
-    description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma',
+    description: 'USCIS forms rarely need notaries; Oklahoma lawful presence affidavits, sworn support statements, and I-9 reps do. Avoid notario fraud under 49 O.S. § 6(B).',
     url: 'https://justlegalsolutions.org/blog/notary-services-immigration-documents-i9-affidavits-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-18',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Most USCIS forms are signed under penalty of perjury without notarization; Oklahoma lawful presence affidavits, sworn support statements, and POAs often need notaries; I-9 Section 2 is not a notarial act and 49 O.S. § 6(B) bans notario publico titles.',
+    'ai-key-facts': 'USCIS forms I-130, I-485, and I-864 do not require notarization; Oklahoma lawful presence affidavits under 56 O.S. § 71 require notarized jurats; Using notario publico is prohibited under 49 O.S. § 6(B); I-9 authorized representatives must not apply a notary seal to Form I-9',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary Immigration Documents Oklahoma | I-9 & Affidavits"
-        pageDescription="Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma"
+        pageDescription="USCIS forms rarely need notaries; Oklahoma lawful presence affidavits, sworn support statements, and I-9 reps do. Avoid notario fraud under 49 O.S. § 6(B)."
         pageUrl="https://justlegalsolutions.org/blog/notary-services-immigration-documents-i9-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary Immigration Documents Oklahoma | I-9 & Affidavits
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Most <strong>USCIS forms</strong> do <strong>not</strong> need a notary—they are signed under penalty
+              of perjury. Oklahoma <strong>lawful presence affidavits (56 O.S. § 71)</strong>, relationship affidavits,
+              POAs, and travel consents often do. <strong>I-9 Section 2</strong> is not notarization—no seal—and beware{' '}
+              <strong>notario</strong> fraud under <strong>49 O.S. § 6(B)</strong>.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-18').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +161,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             If you or a family member are navigating the immigration process in Oklahoma, you have probably wondered which documents need a notary stamp and which ones do not. The confusion is completely understandable — and unfortunately, it has also made immigrants a target for fraud. The truth is that most USCIS forms do not require notarization at all. In this guide, we will walk you through exactly what a notary can and cannot do for your immigration documents, how Oklahoma law protects you from notario scams, and which specific documents actually do need to be notarized. By the end, you will know exactly what you need — and what you do not.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>The Truth About Notarization and USCIS Immigration Forms</h2>
 

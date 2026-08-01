@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'HIPAA-Compliant Document Delivery for Oklahoma Law Firms',
-  description: 'Protect client data with HIPAA-compliant document delivery. Learn how Oklahoma couriers safeguard attorney-client privilege and avoid costly violations.',
+  description:
+    'HIPAA-aware Oklahoma couriers use chain-of-custody and opaque packaging to protect PHI, 12 O.S. § 2502 privilege, and work product during legal delivery.',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'HIPAA-Compliant Document Delivery for Oklahoma Law Firms',
-    description: 'Protect client data with HIPAA-compliant document delivery. Learn how Oklahoma couriers safeguard attorney-client privilege and avoid costly violations.',
+    description:
+      'HIPAA-aware Oklahoma couriers use chain-of-custody and opaque packaging to protect PHI, 12 O.S. § 2502 privilege, and work product during legal delivery.',
     url: 'https://justlegalsolutions.org/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +41,14 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-04',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Medical-legal shipments need a dual shield: HIPAA minimum-necessary handling plus Oklahoma privilege and work-product protection—12 O.S. § 2502(E) reasonable steps, § 3226 work product, and Title 12 O.S. 158.1 licensed service when papers must be formally delivered under 12 O.S. § 2004.',
+    'ai-key-facts':
+      'Couriers may qualify as HIPAA mere conduits unless they store or log PHI; 12 O.S. § 2502(E) protects inadvertent disclosure when reasonable safeguards are used; Work product under 12 O.S. § 3226 requires secure transport of strategy materials; Oklahoma breach law (24 O.S. §§ 161-166) expanded in 2026; Tamper-evident opaque packaging and named-recipient delivery are baseline; Formal service still requires licensees under Title 12 O.S. 158.1',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Is a courier service considered a HIPAA Business Associate?',
     answer: 'Generally, no — courier services like FedEx, UPS, and USPS fall under HIPAA\'s "mere conduit" exception because they only transport information with transient, incidental access and no persistent storage. However, if a courier logs, tracks, or stores delivery data containing patient identifiers, creates manifests with PHI, or provides additional services beyond simple transport — such as document scanning or cloud-based tracking with PHI in the system — they may cross into business associate territory. Any courier handling medical-legal documents in Oklahoma should verify their status with the law firm or healthcare provider before accepting shipments containing protected health information.',
@@ -90,8 +96,10 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
+        title="HIPAA-Compliant Document Delivery for Oklahoma Law Firms"
+        description="HIPAA-aware Oklahoma couriers use chain-of-custody and opaque packaging to protect PHI, 12 O.S. § 2502 privilege, and work product during legal delivery."
         pageTitle="HIPAA-Compliant Document Delivery for Oklahoma Law Firms"
-        pageDescription="Protect client data with HIPAA-compliant document delivery. Learn how Oklahoma couriers safeguard attorney-client privilege and avoid costly violations."
+        pageDescription="HIPAA-aware Oklahoma couriers use chain-of-custody and opaque packaging to protect PHI, 12 O.S. § 2502 privilege, and work product during legal delivery."
         pageUrl="https://justlegalsolutions.org/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +144,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             HIPAA-Compliant Document Delivery for Oklahoma Law Firms
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Treat every <strong>medical-legal shipment</strong> as a <strong>dual shield</strong>: HIPAA{' '}
+              <strong>minimum necessary</strong> handling plus <strong>12 O.S. § 2502(E)</strong> reasonable steps—use{' '}
+              <strong>opaque, tamper-evident</strong> couriers with GPS chain of custody; use{' '}
+              <strong>Title 12 O.S. 158.1</strong> servers for formal <strong>12 O.S. § 2004</strong> service.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-04').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -148,7 +165,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            It is a medical malpractice case in Oklahoma County. Your courier is transporting four hundred pages of patient records, expert witness reports, and attorney strategy memos — all in the same sealed envelope. That envelope now holds two entirely separate legal protections: HIPAA-covered health information and attorney-client privileged communications. One breach in transport, and your firm could face HIPAA violations, privilege waiver, work product exposure, and a malpractice claim — all from a single mishandled delivery. If you are relying on a <strong>HIPAA compliant courier Oklahoma</strong> law firms can depend on, you need one who understands both shields.
+            It is a medical malpractice case in Oklahoma County. Your courier is transporting four hundred pages of patient records, expert witness reports, and attorney strategy memos — all in the same sealed envelope. That envelope now holds two entirely separate legal protections: HIPAA-covered health information and attorney-client privileged communications. With 50+ years of combined experience and thousands of documents across all 77 Oklahoma counties, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 when service—not just transport—must comply with 12 O.S. 2004 and Title 49 O.S. requirements. One breach in transport, and your firm could face HIPAA violations, privilege waiver, work product exposure, and a malpractice claim — all from a single mishandled delivery. If you are relying on a <strong>HIPAA compliant courier Oklahoma</strong> law firms can depend on, you need one who understands both shields.
           </p>
 
           <h2>When Legal Documents Contain Medical Secrets — Why Document Delivery Is a Privacy Minefield</h2>

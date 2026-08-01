@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Growing Importance of Rush and Same-Day Process Serving",
-  description: "Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed. Serving all 77",
+  description: "Rush and same-day Oklahoma process serving covers TROs, evictions, and subpoenas—GPS-verified attempts with the same legal validity as standard service.",
   keywords: 'rush process serving, same day process server, expedited legal service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'The Growing Importance of Rush and Same-Day Process Serving',
-    description: 'Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed.',
+    description: 'Rush and same-day Oklahoma process serving covers TROs, evictions, and subpoenas—GPS-verified attempts with the same legal validity as standard service.',
     url: 'https://justlegalsolutions.org/blog/rush-same-day-process-serving-importance',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed. Serving all 77 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Rush (24–48 hours) and same-day Oklahoma process service prioritize dispatch for TROs, emergency custody, evictions, witness subpoenas, and approaching 180-day limits—tiers differ in speed and price, not in affidavit requirements under 12 O.S. § 2004.',
+    'ai-key-facts':
+      'Standard service typically allows 3–5 business days for first attempts; Rush targets 24–48 hours and same-day attempts within hours of receipt; After-hours service covers evenings and weekends when defendants may be home; GPS verification supports proof if service is challenged; Expedited fees are usually far less than cost of missed deadlines or continuances',
   },
 };
 
@@ -73,6 +73,12 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Rush and Same-Day Process Serving</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">The Growing Importance of Rush and Same-Day Process Serving</h1>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Choose <strong>rush</strong> (24–48 hours) or <strong>same-day</strong> Oklahoma process service when court deadlines, <strong>TROs</strong>, <strong>evictions</strong>, or <strong>subpoenas</strong> cannot wait for standard 3–5 day attempts—Just Legal Solutions dispatches licensed servers with <strong>GPS-verified</strong> proof statewide under 12 O.S. § 158.1.
+          </p>
+        </div>
         <p className="text-gray-600 mb-8 text-lg">
           In today&apos;s fast-paced legal environment, time is often the most critical factor in achieving a favorable outcome. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team has seen firsthand how rush and same-day process serving can make the difference between a case that proceeds on schedule and one that stalls in procedural delays. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we understand that court deadlines, emergency orders, and time-sensitive legal matters demand speed without sacrificing accuracy or compliance.
         </p>
@@ -230,7 +236,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="The Growing Importance of Rush and Same-Day Process Serving"
-        description="Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed."
+        description="Rush and same-day Oklahoma process serving covers TROs, evictions, and subpoenas—GPS-verified attempts with the same legal validity as standard service."
         url="https://justlegalsolutions.org/blog/rush-same-day-process-serving-importance"
         articleDetails={{
           headline: 'The Growing Importance of Rush and Same-Day Process Serving',

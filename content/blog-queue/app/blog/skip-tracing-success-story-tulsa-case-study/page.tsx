@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Skip Tracing Success: Tulsa Evasive Defendant Case Study",
-  description: "Case study: How professional skip tracing helped serve an evasive defendant in Tulsa County. Learn the strategy, process, and results from a real case.",
+  description:
+    'Case study: skip tracing in Tulsa County located an evasive defendant in Broken Arrow and completed personal service in under five business days after three failed attempts.',
   keywords: 'skip tracing success story, process server Tulsa evasive defendant, skip tracing case study, Tulsa skip tracing, serve evasive defendant Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Skip Tracing Success: Tulsa Evasive Defendant Case Study',
-    description: 'Case study: How professional skip tracing helped serve an evasive defendant in Tulsa County. Learn the strategy, process, and results from a real case.',
+    description:
+      'Case study: skip tracing in Tulsa County located an evasive defendant in Broken Arrow and completed personal service in under five business days after three failed attempts.',
     url: 'https://justlegalsolutions.org/blog/skip-tracing-success-story-tulsa-case-study',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Case study: How professional skip tracing helped serve an evasive defendant in Tulsa County. Learn the strategy, process, and results from a real case. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'After three failed Tulsa serves, cross-referencing DMV registration, property records, social geotags, and employment verification pinpointed a Broken Arrow residence; licensed personal service with GPS proof reopened the family law case within five business days.',
+    'ai-key-facts':
+      'Multiple database angles beat single-source locates; Drive-by confirmation before service reduces confrontation risk; GPS photos and affidavits document valid personal service under 12 O.S. § 2004; Skip tracing supports motions for alternative service when locates fail; Just Legal Solutions covers Tulsa metro and all 77 Oklahoma counties',
   },
 };
 
@@ -75,10 +77,22 @@ export default function BlogPost() {
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Skip Tracing Success: Serving an Evasive Defendant in Tulsa [Case Study]</h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Skip tracing</strong> merged <strong>DMV, property, social, and employment</strong>{' '}
+            leads to find a <strong>Tulsa evasive defendant</strong> in <strong>Broken Arrow</strong> and
+            finish <strong>personal service</strong> in under <strong>five business days</strong> after three
+            prior failed attempts.
+          </p>
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience and a team licensed and bonded under Oklahoma Title 12 O.S. 158.1, Just Legal Solutions has served thousands of documents across all 77 Oklahoma counties and encountered nearly every service challenge imaginable. This case study examines a real skip tracing assignment in Tulsa County where traditional methods failed, our specialized approach succeeded, and a frustrated client finally saw their case move forward.
         </p>
-        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: The Challenge */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -90,7 +104,11 @@ export default function BlogPost() {
             Evasive defendants are one of the most common obstacles in legal proceedings. When someone knows they are about to be served, they may change addresses, disconnect phone service, quit jobs, or rely on friends and family to shield their location. Without professional skip tracing, these cases can stall for weeks or months, delaying justice and increasing legal costs for the plaintiff.
           </p>
           <p className="mb-4">
-            <Link href="/process-serving" className="text-blue-600 hover:underline">Our process serving team</Link> encounters situations like this regularly across Oklahoma. While many process servers give up after one or two failed attempts, we treat every difficult case as a puzzle waiting to be solved.
+            Our{' '}
+            <Link href="/services/skip-tracing" className="text-blue-600 hover:underline">
+              skip tracing and location services
+            </Link>{' '}
+            team encounters situations like this regularly across Oklahoma. While many process servers give up after one or two failed attempts, we treat every difficult case as a puzzle waiting to be solved.
           </p>
         </section>
 
@@ -104,7 +122,11 @@ export default function BlogPost() {
             Each attempt failed. On the first visit, a neighbor said the defendant had moved out "a while ago." On the second, the apartment manager confirmed the lease had been terminated but would not provide a forwarding address due to privacy policies. The third attempt involved leaving a notice at the door, which produced no response. The attorney now had a stalled case, an anxious client, and a court date approaching.
           </p>
           <p className="mb-4">
-            Time was critical. Under Oklahoma law, service of process must be completed before the case can proceed. Delays in service mean delays in resolution — and in family law matters, those delays can be emotionally and financially costly.
+            Time was critical. Under Oklahoma&apos;s{' '}
+            <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">
+              180-day service deadline
+            </Link>{' '}
+            in 12 O.S. § 2004(I), service of process must be completed before the case can proceed. Delays in service mean delays in resolution — and in family law matters, those delays can be emotionally and financially costly.
           </p>
         </section>
 
@@ -214,6 +236,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/ai-skip-tracing-finding-evasive-defendants-oklahoma" className="text-blue-600 hover:underline">AI Skip Tracing for Evasive Defendants in Oklahoma</Link></li>
             <li><Link href="/blog/skip-tracing-technology-process-serving" className="text-blue-600 hover:underline">How Skip Tracing Technology Is Revolutionizing Process Serving in 2026</Link></li>
             <li><Link href="/blog/someone-avoids-being-served-oklahoma-options" className="text-blue-600 hover:underline">What to Do When Someone Avoids Being Served in Oklahoma</Link></li>
             <li><Link href="/blog/ai-changing-legal-support-services-2026" className="text-blue-600 hover:underline">How AI Is Changing Legal Support Services in 2026</Link></li>
@@ -252,7 +275,6 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
-            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

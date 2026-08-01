@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Eviction Notice Service in Oklahoma: A Landlord's Guide",
-  description: "Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.",
+  description: "Oklahoma landlords must match notice type to the violation—5-day pay-or-quit, 10-day cure, or 30-day termination—then prove personal or tape-and-mail service before filing FED.",
   keywords: 'eviction notice service Oklahoma, how to serve eviction papers, Oklahoma eviction process',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Eviction Notice Service in Oklahoma: A Landlord\'s Guide',
-    description: 'Oklahoma landlord\'s guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.',
+    description: 'Oklahoma landlords must match notice type to the violation—5-day pay-or-quit, 10-day cure, or 30-day termination—then prove personal or tape-and-mail service before filing FED.',
     url: 'https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma landlord guide to serving eviction notices under Title 41—initial notices allow substitute service on family 12+ or posting plus mailing under 41 O.S. § 111(E). FED court summons under 12 O.S. § 1148.5 requires personal service or substitute on resident 15+.',
-    'ai-key-facts': '41 O.S. § 111(E) notice rules; FED summons under § 1148.5; posting requires mailing; separate rules for notice vs court summons; (539) 367-6832',
+    'ai-summary': 'Title 41 notice periods, tape-and-mail posting plus mailing, and separate FED summons rules under 12 O.S. § 1148.5—what Oklahoma landlords must document before court.',
+    'ai-key-facts': '5-day nonpayment, 10-day lease violation, and 30-day month-to-month notices; tape-and-mail requires posting and first-class mail; FED summons needs service at least three days before hearing; GPS affidavits defend challenged service',
   
   
   },
@@ -55,6 +55,18 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Eviction Notice Service in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Eviction Notice Service in Oklahoma: A Landlord's Guide</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Before filing a forcible entry and detainer, Oklahoma landlords must serve the correct{' '}
+            <strong>written notice</strong>—typically a <strong>5-day pay-or-quit</strong>, 10-day cure, or
+            30-day termination—and let that period expire. If the tenant is not home,{' '}
+            <strong>tape-and-mail</strong> (posting plus first-class mail) is allowed only after diligent
+            personal attempts. Court summons afterward follow separate service rules under 12 O.S. § 1148.5.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">Serving an eviction notice correctly is one of the most critical steps in the Oklahoma eviction process. A single mistake in notice type, content, or service method can delay your case by weeks or even result in dismissal. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of eviction notices across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help landlords navigate the complexities of eviction notice service to keep their cases on track. This guide covers everything Oklahoma landlords need to know about serving eviction notices correctly.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
@@ -169,7 +181,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Eviction Notice Service in Oklahoma: A Landlord's Guide"
-        description="Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods."
+        description="Oklahoma landlords must match notice type to the violation—5-day pay-or-quit, 10-day cure, or 30-day termination—then prove personal or tape-and-mail service before filing FED."
         url="https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide"
         articleDetails={{
           headline: 'Eviction Notice Service in Oklahoma: A Landlord',

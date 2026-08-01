@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Document Retrieval Services: Get the Records You...",
-  description: "Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently. Serving all",
+  description:
+    'Oklahoma document retrieval delivers court, county, and certified copies via OSCN or in-person clerks statewide, with rush options for litigation deadlines.',
   keywords: 'document retrieval Oklahoma, court records retrieval, legal document copy services',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Document Retrieval Services: Get the Records You Need',
-    description: 'Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently.',
+    description:
+      'Oklahoma document retrieval delivers court, county, and certified copies via OSCN or in-person clerks statewide, with rush options for litigation deadlines.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-document-retrieval-services',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently. Serving all Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma document retrieval obtains court case files, county land and probate records, and certified copies through OSCN where available or in-person clerk requests, with rush turnaround for discovery and filing deadlines statewide.',
+    'ai-key-facts':
+      'Certified copies bear custodian seals and are court-admissible; OSCN covers many dockets but not all sealed or archived files; Turnaround ranges from hours online to several days in rural counties; Licensed support under Title 12 O.S. §158.1 with strict confidentiality',
   },
 };
 
@@ -74,6 +76,16 @@ export default function BlogPost() {
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Document Retrieval Services: Get the Records You Need</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Document retrieval</strong> obtains <strong>court, county, and state records</strong> and{' '}
+            <strong>certified copies</strong> via <strong>OSCN</strong> or clerk offices in all{' '}
+            <strong>77 counties</strong>; <strong>certified copies</strong> are <strong>court-admissible</strong>, while
+            plain copies suit internal case prep.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Law firms and legal professionals across Oklahoma regularly need access to court records, county documents, and certified copies to build strong cases and serve their clients effectively. At Just Legal Solutions, our team brings over 50 years of combined experience retrieving documents from every corner of the state. We have served thousands of documents across all 77 Oklahoma counties and developed the systems and relationships necessary to get records quickly and accurately. Whether you need a certified copy of a divorce decree, a property deed from a rural county, or a complete court case file, professional document retrieval services save your firm time and ensure you receive the correct documents the first time. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle every request with the professionalism and confidentiality your cases demand.
@@ -243,7 +255,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Document Retrieval Services: Get the Records You Need"
-        description="Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently."
+        description="Oklahoma document retrieval delivers court, county, and certified copies via OSCN or in-person clerks statewide, with rush options for litigation deadlines."
         url="https://justlegalsolutions.org/blog/oklahoma-document-retrieval-services"
         articleDetails={{
           headline: 'Oklahoma Document Retrieval Services: Get the Records You Need',

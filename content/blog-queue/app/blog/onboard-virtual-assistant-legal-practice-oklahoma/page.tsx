@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Onboard a Virtual Assistant for Your Law Firm',
-  description: 'Learn how to onboard a virtual assistant for your Oklahoma law firm with a 30-day plan that ensures ORPC compliance and faster productivity.',
+  description: 'Onboard a legal VA in Oklahoma with a 30-day ORPC plan: secure tools, phased client contact, ethics under Rules 5.3 and 1.6, and faster firm productivity.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Onboard a Virtual Assistant for Your Law Firm',
-    description: 'Learn how to onboard a virtual assistant for your Oklahoma law firm with a 30-day plan that ensures ORPC compliance and faster productivity.',
+    description: 'Onboard a legal VA in Oklahoma with a 30-day ORPC plan: secure tools, phased client contact, ethics under Rules 5.3 and 1.6, and faster firm productivity.',
     url: 'https://justlegalsolutions.org/blog/onboard-virtual-assistant-legal-practice-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-05',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'A structured 30-day Oklahoma VA onboarding phases tool access, ORPC confidentiality training, supervised client contact, and recurring workflows so firms delegate admin safely under Rules 5.3, 5.5, and 1.6.',
+    'ai-key-facts':
+      'Week 1 keeps VAs on internal tasks with no unsupervised client contact; ORPC Rule 5.3 supervision applies to employees and independent contractors alike; Non-delegable work includes legal advice, fee negotiation, and unsupervised drafting; Pre-boarding requires firm-controlled systems, NDAs, and three documented starter tasks; Firms often reclaim 10–15 billable hours weekly after proper onboarding',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Onboard a Virtual Assistant for Your Law Firm"
-        pageDescription="Learn how to onboard a virtual assistant for your Oklahoma law firm with a 30-day plan that ensures ORPC compliance and faster productivity."
+        pageDescription="Onboard a legal VA in Oklahoma with a 30-day ORPC plan: secure tools, phased client contact, ethics under Rules 5.3 and 1.6, and faster firm productivity."
         pageUrl="https://justlegalsolutions.org/blog/onboard-virtual-assistant-legal-practice-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Onboard a Virtual Assistant for Your Law Firm
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Use a <strong>30-day phased onboarding</strong>: <strong>pre-boarding</strong> with secure firm tools and NDAs, <strong>Week 1</strong> internal tasks plus <strong>ORPC</strong> training, then supervised <strong>client intake</strong>—never delegating <strong>legal advice</strong> or unsupervised drafting under <strong>Rules 5.3, 5.5, and 1.6</strong>.
+            </p>
+          
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-05').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Hiring a virtual assistant for your Oklahoma law firm is a smart move — but hiring without a structured onboarding plan is like filing a brief without checking the rules. You have invested time and money finding the right VA. Now you need a 30-day framework that gets them productive fast while keeping you on the right side of the Oklahoma Rules of Professional Conduct. This guide walks you through exactly how to do that, with week-by-week task delegation, ORPC compliance checkpoints, and practical templates you can use starting today.
           </p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Onboarding Matters More Than Hiring</h2>
 

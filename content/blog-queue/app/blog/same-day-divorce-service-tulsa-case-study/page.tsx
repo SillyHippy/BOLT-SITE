@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Same-Day Divorce Paper Service in Tulsa: Case Study",
-  description: "Case study: Same-day divorce paper service in Tulsa meeting a critical court deadline. Learn how rush service saved the case timeline. Serving all 77 Oklahoma c",
+  description:
+    'Tulsa case study: licensed same-day divorce service with skip trace and GPS proof—five hours from urgent call to affidavit under Oklahoma 12 O.S. § 2004.',
   keywords: 'same day divorce paper service Tulsa, rush divorce papers served, process server case study, same day process serving Tulsa, divorce paper service Oklahoma, rush process server Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Same-Day Divorce Paper Service in Tulsa: Case Study',
-    description: 'Case study: Same-day divorce paper service in Tulsa meeting a critical court deadline. Learn how rush service saved the case timeline.',
+    description:
+      'Tulsa case study: licensed same-day divorce service with skip trace and GPS proof—five hours from urgent call to affidavit under Oklahoma 12 O.S. § 2004.',
     url: 'https://justlegalsolutions.org/blog/same-day-divorce-service-tulsa-case-study',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Case study: Same-day divorce paper service in Tulsa meeting a critical court deadline. Learn how rush service saved the case timeline. Serving all 77 Oklahoma c Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Tulsa family-law case study: urgent Tuesday call, workplace skip trace, personal service by 3 PM, and GPS-verified affidavit—licensed rush service under Oklahoma Title 12 O.S. 158.1 and 12 O.S. § 2004 across all 77 counties.',
+    'ai-key-facts':
+      'Five hours from intake to completed service and affidavit delivery; Skip tracing confirmed midtown Tulsa workplace when home service failed; Workplace service completed discreetly with management coordination; GPS timestamps and coordinates on the return of service; Licensed and bonded under Oklahoma Title 12 O.S. 158.1; Rush tiers available statewide across 77 Oklahoma counties',
   },
 };
 
@@ -55,8 +57,18 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Same-Day Divorce Paper Service in Tulsa: Case Study</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Same-Day Divorce Paper Service in Tulsa: A Case Study in Meeting Critical Court Deadlines</h1>
-        <p className="text-gray-600 mb-8 text-lg">With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the Just Legal Solutions Team understands that family law cases don't wait. This real-world case study demonstrates how our <Link href="/process-serving" className="text-blue-600 hover:underline">rush process serving</Link> capabilities saved a Tulsa attorney from missing a critical court deadline — and kept a divorce case on track.</p>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            When a Tulsa divorce deadline is <strong>tomorrow</strong>, <strong>rush licensed service</strong> under{' '}
+            <strong>Oklahoma Title 12 O.S. 158.1</strong> plus <strong>skip tracing</strong> and <strong>GPS-verified</strong> affidavits under{' '}
+            <strong>12 O.S. § 2004</strong> can complete personal service the same day—even if the spouse avoids home delivery.
+          </p>
+        </div>
+
+        <p className="text-gray-600 mb-8 text-lg">With 50+ years of combined experience and thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team understands that family law cases don&apos;t wait. This real-world case study demonstrates how our <Link href="/process-serving" className="text-blue-600 hover:underline">rush process serving</Link> capabilities saved a Tulsa attorney from missing a critical court deadline — and kept a divorce case on track.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Urgency: A Court Deadline Looming</h2>
@@ -156,7 +168,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Same-Day Divorce Paper Service in Tulsa: A Case Study in Meeting Critical Court Deadlines"
-        description="Case study: Same-day divorce paper service in Tulsa meeting a critical court deadline. Learn how rush service saved the case timeline."
+        description="Tulsa case study: licensed same-day divorce service with skip trace and GPS proof—five hours from urgent call to affidavit under Oklahoma 12 O.S. § 2004."
         url="https://justlegalsolutions.org/blog/same-day-divorce-service-tulsa-case-study"
         articleDetails={{
           headline: 'Same-Day Divorce Paper Service in Tulsa: A Case Study in Meeting Critical Court Deadlines',

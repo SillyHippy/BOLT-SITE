@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary E&O Insurance: Why Every Oklahoma Notary Needs It',
-  description: 'Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn',
+  description: "Oklahoma's $10,000 notary bond under 49 O.S. § 2 protects the public, not you. E&O insurance covers your defense; you may repay the surety after a bond claim.",
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notary E&O Insurance: Why Every Oklahoma Notary Needs It',
-    description: 'Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn',
+    description: "Oklahoma's $10,000 notary bond under 49 O.S. § 2 protects the public, not you. E&O insurance covers your defense; you may repay the surety after a bond claim.",
     url: 'https://justlegalsolutions.org/blog/notary-errors-omissions-insurance-every-notary-needs-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma requires a $10,000 notary bond under 49 O.S. § 2.A that protects the public; sureties can seek reimbursement from notaries; E&O insurance is optional but covers personal defense and settlements; liability can run three years under 49 O.S. § 10.',
+    'ai-key-facts': 'Bond increased to $10000 on January 1 2026 under 49 O.S. § 2.A; Bond claims may be subrogated against the notary; E&O covers defense costs even for baseless claims; Lawsuits may be filed within 3 years under 49 O.S. § 10',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary E&O Insurance: Why Every Oklahoma Notary Needs It"
-        pageDescription="Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn"
+        pageDescription="Oklahoma's $10,000 notary bond under 49 O.S. § 2 protects the public, not you. E&O insurance covers your defense; you may repay the surety after a bond claim."
         pageUrl="https://justlegalsolutions.org/blog/notary-errors-omissions-insurance-every-notary-needs-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary E&O Insurance: Why Every Oklahoma Notary Needs It
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>49 O.S. § 2.A</strong>, Oklahoma&apos;s mandatory <strong>$10,000 bond</strong> protects the{' '}
+              <strong>public</strong>—if a claim is paid, the surety can demand full repayment from you.{' '}
+              <strong>E&O insurance</strong> is optional but covers <strong>your</strong> legal defense and settlements;
+              claims can still arrive within <strong>3 years</strong> under <strong>49 O.S. § 10</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-24').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

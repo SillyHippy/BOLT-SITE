@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma',
-  description: 'Navigate environmental process serving in Oklahoma. Learn EPA citizen suit NOI rules, DEQ compliance order service requirements, and the 2026 electronic filing proposal.',
+  description:
+    'EPA and DEQ environmental service in Oklahoma: citizen-suit NOIs, FRCP 4(i) agency rules, DEQ 15-day hearing windows, and the 2026 EPA electronic NOI proposal.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma',
-    description: 'Navigate environmental process serving in Oklahoma. Learn EPA citizen suit NOI rules, DEQ compliance order service requirements, and the 2026 electronic filing proposal.',
+    description:
+      'EPA and DEQ environmental service in Oklahoma: citizen-suit NOIs, FRCP 4(i) agency rules, DEQ 15-day hearing windows, and the 2026 EPA electronic NOI proposal.',
     url: 'https://justlegalsolutions.org/blog/environmental-law-process-serving-epa-compliance-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma environmental process serving across EPA citizen-suit NOIs, FRCP 4(i) agency service, DEQ orders under OAC 252:4-9-35, multi-defendant oil-and-gas cases, and EPA’s 2026 electronic NOI proposal.',
+    'ai-key-facts':
+      'Citizen-suit NOIs generally require 60 days before filing and certified mail to EPA under 40 CFR 702.61; FRCP 4(i) requires three-prong service on the United States in federal court actions; DEQ orders trigger a 15-day hearing request window after proper service under OAC 252:4-9-35; State court service must occur within 180 days under 12 O.S. § 2004(I); EPA proposed electronic NOI submission in February 2026',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma"
-        pageDescription="Navigate environmental process serving in Oklahoma. Learn EPA citizen suit NOI rules, DEQ compliance order service requirements, and the 2026 electronic filing proposal."
+        pageDescription="EPA and DEQ environmental service in Oklahoma: citizen-suit NOIs, FRCP 4(i) agency rules, DEQ 15-day hearing windows, and the 2026 EPA electronic NOI proposal."
         pageUrl="https://justlegalsolutions.org/blog/environmental-law-process-serving-epa-compliance-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,13 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Environmental service in Oklahoma layers <strong>federal EPA rules</strong> (60-day citizen-suit NOIs, <strong>FRCP 4(i)</strong> three-prong agency service) with <strong>DEQ administrative orders</strong> under OAC 252:4-9-35—personal service, certified mail, or publication, with a{' '}
+              <strong>15-day hearing request window</strong> after proper notice. EPA proposed electronic NOI submission in 2026; violators and state agencies still need documented Oklahoma service.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-28').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +163,10 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Environmental litigation in Oklahoma operates at the intersection of federal mandates, state regulations, and local enforcement realities. Whether you are filing a citizen suit under the Clean Water Act, responding to a DEQ compliance order, or managing a multi-defendant toxic tort case, getting service of process right is not optional — it is the foundation on which your entire case stands. One misstep in serving the EPA, the Oklahoma Department of Environmental Quality, or a rural well operator can cost you months of work and tens of thousands in penalties.
           </p>
+
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.          </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Environmental Law Demands Specialized Process Serving</h2>
 

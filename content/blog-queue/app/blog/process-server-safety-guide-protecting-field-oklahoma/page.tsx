@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Server Safety Guide: Protecting Yourself in the Field',
-  description: 'Stay safe as a process server in Oklahoma with this complete safety guide. Covers HB 1162 protections, self-defense laws, de-escalation techniques, and essential field safety protocols.',
+  description:
+    "Oklahoma field safety: HB 1162 felony penalties, Stand Your Ground limits, Erin's List checks, check-ins, de-escalation, and when to leave a hostile serve.",
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Process Server Safety Guide: Protecting Yourself in the Field',
-    description: 'Stay safe as a process server in Oklahoma with this complete safety guide. Covers HB 1162 protections, self-defense laws, de-escalation techniques, and essential field safety protocols.',
+    description:
+      "Oklahoma field safety: HB 1162 felony penalties, Stand Your Ground limits, Erin's List checks, check-ins, de-escalation, and when to leave a hostile serve.",
     url: 'https://justlegalsolutions.org/blog/process-server-safety-guide-protecting-field-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      "After the 2019 Tulsa shooting, HB 1162 added screening and felony penalties; Oklahoma servers use Erin's List, pre-service risk checks, check-ins, de-escalation, and lawful self-defense only as a last resort under 21 O.S. § 1289.25.",
+    'ai-key-facts':
+      "HB 1162 bars violent felons from licensing and enhances assault penalties under 21 O.S. § 650.6; Permitless carry limits handguns to .22–.45 caliber; Stand Your Ground applies only when servers are lawfully present and did not provoke; Erin's List flags prior assault locations; Check-in protocols before and after every attempt",
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Server Safety Guide: Protecting Yourself in the Field"
-        pageDescription="Stay safe as a process server in Oklahoma with this complete safety guide. Covers HB 1162 protections, self-defense laws, de-escalation techniques, and essential field safety protocols."
+        pageDescription="Oklahoma field safety: HB 1162 felony penalties, Stand Your Ground limits, Erin's List checks, check-ins, de-escalation, and when to leave a hostile serve."
         pageUrl="https://justlegalsolutions.org/blog/process-server-safety-guide-protecting-field-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Server Safety Guide: Protecting Yourself in the Field
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>HB 1162</strong> adds screening and felony penalties; use <strong>Erin&apos;s List</strong>,{' '}
+              <strong>risk checks</strong>, <strong>check-ins</strong>, <strong>de-escalation first</strong>, and{' '}
+              <strong>lawful self-defense</strong> only as a last resort under <strong>21 O.S. § 1289.25</strong>.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +164,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Process server safety in Oklahoma is not something you figure out after something goes wrong — it is something you prepare for before every single serve. If you are knocking on doors across Tulsa, Oklahoma City, or any of Oklahoma's 77 counties, you need to know the risks, understand your legal protections, and have a plan for when a routine service attempt turns hostile. This guide covers everything from HB 1162 and your rights under Oklahoma's Stand Your Ground law to practical de-escalation techniques and the pre-service checklist that could save your life.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Understanding the Real Risks: Why Process Server Safety Matters</h2>
 

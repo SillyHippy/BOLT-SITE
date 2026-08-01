@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Corporate Resolution Notarization in Oklahoma Guide',
-  description: 'Learn when Oklahoma corporate resolutions need notarization, how representative capacity acknowledgments work, and your RON options for board meetings.',
+  description: 'Banks often require notarized Oklahoma resolutions—49 O.S. § 119 representative capacity, 18 O.S. § 1073 written consents, and RON for out-of-state officers.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Corporate Resolution Notarization in Oklahoma Guide',
-    description: 'Learn when Oklahoma corporate resolutions need notarization, how representative capacity acknowledgments work, and your RON options for board meetings.',
+    description: 'Banks often require notarized Oklahoma resolutions—49 O.S. § 119 representative capacity, 18 O.S. § 1073 written consents, and RON for out-of-state officers.',
     url: 'https://justlegalsolutions.org/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma corporate resolutions bind when properly signed; notarization proves officer authority to banks and lenders. Use 49 O.S. § 119 representative-capacity acknowledgments, 18 O.S. § 1073 written consents, and RON for remote directors.',
+    'ai-key-facts': 'Internal validity does not require a notary stamp—third parties such as banks usually do; Board resolutions cover daily management; shareholder resolutions cover mergers and major structural changes; Representative capacity certificate under 49 O.S. § 119 must name title and corporation; Written consents must reach the corporation within 60 days of the earliest signature under 18 O.S. § 1073',
   },
 };
 
@@ -101,7 +103,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Corporate Resolution Notarization in Oklahoma Guide"
-        pageDescription="Learn when Oklahoma corporate resolutions need notarization, how representative capacity acknowledgments work, and your RON options for board meetings."
+        pageDescription="Banks often require notarized Oklahoma resolutions—49 O.S. § 119 representative capacity, 18 O.S. § 1073 written consents, and RON for out-of-state officers."
         pageUrl="https://justlegalsolutions.org/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +148,16 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Corporate Resolution Notarization in Oklahoma Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma resolutions are <strong>legally binding when authorized officers or shareholders sign</strong>—notarization
+              is usually a <strong>bank or lender requirement</strong>, not a state mandate. Officers need the{' '}
+              <strong>49 O.S. § 119 representative-capacity acknowledgment</strong>, not a personal certificate.{' '}
+              <strong>Written consents</strong> under 18 O.S. § 1073 avoid meetings, and <strong>RON</strong> lets out-of-state
+              directors sign remotely when the receiving institution accepts it.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-28').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -167,6 +179,8 @@ export default function BlogPost() {
             news is that there is a lot of misinformation out there, and one wrong move can send you
             back to the notary for a do-over.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>What Is a Corporate Resolution and When Does It Need Notarization?</h2>
 

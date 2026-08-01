@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Private Investigators Help Process Servers in Oklahoma',
-  description: 'Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties.',
+  description: "Oklahoma PIs skip-trace evasive defendants; licensed servers under 12 O.S. § 158.1 then serve papers—helping firms meet Oklahoma's 180-day service deadline.",
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How Private Investigators Help Process Servers in Oklahoma',
-    description: 'Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties.',
+    description: "Oklahoma PIs skip-trace evasive defendants; licensed servers under 12 O.S. § 158.1 then serve papers—helping firms meet Oklahoma's 180-day service deadline.",
     url: 'https://justlegalsolutions.org/blog/private-investigators-collaborate-process-servers-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-14',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'When routine service fails, CLEET-licensed Oklahoma PIs conduct skip tracing and surveillance while separate 12 O.S. § 158.1 process servers execute compliant delivery and affidavits before the 180-day deadline.',
+    'ai-key-facts':
+      'Process servers and PIs require different licenses—12 O.S. § 158.1 versus 59 O.S. § 1750 through CLEET; Servers cannot perform skip tracing without a PI license; Dual-licensed professionals can locate and serve in one workflow; 12 O.S. § 2004(I) requires service within 180 days of filing; PI documentation supports due diligence for publication under § 2004(C)(3)',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Private Investigators Help Process Servers in Oklahoma"
-        pageDescription="Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties."
+        pageDescription="Oklahoma PIs skip-trace evasive defendants; licensed servers under 12 O.S. § 158.1 then serve papers—helping firms meet Oklahoma's 180-day service deadline."
         pageUrl="https://justlegalsolutions.org/blog/private-investigators-collaborate-process-servers-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Private Investigators Help Process Servers in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>CLEET-licensed PIs</strong> skip-trace and verify addresses; <strong>12 O.S. § 158.1 process servers</strong> alone deliver papers and file affidavits—often via <strong>dual-licensed</strong> pros—to beat <strong>Oklahoma&apos;s 180-day</strong> service window under <strong>12 O.S. § 2004(I)</strong>.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-14').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +160,10 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             When your defendant has vanished, changed addresses, or is actively dodging service, a process server alone may not be enough. That is where private investigator collaboration becomes your secret weapon. In Oklahoma, the partnership between licensed private investigators and certified process servers has become the gold standard for locating evasive defendants, meeting critical court deadlines, and ensuring service of process that holds up under judicial scrutiny. Let us walk through how this collaboration works, why Oklahoma&rsquo;s dual-licensing system makes it unique, and what your law firm needs to know.
           </p>
+
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.          </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>When Routine Service Fails: Why Process Servers Need Investigative Backup</h2>
 

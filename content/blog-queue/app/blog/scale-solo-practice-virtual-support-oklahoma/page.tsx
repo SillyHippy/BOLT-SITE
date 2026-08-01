@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Scale a Solo Practice with Virtual Support',
-  description: 'Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently.',
+  description:
+    'Oklahoma solos scale with virtual assistants under ORPC 5.3—delegate intake and billing, cut overhead, and reclaim billable hours without full-time hires.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Scale a Solo Practice with Virtual Support',
-    description: 'Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently.',
+    description:
+      'Oklahoma solos scale with virtual assistants under ORPC 5.3—delegate intake and billing, cut overhead, and reclaim billable hours without full-time hires.',
     url: 'https://justlegalsolutions.org/blog/scale-solo-practice-virtual-support-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +41,14 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-02',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma solos scale by delegating non-billable work to virtual assistants under ORPC Rule 5.3—intake, drafting, billing, and calendar control—while pairing with licensed process support under Title 12 O.S. 158.1 and 12 O.S. § 2004 deadlines statewide.',
+    'ai-key-facts':
+      'Average solos bill roughly 2.6 hours per 8-hour day without support staff; Virtual assistants cost far less than in-house paralegals plus benefits; ORPC Rule 5.3 requires attorney supervision and confidentiality safeguards; Delegation frees time for client-facing and court work; Coordinate licensed service of process under Title 12 O.S. 158.1 when cases need 12 O.S. § 2004 compliance; Virtual support scales across all 77 Oklahoma counties',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question:
       'Is it ethical for Oklahoma attorneys to use virtual assistants?',
@@ -109,8 +115,10 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
+        title="How to Scale a Solo Practice with Virtual Support"
+        description="Oklahoma solos scale with virtual assistants under ORPC 5.3—delegate intake and billing, cut overhead, and reclaim billable hours without full-time hires."
         pageTitle="How to Scale a Solo Practice with Virtual Support"
-        pageDescription="Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently."
+        pageDescription="Oklahoma solos scale with virtual assistants under ORPC 5.3—delegate intake and billing, cut overhead, and reclaim billable hours without full-time hires."
         pageUrl="https://justlegalsolutions.org/blog/scale-solo-practice-virtual-support-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -155,6 +163,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Scale a Solo Practice with Virtual Support
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma <strong>solos scale</strong> by hiring <strong>virtual assistants</strong> under{' '}
+              <strong>ORPC Rule 5.3</strong> for intake, drafting, and billing—reclaiming billable hours while{' '}
+              <strong>Title 12 O.S. 158.1</strong> partners handle rush <strong>12 O.S. § 2004</strong> service when caseloads spike.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -171,7 +187,7 @@ export default function BlogPost() {
             feeling. You came home from court in Oklahoma City, grabbed a quick
             dinner, and sat back down at your laptop to finish data entry for
             three new client files. By the time you looked up, it was after
-            midnight. Again. Here is the hard truth: you are not struggling
+            midnight. Again. With 50+ years of combined experience and thousands of documents across all 77 Oklahoma counties, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 when you need coordinated process service under 12 O.S. 2004 and Title 49 O.S. support—not just back-office help. Here is the hard truth: you are not struggling
             because you are not a good attorney. You are struggling because you
             are trying to be a good attorney, a receptionist, a bookkeeper, and a
             file clerk all at the same time. The good news? There is a proven way

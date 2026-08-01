@@ -36,9 +36,13 @@ export const metadata: Metadata = {
   },
   other: {
     'article:published_time': '2026-04-02',
-    'article:modified_time': '2026-04-02',
+    'article:modified_time': '2026-08-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma law firms delegate case management to virtual assistants under ORPC Rule 5.3 for file organization, deadline tracking, and client updates—never legal advice—while VAs fluent in Clio, OSCN, and 12 O.S. service rules keep matters moving across 77 counties.',
+    'ai-key-facts':
+      'Rule 5.3 permits nonlawyer assistants with reasonable supervision and confidentiality training; Case VAs handle intake setup, calendars, and discovery organization—not substantive legal drafting; Oklahoma-savvy VAs navigate OSCN, local court rules, and 180-day service deadlines; Virtual support often costs 40–60% less than in-house staff with flexible scaling; ABA Formal Opinion 506 validates delegated intake and coordination when attorneys supervise',
   },
 };
 
@@ -104,7 +108,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'How a Virtual Assistant Can Help with Case Management',
           datePublished: '2026-04-02',
-          dateModified: '2026-04-02',
+          dateModified: '2026-08-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How a Virtual Assistant Can Help with Case Management
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>ORPC Rule 5.3</strong>, Oklahoma attorneys may delegate <strong>case management</strong>—file organization, deadlines, client updates, and court coordination—to a supervised virtual assistant who does <strong>not</strong> give legal advice; Oklahoma-trained VAs add value through <strong>OSCN</strong>, local court rules, and <strong>12 O.S.</strong> service timelines.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -148,7 +160,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            If you are an Oklahoma attorney running a small firm or solo practice, you already know the feeling. You went to law school to practice law, to advocate for clients, to argue in court. But somewhere between the bar exam and this morning's calendar, case management ate your day. The good news? A skilled virtual assistant trained in legal case management can give you back the hours you need to actually practice law. At Just Legal Solutions, we provide comprehensive virtual assistant and legal support services designed specifically for Oklahoma attorneys who need reliable, efficient case management support across all 77 counties.
+            If you are an Oklahoma attorney running a small firm or solo practice, you already know the feeling. You went to law school to practice law, to advocate for clients, to argue in court. But somewhere between the bar exam and this morning&rsquo;s calendar, case management ate your day. The good news? A skilled virtual assistant trained in legal case management can give you back the hours you need to actually practice law. At Just Legal Solutions, we provide comprehensive virtual assistant and legal support services designed specifically for Oklahoma attorneys who need reliable, efficient case management support across all 77 counties.
           </p>
 
           <h2>The Case Management Crisis Facing Oklahoma Law Firms</h2>
@@ -203,13 +215,13 @@ export default function BlogPost() {
 
           <p>Many firms use both roles effectively. The case management VA keeps cases organized and moving, while the paralegal handles legal substance. In a personal injury practice, for example, the VA manages the client intake, schedules medical appointments, tracks records requests, and organizes the case file, while the paralegal drafts the demand letter, researches case law, and prepares litigation documents. Both roles are essential, but they serve different functions.</p>
 
-          <p>In a state with 77 district courts, each with its own local rules and procedures, a case management VA who understands Oklahoma's court landscape prevents cases from falling through cracks that a generic offshore VA would not even know exist. At Just Legal Solutions, we provide <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">our integrated virtual assistant and case management services</Link> and can layer in paralegal support where your cases demand it. Whether you need one role or both, we scale with your practice.</p>
+          <p>In a state with 77 district courts, each with its own local rules and procedures, a case management VA who understands Oklahoma&rsquo;s court landscape prevents cases from falling through cracks that a generic offshore VA would not even know exist. At Just Legal Solutions, we provide <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">our integrated virtual assistant and case management services</Link> and can layer in paralegal support where your cases demand it. Whether you need one role or both, we scale with your practice.</p>
 
           <h2>The Oklahoma Advantage: Why Local Court Knowledge Matters</h2>
 
-          <p>This is where Just Legal Solutions separates from every generic virtual assistant provider on the market. No competitor covers how a VA with deep knowledge of Oklahoma's specific court systems manages cases more effectively than an offshore or generic alternative. And in a state as geographically and procedurally diverse as Oklahoma, that local knowledge is not a nice-to-have. It is essential.</p>
+          <p>This is where Oklahoma-specific court knowledge matters most. A case management VA who understands local district court rules, OSCN workflows, and statewide filing quirks prevents cases from slipping through cracks that a generic remote assistant may never see. In a state as geographically and procedurally diverse as Oklahoma, that local knowledge is essential&mdash;not optional.</p>
 
-          <h3>Navigating Oklahoma's 77-County District Court System</h3>
+          <h3>Navigating Oklahoma&rsquo;s 77-County District Court System</h3>
 
           <p>Oklahoma has district courts in all 77 counties, and each one operates with its own local rules, filing procedures, and administrative quirks. A VA who knows that Tulsa County has specific e-filing cutoff times, or that certain rural counties still require in-person filing for certain document types, prevents missed deadlines that could cost your client their case. A VA who understands that Oklahoma County and Cleveland County have different scheduling protocols for hearings can save you hours of frustration every month.</p>
 
@@ -217,13 +229,13 @@ export default function BlogPost() {
 
           <h3>OSCN, E-Filing, and Oklahoma-Specific Deadline Management</h3>
 
-          <p>The Oklahoma State Courts Network, or OSCN, is the backbone of court communication and document access in this state. An Oklahoma-trained VA knows how to navigate the OSCN portal, track case status, retrieve court records, and understand the e-filing requirements that vary by county. They can <Link href="/oklahoma-tools/service-deadline-calculator" className="text-blue-600 hover:underline">calculate service deadlines under Oklahoma's specific rules</Link> found in 12 O.S. and 49 O.S., and they have basic familiarity with Oklahoma statutes of limitations for common practice areas.</p>
+          <p>The Oklahoma State Courts Network, or OSCN, is the backbone of court communication and document access in this state. An Oklahoma-trained VA knows how to navigate the OSCN portal, track case status, retrieve court records, and understand the e-filing requirements that vary by county. They can <Link href="/oklahoma-tools/service-deadline-calculator" className="text-blue-600 hover:underline">calculate service deadlines under Oklahoma&rsquo;s specific rules</Link> found in 12 O.S. and 49 O.S., and they have basic familiarity with Oklahoma statutes of limitations for common practice areas.</p>
 
           <p>This is not information you can pick up from a training manual in a week. It comes from working with Oklahoma attorneys, navigating Oklahoma courts, and understanding the practical realities of legal practice in this state. When your VA knows the difference between filing in Payne County versus filing in Pottawatomie County, your cases move smoother, your deadlines are met, and your clients receive better service.</p>
 
           <h2>Staying Ethical: The Rule 5.3 Compliance Framework for Virtual Case Management</h2>
 
-          <p>Let us address the elephant in the room. Every Oklahoma attorney considering virtual case management support has the same concern: is this ethical? The answer is a clear yes, provided you follow a practical compliance framework. In fact, no competitor addresses this ethical compliance angle head-on, which means we are going to give you the straightforward guidance you need to delegate case work with confidence.</p>
+          <p>Let us address the elephant in the room. Every Oklahoma attorney considering virtual case management support has the same concern: is this ethical? The answer is a clear yes, provided you follow a practical compliance framework grounded in ORPC Rules 5.3, 1.6, and 5.5. The sections below give you straightforward guidance for delegating case work with confidence.</p>
 
           <h3>Oklahoma Rules of Professional Conduct: Rules 5.3, 1.6, and 5.5</h3>
 

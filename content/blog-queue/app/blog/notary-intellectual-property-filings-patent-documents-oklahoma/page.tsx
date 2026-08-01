@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary for Patent & IP Documents in Oklahoma',
-  description: 'Discover which patent and IP documents require notarization in Oklahoma. Learn about inventor oaths, assignments, apostille services, and USPTO requirements.',
+  description: 'PTO/AIA/01 needs no OK notary; PTO/AIA/08 oaths do. Notarized assignments get 35 U.S.C. § 261 prima facie evidence; foreign patent filings may need apostille.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notary for Patent & IP Documents in Oklahoma',
-    description: 'Discover which patent and IP documents require notarization in Oklahoma. Learn about inventor oaths, assignments, apostille services, and USPTO requirements.',
+    description: 'PTO/AIA/01 needs no OK notary; PTO/AIA/08 oaths do. Notarized assignments get 35 U.S.C. § 261 prima facie evidence; foreign patent filings may need apostille.',
     url: 'https://justlegalsolutions.org/blog/notary-intellectual-property-filings-patent-documents-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-04',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'USPTO PTO/AIA/01 inventor declarations need no notary; PTO/AIA/08 oaths require swearing before a notary; provisional applications need neither; notarized patent assignments create prima facie evidence under 35 U.S.C. § 261; foreign filings may need apostille.',
+    'ai-key-facts': 'PTO/AIA/01 declarations do not require notarization; PTO/AIA/08 oaths must be sworn before a notary; Provisional patent applications require no oath or declaration; Notarized assignments provide prima facie evidence under 35 U.S.C. § 261',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary for Patent & IP Documents in Oklahoma"
-        pageDescription="Discover which patent and IP documents require notarization in Oklahoma. Learn about inventor oaths, assignments, apostille services, and USPTO requirements."
+        pageDescription="PTO/AIA/01 needs no OK notary; PTO/AIA/08 oaths do. Notarized assignments get 35 U.S.C. § 261 prima facie evidence; foreign patent filings may need apostille."
         pageUrl="https://justlegalsolutions.org/blog/notary-intellectual-property-filings-patent-documents-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,16 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary for Patent & IP Documents in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>PTO/AIA/01</strong> inventor declarations need <strong>no notary</strong>;{' '}
+              <strong>PTO/AIA/08 oaths</strong> must be sworn before one. <strong>Provisional</strong> applications skip
+              both. <strong>Patent assignments</strong> are valid without notarization but gain{' '}
+              <strong>35 U.S.C. § 261</strong> prima facie evidence when notarized; foreign USPTO-related filings may
+              need an <strong>apostille</strong>.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-04').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>
@@ -159,6 +171,8 @@ export default function BlogPost() {
             we help inventors and IP professionals navigate the notarization requirements for patents, assignments, 
             and international filings every single day.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Oath vs. Declaration: When Notarization Is Actually Required for Patent Documents</h2>
 

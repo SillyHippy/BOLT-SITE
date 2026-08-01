@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Law Firm Back Office Support: Streamline Operations',
-  description: 'Discover how Oklahoma law firms can streamline back-office operations with virtual support. Reclaim 5+ hours weekly and boost billable hours. Learn more.',
+  description: 'Streamline Oklahoma law firm back office with virtual support: reclaim 5+ billable hours weekly, ORPC 5.3/5.5/1.6 compliance, and integrated field services.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Law Firm Back Office Support: Streamline Operations',
-    description: 'Discover how Oklahoma law firms can streamline back-office operations with virtual support. Reclaim 5+ hours weekly and boost billable hours. Learn more.',
+    description: 'Streamline Oklahoma law firm back office with virtual support: reclaim 5+ billable hours weekly, ORPC 5.3/5.5/1.6 compliance, and integrated field services.',
     url: 'https://justlegalsolutions.org/blog/law-firm-back-office-support-streamlining-operations-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-05',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma law firms can delegate supervised back-office tasks—intake, calendar, billing prep, and document formatting—under ORPC Rules 5.3, 5.5, and 1.6 to reclaim billable hours lost to admin work.',
+    'ai-key-facts': 'Clio data shows lawyers bill roughly 2.9 hours of an 8-hour day; Back-office support covers non-client-facing admin, not legal advice; ORPC Rule 5.3 applies to employees and independent VAs alike; Integrated providers can combine VA work with process serving and notary statewide; Most firms see 5–10 hours reclaimed in the first week of a pilot',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Law Firm Back Office Support: Streamline Operations"
-        pageDescription="Discover how Oklahoma law firms can streamline back-office operations with virtual support. Reclaim 5+ hours weekly and boost billable hours. Learn more."
+        pageDescription="Streamline Oklahoma law firm back office with virtual support: reclaim 5+ billable hours weekly, ORPC 5.3/5.5/1.6 compliance, and integrated field services."
         pageUrl="https://justlegalsolutions.org/blog/law-firm-back-office-support-streamlining-operations-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Law Firm Back Office Support: Streamline Operations
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>Back-office support</strong> handles intake, scheduling, billing prep, and document work so Oklahoma attorneys can bill more than the typical <strong>2.9 hours</strong> per day. Delegation is allowed under <strong>ORPC Rules 5.3, 5.5, and 1.6</strong> with supervision and confidentiality safeguards—not for legal advice or unsupervised drafting.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-05').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -150,6 +158,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Let me ask you something: How many hours did you bill yesterday? If you are like most Oklahoma attorneys, the answer is probably around 2.9 hours — out of an 8-hour workday. That is not a personal productivity failure. It is a systems problem. And it is costing your firm nearly $200,000 a year in lost revenue. The good news? Law firm back-office support is designed to fix exactly this problem. In this guide, we will show you how Oklahoma attorneys are reclaiming 5 to 10 billable hours per week by rethinking their back-office operations — and how an integrated support model can streamline everything from client intake to process serving across all 77 Oklahoma counties.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Administrative Crisis Facing Oklahoma Law Firms</h2>
 

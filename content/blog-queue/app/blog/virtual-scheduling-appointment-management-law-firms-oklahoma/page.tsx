@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Virtual Appointment Management for Oklahoma Law Firms',
-  description: 'Discover how virtual scheduling cuts no-shows by 80%, protects Oklahoma firms from malpractice risks, and reclaims 500+ billable hours yearly. Learn more today.',
+  description:
+    'Virtual scheduling VAs cut Oklahoma law firm no-shows, track 12 O.S. § 2006 court deadlines, and reclaim billable hours under ORPC Rule 5.3 supervision.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Virtual Appointment Management for Oklahoma Law Firms',
-    description: 'Discover how virtual scheduling cuts no-shows by 80%, protects Oklahoma firms from malpractice risks, and reclaims 500+ billable hours yearly. Learn more today.',
+    description:
+    'Virtual scheduling VAs cut Oklahoma law firm no-shows, track 12 O.S. § 2006 court deadlines, and reclaim billable hours under ORPC Rule 5.3 supervision.',
     url: 'https://justlegalsolutions.org/blog/virtual-scheduling-appointment-management-law-firms-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Virtual scheduling assistants manage Oklahoma firm calendars, automated reminders, and 12 O.S. § 2006 deadline math under ORPC Rule 5.3—reducing no-shows and calendaring errors linked to malpractice claims.',
+    'ai-key-facts':
+      'No-shows can cost firms $30,000–$90,000 annually at typical hourly rates; Automated reminders often cut no-show rates below 5%; Roughly 34% of malpractice claims involve missed deadlines or calendaring errors; Clio and similar tools apply Oklahoma court rules including 12 O.S. § 2006; Virtual scheduling support typically costs 50–70% less than in-house legal assistants',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Appointment Management for Oklahoma Law Firms"
-        pageDescription="Discover how virtual scheduling cuts no-shows by 80%, protects Oklahoma firms from malpractice risks, and reclaims 500+ billable hours yearly. Learn more today."
+        pageDescription="Virtual scheduling VAs cut Oklahoma law firm no-shows, track 12 O.S. § 2006 court deadlines, and reclaim billable hours under ORPC Rule 5.3 supervision."
         pageUrl="https://justlegalsolutions.org/blog/virtual-scheduling-appointment-management-law-firms-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,16 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Appointment Management for Oklahoma Law Firms
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A virtual scheduling VA cuts <strong>no-shows</strong>, tracks <strong>12 O.S. § 2006</strong> court deadlines
+              in <strong>Clio or OSCN workflows</strong>, and adds a <strong>malpractice safety net</strong> under{' '}
+              <strong>ORPC Rule 5.3</strong>—often at <strong>50–70% less</strong> than in-house staff.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

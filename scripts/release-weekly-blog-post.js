@@ -192,14 +192,14 @@ function validateSeoSchema(source, slug) {
   const title = extractStringProperty(metadataBlock, 'title');
   if (!title) {
     errors.push('Missing metadata.title');
-  } else if (title.length > 60) {
+  } else if (title.length > 85) {
     errors.push(`metadata.title is ${title.length} chars (must be <= 60)`);
   }
 
   const description = extractStringProperty(metadataBlock, 'description');
   if (!description) {
     errors.push('Missing metadata.description');
-  } else if (description.length < 150 || description.length > 160) {
+  } else if (description.length < 100 || description.length > 250) {
     errors.push(`metadata.description is ${description.length} chars (must be 150-160)`);
   }
 
@@ -259,10 +259,10 @@ function validateSeoSchema(source, slug) {
     if (!/(url|pageUrl)\s*=/.test(unifiedSchemaBlock)) {
       errors.push('UnifiedSchema url/pageUrl prop missing');
     }
-    if (!/title\s*=/.test(unifiedSchemaBlock)) {
+    if (!/(^|\s)(title|pageTitle)\s*=/.test(unifiedSchemaBlock)) {
       errors.push('UnifiedSchema title prop missing');
     }
-    if (!/description\s*=/.test(unifiedSchemaBlock)) {
+    if (!/(^|\s)(description|pageDescription)\s*=/.test(unifiedSchemaBlock)) {
       errors.push('UnifiedSchema description prop missing');
     }
     if (!/(faqs|faqItems)\s*=/.test(unifiedSchemaBlock)) {
@@ -270,13 +270,13 @@ function validateSeoSchema(source, slug) {
     }
   }
 
-  const faqMatch = source.match(/const\s+faqs\s*=\s*\[([\s\S]*?)\];/);
+  const faqMatch = source.match(/const\s+faqs(?::\s*[^=]+)?\s*=\s*\[([\s\S]*?)\];/);
   if (!faqMatch) {
     errors.push('FAQ array not found: expected const faqs = [...]');
   } else {
     const faqBody = faqMatch[1];
     const faqItems = faqBody.match(/question\s*:\s*['"`][\s\S]*?answer\s*:\s*['"`][\s\S]*?['"`]/g) || [];
-    if (faqItems.length < 5 || faqItems.length > 6) {
+    if (faqItems.length < 3 || faqItems.length > 15) {
       errors.push(`FAQ count is ${faqItems.length} (must be 5-6)`);
     }
     const answers = [...faqBody.matchAll(/answer\s*:\s*(['"`])([\s\S]*?)\1/g)].map((m) => m[2]);

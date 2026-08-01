@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Process Serving in All 77 Oklahoma Counties: Complete Guide",
-  description: "Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations. Serving all 77",
+  description: 'Under 12 O.S. § 158.1, licensed Oklahoma process servers may serve all 77 counties. Learn rural logistics, metro courts, interstate coordination, and GPS proof.',
   keywords: 'Oklahoma process server statewide, process serving all Oklahoma counties, statewide process serving',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Process Serving in All 77 Oklahoma Counties: Complete Guide',
-    description: 'Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations.',
+    description: 'Under 12 O.S. § 158.1, licensed Oklahoma process servers may serve all 77 counties. Learn rural logistics, metro courts, interstate coordination, and GPS proof.',
     url: 'https://justlegalsolutions.org/blog/process-serving-all-77-oklahoma-counties',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations. Serving all 77 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma licenses process servers under 12 O.S. § 158.1 for statewide service in all 77 counties—one provider can cover metro Tulsa and Oklahoma City, rural panhandle routes, and interstate handoffs with GPS-verified affidavits.',
+    'ai-key-facts':
+      '12 O.S. § 158.1 authorizes licensed servers statewide—not county-by-county appointments; Rural serves need travel planning for unmarked roads and long distances; Tulsa and Oklahoma County handle the highest civil volume; Interstate defendants may require servers licensed in their home state; GPS proof and route planning reduce rural service disputes',
   },
 };
 
@@ -79,6 +79,16 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Process Serving in All 77 Oklahoma Counties: Complete Guide
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            A server licensed under <strong>12 O.S. § 158.1</strong> may serve anywhere in Oklahoma&apos;s{' '}
+            <strong>77 counties</strong>; rural panhandle and southeast routes need extra travel time, while{' '}
+            <strong>GPS-verified affidavits</strong> and one statewide partner beat juggling county sheriffs.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Oklahoma is a state of remarkable geographic and demographic diversity,
           stretching from the urban corridors of Tulsa and Oklahoma City to the
@@ -574,7 +584,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Process Serving in All 77 Oklahoma Counties: Complete Guide"
-        description="Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations."
+        description="Under 12 O.S. § 158.1, licensed Oklahoma process servers may serve all 77 counties. Learn rural logistics, metro courts, interstate coordination, and GPS proof."
         url="https://justlegalsolutions.org/blog/process-serving-all-77-oklahoma-counties"
         articleDetails={{
           headline: 'Process Serving in All 77 Oklahoma Counties: Complete Guide',

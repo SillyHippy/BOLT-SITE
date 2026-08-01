@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Notaries Support Bankruptcy Filings in Oklahoma',
-  description: 'Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice.',
+  description: 'Most OK Ch. 7/13 petitions use FRBP 1008 unsworn declarations, not notaries. Corporate resolutions, adversary affidavits, and reaffirmations still require one.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How Notaries Support Bankruptcy Filings in Oklahoma',
-    description: 'Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice.',
+    description: 'Most OK Ch. 7/13 petitions use FRBP 1008 unsworn declarations, not notaries. Corporate resolutions, adversary affidavits, and reaffirmations still require one.',
     url: 'https://justlegalsolutions.org/blog/notaries-support-bankruptcy-filings-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-11',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Most individual Oklahoma bankruptcy petitions verify under FRBP 1008 and 28 U.S.C. § 1746 without notarization; corporate resolutions, adversary affidavits, SCRA forms, and reaffirmations require Oklahoma notaries; RON is available statewide.',
+    'ai-key-facts': 'Chapter 7 and 13 petitions typically use unsworn declarations under FRBP 1008; Business bankruptcies require notarized corporate resolutions; Adversary affidavits and Northern District Form 3011-1 require notarization; 341 meetings use a trustee oath not a notary',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Notaries Support Bankruptcy Filings in Oklahoma"
-        pageDescription="Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice."
+        pageDescription="Most OK Ch. 7/13 petitions use FRBP 1008 unsworn declarations, not notaries. Corporate resolutions, adversary affidavits, and reaffirmations still require one."
         pageUrl="https://justlegalsolutions.org/blog/notaries-support-bankruptcy-filings-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Notaries Support Bankruptcy Filings in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Most individual Oklahoma bankruptcy petitions do <strong>not</strong> need a notary—{' '}
+              <strong>FRBP 1008</strong> allows an unsworn declaration under <strong>28 U.S.C. § 1746</strong> instead
+              of a sworn affidavit. <strong>Corporate resolutions</strong>, <strong>adversary affidavits</strong>, SCRA
+              affidavits, and many <strong>reaffirmation agreements</strong> still require Oklahoma notarization.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-11').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +161,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             If you\u2019re sitting at your kitchen table in Tulsa, Oklahoma City, or Muskogee with bankruptcy paperwork spread out in front of you, you might be staring at one very specific question: do I need a notary for this? It\u2019s one of the most common questions we hear from Oklahomans facing financial restructuring \u2014 and the answer surprises most people. Here\u2019s the truth: for the vast majority of individual bankruptcy filings in Oklahoma, you do <em>not</em> need a notary. But in certain critical situations \u2014 especially corporate bankruptcies and adversary proceedings \u2014 notarization is not just helpful, it\u2019s required. Understanding the difference can save you time, money, and unnecessary stress during an already difficult process.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Understanding Bankruptcy Filings in Oklahoma \u2014 The Big Picture</h2>
           <p>

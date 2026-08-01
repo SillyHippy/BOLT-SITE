@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Calendar, Clock, MapPin, Scale, Shield, BookOpen } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
@@ -8,18 +8,19 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "What Does a Process Server Do? A Day in the Life",
-  description: "Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk. Serving all 77 Oklahoma coun",
+  title: 'What Does a Process Server Do? A Day in the Life',
+  description:
+    'Follow a licensed Oklahoma process server through route planning, skip tracing, GPS-documented attempts, client updates, and court affidavits under 12 O.S. § 2004.',
   keywords:
     'what does a process server do, process server job description, day in life process server, Oklahoma process server workday, process server responsibilities',
-  authors: [{ name: 'Just Legal Solutions' }],
-  creator: 'Just Legal Solutions',
+  authors: [{ name: 'Just Legal Solutions Team' }],
+  creator: 'Just Legal Solutions Team',
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'What Does a Process Server Do? A Day in the Life',
     description:
-      "Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk.",
+      'Follow a licensed Oklahoma process server through route planning, skip tracing, GPS-documented attempts, client updates, and court affidavits under 12 O.S. § 2004.',
     url: 'https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -34,26 +35,25 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical:
-      'https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life',
+    canonical: 'https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life',
   },
   other: {
     'article:published_time': '2026-04-24',
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk. Serving all 77 Oklahoma coun Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'An Oklahoma process server licensed under 12 O.S. § 158.1 plans routes, skip-traces defendants, makes GPS-photo service attempts, updates clients in real time, and prepares court-ready affidavits under 12 O.S. § 2004.',
+    'ai-key-facts':
+      'Licensed under 12 O.S. § 158.1 with statewide authority in 77 counties; Service methods governed by 12 O.S. § 2004; GPS and photo documentation support affidavits; Skip tracing reduces failed attempts; Due process notice is the core legal purpose',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'What does a process server do on a typical day?',
     answer:
-      'A process server&apos;s day includes reviewing assignments, planning efficient routes, conducting skip tracing research, making service attempts at homes and businesses, documenting each attempt with GPS and photos, communicating with clients, filing court documents, and preparing detailed affidavits of service.',
+      "A process server's day includes reviewing assignments, planning efficient routes, conducting skip tracing research, making service attempts at homes and businesses, documenting each attempt with GPS and photos, communicating with clients, filing court documents, and preparing detailed affidavits of service.",
   },
   {
     question: 'What skills does a process server need?',
@@ -84,441 +84,23 @@ const faqs = [
 
 export default function BlogPost() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Navbar />
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-600 mb-4">
-          <Link href="/">Home</Link>{' '}
-          <ChevronRight className="inline w-4 h-4" />{' '}
-          <Link href="/blog">Blog</Link>{' '}
-          <ChevronRight className="inline w-4 h-4" />{' '}
-          <span>Day in the Life</span>
-        </nav>
-
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">
-          What Does a Process Server Do? A Day in the Life
-        </h1>
-
-        <p className="text-gray-600 mb-8 text-lg">
-          Process serving is one of those professions that most people only
-          think about when they need it — or when they see it dramatized on
-          television. But what does a process server actually do from the moment
-          they start their day until they hang up their keys at night? At{' '}
-          <strong>Just Legal Solutions</strong>, our team brings{' '}
-          <strong>over 50 years of combined experience</strong> to the field. We
-          are <strong>licensed and bonded under Oklahoma Title 12 O.S. 158.1</strong>,
-          and we have <strong>served thousands of documents across all 77
-          Oklahoma counties</strong>. Follow along as we walk you through a
-          typical day in the life of an Oklahoma process server.
-        </p>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
-
-        {/* MORNING ROUTINE */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Morning Review and Route Planning
-          </h2>
-          <p className="mb-4 text-gray-700">
-            A process server&apos;s day typically begins early — often before
-            7:00 AM. The first task is to review the day&apos;s assignments.
-            This means logging into the case management system, reading through
-            each new job that came in overnight, and prioritizing serves based
-            on urgency. A rush serve needed by noon takes priority over a
-            standard serve with a three-day window. The server also checks for
-            any special instructions from clients: &quot;Recipient works nights,
-            try after 2 PM&quot; or &quot;There is a gated community, call
-            ahead for entry.&quot;
-          </p>
-          <p className="mb-4 text-gray-700">
-            Next comes route planning. An efficient process server does not
-            drive randomly from one side of Tulsa to the other and back again.
-            They map out the most efficient route, grouping serves by
-            geographical area to minimize drive time and maximize the number of
-            attempts they can make in a day. This is especially important in
-            Oklahoma, where our statewide coverage means a server might be
-            traveling from urban Tulsa to rural Creek County or beyond. GPS
-            routing, traffic apps, and good old-fashioned local knowledge all
-            play a role.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            Research and Skip Tracing Assignments
-          </h3>
-          <p className="mb-4 text-gray-700">
-            Before heading out, the process server tackles any research
-            assignments on their docket. Skip tracing — the art of locating
-            hard-to-find individuals — is a critical skill. The server might
-            spend an hour digging through public records, utility databases,
-            social media profiles, property records, and vehicle registration
-            data to find a current address for a recipient who has moved,
-            changed jobs, or is actively trying to avoid service.
-          </p>
-          <p className="mb-4 text-gray-700">
-            At Just Legal Solutions, we invest in advanced skip tracing tools
-            that give our servers an edge. Even with the best technology,
-            though, skip tracing requires intuition, persistence, and creative
-            thinking. A good process server knows that the data is only the
-            starting point — it takes experience and judgment to interpret what
-            the records are really saying about where someone might be found.
-            Sometimes the smallest clue — a relative&apos;s address, a recent
-            business filing, a social media check-in — leads to a successful
-            serve that other servers gave up on.
-          </p>
-        </section>
-
-        {/* FIRST SERVICE ATTEMPTS */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            First Service Attempts of the Day
-          </h2>
-          <p className="mb-4 text-gray-700">
-            By 8:00 or 9:00 AM, the process server is on the road, heading to
-            their first stop. Morning attempts are ideal for catching people
-            before they leave for work. The server pulls up to the address,
-            takes a GPS-verified photograph of the location, and approaches the
-            door. Every step is documented. If the recipient answers, the
-            server introduces themselves professionally, confirms the
-            person&apos;s identity, explains that they have legal documents,
-            and delivers the papers. The interaction might take thirty seconds
-            — or it might take ten minutes if the recipient has questions or
-            becomes emotional.
-          </p>
-          <p className="mb-4 text-gray-700">
-            If no one answers, the server looks for signs of occupancy: a car
-            in the driveway, a newspaper on the porch, lights on inside. They
-            might ask a neighbor if they know when the recipient is usually
-            home — though they never disclose the nature of the legal matter.
-            Discretion is paramount. The server then documents the failed
-            attempt with a time-stamped photo and detailed notes, updates the
-            client via our real-time tracking system, and moves to the next
-            address. A single unsuccessful attempt is just data — it helps
-            build a pattern for the next try.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            Documentation: GPS, Photos, Affidavit Notes
-          </h3>
-          <p className="mb-4 text-gray-700">
-            Documentation is the backbone of professional process serving.
-            Every attempt — successful or not — must be thoroughly documented.
-            At Just Legal Solutions, we use <strong>GPS-verified proof of
-            service</strong> technology that captures the exact location,
-            date, and time of every attempt. Photographs of the property and
-            any relevant details (a &quot;No Trespassing&quot; sign, a locked
-            gate, a note left on the door) are attached to the case file in
-            real time.
-          </p>
-          <p className="mb-4 text-gray-700">
-            These details matter enormously if service is ever challenged in
-            court. A well-documented affidavit of service can be the difference
-            between a case proceeding smoothly and a dismissal due to defective
-            service. Our servers write detailed notes while the memory is
-            fresh: &quot;Approached front door at 9:15 AM. Knocked loudly three
-            times. No answer. Observed vehicle in driveway matching
-            description provided. Left business card with case number on door.
-            Photographed property.&quot; This level of detail protects our
-            clients and demonstrates the professionalism that has earned us our
-            4.9-star rating from over 156 reviews.
-          </p>
-        </section>
-
-        {/* CLIENT COMMUNICATION */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Client Communication and Status Updates
-          </h2>
-          <p className="mb-4 text-gray-700">
-            Throughout the day, the process server is in constant communication
-            with clients. At Just Legal Solutions, we believe transparency is
-            non-negotiable. When a serve is completed, the client is notified
-            immediately — often before the server has even left the property.
-            When an attempt fails, the client knows within minutes, along with
-            the reason and the plan for the next attempt. This real-time flow
-            of information gives our clients peace of mind and allows them to
-            update their cases, advise their own clients, and make informed
-            decisions about next steps.
-          </p>
-          <p className="mb-4 text-gray-700">
-            Communication is not just about reporting results — it is also about
-            problem-solving. A process server might call a client to say,
-            &quot;The address you provided is a vacant lot. I ran a skip trace
-            and found two possible alternative addresses. Which would you like
-            me to try first?&quot; Or they might advise, &quot;I have made
-            three attempts at the home address. The recipient&apos;s neighbor
-            confirmed they have not been home in weeks. I recommend we attempt
-            service at their workplace tomorrow morning.&quot; This kind of
-            proactive, consultative approach is what separates a professional
-            process server from someone who simply drops off papers.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            Court Filing and Document Delivery
-          </h3>
-          <p className="mb-4 text-gray-700">
-            Depending on the day, the process server may also be responsible
-            for court filings. This involves taking completed affidavits of
-            service, along with any other required documents, to the courthouse
-            and filing them with the clerk. In Oklahoma, proper filing is
-            essential — it officially places the proof of service on the court
-            record and allows the case to move forward. A process server who
-            understands the filing requirements of each county courthouse saves
-            their clients time and prevents administrative delays.
-          </p>
-        </section>
-
-        {/* CHALLENGES */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Challenges: Evasive or Hostile Recipients
-          </h2>
-          <p className="mb-4 text-gray-700">
-            Not every serve goes smoothly. Some recipients are evasive — they
-            know they are being sued, they recognize the process server&apos;s
-            vehicle, and they go to great lengths to avoid answering the door.
-            Others become hostile when confronted with legal papers. A
-            professional process server must be prepared for both scenarios.
-          </p>
-          <p className="mb-4 text-gray-700">
-            For evasive recipients, patience and strategy are key. The server
-            might vary their approach times, try a workplace serve, or
-            coordinate with a second server to cover multiple locations
-            simultaneously. The goal is to make avoidance more difficult than
-            simply accepting service. For hostile recipients, de-escalation is
-            critical. A professional server never argues, never raises their
-            voice, and never engages in a physical confrontation. They explain
-            their role calmly, deliver the papers if possible, and retreat
-            safely if the situation becomes threatening. Every interaction is
-            documented thoroughly. At Just Legal Solutions, our process serving team is trained in conflict de-escalation and safety protocols to handle
-            these situations professionally.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            Lunch Break and Midday Planning
-          </h3>
-          <p className="mb-4 text-gray-700">
-            Around midday, the process server takes a break — often in their
-            vehicle between stops or at a local restaurant. This is also a time
-            to review the morning&apos;s results, update routes based on what
-            was learned, and check for any new assignments that came in. A
-            server might realize that two afternoon addresses are near each
-            other and adjust the route accordingly. Or they might get a call
-            from the office about a new rush serve that needs to be worked into
-            the afternoon schedule. Flexibility is essential in this
-            profession.
-          </p>
-        </section>
-
-        {/* AFTERNOON ATTEMPTS */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Afternoon Service Attempts
-          </h2>
-          <p className="mb-4 text-gray-700">
-            The afternoon is often when process servers catch people returning
-            home from work. Attempts made between 4:00 PM and 7:00 PM have a
-            high success rate because recipients are arriving home, picking up
-            mail, and settling in for the evening. The server continues their
-            route, making attempts, documenting results, and communicating with
-            clients just as they did in the morning.
-          </p>
-          <p className="mb-4 text-gray-700">
-            Afternoon serves can also involve business addresses. Serving
-            someone at their workplace requires discretion — the server does
-            not want to embarrass the recipient in front of colleagues. They
-            might ask for the person by name at the front desk, deliver the
-            papers in a private area, or leave the documents with a manager or
-            HR representative if the employer&apos;s policy allows. Workplace
-            service is a powerful tool when home attempts have failed, and it
-            is completely legal under Oklahoma law as long as it is done
-            professionally.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            End of Day Paperwork and Planning
-          </h3>
-          <p className="mb-4 text-gray-700">
-            By early evening, the process server returns home or to the office
-            to complete the day&apos;s paperwork. This includes finalizing
-            affidavits of service for all successful serves, ensuring all GPS
-            data and photographs are properly attached to case files, and
-            preparing a summary of the day&apos;s activities for any clients
-            who requested detailed reporting. The server also reviews the next
-            day&apos;s assignments and begins preliminary research on any new
-            skip tracing cases.
-          </p>
-          <p className="mb-4 text-gray-700">
-            The best process servers treat every day as preparation for the
-            next. They note patterns — &quot;This recipient is never home
-            before 6 PM&quot; — and adjust their strategies accordingly. They
-            also stay current on changes to Oklahoma process serving laws,
-            attend continuing education when available, and refine their
-            techniques based on experience. At Just Legal Solutions, we foster
-            this culture of continuous improvement because it directly benefits
-            our clients.
-          </p>
-        </section>
-
-        {/* SKILLS AND WHY IT MATTERS */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Required Skills and Qualifications
-          </h2>
-          <p className="mb-4 text-gray-700">
-            Being a successful process server requires a unique blend of skills.
-            <strong>Research and investigative abilities</strong> are essential
-            for skip tracing and locating recipients. <strong>Communication
-            skills</strong> matter because servers interact with a wide range
-            of people — from cooperative recipients to angry defendants to
-            curious neighbors. <strong>Attention to detail</strong> is critical
-            for accurate documentation that will hold up in court. <strong>
-            Knowledge of Oklahoma law</strong> — particularly{' '}
-            <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Title 12</Link> and local court rules — ensures that every
-            service is legally compliant.
-          </p>
-          <p className="mb-4 text-gray-700">
-            Physical stamina is also important. A process server might walk
-            several miles in a day, climb stairs in apartment complexes, and
-            spend hours behind the wheel covering rural Oklahoma highways.
-            Perhaps most importantly, the job requires <strong>emotional
-            resilience</strong>. Process servers are often the bearers of bad
-            news — divorce papers, eviction notices, lawsuits. They must remain
-            professional and composed regardless of how the recipient reacts.
-            At Just Legal Solutions, we look for all of these qualities when
-            adding to our team because we know that our clients depend on us
-            to represent their interests in the field.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-3 mt-6">
-            Why the Job Matters for the Justice System
-          </h3>
-          <p className="mb-4 text-gray-700">
-            Process serving is not just a delivery job — it is a fundamental
-            pillar of the American justice system. The Fifth and Fourteenth
-            Amendments guarantee due process, which means that no person can
-            be deprived of life, liberty, or property without notice and an
-            opportunity to be heard. The process server is the person who
-            makes that constitutional promise real. By ensuring that every
-            party to a legal action receives proper notice, process servers
-            protect the integrity of the court system and the rights of
-            individuals.
-          </p>
-          <p className="mb-4 text-gray-700">
-            Without process servers, lawsuits could not proceed. Courts would
-            be unable to establish jurisdiction over defendants. Default
-            judgments would be vulnerable to challenge. The entire civil
-            justice system would grind to a halt. When you hire a process
-            server, you are not just paying for a delivery — you are investing
-            in the due process that makes our legal system fair and
-            functional. That is why at Just Legal Solutions, we take our work
-            seriously. We know that behind every document we serve is a person
-            whose rights matter and a case that deserves to be heard.
-          </p>
-        </section>
-
-        {/* RELATED ARTICLES */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>
-              <Link
-                href="/blog/become-licensed-process-server-oklahoma"
-                className="text-blue-600 hover:underline"
-              >
-                How to Become a Licensed Process Server in Oklahoma
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/blog/process-server-safety-guide-oklahoma"
-                className="text-blue-600 hover:underline"
-              >
-                Process Server Safety Guide for Oklahoma
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/blog/national-process-server-week"
-                className="text-blue-600 hover:underline"
-              >
-                National Process Server Week: Celebrating the Profession
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/blog/skip-tracing-technology-process-serving"
-                className="text-blue-600 hover:underline"
-              >
-                Skip Tracing Technology in Modern Process Serving
-              </Link>
-            </li>
-          </ul>
-        </section>
-
-        
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
-            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
-            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
-          </ul>
-        </section>
-
-        {/* FAQ SECTION */}
-        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Frequently Asked Questions
-          </h2>
-          {faqs.map((faq, i) => (
-            <div key={i} className="mb-4">
-              <h3 className="font-medium text-lg">{faq.question}</h3>
-              <p className="text-gray-700">{faq.answer}</p>
-            </div>
-          ))}
-        </section>
-
-        {/* CTA SECTION */}
-        <section className="bg-blue-50 rounded-lg p-6 mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Work With Oklahoma&apos;s Trusted Process Servers
-          </h2>
-          <p className="mb-4">
-            At Just Legal Solutions, our process servers bring professionalism,
-            experience, and dedication to every serve. With over 50 years of
-            combined experience, GPS-verified proof of service, and statewide
-            coverage across all 77 Oklahoma counties, we are the partner you
-            can count on. Whether you need standard service, rush delivery, or
-            same-day emergency service, our team is ready to help.
-          </p>
-          <p className="mb-4">
-            For current pricing on all our services,{' '}
-            <Link href="/pricing" className="text-blue-600 font-semibold">
-              view our pricing page
-            </Link>
-            .
-          </p>
-          <p className="font-semibold">
-            Call{' '}
-            <a href="tel:539-367-6832" className="text-blue-600">
-              (539) 367-6832
-            </a>{' '}
-            or{' '}
-            <Link href="/" className="text-blue-600">
-              request service online
-            </Link>
-            . We serve all 77 Oklahoma counties.
-          </p>
-        </section>
-      </main>
-      <LocalPromoBanner />
-      <AuthorBox />
-      <Footer />
+    <>
       <UnifiedSchema
         pageType="article"
-        title="What Does a Process Server Do? A Day in the Life"
-        description="Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk."
-        url="https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life"
+        pageTitle="What Does a Process Server Do? A Day in the Life"
+        pageDescription="Follow a licensed Oklahoma process server through route planning, skip tracing, GPS-documented attempts, client updates, and court affidavits under 12 O.S. § 2004."
+        pageUrl="https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life"
+        siteName="Just Legal Solutions"
+        reviewCount={112}
+        services={['Process Serving', 'Skip Tracing', 'Court Filing', 'Notary Services', 'Courier Services']}
+        breadcrumbs={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
+          {
+            name: 'What Does a Process Server Do? A Day in the Life',
+            item: 'https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life',
+          },
+        ]}
         articleDetails={{
           headline: 'What Does a Process Server Do? A Day in the Life',
           datePublished: '2026-04-24',
@@ -526,9 +108,366 @@ export default function BlogPost() {
           author: 'Just Legal Solutions Team',
           image: 'https://justlegalsolutions.org/images/jls-logo.webp',
         }}
-        faqs={faqs}
-        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        faqItems={faqs}
+        keywords={[
+          'what does a process server do',
+          'Oklahoma process server',
+          'process serving',
+          'skip tracing',
+          'affidavit of service',
+          '12 O.S. 2004',
+          'Oklahoma courts',
+        ]}
       />
-    </div>
+
+      <Navbar />
+      <LocalPromoBanner zips={[]} />
+
+      <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white py-24 sm:py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent"></div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-sm font-medium mb-6 backdrop-blur-sm">
+            <Shield className="w-4 h-4" />
+            Process Serving
+          </span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+            What Does a Process Server Do? A Day in the Life
+          </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A licensed Oklahoma process server under <strong>12 O.S. § 158.1</strong> reviews assignments,
+              plans routes, skip-traces hard-to-find parties, makes <strong>GPS- and photo-documented</strong>{' '}
+              attempts under <strong>12 O.S. § 2004</strong>, updates clients in real time, files affidavits,
+              and delivers the constitutional notice that keeps cases moving across all <strong>77 counties</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
+            <span className="flex items-center gap-1.5">
+              <Calendar className="w-4 h-4" />{' '}
+              {new Date('2026-04-24').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <Clock className="w-4 h-4" /> ~12 min read
+            </span>
+            <span className="flex items-center gap-1.5">
+              <MapPin className="w-4 h-4" /> Oklahoma Jurisdiction
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-gray-50 min-h-screen">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
+          <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
+            <p className="lead text-xl text-gray-600 mb-8">
+              Process serving is one of those professions most people only think about when they need it — or
+              when they see it dramatized on television. But what does a process server actually do from the
+              moment they start their day until they hang up their keys at night? At{' '}
+              <strong>Just Legal Solutions</strong>, our team brings <strong>over 50 years of combined experience</strong>.
+              We are <strong>licensed and bonded under 12 O.S. § 158.1</strong> and have{' '}
+              <strong>served thousands of documents across all 77 Oklahoma counties</strong>. Every recommendation
+              aligns with <strong>12 O.S. § 2004</strong> and Title 49 O.S. where notarization applies. Follow
+              along for a typical day in the field.
+            </p>
+
+            <h2>Morning Review and Route Planning</h2>
+            <p>
+              A process server&apos;s day typically begins early — often before 7:00 AM. The first task is to
+              review the day&apos;s assignments: logging into the case management system, reading overnight jobs,
+              and prioritizing serves based on urgency. A rush serve needed by noon takes priority over a
+              standard serve with a three-day window. The server also checks client instructions — &quot;Recipient
+              works nights, try after 2 PM&quot; or &quot;Gated community, call ahead for entry.&quot;
+            </p>
+            <p>
+              Next comes route planning. An efficient server groups serves geographically instead of driving
+              randomly across Tulsa and back. That matters in Oklahoma, where statewide coverage can mean
+              traveling from urban Tulsa to rural Creek County or beyond. GPS routing, traffic apps, and local
+              knowledge all play a role.
+            </p>
+
+            <h3>Research and Skip Tracing Assignments</h3>
+            <p>
+              Before heading out, the server tackles research on the docket. Skip tracing — locating
+              hard-to-find individuals — is a critical skill. That can mean an hour with public records,
+              utility databases, social media, property records, and vehicle registration data to find someone
+              who moved or is avoiding service.
+            </p>
+            <p>
+              At Just Legal Solutions, we invest in advanced skip tracing tools, but experience still matters.
+              Data is the starting point; judgment turns clues — a relative&apos;s address, a business filing,
+              a social check-in — into a successful serve others gave up on. When locating defendants is the
+              bottleneck, see our{' '}
+              <Link href="/services/skip-tracing" className="text-blue-600 hover:underline">
+                skip tracing and location services
+              </Link>
+              .
+            </p>
+
+            <h2>First Service Attempts of the Day</h2>
+            <p>
+              By 8:00 or 9:00 AM, the server is on the road. Morning attempts catch people before they leave
+              for work. At each stop, the server takes a GPS-verified photograph, approaches the door, confirms
+              identity, explains that legal documents are being delivered, and completes service — or documents
+              why service did not happen.
+            </p>
+            <p>
+              If no one answers, the server looks for signs of occupancy: vehicles, mail, lights. They might
+              ask a neighbor when the recipient is usually home without disclosing the legal matter. Discretion
+              is paramount. Failed attempts get time-stamped photos, detailed notes, and immediate client
+              updates. One miss is data for the next try.
+            </p>
+
+            <h3>Documentation: GPS, Photos, Affidavit Notes</h3>
+            <p>
+              Documentation is the backbone of professional process serving. At Just Legal Solutions,{' '}
+              <strong>GPS-verified proof of service</strong> captures location, date, and time for every attempt.
+              Photos of the property and relevant details attach to the case file in real time.
+            </p>
+            <p>
+              That detail matters if service is challenged. Notes written while fresh — knock times, vehicle
+              observations, cards left on doors — protect clients and support court-ready affidavits. For more
+              on field accountability, read{' '}
+              <Link
+                href="/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma"
+                className="text-blue-600 hover:underline"
+              >
+                how GPS tracking improves process serving accountability in Oklahoma
+              </Link>
+              .
+            </p>
+
+            <h2>Client Communication and Status Updates</h2>
+            <p>
+              Throughout the day, the server stays in contact with clients. Successful serves trigger immediate
+              notification — often before the server leaves the property. Failed attempts include the reason and
+              plan for the next try. That transparency lets attorneys update cases and advise their own clients.
+            </p>
+            <p>
+              Communication is also problem-solving: reporting a vacant lot, proposing alternate addresses from
+              skip tracing, or recommending workplace service after repeated home attempts. That consultative
+              approach separates professionals from paper-drop vendors.
+            </p>
+
+            <h3>Court Filing and Document Delivery</h3>
+            <p>
+              Some days include courthouse filings — delivering completed affidavits and related documents to the
+              clerk so proof of service enters the record and the case can advance. County filing quirks vary;
+              servers who know local preferences prevent avoidable delays.
+            </p>
+
+            <h2>Challenges: Evasive or Hostile Recipients</h2>
+            <p>
+              Not every serve is smooth. Evasive recipients dodge the door; hostile ones react angrily to legal
+              papers. Professionals vary attempt times, try workplaces, and coordinate coverage at multiple
+              locations. They de-escalate, never argue, deliver when possible, and retreat safely when needed —
+              with everything documented. Our team follows the safety practices outlined in our{' '}
+              <Link href="/blog/process-server-safety-guide-oklahoma" className="text-blue-600 hover:underline">
+                Oklahoma process server safety guide
+              </Link>
+              .
+            </p>
+
+            <h3>Lunch Break and Midday Planning</h3>
+            <p>
+              Midday is a break and a reset: review morning results, adjust routes, and fold in new rush
+              assignments. Flexibility is essential — schedules change when skip tracing turns up a new lead or
+              a client needs same-day service.
+            </p>
+
+            <h2>Afternoon Service Attempts</h2>
+            <p>
+              Afternoons often catch people returning from work. Attempts between 4:00 PM and 7:00 PM succeed
+              frequently because recipients are home for the evening. Business serves require discretion — asking
+              for the person by name, serving in a private area, or following employer policies. Workplace service
+              is a powerful tool when home attempts fail and remains valid under Oklahoma law when done
+              professionally.
+            </p>
+
+            <h3>End of Day Paperwork and Planning</h3>
+            <p>
+              By early evening, the server finalizes affidavits, attaches GPS data and photos, sends client
+              summaries, and previews tomorrow&apos;s assignments — including preliminary skip tracing on new
+              cases. The best servers treat each day as preparation for the next, tracking patterns like
+              &quot;never home before 6 PM&quot; and staying current on Oklahoma service rules.
+            </p>
+
+            <h2>Required Skills and Qualifications</h2>
+            <p>
+              Success requires <strong>research and investigative ability</strong>, strong{' '}
+              <strong>communication</strong>, meticulous <strong>attention to detail</strong>, and deep{' '}
+              <strong>knowledge of Oklahoma law</strong> — especially{' '}
+              <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">
+                Title 12
+              </Link>{' '}
+              and local court rules. Physical stamina matters on long rural drives and apartment routes. So does{' '}
+              <strong>emotional resilience</strong> when delivering divorce papers, evictions, or lawsuits.
+            </p>
+
+            <h3>Why the Job Matters for the Justice System</h3>
+            <p>
+              Process serving is not just delivery — it implements due process. The Fifth and Fourteenth
+              Amendments require notice and an opportunity to be heard. Process servers make that promise real.
+              Without proper service, courts cannot establish jurisdiction and civil litigation stalls. When you
+              hire a server, you invest in the fairness of the system — which is why we treat every assignment
+              seriously.
+            </p>
+
+            <p className="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+              <strong>Need a licensed Oklahoma process server?</strong>{' '}
+              <Link href="/contact" className="text-blue-600 hover:underline">
+                Contact Just Legal Solutions
+              </Link>{' '}
+              for GPS-documented service across all 77 counties, or{' '}
+              <Link href="/pricing" className="text-blue-600 hover:underline">
+                view current pricing
+              </Link>
+              .
+            </p>
+          </article>
+
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
+
+          <section className="mt-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+              <BookOpen className="w-6 h-6 text-blue-600" />
+              Related Legal Guides
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-6">
+              <Link
+                href="/blog/become-licensed-process-server-oklahoma"
+                className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300"
+              >
+                <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase mb-2 block">
+                  Licensing
+                </span>
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors mb-2">
+                  Become a Licensed Process Server in Oklahoma
+                </h3>
+                <p className="text-sm text-gray-600">Steps, bonds, and 12 O.S. § 158.1 requirements.</p>
+              </Link>
+              <Link
+                href="/blog/what-to-expect-hiring-process-server-client-faq-oklahoma"
+                className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300"
+              >
+                <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase mb-2 block">
+                  Client FAQ
+                </span>
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors mb-2">
+                  What to Expect When Hiring a Process Server
+                </h3>
+                <p className="text-sm text-gray-600">Cost, timing, licensing, and affidavit delivery.</p>
+              </Link>
+            </div>
+          </section>
+
+          <section className="mt-12">
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+              <div className="space-y-4">
+                {faqs.map((faq, index) => (
+                  <details
+                    key={index}
+                    className="group border border-gray-200 rounded-lg bg-gray-50 [&_summary::-webkit-details-marker]:hidden"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5 p-4 text-gray-900 font-medium">
+                      <span>{faq.question}</span>
+                      <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3 border border-gray-200 group-open:bg-blue-50 group-open:text-blue-600 group-open:border-blue-100 transition-colors">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </summary>
+                    <div className="p-4 pt-0 leading-relaxed text-gray-700 bg-white border-t border-gray-100 rounded-b-lg">
+                      <p>{faq.answer}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <section className="mt-12">
+            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 md:p-12 text-center text-white shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-8 opacity-10">
+                <Scale className="w-32 h-32" />
+              </div>
+              <div className="relative z-10">
+                <h2 className="text-3xl font-bold mb-4">Need Professional Legal Support?</h2>
+                <p className="text-blue-100 mb-8 text-lg max-w-2xl mx-auto">
+                  Just Legal Solutions provides licensed, bonded, and insured process serving, courier, and
+                  notary services across all 77 Oklahoma counties.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-blue-700 bg-white hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                  >
+                    Submit Assignment
+                  </Link>
+                  <a
+                    href="tel:5393676832"
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-white border-2 border-white/30 hover:bg-white/10 transition-all backdrop-blur-sm"
+                  >
+                    Call (539) 367-6832
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <article className="prose prose-lg prose-blue max-w-none mt-12 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
+            <h2>Conclusion</h2>
+            <p>
+              A process server&apos;s day blends logistics, law, and people skills — from pre-dawn route planning
+              and skip tracing to GPS-documented attempts and notarized affidavits. In Oklahoma, licensed
+              professionals under 12 O.S. § 158.1 carry that work across all 77 counties so attorneys and
+              litigants meet the notice requirements in 12 O.S. § 2004.
+            </p>
+            <p>
+              Whether you are curious about the profession or ready to hire, understanding the daily workflow
+              helps you set realistic expectations and choose a partner who documents every step.{' '}
+              <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+                Just Legal Solutions
+              </Link>{' '}
+              brings decades of field experience, real-time client updates, and court-ready proof to every serve.
+            </p>
+            <p className="text-gray-700 italic mt-8">
+              Ready to work with Oklahoma&apos;s trusted process servers?{' '}
+              <Link href="/contact" className="text-blue-600 hover:underline">
+                Contact Just Legal Solutions
+              </Link>{' '}
+              or call{' '}
+              <a href="tel:5393676832" className="text-blue-600 hover:underline">
+                (539) 367-6832
+              </a>
+              .
+            </p>
+          </article>
+
+          <div className="mt-8 text-center">
+            <Link href="/blog" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition-colors">
+              <ChevronRight className="w-5 h-5 rotate-180" />
+              Back to Blog
+            </Link>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notarizing for Incapacitated Signers: An Oklahoma Guide',
-  description: 'Learn Oklahoma',
+  description: 'Oklahoma notaries judge capacity at signing, not diagnosis. Dementia does not block notarization in a lucid interval when the signer understands the document.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notarizing for Incapacitated Signers: An Oklahoma Guide',
-    description: 'Learn Oklahoma',
+    description: 'Oklahoma notaries judge capacity at signing, not diagnosis. Dementia does not block notarization in a lucid interval when the signer understands the document.',
     url: 'https://justlegalsolutions.org/blog/notarizing-documents-incapacitated-individuals-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-14',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma notaries assess mental capacity at the moment of signing under 49 O.S. §§ 112-113; dementia alone does not disqualify signers during lucid intervals; refuse when confused, medicated, or under undue influence; report exploitation under 43A O.S. § 10-104.',
+    'ai-key-facts': 'Capacity is judged at signing time not by diagnosis; Lucid interval signings are valid when understanding is demonstrated; Notaries must refuse coercion or incapacity; 43A O.S. § 10-104 requires reporting vulnerable adult abuse',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notarizing for Incapacitated Signers: An Oklahoma Guide"
-        pageDescription="Learn Oklahoma"
+        pageDescription="Oklahoma notaries judge capacity at signing, not diagnosis. Dementia does not block notarization in a lucid interval when the signer understands the document."
         pageUrl="https://justlegalsolutions.org/blog/notarizing-documents-incapacitated-individuals-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notarizing for Incapacitated Signers: An Oklahoma Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A dementia or Alzheimer&apos;s diagnosis alone does <strong>not</strong> bar notarization—Oklahoma notaries
+              judge <strong>capacity at the moment of signing</strong> under <strong>49 O.S. §§ 112-113</strong>. During a{' '}
+              <strong>lucid interval</strong>, proceed if the signer understands the document; refuse if confused,
+              heavily medicated, or under <strong>undue influence</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-14').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

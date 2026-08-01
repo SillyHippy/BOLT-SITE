@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Mobile Notary Guide: What to Know Before You Book",
-  description: "Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment. Serving all 77 O",
+  description:
+    "Oklahoma mobile notary visits: unsigned docs, photo ID, sign in the notary's presence, 49 O.S. § 118 ID rules, travel fees, and same-day booking statewide.",
   keywords:
     'Oklahoma mobile notary, mobile notary services, notary comes to you',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Mobile Notary Guide: What to Know Before You Book',
     description:
-      'Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment.',
+      "Oklahoma mobile notary visits: unsigned docs, photo ID, sign in the notary's presence, 49 O.S. § 118 ID rules, travel fees, and same-day booking statewide.",
     url: 'https://justlegalsolutions.org/blog/oklahoma-mobile-notary-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -41,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment. Serving all 77 O Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma mobile notaries travel to your location, identify signers under 49 O.S. § 118, witness signatures on unsigned documents, and charge travel plus per-act fees—same legal effect as office notarization statewide.',
+    'ai-key-facts':
+      'Do not sign until the notary is present; Acceptable ID includes driver license, passport, or tribal ID; Travel fees vary by distance across 77 counties; After-hours and rush mobile appointments are commonly available; Mobile acts must follow the Oklahoma Notary Public Act like in-office visits',
   },
 };
 
@@ -103,6 +104,15 @@ export default function BlogPost() {
           Oklahoma Mobile Notary Guide: What to Know Before You Book
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            A mobile notary comes to you, verifies ID under <strong>49 O.S. § 118</strong>, and witnesses your signature on <strong>unsigned</strong> documents—travel and timing fees apply, but the notarization has the same legal weight as an office visit anywhere in Oklahoma.
+          </p>
+          
+
+        </div>
+
         {/* Opening Expertise Signal */}
         <p className="text-gray-600 mb-8 text-lg">
           Mobile notary services bring the notary directly to your door — a
@@ -118,7 +128,8 @@ export default function BlogPost() {
           to know about booking a mobile notary in Oklahoma — from scheduling
           and preparation to cost and common questions.
         </p>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: What Is a Mobile Notary */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -589,7 +600,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Mobile Notary Guide: What to Know Before You Book"
-        description="Everything you need to know about Oklahoma mobile notary services. Learn how it works, what to prepare, and what to expect at your appointment."
+        description="Oklahoma mobile notary visits: unsigned docs, photo ID, sign in the notary's presence, 49 O.S. § 118 ID rules, travel fees, and same-day booking statewide."
         url="https://justlegalsolutions.org/blog/oklahoma-mobile-notary-guide"
         articleDetails={{
           headline: 'Oklahoma Mobile Notary Guide: What to Know Before You Book',

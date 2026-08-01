@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Rush vs. Standard vs. Same-Day Process Serving in Oklahoma',
-  description: 'Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines.',
+  description: 'Choose standard, rush, same-day, or 2-hour emergency Oklahoma service from the 180-day rule and hearing dates—speed changes cost and timeline, not validity.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Rush vs. Standard vs. Same-Day Process Serving in Oklahoma',
-    description: 'Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines.',
+    description: 'Choose standard, rush, same-day, or 2-hour emergency Oklahoma service from the 180-day rule and hearing dates—speed changes cost and timeline, not validity.',
     url: 'https://justlegalsolutions.org/blog/rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-30',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma attorneys choose standard (3–10 business days), rush (24–72 hours), same-day (hours), or 2-hour emergency service based on days left under 12 O.S. § 2004(I)’s 180-day window and imminent hearings—affidavit validity is the same; only timeline and price change.',
+    'ai-key-facts':
+      'Service of summons must complete within 180 days of filing under 12 O.S. § 2004(I) or dismissal without prejudice is mandatory; Defendants have 20 days to answer after service under 12 O.S. § 2012(A)(1); Same-day and emergency tiers suit TROs, last-minute hearings, and day-150+ cases; Triple-attempt rush compresses diligence for evasive defendants; Weekend service attempts are permitted under 12 O.S. § 2004',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Rush vs. Standard vs. Same-Day Process Serving in Oklahoma"
-        pageDescription="Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines."
+        pageDescription="Choose standard, rush, same-day, or 2-hour emergency Oklahoma service from the 180-day rule and hearing dates—speed changes cost and timeline, not validity."
         pageUrl="https://justlegalsolutions.org/blog/rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Rush vs. Standard vs. Same-Day Process Serving in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Use <strong>standard</strong> service when you are well inside Oklahoma&apos;s <strong>180-day</strong> window (12 O.S. § 2004(I)); upgrade to <strong>rush</strong> for hearings in 3–7 days or day 120+ cases; choose <strong>same-day</strong> or <strong>2-hour emergency</strong> for TROs, tomorrow&apos;s hearings, or day-160+ risk—all tiers produce equally valid service.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-30').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

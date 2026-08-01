@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Digital Proof of Service: Signatures Oklahoma Courts Accept',
-  description: 'Are digital signatures valid on proof of service in Oklahoma? Learn how UETA, e-filing rules, and CLEET shape electronic affidavits and court acceptance.',
+  description: 'Digital proof of service is valid in Oklahoma under UETA and Rule 3—/s/ blocks, RON, three-year retention; initial summons still requires personal delivery.',
   keywords: 'legal technology Oklahoma, process serving technology, law firm tech, digital legal services, Oklahoma legal innovation',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Digital Proof of Service: Signatures Oklahoma Courts Accept',
-    description: 'Are digital signatures valid on proof of service in Oklahoma? Learn how UETA, e-filing rules, and CLEET shape electronic affidavits and court acceptance.',
+    description: 'Digital proof of service is valid in Oklahoma under UETA and Rule 3—/s/ blocks, RON, three-year retention; initial summons still requires personal delivery.',
     url: 'https://justlegalsolutions.org/blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-10',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'UETA and Oklahoma E-Filing Rules validate electronic proof of service—/s/ formatting, RON and IPEN, CLEET retention, and the line between e-filed affidavits and e-service of initial summons.',
+    'ai-key-facts': '12A O.S. § 15-107 gives electronic signatures the same effect as handwritten ones; E-Filing Rule 4 requires /s/ Name blocks with full contact information; RON and IPEN are authorized under 49 O.S. § 5 and § 208; Initial summons and petition still require personal service under 12 O.S. § 2004.5; Licensed servers must retain electronic service records for three years',
   },
 };
 
@@ -101,7 +103,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Digital Proof of Service: Signatures Oklahoma Courts Accept"
-        pageDescription="Are digital signatures valid on proof of service in Oklahoma? Learn how UETA, e-filing rules, and CLEET shape electronic affidavits and court acceptance."
+        pageDescription="Digital proof of service is valid in Oklahoma under UETA and Rule 3—/s/ blocks, RON, three-year retention; initial summons still requires personal delivery."
         pageUrl="https://justlegalsolutions.org/blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +148,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Digital Proof of Service: Signatures Oklahoma Courts Accept
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Yes—under <strong>UETA (12A O.S. § 15-101)</strong> and Oklahoma <strong>E-Filing Rule 3</strong>, electronic signatures on proof of service carry the same weight as ink. Use <strong>/s/ Name</strong> blocks for OSCN, retain originals three years, and use RON when needed—but <strong>initial summons</strong> still requires personal service; only the affidavit may be e-filed.
+            </p>
+          
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-10').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -168,6 +178,7 @@ export default function BlogPost() {
             valid in Oklahoma courts? The answer is yes, and the legal framework is 
             stronger than most attorneys realize.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Shift from Paper to Digital: Why Electronic Proof of Service Matters</h2>
 

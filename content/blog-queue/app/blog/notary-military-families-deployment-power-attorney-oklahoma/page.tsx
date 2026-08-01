@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Military Power of Attorney & Notary Services in Oklahoma',
-  description: 'Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more.',
+  description: 'Deployment POAs for Oklahoma military families: JAG vs private notary, 10 U.S.C. § 1044b, SCRA lease and finance rights, and mobile notary options statewide.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Military Power of Attorney & Notary Services in Oklahoma',
-    description: 'Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more.',
+    description: 'Deployment POAs for Oklahoma military families: JAG vs private notary, 10 U.S.C. § 1044b, SCRA lease and finance rights, and mobile notary options statewide.',
     url: 'https://justlegalsolutions.org/blog/notary-military-families-deployment-power-attorney-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-30',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma deploying service members can use free base JAG or private notaries for POAs; federal law makes military POAs valid nationwide and SCRA agents with POA can terminate leases and cap pre-service debt interest at 6%.',
+    'ai-key-facts': 'JAG provides free POA preparation and notarization under 10 U.S.C. § 1044a for eligible members; Military POAs must be honored in all states under 10 U.S.C. § 1044b; Oklahoma recognizes federal military notarial acts under 49 O.S. § 114 and § 116; A POA holder is a SCRA legal representative for lease termination under 50 U.S.C. § 3955',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Military Power of Attorney & Notary Services in Oklahoma"
-        pageDescription="Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more."
+        pageDescription="Deployment POAs for Oklahoma military families: JAG vs private notary, 10 U.S.C. § 1044b, SCRA lease and finance rights, and mobile notary options statewide."
         pageUrl="https://justlegalsolutions.org/blog/notary-military-families-deployment-power-attorney-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Military Power of Attorney & Notary Services in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Deploying from <strong>Tinker, Fort Sill, Vance, Altus, or McAlester</strong>? Use free{' '}
+              <strong>base JAG</strong> or a <strong>private Oklahoma notary</strong> for POAs. Military POAs
+              are valid nationwide; a <strong>notarized POA</strong> lets your agent use <strong>SCRA</strong>{' '}
+              lease and debt protections while you are away.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-30').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~13 min read</span>
@@ -171,7 +184,7 @@ export default function BlogPost() {
 
           <h3>Why Paperwork Gets Overlooked</h3>
           <p>
-            There are good reasons why the POA slides down the priority list. Base JAG offices have limited walk-in hours — many offer only a few hours per day, weekdays only — which creates bottcks during deployment cycles. Service members often find themselves scrambling between training schedules, family farewells, and the overwhelming emotional weight of an upcoming separation. Paperwork feels like one more box to check rather than the foundation of your family's financial and legal protection.
+            There are good reasons why the POA slides down the priority list. Base JAG offices have limited walk-in hours — many offer only a few hours per day, weekdays only — which creates bottlenecks during deployment cycles. Service members often find themselves scrambling between training schedules, family farewells, and the overwhelming emotional weight of an upcoming separation. Paperwork feels like one more box to check rather than the foundation of your family&apos;s financial and legal protection.
           </p>
           <p>
             That is where mobile notary services can make a real difference. At Just Legal Solutions, we understand that military schedules do not fit neatly into 9-to-5 windows. We come to you — whether that is base housing near Tinker AFB, a coffee shop in Lawton before you head to Fort Sill, or your family's home in Enid before you ship out from Vance. We work around your timeline because we know deployment waits for no one.

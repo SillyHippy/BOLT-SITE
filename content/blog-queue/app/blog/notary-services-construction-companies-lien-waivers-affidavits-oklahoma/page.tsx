@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Construction Notary: Lien Waivers & Affidavits',
-  description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic',
+  description: 'Oklahoma construction notary guide: lien statements need jurats under 42 O.S. § 142; waivers usually do not. Public-project affidavits, deadlines, and RON.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Construction Notary: Lien Waivers & Affidavits',
-    description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic',
+    description: 'Oklahoma construction notary guide: lien statements need jurats under 42 O.S. § 142; waivers usually do not. Public-project affidavits, deadlines, and RON.',
     url: 'https://justlegalsolutions.org/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-20',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma mechanics lien statements must be notarized jurats under 42 O.S. § 142; lien waivers are usually not required by statute unless contracts demand it; public invoices over $1,000 need 62 O.S. § 310.9 sworn affidavits.',
+    'ai-key-facts': 'Mechanics lien statements require sworn jurats—not acknowledgments—under 42 O.S. § 142; Lien waivers are not required to be notarized unless contractually mandated; Subcontractors have 90 days and original contractors four months to file liens; Public project invoices over $1,000 require notarized 62 O.S. § 310.9 affidavits',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Construction Notary: Lien Waivers & Affidavits"
-        pageDescription="Construction notary services in Oklahoma: which documents must be notarized, from mechanic"
+        pageDescription="Oklahoma construction notary guide: lien statements need jurats under 42 O.S. § 142; waivers usually do not. Public-project affidavits, deadlines, and RON."
         pageUrl="https://justlegalsolutions.org/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Construction Notary: Lien Waivers & Affidavits
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>Lien statements</strong> filed with county clerks must use a <strong>jurat (sworn oath)</strong>{' '}
+              under <strong>42 O.S. § 142</strong>—not a simple acknowledgment. <strong>Lien waivers</strong> usually
+              need no notary unless your contract says so; <strong>public-project invoices over $1,000</strong> need{' '}
+              <strong>62 O.S. § 310.9</strong> affidavits.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-20').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -161,6 +172,10 @@ export default function BlogPost() {
             notarized anyway, and how to choose between a mobile notary and Remote Online Notarization 
             for your construction workflow.
           </p>
+
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.          </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Oklahoma Construction Notary Gap: Why Contractors Need a Notary Who Understands the Build</h2>
 

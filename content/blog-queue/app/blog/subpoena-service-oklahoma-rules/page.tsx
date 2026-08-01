@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Subpoena Service in Oklahoma: Rules and Best Practices",
-  description: "Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys. Serving all 77 Oklaho",
+  description:
+    'Oklahoma subpoenas need personal service by a non-party adult; ad testificandum vs duces tecum rules, reasonable notice, and sworn proof for enforcement.',
   keywords: 'subpoena service Oklahoma, how to serve a subpoena, subpoena ad testificandum, subpoena duces tecum',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Subpoena Service in Oklahoma: Rules and Best Practices',
-    description: 'Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys.',
+    description:
+      'Oklahoma subpoenas need personal service by a non-party adult; ad testificandum vs duces tecum rules, reasonable notice, and sworn proof for enforcement.',
     url: 'https://justlegalsolutions.org/blog/subpoena-service-oklahoma-rules',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys. Serving all 77 Oklaho Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma subpoenas ad testificandum and duces tecum require personal service by a non-party adult under 12 O.S. § 2004.1—no special appointment needed—with reasonable notice before hearings and sworn proof of service for contempt enforcement.',
+    'ai-key-facts':
+      'Any non-party 18+ may serve subpoenas under 12 O.S. § 2004.1 without court appointment; Personal service required—not residential substituted service at home; Ad testificandum compels testimony; Duces tecum compels document production; Reasonable notice typically 48+ hours before trial appearances; Ignoring lawful subpoena risks contempt sanctions',
   },
 };
 
@@ -73,6 +75,17 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Subpoena Service in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Subpoena Service in Oklahoma: Rules and Best Practices</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Oklahoma <strong>subpoenas</strong> are served by any <strong>non-party adult</strong> under{' '}
+            <strong>12 O.S. § 2004.1</strong> with <strong>personal delivery</strong>, reasonable notice, and a{' '}
+            <strong>sworn proof of service</strong>—distinguish <strong>ad testificandum</strong> (testify) from{' '}
+            <strong>duces tecum</strong> (produce documents).
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Serving a subpoena correctly is one of the most critical steps in building your case. With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the Just Legal Solutions Team knows that even a minor error in subpoena service can derail your timeline, exclude vital evidence, or prevent a key witness from appearing. This guide explains the types of subpoenas, who can serve them, the methods available under Oklahoma law, and how to ensure your subpoena holds up in court.
         </p>
@@ -220,7 +233,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Subpoena Service in Oklahoma: Rules and Best Practices"
-        description="Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys."
+        description="Oklahoma subpoenas need personal service by a non-party adult; ad testificandum vs duces tecum rules, reasonable notice, and sworn proof for enforcement."
         url="https://justlegalsolutions.org/blog/subpoena-service-oklahoma-rules"
         articleDetails={{
           headline: 'Subpoena Service in Oklahoma: Rules and Best Practices',

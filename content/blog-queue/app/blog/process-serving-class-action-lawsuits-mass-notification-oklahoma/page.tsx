@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Class Action Process Serving & Mass Notification in Oklahoma',
-  description: 'Class action lawsuits require specialized process serving and mass notification. Learn how Oklahoma process servers handle mass notification under Rule 23.',
+  description: 'Class actions need defendant service under 12 O.S. § 2004 plus Rule 23 and 12 O.S. § 2023 class notice, CAFA AG service, and Oklahoma statewide server support.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Class Action Process Serving & Mass Notification in Oklahoma',
-    description: 'Class action lawsuits require specialized process serving and mass notification. Learn how Oklahoma process servers handle mass notification under Rule 23.',
+    description: 'Class actions need defendant service under 12 O.S. § 2004 plus Rule 23 and 12 O.S. § 2023 class notice, CAFA AG service, and Oklahoma statewide server support.',
     url: 'https://justlegalsolutions.org/blog/process-serving-class-action-lawsuits-mass-notification-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-06',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Class actions require Phase 1 defendant service under 12 O.S. § 2004 within 180 days, then Phase 2 best-notice practicable to class members under 12 O.S. § 2023 and Rule 23—with Oklahoma servers handling defendant delivery, address verification, and CAFA AG notice.',
+    'ai-key-facts':
+      'Defendant service and class member notice are separate due-process steps; 12 O.S. § 2023 mirrors federal Rule 23 notice standards including opt-out rights; CAFA requires state AG notice and a 90-day wait before final settlement approval; Licensed servers under 12 O.S. § 158.1 work statewide across all 77 counties; Notice administrators coordinate bulk mail while servers handle personal service and skip tracing',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Class Action Process Serving & Mass Notification in Oklahoma"
-        pageDescription="Class action lawsuits require specialized process serving and mass notification. Learn how Oklahoma process servers handle mass notification under Rule 23."
+        pageDescription="Class actions need defendant service under 12 O.S. § 2004 plus Rule 23 and 12 O.S. § 2023 class notice, CAFA AG service, and Oklahoma statewide server support."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-class-action-lawsuits-mass-notification-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Class Action Process Serving & Mass Notification in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              First, serve defendants under <strong>12 O.S. § 2004</strong> within <strong>180 days</strong>; after certification, give class members{' '}
+              <strong>best notice practicable</strong> under <strong>12 O.S. § 2023</strong> and Rule 23—Oklahoma{' '}
+              <strong>§ 158.1</strong> servers support defendant service, locate work, and <strong>CAFA</strong> AG delivery.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-06').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Class action settlements hit a record $79 billion in 2025, with over 1,700 class lawsuits settled — nearly double the prior year's total. If your Oklahoma law firm is handling class action litigation, you already know that serving the defendant is only the beginning. The real logistical challenge comes when the court orders notice to thousands, sometimes millions, of class members. Here's what you need to know about the two-phase notification system, Oklahoma's specific statutory requirements, and how a licensed process server fits into the workflow.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Class Action Surge: Why Oklahoma Attorneys Are Seeing More Cases Than Ever</h2>
 

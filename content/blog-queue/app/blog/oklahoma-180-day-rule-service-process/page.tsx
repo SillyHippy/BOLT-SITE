@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: "Oklahoma's 180-Day Rule for Service of Process Explained",
-    description: "Understand Oklahoma's 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case.",
+    description:
+      "Understand Oklahoma's 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties.",
     url: 'https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -32,9 +33,8 @@ export const metadata: Metadata = {
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Under 12 O.S. § 2004(I), Oklahoma plaintiffs must complete service within 180 days of filing or risk dismissal. Residential substituted service under § 2004(C)(1) may be used where permitted; publication requires due diligence.',
-    'ai-key-facts': '180-day service deadline under § 2004(I); substituted service under § 2004(C)(1) where permitted; publication needs court approval; (539) 367-6832',
-  
-  
+    'ai-key-facts':
+      '180-day service deadline under 12 O.S. §2004(I) from petition filing date; Dismissal without prejudice if service is not completed in time; Good-cause extensions available on motion; Substituted and publication service require statutory diligence and court approval where applicable',
   },
 };
 
@@ -80,6 +80,20 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Oklahoma&apos;s 180-Day Rule for Service of Process Explained
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Under <strong>12 O.S. §2004(I)</strong>, Oklahoma plaintiffs must complete{' '}
+            <strong>service of process within 180 calendar days</strong> of filing the petition or risk{' '}
+            <strong>dismissal without prejudice</strong>; count from the <strong>filing date</strong>, document
+            diligent attempts, seek <strong>good-cause extensions</strong> when needed, and file{' '}
+            <strong>proof of service</strong> promptly.
+          </p>
+          
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Every civil case in Oklahoma has a ticking clock that begins the moment
           you file your petition. Under Oklahoma Title 12 O.S. 2004, you have
@@ -90,7 +104,8 @@ export default function BlogPost() {
           documents across all 77 Oklahoma counties, and we understand how to
           protect your cases from procedural dismissal.
         </p>
-        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -469,7 +484,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma's 180-Day Rule for Service of Process Explained"
-        description="Understand Oklahoma's 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case."
+        description="Understand Oklahoma's 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties."
         url="https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process"
         articleDetails={{
           headline: 'Oklahoma',

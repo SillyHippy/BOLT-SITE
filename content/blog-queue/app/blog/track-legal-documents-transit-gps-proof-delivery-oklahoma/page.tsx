@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'GPS Legal Document Tracking & Proof of Delivery | Oklahoma',
-  description: 'Learn how Oklahoma law firms track legal documents with GPS and proof of delivery. Discover metadata requirements, chain of custody tips, and court-ready documentation.',
+  description:
+    'How Oklahoma law firms track legal courier deliveries with GPS proof—metadata courts expect, chain of custody, and records aligned with 12 O.S. § 2004 rules.',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'GPS Legal Document Tracking & Proof of Delivery | Oklahoma',
-    description: 'Learn how Oklahoma law firms track legal documents with GPS and proof of delivery. Discover metadata requirements, chain of custody tips, and court-ready documentation.',
+    description:
+      'How Oklahoma law firms track legal courier deliveries with GPS proof—metadata courts expect, chain of custody, and records aligned with 12 O.S. § 2004 rules.',
     url: 'https://justlegalsolutions.org/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +41,14 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-21',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'GPS timestamps, coordinates, and photo proof help Oklahoma law firms document courier deliveries and filing handoffs under 12 O.S. § 2004 and Title 12 O.S. 158.1 service standards.',
+    'ai-key-facts':
+      'Five-element GPS metadata checklist for court credibility; 180-day service window under § 2004(I); Chain of custody from pickup to clerk; CLEET three-year record retention benchmark; Electronic proof accepted under 12A O.S. § 15-101',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'What is GPS proof of delivery for legal documents?',
     answer: 'GPS proof of delivery uses satellite tracking technology to record the exact time, date, and geographic coordinates of when legal documents were picked up and delivered. This creates an objective, verifiable digital record that supplements traditional delivery receipts and signatures. In Oklahoma, GPS data is admissible in court under the Electronic Transactions Act (12A O.S. § 15-101) and provides strong protection against delivery disputes.',
@@ -56,24 +62,8 @@ const faqs: { question: string; answer: string }[] = [
     answer: 'Without GPS tracking, you may lack verifiable proof of delivery if a recipient claims they never received documents, potentially leading to motions to quash service, case delays, or dismissal. Under 12 O.S. § 2004(I), service must be completed within 180 days of filing. Law firms lose an estimated 10-12% of documents due to documentation and mailing errors. GPS tracking and chain of custody documentation significantly reduce this risk.',
   },
   {
-    question: 'What should a proper proof of delivery include for court filings?',
-    answer: 'A valid proof of delivery should include: (1) recipient name and signature, (2) exact delivery date and time timestamp, (3) confirmed delivery address, (4) description of items delivered, (5) GPS coordinates with accuracy radius, (6) photo evidence of the delivery location, (7) courier/driver identification, and (8) a reference or order number linking to the original request. For process serving in Oklahoma, a notarized affidavit is also required under 12 O.S. § 158.1.',
-  },
-  {
     question: 'How long must delivery records be kept in Oklahoma?',
     answer: 'Licensed process servers in Oklahoma must maintain service records for three years under CLEET requirements. This includes copies of all returns of service and affidavits, GPS logs and data files, photographs, communication records, and notes on all service attempts including unsuccessful ones. Law firms should retain courier delivery confirmations for at least the duration of the case plus any applicable statute of limitations.',
-  },
-  {
-    question: 'Are electronic signatures and digital records accepted as proof of delivery in Oklahoma courts?',
-    answer: 'Yes. Under the Oklahoma Uniform Electronic Transactions Act (12A O.S. § 15-101 et seq.), electronic signatures and records carry the same legal weight as paper documents when all parties agree to electronic handling. GPS data, timestamped photos, and electronic affidavits are admissible as evidence. However, some courts and attorneys still prefer paper affidavits, so always confirm the preferred format.',
-  },
-  {
-    question: 'What is chain of custody and why does it matter for legal couriers?',
-    answer: 'Chain of custody is a documented, unbroken record of who handled legal documents from pickup through delivery. It includes timestamps, GPS coordinates, signatures at each handoff, and any transfers between couriers. For law firms, chain of custody documentation is critical for evidence admissibility and malpractice protection. A broken chain of custody can compromise document integrity and create legal vulnerabilities.',
-  },
-  {
-    question: 'How much faster is GPS-tracked courier delivery compared to regular mail for court filings?',
-    answer: 'GPS-tracked legal courier services in Tulsa County typically complete standard deliveries within 2-4 hours, with same-day rush service available for urgent needs. By comparison, certified mail can take 3-10 business days. For attorneys billing $200+/hour, the time saved by not having a staff member make courthouse runs pays for itself immediately while providing superior tracking documentation. Visit our pricing page for current service rates.',
   },
   {
     question: 'Can GPS tracking prevent service of process challenges in Oklahoma?',
@@ -90,9 +80,12 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
+        title="GPS Legal Document Tracking & Proof of Delivery | Oklahoma"
+        description="How Oklahoma law firms track legal courier deliveries with GPS proof—metadata courts expect, chain of custody, and records aligned with 12 O.S. § 2004 rules."
         pageTitle="GPS Legal Document Tracking & Proof of Delivery | Oklahoma"
-        pageDescription="Learn how Oklahoma law firms track legal documents with GPS and proof of delivery. Discover metadata requirements, chain of custody tips, and court-ready documentation."
+        pageDescription="How Oklahoma law firms track legal courier deliveries with GPS proof—metadata courts expect, chain of custody, and records aligned with 12 O.S. § 2004 rules."
         pageUrl="https://justlegalsolutions.org/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma"
+        url="https://justlegalsolutions.org/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
         services={['Process Serving', 'Skip Tracing', 'Court Filing', 'Notary Services', 'Courier Services']}
@@ -147,9 +140,18 @@ export default function BlogPost() {
       <div className="bg-gray-50 min-h-screen">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
+            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-8 not-prose">
+              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+              <p className="text-gray-800">
+                Legal couriers prove <strong>chain of custody</strong> with GPS pings, signatures, and time-stamped
+                handoffs—separate from <strong>service of process</strong>, which still requires a licensed server
+                under <strong>Title 12 O.S. 158.1</strong> to establish court jurisdiction.
+              </p>
+            </div>
             <p className="lead text-xl text-gray-600 mb-8">
             Your paralegal swears they dropped the motion at the courthouse. The clerk has no record of it. Now what? Every Oklahoma attorney has been there — that sinking feeling when a critical document disappears into the gap between "I handed it off" and "we have it on file." GPS tracking and electronic proof of delivery are not just conveniences anymore. They are the difference between a defensible filing and a blown deadline that costs your client their case.
           </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why GPS Tracking Matters for Legal Document Delivery</h2>
 

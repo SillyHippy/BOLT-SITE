@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-13',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma federal districts (N.D., W.D., E.D.) follow FRCP Rule 4 with a strict 90-day service deadline under FRCP 4(m), optional Oklahoma methods under 4(e)(1), and district local rules—state process server licenses are not required but bonded professionals add credibility.',
+    'ai-key-facts':
+      'FRCP 4(m) requires service within 90 days of filing vs. 180 days in Oklahoma state court; FRCP 4(c)(2) allows any non-party adult 18+ to serve in federal court; FRCP 4(i) requires three-step service on the United States; Oklahoma has Northern, Western, and Eastern federal districts under 28 U.S.C. § 116; Proof of service is by affidavit under FRCP 4(l)',
   },
 };
 
@@ -136,6 +140,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Federal Court Process Serving: N.D., W.D., E.D.
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma&apos;s <strong>three federal districts</strong> follow <strong>FRCP Rule 4</strong> with a mandatory <strong>90-day</strong> service window (<strong>FRCP 4(m)</strong>), not Oklahoma&apos;s <strong>180-day</strong> state rule; you may use Oklahoma service methods under <strong>4(e)(1)</strong>, and <strong>FRCP 4(i)</strong> governs service on the U.S. government.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-13').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -157,6 +167,8 @@ export default function BlogPost() {
             Eastern — and we have seen attorneys learn these lessons the hard way. This guide is 
             designed to make sure you do not have to.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Federal Court Process Serving Is Different From Oklahoma State Court</h2>
           <p>
@@ -228,9 +240,13 @@ export default function BlogPost() {
             the proof, and the personnel rules are federal, period. That is why attorneys who are 
             brilliant in state court sometimes find themselves scrambling when a federal case gets 
             dismissed for defective service. If you want to brush up on the state side as a 
-            comparison, check out our guide to Oklahoma&apos;s 180-day state rule. 
-            And if you are looking for professional support, our process serving team handles 
-            both state and federal matters across all 77 Oklahoma counties.
+            comparison, see our guide to{' '}
+            <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">
+              Oklahoma&apos;s 180-day state rule
+            </Link>.
+            {' '}For professional support, our{' '}
+            <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving team</Link>{' '}
+            handles both state and federal matters across all 77 Oklahoma counties.
           </p>
 
           <h2>Which Federal District Do I File In? A County-by-County Breakdown</h2>
@@ -380,7 +396,10 @@ export default function BlogPost() {
             Do not let the 90-day deadline catch you off guard. Our rush process serving team can 
             serve anywhere in Oklahoma within 24-48 hours. We understand the urgency of federal 
             deadlines and prioritize federal court service accordingly. For a refresher on how 
-            different the state timeline is, read our guide to understanding Oklahoma&apos;s state deadline.
+            different the state timeline is, read our guide to{' '}
+            <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">
+              understanding Oklahoma&apos;s state service deadline
+            </Link>.
           </p>
 
           <h2>Who Can Serve Process in Federal Court? (Hint: No Oklahoma License Required)</h2>
@@ -686,7 +705,8 @@ export default function BlogPost() {
             experienced, licensed process serving across all three federal districts. Every 
             server on our team carries a $5,000 bond, understands FRCP 4 requirements inside 
             and out, and has experience serving in the Northern, Western, and Eastern Districts 
-            of Oklahoma. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> or visit our pricing page to learn 
+            of Oklahoma.             Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> or visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to learn 
             about our service levels.
           </p>
           </article>

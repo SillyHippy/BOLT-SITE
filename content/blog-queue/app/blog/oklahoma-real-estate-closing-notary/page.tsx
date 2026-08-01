@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Real Estate Closing Notary: What to Expect at Cl...",
-  description: "What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained. Serving all 77 Okla",
+  description:
+    'Oklahoma closing notary: verifies ID, notarizes deed and mortgage packages, expect 30–60 minutes, mobile closings accepted, and exact name-on-ID matching.',
   keywords: 'real estate closing notary Oklahoma, mortgage signing, closing notary Tulsa, deed notarization Oklahoma, refinance notary, home closing documents',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Real Estate Closing Notary: What to Expect at Closing',
-    description: 'What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained.',
+    description:
+      'Oklahoma closing notary: verifies ID, notarizes deed and mortgage packages, expect 30–60 minutes, mobile closings accepted, and exact name-on-ID matching.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-real-estate-closing-notary',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained. Serving all 77 Okla Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'At an Oklahoma real estate closing, the notary verifies each signer\'s ID, witnesses deed and mortgage signatures, and completes notarial certificates without explaining loan terms—typically 30–60 minutes; mobile closings are widely accepted.',
+    'ai-key-facts':
+      'Deed, mortgage/deed of trust, and many affidavits require notarization; Sign only in the notary\'s physical presence—never pre-sign; Name on ID must match closing documents exactly; Notaries are impartial and do not represent buyer, seller, or lender; Mobile closing notaries coordinate with title companies statewide',
   },
 };
 
@@ -55,9 +57,19 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Real Estate Closing Notary</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Real Estate Closing Notary: What to Expect at Closing</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            The closing notary verifies every signer&apos;s ID, witnesses signatures on the <strong>deed, mortgage, and related affidavits</strong>, and completes notarial certificates—usually in <strong>30–60 minutes</strong>; they do not explain loan terms, and names must match ID exactly.
+          </p>
+          
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">A real estate closing is one of the most significant financial transactions most people will ever make — and the notary plays a critical role in ensuring everything is executed properly. At Just Legal Solutions, our team brings over 50 years of combined experience in legal document services and has facilitated thousands of successful closings across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we work with buyers, sellers, refinancers, and real estate professionals to make the closing process smooth, accurate, and stress-free. Whether you are purchasing your first home, refinancing your mortgage, or handling a complex commercial property transaction, this guide explains exactly what to expect from your closing notary.</p>
-        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
-        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Role of the Notary at a Real Estate Closing</h2>
@@ -183,7 +195,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Real Estate Closing Notary: What to Expect at Closing"
-        description="What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained."
+        description="Oklahoma closing notary: verifies ID, notarizes deed and mortgage packages, expect 30–60 minutes, mobile closings accepted, and exact name-on-ID matching."
         url="https://justlegalsolutions.org/blog/oklahoma-real-estate-closing-notary"
         articleDetails={{
           headline: 'Oklahoma Real Estate Closing Notary: What to Expect at Closing',

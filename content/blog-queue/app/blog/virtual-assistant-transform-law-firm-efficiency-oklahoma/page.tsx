@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How a VA Can Transform Your Law Firm',
+  title: 'How a VA Can Transform Your Law Firm\'s Efficiency in Oklahoma',
   description: 'Discover how virtual assistants boost Oklahoma law firm efficiency, cut overhead costs, and reclaim billable hours. Learn ORPC-compliant delegation rules.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'How a VA Can Transform Your Law Firm',
+    title: 'How a VA Can Transform Your Law Firm\'s Efficiency in Oklahoma',
     description: 'Discover how virtual assistants boost Oklahoma law firm efficiency, cut overhead costs, and reclaim billable hours. Learn ORPC-compliant delegation rules.',
     url: 'https://justlegalsolutions.org/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'How a VA Can Transform Your Law Firm',
+        alt: 'How a VA Can Transform Your Law Firm\'s Efficiency in Oklahoma',
       },
     ],
   },
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-08',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Legal virtual assistants handle Oklahoma firm intake, calendaring, billing, and e-filing prep under ORPC Rule 5.3—often cutting support costs 50–70% while helping attorneys recover billable hours lost to admin work.',
+    'ai-key-facts':
+      'Clio 2025 data: ~2.6 billable hours per 8-hour day; Firms report up to 40% more billable hours with VA support; In-house assistants often cost $65,000–$95,000 fully loaded vs $16,000–$50,000 for VAs; ORPC Rules 5.3 and 5.5 define delegable admin vs unauthorized practice; VAs can support OSCN e-filing in pilot counties under attorney review',
   },
 };
 
@@ -90,7 +94,7 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
-        pageTitle="How a VA Can Transform Your Law Firm"
+        pageTitle="How a VA Can Transform Your Law Firm's Efficiency in Oklahoma"
         pageDescription="Discover how virtual assistants boost Oklahoma law firm efficiency, cut overhead costs, and reclaim billable hours. Learn ORPC-compliant delegation rules."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma"
         siteName="Just Legal Solutions"
@@ -99,10 +103,10 @@ export default function BlogPost() {
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
-          { name: 'How a VA Can Transform Your Law Firm', item: 'https://justlegalsolutions.org/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma' }
+          { name: 'How a VA Can Transform Your Law Firm\'s Efficiency in Oklahoma', item: 'https://justlegalsolutions.org/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma' }
         ]}
         articleDetails={{
-          headline: 'How a VA Can Transform Your Law Firm',
+          headline: 'How a VA Can Transform Your Law Firm\'s Efficiency in Oklahoma',
           datePublished: '2026-01-08',
           dateModified: '2026-01-08',
           author: 'Just Legal Solutions Team',
@@ -134,8 +138,16 @@ export default function BlogPost() {
             VA Services
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-            How a VA Can Transform Your Law Firm\
+            How a VA Can Transform Your Law Firm&apos;s Efficiency in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A <strong>legal virtual assistant</strong> takes <strong>intake, scheduling, billing, and filing prep</strong> off your plate under <strong>ORPC Rule 5.3</strong>—freeing <strong>10–15+ hours weekly</strong> for billable work while cutting support costs roughly <strong>50–70%</strong> vs an in-house hire.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-08').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

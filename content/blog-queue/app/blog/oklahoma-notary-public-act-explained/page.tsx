@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Oklahoma Notary Public Act Explained: Rules and Requi...",
-  description: "Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes. Serving all 77 Oklahom",
+  description:
+    'Oklahoma Notary Public Act (Title 49 O.S.): bond and commission rules, what notaries may do, legal-advice bans, RON, and misconduct penalties explained.',
   keywords:
     'Oklahoma Notary Public Act, notary laws Oklahoma, notary rules, Oklahoma notary qualifications, what notaries can do Oklahoma, electronic notarization Oklahoma, notary misconduct penalties',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'The Oklahoma Notary Public Act Explained: Rules and Requirements',
     description:
-      'Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes.',
+      'Oklahoma Notary Public Act (Title 49 O.S.): bond and commission rules, what notaries may do, legal-advice bans, RON, and misconduct penalties explained.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-notary-public-act-explained',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,10 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2025-01-15',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes. Serving all 77 Oklahom Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Title 49 O.S. sets Oklahoma notary qualifications ($1,000 bond, four-year commission), authorized acts (acknowledgments, jurats, oaths), strict bans on legal advice and drafting, plus e-notarization/RON registration and misconduct penalties.',
+    'ai-key-facts':
+      'Secretary of State commissions and can revoke notaries; Personal appearance required except approved RON platforms; Notaries cannot give legal advice or prepare legal documents; $1,000 surety bond protects the public from negligence; Journals are strongly recommended though not always mandated',
   },
 };
 
@@ -110,6 +111,15 @@ export default function BlogPost() {
           The Oklahoma Notary Public Act Explained: Rules and Requirements
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Oklahoma&apos;s Notary Public Act in <strong>Title 49 O.S.</strong> defines who may be commissioned, which acts are allowed (acknowledgments, jurats, oaths), and what is forbidden—especially <strong>legal advice</strong>—with civil, criminal, and Secretary of State sanctions for misconduct.
+          </p>
+          
+
+        </div>
+
         {/* Intro */}
         <p className="text-gray-600 mb-8 text-lg">
           The Oklahoma Notary Public Act forms the legal backbone for every
@@ -126,7 +136,8 @@ export default function BlogPost() {
           bonded under Oklahoma Title 12 O.S. 158.1, we ensure every notarial
           act we perform complies fully with the Oklahoma Notary Public Act.
         </p>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: Overview */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -618,8 +629,6 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
-
-            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />
@@ -627,7 +636,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="The Oklahoma Notary Public Act Explained: Rules and Requirements"
-        description="Understand the Oklahoma Notary Public Act (Title 49 O.S.). Learn what notaries can and cannot do, qualifications, and recent law changes."
+        description="Oklahoma Notary Public Act (Title 49 O.S.): bond and commission rules, what notaries may do, legal-advice bans, RON, and misconduct penalties explained."
         url="https://justlegalsolutions.org/blog/oklahoma-notary-public-act-explained"
         articleDetails={{
           headline: 'The Oklahoma Notary Public Act Explained: Rules and Requirements',

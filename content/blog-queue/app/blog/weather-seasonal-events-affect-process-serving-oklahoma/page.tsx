@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Weather & Seasonal Effects on Oklahoma Process Serving',
-  description: 'Oklahoma',
+  description: 'How Oklahoma tornadoes, ice storms, and heat affect process serving and the 180-day rule under 12 O.S. § 2004(I)—plus documentation strategies for good cause under § 2006(B).',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Weather & Seasonal Effects on Oklahoma Process Serving',
-    description: 'Oklahoma',
+    description: 'How Oklahoma tornadoes, ice storms, and heat affect process serving and the 180-day rule under 12 O.S. § 2004(I)—plus documentation strategies for good cause under § 2006(B).',
     url: 'https://justlegalsolutions.org/blog/weather-seasonal-events-affect-process-serving-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-10-27',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma weather does not pause the 180-day service deadline under 12 O.S. § 2004(I). Seasonal tornado, ice, and heat disruptions require documented attempts and statewide routing to protect cases.',
+    'ai-key-facts':
+      '180-day service under 12 O.S. § 2004(I) has no automatic weather extension; Good cause under 12 O.S. § 2006(B) requires documented NWS and ODOT evidence; Winter divorce filing spikes overlap ice storm season; Statewide 12 O.S. § 158.1 servers can reroute around regional closures',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Weather & Seasonal Effects on Oklahoma Process Serving"
-        pageDescription="Oklahoma"
+        pageDescription="How Oklahoma tornadoes, ice storms, and heat affect process serving and the 180-day rule under 12 O.S. § 2004(I)—plus documentation strategies for good cause under § 2006(B)."
         pageUrl="https://justlegalsolutions.org/blog/weather-seasonal-events-affect-process-serving-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,18 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Weather & Seasonal Effects on Oklahoma Process Serving
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma&apos;s <strong>180-day</strong> service clock under <strong>12 O.S. § 2004(I)</strong>{' '}
+              keeps running through tornadoes, ice, and extreme heat. Document every weather-blocked attempt
+              with <strong>NWS alerts</strong> and <strong>ODOT</strong> road reports for{' '}
+              <strong>good cause</strong> under <strong>§ 2006(B)</strong>, front-load rural serves in clear
+              windows, and use <strong>77-county</strong> coverage to route around regional closures.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-27').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

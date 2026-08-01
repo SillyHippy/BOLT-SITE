@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'I-9 Verification by Notaries: What Oklahoma Employers Must Know',
-  description: 'Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules.',
+  description: 'Oklahoma I-9 help: notaries act as authorized reps—not notaries on the form—no seal on Section 2, employer liability, three-day deadlines, 2026 ICE rules.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'I-9 Verification by Notaries: What Oklahoma Employers Must Know',
-    description: 'Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules.',
+    description: 'Oklahoma I-9 help: notaries act as authorized reps—not notaries on the form—no seal on Section 2, employer liability, three-day deadlines, 2026 ICE rules.',
     url: 'https://justlegalsolutions.org/blog/i9-verification-services-notary-employment-eligibility-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-10',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma notaries may complete I-9 Section 2 as employer authorized representatives without a notary seal—physical document review, three-business-day timing, employer liability for errors, and stricter 2026 ICE substantive penalties.',
+    'ai-key-facts': 'I-9 completion is not a notarial act under Title 49 O.S. §6.A—do not affix a seal; Employers remain 100% liable for authorized representative mistakes per USCIS; Section 2 due within three business days of first paid work day; Non-E-Verify Oklahoma employers still need in-person original document inspection',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="I-9 Verification by Notaries: What Oklahoma Employers Must Know"
-        pageDescription="Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules."
+        pageDescription="Oklahoma I-9 help: notaries act as authorized reps—not notaries on the form—no seal on Section 2, employer liability, three-day deadlines, 2026 ICE rules."
         pageUrl="https://justlegalsolutions.org/blog/i9-verification-services-notary-employment-eligibility-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             I-9 Verification by Notaries: What Oklahoma Employers Must Know
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma notaries may complete <strong>Form I-9 Section 2</strong> as an employer&apos;s{' '}
+              <strong>Authorized Representative</strong>—that is <strong>not a notarization</strong>, so{' '}
+              <strong>no notary seal</strong>. Employers stay liable for errors; Section 2 is due within{' '}
+              <strong>three business days</strong>, with in-person document review for most non-E-Verify businesses.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-10').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>

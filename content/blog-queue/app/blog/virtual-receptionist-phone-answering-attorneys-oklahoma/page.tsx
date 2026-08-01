@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Virtual Receptionist for Oklahoma Attorneys',
-  description: '35% of law firm calls go unanswered. Discover how Oklahoma attorneys use virtual receptionists to capture leads, stay ethics-compliant, and grow their practice.',
+  description:
+    'About 35% of law firm calls go unanswered; Oklahoma legal virtual receptionists capture leads 24/7 with ORPC Rules 1.4, 1.6, and 5.3-compliant intake scripts.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Virtual Receptionist for Oklahoma Attorneys',
-    description: '35% of law firm calls go unanswered. Discover how Oklahoma attorneys use virtual receptionists to capture leads, stay ethics-compliant, and grow their practice.',
+    description:
+    'About 35% of law firm calls go unanswered; Oklahoma legal virtual receptionists capture leads 24/7 with ORPC Rules 1.4, 1.6, and 5.3-compliant intake scripts.',
     url: 'https://justlegalsolutions.org/blog/virtual-receptionist-phone-answering-attorneys-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-26',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Legal virtual receptionists answer Oklahoma firm calls live, run practice-area intake scripts, and escalate urgent matters while NDAs and ORPC Rules 1.4, 1.6, and 5.3 keep confidentiality and supervision intact.',
+    'ai-key-facts':
+      'Roughly 35% of law firm business-hour calls go unanswered nationally; 78% of legal clients hire the first attorney who responds; Virtual receptionists cost far less than a full-time Oklahoma receptionist with benefits; 12 O.S. § 2502 extends privilege to attorney representatives when confidentiality safeguards exist; After-hours coverage matters most for criminal defense and family law emergencies',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Receptionist for Oklahoma Attorneys"
-        pageDescription="35% of law firm calls go unanswered. Discover how Oklahoma attorneys use virtual receptionists to capture leads, stay ethics-compliant, and grow their practice."
+        pageDescription="About 35% of law firm calls go unanswered; Oklahoma legal virtual receptionists capture leads 24/7 with ORPC Rules 1.4, 1.6, and 5.3-compliant intake scripts."
         pageUrl="https://justlegalsolutions.org/blog/virtual-receptionist-phone-answering-attorneys-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,16 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Receptionist for Oklahoma Attorneys
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              About <strong>35% of firm calls</strong> go unanswered; a <strong>24/7 legal virtual receptionist</strong>{' '}
+              answers in your firm name, runs <strong>intake scripts</strong>, and escalates urgent matters while staying
+              within <strong>ORPC Rules 1.4, 1.6, and 5.3</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-26').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>

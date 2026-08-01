@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'HOA & Property Management Process Serving in Oklahoma',
-  description: 'Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide.',
+  description: 'Oklahoma HOA process serving: dual-sided service on boards and owners, gated communities, judicial foreclosure steps, and the 180-day Title 12 deadlines.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'HOA & Property Management Process Serving in Oklahoma',
-    description: 'Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide.',
+    description: 'Oklahoma HOA process serving: dual-sided service on boards and owners, gated communities, judicial foreclosure steps, and the 180-day Title 12 deadlines.',
     url: 'https://justlegalsolutions.org/blog/hoa-property-management-process-serving-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-31',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma HOA process serving is dual-sided—associations pursue delinquent owners while boards and registered agents face service as defendants—with gated-community access challenges, judicial foreclosure under 60 O.S. §524, and a 180-day summons deadline under 12 O.S. §2004(I).',
+    'ai-key-facts': 'Incorporated HOAs are served on Oklahoma Secretary of State registered agents under 18 O.S. §2010; Condominium foreclosures require serving unit owners and mortgage holders under 60 O.S. §524; Oklahoma has no statute granting automatic gated-community entry for process servers; Summons and petition must be served within 180 days of filing under 12 O.S. §2004(I)',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="HOA & Property Management Process Serving in Oklahoma"
-        pageDescription="Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide."
+        pageDescription="Oklahoma HOA process serving: dual-sided service on boards and owners, gated communities, judicial foreclosure steps, and the 180-day Title 12 deadlines."
         pageUrl="https://justlegalsolutions.org/blog/hoa-property-management-process-serving-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             HOA & Property Management Process Serving in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma HOA work is <strong>dual-sided</strong>—associations serve delinquent owners while boards and{' '}
+              <strong>registered agents</strong> receive lawsuits. Use <strong>12 O.S. §2004</strong> service, verify SOS agents for
+              entities, plan for <strong>gated communities</strong> without automatic entry rights, and meet the{' '}
+              <strong>180-day</strong> summons deadline through judicial foreclosure timelines.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-31').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

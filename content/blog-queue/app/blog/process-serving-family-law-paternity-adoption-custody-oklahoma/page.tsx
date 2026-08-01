@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Serving Family Law Papers in Oklahoma: A Server',
+  title: 'Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody',
   description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Serving Family Law Papers in Oklahoma: A Server',
+    title: 'Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody',
     description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more.',
     url: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Serving Family Law Papers in Oklahoma: A Server',
+        alt: 'Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody',
       },
     ],
   },
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-05',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma family law service uses a 15-day adoption notice rule (10 O.S. § 7505-4.1), pre-birth adoption notices, dual service on minors under 12 O.S. § 2004(2), and UCCJEA custody rules—servers must hit tighter deadlines and document every attempt.',
+    'ai-key-facts':
+      'Adoption notice must be served at least 15 days before hearing under 10 O.S. § 7505-4.1; Pre-birth Notice of Plan for Adoption allowed under 10 O.S. § 7503-3.1; Minors under 15 require service on child and parent under 12 O.S. § 2004(2); Custody cases follow UCCJEA at 43 O.S. §§ 551-101 et seq.; Publication requires diligent search before court approval',
   },
 };
 
@@ -90,7 +94,7 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
-        pageTitle="Serving Family Law Papers in Oklahoma: A Server"
+        pageTitle="Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody"
         pageDescription="Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma"
         siteName="Just Legal Solutions"
@@ -99,10 +103,10 @@ export default function BlogPost() {
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
-          { name: 'Serving Family Law Papers in Oklahoma: A Server', item: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma' }
+          { name: 'Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody', item: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma' }
         ]}
         articleDetails={{
-          headline: 'Serving Family Law Papers in Oklahoma: A Server',
+          headline: 'Serving Family Law Papers in Oklahoma: Paternity, Adoption & Custody',
           datePublished: '2026-11-05',
           dateModified: '2026-11-05',
           author: 'Just Legal Solutions Team',
@@ -134,8 +138,16 @@ export default function BlogPost() {
             Process Serving
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-            Serving Family Law Papers in Oklahoma: A Server\
+            Serving Family Law Papers in Oklahoma: Paternity, Adoption &amp; Custody
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma <strong>family law service</strong> runs on tighter rules than routine civil cases: <strong>15-day adoption notice</strong> (10 O.S. § 7505-4.1), optional <strong>pre-birth</strong> adoption notices, <strong>dual service on minors</strong> under 12 O.S. § 2004(2), and <strong>UCCJEA</strong> custody rules—use a licensed server who documents attempts and deadlines.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-05').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -177,7 +189,11 @@ export default function BlogPost() {
             service demands more than legal competence — it demands discretion, sensitivity, and the ability to 
             maintain professional composure in situations where tempers flare and hearts break. We have written 
             separately about handling emotionally charged situations as 
-            a process server, and the skills described there are especially critical in family law work.
+            a process server, and the skills described in our guide to{' '}
+            <Link href="/blog/divorce-separation-serving-papers-sensitivity-discretion-oklahoma" className="text-blue-600 hover:underline">
+              serving divorce and separation papers with discretion
+            </Link>{' '}
+            are especially critical in family law work.
           </p>
           <p>
             But beyond the emotional dimension, the technical differences are what separate professional family 
@@ -250,7 +266,10 @@ export default function BlogPost() {
             the deadline shifts. Build in buffer time. Attempt service as early as possible. And document 
             everything. The affidavit you prepare may be the evidence that saves the adoption from a due 
             process challenge. For a deeper dive into termination of parental rights service requirements, 
-            see our related article on adoption and termination of parental rights service requirements.
+            see our related article on{' '}
+            <Link href="/blog/adoptions-termination-parental-rights-service-requirements-oklahoma" className="text-blue-600 hover:underline">
+              adoption and termination of parental rights service requirements
+            </Link>.
           </p>
 
           {/* Primary CTA */}
@@ -361,8 +380,10 @@ export default function BlogPost() {
             different days before declaring inability to serve. Family courts scrutinize attempt logs more 
             closely than standard civil courts. Document every attempt with date, time, location, and outcome. 
             Note whether anyone answered the door, what vehicle was in the driveway, whether lights were on 
-            inside. These details matter when an affidavit of due diligence is challenged. For related 
-            reading, see our guide to child support enforcement process serving.
+            inside. These details matter when an affidavit of due diligence is challenged.             For related reading, see our guide to{' '}
+            <Link href="/blog/process-serving-child-support-enforcement-oklahoma" className="text-blue-600 hover:underline">
+              child support enforcement process serving
+            </Link>.
           </p>
 
           {/* Secondary CTA */}
@@ -428,8 +449,10 @@ export default function BlogPost() {
             documentation standard. We do not just attempt service — we build the due diligence record that 
             attorneys need when they are asking a court to approve service by publication. If you are an 
             attorney handling interstate custody matters, you need a process server who understands UCCJEA 
-            requirements and can navigate the cross-border complexity. For more on this topic, see our article 
-            on enforcing out-of-state custody orders.
+            requirements and can navigate the cross-border complexity. For more on this topic, see our article on{' '}
+            <Link href="/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma" className="text-blue-600 hover:underline">
+              enforcing out-of-state custody orders
+            </Link>.
           </p>
           </article>
           
@@ -526,8 +549,9 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
-            Visit our pricing page for 
-            current service rates.
+            Visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>{' '}
+            for current service rates.
           </p>
           </article>
 

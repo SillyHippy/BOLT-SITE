@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Legal Document Courier Services in Oklahoma',
-  description: 'Discover how legal document courier services in Oklahoma deliver speed, security, and chain of custody protection. Learn what to look for and why it matters for your practice.',
+  description: 'Oklahoma couriers under 12 O.S. § 2004.3 deliver speed, signed receipts, and GPS chain of custody—they file and transport, not serve summons under § 158.1.',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Legal Document Courier Services in Oklahoma',
-    description: 'Discover how legal document courier services in Oklahoma deliver speed, security, and chain of custody protection. Learn what to look for and why it matters for your practice.',
+    description: 'Oklahoma couriers under 12 O.S. § 2004.3 deliver speed, signed receipts, and GPS chain of custody—they file and transport, not serve summons under § 158.1.',
     url: 'https://justlegalsolutions.org/blog/legal-document-courier-services-speed-security-chain-custody-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-07',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      '12 O.S. § 2004.3 and Supreme Court Rule 1.4(c) authorize Oklahoma courier delivery with signed receipts—speed tiers, bonding, chain of custody, and the 12 O.S. § 158.1 process-server line.',
+    'ai-key-facts':
+      'Couriers handle filing logistics—not licensed service of process under 12 O.S. § 158.1; § 2004.3 requires signed receipts naming recipient, date, address, and carrier; Same-county delivery often runs 2–4 hours with rush and statewide tiers; Rule 1.4(c) can treat carrier receipt date as appellate filing date; Chain-of-custody gaps can trigger Oklahoma evidence and tampering challenges',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Legal Document Courier Services in Oklahoma"
-        pageDescription="Discover how legal document courier services in Oklahoma deliver speed, security, and chain of custody protection. Learn what to look for and why it matters for your practice."
+        pageDescription="Oklahoma couriers under 12 O.S. § 2004.3 deliver speed, signed receipts, and GPS chain of custody—they file and transport, not serve summons under § 158.1."
         pageUrl="https://justlegalsolutions.org/blog/legal-document-courier-services-speed-security-chain-custody-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Legal Document Courier Services in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>12 O.S. § 2004.3</strong>, Oklahoma authorizes <strong>commercial couriers</strong> (with signed receipts) instead of certified mail for many paper deliveries—couriers file, transport, and retrieve documents; <strong>formal service of process</strong> still requires a <strong>licensed server under 12 O.S. § 158.1</strong>, with bonded couriers documenting GPS chain of custody for admissibility.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-07').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             When was the last time one of your paralegals sat at the Tulsa County Courthouse for two hours waiting on a file-stamped copy? If you practice law in Oklahoma, you already know the answer — probably last week. Between court filings, discovery deliveries, interoffice transfers, and the relentless march of deadlines, document logistics can quietly devour your firm's productivity. That is where legal document courier services come in. And here is what most attorneys do not realize: Oklahoma law explicitly authorizes commercial couriers as a legally recognized alternative to certified mail. Under 12 O.S. § 2004.3, you have options that go far beyond the post office — options that save time, protect your cases, and keep your billable hours where they belong.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>What Legal Document Courier Services Actually Do</h2>
 

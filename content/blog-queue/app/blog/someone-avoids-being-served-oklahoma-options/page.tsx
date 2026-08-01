@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "What Happens If Someone Avoids Being Served in Oklahoma?",
-  description: "Learn your options when someone avoids being served in Oklahoma. Discover skip tracing, substituted service, and alternate service methods that keep your case m",
+  description:
+    'When someone avoids service in Oklahoma, skip tracing, substituted service, publication, or alternate methods still satisfy due process and may lead to default.',
   keywords:
     'what happens if someone avoids being served, avoiding service of process Oklahoma, evasive defendant process serving, substituted service Oklahoma, service by publication, skip tracing Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'What Happens If Someone Avoids Being Served in Oklahoma?',
     description:
-      'Learn your options when someone avoids being served in Oklahoma. Discover skip tracing, substituted service, and alternate service methods that keep your case moving.',
+      'When someone avoids service in Oklahoma, skip tracing, substituted service, publication, or alternate methods still satisfy due process and may lead to default.',
     url: 'https://justlegalsolutions.org/blog/someone-avoids-being-served-oklahoma-options',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,10 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn your options when someone avoids being served in Oklahoma. Discover skip tracing, substituted service, and alternate service methods that keep your case m Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Avoiding a process server is not a standalone crime in Oklahoma, but courts authorize substituted service under 12 O.S. § 2004(C)(1), publication after due diligence, and alternate service orders—default judgments often follow valid service by any approved method.',
+    'ai-key-facts':
+      'Avoiding service is not a standalone Oklahoma crime; Residential substituted service under 12 O.S. § 2004(C)(1) requires a resident 15+ at the dwelling; Publication under § 2004(C)(3) requires due diligence affidavit; Subpoenas and entity service require personal delivery; Default judgment possible after valid service on any approved method',
   },
 };
 
@@ -98,6 +99,16 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           What Happens If Someone Avoids Being Served in Oklahoma?
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Hiding from a process server does not stop your Oklahoma case—courts allow{' '}
+            <strong>skip tracing</strong>, <strong>substituted service</strong> under 12 O.S. § 2004(C)(1),{' '}
+            <strong>publication</strong> after due diligence, and <strong>alternate service</strong> orders; evasive
+            defendants often face <strong>default judgments</strong> once any approved method completes service.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           You have filed your lawsuit, the court has issued a summons, and now the
@@ -598,7 +609,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="What Happens If Someone Avoids Being Served in Oklahoma?"
-        description="Learn your options when someone avoids being served in Oklahoma. Discover skip tracing, substituted service, and alternate service methods that keep your case moving."
+        description="When someone avoids service in Oklahoma, skip tracing, substituted service, publication, or alternate methods still satisfy due process and may lead to default."
         url="https://justlegalsolutions.org/blog/someone-avoids-being-served-oklahoma-options"
         articleDetails={{
           headline: 'What Happens If Someone Avoids Being Served in Oklahoma?',

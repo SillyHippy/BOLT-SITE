@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary for Healthcare Directives & Medical Docs in Oklahoma',
-  description: 'Learn which Oklahoma healthcare documents require notarization vs. witnesses, and how a mobile notary helps with advance directives and medical POAs statewide.',
+  description: 'OK advance directives and DNR forms need two witnesses, not a notary. Medical POAs require either a notary or two witnesses under 63 O.S.—you choose one method.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notary for Healthcare Directives & Medical Docs in Oklahoma',
-    description: 'Learn which Oklahoma healthcare documents require notarization vs. witnesses, and how a mobile notary helps with advance directives and medical POAs statewide.',
+    description: 'OK advance directives and DNR forms need two witnesses, not a notary. Medical POAs require either a notary or two witnesses under 63 O.S.—you choose one method.',
     url: 'https://justlegalsolutions.org/blog/notary-healthcare-directives-medical-documents-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma advance directives under 63 O.S. § 3101.4 and DNR forms under 63 O.S. § 3131.5 require two qualified witnesses only; medical POAs under 63 O.S. § 3111.3 require either notarization or two witnesses; notarization adds authentication but is not always mandatory.',
+    'ai-key-facts': 'Advance directives require two witnesses not a notary; Medical POAs allow notary OR two witnesses; DNR forms require two witnesses only; RON has been legal in Oklahoma since 2020 for healthcare documents',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary for Healthcare Directives & Medical Docs in Oklahoma"
-        pageDescription="Learn which Oklahoma healthcare documents require notarization vs. witnesses, and how a mobile notary helps with advance directives and medical POAs statewide."
+        pageDescription="OK advance directives and DNR forms need two witnesses, not a notary. Medical POAs require either a notary or two witnesses under 63 O.S.—you choose one method."
         pageUrl="https://justlegalsolutions.org/blog/notary-healthcare-directives-medical-documents-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary for Healthcare Directives & Medical Docs in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>Advance directives (63 O.S. § 3101.4)</strong> and <strong>DNR forms</strong> need{' '}
+              <strong>two qualified witnesses</strong>, not a notary. <strong>Medical POAs (63 O.S. § 3111.3)</strong>{' '}
+              require <strong>either</strong> a notary <strong>or</strong> two witnesses—not both. Notarization is
+              optional but strengthens authentication if hospitals or family members challenge the document.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +161,10 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             If you are helping an aging parent put their healthcare wishes in writing, preparing for an upcoming surgery, or simply getting your affairs in order, you have probably run into one frustrating truth: figuring out which medical documents actually need a notary in Oklahoma is surprisingly confusing. Some websites tell you everything must be notarized. Others say witnesses are enough. The truth depends entirely on the document type — and getting it wrong can mean the difference between a legally valid directive and a useless piece of paper. At Just Legal Solutions, we believe Oklahomans deserve clear, honest answers about their healthcare documents, not upsells for services they do not legally need.
           </p>
+
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.          </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Oklahoma&apos;s Healthcare Planning Crisis: Why Less Than 10% of Oklahomans Have Advance Directives</h2>
 

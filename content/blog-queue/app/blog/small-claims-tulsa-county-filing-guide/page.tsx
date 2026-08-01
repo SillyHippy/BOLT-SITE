@@ -10,7 +10,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: "Small Claims in Tulsa County: Step-by-Step Filing Guide",
   description:
-    "File small claims in Tulsa County with clear steps on limits, forms, fees, service requirements, and hearing prep across all 77 Oklahoma counties today.",
+    'Tulsa County small claims filing: $10,000 cap, Statement of Claim, fees, service under 12 O.S. § 2004, hearing prep, and timelines for self-represented litigants.',
   keywords:
     'small claims Tulsa County, how to file small claims Oklahoma, Tulsa small claims court',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Small Claims in Tulsa County: Step-by-Step Filing Guide',
     description:
-      'File small claims in Tulsa County with our guide. Covers the $10,000 limit, required forms, fees, service requirements, and hearing preparation.',
+      'Tulsa County small claims filing: $10,000 cap, Statement of Claim, fees, service under 12 O.S. § 2004, hearing prep, and timelines for self-represented litigants.',
     url: 'https://justlegalsolutions.org/blog/small-claims-tulsa-county-filing-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -43,10 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'File small claims in Tulsa County with clear steps on limits, forms, fees, service requirements, and hearing prep across all 77 Oklahoma counties today. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Tulsa County small claims handles disputes up to $10,000 via a Statement of Claim at the district courthouse; defendants need proper service under 12 O.S. § 2004 before hearings, usually 30–60 days after proof of service is filed.',
+    'ai-key-facts':
+      'Jurisdictional cap is $10,000 including all damages sought; File in Tulsa County when the defendant lives there or the cause arose there; Service options include certified mail, sheriff, or licensed private servers; Courts schedule hearings after valid proof of service is returned; GPS-verified private service speeds timelines versus refused certified mail',
   },
 };
 
@@ -101,6 +101,19 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Small Claims in Tulsa County: Step-by-Step Filing Guide
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Tulsa County small claims</strong> covers disputes up to <strong>$10,000</strong> with a{' '}
+            <strong>Statement of Claim</strong> at the district courthouse; the defendant must receive{' '}
+            <strong>proper service under 12 O.S. § 2004</strong> before a hearing—often{' '}
+            <strong>30–60 days</strong> after proof of service is filed.
+          </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Navigating the small claims process in Tulsa County can feel
           overwhelming, especially if you are representing yourself without an
@@ -111,8 +124,6 @@ export default function BlogPost() {
           every step of filing a small claims case in Tulsa County, from
           understanding the monetary limits to preparing for your hearing.
         </p>
-        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
-        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
 
         {/* Section 1: Small Claims Limits */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -536,8 +547,11 @@ export default function BlogPost() {
           <p className="mb-4">
             If the defendant has a history of avoiding service, attempting
             certified mail or sheriff service is likely to fail. Professional
-            process servers are trained in skip tracing techniques and
-            surveillance methods that can locate and serve even the most
+            process servers are trained in{' '}
+            <Link href="/blog/skip-tracing-success-story-tulsa-case-study" className="text-blue-600 hover:underline">
+              skip tracing techniques
+            </Link>{' '}
+            and surveillance methods that can locate and serve even the most
             evasive defendants. We use GPS tracking, detailed documentation,
             and strategic timing to maximize our success rate on difficult
             serves.

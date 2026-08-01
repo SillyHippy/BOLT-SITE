@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Process Server's Safety Guide: Best Practices for Okl...",
-  description: "Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation.",
+  description:
+    'Oklahoma process servers stay safe with pre-visit research, threshold service, de-escalation, GPS proof, and knowing when to withdraw under 12 O.S. § 2004.',
   keywords:
     'process server safety, safety tips process serving, difficult recipient service Oklahoma, process server de-escalation, server safety protocols',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Process Server's Safety Guide: Best Practices for Oklahoma",
     description:
-      'Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation.',
+      'Oklahoma process servers stay safe with pre-visit research, threshold service, de-escalation, GPS proof, and knowing when to withdraw under 12 O.S. § 2004.',
     url: 'https://justlegalsolutions.org/blog/process-server-safety-guide-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,10 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Safety practices for Oklahoma process servers—de-escalation, situational awareness, reasonable hours, GPS documentation, and knowing when to withdraw and document for alternative service methods under § 2004.',
-    'ai-key-facts': 'Reasonable hours standard; GPS and photo documentation; no harassment; safety-first protocol; licensed Oklahoma servers; (539) 367-6832',
-  
-  
+    'ai-summary':
+      'Oklahoma process servers reduce risk with pre-visit intelligence, threshold-only delivery, de-escalation, GPS documentation, law-enforcement accompaniment when warranted, and withdrawal plus alternative service under 12 O.S. § 2004 when encounters turn dangerous.',
+    'ai-key-facts':
+      'Walk away when instincts or weapons signal danger; Never enter a residence without invitation; Oklahoma permits LE accompaniment for high-risk serves; GPS and photo documentation support affidavits; Licensed bonded servers under 12 O.S. § 158.1 statewide',
   },
 };
 
@@ -99,6 +100,17 @@ export default function BlogPost() {
           The Process Server's Safety Guide: Best Practices for Oklahoma
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Trust your instincts and leave</strong> when a serve turns unsafe; <strong>prep routes and recipients</strong>, serve at the{' '}
+            <strong>threshold</strong>, <strong>de-escalate</strong>, document with <strong>GPS</strong>, request{' '}
+            <strong>law enforcement</strong> when needed, then use <strong>12 O.S. § 2004</strong> alternatives.
+          </p>
+          
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Process serving is an essential function of the legal system, but it is
           not without risks. Every day, process servers across Oklahoma knock on
@@ -110,7 +122,8 @@ export default function BlogPost() {
           serving. This guide shares the safety best practices that every
           Oklahoma process server should follow.
         </p>
-        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -592,10 +605,10 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="The Process Server's Safety Guide: Best Practices for Oklahoma"
-        description="Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation."
+        description="Oklahoma process servers stay safe with pre-visit research, threshold service, de-escalation, GPS proof, and knowing when to withdraw under 12 O.S. § 2004."
         url="https://justlegalsolutions.org/blog/process-server-safety-guide-oklahoma"
         articleDetails={{
-          headline: 'The Process Server',
+          headline: "The Process Server's Safety Guide: Best Practices for Oklahoma",
           datePublished: '2026-04-24',
           dateModified: '2026-04-24',
           author: 'Just Legal Solutions Team',

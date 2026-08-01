@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Standard vs Rush vs Same-Day Process Serving: Which Do Yo...",
-  description: "Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines.",
+  description:
+    'Pick standard (48–72 hr), rush (24 hr), or same-day Oklahoma process serving by deadline pressure; all tiers should include GPS-verified proof and affidavits.',
   keywords: 'standard vs rush process serving, same day process server, process service tiers, process serving Oklahoma, rush process service, same-day process serving, after-hours process server',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Standard vs Rush vs Same-Day Process Serving: Which Do You Need?',
-    description: 'Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines.',
+    description:
+      'Pick standard (48–72 hr), rush (24 hr), or same-day Oklahoma process serving by deadline pressure; all tiers should include GPS-verified proof and affidavits.',
     url: 'https://justlegalsolutions.org/blog/standard-vs-rush-vs-same-day-process-serving',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Standard tier targets first attempt in 48–72 hours with a 7-day window; rush starts within 24 hours over 3 days; same-day assigns and attempts the same business day—pick by Oklahoma 180-day service deadline and hearing dates, with after-hours for evasive recipients.',
+    'ai-key-facts':
+      'Standard: first attempt 48–72 hours, 7-day completion; Rush: 24-hour first attempt, 3-day window; Same-day: assignment and attempt same business day; After-hours add-on for evasive schedules; All tiers should yield GPS-verified affidavits under 12 O.S. § 158.1; Tier upgrades available during active assignments',
   },
 };
 
@@ -55,6 +57,17 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Standard vs Rush vs Same-Day Process Serving</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Standard vs Rush vs Same-Day Process Serving: Which Do You Need?</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Use <strong>standard</strong> for routine cases (first attempt in 48–72 hours), <strong>rush</strong> when a
+            hearing nears (24-hour first attempt), and <strong>same-day</strong> for emergencies; add{' '}
+            <strong>after-hours</strong> when defendants dodge daytime attempts—all tiers should include{' '}
+            <strong>GPS-verified proof</strong> and court-ready affidavits.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">When your case depends on timely service of process, choosing the right service tier can mean the difference between meeting a critical deadline and facing a costly continuance. With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the <strong>Just Legal Solutions Team</strong> has developed a four-tier service system designed to match every case timeline. This guide breaks down each tier so you can make the right choice for your legal matter.</p>
         <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
@@ -236,7 +249,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Standard vs Rush vs Same-Day Process Serving: Which Do You Need?"
-        description="Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines."
+        description="Pick standard (48–72 hr), rush (24 hr), or same-day Oklahoma process serving by deadline pressure; all tiers should include GPS-verified proof and affidavits."
         url="https://justlegalsolutions.org/blog/standard-vs-rush-vs-same-day-process-serving"
         articleDetails={{
           headline: 'Standard vs Rush vs Same-Day Process Serving: Which Do You Need?',

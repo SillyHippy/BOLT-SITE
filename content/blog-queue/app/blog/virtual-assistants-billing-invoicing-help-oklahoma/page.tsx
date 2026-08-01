@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Virtual billing assistants manage time capture, invoicing, collections, and ORPC 1.15 trust documentation for Oklahoma firms—often recovering 12+ billable hours weekly at 60–70% lower cost than in-house billing staff.',
+    'ai-key-facts':
+      'Attorneys lose 600+ billable hours annually to admin (Bloomberg Law 2025); Typical VA billing support costs $15–$25/hr vs $60,000–$75,000+ for in-house hires; Systematic billing can improve collections from ~85% to 93%+; Oklahoma VAs must follow ORPC 1.15 IOLTA and three-way reconciliation rules; LEDES/UTBMS support available for insurance and PI billing',
   },
 };
 
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Virtual Assistants Help Law Firms With Billing
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              A <strong>virtual billing assistant</strong> handles <strong>time entry, invoicing, AR follow-up, and trust documentation</strong> under your supervision—following <strong>ORPC 1.15</strong>—so Oklahoma attorneys recover <strong>12+ billable hours weekly</strong> at roughly <strong>60–70%</strong> lower cost than in-house billing staff.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

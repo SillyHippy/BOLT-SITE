@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Do Process Servers Call Before Serving? What to Expect",
-  description: "Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma. Serving all 77 Okla",
+  description:
+    'Wondering if process servers call before serving papers? Learn when Oklahoma servers may phone you, scam warning signs, and how to verify a licensed server.',
   keywords:
     'do process servers call you, will a process server call me, process server phone call, process server scam, verify process server Oklahoma, process serving phone call, legitimate process server call',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Do Process Servers Call Before Serving? What to Expect',
     description:
-      'Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma.',
+      'Wondering if process servers call before serving papers? Learn when Oklahoma servers may phone you, scam warning signs, and how to verify a licensed server.',
     url: 'https://justlegalsolutions.org/blog/do-process-servers-call-before-serving',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -41,8 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma. Serving all 77 Okla Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary':
+      'Oklahoma process servers are not required to call before service; some phone to confirm addresses or schedule delivery. Covers legitimate call reasons, scam red flags, and verifying licensing under Title 12 O.S. 158.1.',
+    'ai-key-facts':
+      'No Oklahoma statute requires calling before personal service; Legitimate servers may confirm address or schedule service but never collect payment from recipients; Scam callers often threaten arrest or demand wire transfers and gift cards; Verify licensing with the court clerk or Secretary of State before sharing personal information',
   
   
   },
@@ -97,6 +100,13 @@ export default function BlogPost() {
           Do Process Servers Call Before Serving? What to Expect in Oklahoma
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Oklahoma law does not require process servers to call before serving papers—many attempt personal service without warning. A legitimate server might phone to confirm an address, schedule service at a business, or follow up on skip tracing. Real servers never demand payment or your Social Security number over the phone. Ask for name, company, and license details, then verify before sharing information.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           If you have been told someone is trying to serve you legal papers, you
           might be wondering: will a process server call me first? With over 50
@@ -108,7 +118,9 @@ export default function BlogPost() {
           contact you by phone, what questions they might ask, how to spot a
           scam, and what your rights are under Oklahoma law.
         </p>
-        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+        
 
         {/* Section 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -542,7 +554,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Do Process Servers Call Before Serving? What to Expect"
-        description="Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma."
+        description="Wondering if process servers call before serving papers? Learn when Oklahoma servers may phone you, scam warning signs, and how to verify a licensed server."
         url="https://justlegalsolutions.org/blog/do-process-servers-call-before-serving"
         articleDetails={{
           headline: 'Do Process Servers Call Before Serving? What to Expect',

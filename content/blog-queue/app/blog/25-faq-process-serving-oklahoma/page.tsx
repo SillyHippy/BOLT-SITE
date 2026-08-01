@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered. Serving all 77 Oklahoma Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+    'ai-summary': 'Twenty-five Oklahoma process-serving FAQs—licensing, the 180-day rule, service methods, costs, and GPS proof—answered from statutes and field experience.',
+    'ai-key-facts': 'Oklahoma requires licensed process servers under Title 12 O.S. 158.1; Service generally must be completed within 180 days of filing; Personal, substituted, and publication methods each have distinct rules; GPS-verified affidavits help defend service when challenged',
   
   
   },
@@ -100,6 +100,13 @@ export default function BlogPost() {
           25 FAQ About Process Serving in Oklahoma — Answered
         </h1>
 
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            From licensing under Title 12 O.S. 158.1 to the <strong>180-day service deadline</strong>, Oklahoma process serving raises the same questions repeatedly. This article answers all 25—who may serve papers, personal vs. substituted service, Sunday attempts, skip tracing, proof-of-service rules, and what GPS verification adds if service is challenged.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Process serving is one of the most important — and most misunderstood —
           parts of the legal system. Whether you are an attorney managing dozens
@@ -113,7 +120,9 @@ export default function BlogPost() {
           common questions we hear about process serving in Oklahoma, drawing on
           Oklahoma statutes and our hands-on expertise.
         </p>
-        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+        
 
         {/* GENERAL QUESTIONS */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">

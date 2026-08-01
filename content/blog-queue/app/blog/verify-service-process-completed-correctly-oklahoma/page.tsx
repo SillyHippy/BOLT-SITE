@@ -36,9 +36,13 @@ export const metadata: Metadata = {
   },
   other: {
     'article:published_time': '2026-10-06',
-    'article:modified_time': '2026-10-06',
+    'article:modified_time': '2026-08-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Verify Oklahoma service by confirming the server\'s 12 O.S. § 158.1 license, reviewing a complete 12 O.S. § 2004(G) affidavit, and ensuring service fell within the 180-day window under 12 O.S. § 2004(I) before relying on jurisdiction.',
+    'ai-key-facts':
+      'Licensed private servers must appear on the statewide registry and carry a $5,000 bond; Returns must list county of issuance, method, date, place, and recipient details; Substituted service requires a recipient at least 15 years old at the dwelling or usual abode; Service must finish within 180 days of filing or face dismissal under 12 O.S. § 2004(I); GPS photos and attempt logs strengthen proof if service is challenged',
   },
 };
 
@@ -114,7 +118,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'Verify Service of Process Was Completed Correctly Oklahoma',
           datePublished: '2026-10-06',
-          dateModified: '2026-10-06',
+          dateModified: '2026-08-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -146,6 +150,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Verify Service of Process Was Completed Correctly Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Confirm your server is <strong>licensed under 12 O.S. § 158.1</strong>, review the <strong>affidavit</strong> for every element in <strong>12 O.S. § 2004(G)</strong>, and verify the <strong>service date</strong> falls within <strong>180 days</strong> of filing under <strong>12 O.S. § 2004(I)</strong> before you treat jurisdiction as established.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-06').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -180,7 +192,8 @@ export default function BlogPost() {
           <h3>What Oklahoma Law Requires at a Glance</h3>
 
           <p>
-            Oklahoma has a detailed statutory framework governing service of process, primarily found in <strong>Title 12 of the Oklahoma Statutes</strong>. The key requirements you need to understand for verification purposes include: the affidavit of service must contain specific elements under <strong>12 O.S. § 2004(G)</strong>; service must be completed within <strong>180 days</strong> of filing the petition under <strong>12 O.S. § 2004(I)</strong>; private process servers must be <strong>licensed and bonded</strong> under <strong>12 O.S. § 158.1</strong>; and affidavits of service serve as <strong>prima facie evidence</strong> of proper service — but only if they are complete and accurate. For a broader overview of these requirements, see our guide to Oklahoma's process serving laws, which every attorney and litigant should understand.
+            Oklahoma has a detailed statutory framework governing service of process, primarily found in <strong>Title 12 of the Oklahoma Statutes</strong>. The key requirements you need to understand for verification purposes include: the affidavit of service must contain specific elements under <strong>12 O.S. § 2004(G)</strong>; service must be completed within <strong>180 days</strong> of filing the petition under <strong>12 O.S. § 2004(I)</strong>; private process servers must be <strong>licensed and bonded</strong> under <strong>12 O.S. § 158.1</strong>; and affidavits of service serve as <strong>prima facie evidence</strong> of proper service — but only if they are complete and accurate. For a broader overview of these requirements, see our{' '}
+            <Link href="/oklahoma-process-serving-laws-simplified" className="text-blue-600 hover:underline">Oklahoma process serving laws guide</Link>, which every attorney and litigant should understand.
           </p>
 
           <p>
@@ -189,14 +202,14 @@ export default function BlogPost() {
 
           <h2>Step 1 — Confirm Your Process Server Is Properly Licensed</h2>
 
-          <h3>Using Oklahoma's Statewide Registry of Licensed Process Servers</h3>
+          <h3>Using Oklahoma&rsquo;s Statewide Registry of Licensed Process Servers</h3>
 
           <p>
             Since January 1, 2013, Oklahoma has maintained a <strong>statewide registry of licensed private process servers</strong> under 12 O.S. § 158.1(K). The Administrative Office of the Courts maintains this registry, which means anyone — attorneys, litigants, court staff — can verify whether a process server holds a valid license. This is your first and most important verification step because service performed by an unlicensed private person (other than a sheriff or deputy) can be challenged and potentially invalidated.
           </p>
 
           <p>
-            You have three reliable methods to confirm licensing. First, ask the process server for their license number and issuing county, then call that county's court clerk directly to verify the license is active. Second, check the statewide registry maintained by the Administrative Office of the Courts. Third, verify that the server's <strong>$5,000 surety bond</strong> is on file — this bonding requirement is mandatory under Oklahoma law and provides recourse if the server acts improperly.
+            You have three reliable methods to confirm licensing. First, ask the process server for their license number and issuing county, then call that county&rsquo;s court clerk directly to verify the license is active. Second, check the statewide registry maintained by the Administrative Office of the Courts. Third, verify that the server&rsquo;s <strong>$5,000 surety bond</strong> is on file — this bonding requirement is mandatory under Oklahoma law and provides recourse if the server acts improperly.
           </p>
 
           <p>
@@ -210,7 +223,8 @@ export default function BlogPost() {
           </p>
 
           <p>
-            One important distinction: <strong>sheriff and deputy sheriff service does not require licensing</strong>. If your service was performed by a sheriff's deputy, the verification rules are different — you will verify through the sheriff's office rather than the statewide registry. However, sheriff returns still must comply with all affidavit requirements under 12 O.S. § 2004(G), including the three-day notification rule for plaintiff's attorneys. If you want to set yourself up for success from the very beginning, read our guide on how to hire a process server in Oklahoma.
+            One important distinction: <strong>sheriff and deputy sheriff service does not require licensing</strong>. If your service was performed by a sheriff&rsquo;s deputy, the verification rules are different — you will verify through the sheriff&rsquo;s office rather than the statewide registry. However, sheriff returns still must comply with all affidavit requirements under 12 O.S. § 2004(G), including the three-day notification rule for plaintiff&rsquo;s attorneys. If you want to set yourself up for success from the very beginning, read our{' '}
+            <Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">guide on how to hire a process server in Oklahoma</Link>.
           </p>
 
           <h2>Step 2 — Review the Affidavit of Service for All Required Elements</h2>
@@ -280,7 +294,8 @@ export default function BlogPost() {
           </div>
 
           <p>
-            For sheriff service, the return must be made "promptly" and the court clerk must send a copy to the plaintiff's attorney within three days under 12 O.S. § 2004(G)(2). For licensed private process servers, there is no statutory clerk notification requirement — which means you must proactively confirm filing yourself. For a deeper dive into the specific requirements of proof of service documents, see our complete guide to proof of service in Oklahoma.
+            For sheriff service, the return must be made &ldquo;promptly&rdquo; and the court clerk must send a copy to the plaintiff&rsquo;s attorney within three days under 12 O.S. § 2004(G)(2). For licensed private process servers, there is no statutory clerk notification requirement — which means you must proactively confirm filing yourself. For a deeper dive into the specific requirements of proof of service documents, see our{' '}
+            <Link href="/blog/proof-of-service-oklahoma-guide" className="text-blue-600 hover:underline">complete guide to proof of service in Oklahoma</Link>.
           </p>
 
           <h3>Supplementary Evidence Professional Servers Provide</h3>
@@ -312,7 +327,9 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Some court clerks proactively flag cases as the 180-day deadline approaches and may initiate dismissal procedures automatically. When reviewing the affidavit, confirm the service date clearly falls within the 180-day window. A service date on day 178 or 179 is technically valid but invites scrutiny — and if any element of that service is challenged, you may not have time to correct it before dismissal. If you find yourself in this situation, visit our pricing page for current rates on rush and priority service.
+            Some court clerks proactively flag cases as the 180-day deadline approaches and may initiate dismissal procedures automatically. When reviewing the affidavit, confirm the service date clearly falls within the 180-day window. A service date on day 178 or 179 is technically valid but invites scrutiny — and if any element of that service is challenged, you may not have time to correct it before dismissal. If you find yourself in this situation, visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>{' '}
+            for current rates on rush and priority service.
           </p>
 
           <h2>Red Flags That Signal Service May Be Improper — And What to Do</h2>
@@ -336,15 +353,15 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Service at the Wrong Address.</strong> For substituted service under 12 O.S. § 2004(C)(1)(c), service must be at the defendant's "dwelling house or usual place of abode." Service at a workplace, friend's house, or other location does not qualify for substituted service unless personal service was actually achieved on the defendant.
+            <strong>Service at the Wrong Address.</strong> For substituted service under 12 O.S. § 2004(C)(1)(c), service must be at the defendant&rsquo;s &ldquo;dwelling house or usual place of abode.&rdquo; Service at a workplace, friend&rsquo;s house, or other location does not qualify for substituted service unless personal service was actually achieved on the defendant.
           </p>
 
           <p>
-            <strong>Substituted Service on an Underage Person.</strong> Oklahoma requires the substitute recipient to be at least 15 years old — one of the lowest thresholds nationally, but still a hard requirement. If the affidavit does not confirm the recipient's age, that is a red flag.
+            <strong>Substituted Service on an Underage Person.</strong> Oklahoma requires the substitute recipient to be at least 15 years old — one of the lowest thresholds nationally, but still a hard requirement. If the affidavit does not confirm the recipient&rsquo;s age, that is a red flag.
           </p>
 
           <p>
-            <strong>Certified Mail Issues.</strong> For service by certified mail under 12 O.S. § 2004(C)(2), the return must include the sender's receipt and a signed return receipt (green card). An unsigned return receipt, a signature by an unauthorized person, or a refusal without proper documentation can all invalidate mail service.
+            <strong>Certified Mail Issues.</strong> For service by certified mail under 12 O.S. § 2004(C)(2), the return must include the sender&rsquo;s receipt and a signed return receipt (green card). An unsigned return receipt, a signature by an unauthorized person, or a refusal without proper documentation can all invalidate mail service.
           </p>
 
           <p>
@@ -364,7 +381,9 @@ export default function BlogPost() {
           <h3>When Re-Service Is Your Only Option</h3>
 
           <p>
-            Amendment will not fix everything. If the wrong person was served, an improper method was used, or service was attempted at a non-qualifying address, you likely need <strong>re-service</strong> — and you need it before the 180-day deadline expires. Re-service means new service fees, potential case delays, and additional filing costs. The bottom line: catching red flags early gives you options. Waiting until a defendant challenges service limits your options dramatically. If you are worried about red flags in your current service, our team can review your affidavit and advise on next steps. Contact Just Legal Solutions for a confidential review.
+            Amendment will not fix everything. If the wrong person was served, an improper method was used, or service was attempted at a non-qualifying address, you likely need <strong>re-service</strong> — and you need it before the 180-day deadline expires. Re-service means new service fees, potential case delays, and additional filing costs. The bottom line: catching red flags early gives you options. Waiting until a defendant challenges service limits your options dramatically. If you are worried about red flags in your current service, our team can review your affidavit and advise on next steps.{' '}
+            <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link>{' '}
+            for a confidential review.
           </p>
           </article>
           

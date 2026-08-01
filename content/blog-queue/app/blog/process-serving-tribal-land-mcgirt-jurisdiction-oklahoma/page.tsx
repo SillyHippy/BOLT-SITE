@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'McGirt & Post-McGirt Process Serving: A 2026 Guide',
-  description: 'Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers.',
+  description: 'Post-McGirt Oklahoma tribal service: verify reservation maps, call tribal court clerks, follow sovereign rules—Stroble leaves most state civil process in place.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'McGirt & Post-McGirt Process Serving: A 2026 Guide',
-    description: 'Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers.',
+    description: 'Post-McGirt Oklahoma tribal service: verify reservation maps, call tribal court clerks, follow sovereign rules—Stroble leaves most state civil process in place.',
     url: 'https://justlegalsolutions.org/blog/process-serving-tribal-land-mcgirt-jurisdiction-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'After McGirt, servers in eastern Oklahoma must verify reservation boundaries, identify state vs tribal court cases, and coordinate with tribal clerks before service on tribal land—Stroble (2025) and SCOTUS declination (2026) leave state civil service largely unchanged, but tribal court rules still govern tribal matters.',
+    'ai-key-facts':
+      'McGirt restored Muscogee (Creek) reservation and was extended to Five Civilized Tribes reservations covering much of eastern Oklahoma; State license under 12 O.S. § 158.1 does not automatically authorize service on tribal land; Tribal members off-reservation are served under standard Oklahoma civil procedure; Cross-deputization agreements do not authorize private process servers; GPS coordinates and clerk coordination documentation are essential on rural reservation addresses',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="McGirt & Post-McGirt Process Serving: A 2026 Guide"
-        pageDescription="Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers."
+        pageDescription="Post-McGirt Oklahoma tribal service: verify reservation maps, call tribal court clerks, follow sovereign rules—Stroble leaves most state civil process in place."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-tribal-land-mcgirt-jurisdiction-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -134,8 +138,16 @@ export default function BlogPost() {
             Process Serving
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-            McGirt & Post-McGirt Process Serving: A 2026 Guide
+            McGirt &amp; Post-McGirt Process Serving: A 2026 Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Before serving on <strong>tribal land</strong> in post-<strong>McGirt</strong> Oklahoma, confirm the address is inside a reservation, identify <strong>state vs tribal court</strong> case, and call the <strong>tribal court clerk</strong>—state civil service still generally applies after <strong>Stroble</strong>, but tribal procedures govern tribal cases and unauthorized service can be quashed.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -204,7 +216,7 @@ export default function BlogPost() {
 
           <h3>Before You Leave the Office: Five Pre-Service Questions</h3>
           <p>
-            Every process server should run through these five questions before attempting service on any address that might fall within tribal jurisdiction. Print this decision tree and keep it in your vehicle. We call it the \u201cStop, Check, Serve\u201d protocol.
+            Every process server should run through these five questions before attempting service on any address that might fall within tribal jurisdiction. Keep this decision tree in your vehicle. We call it the \u201cStop, Check, Serve\u201d protocol.
           </p>
           <p>
             <strong>Question One: Is the address within a tribal reservation boundary?</strong> Start with the tribal nation\u2019s official website, which typically publishes reservation maps. Cross-reference with the Oklahoma Secretary of State\u2019s tribal agreements page and county assessor records. If you are unsure after checking these sources, call the tribal court clerk. They answer these questions daily.

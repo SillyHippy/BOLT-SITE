@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-07',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Serving Oklahoma federal contractors often requires FRCP 4(i) three-step service on the United States—even in state court via 12 O.S. § 2004(c)(4)—plus military base coordination at Tinker, Vance, and Fort Sill and strict qui tam seal rules.',
+    'ai-key-facts':
+      '12 O.S. § 2004(c)(4) incorporates FRCP 4 for service on the U.S. and federal agencies; FRCP 4(i) requires U.S. Attorney delivery, certified mail to the Attorney General, and agency notice when applicable; Military bases require provost marshal coordination before service; False Claims Act qui tam complaints stay under seal for 60 days; Licensed Oklahoma servers must still meet 12 O.S. § 158.1 and the 180-day state deadline',
   },
 };
 
@@ -136,6 +140,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving Government Contractors: Federal Compliance
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Cases involving <strong>Oklahoma federal contractors</strong> often require <strong>FRCP 4(i)</strong> three-step service on the United States—even in <strong>state court</strong> under <strong>12 O.S. § 2004(c)(4)</strong>—plus <strong>base access coordination</strong> at installations like Tinker, Vance, and Fort Sill before personal service on employees.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-07').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +160,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Imagine this scenario: You are an Oklahoma attorney preparing to serve a defendant in an employment discrimination case. Your client worked for a subcontractor at Tinker Air Force Base, and the complaint names both the subcontractor and a federal agency as defendants. You hand the papers to your process server with the usual instructions \u2014 and only later discover that service on a federal contractor requires a completely different set of rules than a standard business defendant. The service is challenged, your case is at risk, and you are scrambling to fix what should have been handled correctly from day one. This is the reality of process serving for government contractors in Oklahoma, and it is a topic that catches even experienced attorneys off guard.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Oklahoma&apos;s Defense Contractor Ecosystem: Why Federal Compliance Matters Here</h2>
 
@@ -193,9 +205,13 @@ export default function BlogPost() {
 
           <p>But here is where many attorneys stumble: <strong>FRCP 4(i)(2)(B)</strong> creates a different path when a federal officer or employee is sued in their <em>individual capacity</em> for acts or omissions in connection with their duties. In that scenario, you must serve the United States under 4(i)(1) <em>and</em> serve the individual under Rule 4(e), (f), or (g) \u2014 the standard rules for serving individuals. So you have the federal three-step process <em>plus</em> personal service on the individual.</p>
 
-          <p>The practical example makes this clear: suppose you are serving a DRTC facilities supervisor at Tinker AFB for an employment discrimination claim. If the supervisor is sued in their official capacity, the service path follows 4(i)(2). If sued in their individual capacity, you add personal service under 4(e) to the federal three-step process. Knowing which capacity triggers which rule is essential.</p>
+          <p>The practical example makes this clear: suppose you are serving a DRTC facilities supervisor at Tinker AFB for an employment discrimination claim. If the supervisor is sued in their official capacity, the service path follows 4(i)(2). If sued in their individual capacity, you add personal service under 4(e) to the federal three-step process. Knowing which capacity triggers which rule is essential. For a district-by-district breakdown of federal service rules, see our guide to{' '}
+            <Link href="/blog/process-serving-federal-courts-oklahoma" className="text-blue-600 hover:underline">
+              Oklahoma federal court process serving
+            </Link>.
+          </p>
 
-          <h3>Oklahoma&apos;s Adoption of FRCP 4(i) Through 12 O.S. \u00a7 2004(c)(4)</h3>
+          <h3>Oklahoma&apos;s Adoption of FRCP 4(i) Through 12 O.S. § 2004(c)(4)</h3>
 
           <p>Here is the critical Oklahoma connection: <strong>12 O.S. \u00a7 2004(c)(4)</strong> explicitly directs that service upon the United States or an officer or agency thereof must be made &ldquo;in the manner specified by Federal Rule of Civil Procedure 4.&rdquo; This means FRCP 4(i) is directly binding in Oklahoma state courts when the federal government or its contractors are parties. You cannot treat a state court case involving a federal contractor as a routine <Link href="/learn/special-population-service" className="text-blue-600 hover:underline">special population service</Link>. The federal rules apply whether you are in federal court in the Western District of Oklahoma or Oklahoma County District Court.</p>
 
@@ -350,7 +366,9 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Our team understands FRCP 4(i), military base coordination, and the dual compliance requirements that federal contractor cases demand. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.{' '}
-            Visit our pricing page for current service rates.
+            Visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>{' '}
+            for current service rates.
           </p>
           </article>
 

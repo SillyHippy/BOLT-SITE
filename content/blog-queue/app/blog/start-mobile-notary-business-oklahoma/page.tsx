@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
-  description: 'Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs.',
+  description:
+    'Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
-    description: 'Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs.',
+    description:
+      'Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
     url: 'https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma mobile notaries in 2026 face SB 1028’s $10,000 bond, HB 2265’s mandatory exam for new applicants, OSBI fingerprint background checks, a $5 per-act fee cap with unregulated travel fees, and optional RON authorization for higher earnings statewide.',
+    'ai-key-facts':
+      '49 O.S. § 2 requires $10,000 surety bond (raised 2026 under SB 1028); New applicants must pass HB 2265 exam and OSBI background check; Notarial fees capped at $5 per act and $25 for RON under §§ 5 and 209; Travel fees are unregulated and drive mobile income; Commission filing due within 60 days of issuance; Tamper-evident journal mandatory under HB 2265',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Start a Mobile Notary Business in Oklahoma (2026)"
-        pageDescription="Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs."
+        pageDescription="Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap."
         pageUrl="https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Start a Mobile Notary Business in Oklahoma (2026)
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Apply through the <strong>Oklahoma Secretary of State</strong>, pass the <strong>2026 mandatory exam</strong>,
+              clear an <strong>OSBI</strong> background check, post the <strong>$10,000 bond</strong>, then build income with
+              unregulated <strong>travel fees</strong>, loan signings, and optional <strong>RON</strong> beyond the{' '}
+              <strong>$5</strong> notary fee cap.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>

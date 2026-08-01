@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'International Document Notarization and Apostille in Oklahoma',
-  description: 'Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity.',
+  description: 'Oklahoma apostille and international notarization: Hague members, 12-month vital records, RON for overseas signers under 49 O.S. § 205, and foreign docs.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'International Document Notarization and Apostille in Oklahoma',
-    description: 'Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity.',
+    description: 'Oklahoma apostille and international notarization: Hague members, 12-month vital records, RON for overseas signers under 49 O.S. § 205, and foreign docs.',
     url: 'https://justlegalsolutions.org/blog/international-document-notarization-apostille-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-21',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma documents for Hague countries need proper notarization then a Secretary of State apostille; vital records must be certified within 12 months; RON under 49 O.S. § 205 can notarize overseas signers when U.S.-connected.',
+    'ai-key-facts': 'Apostille fee is typically $25 per document through Oklahoma SOS; Vital records for apostille need certification within the past 12 months; Federal documents (FBI checks) go to U.S. Department of State, not Oklahoma; 49 O.S. § 117 recognizes foreign apostilles as conclusive in Oklahoma; Oklahoma SOS cannot apostille notarizations from other states',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="International Document Notarization and Apostille in Oklahoma"
-        pageDescription="Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity."
+        pageDescription="Oklahoma apostille and international notarization: Hague members, 12-month vital records, RON for overseas signers under 49 O.S. § 205, and foreign docs."
         pageUrl="https://justlegalsolutions.org/blog/international-document-notarization-apostille-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             International Document Notarization and Apostille in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              For use abroad, Oklahoma documents in <strong>Hague Convention</strong> countries need valid <strong>notarization</strong>, then a <strong>$25 apostille</strong> from the Oklahoma Secretary of State. <strong>Vital records</strong> must be court- or state-certified within the <strong>past 12 months</strong>. Overseas signers may use <strong>RON under 49 O.S. § 205</strong>; foreign documents with apostilles are recognized in Oklahoma under <strong>49 O.S. § 117</strong>.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-21').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>

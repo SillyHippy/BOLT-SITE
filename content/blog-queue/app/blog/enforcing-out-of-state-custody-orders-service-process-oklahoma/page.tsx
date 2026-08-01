@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Enforcing Out-of-State Custody Orders in Oklahoma',
-  description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success.',
+  description:
+    'Oklahoma UCCJEA: register out-of-state custody orders or seek expedited relief—serve the respondent and anyone with physical custody under 43 O.S. § 551-309.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Enforcing Out-of-State Custody Orders in Oklahoma',
-    description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success.',
+    description:
+      'Oklahoma UCCJEA: register out-of-state custody orders or seek expedited relief—serve the respondent and anyone with physical custody under 43 O.S. § 551-309.',
     url: 'https://justlegalsolutions.org/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma UCCJEA enforcement via registration under 43 O.S. § 551-305 or expedited relief under § 551-308—next-judicial-day hearings, mandatory service on the respondent and physical custodian under § 551-309.',
+    'ai-key-facts':
+      '43 O.S. § 551-303 requires Oklahoma courts to enforce sister-state custody orders with proper jurisdiction; Registration under § 551-305 gives a 20-day contest period from service; Expedited enforcement under § 551-308 sets a hearing on the next judicial day after service; § 551-309 requires service on the respondent and anyone with physical custody of the child under 12 O.S. § 2004; Sheriff service often takes weeks—licensed servers meet urgent UCCJEA deadlines',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Enforcing Out-of-State Custody Orders in Oklahoma"
-        pageDescription="Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success."
+        pageDescription="Oklahoma UCCJEA: register out-of-state custody orders or seek expedited relief—serve the respondent and anyone with physical custody under 43 O.S. § 551-309."
         pageUrl="https://justlegalsolutions.org/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,15 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Enforcing Out-of-State Custody Orders in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma enforces sister-state custody orders under the <strong>UCCJEA</strong> through <strong>registration</strong> (20-day contest after service) or <strong>expedited enforcement</strong> (hearing on the next judicial day after service). Under{' '}
+              <strong>43 O.S. § 551-309</strong>, serve the respondent and anyone with physical custody of the child per <strong>12 O.S. § 2004</strong>—delays can postpone recovery of the child.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

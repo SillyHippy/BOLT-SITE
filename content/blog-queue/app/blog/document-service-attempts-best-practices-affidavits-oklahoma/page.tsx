@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Document Service Attempts: Affidavit Best Practices',
-  description: 'Learn how Oklahoma process servers document service attempts beyond the statutory minimum. Discover best practices for affidavits that hold up in court.',
+  description: 'Oklahoma service affidavits need five fields; GPS, photos, and notes defend challenges—15+ substitute rules, non-service diligence, and CLEET retention.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Document Service Attempts: Affidavit Best Practices',
-    description: 'Learn how Oklahoma process servers document service attempts beyond the statutory minimum. Discover best practices for affidavits that hold up in court.',
+    description: 'Oklahoma service affidavits need five fields; GPS, photos, and notes defend challenges—15+ substitute rules, non-service diligence, and CLEET retention.',
     url: 'https://justlegalsolutions.org/blog/document-service-attempts-best-practices-affidavits-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Beyond 12 O.S. § 2004(G)(2) five statutory elements—GPS, photos, field notes, Oklahoma 15+ substitute service, and non-service records that support publication.',
+    'ai-key-facts': 'Licensed private server affidavits must list county, name, date, place, and method under 12 O.S. § 2004(G)(2); Substitute service may go to anyone 15 or older residing at the address; Non-service affidavits prove due diligence before alternative service; CLEET requires at least three years of attempt records; False affidavit statements can trigger perjury liability under 21 O.S. § 500',
   },
 };
 
@@ -107,7 +109,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Document Service Attempts: Affidavit Best Practices"
-        pageDescription="Learn how Oklahoma process servers document service attempts beyond the statutory minimum. Discover best practices for affidavits that hold up in court."
+        pageDescription="Oklahoma service affidavits need five fields; GPS, photos, and notes defend challenges—15+ substitute rules, non-service diligence, and CLEET retention."
         pageUrl="https://justlegalsolutions.org/blog/document-service-attempts-best-practices-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -152,6 +154,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Document Service Attempts: Affidavit Best Practices
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma licensed servers must put <strong>county, name, date, place, and method</strong> on every affidavit under <strong>12 O.S. § 2004(G)(2)</strong>, but that minimum rarely survives a challenge. Add GPS timestamps, photos, and same-day field notes—especially for <strong>15+ substitute service</strong> and detailed <strong>non-service</strong> records before seeking publication.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -172,6 +180,8 @@ export default function BlogPost() {
             Oklahoma process servers build affidavits and supporting records that
             don\'t just meet the law \u2014 they hold up when it matters most.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>
             The Five-Element Trap \u2014 Why Oklahoma\'s Statutory Minimum
@@ -277,7 +287,7 @@ export default function BlogPost() {
             O.S. \u00a7 15-101 et seq.), electronic records including GPS data
             carry the same legal weight as paper documents. That means your
             digital footprint is just as valid as a hand-signed receipt \u2014
-g            often more so, because it\'s harder to fake.{' '}
+            often more so, because it\'s harder to fake.{' '}
             <Link
               href="/blog/gps-proof-service-process-server-accountability-oklahoma"
               className="text-blue-600 hover:underline"
@@ -506,7 +516,7 @@ g            often more so, because it\'s harder to fake.{' '}
             week. In each case, your documentation needs to show how you
             confirmed residency. Did the person state they live there? Was mail
             addressed to them visible? Did you see personal effects \u2014
-g            clothing, toiletries, a bedroom setup \u2014 that indicate
+            clothing, toiletries, a bedroom setup \u2014 that indicate
             residence? Did a neighbor confirm they\'ve seen this person coming
             and going regularly?
           </p>
@@ -637,7 +647,7 @@ g            clothing, toiletries, a bedroom setup \u2014 that indicate
             </li>
             <li>
               <strong>Social media and online presence searches</strong> \u2014
-g              documented with screenshots and dates
+              documented with screenshots and dates
             </li>
             <li>
               <strong>Attempts at known workplaces or secondary addresses</strong>{' '}
@@ -645,7 +655,7 @@ g              documented with screenshots and dates
             </li>
             <li>
               <strong>Certified mail attempts and results</strong> \u2014
-g              refused, unclaimed, returned to sender
+              refused, unclaimed, returned to sender
             </li>
             <li>
               <strong>

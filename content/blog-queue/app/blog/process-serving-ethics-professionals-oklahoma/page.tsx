@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-23',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma licensed process servers under 12 O.S. § 158.1 must meet good moral character standards, carry a $5,000 bond, and face license revocation for false affidavits; NAPPS ethics and GPS-backed proof help attorneys avoid sewer service.',
+    'ai-key-facts':
+      '12 O.S. § 158.1 requires good moral character and a $5,000 bond; DA may petition to revoke a server license after notice; NAPPS Code of Ethics exceeds state minimums; Fabricated service (sewer service) can void cases and trigger perjury exposure; Licensed servers are officers of the court with statewide authority',
   },
 };
 
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving Ethics: What Sets Oklahoma Pros Apart
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>Oklahoma licensed servers</strong> under <strong>12 O.S. § 158.1</strong> must show <strong>good moral character</strong>, post a <strong>$5,000 bond</strong>, and face <strong>license revocation</strong> for false affidavits; <strong>NAPPS ethics</strong> and <strong>GPS-backed proof</strong> help attorneys avoid <strong>sewer service</strong> and successful challenges to service.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-23').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -148,7 +160,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            Process serving ethics Oklahoma — it's a phrase that gets thrown around a lot, but what does it actually mean for your case? Picture this: you're an attorney who just received notice that service in your case is being challenged. The opposing party claims they were never served, and the affidavit attached to your return looks questionable. Suddenly, months of legal work are at risk because of a process server's integrity. At Just Legal Solutions, we believe ethical process serving isn't optional — it's the foundation of every case we touch.
+            When service in your Oklahoma case is challenged, the first questions are about the server: Were they licensed? Was the affidavit truthful? Does the proof match GPS and attempt records? Ethical process serving is not a marketing slogan — it is what keeps default judgments, adoption timelines, and federal filings from unraveling because someone cut corners. At Just Legal Solutions, every serve we handle is built around Oklahoma licensing rules, bonded accountability, and documentation that holds up if a judge asks hard questions.
           </p>
 
           <h2>Why Process Serving Ethics Should Matter to Your Case</h2>

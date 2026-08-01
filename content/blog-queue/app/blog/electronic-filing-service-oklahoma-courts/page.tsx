@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Future of Electronic Filing and Service in Oklahoma C...",
-  description: "Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.",
+  description: "Oklahoma eFiling via OSCN is expanding in 2026, but electronic court filing does not satisfy service of process—learn what changes and what stays the same.",
   keywords: 'Oklahoma electronic filing, eFiling Oklahoma courts, electronic court service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'The Future of Electronic Filing and Service in Oklahoma Courts',
-    description: 'Explore Oklahoma\'s digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.',
+    description: 'Oklahoma eFiling via OSCN is expanding in 2026, but electronic court filing does not satisfy service of process—learn what changes and what stays the same.',
     url: 'https://justlegalsolutions.org/blog/electronic-filing-service-oklahoma-courts',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to Oklahoma court e-filing via OSCN—pilot counties electronic, others physical filing. Process serving and e-filing are separate steps; filing a case does not satisfy service of process under 12 O.S. § 2004.',
-    'ai-key-facts': 'OSCN e-filing in pilot counties; service of process still requires authorized delivery method; court filing starts at $25; (539) 367-6832',
-  
-  
+    'ai-summary': 'OSCN powers Oklahoma eFiling for participating courts while 2026 upgrades expand digital tools. Filing online starts the case clock; licensed process servers still deliver summons under Title 12 rules.',
+    'ai-key-facts': 'OSCN eFiling in many Oklahoma district and appellate courts; personal service still required after electronic filing; Tulsa and Oklahoma County lead metro eFiling adoption; 2026 court technology modernization planned',
   },
 };
 
@@ -78,6 +76,18 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           The Future of Electronic Filing and Service in Oklahoma Courts
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Oklahoma courts use OSCN for electronic filing in many district and appellate courts, but{' '}
+            <strong>eFiling does not replace personal service of process</strong> under Oklahoma law.
+            After you file electronically, summons and petitions must still be{' '}
+            <strong>physically served on defendants</strong> before court deadlines run. Metro counties
+            like Tulsa and Oklahoma County strongly encourage eFiling; rural district courts may still
+            require paper.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Oklahoma&apos;s court system is undergoing a significant digital transformation. With over
@@ -389,7 +399,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="The Future of Electronic Filing and Service in Oklahoma Courts"
-        description="Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond."
+        description="Oklahoma eFiling via OSCN is expanding in 2026, but electronic court filing does not satisfy service of process—learn what changes and what stays the same."
         url="https://justlegalsolutions.org/blog/electronic-filing-service-oklahoma-courts"
         articleDetails={{
           headline: 'The Future of Electronic Filing and Service in Oklahoma Courts',

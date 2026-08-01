@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving for Oklahoma Nonprofits: Complete Guide',
-  description: 'Learn how process serving works for Oklahoma nonprofits and advocacy groups — from registered agent rules to government defendants in civil rights litigation.',
+  description: 'Oklahoma nonprofits get sued via registered agents; when filing suit, use licensed servers under 12 O.S. § 158.1—not volunteers—for compliant statewide service.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Process Serving for Oklahoma Nonprofits: Complete Guide',
-    description: 'Learn how process serving works for Oklahoma nonprofits and advocacy groups — from registered agent rules to government defendants in civil rights litigation.',
+    description: 'Oklahoma nonprofits get sued via registered agents; when filing suit, use licensed servers under 12 O.S. § 158.1—not volunteers—for compliant statewide service.',
     url: 'https://justlegalsolutions.org/blog/process-serving-non-profits-advocacy-organizations-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-21',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma nonprofits receive lawsuits through registered agents and must respond within 20 days; parties cannot self-serve and should use licensed process servers under 12 O.S. § 158.1 when filing advocacy or civil-rights litigation.',
+    'ai-key-facts':
+      'Nonprofit corporations are served on registered agents listed with the Oklahoma Secretary of State; Plaintiffs cannot serve process themselves—only sheriffs or licensed servers under 12 O.S. § 158.1; Missing registered agents allow SOS service under 12 O.S. § 2004(C)(4) with a 40-day response window; Government defendants in advocacy cases require service on statutory designees under § 2004(C)(5)',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Serving for Oklahoma Nonprofits: Complete Guide"
-        pageDescription="Learn how process serving works for Oklahoma nonprofits and advocacy groups — from registered agent rules to government defendants in civil rights litigation."
+        pageDescription="Oklahoma nonprofits get sued via registered agents; when filing suit, use licensed servers under 12 O.S. § 158.1—not volunteers—for compliant statewide service."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-non-profits-advocacy-organizations-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving for Oklahoma Nonprofits: Complete Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Lawsuits hit Oklahoma nonprofits at their <strong>registered agent</strong>—respond within{' '}
+              <strong>20 days</strong>. When your organization sues slumlords or agencies, hire a{' '}
+              <strong>licensed server under 12 O.S. § 158.1</strong>; staff and volunteers cannot serve
+              process. Keep SOS agent info current to avoid service through the Secretary of State.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-21').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

@@ -8,8 +8,9 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "Understanding Proof of Service: Why Your Case Depends On It",
-  description: "Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case. Serving all 77 Oklahoma coun",
+  title: 'Understanding Proof of Service: Why Your Case Depends On It',
+  description:
+    'What Oklahoma proof of service must include, how affidavits and returns differ, and why GPS-backed documentation under 12 O.S. § 2004 protects your case.',
   keywords: 'proof of service, affidavit of service Oklahoma, what is proof of service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Understanding Proof of Service: Why Your Case Depends On It',
-    description: 'Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case.',
+    description:
+      'What Oklahoma proof of service must include, how affidavits and returns differ, and why GPS-backed documentation under 12 O.S. § 2004 protects your case.',
     url: 'https://justlegalsolutions.org/blog/understanding-proof-of-service-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case. Serving all 77 Oklahoma coun Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma proof of service confirms proper delivery under 12 O.S. § 2004—required fields on affidavits and returns, GPS verification, and filing steps before your case can proceed.',
+    'ai-key-facts':
+      'Affidavit of service is sworn by the process server; Return of service becomes part of the court file; Missing captions or dates invite motions to quash; GPS and photos strengthen substituted service; Digital affidavits accepted when courts allow e-filing',
   },
 };
 
@@ -73,10 +75,20 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Understanding Proof of Service</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Understanding Proof of Service: Why Your Case Depends On It</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Proof of service</strong> is the sworn record that shows who received court papers, when, where, and
+            how—usually an affidavit or return under <strong>12 O.S. § 2004(G)</strong>. Without it, Oklahoma courts
+            may lack jurisdiction and your case can stall or be dismissed.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           Every legal case in Oklahoma hinges on one foundational requirement: proof that the opposing party was properly notified. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team has seen firsthand how a well-documented proof of service can secure a case, and how a flawed one can unravel months of preparation. This guide explains what proof of service is, what it must include, and how to ensure yours holds up in any Oklahoma courtroom.
         </p>
-        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: What Proof of Service Is */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -158,7 +170,8 @@ export default function BlogPost() {
             Even experienced attorneys can make mistakes with proof of service. The most common errors include incomplete case captions that do not match the court file; serving the wrong person without noting a physical description; failing to record the precise date and time; using an invalid service method not authorized by Oklahoma law; missing or illegible server signatures; and filing the proof of service past the deadline. Any one of these errors can give the opposing party grounds to file a motion to quash service, which will delay your case and may require you to start the service process all over again.
           </p>
           <p className="mb-4">
-            Working with a licensed, bonded process server virtually eliminates these risks. Our team reviews every proof of service for accuracy and completeness before it is filed, ensuring that your case can proceed without procedural hiccups. View our pricing page to learn more about the value of professional service.
+            Working with a licensed, bonded process server virtually eliminates these risks. Our team reviews every proof of service for accuracy and completeness before it is filed, ensuring that your case can proceed without procedural hiccups.{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">View our pricing page</Link> to learn more about the value of professional service.
           </p>
         </section>
 
@@ -224,7 +237,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Understanding Proof of Service: Why Your Case Depends On It"
-        description="Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case."
+        description="What Oklahoma proof of service must include, how affidavits and returns differ, and why GPS-backed documentation under 12 O.S. § 2004 protects your case."
         url="https://justlegalsolutions.org/blog/understanding-proof-of-service-oklahoma"
         articleDetails={{
           headline: 'Understanding Proof of Service: Why Your Case Depends On It',

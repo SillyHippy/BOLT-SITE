@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serve Subpoenas on Social Media & Tech in Oklahoma',
-  description: 'Learn how Oklahoma attorneys serve subpoenas on Meta, Google, X, TikTok & Apple. Master UIDDA domestication, the Stored Communications Act, and registered agent service.',
+  description:
+    'Oklahoma civil subpoenas to Meta, Google, X, TikTok & Apple: UIDDA under 12 O.S. §§ 3250, SCA content limits, and registered-agent service—not corporate campuses.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Serve Subpoenas on Social Media & Tech in Oklahoma',
-    description: 'Learn how Oklahoma attorneys serve subpoenas on Meta, Google, X, TikTok & Apple. Master UIDDA domestication, the Stored Communications Act, and registered agent service.',
+    description:
+      'Oklahoma civil subpoenas to Meta, Google, X, TikTok & Apple: UIDDA under 12 O.S. §§ 3250, SCA content limits, and registered-agent service—not corporate campuses.',
     url: 'https://justlegalsolutions.org/blog/serving-subpoenas-social-media-companies-tech-platforms-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-06',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Civil litigants must domesticate Oklahoma subpoenas under the UIDDA (12 O.S. §§ 3250 et seq.), serve California registered agents—not tech campuses—and cannot obtain private social content from platforms because the Stored Communications Act limits civil disclosure to subscriber metadata.',
+    'ai-key-facts':
+      'Serve Meta at CT Corporation in Los Angeles, not Menlo Park; SCA blocks platform disclosure of private messages in civil cases—subpoena the user or their data archive; UIDDA clerk issuance in Oklahoma does not equal enforceable California service without a CA-licensed server; Name the correct entity (Meta Platforms, Inc., Instagram LLC, etc.); Civil platform responses often take 30–90 days',
   },
 };
 
@@ -136,6 +142,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serve Subpoenas on Social Media & Tech in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              <strong>Civil subpoenas</strong> to <strong>Meta, Google, or Apple</strong> go to{' '}
+              <strong>California registered agents</strong>, not campuses; the{' '}
+              <strong>Stored Communications Act</strong> blocks <strong>private message content</strong>
+              —domesticate first under <strong>UIDDA (12 O.S. §§ 3250)</strong>, then use a{' '}
+              <strong>California-licensed server</strong> for valid service.
+            </p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-06').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +167,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             So you need Facebook messages for your civil case in Tulsa County. Or maybe it's location data from Google, posts from X, or videos from TikTok. Whatever the platform, serving subpoenas on social media companies and tech giants is nothing like serving a local business — and if you approach it the same way, you're going to waste time, money, and months of case progress. At Just Legal Solutions, we've guided Oklahoma attorneys through this maze more times than we can count. Here's everything you need to know about doing it right the first time.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Serving a Tech Company Is Nothing Like Serving a Local Business</h2>
 
@@ -273,7 +292,7 @@ export default function BlogPost() {
 
           <h3>Mistake #3 — Attempting to Subpoena Private Content the SCA Prohibits</h3>
 
-          <p>Do not waste time and money trying to get private messages or photos directly from platforms in civil cases. The SCA bars platforms from producing this content — they will reject your request, period. Instead, plan your discovery strategy around subpoenaing the user directly and requesting their data archive. This is the only reliable path to social media content in civil litigation, and understanding it upfront will save you months of frustration. For more on professional process serving that anticipates these kinds of challenges, see our thoughts on <Link href="/blog/process-servers-handle-emotionally-charged-situations-oklahoma" className="text-blue-600 hover:underline">how process servers handle complex situations</Link>.</p>
+          <p>Do not waste time and money trying to get private messages or photos directly from platforms in civil cases. The SCA bars platforms from producing this content — they will reject your request, period. Instead, plan your discovery strategy around subpoenaing the user directly and requesting their data archive. This is the only reliable path to social media content in civil litigation, and understanding it upfront will save you months of frustration. For Oklahoma subpoena basics before you cross state lines, see <Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">how to serve a subpoena in Oklahoma</Link>.</p>
 
           <h3>Mistake #4 — Failing to Domesticate in the Correct State</h3>
 

@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma',
-  description: 'GPS tracking is transforming process serving in Oklahoma. Learn how it strengthens court proof, improves accountability, and protects servers under state law.',
+  description:
+    'GPS bolsters Oklahoma proof of service under 12A O.S. § 15-101 with timestamps and coordinates—licensed servers log their location only, never defendants.',
   keywords: 'legal technology Oklahoma, process serving technology, law firm tech, digital legal services, Oklahoma legal innovation',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma',
-    description: 'GPS tracking is transforming process serving in Oklahoma. Learn how it strengthens court proof, improves accountability, and protects servers under state law.',
+    description:
+      'GPS bolsters Oklahoma proof of service under 12A O.S. § 15-101 with timestamps and coordinates—licensed servers log their location only, never defendants.',
     url: 'https://justlegalsolutions.org/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'GPS metadata for Oklahoma process servers under 12A O.S. § 15-101—court-admissible timestamps and coordinates, HB 3260 limits on tracking defendants, anti-spoofing platforms, and field safety under HB 1162.',
+    'ai-key-facts':
+      'GPS is not required but strengthens contested service under the Oklahoma Uniform Electronic Transactions Act; Five metadata elements: timestamp, coordinates, accuracy radius, device ID, and map pin; HB 3260 criminalizes tracking a person’s location without consent—servers may only log their own position; Licensed servers under 12 O.S. § 158.1 retain credibility with bonded affidavits; GPS logs support due-diligence records for the 180-day service window under 12 O.S. § 2004(I)',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma"
-        pageDescription="GPS tracking is transforming process serving in Oklahoma. Learn how it strengthens court proof, improves accountability, and protects servers under state law."
+        pageDescription="GPS bolsters Oklahoma proof of service under 12A O.S. § 15-101 with timestamps and coordinates—licensed servers log their location only, never defendants."
         pageUrl="https://justlegalsolutions.org/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma does not require GPS for proof of service, but timestamped coordinates, photos, and e-affidavits under <strong>12A O.S. § 15-101</strong> strengthen contested cases. Servers may document <strong>their own location</strong> during attempts only—tracking a defendant without consent violates <strong>HB 3260</strong>.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             When you order a pizza or call a rideshare, you expect to see exactly where your driver is in real time. So why should process serving — where constitutional rights hang in the balance — still rely on handwritten notes and a server&apos;s memory? GPS tracking is transforming how Oklahoma process servers document service attempts, prove their work in court, and stay safe in the field. Here&apos;s what every attorney, paralegal, and legal professional needs to know about this technology shift.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why GPS Tracking Matters for Process Servers in 2026</h2>
 

@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Apostille Services: Authenticate Documents for I...",
-  description: "Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements.",
+  description:
+    'Oklahoma apostille services authenticate Secretary of State and notarized documents for Hague countries—timelines, eligible records, and filing steps explained.',
   keywords:
     'Oklahoma apostille, document authentication Oklahoma, apostille services Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Apostille Services: Authenticate Documents for International Use',
     description:
-      'Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements.',
+      'Oklahoma apostille services authenticate Secretary of State and notarized documents for Hague countries—timelines, eligible records, and filing steps explained.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-apostille-services-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -41,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements. Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Oklahoma apostilles attach a Secretary of State certificate to qualifying public documents and Oklahoma-notarized papers so Hague Convention countries accept them for citizenship, business, marriage, education, and property matters abroad.',
+    'ai-key-facts':
+      'Issued by the Oklahoma Secretary of State for Hague member countries; Covers court records, vital records, and Oklahoma-notarized documents; Federal documents require U.S. Department of State authentication; Typical processing ranges from 1–2 days in person to 5–10 days by mail',
   },
 };
 
@@ -104,6 +105,16 @@ export default function BlogPost() {
           Oklahoma Apostille Services: Authenticate Documents for International
           Use
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            An <strong>Oklahoma apostille</strong> from the <strong>Secretary of State</strong> authenticates
+            qualifying <strong>public and notarized documents</strong> for <strong>Hague Convention</strong>{' '}
+            countries; confirm the record type, use an <strong>Oklahoma-commissioned notary</strong>, and allow{' '}
+            <strong>1–10 business days</strong> depending on submission method.
+          </p>
+        </div>
 
         {/* Opening Expertise Signal */}
         <p className="text-gray-600 mb-8 text-lg">
@@ -622,7 +633,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Apostille Services: Authenticate Documents for International Use"
-        description="Learn how Oklahoma apostille services authenticate documents for international use. Covers the Secretary of State process, timeline, and requirements."
+        description="Oklahoma apostille services authenticate Secretary of State and notarized documents for Hague countries—timelines, eligible records, and filing steps explained."
         url="https://justlegalsolutions.org/blog/oklahoma-apostille-services-guide"
         articleDetails={{
           headline: 'Oklahoma Apostille Services: Authenticate Documents for International Use',

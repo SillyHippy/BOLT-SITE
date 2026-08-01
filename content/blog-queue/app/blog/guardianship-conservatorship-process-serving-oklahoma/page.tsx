@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Guardianship & Conservatorship Process Serving Oklahoma',
-  description: 'Learn Oklahoma guardianship process serving rules: 4 notice timelines, who can serve the ward, facility service challenges, and ongoing post-appointment obligations.',
+  description:
+    'Guardianship notice in Oklahoma is non-waivable: licensed personal ward service, four statutory timelines, and mail to all interested parties under Title 30.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Guardianship & Conservatorship Process Serving Oklahoma',
-    description: 'Learn Oklahoma guardianship process serving rules: 4 notice timelines, who can serve the ward, facility service challenges, and ongoing post-appointment obligations.',
+    description:
+      'Guardianship notice in Oklahoma is non-waivable: licensed personal ward service, four statutory timelines, and mail to all interested parties under Title 30.',
     url: 'https://justlegalsolutions.org/blog/guardianship-conservatorship-process-serving-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-23',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma guardianship and conservatorship notice under Title 30—non-waivable ward service, authorized servers, four notice timelines, 11 mail categories, facility service, and post-appointment obligations.',
+    'ai-key-facts':
+      '30 O.S. §3-106(B) makes ward notice non-waivable; Only the petitioner's attorney, sheriff, or licensed process server may personally serve the ward under ? 3-110; General guardianship requires 10-day personal service plus mail to interested parties; Conservatorship requires 5-day personal service under ? 3-211; Special guardianship may require 72-hour notice under ? 3-115; Annual reports under ? 4-307 restart mail notice every year',
   },
 };
 
@@ -101,7 +107,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Guardianship & Conservatorship Process Serving Oklahoma"
-        pageDescription="Learn Oklahoma guardianship process serving rules: 4 notice timelines, who can serve the ward, facility service challenges, and ongoing post-appointment obligations."
+        pageDescription="Guardianship notice in Oklahoma is non-waivable: licensed personal ward service, four statutory timelines, and mail to all interested parties under Title 30."
         pageUrl="https://justlegalsolutions.org/blog/guardianship-conservatorship-process-serving-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +152,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Guardianship & Conservatorship Process Serving Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>30 O.S. §3-106(B)</strong>, ward notice cannot be waived—only the petitioner&apos;s attorney, sheriff, or licensed process server may personally deliver papers with the petition attached. Timelines include <strong>10 days</strong> (general guardianship), <strong>5 days</strong> (conservatorship), <strong>72 hours</strong> (special), and <strong>48 hours</strong> (protective services).
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-23').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>
@@ -160,6 +172,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Guardianship process serving in Oklahoma is unlike any other civil proceeding. Service of process here does not work like a standard lawsuit. The rules are stricter, the timelines are unique, and the stakes are higher because a guardianship strips an adult of fundamental rights. A defective service can derail an entire proceeding and leave a vulnerable person without protection. Understanding the specialized requirements of guardianship and conservatorship process serving is essential for every Oklahoma practitioner.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Why Guardianship Process Serving Demands Specialized Expertise</h2>
 

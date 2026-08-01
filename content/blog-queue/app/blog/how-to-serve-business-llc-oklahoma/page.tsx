@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "How to Serve a Business or LLC in Oklahoma: Corporate Guide",
-  description: "Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements. Serving all 77 Oklahoma count",
+  description: 'How to serve Oklahoma LLCs and corporations: verify SOS registered agents, Secretary of State statutory service, proof requirements, and the 180-day rule.',
   keywords:
     'serve a corporation Oklahoma, how to serve a business, LLC service of process Oklahoma, registered agent service',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',
     description:
-      'Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements.',
+      'How to serve Oklahoma LLCs and corporations: verify SOS registered agents, Secretary of State statutory service, proof requirements, and the 180-day rule.',
     url: 'https://justlegalsolutions.org/blog/how-to-serve-business-llc-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,10 +42,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements. Serving all 77 Oklahoma count Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary': 'Oklahoma corporate service under Title 12 requires delivery to the Secretary of State–listed registered agent at the registered office; if the agent is missing, serve the Secretary of State—random employees are not valid recipients and affidavits must document authority.',
+    'ai-key-facts': 'Verify registered agent and office via sos.ok.gov before every attempt; Service on the Secretary of State applies when no agent is maintained or cannot be found after diligence; Personal delivery to the authorized agent is preferred over substituted or certified mail; Return of service must be filed within Oklahoma\'s 180-day deadline after petition filing',
   },
 };
 
@@ -103,6 +101,15 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           How to Serve a Business or LLC in Oklahoma: Corporate Guide
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Serve Oklahoma <strong>LLCs and corporations</strong> on their <strong>SOS registered agent</strong> at the registered
+            office— not receptionists. If the agent is gone, use <strong>Secretary of State</strong> statutory service, file a
+            complete <strong>Return of Service</strong>, and finish within the <strong>180-day</strong> Title 12 deadline.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Serving legal papers on a business entity in Oklahoma is not as
@@ -566,7 +573,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="How to Serve a Business or LLC in Oklahoma: Corporate Guide"
-        description="Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements."
+        description="How to serve Oklahoma LLCs and corporations: verify SOS registered agents, Secretary of State statutory service, proof requirements, and the 180-day rule."
         url="https://justlegalsolutions.org/blog/how-to-serve-business-llc-oklahoma"
         articleDetails={{
           headline: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',

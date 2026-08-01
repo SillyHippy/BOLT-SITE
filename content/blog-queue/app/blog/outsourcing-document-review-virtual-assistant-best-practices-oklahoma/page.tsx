@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Outsource Document Review to Virtual Assistants | Oklahoma',
-  description: 'Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies.',
+  description: 'Oklahoma firms may delegate first-pass document coding and Bates prep to supervised VAs—not privilege calls—under 12 O.S. § 2502 and ORPC Rule 5.3 oversight.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Outsource Document Review to Virtual Assistants | Oklahoma',
-    description: 'Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies.',
+    description: 'Oklahoma firms may delegate first-pass document coding and Bates prep to supervised VAs—not privilege calls—under 12 O.S. § 2502 and ORPC Rule 5.3 oversight.',
     url: 'https://justlegalsolutions.org/blog/outsourcing-document-review-virtual-assistant-best-practices-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-26',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma attorneys may outsource first-pass discovery coding, Bates numbering, and privilege flagging to supervised VAs while retaining all legal-judgment calls under 12 O.S. § 2502 and ORPC Rule 5.3.',
+    'ai-key-facts':
+      'Green-light tasks include coding, indexing, and draft privilege logs—not final privilege determinations; 12 O.S. § 2502(E) inadvertent disclosure safe harbor requires documented prevention protocols; Oklahoma kept the pre-2015 reasonably calculated discovery proportionality language; Multi-tier VA review with attorney spot-checks can cut review costs 30–40%; Client disclosure in engagement letters is best practice before sharing files with VAs',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Outsource Document Review to Virtual Assistants | Oklahoma"
-        pageDescription="Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies."
+        pageDescription="Oklahoma firms may delegate first-pass document coding and Bates prep to supervised VAs—not privilege calls—under 12 O.S. § 2502 and ORPC Rule 5.3 oversight."
         pageUrl="https://justlegalsolutions.org/blog/outsourcing-document-review-virtual-assistant-best-practices-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Outsource Document Review to Virtual Assistants | Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Delegate <strong>first-pass coding, Bates numbers, indexes, and privilege flags</strong> to a supervised VA; keep <strong>final privilege and responsiveness calls</strong> with the attorney under <strong>ORPC Rule 5.3</strong> and protect clients via <strong>12 O.S. § 2502</strong> agreements and documented QC.
+            </p>
+          
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-26').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Document review is eating your billable hours. If you are a solo practitioner in Tulsa or a small firm partner in Oklahoma City, you have probably stared at a mountain of discovery documents and wondered how you will get through them while still serving your clients. The good news? You do not have to do it all yourself. Virtual assistants can handle significant portions of document review — but only if you set up the delegation framework correctly. This guide walks you through everything you need to know about outsourcing document review to virtual assistants under Oklahoma law, from what you can safely delegate to the specific statutes that protect your practice.
           </p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Law Firms Are Outsourcing Document Review Now</h2>
 

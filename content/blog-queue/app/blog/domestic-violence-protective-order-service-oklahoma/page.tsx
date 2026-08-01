@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serving Protective Orders in Oklahoma DV Cases',
-  description: 'Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements.',
+  description: 'Oklahoma VPO service is personal with 24-hour priority under 22 O.S. § 60.4—sheriffs, licensed servers, safety, ACP privacy, renewal, and enforceability.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Serving Protective Orders in Oklahoma DV Cases',
-    description: 'Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements.',
+    description: 'Oklahoma VPO service is personal with 24-hour priority under 22 O.S. § 60.4—sheriffs, licensed servers, safety, ACP privacy, renewal, and enforceability.',
     url: 'https://justlegalsolutions.org/blog/domestic-violence-protective-order-service-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': '22 O.S. § 60.4 treats emergency VPO service like a bench warrant—24-hour priority, personal delivery only, sheriff delegation to licensed servers, and no enforcement until service completes.',
+    'ai-key-facts': 'Initial VPO service attempt should occur within 24 hours when location is known; Service is personal only—no mail and petitioners cannot serve respondents; Sheriffs may assign licensed process servers under 22 O.S. § 60.4(A)(2); Orders are not enforceable until the respondent receives personal service; Failed service triggers renewed emergency orders every 14 days, not automatic dismissal',
   },
 };
 
@@ -101,7 +103,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Serving Protective Orders in Oklahoma DV Cases"
-        pageDescription="Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements."
+        pageDescription="Oklahoma VPO service is personal with 24-hour priority under 22 O.S. § 60.4—sheriffs, licensed servers, safety, ACP privacy, renewal, and enforceability."
         pageUrl="https://justlegalsolutions.org/blog/domestic-violence-protective-order-service-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +148,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serving Protective Orders in Oklahoma DV Cases
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>22 O.S. § 60.4</strong>, emergency protective orders must be <strong>personally hand-delivered</strong> like a bench warrant, with <strong>priority service within 24 hours</strong> when the respondent&apos;s location is known. Sheriffs lead service but may use licensed process servers; the order is not <strong>enforceable</strong> until personal service is complete.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Rush Court Filing in Oklahoma: Emergency Delivery Guide',
-  description: 'When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma',
+  description: 'Rush Oklahoma legal couriers beat 4 PM clerk cutoffs, OSCN after-hours traps, and civil vs criminal day rules—with GPS proof when filing must count today.',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Rush Court Filing in Oklahoma: Emergency Delivery Guide',
-    description: 'When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma',
+    description: 'Rush Oklahoma legal couriers beat 4 PM clerk cutoffs, OSCN after-hours traps, and civil vs criminal day rules—with GPS proof when filing must count today.',
     url: 'https://justlegalsolutions.org/blog/rush-document-delivery-emergency-filing-court-deadlines-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-11',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma filing crises turn on 12 O.S. § 2006 full business days (4 PM clerk rule), OSCN deeming after-hours uploads the next business day, federal CM/ECF midnight timing, and criminal calendar-day counting—rush couriers provide physical filing and GPS-stamped clerk receipts when e-filing cannot save the date.',
+    'ai-key-facts':
+      'Most Oklahoma clerk offices close between 4:00 and 4:30 PM; OSCN after-hours submissions count as filed the next business day; Federal CM/ECF generally accepts filings until midnight Central on the due date; Criminal appeals deadlines count weekends—civil § 2006 often excludes them; Rush tiers include same-day, two-hour emergency, and weekend physical filing at clerk windows',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Rush Court Filing in Oklahoma: Emergency Delivery Guide"
-        pageDescription="When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma"
+        pageDescription="Rush Oklahoma legal couriers beat 4 PM clerk cutoffs, OSCN after-hours traps, and civil vs criminal day rules—with GPS proof when filing must count today."
         pageUrl="https://justlegalsolutions.org/blog/rush-document-delivery-emergency-filing-court-deadlines-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,13 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Rush Court Filing in Oklahoma: Emergency Delivery Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              When an Oklahoma <strong>filing deadline</strong> is today, a <strong>rush legal courier</strong> beats the <strong>4 PM full business day</strong> clerk rule (12 O.S. § 2006), the <strong>OSCN after-hours</strong> next-day trap, and tight <strong>criminal calendar-day</strong> counts—delivering file-stamped copies and GPS proof if e-filing will not count in time.
+            </p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-11').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +161,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             It is 3:47 PM on a Friday. Your motion is due today. You just discovered a formatting error in the final exhibit. The courthouse closes in forty-three minutes. You are not going to make it — unless you have a backup plan. Every Oklahoma attorney has been there, or will be. The difference between a career-damaging mistake and a story you tell at bar events is knowing the rules that govern your deadlines and having a rush courier who can operate inside them.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Missed Deadlines Are the #1 Risk Every Oklahoma Attorney Faces</h2>
           <p>Missed court deadlines are the single largest source of legal malpractice claims in the United States. According to industry data, roughly 40 percent of legal malpractice cases stem from calendar-related failures — missed statutes of limitations, blown filing deadlines, discovery cutoff oversights, and simple clerical errors that cascade into catastrophic consequences. A single missed deadline in Georgia resulted in $530,000 in damages. One filing. One afternoon. Over half a million dollars.</p>

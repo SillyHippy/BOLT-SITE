@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Notary Journal Requirements: Best Practices Guide',
-  description: 'Learn Oklahoma notary journal requirements, including RON electronic journals, absentee ballot logs, HB 2265 changes, and best practices for every notarial act.',
+  description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and HB 2265 explained.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Notary Journal Requirements: Best Practices Guide',
-    description: 'Learn Oklahoma notary journal requirements, including RON electronic journals, absentee ballot logs, HB 2265 changes, and best practices for every notarial act.',
+    description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and HB 2265 explained.',
     url: 'https://justlegalsolutions.org/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma does not mandate journals for traditional in-person notarizations, but RON and absentee ballot logs are required—with 10-year RON retention and separate election logs; HB 2265 would broaden mandatory journaling.',
+    'ai-key-facts': 'Paper in-person journals are recommended by the SOS but not required by statute; RON requires tamper-evident electronic journals under 49 O.S. § 206; Absentee ballot notaries must keep a dedicated log for two years under 26 O.S. § 14-108.1; RON journals and A/V recordings require 10-year retention under 49 O.S. § 207',
   },
 };
 
@@ -91,7 +93,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Notary Journal Requirements: Best Practices Guide"
-        pageDescription="Learn Oklahoma notary journal requirements, including RON electronic journals, absentee ballot logs, HB 2265 changes, and best practices for every notarial act."
+        pageDescription="Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and HB 2265 explained."
         pageUrl="https://justlegalsolutions.org/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +138,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Notary Journal Requirements: Best Practices Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma does not require a journal for most in-person notarizations, but{' '}
+              <strong>RON</strong> and <strong>absentee ballot affidavits</strong> do mandate logs with strict
+              retention. Best practice: keep a bound or tamper-evident journal anyway—and prepare for{' '}
+              <strong>HB 2265</strong> mandatory journaling.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

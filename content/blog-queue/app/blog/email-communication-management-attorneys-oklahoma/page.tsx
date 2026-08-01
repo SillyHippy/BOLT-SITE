@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Email Management for Oklahoma Attorneys: A Complete Guide',
-  description: 'Discover how Oklahoma attorneys can reclaim billable hours with smart email management. Learn VA delegation strategies that comply with ORPC ethics rules.',
+  description:
+    'Oklahoma attorneys may delegate inbox work to supervised VAs under ORPC 1.4, 1.6, and 5.3—recovering billable time with confidentiality safeguards in place.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Email Management for Oklahoma Attorneys: A Complete Guide',
-    description: 'Discover how Oklahoma attorneys can reclaim billable hours with smart email management. Learn VA delegation strategies that comply with ORPC ethics rules.',
+    description:
+      'Oklahoma attorneys may delegate inbox work to supervised VAs under ORPC 1.4, 1.6, and 5.3—recovering billable time with confidentiality safeguards in place.',
     url: 'https://justlegalsolutions.org/blog/email-communication-management-attorneys-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'How Oklahoma attorneys delegate email under ORPC 1.4, 1.6, and 5.3—permitted VA tasks, security safeguards, encryption under ABA Formal Opinion 477R, and ROI from reclaimed billable hours.',
+    'ai-key-facts':
+      'Attorneys average 80–120 emails daily with only about 38% needing substantive replies; ORPC Rule 1.4(a)(4) requires prompt client communication and staff may acknowledge receipt; Rule 1.6 and 12 O.S. § 2502 protect VA-handled privileged mail when safeguards exist; VAs may triage and draft routine replies but cannot give legal advice; Delegating email can recover 2–4 billable hours per day',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Email Management for Oklahoma Attorneys: A Complete Guide"
-        pageDescription="Discover how Oklahoma attorneys can reclaim billable hours with smart email management. Learn VA delegation strategies that comply with ORPC ethics rules."
+        pageDescription="Oklahoma attorneys may delegate inbox work to supervised VAs under ORPC 1.4, 1.6, and 5.3—recovering billable time with confidentiality safeguards in place."
         pageUrl="https://justlegalsolutions.org/blog/email-communication-management-attorneys-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,13 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Email Management for Oklahoma Attorneys: A Complete Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>ORPC Rules 1.4, 1.6, and 5.3</strong>, Oklahoma attorneys may delegate email triage and routine replies to a supervised virtual assistant when confidentiality safeguards are in place. VAs cannot give legal advice or send client-facing legal opinions without attorney review, but proper delegation can recover{' '}
+              <strong>2–4 billable hours per day</strong> while meeting prompt-communication duties.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -150,6 +163,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Picture this: It is 10 PM on a Tuesday, and you are still clearing your inbox instead of preparing for tomorrow&apos;s hearing in Creek County. You have answered 73 emails today, but your billable hours log shows a meager 2.4. Somewhere between the client status requests, court notices, and spam, your actual legal work got buried. If this scenario feels uncomfortably familiar, you are not alone — and there is a better way forward.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Email Crisis Facing Oklahoma Attorneys</h2>
 

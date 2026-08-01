@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma",
-  description: "Step-by-step guide to serving legal papers in Oklahoma. Learn the 6 essential steps including the 180-day rule and proof of service. Serving all 77 Oklahoma cou",
+  description: 'Six steps to serve legal papers in Oklahoma: prepare filed docs, choose a licensed server, pick a method, deliver under Title 12, file proof by day 180.',
   keywords: 'how to serve legal papers, how to serve court papers Oklahoma, service of process steps, personal service Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma',
-    description: 'Step-by-step guide to serving legal papers in Oklahoma. Learn the 6 essential steps including the 180-day rule and proof of service.',
+    description: 'Six steps to serve legal papers in Oklahoma: prepare filed docs, choose a licensed server, pick a method, deliver under Title 12, file proof by day 180.',
     url: 'https://justlegalsolutions.org/blog/how-to-serve-legal-papers-oklahoma-step-by-step',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Step-by-step guide to serving legal papers in Oklahoma. Learn the 6 essential steps including the 180-day rule and proof of service. Serving all 77 Oklahoma cou Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary': 'Oklahoma service of process follows six steps—prepare court-stamped papers, assign a licensed or sheriff server, choose personal substituted mail or publication methods, execute delivery under 12 O.S. §2004, and file a GPS-backed affidavit before the 180-day limit.',
+    'ai-key-facts': 'Sheriff service is available but private licensed servers under 12 O.S. §158.1 often move faster; Personal service is the strongest default method when reachable; Substituted service at the dwelling is permitted only where Title 12 allows after diligent attempts; Service must generally be completed within 180 days of filing under 12 O.S. §2004(I)',
   },
 };
 
@@ -73,6 +71,17 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>How to Serve Legal Papers in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Oklahoma service follows <strong>six steps</strong>: prepare <strong>court-stamped</strong> papers, hire a{' '}
+            <strong>licensed server or sheriff</strong>, choose personal substituted mail or publication under{' '}
+            <strong>12 O.S. §2004</strong>, execute delivery, then file a sworn <strong>proof of service</strong> before the{' '}
+            <strong>180-day</strong> deadline.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">Serving legal papers is a critical step in any court case, and doing it correctly ensures your case can proceed without delays. At Just Legal Solutions, our team brings over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties. In this guide, we will walk you through the six essential steps to serving legal papers in Oklahoma, including the critical 180-day deadline under 12 O.S. 2004 and the documentation you need to move your case forward.</p>
         <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
@@ -185,7 +194,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma"
-        description="Step-by-step guide to serving legal papers in Oklahoma. Learn the 6 essential steps including the 180-day rule and proof of service."
+        description="Six steps to serve legal papers in Oklahoma: prepare filed docs, choose a licensed server, pick a method, deliver under Title 12, file proof by day 180."
         url="https://justlegalsolutions.org/blog/how-to-serve-legal-papers-oklahoma-step-by-step"
         articleDetails={{
           headline: 'How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma',

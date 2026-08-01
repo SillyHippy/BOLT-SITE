@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving in Juvenile Court: Oklahoma Guide',
-  description: 'Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases.',
+  description: 'Oklahoma juvenile service under 10A O.S.: confidential records, dual parent-and-child notice, 48-hour hearing delays, and discreet proof-of-service affidavits.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Process Serving in Juvenile Court: Oklahoma Guide',
-    description: 'Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases.',
+    description: 'Oklahoma juvenile service under 10A O.S.: confidential records, dual parent-and-child notice, 48-hour hearing delays, and discreet proof-of-service affidavits.',
     url: 'https://justlegalsolutions.org/blog/process-serving-juvenile-court-confidentiality-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-19',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Juvenile records under 10A O.S. are confidential; servers must dual-serve parents and children 12+, wait 48 hours before hearings, and file minimal proof-of-service affidavits without case details.',
+    'ai-key-facts':
+      '10A O.S. § 1-6-102 and § 2-6-102 make juvenile records confidential without a court order; Deprived-child summons must warn parents under § 1-4-303 that failure to appear risks custody loss; Hearings wait at least 48 hours after personal service under § 1-4-304; Subpoenas alone cannot compel juvenile records under § 2-6-102(F)',
   },
 };
 
@@ -101,7 +105,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Serving in Juvenile Court: Oklahoma Guide"
-        pageDescription="Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases."
+        pageDescription="Oklahoma juvenile service under 10A O.S.: confidential records, dual parent-and-child notice, 48-hour hearing delays, and discreet proof-of-service affidavits."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-juvenile-court-confidentiality-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +150,18 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving in Juvenile Court: Oklahoma Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Treat every juvenile case as <strong>confidential under 10A O.S.</strong>—serve{' '}
+              <strong>parents and children 12+</strong>, use summons with statutory warnings, and know courts
+              wait <strong>48 hours</strong> after personal service before hearings. File{' '}
+              <strong>minimal proof-of-service affidavits</strong> that never expose DHS or case details in
+              the public record.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>

@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma solo practitioners can delegate intake, billing, and admin to virtual assistants under ORPC Rule 5.3—typically cutting support costs 40–60% while reclaiming billable hours without a full-time hire.',
+    'ai-key-facts':
+      '26% of OBA members are solo practitioners; Clio data shows ~3 billable hours per 8-hour day; In-house legal assistants often cost $58,500–$85,800 fully loaded vs $20,000–$40,000 for VAs; ORPC Rules 5.3 and 1.6 require supervision, NDAs, and client disclosure; Integrated VA plus field services cover all 77 Oklahoma counties',
   },
 };
 
@@ -136,6 +140,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistant for Solo Practitioners in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under <strong>ORPC Rule 5.3</strong>, Oklahoma solos can delegate <strong>intake, billing, scheduling, and filing prep</strong> to a virtual assistant with <strong>NDAs, encrypted tools, and documented supervision</strong>—not <strong>legal advice</strong> or <strong>court appearances</strong>—often saving <strong>40–60%</strong> vs a full-time hire.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~13 min read</span>
@@ -204,7 +216,11 @@ export default function BlogPost() {
             Think of it as a simple framework: if the task requires your law license, it stays with you. Everything else — from scheduling to formatting to client communication — is fair game. The Oklahoma Bar Association's 2023 data shows that <strong>14 UPL complaints were filed</strong>, with 29% involving litigation matters. Most involved paralegal document preparation that overstepped into legal judgment. Know the line, document your protocols, and you will stay on the right side of the ethics rules.
           </p>
           <p>
-            Want to learn more about how virtual support fits into your practice? Check out our virtual assistant services for Oklahoma attorneys to see what tasks we can take off your plate.
+            Want to learn more about how virtual support fits into your practice? Explore our{' '}
+            <Link href="/virtual-assistant-services" className="text-blue-600 hover:underline">
+              virtual assistant services for Oklahoma attorneys
+            </Link>{' '}
+            to see what tasks we can take off your plate.
           </p>
 
           <h2>Playing by the Rules — Oklahoma Ethics for Delegating to Virtual Assistants</h2>
@@ -269,7 +285,8 @@ export default function BlogPost() {
             Solo practitioners with dedicated virtual assistants report recovering <strong>500 or more billable hours annually</strong>. Firms that strategically integrate VA services see productivity increases of 30-40%. At $242 per hour, those 500 recovered hours represent over $120,000 in additional annual revenue potential. Even if you only capture half of that, the ROI speaks for itself.
           </p>
           <p>
-            The bottom line: solo firms typically reduce support staff expenses by <strong>40-60%</strong> using virtual assistants. When you factor in eliminated overhead — no extra office, no equipment, no benefits — total savings often reach 50-70%. Curious what virtual assistant support would cost for your practice? Visit our pricing page to explore flexible plans for Oklahoma solo practitioners.
+            The bottom line: solo firms typically reduce support staff expenses by <strong>40-60%</strong> using virtual assistants. When you factor in eliminated overhead — no extra office, no equipment, no benefits — total savings often reach 50-70%. Curious what virtual assistant support would cost for your practice? Visit our{' '}
+            <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to explore flexible plans for Oklahoma solo practitioners.
           </p>
 
           <h2>Your Complete Virtual Back Office — One Oklahoma Partner</h2>
@@ -370,7 +387,20 @@ export default function BlogPost() {
           
           <article className="prose prose-lg prose-blue max-w-none mt-12 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
             <h2>Conclusion</h2>
-            
+            <p>
+            Running a solo practice in Oklahoma does not mean running it alone. A virtual assistant gives you professional support without payroll, office expansion, or the fixed overhead of a full-time hire — while ORPC Rule 5.3 gives you a clear framework for delegating admin work ethically. When you pair that remote support with integrated process serving, notary, and courier coverage across all 77 counties, you can serve clients statewide without juggling five different vendors.
+          </p>
+          <p>
+            The math is straightforward: every hour you reclaim from billing, intake, and calendar chaos is an hour you can bill, market, or simply use to practice law the way you intended. For most Oklahoma solos, even part-time VA support pays for itself within the first few weeks of recovered billable time.
+          </p>
+          <p className="text-gray-700 italic mt-8">
+            Need virtual assistant support for your Oklahoma solo practice?{' '}
+            <Link href="/contact" className="text-blue-600 hover:underline">
+              Contact Just Legal Solutions
+            </Link>{' '}
+            for professional support across all 77 Oklahoma counties. Call or text{' '}
+            <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
+          </p>
           </article>
 
           {/* Back to Blog */}

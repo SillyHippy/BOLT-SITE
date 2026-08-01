@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "National Process Server Week: Celebrating Legal Support",
-  description: "Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America. Serving all 77 Oklaho",
+  description:
+    'National Process Server Week (early June) celebrates servers who protect due process—why notice matters and how Oklahoma attorneys thank licensed partners.',
   keywords:
     'National Process Server Week, process server appreciation, legal support professionals, due process rights, process serving profession, Oklahoma process servers, legal support industry',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'National Process Server Week: Celebrating Legal Support Professionals',
     description:
-      'Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America.',
+      'National Process Server Week (early June) celebrates servers who protect due process—why notice matters and how Oklahoma attorneys thank licensed partners.',
     url: 'https://justlegalsolutions.org/blog/national-process-server-week',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -41,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America. Serving all 77 Oklaho Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'National Process Server Week (typically early June) recognizes licensed servers who deliver constitutional notice before lawsuits proceed—history of the observance, due process under the Fifth and Fourteenth Amendments, and Oklahoma licensing under 12 O.S. § 158.1.',
+    'ai-key-facts':
+      'Service of process is the notice step that triggers jurisdiction and answer deadlines; Process servers document attempts, locate evasive parties, and prepare affidavits courts scrutinize on appeal; Oklahoma servers must be licensed and bonded under 12 O.S. § 158.1; Law firms can celebrate with thank-you notes, referrals, prompt payment, and public reviews; Just Legal Solutions serves all 77 Oklahoma counties with GPS-verified documentation',
   },
 };
 
@@ -105,6 +106,13 @@ export default function BlogPost() {
           National Process Server Week: Celebrating the Legal Support
           Professionals Who Protect Due Process
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>National Process Server Week</strong> (usually early June) honors professionals who deliver legal notice so due process is real—not abstract. Oklahoma servers are <strong>licensed and bonded under 12 O.S. § 158.1</strong>; attorneys can thank partners with notes, referrals, reviews, and timely payment.
+          </p>
+        </div>
 
         {/* OPENING PARAGRAPH WITH EEAT SIGNAL */}
         <p className="text-gray-600 mb-8 text-lg">
@@ -532,7 +540,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="National Process Server Week: Celebrating Legal Support Professionals"
-        description="Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America."
+        description="National Process Server Week (early June) celebrates servers who protect due process—why notice matters and how Oklahoma attorneys thank licensed partners."
         url="https://justlegalsolutions.org/blog/national-process-server-week"
         articleDetails={{
           headline: 'National Process Server Week: Celebrating Legal Support Professionals',

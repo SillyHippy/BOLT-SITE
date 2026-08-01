@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Getting Divorced in Tulsa? How Divorce Papers Are Served",
-  description: "Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases. Serving all 77",
+  description: "Licensed servers deliver Tulsa divorce summons under Title 12. Covers the 20-day answer window, 90-day child wait, and options when a spouse evades service.",
   keywords: 'how are divorce papers served in Oklahoma, divorce process Tulsa, serving divorce papers, Oklahoma divorce service, Tulsa divorce papers, 20 day response divorce Oklahoma, 90 day waiting period divorce',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Getting Divorced in Tulsa? How Divorce Papers Are Served',
-    description: 'Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases.',
+    description: 'Licensed servers deliver Tulsa divorce summons under Title 12. Covers the 20-day answer window, 90-day child wait, and options when a spouse evades service.',
     url: 'https://justlegalsolutions.org/blog/divorce-papers-served-oklahoma-tulsa',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases. Serving all 77 Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary': 'Tulsa and Oklahoma divorce service: filing at Tulsa County District Court, licensed personal delivery under Title 12, the 20-day Answer deadline, 90-day child waiting period, waivers, and publication when a spouse cannot be located.',
+    'ai-key-facts': 'Petitioners cannot personally serve divorce papers on a spouse in Oklahoma; Licensed servers or sheriffs complete personal service under Title 12 O.S. 158.1; Respondents have 20 days from service to file an Answer; A 90-day waiting period from filing applies when minor children are involved; Service by publication requires court approval after documented locate efforts',
   },
 };
 
@@ -81,6 +79,18 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Getting Divorced in Tulsa? How Divorce Papers Are Served in Oklahoma
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            After filing at Tulsa County District Court, a licensed process server or sheriff must{' '}
+            <strong>personally deliver</strong> divorce summons and petitions to your spouse—petitioners{' '}
+            <strong>cannot serve their own spouse</strong> under Oklahoma law. That delivery starts the{' '}
+            <strong>20-day Answer deadline</strong>. Cases with minor children also require a{' '}
+            <strong>90-day waiting period</strong> from filing before a final decree, regardless of whether
+            the divorce is contested.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           Divorce is one of the most challenging experiences anyone can go through — and the legal process of serving divorce papers can add stress to an already emotional situation. With over 50 years of combined experience handling family law document service across all 77 Oklahoma counties, the Just Legal Solutions Team understands the sensitivity and urgency involved in serving divorce papers. This guide explains everything you need to know about how divorce papers are served in Oklahoma, including the 20-day response window, the 90-day waiting period for cases involving children, and what to do if your spouse avoids service.
@@ -294,7 +304,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Getting Divorced in Tulsa? How Divorce Papers Are Served"
-        description="Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases."
+        description="Licensed servers deliver Tulsa divorce summons under Title 12. Covers the 20-day answer window, 90-day child wait, and options when a spouse evades service."
         url="https://justlegalsolutions.org/blog/divorce-papers-served-oklahoma-tulsa"
         articleDetails={{
           headline: 'Getting Divorced in Tulsa? How Divorce Papers Are Served',

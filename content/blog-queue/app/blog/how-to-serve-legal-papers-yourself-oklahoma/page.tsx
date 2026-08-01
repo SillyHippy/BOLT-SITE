@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
-  description: "Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended. Serving all 7",
+  description: 'Oklahoma parties cannot serve their own papers—only neutral adults 18+, sheriffs, or licensed servers may deliver. Compare DIY risks, costs, and pro deadlines.',
   keywords:
     'can I serve my own papers Oklahoma, DIY process serving, self service legal documents Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',
     description:
-      'Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended.',
+      'Oklahoma parties cannot serve their own papers—only neutral adults 18+, sheriffs, or licensed servers may deliver. Compare DIY risks, costs, and pro deadlines.',
     url: 'https://justlegalsolutions.org/blog/how-to-serve-legal-papers-yourself-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -42,10 +42,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended. Serving all 7 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary': 'Oklahoma litigants cannot serve their own papers—parties are disqualified and need a neutral adult 18+, sheriff, or bonded private server with court-ready proof to avoid dismissal or challenged service under Title 12.',
+    'ai-key-facts': 'Plaintiffs and named parties may not serve documents in their own lawsuits; Non-party adults may serve but often lack affidavit and evasive-defendant skills; DIY errors can trigger dismissal or 180-day refiling costs; Licensed servers provide GPS-verified returns courts accept',
   },
 };
 
@@ -104,6 +102,15 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro
         </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            You <strong>cannot serve your own</strong> Oklahoma case papers if you are a party—use a neutral adult{' '}
+            <strong>18+</strong>, the <strong>sheriff</strong>, or a <strong>licensed bonded server</strong>. DIY saves little
+            when bad affidavits or evasive defendants blow the <strong>180-day</strong> Title 12 deadline.
+          </p>
+        </div>
 
         <p className="text-gray-600 mb-8 text-lg">
           One of the most common questions we hear at Just Legal Solutions is
@@ -596,7 +603,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro"
-        description="Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended."
+        description="Oklahoma parties cannot serve their own papers—only neutral adults 18+, sheriffs, or licensed servers may deliver. Compare DIY risks, costs, and pro deadlines."
         url="https://justlegalsolutions.org/blog/how-to-serve-legal-papers-yourself-oklahoma"
         articleDetails={{
           headline: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',

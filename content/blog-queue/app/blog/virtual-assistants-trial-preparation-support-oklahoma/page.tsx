@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Virtual Assistants Help Prepare for Trial in Oklahoma',
-  description: 'Discover how virtual assistants streamline trial prep for Oklahoma law firms. From exhibits to witness coordination, VA support saves time and cuts costs.',
+  description:
+    'Virtual assistants handle exhibits, witness lists, and trial notebooks for Oklahoma firms under Rule 5 pretrial rules—freeing attorneys for courtroom strategy.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How Virtual Assistants Help Prepare for Trial in Oklahoma',
-    description: 'Discover how virtual assistants streamline trial prep for Oklahoma law firms. From exhibits to witness coordination, VA support saves time and cuts costs.',
+    description:
+    'Virtual assistants handle exhibits, witness lists, and trial notebooks for Oklahoma firms under Rule 5 pretrial rules—freeing attorneys for courtroom strategy.',
     url: 'https://justlegalsolutions.org/blog/virtual-assistants-trial-preparation-support-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma trial prep VAs organize exhibits, witness schedules, and Rule 5 pretrial lists under attorney supervision—typically 8–12 weeks before trial—so lawyers focus on strategy instead of binders and logistics.',
+    'ai-key-facts':
+      'Rule 5 requires pre-marked exhibits and finalized witness lists before the pretrial conference; Engage VAs 8–12 weeks ahead on complex cases, 4–6 weeks on simpler matters; Virtual trial support often costs 60–72% less than fully loaded in-house staff; VAs coordinate witnesses statewide but cannot take depositions or appear in court; Tulsa County Local Rule CV-25 adds exhibit-list requirements many VAs must track',
   },
 };
 
@@ -101,7 +107,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Virtual Assistants Help Prepare for Trial in Oklahoma"
-        pageDescription="Discover how virtual assistants streamline trial prep for Oklahoma law firms. From exhibits to witness coordination, VA support saves time and cuts costs."
+        pageDescription="Virtual assistants handle exhibits, witness lists, and trial notebooks for Oklahoma firms under Rule 5 pretrial rules—freeing attorneys for courtroom strategy."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistants-trial-preparation-support-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +152,16 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Virtual Assistants Help Prepare for Trial in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Start VA trial prep <strong>8–12 weeks</strong> before trial: <strong>exhibit lists</strong>,{' '}
+              <strong>witness coordination</strong>, and <strong>Rule 5 pretrial deadlines</strong> under attorney
+              supervision—often <strong>60–72% cheaper</strong> than in-house staff.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

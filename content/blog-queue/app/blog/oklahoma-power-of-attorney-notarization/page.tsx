@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma Power of Attorney Notarization: Requirements and...",
-  description: "Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes. Serving all 77 Oklaho",
+  description:
+    'Oklahoma POA notarization: valid photo ID, sign before the notary, healthcare POA witness rules, durable vs financial requirements, and mistakes that void POAs.',
   keywords: 'power of attorney notary Oklahoma, POA notarization, notarize power of attorney, durable POA Oklahoma, medical power of attorney notary, financial POA notary Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Power of Attorney Notarization: Requirements and Process',
-    description: 'Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes.',
+    description:
+      'Oklahoma POA notarization: valid photo ID, sign before the notary, healthcare POA witness rules, durable vs financial requirements, and mistakes that void POAs.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-power-of-attorney-notarization',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,10 +32,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes. Serving all 77 Oklaho Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Most Oklahoma powers of attorney require notarization with government photo ID and signatures in the notary\'s presence; healthcare POAs often need two qualified witnesses; pre-signing or blank fields can void the document at banks and courts.',
+    'ai-key-facts':
+      'Durable POAs must state they survive incapacity to stay effective; Healthcare POA witnesses cannot be agents, heirs, or the attending physician; Mobile notaries commonly meet principals at home or hospitals; Notaries cannot explain POA legal terms—that is an attorney role; Plan POA execution before capacity is lost—guardianship may be the only option afterward',
   },
 };
 
@@ -55,8 +57,19 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Power of Attorney Notarization</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Power of Attorney Notarization: Requirements and Process</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            Most Oklahoma POAs must be <strong>notarized</strong> with valid photo ID and the principal&apos;s signature in the notary&apos;s presence; <strong>healthcare POAs</strong> often also need two qualified witnesses—never sign early or leave blank fields.
+          </p>
+          
+
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">A power of attorney is one of the most important legal documents you can create — but only if it is properly executed and notarized. At Just Legal Solutions, our team brings 50+ years of combined experience in legal document services and has served thousands of documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help individuals and families navigate the notarization process with confidence. Whether you need a durable, medical, financial, or limited power of attorney notarized, this guide covers everything you need to know to ensure your document is legally valid in the State of Oklahoma.</p>
-        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding the Types of Power of Attorney in Oklahoma</h2>
@@ -156,7 +169,7 @@ export default function BlogPost() {
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">
               <h3 className="font-medium text-lg">{faq.question}</h3>
-              <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: faq.answer }} />
+              <p className="text-gray-700">{faq.answer}</p>
             </div>
           ))}
         </section>
@@ -175,7 +188,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Oklahoma Power of Attorney Notarization: Requirements and Process"
-        description="Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes."
+        description="Oklahoma POA notarization: valid photo ID, sign before the notary, healthcare POA witness rules, durable vs financial requirements, and mistakes that void POAs."
         url="https://justlegalsolutions.org/blog/oklahoma-power-of-attorney-notarization"
         articleDetails={{
           headline: 'Oklahoma Power of Attorney Notarization: Requirements and Process',

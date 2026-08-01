@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Rural Oklahoma Process Serving: Challenges & Solutions',
-  description: 'Serving papers in rural Oklahoma? Learn how distance, legal deserts, and tribal jurisdiction affect service — and how route-optimized strategies solve these challenges.',
+  description: 'Rural Oklahoma serving: statewide 12 O.S. § 158.1 licenses, 180-day deadlines, tribal land checks, route bundling, and skip tracing before publication.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Rural Oklahoma Process Serving: Challenges & Solutions',
-    description: 'Serving papers in rural Oklahoma? Learn how distance, legal deserts, and tribal jurisdiction affect service — and how route-optimized strategies solve these challenges.',
+    description: 'Rural Oklahoma serving: statewide 12 O.S. § 158.1 licenses, 180-day deadlines, tribal land checks, route bundling, and skip tracing before publication.',
     url: 'https://justlegalsolutions.org/blog/process-serving-rural-oklahoma-challenges-solutions',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-10-20',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma process server licenses under 12 O.S. § 158.1 work statewide, but rural counties face legal deserts, long travel, tribal coordination, and the same 180-day service deadline—route bundling and skip tracing cut cost and delay.',
+    'ai-key-facts':
+      '12 O.S. § 158.1 grants one district-court license statewide authority in all 77 counties; Service must still occur within 180 days under 12 O.S. § 2004(I) regardless of rural distance; McGirt tribal land service may require tribal court coordination before attempts; Publication under § 2004(C)(3) requires documented due diligence including skip tracing first',
   },
 };
 
@@ -91,7 +95,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Rural Oklahoma Process Serving: Challenges & Solutions"
-        pageDescription="Serving papers in rural Oklahoma? Learn how distance, legal deserts, and tribal jurisdiction affect service — and how route-optimized strategies solve these challenges."
+        pageDescription="Rural Oklahoma serving: statewide 12 O.S. § 158.1 licenses, 180-day deadlines, tribal land checks, route bundling, and skip tracing before publication."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-rural-oklahoma-challenges-solutions"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +140,17 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Rural Oklahoma Process Serving: Challenges & Solutions
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              One <strong>12 O.S. § 158.1</strong> license covers all <strong>77 counties</strong>, but rural
+              serves still face travel, dead zones, and the <strong>180-day rule</strong>. Coordinate{' '}
+              <strong>tribal land</strong> service with clerks, bundle multi-county routes to cut fees, and
+              run <strong>skip tracing</strong> before publication under § 2004(C)(3).
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-20').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

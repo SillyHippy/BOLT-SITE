@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serving Active-Duty Military in Oklahoma: SCRA Guide',
-  description: 'Learn how to serve active-duty military personnel in Oklahoma while complying with the SCRA. Covers DMDC verification, base access, and 180-day rules.',
+  description:
+    'SCRA-compliant Oklahoma military service: DMDC checks, JAG base coordination, military affidavits, and 12 O.S. § 2004 timelines at Tinker and Fort Sill.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Serving Active-Duty Military in Oklahoma: SCRA Guide',
-    description: 'Learn how to serve active-duty military personnel in Oklahoma while complying with the SCRA. Covers DMDC verification, base access, and 180-day rules.',
+    description:
+      'SCRA-compliant Oklahoma military service: DMDC checks, JAG base coordination, military affidavits, and 12 O.S. § 2004 timelines at Tinker and Fort Sill.',
     url: 'https://justlegalsolutions.org/blog/serving-active-duty-military-personnel-scra-compliance-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +41,14 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma military serves require SCRA awareness: verify status through DMDC before default judgments, coordinate JAG access at Tinker AFB and Fort Sill, note active duty on returns, and track 12 O.S. § 2004(I) service windows with licensed servers under Title 12 O.S. 158.1.',
+    'ai-key-facts':
+      'SCRA blocks many default judgments without a military affidavit and appointed counsel; DMDC verification is free and court-acceptable; Base access often needs 10–14 days of JAG coordination; National Guard coverage depends on federal activation orders; Personal service does not waive SCRA protections; Oklahoma service must generally occur within 180 days under 12 O.S. § 2004(I)',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'What is the Servicemembers Civil Relief Act (SCRA) and how does it affect process serving in Oklahoma?',
     answer: 'The SCRA (50 U.S.C. §§ 3901-4043) is a federal law that protects active-duty military members from default judgments and certain legal proceedings while they are serving. In Oklahoma, this means courts cannot enter default judgments against military defendants without a military affidavit on file, and servicemembers may be entitled to mandatory 90-day stays of proceedings. Process servers should verify military status through the DMDC database before attempting service to ensure attorneys have time to prepare proper documentation. Our team at Just Legal Solutions treats SCRA awareness as a core competency — because catching these issues early prevents costly mistakes downstream for everyone involved.',
@@ -90,8 +96,10 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
+        title="Serving Active-Duty Military in Oklahoma: SCRA Guide"
+        description="SCRA-compliant Oklahoma military service: DMDC checks, JAG base coordination, military affidavits, and 12 O.S. § 2004 timelines at Tinker and Fort Sill."
         pageTitle="Serving Active-Duty Military in Oklahoma: SCRA Guide"
-        pageDescription="Learn how to serve active-duty military personnel in Oklahoma while complying with the SCRA. Covers DMDC verification, base access, and 180-day rules."
+        pageDescription="SCRA-compliant Oklahoma military service: DMDC checks, JAG base coordination, military affidavits, and 12 O.S. § 2004 timelines at Tinker and Fort Sill."
         pageUrl="https://justlegalsolutions.org/blog/serving-active-duty-military-personnel-scra-compliance-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +144,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serving Active-Duty Military in Oklahoma: SCRA Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Before serving <strong>active-duty</strong> defendants in Oklahoma, run <strong>DMDC verification</strong>, coordinate{' '}
+              <strong>JAG base access</strong> at installations like Tinker and Fort Sill, file accurate <strong>SCRA military affidavits</strong>, and note military status on{' '}
+              <strong>12 O.S. § 2004</strong> returns—using <strong>Title 12 O.S. 158.1</strong> licensed servers.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -152,7 +168,7 @@ export default function BlogPost() {
             only to be turned away because you did not coordinate with the Judge Advocate General's office 
             in advance. Or worse — imagine serving an active-duty soldier at Fort Sill, only to learn weeks 
             later that the default judgment your attorney entered is voidable because nobody verified military 
-            status through the DMDC database first. If you handle process serving in Oklahoma, these are not 
+            status through the DMDC database first. With 50+ years of combined experience and thousands of documents across all 77 Oklahoma counties, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 for compliant service under 12 O.S. 2004 and Title 49 O.S. military-civil rules. If you handle process serving in Oklahoma, these are not 
             hypothetical scenarios. They are real risks you face every time a military defendant is involved. 
             Oklahoma is home to over 44,000 active-duty military personnel across four major installations, 
             and the Servicemembers Civil Relief Act creates a complex web of protections that every process 

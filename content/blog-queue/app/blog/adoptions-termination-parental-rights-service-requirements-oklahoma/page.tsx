@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Adoption & TPR Service Requirements in Oklahoma',
-  description: 'Learn Oklahoma',
+  description:
+    'Oklahoma adoption and TPR service for attorneys and servers: Title 10’s 15-day notice, Title 10A’s 25-day publication, in-hand plan service, and due diligence.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Adoption & TPR Service Requirements in Oklahoma',
-    description: 'Learn Oklahoma',
+    description:
+    'Oklahoma adoption and TPR service for attorneys and servers: Title 10’s 15-day notice, Title 10A’s 25-day publication, in-hand plan service, and due diligence.',
     url: 'https://justlegalsolutions.org/blog/adoptions-termination-parental-rights-service-requirements-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'How Oklahoma adoption and TPR notice works under Title 10 versus Title 10A—deadlines, mandatory in-hand service, locate affidavits, and court-ordered publication when parents cannot be found.',
+    'ai-key-facts':
+      '10 O.S. § 7505-4.1 requires adoption notice at least 15 days before the hearing; 10 O.S. § 7503-3.1 prohibits substitute service for Notices of Plan for Adoption; 10A O.S. § 1-4-905 requires publication at least 25 days before a Children’s Code TPR hearing; Failure to appear after proper Children’s Code notice may constitute consent to termination',
   },
 };
 
@@ -91,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Adoption & TPR Service Requirements in Oklahoma"
-        pageDescription="Learn Oklahoma"
+        pageDescription="Oklahoma adoption and TPR service for attorneys and servers: Title 10’s 15-day notice, Title 10A’s 25-day publication, in-hand plan service, and due diligence."
         pageUrl="https://justlegalsolutions.org/blog/adoptions-termination-parental-rights-service-requirements-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Adoption & TPR Service Requirements in Oklahoma
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma adoption and TPR service turns on whether <strong>Title 10 or Title 10A</strong> governs the case. Adoption Code matters generally need notice <strong>at least 15 days before the hearing</strong>, and a Notice of Plan for Adoption requires <strong>licensed in-hand delivery</strong>—substitute service at the residence is statutorily barred. Children&apos;s Code TPR cases use a <strong>25-day publication window</strong>, and a parent properly served who fails to appear may be treated as consenting to termination.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -150,6 +162,8 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Imagine this: A process server delivers adoption papers to a mother 12 days before the hearing date, thinking that the standard civil service window applies. At the hearing, the judge continues the case — service was defective because Oklahoma law requires at least 15 days' notice in adoption proceedings. The child who was supposed to be placed in a permanent home waits another month. This scenario plays out more often than it should, and it is entirely preventable. If you are a process server, attorney, or paralegal handling adoption or termination of parental rights (TPR) cases in Oklahoma, the service rules are stricter, the timelines are tighter, and the consequences of getting it wrong are far more serious than in standard civil litigation.
           </p>
+            <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
 
           <h2>Why Adoption and TPR Service Is Among the Most Demanding Work a Process Server Faces</h2>
 

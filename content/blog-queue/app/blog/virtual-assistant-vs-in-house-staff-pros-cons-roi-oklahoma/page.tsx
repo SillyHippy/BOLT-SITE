@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Virtual Assistant vs. In-House Staff: A Law Firm',
+  title: 'Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms',
   description: 'Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Virtual Assistant vs. In-House Staff: A Law Firm',
+    title: 'Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms',
     description: 'Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026.',
     url: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Virtual Assistant vs. In-House Staff: A Law Firm',
+        alt: 'Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms',
       },
     ],
   },
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma law firms comparing virtual assistants to in-house staff typically spend $18,000–$32,000 on a VA vs $65,000–$85,000+ fully loaded for an employee—plus billable-hour recovery that often yields 3:1 to 10:1 ROI within 90 days.',
+    'ai-key-facts':
+      'Average attorney bills ~2.6 hours of an 8-hour day (Clio); Recovering 10 billable hours weekly at $280/hr equals ~$145,600 annual capacity; VA savings often reach 52–78% on support functions; Hybrid model pairs one in-house point person with virtual overflow; ORPC Rule 5.3 applies equally to remote and in-office nonlawyer assistants',
   },
 };
 
@@ -90,7 +94,7 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
-        pageTitle="Virtual Assistant vs. In-House Staff: A Law Firm"
+        pageTitle="Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms"
         pageDescription="Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma"
         siteName="Just Legal Solutions"
@@ -99,10 +103,10 @@ export default function BlogPost() {
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
-          { name: 'Virtual Assistant vs. In-House Staff: A Law Firm', item: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma' }
+          { name: 'Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms', item: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma' }
         ]}
         articleDetails={{
-          headline: 'Virtual Assistant vs. In-House Staff: A Law Firm',
+          headline: 'Virtual Assistant vs. In-House Staff: Pros, Cons & ROI for Oklahoma Law Firms',
           datePublished: '2026-03-12',
           dateModified: '2026-03-12',
           author: 'Just Legal Solutions Team',
@@ -134,8 +138,16 @@ export default function BlogPost() {
             VA Services
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-            Virtual Assistant vs. In-House Staff: A Law Firm\
+            Virtual Assistant vs. In-House Staff: Pros, Cons &amp; ROI for Oklahoma Law Firms
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              For most Oklahoma firms, a <strong>virtual assistant</strong> costs <strong>$18,000–$32,000/year</strong> vs <strong>$65,000–$85,000+</strong> for a fully loaded in-house assistant, while recovering <strong>10+ billable hours weekly</strong>; the <strong>hybrid model</strong> keeps local face-to-face support plus virtual overflow.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

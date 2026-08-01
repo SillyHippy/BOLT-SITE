@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Professional legal courier services in Oklahoma. Secure same-day, rush, and scheduled document delivery with chain of custody tracking across all 77 counties. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
-  
-  
+    'ai-summary':
+      'Licensed Oklahoma legal couriers deliver court filings, contracts, and discovery with same-day, rush, or scheduled options statewide, maintaining tamper-evident handling and documented chain of custody for defensible proof of delivery.',
+    'ai-key-facts':
+      'Couriers transport documents between firms, courts, and clients; Process servers effectuate legal notice under 12 O.S. §2004; Bonded under Title 12 O.S. §158.1; Same-day and rush delivery available across all 77 counties',
   },
 };
 
@@ -73,6 +73,17 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Oklahoma Legal Courier Services</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Legal Courier Services: Secure Document Delivery</h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">
+            <strong>Legal couriers</strong> transport filings and confidential papers with <strong>GPS tracking</strong>,
+            signatures, and <strong>chain-of-custody</strong> logs statewide; they differ from{' '}
+            <strong>process servers</strong>, who deliver <strong>summons and petitions</strong> to give{' '}
+            <strong>legal notice</strong> under <strong>Title 12</strong>.
+          </p>
+        </div>
+
         <p className="text-gray-600 mb-8 text-lg">
           With over 50 years of combined experience, the team at Just Legal Solutions understands that legal documents cannot simply be dropped in the mail. Court filings, contracts, discovery materials, and confidential records require secure, tracked, and timely delivery. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, our legal courier services provide the chain of custody documentation that attorneys and courts demand. We have served thousands of documents across all 77 Oklahoma counties, giving law firms the confidence that their critical paperwork arrives safely and on schedule.
         </p>

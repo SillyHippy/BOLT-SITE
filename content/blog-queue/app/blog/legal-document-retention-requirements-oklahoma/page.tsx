@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Legal Document Retention Requirements in Oklahoma Guide',
-  description: 'Understanding Oklahoma',
+  description: 'Oklahoma retention: 3-year business default, 5-year attorney files, 10-year RON logs—litigation holds pause routine shredding when claims are foreseeable.',
   keywords: 'Oklahoma legal procedures, court deadlines Oklahoma, legal document requirements, Oklahoma court rules, legal compliance',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Legal Document Retention Requirements in Oklahoma Guide',
-    description: 'Understanding Oklahoma',
+    description: 'Oklahoma retention: 3-year business default, 5-year attorney files, 10-year RON logs—litigation holds pause routine shredding when claims are foreseeable.',
     url: 'https://justlegalsolutions.org/blog/legal-document-retention-requirements-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-02',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary':
+      'Oklahoma retention patchwork—67 O.S. §252 three-year business default, ORPC 1.15(a) five-year attorney files, 20 O.S. §1005 court schedules, 49 O.S. §206 ten-year RON, HB 3643, and spoliation holds when litigation is foreseeable.',
+    'ai-key-facts':
+      '67 O.S. §252 allows destroying most business records after 3 years unless another law requires longer; ORPC 1.15(a) mandates 5-year post-representation client file retention; RON electronic journals and A/V recordings require 10 years under 49 O.S. §206; Oklahoma spoliation covers negligent and intentional destruction once preservation duty attaches; Client files must be shredded or incinerated—not dumpster discarded per OBA ethics guidance',
   },
 };
 
@@ -111,7 +115,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Legal Document Retention Requirements in Oklahoma Guide"
-        pageDescription="Understanding Oklahoma"
+        pageDescription="Oklahoma retention: 3-year business default, 5-year attorney files, 10-year RON logs—litigation holds pause routine shredding when claims are foreseeable."
         pageUrl="https://justlegalsolutions.org/blog/legal-document-retention-requirements-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -156,6 +160,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Legal Document Retention Requirements in Oklahoma Guide
           </h1>
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma defaults to <strong>3-year business retention</strong> (<strong>67 O.S. §252</strong>), but attorneys must keep client files <strong>5+ years</strong> under <strong>ORPC 1.15(a)</strong> and <strong>RON journals 10 years</strong> (<strong>49 O.S. §206</strong>); when litigation is <strong>foreseeable</strong>, routine shredding stops—negligent spoliation can trigger sanctions or adverse inference under Oklahoma law.
+            </p>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -178,6 +190,8 @@ export default function BlogPost() {
             document retention requirements is not just good practice — it is
             essential protection.
           </p>
+
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Legal Document Retention Matters in Oklahoma</h2>
           <p>
