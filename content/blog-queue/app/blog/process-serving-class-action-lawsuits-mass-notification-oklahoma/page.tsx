@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-06',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Service of process is the formal delivery of the summons and complaint to the defendant or defendants being sued, which establishes the court\\\'s jurisdiction and triggers their ...',
+    'ai-key-facts': 'What is the difference between service of process on a defendant and notice to class members: Service of process is the formal delivery of th...; How are class action members notified about a lawsuit: Under Rule 23 and Oklahoma\\\'s 12 O; What does "best notice practicable" mean under Rule 23: This standard, which originated in the 1974 Eis...; Can class members opt out of a class action lawsuit: Yes — in Rule 23(b)(3) class actions, the ones ...',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Class Action Process Serving & Mass Notification in Oklahoma"
+
+        title="Class Action Process Serving & Mass Notification in Oklahoma"
         pageDescription="Class action lawsuits require specialized process serving and mass notification. Learn how Oklahoma process servers handle mass notification under Rule 23."
+
+        description="Class action lawsuits require specialized process serving and mass notification. Learn how Oklahoma process servers handle mass notification under Rule 23."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-class-action-lawsuits-mass-notification-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Class Action Process Serving & Mass Notification in Oklahoma
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Service of process is the formal delivery of the summons and complaint to the defendant or defendants being sued, which establishes the court\&apos;s jurisdiction and triggers their obligation to respond. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-06').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             Class action settlements hit a record $79 billion in 2025, with over 1,700 class lawsuits settled — nearly double the prior year's total. If your Oklahoma law firm is handling class action litigation, you already know that serving the defendant is only the beginning. The real logistical challenge comes when the court orders notice to thousands, sometimes millions, of class members. Here's what you need to know about the two-phase notification system, Oklahoma's specific statutory requirements, and how a licensed process server fits into the workflow.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Class Action Surge: Why Oklahoma Attorneys Are Seeing More Cases Than Ever</h2>
 
           <h3>Record-Breaking Settlement Numbers in 2025</h3>

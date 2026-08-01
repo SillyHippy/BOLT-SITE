@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Verify Service of Process Was Completed Correctly Oklahoma',
-  description: 'Learn how to verify service of process was completed correctly in Oklahoma. Check server licensing, review affidavits, meet the 180-day rule, and avoid pitfalls.',
+  description: 'Learn how to verify service of process was completed correctly in Oklahoma. Check server licensing, review affidavits, meet the 180-day rule, and avoid pit...',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-10-06',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Verify five key elements: (1) You received a completed affidavit of service with all required details — date, time, place, method, and recipient name and description; (2) The af...',
+    'ai-key-facts': 'How do I know if service of process was completed correctly in Oklahoma: Verify five key elements: (1) You received a co...; What proof should a process server provide after completing service: A licensed Oklahoma process server must provide...; How long does a process server have to file proof of service with the court: Under 12 O; Can a defendant challenge service of process after an affidavit has been filed: Yes',
   },
 };
 
@@ -101,7 +103,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Verify Service of Process Was Completed Correctly Oklahoma"
+
+        title="Verify Service of Process Was Completed Correctly Oklahoma"
         pageDescription="Learn how to verify service of process was completed correctly in Oklahoma. Check server licensing, review affidavits, meet the 180-day rule, and avoid pitfalls."
+
+        description="Learn how to verify service of process was completed correctly in Oklahoma. Check server licensing, review affidavits, meet the 180-day rule, and avoid pitfalls."
         pageUrl="https://justlegalsolutions.org/blog/verify-service-process-completed-correctly-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +152,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Verify Service of Process Was Completed Correctly Oklahoma
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Verify five key elements: (1) You received a completed affidavit of service with all required details — date, time, place, method, and recipient name and description; (2) The affidavit was filed with the court clerk; (3) Service occurred within 180 days of filing the petition per 12 O.S. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-06').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -161,6 +173,8 @@ export default function BlogPost() {
             Imagine walking into an Oklahoma courtroom, confident your case is on track, only to hear the defendant argue that service was never completed properly. The judge asks to see the proof of service — and suddenly you realize the affidavit is missing critical details, the server was not properly licensed, or the service date fell outside the statutory window. These scenarios play out more often than you might think. Verifying service of process was completed correctly is not just a formality — it is the constitutional gateway that establishes jurisdiction over your case.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p>
             At Just Legal Solutions, we have served legal documents across all 77 Oklahoma counties, and we have seen firsthand what happens when verification is skipped or rushed. This guide walks you through every step of verifying service of process under Oklahoma law, from confirming your server is licensed to reviewing the affidavit for red flags that could derail your case. Whether you are an attorney managing a busy docket or a pro se litigant navigating the system for the first time, this checklist will help you confirm that service was done right the first time.
           </p>

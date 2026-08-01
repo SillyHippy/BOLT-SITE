@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Rush vs. Standard vs. Same-Day Process Serving in Oklahoma',
-  description: 'Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines.',
+  description: 'Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timel...',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-30',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Standard service typically means a first attempt within 3-10 business days, ideal for non-urgent cases with flexible deadlines. Rush service compresses the first attempt to 24-7...',
+    'ai-key-facts': 'What\'s the difference between standard, rush, and same-day process service in Oklahoma: Standard service typically means a first attemp...; How much does each service level cost in Oklahoma: At Just Legal Solutions, Standard Service start...; How does Oklahoma\'s 180-day service deadline affect which speed I choose: Under 12 O; When should I pay extra for same-day service instead of rush: Choose same-day service when: (1) a hearing is ...',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Rush vs. Standard vs. Same-Day Process Serving in Oklahoma"
+
+        title="Rush vs. Standard vs. Same-Day Process Serving in Oklahoma"
         pageDescription="Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines."
+
+        description="Choosing the right process serving speed in Oklahoma can make or break your case. Learn how standard, rush, and same-day service match different case timelines and deadlines."
         pageUrl="https://justlegalsolutions.org/blog/rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Rush vs. Standard vs. Same-Day Process Serving in Oklahoma
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Standard service typically means a first attempt within 3-10 business days, ideal for non-urgent cases with flexible deadlines. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-30').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             Picture this: you file a lawsuit in Tulsa County, serve the defendant within a few days using standard service, and your case moves forward on schedule. Now picture the opposite — you file, wait three months to initiate service, and suddenly realize Oklahoma's 180-day deadline is breathing down your neck. Choosing the right process serving speed isn't about convenience. It's about protecting your case. In this guide, we'll walk you through every service tier available in Oklahoma, show you exactly when to use each one, and give you a practical decision matrix that matches speed to your actual case needs.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Timing Is Everything in Oklahoma Legal Proceedings</h2>
 
           <h3>The 180-Day Clock Starts When You File</h3>

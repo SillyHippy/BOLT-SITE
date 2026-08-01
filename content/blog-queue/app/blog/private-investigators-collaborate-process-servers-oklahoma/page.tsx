@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Private Investigators Help Process Servers in Oklahoma',
-  description: 'Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties.',
+  description: 'Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of...',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-14',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Private investigators use advanced skip tracing techniques — including proprietary database searches, social media forensic analysis, surveillance, and witness interviews — to l...',
+    'ai-key-facts': 'How do private investigators help process servers find evasive defendants: Private investigators use advanced skip tracing...; Can the same person be both a private investigator and a process server in Oklahoma: Yes, but they need two separate licenses; Is it legal for a process server to hire a private investigator in Oklahoma: Absolutely; What Oklahoma statutes govern service of process and PI collaboration: The key statutes are: (1) 12 O',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Private Investigators Help Process Servers in Oklahoma"
+
+        title="How Private Investigators Help Process Servers in Oklahoma"
         pageDescription="Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties."
+
+        description="Discover how Oklahoma private investigators and process servers collaborate to locate evasive defendants, meet court deadlines, and ensure valid service of process across all 77 counties."
         pageUrl="https://justlegalsolutions.org/blog/private-investigators-collaborate-process-servers-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Private Investigators Help Process Servers in Oklahoma
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Private investigators use advanced skip tracing techniques — including proprietary database searches, social media forensic analysis, surveillance, and witness interviews — to locate defendants who have moved, changed identities, or are actively avoiding service. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-14').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             When your defendant has vanished, changed addresses, or is actively dodging service, a process server alone may not be enough. That is where private investigator collaboration becomes your secret weapon. In Oklahoma, the partnership between licensed private investigators and certified process servers has become the gold standard for locating evasive defendants, meeting critical court deadlines, and ensuring service of process that holds up under judicial scrutiny. Let us walk through how this collaboration works, why Oklahoma&rsquo;s dual-licensing system makes it unique, and what your law firm needs to know.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>When Routine Service Fails: Why Process Servers Need Investigative Backup</h2>
 
           <h3>The 75% Reality — What Happens When Standard Delivery Falls Short</h3>

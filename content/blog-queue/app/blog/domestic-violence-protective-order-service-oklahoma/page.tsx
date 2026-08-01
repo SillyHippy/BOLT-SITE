@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serving Protective Orders in Oklahoma DV Cases',
-  description: 'Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements.',
+  description: 'Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requ...',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Under 22 O.S. § 60.4, protective orders are primarily served by the county sheriff or another law enforcement officer.',
+    'ai-key-facts': 'Who can serve a protective order in Oklahoma: Under 22 O; How quickly must a protective order be served in Oklahoma: Oklahoma law requires emergency temporary order...; Can a private process server serve a protective order if the sheriff hasn\\\'t tried first: In most Oklahoma counties, the sheriff\\\'s offic...; What happens if the defendant cannot be served before the hearing date: If service hasn\\\'t been made by the hearing dat...',
   },
 };
 
@@ -101,7 +103,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Serving Protective Orders in Oklahoma DV Cases"
+
+        title="Serving Protective Orders in Oklahoma DV Cases"
         pageDescription="Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements."
+
+        description="Oklahoma process servers face unique challenges serving protective orders in domestic violence cases. Learn 24-hour rules, safety protocols, and legal requirements."
         pageUrl="https://justlegalsolutions.org/blog/domestic-violence-protective-order-service-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +152,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serving Protective Orders in Oklahoma DV Cases
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Under 22 O.S. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -161,6 +173,8 @@ export default function BlogPost() {
             When someone in Oklahoma takes the brave step of filing for a protective order, the clock starts ticking immediately. A judge may sign an emergency order within hours, but until that order is placed physically into the respondent&apos;s hands, it is little more than a piece of paper. At Just Legal Solutions, we understand that serving protective orders in domestic violence cases is not a routine delivery job. It demands speed, legal precision, emotional intelligence, and an unwavering commitment to safety. This guide walks you through everything attorneys, advocates, and process servers need to know about protective order service across Oklahoma&apos;s 77 counties.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Protective Order Service Matters: The Stakes in Oklahoma</h2>
 
           <h3>Oklahoma&apos;s Domestic Violence Crisis by the Numbers</h3>

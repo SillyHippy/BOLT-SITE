@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving Government Contractors: Federal Compliance',
-  description: 'Navigate federal compliance when serving Oklahoma government contractors. Covers FRCP 4(i), military base access, the Contract Disputes Act, and dual state-federal rules.',
+  description: 'Navigate federal compliance when serving Oklahoma government contractors. Covers FRCP 4(i), military base access, the Contract Disputes Act, and dual state...',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-07',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Federal contractors operate under unique compliance frameworks including the Federal Acquisition Regulation (FAR), and many work on secure military installations. When a federal...',
+    'ai-key-facts': 'How is serving process on a federal contractor different from serving a regular business in Oklahoma: Federal contractors operate under unique compli...; Can a process server enter Tinker Air Force Base to serve papers on a contractor employee: Generally no \\u2014 civilians cannot simply ent...; What is FRCP Rule 4(i) and when does it apply in Oklahoma: FRCP Rule 4(i) governs service of process on th...; How long do I have to serve process in an Oklahoma case involving a federal contractor: Under 12 O',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Serving Government Contractors: Federal Compliance"
+
+        title="Process Serving Government Contractors: Federal Compliance"
         pageDescription="Navigate federal compliance when serving Oklahoma government contractors. Covers FRCP 4(i), military base access, the Contract Disputes Act, and dual state-federal rules."
+
+        description="Navigate federal compliance when serving Oklahoma government contractors. Covers FRCP 4(i), military base access, the Contract Disputes Act, and dual state-federal rules."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-government-contractors-federal-compliance-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving Government Contractors: Federal Compliance
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Federal contractors operate under unique compliance frameworks including the Federal Acquisition Regulation (FAR), and many work on secure military installations. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-07').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             Imagine this scenario: You are an Oklahoma attorney preparing to serve a defendant in an employment discrimination case. Your client worked for a subcontractor at Tinker Air Force Base, and the complaint names both the subcontractor and a federal agency as defendants. You hand the papers to your process server with the usual instructions \u2014 and only later discover that service on a federal contractor requires a completely different set of rules than a standard business defendant. The service is challenged, your case is at risk, and you are scrambling to fix what should have been handled correctly from day one. This is the reality of process serving for government contractors in Oklahoma, and it is a topic that catches even experienced attorneys off guard.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Oklahoma&apos;s Defense Contractor Ecosystem: Why Federal Compliance Matters Here</h2>
 
           <h3>The Scale of Federal Contracting in Oklahoma \u2014 Tinker AFB, Vance AFB, and Fort Sill</h3>

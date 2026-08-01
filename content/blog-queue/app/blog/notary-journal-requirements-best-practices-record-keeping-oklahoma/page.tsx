@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Currently, Oklahoma law does not require a journal for traditional, in-person paper notarizations, though the Secretary of State strongly recommends keeping one. However, a jour...',
+    'ai-key-facts': 'Is a notary journal required for all notarizations in Oklahoma: Currently, Oklahoma law does not require a jour...; What information should I record in my Oklahoma notary journal: For traditional notarizations, the SOS recommen...; How long must I keep my Oklahoma notary journal: Retention periods vary by notarization type; What happens if my notary journal is lost or stolen: For a tangible paper journal, there is no curre...',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Is a notary journal required for all notarizations in Oklahoma?',
     answer: 'Currently, Oklahoma law does not require a journal for traditional, in-person paper notarizations, though the Secretary of State strongly recommends keeping one. However, a journal IS mandatory for Remote Online Notarizations (RON) under 49 O.S. § 206, and a log is required for absentee ballot affidavits under 26 O.S. § 14-108.1. If HB 2265 passes, journaling would become mandatory for all notarial acts except those performed for an established business relationship in the ordinary course of business.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'What are the requirements for notarizing absentee ballots in Oklahoma?',
     answer: 'Under 26 O.S. § 14-108.1, notaries must maintain a log of all absentee ballot affidavits notarized for at least 2 years after the election. Notaries cannot charge a fee for this service and are generally limited to 20 affidavits per election unless they work at a place of business open to the public or obtain a waiver from the county election board secretary. Candidates, campaign chairpersons, and campaign treasurers cannot notarize absentee ballots.',
-  },
-  {
-    question: 'What is a "tamper-evident" journal format and why does it matter?',
-    answer: 'A tamper-evident format makes unauthorized alterations visibly detectable. For tangible journals, this means a permanent, bound register with sequentially numbered pages — if a page is removed or altered, it is obvious. For electronic journals, tamper-evident systems use technology such as cryptographic hashing, audit trails, and access controls to detect changes. Oklahoma requires tamper-evident electronic journals for RON under 49 O.S. § 206, and HB 2265 would extend this requirement to all electronic journals.',
-  },
-  {
-    question: 'What should I do with my journal when I resign or my commission expires?',
-    answer: 'Under current law, there is no specific requirement for traditional journals — the notary should retain them personally. For RON journals, 49 O.S. § 207 requires the notary (or personal representative, guardian, or agent) to retain the journal for the full 10-year period or deposit it with a depository designated by the notary. If HB 2265 passes, all notaries would be required to retain journals for 10 years after the last recorded act and inform the SOS of the journal\'s location upon resignation, revocation, or death, or alternatively transmit the journal to the SOS or an approved repository.',
-  },
-  {
-    question: 'Can my employer keep or control my notary journal?',
-    answer: 'Your notary journal should remain under your exclusive control as a best practice. Under current Oklahoma law, there is no specific employer provision for traditional journals. However, 49 O.S. § 206 requires RON notaries to take reasonable steps to protect journals from unauthorized use. If HB 2265 passes, the requirement that notaries maintain only one journal and retain it for 10 years suggests the journal is the notary\'s personal responsibility even if employer-purchased. Best practice: never allow your employer or anyone else to control your journal.',
-  },
-  {
-    question: 'How can I prepare for potential mandatory journal requirements under HB 2265?',
-    answer: 'Start journaling now even though it is not yet mandatory for traditional acts. Choose a permanent, bound paper journal with numbered pages, or a tamper-evident electronic system. Practice making entries contemporaneously at the time of each notarization and include all recommended fields. Establish a secure storage system — a locked filing cabinet or safe for paper journals, encrypted backups for electronic journals. Begin building the habit of consistent record-keeping now so compliance will be seamless if and when the law changes.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Notary Journal Requirements: Best Practices Guide"
+
+        title="Oklahoma Notary Journal Requirements: Best Practices Guide"
         pageDescription="Learn Oklahoma notary journal requirements, including RON electronic journals, absentee ballot logs, HB 2265 changes, and best practices for every notarial act."
+
+        description="Learn Oklahoma notary journal requirements, including RON electronic journals, absentee ballot logs, HB 2265 changes, and best practices for every notarial act."
         pageUrl="https://justlegalsolutions.org/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Notary Journal Requirements: Best Practices Guide
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Currently, Oklahoma law does not require a journal for traditional, in-person paper notarizations, though the Secretary of State strongly recommends keeping one. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             Here&apos;s something that surprises most Oklahoma notaries: you are not legally required to keep a journal for traditional, in-person paper notarizations. That&apos;s right — unlike many other states, Oklahoma&apos;s Title 49 contains no general mandate for paper journal-keeping. But before you breathe a sigh of relief and skip this article, you need to understand why that fact is actually a trap — and why two very specific types of notarizations in Oklahoma DO require record-keeping with strict penalties for non-compliance.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Does Oklahoma Actually Require Notaries to Keep a Journal? The Surprising Answer</h2>
           <p>
             Let&apos;s start with the counterintuitive truth. Under current Oklahoma law — specifically Title 49 of the Oklahoma Statutes — there is no blanket requirement for notaries to maintain a journal for traditional, in-person, paper-based notarizations. You can notarize deeds in Tulsa County, affidavits in Oklahoma City, and powers of attorney in Lawton without ever writing down a single entry. The Secretary of State&apos;s office acknowledges this openly while also issuing a clear recommendation: keep a journal anyway.

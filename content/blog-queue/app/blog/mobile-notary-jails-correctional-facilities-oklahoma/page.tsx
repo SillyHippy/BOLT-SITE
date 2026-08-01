@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-25',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Yes. Oklahoma law (49 O.S.',
+    'ai-key-facts': 'Can a notary legally notarize documents for someone in an Oklahoma jail or prison: Yes; What forms of ID can an inmate use for notarization in Oklahoma: Oklahoma DOC inmates are issued official photo ...; How far in advance should I schedule a notary visit to an Oklahoma correctional facility: For Oklahoma DOC state prisons, schedule 2\\u201...; What documents are most commonly notarized for inmates in Oklahoma: The most frequently requested documents include...',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Can a notary legally notarize documents for someone in an Oklahoma jail or prison?',
     answer: 'Yes. Oklahoma law (49 O.S. \u00a7 113) does not prohibit notarizing for incarcerated individuals. As long as the signer has mental capacity, signs voluntarily, and can be identified using satisfactory evidence \u2014 such as an official ODOC-issued inmate ID card \u2014 a commissioned Oklahoma notary public may lawfully notarize documents inside any correctional facility. The notarization is valid throughout Oklahoma and nationwide.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'How much does a jail notary visit cost in Oklahoma?',
     answer: 'Oklahoma law caps the notarial act fee at $5 per signature (49 O.S. \u00a7 5). However, mobile notary service fees for jail visits are separate and vary by provider. Professional jail notary services in Oklahoma typically range from $150 to $300 per facility visit, plus $10\u2013$25 per notarized signature. Factors affecting cost include facility distance, security level, urgency, and after-hours scheduling. Visit our pricing page for current service rates.',
-  },
-  {
-    question: 'Are witnesses required for jail notarizations, and who can serve as a witness?',
-    answer: 'It depends on the document. Wills typically require two witnesses in Oklahoma. Powers of attorney and most other documents do not require witnesses unless specified. Importantly, a notary CANNOT serve as both witness and notary on the same document. Jail staff members typically WILL NOT act as witnesses. If witnesses are needed, they must also complete facility visitor clearance procedures, which adds significant time and complexity \u2014 plan for this in your scheduling.',
-  },
-  {
-    question: 'What should I bring to a jail notary appointment in Oklahoma?',
-    answer: 'Bring: (1) completed but UNSIGNED documents \u2014 the inmate must sign in the notary\'s physical presence; (2) your government-issued photo ID; (3) the inmate\'s full legal name and DOC/booking number; (4) facility visiting hours confirmation; (5) any required witness arrangements; and (6) a prepaid shipping label if you need documents mailed back. Do NOT bring phones, electronics, bags, purses, or recording devices \u2014 these are universally prohibited in Oklahoma correctional facilities.',
-  },
-  {
-    question: 'Can an inmate get documents notarized for free in Oklahoma?',
-    answer: 'Some facilities provide free notarization under specific circumstances. For example, the Tulsa County Sheriff\'s Office notarizes documents without cost for inmates classified as "indigent" (generally defined as having less than $10\u2013$15 in their account after 30 days) and for documents directly related to their court case. For all other personal notarizations, the inmate or their family must pay the standard notary fee. Check with the specific facility for their indigency policy.',
-  },
-  {
-    question: 'What are the security procedures for notaries visiting Oklahoma correctional facilities?',
-    answer: 'Notaries must undergo the same security screening as all visitors: metal detector and pat-down search, possible drug detection canine screening, and strict rules on permitted items. Generally, only your ID, car key, and coins are allowed. No phones, electronics, bags, purses, or recording devices. A strict dress code is enforced \u2014 no revealing clothing, hoodies, or clothing resembling inmate uniforms. The entire interaction is monitored by correctional staff and recorded on video. Plan to arrive 30 minutes early for processing.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Jail & Prison Notary in Oklahoma: Complete Guide"
+
+        title="Jail & Prison Notary in Oklahoma: Complete Guide"
         pageDescription="Need a mobile notary for a jail or prison in Oklahoma? Learn about DOC policies, inmate ID rules, scheduling, costs, and free options for indigent inmates."
+
+        description="Need a mobile notary for a jail or prison in Oklahoma? Learn about DOC policies, inmate ID rules, scheduling, costs, and free options for indigent inmates."
         pageUrl="https://justlegalsolutions.org/blog/mobile-notary-jails-correctional-facilities-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Jail & Prison Notary in Oklahoma: Complete Guide
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-25').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~18 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             It starts with a phone call nobody wants to receive. Your son has been arrested and is being held at the David L. Moss Criminal Justice Center in Tulsa. The rent is due next week, his car payment is pending, and his two young children need someone authorized to make decisions while he awaits trial. He needs to sign a power of attorney — but the document must be notarized, and he is locked inside a facility with sealed identification, strict visitation rules, and no access to traditional notary services. If you are reading this, chances are you are living some version of this story right now. We want you to know: you are not alone, and there is a path forward.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p>
             At Just Legal Solutions, our mobile notary team has spent years navigating Oklahoma correctional facilities to help families and attorneys get documents notarized for incarcerated individuals. This guide exists because we have seen firsthand how stressful this process can be — and how much confusion surrounds what is actually allowed, what it costs, and how to make it happen. We are going to walk you through everything you need to know about jail and prison notarization in Oklahoma, from the statutes that make it legal to the facility-specific procedures that determine whether your visit succeeds or gets turned away at the gate.
           </p>

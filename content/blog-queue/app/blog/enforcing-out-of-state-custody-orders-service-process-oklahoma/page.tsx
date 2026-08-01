@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Enforcing Out-of-State Custody Orders in Oklahoma',
-  description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success.',
+  description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, plus why proper service of process is critical.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Enforcing Out-of-State Custody Orders in Oklahoma',
-    description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success.',
+    description: 'Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, plus why proper service of process is critical.',
     url: 'https://justlegalsolutions.org/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Out-of-state custody orders are enforced in Oklahoma under the UCCJEA via registration or expedited enforcement. Strict next-judicial-day hearing deadlines make fast, proper service of process under 12 O.S. § 2004 essential for success.',
+    'ai-key-facts': 'Oklahoma enforces out-of-state custody orders under UCCJEA (43 O.S. §§ 551-101 et seq.); registration has 20-day contest period; expedited enforcement requires next-judicial-day hearing; service must comply with 12 O.S. § 2004 via licensed process server; only jurisdictional and procedural defenses allowed',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Enforcing Out-of-State Custody Orders in Oklahoma"
-        pageDescription="Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, and why proper service of process is critical to success."
+
+        title="Enforcing Out-of-State Custody Orders in Oklahoma"
+        pageDescription="Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, plus why proper service of process is critical."
+
+        description="Learn how Oklahoma enforces out-of-state custody orders through UCCJEA registration and expedited enforcement, plus why proper service of process is critical."
         pageUrl="https://justlegalsolutions.org/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,10 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Enforcing Out-of-State Custody Orders in Oklahoma
           </h1>
+            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+              <p className="text-gray-800">Oklahoma enforces out-of-state custody orders through the <strong>UCCJEA (43 O.S. §§ 551-101 et seq.)</strong>, requiring either registration with a <strong>20-day contest window</strong> or expedited enforcement with a hearing on the <strong>next judicial day</strong> after service. Proper service under <strong>12 O.S. § 2004</strong> is critical — a licensed process server ensures timely, court-admissible service across all 77 Oklahoma counties.</p>
+            </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +161,8 @@ export default function BlogPost() {
             Imagine you have a custody order from a Texas court that clearly states your child is to be with you during the summer. You arrive in Tulsa to pick up your son, but the other parent refuses to hand him over. They claim the Texas order means nothing in Oklahoma. Your heart sinks. What do you do now? This is where the Uniform Child Custody Jurisdiction and Enforcement Act — Oklahoma's version found at 43 O.S. §§ 551-101 et seq. — becomes your most important legal tool. And the very first step in making it work is getting those enforcement papers served properly, on time, and to the right people.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>When an Out-of-State Custody Order Lands in Oklahoma</h2>
 
           <h3>Why Interstate Custody Disputes Are Different</h3>

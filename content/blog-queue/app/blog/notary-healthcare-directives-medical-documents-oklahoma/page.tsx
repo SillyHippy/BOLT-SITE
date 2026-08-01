@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'No. In Oklahoma, an advance directive for health care only requires your signature and the signatures of two witnesses who are at least 18 years old, not related to you by blood...',
+    'ai-key-facts': 'Does an advance directive for health care need to be notarized in Oklahoma: No; Does a medical power of attorney need to be notarized in Oklahoma: A medical power of attorney in Oklahoma must be...; Can a notary come to a hospital or nursing home in Oklahoma to notarize healthcare documents: Yes; What is the difference between an advance directive and a medical power of attorney in Oklahoma: An advance directive (also called a living will...',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Does an advance directive for health care need to be notarized in Oklahoma?',
     answer: 'No. In Oklahoma, an advance directive for health care only requires your signature and the signatures of two witnesses who are at least 18 years old, not related to you by blood, marriage, or adoption, and not entitled to inherit from your estate. Notarization is optional and not required under 63 O.S. § 3101.4. That said, getting your advance directive notarized can add an extra layer of legal protection and may help prevent challenges to its validity later on.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'Can a notary refuse to notarize a healthcare document for a hospital patient who seems confused?',
     answer: 'Yes. A notary\'s primary duty is to verify that the signer is aware, willing, and understands what they are signing. If a patient appears heavily medicated, disoriented, unable to communicate, or does not understand the document they are signing, the notary should refuse to proceed. A notary does not diagnose medical conditions but must use observation and basic questions to assess whether the signer comprehends the transaction. In such cases, the family may need to wait until the patient is more alert or consult an attorney about guardianship options.',
-  },
-  {
-    question: 'What happens to a medical power of attorney if the agent and principal get divorced in Oklahoma?',
-    answer: 'Under 63 O.S. § 3111.4, a divorce, annulment, or legal separation automatically revokes the former spouse\'s authority as a healthcare agent. This is a critical but often overlooked detail. After any major life change — divorce, marriage, death of a named agent, or estrangement — you should review and, if needed, execute a new medical power of attorney naming a different agent. A notary can help you complete this updated document promptly.',
-  },
-  {
-    question: 'Is a notary a HIPAA-covered entity when notarizing healthcare documents?',
-    answer: 'Generally, no. An independent notary who notarizes healthcare documents for private individuals is NOT a HIPAA-covered entity. HIPAA applies to healthcare providers, health plans, healthcare clearinghouses, and their business associates. However, if a notary contracts with a hospital, nursing home, or healthcare provider to provide notarization services and handles protected health information (PHI) as part of that relationship, they may be considered a business associate and must comply with HIPAA requirements, including signing a Business Associate Agreement (BAA).',
-  },
-  {
-    question: 'Can advance directives be notarized remotely online in Oklahoma?',
-    answer: 'Yes. Remote Online Notarization (RON) has been legal in Oklahoma since January 1, 2020. A notary can notarize healthcare documents via secure video conferencing, using credential analysis and identity verification technology. RON is especially valuable for healthcare documents because it allows homebound patients, individuals in rural areas, and those with mobility challenges to complete notarizations without traveling. Audio and video recordings of RON sessions must be retained for at least 10 years per state law.',
-  },
-  {
-    question: 'What documents should I bring to a healthcare document notarization appointment in Oklahoma?',
-    answer: 'Bring a valid, unexpired government-issued photo ID (driver\'s license, passport, or state-issued ID card), the completed healthcare document (do not sign it before the appointment — you must sign in the notary\'s presence), and any required witnesses if you are using witnesses instead of notarization. If the signer is a patient in a healthcare facility, coordinate with staff for a time when the patient will be alert and medical interruptions will be minimal. If the signer cannot physically sign, discuss signature by mark or directed signing options with the notary in advance.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary for Healthcare Directives & Medical Docs in Oklahoma"
+
+        title="Notary for Healthcare Directives & Medical Docs in Oklahoma"
         pageDescription="Learn which Oklahoma healthcare documents require notarization vs. witnesses, and how a mobile notary helps with advance directives and medical POAs statewide."
+
+        description="Learn which Oklahoma healthcare documents require notarization vs. witnesses, and how a mobile notary helps with advance directives and medical POAs statewide."
         pageUrl="https://justlegalsolutions.org/blog/notary-healthcare-directives-medical-documents-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary for Healthcare Directives & Medical Docs in Oklahoma
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">No. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             If you are helping an aging parent put their healthcare wishes in writing, preparing for an upcoming surgery, or simply getting your affairs in order, you have probably run into one frustrating truth: figuring out which medical documents actually need a notary in Oklahoma is surprisingly confusing. Some websites tell you everything must be notarized. Others say witnesses are enough. The truth depends entirely on the document type — and getting it wrong can mean the difference between a legally valid directive and a useless piece of paper. At Just Legal Solutions, we believe Oklahomans deserve clear, honest answers about their healthcare documents, not upsells for services they do not legally need.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Oklahoma&apos;s Healthcare Planning Crisis: Why Less Than 10% of Oklahomans Have Advance Directives</h2>
 
           <p>Here is a number that should stop you in your tracks: less than 10% of Oklahomans have completed an advance directive. According to a peer-reviewed study published in the <em>Journal of the American Board of Family Medicine</em>, Oklahoma primary care practices reported advance directive completion rates averaging just 5-7%. In inpatient palliative care settings — the very place where these documents matter most — the completion rate was only marginally better at 5-12%. That means roughly 9 out of 10 Oklahoma families are walking into medical crises without written instructions about their loved one&apos;s wishes.</p>

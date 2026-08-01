@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Notaries Support Bankruptcy Filings in Oklahoma',
-  description: 'Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice.',
+  description: 'Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. whe...',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-11',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'For most individual Chapter 7 or Chapter 13 filings, no. Under Federal Rule of Bankruptcy Procedure 1008, you can sign an unsworn declaration under penalty of perjury (per 28 U....',
+    'ai-key-facts': 'Do I need a notary to file for bankruptcy in Oklahoma: For most individual Chapter 7 or Chapter 13 fil...; What bankruptcy documents in Oklahoma DO require notarization: Several bankruptcy-related documents require no...; Can a notary help me prepare my bankruptcy petition: No; Can I use a mobile notary for bankruptcy-related documents in Oklahoma: Yes',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Do I need a notary to file for bankruptcy in Oklahoma?',
     answer: 'For most individual Chapter 7 or Chapter 13 filings, no. Under Federal Rule of Bankruptcy Procedure 1008, you can sign an unsworn declaration under penalty of perjury (per 28 U.S.C. \u00a7 1746) instead of getting documents notarized. However, business bankruptcy filings require a notarized corporate resolution, and certain adversary proceeding documents also require notarization.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'Can I use remote online notarization (RON) for bankruptcy documents in Oklahoma?',
     answer: 'Yes. Oklahoma authorized remote online notarization effective January 1, 2020, under the Remote Online Notary Act (49 O.S. \u00a7 201 et seq.). Any bankruptcy-related document requiring notarization can be notarized online via live video conferencing with a registered Oklahoma RON notary. This is especially useful for out-of-state creditors, corporate officers, or parties who cannot appear in person.',
-  },
-  {
-    question: 'How much does it cost to get a bankruptcy document notarized in Oklahoma?',
-    answer: 'Oklahoma statute caps the notarial fee at $5 per signature (49 O.S. \u00a7 5). Mobile notaries typically charge a flat rate combining the statutory fee with travel costs. For current pricing on mobile and remote notary services, please visit our pricing page.',
-  },
-  {
-    question: 'What should I bring to a notary appointment for a bankruptcy document?',
-    answer: 'Bring: (1) a current, unexpired government-issued photo ID; (2) the unsigned document (Oklahoma law requires you to sign in the notary\u2019s presence); (3) any witnesses required by the document; and (4) payment. Do not sign the document beforehand \u2014 the notary must personally witness your signature.',
-  },
-  {
-    question: 'Can a bankruptcy petition preparer also notarize my bankruptcy documents?',
-    answer: 'While there is no outright prohibition, it is strongly discouraged and may create a conflict of interest. Under 11 U.S.C. \u00a7 110(e), a BPP cannot \u201cexecute any document on behalf of a debtor.\u201d A notary should not notarize documents they helped prepare or review for content, as this could constitute unauthorized practice of law.',
-  },
-  {
-    question: 'Which Oklahoma bankruptcy courts handle cases in my area?',
-    answer: 'Oklahoma has three federal bankruptcy districts: the Western District (headquartered in Oklahoma City, covering the western half including Lawton and Enid), the Northern District (headquartered in Tulsa, covering northeast Oklahoma including Bartlesville), and the Eastern District (covering southeast Oklahoma with courts in Okmulgee and Muskogee). Your county of residence determines which court handles your case. Mobile notary services provide coverage across all three districts.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Notaries Support Bankruptcy Filings in Oklahoma"
+
+        title="How Notaries Support Bankruptcy Filings in Oklahoma"
         pageDescription="Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice."
+
+        description="Discover how Oklahoma notaries support bankruptcy filings — from corporate resolutions to adversary affidavits. Learn when notarization is required vs. when unsworn declarations suffice."
         pageUrl="https://justlegalsolutions.org/blog/notaries-support-bankruptcy-filings-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Notaries Support Bankruptcy Filings in Oklahoma
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">For most individual Chapter 7 or Chapter 13 filings, no. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-11').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             If you\u2019re sitting at your kitchen table in Tulsa, Oklahoma City, or Muskogee with bankruptcy paperwork spread out in front of you, you might be staring at one very specific question: do I need a notary for this? It\u2019s one of the most common questions we hear from Oklahomans facing financial restructuring \u2014 and the answer surprises most people. Here\u2019s the truth: for the vast majority of individual bankruptcy filings in Oklahoma, you do <em>not</em> need a notary. But in certain critical situations \u2014 especially corporate bankruptcies and adversary proceedings \u2014 notarization is not just helpful, it\u2019s required. Understanding the difference can save you time, money, and unnecessary stress during an already difficult process.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Understanding Bankruptcy Filings in Oklahoma \u2014 The Big Picture</h2>
           <p>
             Bankruptcy touches more Oklahoma families and businesses than many realize. In 2025, the state saw 7,127 personal and family bankruptcy filings \u2014 an 11.5% increase over 2024. Business bankruptcies surged even more dramatically, jumping 18% year-over-year. These numbers represent real Oklahomans navigating a complex federal court process that intersects with state notary law in ways most people never consider.

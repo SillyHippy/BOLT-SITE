@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma attorneys waste 28% of their workweek on email, averaging just 2.6 billable hours daily. Delegating to a virtual assistant under ORPC Rules 5.1–5.3 recovers billable time while maintaining ethical compliance.',
+    'ai-key-facts': 'Oklahoma attorneys receive 80–120 emails daily with only 38% needing response; ORPC Rules 5.1 and 5.3 allow VA delegation with attorney supervision; 67% of law firms fail to respond to client email inquiries; recovering 2 billable hours daily at $349/hr generates $167,520 annually',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Email Management for Oklahoma Attorneys: A Complete Guide"
+
+        title="Email Management for Oklahoma Attorneys: A Complete Guide"
         pageDescription="Discover how Oklahoma attorneys can reclaim billable hours with smart email management. Learn VA delegation strategies that comply with ORPC ethics rules."
+
+        description="Discover how Oklahoma attorneys can reclaim billable hours with smart email management. Learn VA delegation strategies that comply with ORPC ethics rules."
         pageUrl="https://justlegalsolutions.org/blog/email-communication-management-attorneys-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,10 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Email Management for Oklahoma Attorneys: A Complete Guide
           </h1>
+            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+              <p className="text-gray-800">Oklahoma attorneys can ethically delegate email management to a virtual assistant under <strong>ORPC Rules 5.1 and 5.3</strong>, provided they maintain proper supervision and confidentiality safeguards per <strong>ORPC Rule 1.6</strong>. Delegating email triage, routine responses, and scheduling can recover <strong>2–4 billable hours daily</strong> — generating over <strong>$167,000</strong> in additional annual billable capacity.</p>
+            </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -151,6 +161,8 @@ export default function BlogPost() {
             Picture this: It is 10 PM on a Tuesday, and you are still clearing your inbox instead of preparing for tomorrow&apos;s hearing in Creek County. You have answered 73 emails today, but your billable hours log shows a meager 2.4. Somewhere between the client status requests, court notices, and spam, your actual legal work got buried. If this scenario feels uncomfortably familiar, you are not alone — and there is a better way forward.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Email Crisis Facing Oklahoma Attorneys</h2>
 
           <h3>Staggering Statistics: How Email Consumes Your Workday</h3>

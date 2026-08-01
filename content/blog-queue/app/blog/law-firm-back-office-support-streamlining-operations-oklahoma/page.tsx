@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-05',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Law firm back-office support encompasses all non-client-facing administrative tasks that keep a law firm running smoothly — client intake, calendar management, document preparat...',
+    'ai-key-facts': 'What is law firm back-office support: Law firm back-office support encompasses all no...; Can Oklahoma law firms legally outsource back-office tasks: Yes; What back-office tasks can law firms safely outsource: Attorneys can delegate any task that does not r...; How much does back-office support cost compared to hiring in-house staff: Hiring a full-time legal assistant in Oklahoma ...',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Law Firm Back Office Support: Streamline Operations"
+
+        title="Law Firm Back Office Support: Streamline Operations"
         pageDescription="Discover how Oklahoma law firms can streamline back-office operations with virtual support. Reclaim 5+ hours weekly and boost billable hours. Learn more."
+
+        description="Discover how Oklahoma law firms can streamline back-office operations with virtual support. Reclaim 5+ hours weekly and boost billable hours. Learn more."
         pageUrl="https://justlegalsolutions.org/blog/law-firm-back-office-support-streamlining-operations-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Law Firm Back Office Support: Streamline Operations
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Law firm back-office support encompasses all non-client-facing administrative tasks that keep a law firm running smoothly — client intake, calendar management, document preparation, billing and invoicing, file organization, legal research assistance, and data entry. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-05').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             Let me ask you something: How many hours did you bill yesterday? If you are like most Oklahoma attorneys, the answer is probably around 2.9 hours — out of an 8-hour workday. That is not a personal productivity failure. It is a systems problem. And it is costing your firm nearly $200,000 a year in lost revenue. The good news? Law firm back-office support is designed to fix exactly this problem. In this guide, we will show you how Oklahoma attorneys are reclaiming 5 to 10 billable hours per week by rethinking their back-office operations — and how an integrated support model can streamline everything from client intake to process serving across all 77 Oklahoma counties.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Administrative Crisis Facing Oklahoma Law Firms</h2>
 
           <h3>The True Cost of Non-Billable Hours</h3>

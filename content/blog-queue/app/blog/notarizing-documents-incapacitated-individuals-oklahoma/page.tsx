@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notarizing for Incapacitated Signers: An Oklahoma Guide',
-  description: 'Learn Oklahoma',
+  description: 'Learn Oklahoma. Learn Oklahoma rules, statutory deadlines, and professional process serving options statewide.............................................',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-14',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Yes, a dementia diagnosis alone does not prevent notarization. Under Oklahoma law (49 O.S.',
+    'ai-key-facts': 'Can a notary in Oklahoma notarize a document for someone with dementia or Alzheimer\\\'s: Yes, a dementia diagnosis alone does not preven...; How does an Oklahoma notary determine if a signer has sufficient mental capacity: Oklahoma notaries should engage the signer in c...; What should an Oklahoma notary do if a family member tries to speak for the signer: Politely explain that only the signer can commu...; Can a notary refuse to notarize if the signer seems confused: Absolutely',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Can a notary in Oklahoma notarize a document for someone with dementia or Alzheimer\'s?',
     answer: 'Yes, a dementia diagnosis alone does not prevent notarization. Under Oklahoma law (49 O.S. § 112-113), the notary must assess whether the signer understands the nature and effect of the document at the exact moment of signing. If the signer has a "lucid interval" and can demonstrate awareness of what they are signing and why, notarization may proceed. If the signer appears confused, disoriented, or unable to explain the document\'s purpose, the notary must refuse.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'What is a "lucid interval" and how does it apply to notarization in Oklahoma?',
     answer: 'A "lucid interval" is a period of mental clarity that some individuals with cognitive impairments experience. Capacity is assessed at the exact moment of signing, not as a general condition. If a signer with dementia has a lucid interval and can demonstrate understanding and voluntary intent, Oklahoma notaries may proceed with notarization. Best practice: schedule at the signer\'s best time of day, use plain-language confirmation, and document the circumstances thoroughly in your journal.',
-  },
-  {
-    question: 'Does a signer under the influence of medication affect notarization?',
-    answer: 'Yes. If a signer is heavily medicated, drowsy, or under the influence of substances that impair awareness, a notary must refuse the notarization. Hospital patients are often on medication that may alter their ability to understand the nature and effect of signing. The signer must be alert, coherent, and able to communicate clearly. Consider rescheduling for when the signer is less medicated.',
-  },
-  {
-    question: 'What documentation should an Oklahoma notary keep when notarizing for an elderly or incapacitated signer?',
-    answer: 'While Oklahoma does not require a journal by law (49 O.S.), it is highly recommended. Record: date/time, document type, signer\'s name/address, form of ID, location, fee charged, and detailed personal notes about the signer\'s demeanor, responses to capacity questions, whether you spoke privately, and any concerns observed. This documentation is invaluable if the notarization is later challenged.',
-  },
-  {
-    question: 'What are the warning signs of undue influence that an Oklahoma notary should watch for?',
-    answer: 'Red flags include: a family member or caregiver answering questions for the signer; the signer appears anxious, hesitant, or fearful; someone pressures the signer to hurry; the signer avoids eye contact or looks at another person for approval; rushed or isolated meeting requests; and sudden property transfers or beneficiary changes. Oklahoma notaries should request private discussions with signers and report suspected exploitation under 43A O.S. § 10-104.',
-  },
-  {
-    question: 'Does Oklahoma law require notaries to report suspected elder abuse or exploitation?',
-    answer: 'Yes. Under 43A O.S. § 10-104 (the Protective Services for Vulnerable Adults Act), any person — including notaries — who has reasonable cause to believe a vulnerable adult is suffering from abuse, neglect, or exploitation must report it to the Department of Human Services (1-800-522-3511), local law enforcement, or the district attorney. Good faith reporters have immunity from civil and criminal liability.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notarizing for Incapacitated Signers: An Oklahoma Guide"
+
+        title="Notarizing for Incapacitated Signers: An Oklahoma Guide"
         pageDescription="Learn Oklahoma"
+
+        description="Learn Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/notarizing-documents-incapacitated-individuals-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notarizing for Incapacitated Signers: An Oklahoma Guide
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Yes, a dementia diagnosis alone does not prevent notarization. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-14').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             Picture this: your aging mother has been diagnosed with early-stage dementia, and your family urgently needs her to sign a durable power of attorney so you can manage her medical bills and insurance. You call a mobile notary to her assisted living facility in Tulsa, but when the notary arrives, your mother seems confused about why she is signing. What happens now? Can the notary proceed? This is one of the most emotionally charged and legally complex situations an Oklahoma notary can face — and it happens more often than you might think. Research shows that nearly one in five legal documents involving elderly signers faces challenges related to questions about mental state. Understanding how Oklahoma law handles notarizations for incapacitated individuals is essential for notaries, families, and caregivers across all 77 Oklahoma counties.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Understanding Incapacity vs. Competency in Oklahoma Notarizations</h2>
           <p>
             Before we dive into the practical steps, let us clear up a critical distinction that confuses many people — including some notaries. <strong>Capacity</strong> and <strong>competency</strong> are not the same thing, and understanding the difference is foundational to handling these signings correctly.

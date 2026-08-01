@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-04',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Generally, no — courier services like FedEx, UPS, and USPS fall under HIPAA\\\'s "mere conduit" exception because they only transport information with transient, incidental access...',
+    'ai-key-facts': 'Is a courier service considered a HIPAA Business Associate: Generally, no — courier services like FedEx, UP...; Can using a courier waive attorney-client privilege in Oklahoma: Under 12 O; Do law firms need a Business Associate Agreement with their courier service: If the courier qualifies as a "mere conduit" un...; What is the "minimum necessary" standard and how does it apply to document delivery: The HIPAA Privacy Rule requires that only the m...',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="HIPAA-Compliant Document Delivery for Oklahoma Law Firms"
+
+        title="HIPAA-Compliant Document Delivery for Oklahoma Law Firms"
         pageDescription="Protect client data with HIPAA-compliant document delivery. Learn how Oklahoma couriers safeguard attorney-client privilege and avoid costly violations."
+
+        description="Protect client data with HIPAA-compliant document delivery. Learn how Oklahoma couriers safeguard attorney-client privilege and avoid costly violations."
         pageUrl="https://justlegalsolutions.org/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             HIPAA-Compliant Document Delivery for Oklahoma Law Firms
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">Generally, no — courier services like FedEx, UPS, and USPS fall under HIPAA\&apos;s &quot;mere conduit&quot; exception because they only transport information with transient, incidental access and no persistent storage. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-04').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +163,8 @@ export default function BlogPost() {
             It is a medical malpractice case in Oklahoma County. Your courier is transporting four hundred pages of patient records, expert witness reports, and attorney strategy memos — all in the same sealed envelope. That envelope now holds two entirely separate legal protections: HIPAA-covered health information and attorney-client privileged communications. One breach in transport, and your firm could face HIPAA violations, privilege waiver, work product exposure, and a malpractice claim — all from a single mishandled delivery. If you are relying on a <strong>HIPAA compliant courier Oklahoma</strong> law firms can depend on, you need one who understands both shields.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>When Legal Documents Contain Medical Secrets — Why Document Delivery Is a Privacy Minefield</h2>
           <p>
             Walk into any Oklahoma law firm handling personal injury, medical malpractice, insurance defense, workers' compensation, or criminal defense cases, and you will find file cabinets and document boxes that contain a dual-classification problem. A single personal injury file might hold medical records from OU Health, psychiatric evaluations from a Tulsa provider, insurance correspondence with embedded diagnoses, and your own litigation strategy memos analyzing that medical evidence. Each document type carries different legal protections, but they all travel together in the same envelope, box, or courier bag.

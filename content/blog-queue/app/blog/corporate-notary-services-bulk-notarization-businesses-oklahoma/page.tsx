@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Corporate Notary: Bulk Notarization for Oklahoma Businesses',
-  description: 'Discover how Oklahoma businesses save time and money with corporate notary services. Learn about bulk pricing, RON options, and statewide coverage across all 77 counties.',
+  description: 'Oklahoma businesses use corporate notary bulk pricing, RON, and mobile service within the $5 per-signature cap under 49 O.S. § 5. Volume discounts cover al...',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Corporate Notary: Bulk Notarization for Oklahoma Businesses',
-    description: 'Discover how Oklahoma businesses save time and money with corporate notary services. Learn about bulk pricing, RON options, and statewide coverage across all 77 counties.',
+    description: 'Oklahoma businesses use corporate notary bulk pricing, RON, and mobile service within the $5 per-signature cap under 49 O.S. § 5. Volume discounts cover all 77 counties.',
     url: 'https://justlegalsolutions.org/blog/corporate-notary-services-bulk-notarization-businesses-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-27',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Corporate notary services in Oklahoma offer businesses volume discounts, mobile and remote notarization options, and predictable pricing models — all while staying within the state's $5 per-signature statutory cap under 49 O.S. § 5.',
+    'ai-key-facts': 'Oklahoma caps traditional notarization at $5 per signature under 49 O.S. § 5; Remote Online Notarization (RON) is capped at $25 per act under 49 O.S. § 209; businesses processing 10+ documents monthly qualify for volume discounts of 15-30%; monthly retainer agreements reduce total notarization costs by 20-40% across all 77 counties',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'What types of business documents can a corporate notary service handle in Oklahoma?',
     answer: 'Corporate notary services in Oklahoma can handle virtually any business document requiring notarization, including corporate resolutions and board minutes, contracts and agreements, articles of incorporation, LLC operating agreements, powers of attorney, employee I-9 verifications, real estate deeds and loan packages, affidavits, and financial documents. Both traditional in-person and Remote Online Notarization (RON) options are available under Oklahoma law.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'Do Oklahoma notaries need special credentials to handle corporate documents?',
     answer: 'No special credentials are required beyond a standard Oklahoma notary commission. However, corporate clients should seek notaries experienced with business documents \u2014 particularly loan signing agents for real estate matters, or notaries familiar with corporate resolutions, powers of attorney, and multi-party signings. All Oklahoma notaries must maintain a $10,000 surety bond (49 O.S. \u00a7 2). Best-practice notaries also carry Errors & Omissions (E&O) insurance and maintain detailed journals.',
-  },
-  {
-    question: 'Can a notary come to our office for a bulk notarization appointment in Oklahoma?',
-    answer: 'Absolutely. Mobile notary services are available throughout all 77 Oklahoma counties. A mobile notary will travel to your business location with all necessary supplies and can process dozens of signatures in a single appointment. For maximum efficiency, businesses should have all documents pre-organized, signers scheduled in blocks, and valid government-issued photo IDs ready. Travel fees vary by distance but can be reduced or waived for high-volume recurring appointments.',
-  },
-  {
-    question: 'What is a notary retainer agreement and how does it benefit Oklahoma businesses?',
-    answer: 'A notary retainer agreement is a contractual arrangement where a business pays a fixed monthly or quarterly fee in exchange for priority notary service, discounted or waived travel fees, and predictable per-act pricing. This model benefits businesses with recurring notarization needs \u2014 such as law firms, title companies, medical practices, and HR departments \u2014 by eliminating per-appointment scheduling friction, providing guaranteed availability, and reducing overall notarization costs by 20-40%.',
-  },
-  {
-    question: 'How do I calculate the total cost of a bulk notarization project for my Oklahoma business?',
-    answer: 'Total cost = (Number of signatures x $5 notary fee) + service fees. For example, 20 documents with 1 signature each = $100 in notary fees. Add travel ($25-$75), scheduling/after-hours fees if applicable ($0-$50), and RON platform fees if using remote notarization ($5-$15 per session). Volume discounts typically apply to service fees. Always request an itemized written quote from your notary provider before scheduling a bulk appointment.',
-  },
-  {
-    question: 'Are there documents that Oklahoma notaries cannot notarize for businesses?',
-    answer: 'Oklahoma notaries cannot notarize their own signatures, provide legal advice, or notarize documents without the signer being present (physically for traditional, or via video for RON). Notaries also cannot notarize incomplete documents or documents where the signer appears coerced or unaware. Certain document types \u2014 such as wills requiring witnesses, self-proving affidavits, or documents destined for international use requiring apostille \u2014 may have additional requirements. Always inform your notary in advance about the specific document types in your bulk appointment.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Corporate Notary: Bulk Notarization for Oklahoma Businesses"
-        pageDescription="Discover how Oklahoma businesses save time and money with corporate notary services. Learn about bulk pricing, RON options, and statewide coverage across all 77 counties."
+
+        title="Corporate Notary: Bulk Notarization for Oklahoma Businesses"
+        pageDescription="Oklahoma businesses use corporate notary bulk pricing, RON, and mobile service within the $5 per-signature cap under 49 O.S. § 5. Volume discounts cover all 77 counties."
+
+        description="Oklahoma businesses use corporate notary bulk pricing, RON, and mobile service within the $5 per-signature cap under 49 O.S. § 5. Volume discounts cover all 77 counties."
         pageUrl="https://justlegalsolutions.org/blog/corporate-notary-services-bulk-notarization-businesses-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Corporate Notary: Bulk Notarization for Oklahoma Businesses
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Oklahoma businesses processing <strong>10 or more documents per month</strong> save substantially through corporate notary services with volume discounts on travel and scheduling fees — while the notary act itself is capped at <strong>$5 per signature</strong> under 49 O.S. § 5. <strong>Remote Online Notarization (RON)</strong>, available since 2020 under 49 O.S. § 201 et seq., allows bulk notarization via secure video conference at <strong>$25 per act</strong>. Mobile notaries serve all <strong>77 Oklahoma counties</strong> and offer monthly retainer agreements that reduce total notarization costs by 20-40%.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-27').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -151,6 +149,8 @@ export default function BlogPost() {
             If your Oklahoma business processes more than a handful of documents each month, you have probably felt the frustration of tracking down a notary one signature at a time. Maybe your office manager runs to the bank at lunch. Maybe your paralegal spends an afternoon driving between signers. Or worse, a critical closing gets delayed because someone could not find a notary before 5 p.m. That is where corporate notary services come in, and if you are operating in Oklahoma, the state\'s unique fee structure makes bulk notarization one of the smartest operational decisions you can make.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>What Is a Corporate Notary Service and Why Do Oklahoma Businesses Need One?</h2>
 
           <h3>Defining Corporate Notary Services vs. Individual Notarization</h3>

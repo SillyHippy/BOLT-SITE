@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma corporate resolutions are legally binding without notarization, but banks and lenders often require it. Learn when representative capacity acknowledgments are needed and how RON simplifies notarizing written consents under 18 O.S. § 1073.',
+    'ai-key-facts': 'Corporate resolutions are binding without notarization under Oklahoma law; banks and lenders often require notarized resolutions for accounts and loans; written consents without meetings are permitted under 18 O.S. § 1073; Oklahoma's representative capacity acknowledgment under 49 O.S. § 119 is the standard notarial certificate for corporate officers',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'Does a corporate resolution need to be notarized in Oklahoma?',
     answer:
@@ -72,27 +74,7 @@ const faqs: { question: string; answer: string }[] = [
     question: 'How much does it cost to notarize a corporate resolution in Oklahoma?',
     answer:
       'Oklahoma law caps traditional notarization fees at $5 per signature under 49 O.S. § 5. Remote Online Notarization (RON) is capped at $25 per act under 49 O.S. § 209. Mobile notary travel fees are separate and vary by distance and location. For exact pricing tailored to your corporate notarization needs, visit our pricing page.',
-  },
-  {
-    question: 'Can a corporate resolution be notarized online in Oklahoma?',
-    answer:
-      'Yes. Oklahoma has permitted Remote Online Notarization (RON) since January 1, 2020, under 49 O.S. §§ 201-214. A corporate officer can appear before an Oklahoma-commissioned notary via secure video conference from anywhere in the U.S. or internationally if the document relates to U.S. jurisdiction. This is especially useful for Oklahoma corporations with out-of-state directors or shareholders who need to execute written consents.',
-  },
-  {
-    question: 'Do banks in Oklahoma always require notarized corporate resolutions?',
-    answer:
-      'Not always, but most do. National banks regulated by the OCC technically eliminated notarization requirements for corporate resolutions in 2008, but many state-chartered banks, credit unions, and commercial lenders in Oklahoma still require them. Opening a business checking account, securing an SBA loan, applying for a commercial mortgage, or establishing Treasury Management services are common scenarios where notarization is requested.',
-  },
-  {
-    question: 'What documents should a corporate officer bring to a notary appointment for a corporate resolution?',
-    answer:
-      'The officer should bring: (1) the unsigned corporate resolution document, (2) a valid government-issued photo ID, (3) the corporate seal if the corporation maintains one, and (4) any supporting documentation from the bank or requesting party specifying the required notarial certificate wording. Do not sign the resolution before meeting the notary — Oklahoma requires the signature to be acknowledged in the notary\'s presence or on camera for RON.',
-  },
-  {
-    question: 'If a corporate resolution needs to be used internationally, does it need an apostille?',
-    answer:
-      'Yes. If a notarized corporate resolution will be submitted to a foreign government or bank in a Hague Convention country, it must receive an apostille from the Oklahoma Secretary of State. The process requires that the resolution first be notarized by an Oklahoma-commissioned notary, and then the notarized document is submitted to the Oklahoma Secretary of State with the applicable fee for apostille certification. Non-Hague Convention countries require additional embassy certification. Learn more on our apostille and document authentication services page.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -101,7 +83,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Corporate Resolution Notarization in Oklahoma Guide"
+
+        title="Corporate Resolution Notarization in Oklahoma Guide"
         pageDescription="Learn when Oklahoma corporate resolutions need notarization, how representative capacity acknowledgments work, and your RON options for board meetings."
+
+        description="Learn when Oklahoma corporate resolutions need notarization, how representative capacity acknowledgments work, and your RON options for board meetings."
         pageUrl="https://justlegalsolutions.org/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -146,6 +132,14 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Corporate Resolution Notarization in Oklahoma Guide
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+            <p className="text-gray-800">
+              Under Oklahoma law, corporate resolutions are generally <strong>legally binding without notarization</strong> — the signatures of properly authorized board members or shareholders are sufficient. However, external parties such as <strong>banks and commercial lenders</strong> frequently require notarized resolutions to open business accounts or approve loans. Written consents without meetings are permitted under <strong>18 O.S. § 1073</strong>, and Oklahoma's representative capacity acknowledgment under <strong>49 O.S. § 119</strong> is the standard notarial certificate used for corporate officers signing on behalf of their entity.
+            </p>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-28').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -168,6 +162,8 @@ export default function BlogPost() {
             back to the notary for a do-over.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>What Is a Corporate Resolution and When Does It Need Notarization?</h2>
 
           <h3>The Basics: What a Corporate Resolution Actually Is</h3>

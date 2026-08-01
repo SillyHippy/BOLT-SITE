@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'An Affidavit of Service \\u2014 also called a Return of Service or Proof of Service \\u2014 is a sworn legal document signed by a licensed process server under penalty of perjury....',
+    'ai-key-facts': 'What is an Affidavit of Service in Oklahoma: An Affidavit of Service \\u2014 also called a Re...; What must be included in an Oklahoma Affidavit of Service: Under 12 O; What happens if proof of service is not filed with the court: Under 12 O; How long does a process server have to serve papers in Oklahoma: Under 12 O',
   },
 };
 
@@ -107,7 +109,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Document Service Attempts: Affidavit Best Practices"
+
+        title="How to Document Service Attempts: Affidavit Best Practices"
         pageDescription="Learn how Oklahoma process servers document service attempts beyond the statutory minimum. Discover best practices for affidavits that hold up in court."
+
+        description="Learn how Oklahoma process servers document service attempts beyond the statutory minimum. Discover best practices for affidavits that hold up in court."
         pageUrl="https://justlegalsolutions.org/blog/document-service-attempts-best-practices-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -152,6 +158,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Document Service Attempts: Affidavit Best Practices
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">An Affidavit of Service \u2014 also called a Return of Service or Proof of Service \u2014 is a sworn legal document signed by a licensed process server under penalty of perjury. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -173,6 +185,8 @@ export default function BlogPost() {
             don\'t just meet the law \u2014 they hold up when it matters most.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>
             The Five-Element Trap \u2014 Why Oklahoma\'s Statutory Minimum
             Isn\'t Enough

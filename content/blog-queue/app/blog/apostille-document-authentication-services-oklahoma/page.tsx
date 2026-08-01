@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Apostille & Document Authentication in Oklahoma',
-  description: 'Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties.',
+  description: 'Learn how to get Oklahoma documents apostilled for 127+ Hague countries. Covers $25 state fees, the 12-month vital record rule, and walk-in service in OKC.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Apostille & Document Authentication in Oklahoma',
-    description: 'Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties.',
+    description: 'Get your Oklahoma documents apostilled for 127+ Hague countries. Covers $25 state fees, 12-month vital record rules, and walk-in service across all 77 Oklahoma counties.',
     url: 'https://justlegalsolutions.org/blog/apostille-document-authentication-services-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,10 +39,12 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-13',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'Oklahoma apostille services authenticate documents for use in 127+ Hague Convention countries — learn the $25 state fee, 12-month vital records rule, and step-by-step process to avoid common rejection mistakes.',
+    'ai-key-facts': 'Oklahoma Secretary of State charges $25 per apostille with same-day walk-in service available; Vital records must be certified copies issued within the last 12 months; Remote Online Notarization documents are fully eligible for apostille under Oklahoma Title 49; Federal documents must go through the U.S. Department of State, not the Oklahoma Secretary of State',
   },
 };
 
-const faqs: { question: string; answer: string }[] = [
+const faqs = [
   {
     question: 'What is an apostille and why do I need one for my Oklahoma document?',
     answer: 'An apostille is a certificate that authenticates the origin of a public document — such as a birth certificate, notarized affidavit, or court order — for use in foreign countries that are members of the Hague Apostille Convention of 1961. If you need to use an Oklahoma-issued document abroad for purposes like international adoption, marriage, business formation, or visa applications, the receiving country will likely require an apostille to verify the document\'s authenticity.',
@@ -66,23 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: 'What\'s the difference between an apostille and authentication/legalization?',
     answer: 'An apostille is a simplified, single-step certification used only for countries that are members of the Hague Apostille Convention — currently 127+ countries. Authentication is a multi-step process required for non-Hague countries: your document is first authenticated by the Oklahoma Secretary of State, then by the U.S. Department of State, and finally legalized by the destination country\'s embassy or consulate. Notable non-Hague countries include Vietnam, Thailand, Malaysia, and Lebanon. The apostille process is faster and less expensive; the authentication pathway takes longer and involves more fees.',
-  },
-  {
-    question: 'Does my birth certificate need to be a recent copy to get an apostille in Oklahoma?',
-    answer: 'Yes. Oklahoma requires that vital records — including birth certificates, death certificates, marriage licenses, and divorce decrees — be certified copies issued within the last 12 months. This is one of the most common reasons apostille requests get rejected. You can obtain a current certified copy from the Oklahoma State Department of Health by calling (405) 426-8880 or through VitalChek.com. We recommend ordering your fresh certified copy before starting the apostille process to avoid delays.',
-  },
-  {
-    question: 'What countries accept an Oklahoma apostille?',
-    answer: 'As of 2025, over 127 countries are members of the Hague Apostille Convention and accept apostilles. Recent additions include China (joined November 2023), Canada (joined January 2024), Saudi Arabia (joined 2022), and Bangladesh (joined March 2025). Major countries include Mexico, the United Kingdom, Germany, France, Japan, South Korea, India (since July 2005), and Australia. Non-member countries like Vietnam, Thailand, UAE, and Malaysia require the full authentication and legalization process instead.',
-  },
-  {
-    question: 'Can I get an apostille if my document is from another state?',
-    answer: 'No. The Oklahoma Secretary of State can only apostille documents that were issued or notarized in Oklahoma. If your document originated in another state — for example, a Texas birth certificate or a California court order — you must contact that state\'s Secretary of State office for apostille services. At Just Legal Solutions, we can help coordinate apostilles for documents from any U.S. state, even if you\'re currently living abroad. We have a nationwide network of trusted partners who can handle document retrieval and apostille processing in their respective states.',
-  },
-  {
-    question: 'Can I walk in to the Oklahoma Secretary of State for same-day apostille service?',
-    answer: 'Yes. Walk-in service is available at 421 NW 13th St, Suite 210, Oklahoma City, OK 73103, Monday through Friday, 8:00 AM to 4:30 PM. Same-day counter service is typically available. You must bring the original certified or notarized document, a completed apostille request form, the $25 fee per document, and specify the destination country where the document will be used. If you\'re unable to visit the office yourself, Just Legal Solutions offers walk-in submission services — we\'ll handle the trip to the Secretary of State\'s office for you.',
-  },
+  }
 ];
 
 export default function BlogPost() {
@@ -91,7 +77,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Apostille & Document Authentication in Oklahoma"
-        pageDescription="Navigate Oklahoma apostille and document authentication with ease. Learn about the Hague Convention, state fees, vital record rules, and how JLS handles it all across 77 counties."
+
+        title="Apostille & Document Authentication in Oklahoma"
+        pageDescription="Get your Oklahoma documents apostilled for 127+ Hague countries. Covers $25 state fees, 12-month vital record rules, and walk-in service across all 77 Oklahoma counties."
+
+        description="Get your Oklahoma documents apostilled for 127+ Hague countries. Covers $25 state fees, 12-month vital record rules, and walk-in service across all 77 Oklahoma counties."
         pageUrl="https://justlegalsolutions.org/blog/apostille-document-authentication-services-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +126,9 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Apostille & Document Authentication in Oklahoma
           </h1>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
+          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 text-left max-w-2xl mx-auto"><h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2><p className="text-gray-800">An apostille is a single certificate from the Oklahoma Secretary of State that authenticates your document for use in any of the 127+ Hague Convention countries. The state fee is $25 per document, vital records must be certified copies issued within the last 12 months, and same-day walk-in service is available in Oklahoma City. For non-Hague countries, you will need the full authentication and legalization pathway.</p></div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-13').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -151,6 +144,8 @@ export default function BlogPost() {
             If you need to use an Oklahoma-issued document in another country — whether for marriage, adoption, business expansion, or immigration — you will almost certainly need an apostille or full document authentication. The process sounds intimidating, but it doesn&apos;t have to be. In this guide, we&apos;ll walk you through everything you need to know about Oklahoma apostille services, from the Hague Convention basics to the specific steps for getting your documents approved the first time.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>What Is an Apostille and When Do You Need One?</h2>
           <p>
             Let&apos;s start with the basics. An apostille (pronounced uh-poss-teel) is simply a certificate that authenticates the origin of a public document so it can be recognized in a foreign country. Think of it as an international notary stamp — it tells the receiving country that the signature, seal, or stamp on your Oklahoma document is genuine and that the person who signed it had the authority to do so.

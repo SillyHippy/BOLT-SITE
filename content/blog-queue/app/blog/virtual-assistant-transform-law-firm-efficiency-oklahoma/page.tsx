@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-08',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
+    'ai-summary': 'A legal virtual assistant is a remote professional who handles administrative, operational, and technical support tasks for law firms — such as client intake, scheduling, docume...',
+    'ai-key-facts': 'What is a legal virtual assistant, and how are they different from a paralegal: A legal virtual assistant is a remote professio...; Is it ethical for an Oklahoma attorney to hire a virtual assistant: Yes; What tasks can I ethically delegate to a virtual assistant under Oklahoma law: Under Oklahoma\\\'s ethical rules, attorneys may ...; How much does a legal virtual assistant cost compared to an in-house employee: A full-time in-house legal assistant in Oklahom...',
   },
 };
 
@@ -91,7 +93,11 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How a VA Can Transform Your Law Firm"
+
+        title="How a VA Can Transform Your Law Firm"
         pageDescription="Discover how virtual assistants boost Oklahoma law firm efficiency, cut overhead costs, and reclaim billable hours. Learn ORPC-compliant delegation rules."
+
+        description="Discover how virtual assistants boost Oklahoma law firm efficiency, cut overhead costs, and reclaim billable hours. Learn ORPC-compliant delegation rules."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -136,6 +142,12 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How a VA Can Transform Your Law Firm\
           </h1>
+
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
+          <p className="text-gray-800">A legal virtual assistant is a remote professional who handles administrative, operational, and technical support tasks for law firms — such as client intake, scheduling, document formatting, billing support, and case file organization. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
+        </div>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-08').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -155,6 +167,8 @@ export default function BlogPost() {
             virtual assistant can change that — and this guide will show you exactly how.
           </p>
 
+
+<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Billable Hours Crisis Facing Oklahoma Attorneys</h2>
           <p>
             Here is a number that should stop every Oklahoma attorney in their tracks: <strong>67% of your workday is consumed by non-billable tasks.</strong> That is not anecdotal — it is data from Clio's 2025 Legal Trends Report, which found that attorneys nationwide bill an average of just 2.6 hours during an eight-hour day. The other 5.4 hours vanish into client intake calls, calendar management, document formatting, billing administration, email triage, file organization, and court calendaring. If you bill at $250 to $350 per hour, you are essentially spending half your day on $25-per-hour tasks while high-value legal work sits unfinished.
