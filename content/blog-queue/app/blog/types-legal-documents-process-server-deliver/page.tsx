@@ -66,9 +66,8 @@ export default function BlogPost() {
             corporate service on registered agents—each with its own method rules under{' '}
             <strong>12 O.S. § 2004</strong>.
           </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-        </div>
+          </div>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <p className="text-gray-600 mb-8 text-lg">Understanding what documents a process server can deliver is essential for attorneys, landlords, and individuals navigating the legal system. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle virtually every type of legal document that requires personal service. In this guide, we break down the complete list of documents a process server can deliver and explain the specific handling requirements for each category.</p>
         <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. § 2004 and Title 49 O.S.</p>

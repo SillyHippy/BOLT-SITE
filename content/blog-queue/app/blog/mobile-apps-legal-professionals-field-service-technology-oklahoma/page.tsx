@@ -165,9 +165,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               Under <strong>12A O.S. § 15-101 (UETA)</strong>, mobile GPS logs, photos, and e-affidavits are court-admissible when authentic. Build a stack: <strong>ServeManager</strong> (offline serves), <strong>Clio/MyCase</strong> (time and files), <strong>DocuSign</strong>, <strong>RON</strong> under <strong>49 O.S. § 111</strong>, and <strong>OSCN</strong> e-filing from the field.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-10-15').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -182,8 +183,6 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             You are on a front porch in rural Pushmataha County. No cell service for miles. You have just attempted service and need to document GPS coordinates, timestamped photos, and a detailed affidavit before you lose daylight driving back through the Kiamichi Mountains. A decade ago, you would have scribbled notes and hoped you remembered every detail by the time you reached your office printer. Today, you pull out your smartphone, open one app, and handle it all in under three minutes — offline, court-admissible, and attorney-ready before you shift the truck into drive.
           </p>
-
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>Why Your Smartphone Is Now the Most Powerful Tool in Your Legal Field Kit</h2>
 

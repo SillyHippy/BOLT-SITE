@@ -145,9 +145,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               Use <strong>standard</strong> service when you are well inside Oklahoma&apos;s <strong>180-day</strong> window (12 O.S. § 2004(I)); upgrade to <strong>rush</strong> for hearings in 3–7 days or day 120+ cases; choose <strong>same-day</strong> or <strong>2-hour emergency</strong> for TROs, tomorrow&apos;s hearings, or day-160+ risk—all tiers produce equally valid service.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-30').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

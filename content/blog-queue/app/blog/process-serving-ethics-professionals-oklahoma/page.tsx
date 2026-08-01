@@ -145,9 +145,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               <strong>Oklahoma licensed servers</strong> under <strong>12 O.S. § 158.1</strong> must show <strong>good moral character</strong>, post a <strong>$5,000 bond</strong>, and face <strong>license revocation</strong> for false affidavits; <strong>NAPPS ethics</strong> and <strong>GPS-backed proof</strong> help attorneys avoid <strong>sewer service</strong> and successful challenges to service.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-23').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

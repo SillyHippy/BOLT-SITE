@@ -148,9 +148,10 @@ export default function BlogPost() {
               Oklahoma enforces sister-state custody orders under the <strong>UCCJEA</strong> through <strong>registration</strong> (20-day contest after service) or <strong>expedited enforcement</strong> (hearing on the next judicial day after service). Under{' '}
               <strong>43 O.S. § 551-309</strong>, serve the respondent and anyone with physical custody of the child per <strong>12 O.S. § 2004</strong>—delays can postpone recovery of the child.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>

@@ -145,7 +145,6 @@ export default function BlogPost() {
             <p className="text-gray-800">
               Under <strong>12 O.S. § 2004.3</strong>, Oklahoma authorizes <strong>commercial couriers</strong> (with signed receipts) instead of certified mail for many paper deliveries—couriers file, transport, and retrieve documents; <strong>formal service of process</strong> still requires a <strong>licensed server under 12 O.S. § 158.1</strong>, with bonded couriers documenting GPS chain of custody for admissibility.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">

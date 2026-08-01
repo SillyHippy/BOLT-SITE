@@ -165,7 +165,6 @@ export default function BlogPost() {
             <p className="text-gray-800">
               Oklahoma attorneys lose roughly <strong>600 billable hours a year</strong> to admin; <strong>virtual assistants</strong> often cut support costs <strong>40–75%</strong>, while <strong>licensed process servers</strong> ($35–$60) and <strong>mobile/RON notary</strong> beat attorney travel time—bundling filing, service, notary, and courier under one vendor reduces coordination overhead without cutting client service.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">

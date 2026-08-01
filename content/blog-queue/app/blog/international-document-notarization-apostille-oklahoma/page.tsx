@@ -143,9 +143,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               For use abroad, Oklahoma documents in <strong>Hague Convention</strong> countries need valid <strong>notarization</strong>, then a <strong>$25 apostille</strong> from the Oklahoma Secretary of State. <strong>Vital records</strong> must be court- or state-certified within the <strong>past 12 months</strong>. Overseas signers may use <strong>RON under 49 O.S. § 205</strong>; foreign documents with apostilles are recognized in Oklahoma under <strong>49 O.S. § 117</strong>.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-21').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>

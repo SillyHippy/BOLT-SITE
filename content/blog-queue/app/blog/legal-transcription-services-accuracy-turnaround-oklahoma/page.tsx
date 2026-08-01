@@ -147,9 +147,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               Expect <strong>99%+ human-reviewed</strong> transcripts—not AI alone—for Oklahoma courts; comply with <strong>20 O.S. § 106.4</strong> formatting and <strong>20 O.S. § 106.5</strong> certification; plan <strong>7–10 business days</strong> standard (rush available) and deliver impeachment transcripts before cross under <strong>12 O.S. § 2613</strong>.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -164,8 +165,6 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             When you are staring down a trial date and the deposition transcript still has not arrived, you quickly realize that legal transcription services are not just a convenience, they are a lifeline. For Oklahoma attorneys practicing across all 77 counties, the twin pressures of accuracy and speed have never been more critical. With 64 court reporter vacancies statewide and a national stenographer workforce that has shrunk by 21% in the last decade, understanding what separates a reliable transcription provider from a risky one can mean the difference between a case that runs smoothly and one that unravels at the eleventh hour.
           </p>
-
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>The Court Reporter Crisis in Oklahoma: Why Transcription Services Matter Now More Than Ever</h2>
 

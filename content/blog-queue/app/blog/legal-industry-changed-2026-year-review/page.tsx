@@ -145,9 +145,10 @@ export default function BlogPost() {
             <p className="text-gray-800">
               <strong>2026</strong> mainstreamed <strong>AI</strong> (~69% daily use), squeezed the <strong>billable hour</strong> as AFAs surged, and raised <strong>cybersecurity</strong> stakes after major breaches—while Oklahoma courts added <strong>January 2026 e-filing for case-initiating civil documents</strong>; licensed <strong>process servers</strong> under <strong>12 O.S. § 158.1</strong> remain essential for physical service.
             </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           </div>
+          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
+
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-11').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -162,8 +163,6 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Grab a coffee — let's talk about what actually happened to the legal industry in 2026. Here's a number that should get your attention: 69% of legal professionals now use AI tools daily in their work, up from just 31% in 2025. If that doesn't tell you 2026 was a transformative year, nothing will. At Just Legal Solutions, we've had a front-row seat to these changes across all 77 Oklahoma counties, and we're breaking down the forces that reshaped legal practice this year — from AI crossing the adoption tipping point to record profits built on unstable ground, from the billable hour facing existential pressure to Oklahoma's own courts stepping firmly into the digital age. This review draws from authoritative sources including Thomson Reuters, Wolters Kluwer, and the Oklahoma Supreme Court — and we're translating it all into practical guidance for Oklahoma legal professionals.
           </p>
-
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
           <h2>AI Crosses the Tipping Point — From Experimentation to Daily Workflow</h2>
           <p>Let's start with the story that dominated every legal conference, bar journal, and firm meeting in 2026: artificial intelligence officially crossed from curiosity to core infrastructure. The numbers from Wolters Kluwer's Future Ready Lawyer 2026 report are staggering. Sixty-nine percent of legal professionals now use general-purpose AI tools for work — more than doubling from 31% just one year ago. And legal-specific AI tools? Adoption doubled from 21% in 2024 to 42% in 2026. Globally, over 90% of lawyers now use at least one AI tool in their daily workflow. We're not talking about early adopters anymore — this is mainstream.</p>

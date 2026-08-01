@@ -110,9 +110,9 @@ export default function BlogPost() {
             <strong>proper service under 12 O.S. § 2004</strong> before a hearing—often{' '}
             <strong>30–60 days</strong> after proof of service is filed.
           </p>
-          <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         </div>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
 
         <p className="text-gray-600 mb-8 text-lg">
           Navigating the small claims process in Tulsa County can feel
