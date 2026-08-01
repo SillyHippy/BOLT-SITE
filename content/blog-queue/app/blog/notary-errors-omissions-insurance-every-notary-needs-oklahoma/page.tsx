@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary E&O Insurance: Why Every Oklahoma Notary Needs It',
-  description: 'Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn. Learn Oklahoma rules, statutory deadlines, and professional process serving options sta...',
+  description: 'Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'No, Oklahoma law does not require E&O insurance — only the $10,000 notary bond is mandatory under 49 O.S. § 2.A.',
-    'ai-key-facts': 'Is E&O insurance required for Oklahoma notaries: No, Oklahoma law does not require E&O insurance...; What\'s the difference between a notary bond and E&O insurance in Oklahoma: The bond protects the public from financial los...; How much does notary E&O insurance cost in Oklahoma: E&O insurance is remarkably affordable; What does notary E&O insurance cover in Oklahoma: E&O insurance covers unintentional errors and o...',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Is E&O insurance required for Oklahoma notaries?',
     answer: 'No, Oklahoma law does not require E&O insurance — only the $10,000 notary bond is mandatory under 49 O.S. § 2.A. However, the Oklahoma Secretary of State and legal experts strongly recommend it because the required bond protects the public, not you personally. Without E&O insurance, you are personally liable for any legal defense costs or damages resulting from a notarization error or false claim.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'How long can someone wait to sue me for a notarization in Oklahoma?',
     answer: 'Under 49 O.S. § 10, a lawsuit must be filed within 3 years after the cause of action accrues. This means you can face a lawsuit up to 3 years after a notarization — well into a future commission term or even after retirement. Because Oklahoma does not require journals for most notarizations, notaries who don\'t keep records have very limited defense against delayed claims.',
-  }
+  },
+  {
+    question: 'Can I be sued even if I didn\'t make a mistake as a notary?',
+    answer: 'Yes. Even baseless or fraudulent claims require you to hire an attorney and mount a legal defense, which can cost thousands of dollars. E&O insurance covers defense costs regardless of whether you are ultimately found at fault. This is one of the most important reasons to carry coverage — you\'re paying for peace of mind, not just error protection.',
+  },
+  {
+    question: 'How much E&O insurance do I need as an Oklahoma notary?',
+    answer: 'For low-volume notaries, $10,000–$25,000 is typically sufficient. Mobile notaries and those handling real estate documents should consider $25,000–$50,000. Notary Signing Agents handling loan closings are often required by title companies to carry $25,000–$100,000. The right amount depends on your volume, the types of documents you handle, and any requirements from your clients or employer.',
+  },
+  {
+    question: 'Do Notary Signing Agents in Oklahoma need different insurance than regular notaries?',
+    answer: 'Yes. Standard notary E&O insurance covers only notarial acts. Signing Agents who explain loan documents, handle document packages, or perform non-notarial duties need Signing Agent E&O insurance with higher limits ($25,000–$150,000). Many title companies and signing services require specific coverage amounts before they\'ll assign work. Standard notary E&O alone does not cover these expanded duties.',
+  },
+  {
+    question: 'What happens if I perform notarial acts without E&O insurance and someone files a claim?',
+    answer: 'Without E&O insurance, you are personally responsible for all legal defense costs, court fees, settlements, and damages — even for false claims. Your $10,000 bond only covers the claimant\'s losses, and you must repay the surety company. A single lawsuit can easily exceed thousands of dollars, potentially threatening your personal savings, home, and other assets. For the cost of a few dollars per month, E&O insurance eliminates this risk.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary E&O Insurance: Why Every Oklahoma Notary Needs It"
-
-        title="Notary E&O Insurance: Why Every Oklahoma Notary Needs It"
         pageDescription="Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn"
-
-        description="Notary E&O insurance in Oklahoma: learn why the $10,000 bond doesn"
         pageUrl="https://justlegalsolutions.org/blog/notary-errors-omissions-insurance-every-notary-needs-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary E&O Insurance: Why Every Oklahoma Notary Needs It
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">No, Oklahoma law does not require E&O insurance — only the $10,000 notary bond is mandatory under 49 O.S. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-24').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             If you're an Oklahoma notary who thinks the state's new $10,000 bond requirement protects you, I need to share some uncomfortable news: it doesn't. Not even a little. That bond exists to protect the public from your mistakes — and if a claim is ever paid from it, the surety company will come knocking on your door for full reimbursement. This is the $10,000 blind spot that leaves Oklahoma notaries dangerously exposed, and it's exactly why Errors and Omissions insurance isn't just a good idea — it's essential.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The $10,000 Blind Spot: Why Oklahoma's New Bond Requirement Doesn't Protect You</h2>
 
           <h3>What Changed on January 1, 2026 Under 49 O.S. § 2</h3>

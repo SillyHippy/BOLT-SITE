@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Outsource Document Review to Virtual Assistants | Oklahoma',
-  description: 'Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and...',
+  description: 'Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-26',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes, but only under proper attorney supervision. Under ABA Model Rule 5.3 and Oklahoma Ethics Opinion No.',
-    'ai-key-facts': 'Can a virtual assistant legally review documents for my Oklahoma law firm: Yes, but only under proper attorney supervision; What Oklahoma laws protect client confidentiality when I outsource document review: Oklahoma\\\'s attorney-client privilege statute (...; Do I need to tell my client if I\\\'m using a virtual assistant for document review: Under ABA Model Rule 1; What types of document review can I safely delegate to a virtual assistant: You can delegate tasks like initial document co...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Outsource Document Review to Virtual Assistants | Oklahoma"
-
-        title="Outsource Document Review to Virtual Assistants | Oklahoma"
         pageDescription="Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies."
-
-        description="Learn how Oklahoma law firms can safely outsource document review to virtual assistants. Covers state-specific compliance, ethical rules, VA workflows, and cost-saving strategies."
         pageUrl="https://justlegalsolutions.org/blog/outsourcing-document-review-virtual-assistant-best-practices-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Outsource Document Review to Virtual Assistants | Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Yes, but only under proper attorney supervision. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-26').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Document review is eating your billable hours. If you are a solo practitioner in Tulsa or a small firm partner in Oklahoma City, you have probably stared at a mountain of discovery documents and wondered how you will get through them while still serving your clients. The good news? You do not have to do it all yourself. Virtual assistants can handle significant portions of document review — but only if you set up the delegation framework correctly. This guide walks you through everything you need to know about outsourcing document review to virtual assistants under Oklahoma law, from what you can safely delegate to the specific statutes that protect your practice.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Law Firms Are Outsourcing Document Review Now</h2>
 
           <h3>The Growing Legal Process Outsourcing Market</h3>

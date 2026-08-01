@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Virtual Assistants for Legal Document Drafting in Oklahoma',
-  description: 'Virtual legal assistants help Oklahoma law firms with document drafting and save up to 78% on costs. Learn ORPC compliance rules and attorney supervision r...',
+  description: 'Discover how virtual assistants help Oklahoma law firms with legal document drafting, save up to 78% on costs, and stay within ORPC compliance rules.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Virtual Assistants for Legal Document Drafting in Oklahoma',
-    description: 'Virtual legal assistants help Oklahoma law firms with document drafting and save up to 78% on costs. Learn ORPC compliance rules and attorney supervision requirements statewide.',
+    description: 'Discover how virtual assistants help Oklahoma law firms with legal document drafting, save up to 78% on costs, and stay within ORPC compliance rules.',
     url: 'https://justlegalsolutions.org/blog/document-preparation-virtual-assistants-legal-drafting-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-19',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Virtual assistants can legally handle document formatting, exhibit organization, and template-based drafting for Oklahoma law firms under ORPC Rules 5.3 and 5.5 — provided a licensed attorney supervises all work and retains professional responsibility.',
-    'ai-key-facts': 'Virtual assistants must work under direct attorney supervision per ORPC Rules 5.3 and 5.5; independent legal document drafting by non-lawyers is unauthorized practice under 5 O.S. § 7; firms save up to 78% on document prep costs vs. in-house paralegals at $45K-$55K annually; District Court Rule 33 permits limited-scope document drafting for pro se litigants with attorney disclosure',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Assistants for Legal Document Drafting in Oklahoma"
-
-        title="Virtual Assistants for Legal Document Drafting in Oklahoma"
-        pageDescription="Virtual legal assistants help Oklahoma law firms with document drafting and save up to 78% on costs. Learn ORPC compliance rules and attorney supervision requirements statewide."
-
-        description="Virtual legal assistants help Oklahoma law firms with document drafting and save up to 78% on costs. Learn ORPC compliance rules and attorney supervision requirements statewide."
+        pageDescription="Discover how virtual assistants help Oklahoma law firms with legal document drafting, save up to 78% on costs, and stay within ORPC compliance rules."
         pageUrl="https://justlegalsolutions.org/blog/document-preparation-virtual-assistants-legal-drafting-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistants for Legal Document Drafting in Oklahoma
           </h1>
-          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-            <p className="text-gray-800">
-              Oklahoma attorneys can legally delegate document preparation to virtual assistants under <strong>ORPC Rules 5.3 and 5.5</strong>, provided a licensed attorney supervises all work and takes professional responsibility. VAs can handle formatting pleadings, organizing exhibits, and preparing document shells from templates — but they <strong>cannot provide legal advice</strong> or independently draft legal documents, which constitutes unauthorized practice of law under <strong>5 O.S. § 7</strong>. Firms typically reduce document prep costs by <strong>up to 78%</strong> compared to in-house paralegal staffing, with virtual assistants charging $15–$40 per hour.
-            </p>
-          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you are an Oklahoma attorney struggling to find enough hours in the day, you are not alone. The latest data shows attorneys bill only 2.6 hours of an 8-hour workday — and the biggest drain on your time is document preparation. Virtual assistant legal document preparation in Oklahoma offers a practical, ORPC-compliant way to reclaim your billable hours without adding the overhead of a full-time employee. In this guide, we will walk you through exactly what a virtual assistant can legally do, where the ethical boundaries lie, and how to integrate VA support into your firm without running afoul of Oklahoma's unauthorized practice of law rules.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Document Preparation Challenge Facing Oklahoma Law Firms</h2>
 
           <h3>The Billable Hour Gap — Why Attorneys Only Log 2.6 Hours Per Day</h3>

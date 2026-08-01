@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Choose the Right Legal Support Partner in Oklahoma',
-  description: 'Learn to vet Oklahoma legal support partners by verifying 12 O.S. 158.1 licenses, bonds and insurance, and the One-Stop Partner Framework in all 77 counties.',
+  description: 'Learn how to choose the right legal support partner in Oklahoma. Verify licenses, compare services, and find a trusted provider for your law firm.',
   keywords: 'process server Oklahoma, legal support, courier, notary, skip tracing',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Choose the Right Legal Support Partner in Oklahoma',
-    description: 'Learn to vet Oklahoma legal support partners by verifying 12 O.S. 158.1 licenses, bonds and insurance, and the One-Stop Partner Framework in all 77 counties.',
+    description: 'Learn how to choose the right legal support partner in Oklahoma. Verify licenses, compare services, and find a trusted provider for your law firm.',
     url: 'https://justlegalsolutions.org/blog/choose-right-legal-support-partner-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-02',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Learn how to vet Oklahoma legal support partners by verifying licenses under 12 O.S. § 158.1, confirming bonds and insurance, and using the One-Stop Partner Framework to find integrated, trustworthy providers.',
-    'ai-key-facts': 'Verify Oklahoma process server license under 12 O.S. § 158.1 and $5,000 surety bond; Statewide license authorizes service across all 77 Oklahoma counties; Private process servers complete service in 24-48 hours vs. 2-6 weeks for sheriff departments; Red flags include no license numbers, no physical address, and well-below-market pricing',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Choose the Right Legal Support Partner in Oklahoma"
-
-        title="How to Choose the Right Legal Support Partner in Oklahoma"
-        pageDescription="Learn to vet Oklahoma legal support partners by verifying 12 O.S. 158.1 licenses, bonds and insurance, and the One-Stop Partner Framework in all 77 counties."
-
-        description="Learn to vet Oklahoma legal support partners by verifying 12 O.S. 158.1 licenses, bonds and insurance, and the One-Stop Partner Framework in all 77 counties."
+        pageDescription="Learn how to choose the right legal support partner in Oklahoma. Verify licenses, compare services, and find a trusted provider for your law firm."
         pageUrl="https://justlegalsolutions.org/blog/choose-right-legal-support-partner-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,7 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Choose the Right Legal Support Partner in Oklahoma
           </h1>
-          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 text-left max-w-2xl mx-auto"><h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2><p className="text-gray-800">Choosing the right legal support partner starts with verifying their Oklahoma process server license under 12 O.S. § 158.1, confirming bonding and insurance coverage, and ensuring true statewide service across all 77 counties. Look for integrated providers who offer process serving, notary, courier, and virtual assistant services under one roof — and walk away from anyone unwilling to provide license numbers, written agreements, or verifiable references.</p></div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -157,8 +150,6 @@ export default function BlogPost() {
             <p className="lead text-xl text-gray-600 mb-8">
             Imagine discovering three months into a case that your process server still has not located the defendant. The 180-day clock under Oklahoma law is ticking. Your client is asking questions you cannot answer. And the legal support vendor you trusted has gone radio silent. This scenario plays out more often than it should — and in nearly every instance, the root cause is the same: the firm chose a vendor instead of a partner.
           </p>
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p className="text-gray-700 mb-8">
             Over the past several years, we have spoken with dozens of Oklahoma attorneys who learned this lesson the hard way. They selected a process server based on a low quote, only to discover the server was unlicensed. They hired a courier who lost sensitive documents because there was no chain-of-custody system. They trusted a notary who was not properly bonded, creating liability issues that rippled through multiple cases. Each of these stories shares a common thread: the firm did not have a systematic framework for evaluating legal support partners before engaging them.
           </p>

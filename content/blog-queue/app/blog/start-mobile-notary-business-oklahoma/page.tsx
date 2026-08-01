@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
-  description: 'Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & st...',
+  description: 'Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Total startup costs range from approximately $250 to $600. Required costs include the $50 application fee (per SB 1028), $50-$60 for the national criminal background check throu...',
-    'ai-key-facts': 'How much does it cost to start a mobile notary business in Oklahoma: Total startup costs range from approximately $2...; What are the requirements to become a notary in Oklahoma in 2026: Under 49 O; How long does it take to become a commissioned notary in Oklahoma: The timeline varies depending on how quickly yo...; How much can I charge as a mobile notary in Oklahoma: Oklahoma law caps the notarization fee at $5 pe...',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'How much does it cost to start a mobile notary business in Oklahoma?',
     answer: 'Total startup costs range from approximately $250 to $600. Required costs include the $50 application fee (per SB 1028), $50-$60 for the national criminal background check through OSBI, $50-$100 for a $10,000 surety bond, $25 bond filing fee, $25-$50 for an official notary seal or stamp, and $15-$40 for a tamper-evident notary journal. Optional but highly recommended expenses include Errors & Omissions insurance ($15-$60 per year), LLC registration ($100 with the Oklahoma Secretary of State), and mobile supplies like a professional carrying case, portable printer, and business cards. Compared to most small businesses, mobile notary has one of the lowest barriers to entry in Oklahoma.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'Do I need Errors & Omissions (E&O) insurance?',
     answer: 'E&O insurance is not required by Oklahoma law, but it is strongly recommended for every mobile notary. Errors & Omissions insurance protects YOU, the notary, from claims arising from unintentional mistakes or oversights in your notarial work. Policies are very affordable, typically costing $15 to $60 per year for $25,000 to $100,000 in coverage. If you plan to perform loan signings as a Notary Signing Agent, many title companies and signing services will require you to carry E&O insurance as a condition of working with you. General liability insurance is another optional coverage worth considering at $200 to $500 per year, as it protects you against claims like slip-and-fall accidents or property damage that could occur while visiting clients at their homes, hospitals, or offices. For more on why E&O insurance is essential, see our guide on why every Oklahoma notary needs E&O insurance.',
-  }
+  },
+  {
+    question: 'What is Remote Online Notarization (RON), and how do I add it?',
+    answer: 'Remote Online Notarization, or RON, allows you to notarize documents for clients via secure audio-video conference technology. Oklahoma has authorized RON since January 1, 2020, and it represents a significant growth opportunity for mobile notaries. To add RON to your services, you must already hold an active Oklahoma notary commission, then apply separately to the Secretary of State with a $25 fee under 49 O.S. \u00a7 204, describe the technology platform you plan to use, and receive written authorization before performing any remote online notarizations. Under 49 O.S. \u00a7 206 and \u00a7 208, you must use approved technology that includes credential analysis, identity proofing, and audio-visual recording of each session. You may charge up to $25 per RON act under 49 O.S. \u00a7 209. The major advantage is that you can notarize for signers located anywhere in the world as long as you, the notary, remain physically located within Oklahoma.',
+  },
+  {
+    question: 'Do I need a business license or LLC to be a mobile notary in Oklahoma?',
+    answer: 'You can legally operate as a sole proprietorship using your personal name without any formal business registration beyond your notary commission. However, forming a Limited Liability Company (LLC) is highly recommended for liability protection, tax flexibility, and professional credibility. To register an LLC in Oklahoma, file articles of organization with the Oklahoma Secretary of State for a $100 fee. You should also obtain an Employer Identification Number (EIN) from the IRS at no cost, which is required for LLCs and recommended for sole proprietors to keep business income separate from personal finances. Depending on your city or municipality, you may also need a local business license. Regardless of your structure, opening a dedicated business checking account is one of the smartest moves you can make to keep your finances organized and maintain a professional image.',
+  },
+  {
+    question: 'What supplies do I need as a mobile notary in Oklahoma?',
+    answer: 'Your essential mobile notary supply kit should include: an official notary seal or stamp (self-inking stamps are most popular) that includes your name, "State of Oklahoma," "Notary Public," and your commission expiration date as required by 49 O.S. \u00a7 5; a tamper-evident notary journal, which is now mandatory under HB 2265 for recording all notarial acts and must be retained for 10 years; blue and black pens (always carry extras, as clients never seem to have one); legal-size paper and envelopes; a portable hard writing surface; your commission certificate and bond documentation; professional business cards; and a professional carrying case or messenger bag to keep everything organized. If you plan to perform loan signings, you will also want a portable printer and multi-page scanner. Optional but recommended items include a laptop or tablet, a portable phone charger, and a mileage tracking app for tax purposes.',
+  },
+  {
+    question: 'How do I find clients as a new mobile notary in Oklahoma?',
+    answer: 'Start by creating a free Google Business Profile, which is critical for appearing in local mobile notary searches. List yourself on national notary directories including NotaryCafe, 123Notary, SnapDocs (essential for loan signing work), and NotaryRotary. Build relationships with referral partners who need notary services regularly: real estate agents, title companies, attorneys, mortgage brokers, banks, and credit unions. Consider niche specialization in areas like hospitals and nursing homes (bedside notarizations for healthcare directives and powers of attorney), corporate offices (bulk notarization for contracts), and correctional facilities (premium niche work at $150 to $200 per visit). Always answer your phone, respond to inquiries within 15 minutes, follow up after every appointment, and ask satisfied clients for Google reviews. Joining local networking groups like BNI or your Chamber of Commerce can also generate valuable referral relationships across all 77 Oklahoma counties.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Start a Mobile Notary Business in Oklahoma (2026)"
-
-        title="How to Start a Mobile Notary Business in Oklahoma (2026)"
         pageDescription="Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs."
-
-        description="Learn how to start a mobile notary business in Oklahoma with our 2026 guide. Covers new $10K bond, mandatory exam, background checks, income potential & startup costs."
         pageUrl="https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Start a Mobile Notary Business in Oklahoma (2026)
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Total startup costs range from approximately $250 to $600. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             If you have been thinking about how to start a mobile notary business in Oklahoma, there has never been a better time to get started. The 2026 law changes under Senate Bill 1028 and House Bill 2265 have raised the professional bar for notaries across the state, which means well-prepared new entrants have a real competitive advantage. Whether you want a flexible side hustle or a full-time career, this step-by-step guide covers everything you need to know, from getting commissioned under the new rules to pricing your services and finding your first clients across all 77 Oklahoma counties.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Start a Mobile Notary Business in Oklahoma?</h2>
 
           <h3>The Growing Demand for Mobile Notary Services Across Oklahoma</h3>

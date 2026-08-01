@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Future of Electronic Filing and Service in Oklahoma C...",
-  description: "Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond. Learn Oklah...",
+  description: "Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.",
   keywords: 'Oklahoma electronic filing, eFiling Oklahoma courts, electronic court service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -78,12 +78,6 @@ export default function BlogPost() {
         <h1 className="text-3xl md:text-4xl font-bold mb-6">
           The Future of Electronic Filing and Service in Oklahoma Courts
         </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Many Oklahoma district courts, the Oklahoma Supreme Court, and the Court of Criminal Appeals accept electronic filing through the OSCN system. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
 
         <p className="text-gray-600 mb-8 text-lg">
           Oklahoma&apos;s court system is undergoing a significant digital transformation. With over

@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-04',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'It depends on the type of patent application and document. Provisional patent applications do not require any oath, declaration, or notarization.',
-    'ai-key-facts': 'Do patent applications need to be notarized in Oklahoma: It depends on the type of patent application an...; What is the difference between a patent oath and a declaration: An oath is a sworn statement made before a nota...; Does a patent assignment need to be notarized: Notarization is not strictly required for a pat...; How much does it cost to notarize patent documents in Oklahoma: Oklahoma law (49 O',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Do patent applications need to be notarized in Oklahoma?',
     answer: 'It depends on the type of patent application and document. Provisional patent applications do not require any oath, declaration, or notarization. Nonprovisional utility, design, plant, and reissue applications require each inventor to sign an oath or declaration under 35 U.S.C. 115. If the inventor uses the traditional oath form (PTO/AIA/08), it must be sworn before a notary public. However, most inventors now use the declaration form (PTO/AIA/01), which does not require notarization and can be signed with a handwritten or electronic signature.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What patent documents most commonly need a notary?',
     answer: 'The most common patent documents that require or benefit from notarization are: (1) inventor\'s oaths when using the oath form (PTO/AIA/08) rather than a declaration, (2) patent assignment agreements — especially inventor-to-company transfers, (3) powers of attorney for foreign patent filings, and (4) affidavits submitted to the USPTO during prosecution (such as 37 CFR 1.130 declarations to overcome prior art references).',
-  }
+  },
+  {
+    question: 'Do I need an apostille for patent documents filed in foreign countries?',
+    answer: 'If you are filing a patent application or priority document in a foreign country that is a member of the Hague Apostille Convention, an Oklahoma-notarized document typically needs an apostille from the Oklahoma Secretary of State to be recognized abroad. Under 37 CFR 1.66, foreign oaths can also be authenticated with an apostille. Countries that are not Hague members — including China, the UAE, and several others — require traditional consular legalization through the U.S. Department of State.',
+  },
+  {
+    question: 'Can a notary help with trademark applications or copyright registrations?',
+    answer: 'For U.S. trademark applications filed through the USPTO, notarization is generally not required — the applicant or attorney can sign electronically under 37 CFR 2.17. However, trademark assignments may benefit from notarization under the same 35 U.S.C. 261 prima facie evidence standard. Copyright registrations with the U.S. Copyright Office typically do not require notarization. The primary area where notaries assist with intellectual property is patent-related documents.',
+  },
+  {
+    question: 'What should I bring to a notary appointment for patent documents?',
+    answer: 'Bring a valid government-issued photo ID, the complete unsigned patent document (you must sign in the notary\'s presence), and any specific instructions from your patent attorney. For inventor oaths, the document must identify the application by title or number. For assignments, ensure the document clearly identifies the patent or application by serial number and filing date. Do not sign the document before meeting the notary — the signature must be witnessed in real time.',
+  },
+  {
+    question: 'How does the USPTO\'s new electronic signature rule affect notarization needs?',
+    answer: 'Effective March 2024, 37 CFR 1.4(d)(4) allows patent documents to be signed using electronic signature platforms like DocuSign and Adobe Sign for most USPTO filings. This means inventor declarations can now be signed electronically without a notary. However, notarization remains relevant for: (1) inventor oaths that specifically require swearing before a notary, (2) patent assignments where parties want the prima facie evidence protection of 35 U.S.C. 261, and (3) documents destined for foreign patent offices that require notarization or apostille.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary for Patent & IP Documents in Oklahoma"
-
-        title="Notary for Patent & IP Documents in Oklahoma"
         pageDescription="Discover which patent and IP documents require notarization in Oklahoma. Learn about inventor oaths, assignments, apostille services, and USPTO requirements."
-
-        description="Discover which patent and IP documents require notarization in Oklahoma. Learn about inventor oaths, assignments, apostille services, and USPTO requirements."
         pageUrl="https://justlegalsolutions.org/blog/notary-intellectual-property-filings-patent-documents-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary for Patent & IP Documents in Oklahoma
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">It depends on the type of patent application and document. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-04').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>
@@ -158,8 +160,6 @@ export default function BlogPost() {
             and international filings every single day.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Oath vs. Declaration: When Notarization Is Actually Required for Patent Documents</h2>
 
           <p>

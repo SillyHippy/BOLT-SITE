@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Virtual scheduling support involves a remote professional managing your law firm\\\'s calendar — booking client consultations, coordinating meetings, tracking deadlines under Okla...',
-    'ai-key-facts': 'What is virtual scheduling support for law firms: Virtual scheduling support involves a remote pr...; How much do law firms typically lose from appointment no-shows: A single no-show costs 1; Can a virtual assistant really understand Oklahoma court deadlines: Yes — trained virtual legal assistants learn Ok...; How does virtual scheduling help prevent legal malpractice: Approximately 34% of legal malpractice claims i...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Appointment Management for Oklahoma Law Firms"
-
-        title="Virtual Appointment Management for Oklahoma Law Firms"
         pageDescription="Discover how virtual scheduling cuts no-shows by 80%, protects Oklahoma firms from malpractice risks, and reclaims 500+ billable hours yearly. Learn more today."
-
-        description="Discover how virtual scheduling cuts no-shows by 80%, protects Oklahoma firms from malpractice risks, and reclaims 500+ billable hours yearly. Learn more today."
         pageUrl="https://justlegalsolutions.org/blog/virtual-scheduling-appointment-management-law-firms-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Appointment Management for Oklahoma Law Firms
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Virtual scheduling support involves a remote professional managing your law firm\&apos;s calendar — booking client consultations, coordinating meetings, tracking deadlines under Oklahoma court rules, sending appointment reminders, and rescheduling when conflicts arise. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -170,8 +158,6 @@ export default function BlogPost() {
             immediate, and lasting.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Appointment No-Shows Are Draining Your Oklahoma Law Firm</h2>
 
           <h3>The Hidden Cost of an Empty Conference Room</h3>

@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-13',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Under 28 U.S.C. § 116, Oklahoma is divided into Northern, Western, and Eastern Districts.',
-    'ai-key-facts': 'Which of Oklahoma\\\'s three federal districts should I file my case in: Under 28 U; Do I need an Oklahoma process server license to serve in federal court: No; What is the deadline for serving process in Oklahoma federal court: Under FRCP 4(m), you have 90 days from the date...; How do I serve the United States government in Oklahoma federal court: Under FRCP 4(i), service on the United States r...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Federal Court Process Serving: N.D., W.D., E.D."
-
-        title="Oklahoma Federal Court Process Serving: N.D., W.D., E.D."
         pageDescription="Navigate federal court process serving in Oklahoma. Learn FRCP Rule 4, the 90-day deadline, and district-specific rules for N.D., W.D., and E.D. Oklahoma."
-
-        description="Navigate federal court process serving in Oklahoma. Learn FRCP Rule 4, the 90-day deadline, and district-specific rules for N.D., W.D., and E.D. Oklahoma."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-federal-courts-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Federal Court Process Serving: N.D., W.D., E.D.
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Under 28 U.S.C. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-13').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -170,8 +158,6 @@ export default function BlogPost() {
             designed to make sure you do not have to.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Federal Court Process Serving Is Different From Oklahoma State Court</h2>
           <p>
             Oklahoma operates under a dual court system. On the state side, you have 77 counties, 

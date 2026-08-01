@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'A virtual assistant can handle the full billing lifecycle: reviewing attorney time entries for accuracy, creating draft time entries from calendars and emails, generating pre-bi...',
-    'ai-key-facts': 'What billing tasks can a virtual assistant handle for my law firm: A virtual assistant can handle the full billing...; How much does a virtual billing assistant cost compared to an in-house hire: A full-time in-house legal billing assistant ty...; Can a virtual assistant work with our existing legal billing software: Yes; Is it ethical for a virtual assistant to handle attorney billing and trust account transactions: Yes, provided the VA operates under proper atto...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Virtual Assistants Help Law Firms With Billing"
-
-        title="How Virtual Assistants Help Law Firms With Billing"
         pageDescription="Discover how virtual assistants help law firms streamline billing and collections. Recover 12+ billable hours weekly with Oklahoma-compliant VA support."
-
-        description="Discover how virtual assistants help law firms streamline billing and collections. Recover 12+ billable hours weekly with Oklahoma-compliant VA support."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistants-billing-invoicing-help-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Virtual Assistants Help Law Firms With Billing
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">A virtual assistant can handle the full billing lifecycle: reviewing attorney time entries for accuracy, creating draft time entries from calendars and emails, generating pre-bills and invoices, sending client invoices on schedule, monitoring accounts receivable, sending payment reminders, processing electronic payments through platforms like LawPay or Clio Payments, and preparing aging reports. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-05-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you are an Oklahoma attorney reading this while eating lunch at your desk between client calls, you already know the feeling. You worked a 10-hour day but only billed for 3 of them. Your invoices are two weeks overdue. And that stack of unbilled time entries is staring at you from across the room. A virtual assistant billing specialist can change all of that — and this article shows you exactly how.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Billing Problem Every Oklahoma Law Firm Faces</h2>
 
           <h3>The Shocking Reality of Lost Billable Hours</h3>

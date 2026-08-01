@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "In-State vs Out-of-State Service of Process: Oklahoma Att...",
-  description: "Oklahoma attorney's guide to out-of-state service of process. Covers interstate methods, UIDDA, and finding reliable process servers in other states. Servi...",
+  description: "Oklahoma attorney's guide to out-of-state service of process. Covers interstate methods, UIDDA, and finding reliable process servers in other states. Serving all 77 Oklahoma counties with licensed, bonded legal support.",
   keywords: 'out of state service of process, serve papers out of state, interstate process service, UIDDA Oklahoma, out of state defendant Oklahoma, interstate process server, uniform interstate depositions and discovery act',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -55,12 +55,6 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>In-State vs Out-of-State Service of Process</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide</h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Serving an out-of-state defendant requires following the rules of the state where the defendant is located, not just Oklahoma rules. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
         <p className="text-gray-600 mb-8 text-lg">When a defendant resides outside Oklahoma, service of process becomes significantly more complex. Oklahoma attorneys must navigate interstate procedures, varying state laws, and communication barriers that do not exist with in-state service. With over 50 years of combined experience and a nationwide network of vetted process servers, the <strong>Just Legal Solutions Team</strong> helps law firms across Oklahoma serve defendants in any U.S. state efficiently and in full compliance with applicable law. This guide covers everything you need to know about out-of-state service.</p>
         <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 

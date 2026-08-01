@@ -270,7 +270,7 @@ function validateSeoSchema(source, slug) {
     }
   }
 
-  const faqMatch = source.match(/const\s+faqs(?::\s*[^=]+)?\s*=\s*\[([\s\S]*?)\];/);
+  const faqMatch = source.match(/const\s+faqs\s*=\s*\[([\s\S]*?)\];/);
   if (!faqMatch) {
     errors.push('FAQ array not found: expected const faqs = [...]');
   } else {

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Scale a Solo Practice with Virtual Support',
-  description: 'Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys...',
+  description: 'Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-02',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes. Oklahoma attorneys may delegate administrative and legal support tasks to virtual assistants under ORPC Rule 5.3, provided the attorney maintains direct supervisory authori...',
-    'ai-key-facts': 'Is it ethical for Oklahoma attorneys to use virtual assistants: Yes; What tasks can I delegate to a virtual assistant as a solo Oklahoma attorney: You can delegate non-billable administrative ta...; How much does a virtual legal assistant cost compared to hiring in-house staff in Oklahoma: A full-time in-house paralegal in Oklahoma cost...; How do I ensure client confidentiality when using a remote virtual assistant: Under ORPC Rule 1',
   },
 };
 
@@ -112,11 +110,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Scale a Solo Practice with Virtual Support"
-
-        title="How to Scale a Solo Practice with Virtual Support"
         pageDescription="Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently."
-
-        description="Discover how Oklahoma solo attorneys can scale their practice with virtual assistants. Cut costs, reclaim billable hours, and grow without adding attorneys — ethically and efficiently."
         pageUrl="https://justlegalsolutions.org/blog/scale-solo-practice-virtual-support-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -161,12 +155,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How to Scale a Solo Practice with Virtual Support
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Yes. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -199,8 +187,6 @@ export default function BlogPost() {
             ethically, efficiently, and affordably.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>
             The Solo Attorney Growth Gap — Why Most Oklahoma Solos Hit a Ceiling
           </h2>

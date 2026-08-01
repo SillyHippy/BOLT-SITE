@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Virtual Assistants for Law Firm Client Intake in Oklahoma',
-  description: 'Learn how virtual assistants streamline law firm client intake in Oklahoma — from first contact to conflict checks, plus ORPC compliance, cost savings, and...',
+  description: 'Learn how virtual assistants streamline law firm client intake in Oklahoma — from first contact to conflict checks, plus ORPC compliance, cost savings, and SOP checklists.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-29',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Under Oklahoma Rule 5.3, virtual assistants can handle administrative intake tasks including answering initial inquiries, collecting contact information, scheduling consultation...',
-    'ai-key-facts': 'What tasks can a virtual assistant legally handle during law firm client intake in Oklahoma: Under Oklahoma Rule 5; How does an Oklahoma attorney maintain ethical compliance when using a virtual assistant for client intake: Oklahoma attorneys must provide "appropriate in...; How much does a legal virtual assistant cost compared to an in-house intake coordinator in Oklahoma: An in-house legal assistant in Oklahoma costs a...; Can a virtual assistant run conflict-of-interest checks for an Oklahoma law firm: Yes, with proper training and supervision',
   },
 };
 
@@ -113,11 +111,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Assistants for Law Firm Client Intake in Oklahoma"
-
-        title="Virtual Assistants for Law Firm Client Intake in Oklahoma"
         pageDescription="Learn how virtual assistants streamline law firm client intake in Oklahoma — from first contact to conflict checks, plus ORPC compliance, cost savings, and SOP checklists."
-
-        description="Learn how virtual assistants streamline law firm client intake in Oklahoma — from first contact to conflict checks, plus ORPC compliance, cost savings, and SOP checklists."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-client-intake-law-firms-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -162,12 +156,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistants for Law Firm Client Intake in Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Under Oklahoma Rule 5.3, virtual assistants can handle administrative intake tasks including answering initial inquiries, collecting contact information, scheduling consultations, sending intake forms, running conflict checks under attorney supervision, organizing documents, and managing follow-up communications. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-29').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -190,8 +178,6 @@ export default function BlogPost() {
             employee to payroll.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The $200,000 Intake Problem — Why Speed Is Everything</h2>
 
           <p>

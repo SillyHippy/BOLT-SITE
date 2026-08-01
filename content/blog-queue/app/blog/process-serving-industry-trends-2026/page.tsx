@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Process Serving Industry Trends to Watch in 2026",
-  description: "Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what's shaping the industry. Learn Oklahoma...",
+  description: "Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what's shaping the industry.",
   keywords: 'process serving industry trends, legal support industry trends, process serving 2026',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -55,12 +55,6 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Process Serving Trends 2026</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Process Serving Industry Trends to Watch in 2026</h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">The biggest technology trends include GPS verification becoming standard practice, mobile apps enabling real-time client tracking, automated status updates replacing phone calls, digital affidavit submission to courts, and artificial intelligence tools for skip tracing and route optimization. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
         <p className="text-gray-600 mb-8 text-lg">With over 50 years of combined experience in the legal support industry, the <Link href="/about" className="text-blue-600 hover:underline">team at Just Legal Solutions</Link> has a unique vantage point on the forces reshaping process serving. The industry is evolving rapidly — driven by technology adoption, changing client expectations, regulatory developments, and economic factors that are increasing demand for reliable document delivery. For Oklahoma attorneys and law firms, understanding these trends is essential to selecting process serving partners who can deliver consistent results throughout 2026 and beyond. Here are the most important trends shaping the process serving profession this year.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
 

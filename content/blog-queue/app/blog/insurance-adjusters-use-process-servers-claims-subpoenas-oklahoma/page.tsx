@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'No. Under 36 O.S.',
-    'ai-key-facts': 'Can a subpoena be served on an insurance company through the Oklahoma Insurance Department: No; What types of documents do insurance adjusters need process servers to deliver: Insurance adjusters and their legal teams commo...; How much are witness fees when serving a subpoena in an Oklahoma insurance case: Under 12 O; What is the minimum notice period for a records-only subpoena in Oklahoma: Under 12 O',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Adjusters Use Process Servers: Claims & Subpoenas OK"
-
-        title="How Adjusters Use Process Servers: Claims & Subpoenas OK"
         pageDescription="Oklahoma insurance adjusters rely on process servers for claims disputes, subpoenas, and fraud investigations. Learn the adjuster workflow and key statutes."
-
-        description="Oklahoma insurance adjusters rely on process servers for claims disputes, subpoenas, and fraud investigations. Learn the adjuster workflow and key statutes."
         pageUrl="https://justlegalsolutions.org/blog/insurance-adjusters-use-process-servers-claims-subpoenas-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Adjusters Use Process Servers: Claims & Subpoenas OK
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">No. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-17').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you are an insurance adjuster working in Oklahoma, you already know that your claim file can quickly become the center of a legal storm. What starts as a routine auto accident claim or homeowner property dispute can escalate into litigation requiring subpoenas, depositions, and formal service of process. When that happens, you need a process server who understands the unique intersection of insurance claims and Oklahoma law. In this guide, we walk through exactly how adjusters engage process servers, the critical Oklahoma statutes you need to know, and the common mistakes that can derail your case before it ever reaches a courtroom.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>When Adjusters Call Process Servers: From Claim File to Courtroom</h2>
           <p>
             An Oklahoma insurance adjuster's day is a balancing act. You are fielding new claims, coordinating with medical providers, negotiating settlements, reviewing coverage opinions, and updating reserving figures — all while managing expectations from claimants who want fast resolution and supervisors who want accurate numbers. Most claims settle without ever seeing the inside of a courthouse. But industry data tells us that roughly 20 to 25 percent of insurer claims are in litigation at any given time. For you, that means one in four or five claim files on your desk could eventually require a process server.

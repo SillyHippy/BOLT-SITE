@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Vehicle Title Notarization: What Sellers Must Know',
-  description: 'Oklahoma requires seller signatures on vehicle titles to be notarized. Learn the rules, costs, electronic title changes, and how mobile notary services can...',
+  description: 'Oklahoma requires seller signatures on vehicle titles to be notarized. Learn the rules, costs, electronic title changes, and how mobile notary services can help.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-07',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes. Oklahoma law (47 O.S.',
-    'ai-key-facts': 'Does a vehicle title transfer need to be notarized in Oklahoma: Yes; Whose signature needs to be notarized on an Oklahoma car title: Only the seller\\\'s signature must be notarized; How much does it cost to notarize a vehicle title in Oklahoma: Under 49 O; Can I notarize an Oklahoma vehicle title online if the seller is out of state: Yes',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Does a vehicle title transfer need to be notarized in Oklahoma?',
     answer: 'Yes. Oklahoma law (47 O.S. § 1107) requires the seller\'s signature on the certificate of title to be notarized by a notary public or other person authorized to take acknowledgments. The buyer\'s signature does not need to be notarized. Without a proper notarization, Service Oklahoma will reject the title transfer.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What happens if a title is signed but not notarized in Oklahoma?',
     answer: 'Service Oklahoma will reject the title transfer. An improperly notarized or unnotarized title is legally insufficient under 47 O.S. § 1107. The seller must appear before a notary, sign in the notary\'s presence, and have the notarial certificate completed. If a title is already signed in advance, the seller may need to resign in the notary\'s presence or obtain a duplicate title.',
-  }
+  },
+  {
+    question: 'Do out-of-state dealers need to notarize Oklahoma title assignments?',
+    answer: 'No. Under Okla. Admin. Code § 260:135-7-204, assignments of Oklahoma certificates of title to or by out-of-state dealers located in non-notary states are not required to be notarized. Additionally, no notarization is required on assignments to insurers resulting from total loss claim settlements.',
+  },
+  {
+    question: 'What identification does a seller need to bring for title notarization in Oklahoma?',
+    answer: 'The seller must present a valid, unexpired government-issued photo ID such as a driver\'s license, passport, military ID, or state-issued ID card. The name on the ID must match the name printed on the front of the title exactly. If the seller has changed their name, they should sign with the name shown on the title, not their new name.',
+  },
+  {
+    question: 'Can I use white-out or correction tape if I make a mistake on an Oklahoma title?',
+    answer: 'No. Any evidence of erasure, liquid correction fluid, white-out, or highlighter on a title voids the document. Under Okla. Admin. Code § 670:20-37-8, minor name misspellings may be corrected by printing the correct spelling nearby without obliterating the original. Signature errors generally require a notarized affidavit of fact or a duplicate title.',
+  },
+  {
+    question: 'How long does a buyer have to transfer a notarized title in Oklahoma?',
+    answer: 'For most vehicles, the buyer has 30 days from the notary date (not the purchase date) to transfer the title. Certain vehicle types with notary dates on or after November 1, 2023, qualify for a two-month window. The buyer needs the notarized title, proof of Oklahoma liability insurance, and payment of excise tax and sales tax.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Vehicle Title Notarization: What Sellers Must Know"
-
-        title="Oklahoma Vehicle Title Notarization: What Sellers Must Know"
         pageDescription="Oklahoma requires seller signatures on vehicle titles to be notarized. Learn the rules, costs, electronic title changes, and how mobile notary services can help."
-
-        description="Oklahoma requires seller signatures on vehicle titles to be notarized. Learn the rules, costs, electronic title changes, and how mobile notary services can help."
         pageUrl="https://justlegalsolutions.org/blog/vehicle-title-transfer-notarization-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Vehicle Title Notarization: What Sellers Must Know
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Yes. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-07').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             Selling a vehicle in Oklahoma involves more than just handing over the keys. Whether you are selling your daily driver, a family car, or a work truck, the state requires the seller&rsquo;s signature on the vehicle certificate of title to be properly notarized. This single requirement trips up countless Oklahoma sellers every year &mdash; and with the state&rsquo;s major shift to electronic titles in 2025, the process has changed significantly. At Just Legal Solutions, we help sellers across all 77 Oklahoma counties get their vehicle title notarization done right the first time. In this guide, we will walk you through everything you need to know about Oklahoma vehicle title notarization, from the basic legal requirements to the newest electronic title rules and Remote Online Notarization options for out-of-state sellers.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Understanding Oklahoma&rsquo;s Vehicle Title Notarization Requirements</h2>
 
           <h3>What Oklahoma Law Actually Says About Title Notarization</h3>

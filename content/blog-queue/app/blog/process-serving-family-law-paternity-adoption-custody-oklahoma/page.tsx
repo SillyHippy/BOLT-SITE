@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serving Family Law Papers in Oklahoma: A Server',
-  description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more. Learn Oklaho...',
+  description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-05',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Paternity papers in Oklahoma are served according to the Uniform Parentage Act (10 O.S. § 7700-601) and standard civil procedure rules (12 O.S.',
-    'ai-key-facts': 'How are paternity papers served in Oklahoma: Paternity papers in Oklahoma are served accordi...; What is the deadline for serving adoption papers in Oklahoma: Under 10 O; Can adoption papers be served on a putative father before the baby is born: Yes; How is service handled in a child custody case in Oklahoma: Child custody proceedings in Oklahoma follow th...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Serving Family Law Papers in Oklahoma: A Server"
-
-        title="Serving Family Law Papers in Oklahoma: A Server"
         pageDescription="Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more."
-
-        description="Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serving Family Law Papers in Oklahoma: A Server\
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Paternity papers in Oklahoma are served according to the Uniform Parentage Act (10 O.S. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-05').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -169,8 +157,6 @@ export default function BlogPost() {
             and the rules don&apos;t look anything like routine civil procedure.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Family Law Service Requires a Different Playbook</h2>
           <p>
             If you have spent any time serving process in Oklahoma, you know the rhythm of a standard civil case. 

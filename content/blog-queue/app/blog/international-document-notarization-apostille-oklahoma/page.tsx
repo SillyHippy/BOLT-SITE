@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'International Document Notarization and Apostille in OK',
-  description: 'Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers,...',
+  title: 'International Document Notarization and Apostille in Oklahoma',
+  description: 'Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-21',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'An apostille is a certificate that authenticates the origin of a public document for use in foreign countries that are members of the 1961 Hague Apostille Convention. You need a...',
-    'ai-key-facts': 'What is an apostille and when do I need one in Oklahoma: An apostille is a certificate that authenticate...; How much does an apostille cost in Oklahoma: The Oklahoma Secretary of State charges $25 per...; How long does the Oklahoma apostille process take: If you visit the Oklahoma Secretary of State\\\'s...; What documents can be apostilled in Oklahoma: Oklahoma can apostille any document bearing the...',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'What is an apostille and when do I need one in Oklahoma?',
     answer: 'An apostille is a certificate that authenticates the origin of a public document for use in foreign countries that are members of the 1961 Hague Apostille Convention. You need an Oklahoma apostille when you have a document issued or notarized in Oklahoma that must be used in one of the 129+ Hague member countries — for example, birth certificates for marriage abroad, diplomas for studying overseas, powers of attorney for property transactions in Mexico, or corporate documents for international business expansion.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'Can the Oklahoma Secretary of State apostille a document notarized by a notary from another state?',
     answer: 'No. The Oklahoma Secretary of State can only apostille documents that were issued in or notarized within the State of Oklahoma. Each state can only authenticate signatures on documents issued within that state. If your document was notarized in Texas, for example, you must contact the Texas Secretary of State for apostille services. Under 49 O.S. § 115, notarial acts from other U.S. states are recognized in Oklahoma, but must be apostilled in the state where the notarization occurred.',
-  }
+  },
+  {
+    question: 'Can an Oklahoma notary notarize a document for someone located outside the United States?',
+    answer: 'Yes, through Remote Online Notarization (RON). Under Oklahoma law (49 O.S. § 205), an Oklahoma notary physically located in Oklahoma can perform a notarial act for a signer outside the U.S. if the electronic record relates to a matter before a U.S. court or governmental entity, involves U.S. property, or is substantially connected to the United States — and the notary has no actual knowledge that the act is prohibited by the foreign country where the signer is located. This is a game-changer for military personnel, expats, and international business clients.',
+  },
+  {
+    question: 'Are foreign notarized documents valid in Oklahoma?',
+    answer: 'Yes. Under 49 O.S. § 117, Oklahoma law explicitly recognizes notarial acts performed by officers of foreign nations. If the foreign document has an apostille under the Hague Convention, that apostille "conclusively establishes" the signature is genuine and the officer holds the indicated office. This means foreign notarized documents — such as inheritance papers, marriage certificates, or business contracts — are valid in Oklahoma courts and legal proceedings.',
+  },
+  {
+    question: 'My Oklahoma birth certificate is from 20 years ago. Can it be apostilled?',
+    answer: 'Yes, but you must first obtain a current certified copy. Oklahoma requires birth certificates, death certificates, marriage licenses, and divorce decrees presented for apostille to have been issued within the past 12 months. You can obtain a current certified birth certificate from the Oklahoma State Department of Health by calling (405) 426-8880 or ordering through VitalChek. Marriage licenses and divorce decrees must be court-certified copies from the issuing Oklahoma county, also dated within the past year.',
+  },
+  {
+    question: 'Can an Oklahoma notary notarize a document written in a foreign language?',
+    answer: 'It depends. Oklahoma law requires that a notary must be able to read and understand the document being notarized. Notaries cannot notarize documents in languages they do not understand. Additionally, the notary and signer must be able to communicate directly — notaries are not permitted to use a translator during the notarial act. However, the notarial certificate itself should be completed in English, even if the underlying document is in another language. If the notary can read the document and communicate directly with the signer, notarization is permitted.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="International Document Notarization and Apostille in Oklahoma"
-
-        title="International Document Notarization and Apostille in Oklahoma"
         pageDescription="Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity."
-
-        description="Navigate international document notarization and apostille in Oklahoma. Learn Hague Convention rules, vital record requirements, RON for overseas signers, and foreign document validity."
         pageUrl="https://justlegalsolutions.org/blog/international-document-notarization-apostille-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             International Document Notarization and Apostille in Oklahoma
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">An apostille is a certificate that authenticates the origin of a public document for use in foreign countries that are members of the 1961 Hague Apostille Convention. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-21').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             Whether you are adopting a child from overseas, finalizing a real estate deal in Mexico, sending your diploma to Canada for a work visa, or handling inheritance paperwork from Italy — you have probably run into the frustrating world of international document authentication. If your document originated in Oklahoma, or if you need to use a foreign document here at home, getting the notarization and apostille process right the first time can save you weeks of delays and hundreds of dollars in rejection fees. At Just Legal Solutions, we help Oklahomans across all 77 counties navigate this system, and in this guide we will walk you through everything you need to know.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Understanding the Hague Apostille Convention and Your Oklahoma Documents</h2>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">What the Hague Convention Means for Oklahoma Residents</h3>

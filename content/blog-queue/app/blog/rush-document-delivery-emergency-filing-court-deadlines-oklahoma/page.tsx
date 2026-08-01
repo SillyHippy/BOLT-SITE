@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Rush Court Filing in Oklahoma: Emergency Delivery Guide',
-  description: 'When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma. Learn Oklahoma rules, statutory deadlines, and professional proce...',
+  description: 'When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-11',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Most Oklahoma county court clerk offices close at 4:30 PM, though some accept filings until 5:00 PM and Oklahoma County closes at 4:00 PM. Under 12 O.S.',
-    'ai-key-facts': 'What is the latest time I can file documents at an Oklahoma courthouse: Most Oklahoma county court clerk offices close ...; Can I file court documents electronically in Oklahoma after hours: Oklahoma state courts use the OSCN E-Filing Por...; What happens if I miss a court filing deadline in Oklahoma: Missing a court deadline can lead to case dismi...; How quickly can a legal courier file documents at the Tulsa County Courthouse: Professional legal couriers offer multiple serv...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Rush Court Filing in Oklahoma: Emergency Delivery Guide"
-
-        title="Rush Court Filing in Oklahoma: Emergency Delivery Guide"
         pageDescription="When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma"
-
-        description="When court deadlines loom, rush document delivery can save your case. Learn how Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/rush-document-delivery-emergency-filing-court-deadlines-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Rush Court Filing in Oklahoma: Emergency Delivery Guide
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Most Oklahoma county court clerk offices close at 4:30 PM, though some accept filings until 5:00 PM and Oklahoma County closes at 4:00 PM. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-06-11').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             It is 3:47 PM on a Friday. Your motion is due today. You just discovered a formatting error in the final exhibit. The courthouse closes in forty-three minutes. You are not going to make it — unless you have a backup plan. Every Oklahoma attorney has been there, or will be. The difference between a career-damaging mistake and a story you tell at bar events is knowing the rules that govern your deadlines and having a rush courier who can operate inside them.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Missed Deadlines Are the #1 Risk Every Oklahoma Attorney Faces</h2>
           <p>Missed court deadlines are the single largest source of legal malpractice claims in the United States. According to industry data, roughly 40 percent of legal malpractice cases stem from calendar-related failures — missed statutes of limitations, blown filing deadlines, discovery cutoff oversights, and simple clerical errors that cascade into catastrophic consequences. A single missed deadline in Georgia resulted in $530,000 in damages. One filing. One afternoon. Over half a million dollars.</p>
 

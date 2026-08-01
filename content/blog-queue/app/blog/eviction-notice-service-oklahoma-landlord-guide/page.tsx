@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Eviction Notice Service in Oklahoma: A Landlord's Guide",
-  description: "Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules, tape-and-mail posting, and how to avoid case dismissal.",
+  description: "Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.",
   keywords: 'eviction notice service Oklahoma, how to serve eviction papers, Oklahoma eviction process',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Eviction Notice Service in Oklahoma: A Landlord\'s Guide',
-    description: "Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules, tape-and-mail posting, and how to avoid case dismissal.",
+    description: 'Oklahoma landlord\'s guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.',
     url: 'https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -55,10 +55,6 @@ export default function BlogPost() {
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>Eviction Notice Service in Oklahoma</span>
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Eviction Notice Service in Oklahoma: A Landlord's Guide</h1>
-            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-              <p className="text-gray-800">Oklahoma landlords must serve proper written eviction notice before filing suit, with three notice types: <strong>5-day</strong> (nonpayment), <strong>10-day</strong> (lease violations with right to cure), and <strong>30-day</strong> (month-to-month termination). The tape-and-mail method — posting to the door plus first-class mailing — is permitted after a diligent personal service attempt. Professional process servers provide <strong>GPS-verified proof of service</strong> admissible in court.</p>
-            </div>
         <p className="text-gray-600 mb-8 text-lg">Serving an eviction notice correctly is one of the most critical steps in the Oklahoma eviction process. A single mistake in notice type, content, or service method can delay your case by weeks or even result in dismissal. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of eviction notices across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help landlords navigate the complexities of eviction notice service to keep their cases on track. This guide covers everything Oklahoma landlords need to know about serving eviction notices correctly.</p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
@@ -173,7 +169,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         title="Eviction Notice Service in Oklahoma: A Landlord's Guide"
-        description="Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules, tape-and-mail posting, and how to avoid case dismissal."
+        description="Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods."
         url="https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide"
         articleDetails={{
           headline: 'Eviction Notice Service in Oklahoma: A Landlord',

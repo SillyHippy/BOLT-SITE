@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-19',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Under ORPC Rule 5.3 and ABA Formal Opinion 506, a virtual assistant can conduct case law research on OSCN.net and Fastcase, compile statutes and regulations, summarize legal fin...',
-    'ai-key-facts': 'What legal research tasks can a virtual assistant legally perform for an Oklahoma attorney: Under ORPC Rule 5; Is it ethical under Oklahoma Rules of Professional Conduct to delegate discovery work to a virtual assistant: Yes; Can a virtual assistant use OSCN.net to research Oklahoma cases and statutes: Absolutely; What discovery tasks can a VA handle under Oklahoma\\\'s Discovery Code (12 O.S. § 3226): A VA can organize discovery documents, create B...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How VAs Help With Legal Research & Discovery in OK"
-
-        title="How VAs Help With Legal Research & Discovery in OK"
         pageDescription="Learn how virtual assistants support legal research and discovery in Oklahoma, including OSCN.net workflows, discovery deadlines, and ORPC Rule 5.3 compliance."
-
-        description="Learn how virtual assistants support legal research and discovery in Oklahoma, including OSCN.net workflows, discovery deadlines, and ORPC Rule 5.3 compliance."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistants-legal-research-discovery-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How VAs Help With Legal Research & Discovery in OK
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Under ORPC Rule 5.3 and ABA Formal Opinion 506, a virtual assistant can conduct case law research on OSCN.net and Fastcase, compile statutes and regulations, summarize legal findings, organize research memos, pull docket records, and track legal updates — all under direct attorney supervision. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you are an Oklahoma attorney, here is a number that should keep you up at night: attorneys spend approximately 40 percent of their time on non-billable work. That is nearly half your week consumed by research admin, document organization, deadline tracking, and discovery preparation — tasks that do not require a law license but devour your billable hours. The good news? A trained virtual assistant can reclaim 10 to 15 billable hours per week by handling legal research support and discovery organization under your direct supervision. In this guide, we will show you exactly how virtual assistants help with legal research and discovery in Oklahoma, including practical OSCN.net workflows, Discovery Code compliance under 12 O.S. §§ 3224–3237, and the ethics framework you need to delegate with confidence under ORPC Rule 5.3. Whether you practice in Oklahoma City, Tulsa, or serve clients across all 77 counties, this is the Oklahoma-specific guidance you will not find anywhere else. Ready to reclaim those lost hours? Contact Just Legal Solutions to learn how our Oklahoma-trained virtual assistants can support your legal research and discovery workflow.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>What Legal Research and Discovery Tasks Can a VA Actually Handle?</h2>
           <p>
             Let us start with the question every cautious attorney asks first: what can a virtual assistant actually do without crossing into the unauthorized practice of law? The answer is more than you might think — but the bright line is clear. A VA can research, summarize, and organize. They cannot interpret law, advise clients, or sign filings. This distinction matters because it defines the entire scope of effective VA delegation.

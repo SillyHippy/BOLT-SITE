@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Servers & Emotional Situations in Oklahoma',
-  description: 'Discover how Oklahoma process servers navigate emotional situations with empathy, de-escalation techniques, and professional safety strategies that protect...',
+  description: 'Discover how Oklahoma process servers navigate emotional situations with empathy, de-escalation techniques, and professional safety strategies that protect everyone involved.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-26',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'The server should remain calm, speak in a respectful tone, and acknowledge the person\\\'s emotions without escalating. Phrases like "I understand this is difficult news, but I\\\'m...',
-    'ai-key-facts': 'What should a process server do if someone becomes angry or emotional when served: The server should remain calm, speak in a respe...; Are process servers in Oklahoma required to have training in de-escalation or conflict resolution: No; What types of legal documents create the most emotional reactions from recipients: Divorce papers, eviction notices, child custody...; Is it a crime to assault or threaten a process server in Oklahoma: Yes',
   },
 };
 
@@ -103,11 +101,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Servers & Emotional Situations in Oklahoma"
-
-        title="Process Servers & Emotional Situations in Oklahoma"
         pageDescription="Discover how Oklahoma process servers navigate emotional situations with empathy, de-escalation techniques, and professional safety strategies that protect everyone involved."
-
-        description="Discover how Oklahoma process servers navigate emotional situations with empathy, de-escalation techniques, and professional safety strategies that protect everyone involved."
         pageUrl="https://justlegalsolutions.org/blog/process-servers-handle-emotionally-charged-situations-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -152,12 +146,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Servers & Emotional Situations in Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">The server should remain calm, speak in a respectful tone, and acknowledge the person\&apos;s emotions without escalating. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-26').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -173,8 +161,6 @@ export default function BlogPost() {
             Imagine standing on a doorstep holding papers that will change someone&apos;s life. Maybe it&apos;s divorce documents they never saw coming. Maybe it&apos;s an eviction notice when they have nowhere else to go. Maybe it&apos;s a restraining order that upends everything they thought was safe. Now imagine knocking on that door and knowing that in the next thirty seconds, you will become the face of the worst news this person has received in months — maybe ever. That is the reality professional process servers navigate every single day. And how they handle those first thirty seconds can mean the difference between a peaceful exchange and a dangerous confrontation.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p>
             At Just Legal Solutions, our licensed Oklahoma process servers handle these situations daily across all 77 counties. We believe that empathy, preparation, and professionalism aren&apos;t just nice-to-haves — they&apos;re the foundation of safe, effective service of process. In this guide, we&apos;re pulling back the curtain on how experienced process servers manage emotionally charged encounters, from reading emotions before they escalate to protecting their own wellbeing after the door closes.
           </p>

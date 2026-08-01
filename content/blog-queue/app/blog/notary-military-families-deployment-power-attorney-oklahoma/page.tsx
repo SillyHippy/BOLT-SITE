@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Military Power of Attorney & Notary Services in Oklahoma',
-  description: 'Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more. Learn Okla...',
+  description: 'Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-30',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'You can use either option. Base JAG offices provide free POA preparation and notarization under 10 U.S.C.',
-    'ai-key-facts': 'Do I have to use the base JAG office to get a power of attorney before deployment, or can I use a private Oklahoma notary: You can use either option; Is a military power of attorney prepared at a JAG office valid in Oklahoma: Yes; What types of power of attorney should a deploying service member consider: Most deploying service members need at least tw...; Can my spouse use a power of attorney to terminate our lease under the SCRA while I\\\'m deployed: Yes',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Do I have to use the base JAG office to get a power of attorney before deployment, or can I use a private Oklahoma notary?',
     answer: 'You can use either option. Base JAG offices provide free POA preparation and notarization under 10 U.S.C. § 1044a for eligible service members and dependents — this is often the most convenient choice for standard military POAs. However, a private Oklahoma notary can also notarize a POA you\'ve prepared yourself or had drafted by a civilian attorney. Some situations call for a private notary: when JAG walk-in hours conflict with your training schedule, when you need after-hours or weekend service, when you need an Oklahoma-specific POA form for local property or business matters, or when you want the convenience of a mobile notary who comes to your location. At Just Legal Solutions, we work around military schedules and can come to base housing or nearby locations.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What forms of ID does an Oklahoma notary accept from military members?',
     answer: 'Oklahoma notaries accept several forms of military identification. Under standard Oklahoma notary practice, a U.S. Military ID card is an acceptable form of identification for notarization. Oklahoma also recognizes state-issued driver\'s licenses, U.S. passports, and tribal IDs. For remote online notarization (RON), you\'ll need a current government-issued photo ID with a photograph and signature. Note that for RON specifically, some platforms may not accept military IDs — always check ahead of time. At Just Legal Solutions, we accept military IDs for in-person and mobile notary services, and we can guide you through ID requirements for any notarization.',
-  }
+  },
+  {
+    question: 'What is the difference between a JAG notary (10 U.S.C. § 1044a) and an Oklahoma state notary?',
+    answer: 'A JAG notary operates under federal authority (10 U.S.C. § 1044a) and can perform notarial acts for eligible military personnel, dependents, and others entitled to legal assistance at no charge. Their notarizations are valid nationwide under federal law. An Oklahoma state notary is commissioned by the Oklahoma Secretary of State, operates under 49 O.S., and can serve any member of the public for a fee. Both types of notarizations are legally valid for military POAs. However, some civilian institutions (especially banks and title companies) may be more familiar with state notary certificates. For maximum acceptance, some legal assistance offices have their documents notarized by both a § 1044a notary and a state-commissioned notary.',
+  },
+  {
+    question: 'If my spouse is already deployed, can they get a document notarized overseas for use in Oklahoma?',
+    answer: 'Yes. Under 10 U.S.C. § 1044a, JAG officers and designated military personnel can perform notarial acts overseas for eligible service members, and these notarizations are valid in Oklahoma under 49 O.S. § 114 and § 116. If the document needs to be used in a foreign country, it may also need an Apostille from the U.S. Department of State (not the Oklahoma Secretary of State, since military notaries are federal officers). For purely interstate use (e.g., a deployed spouse notarizes a POA overseas that their spouse will use in Oklahoma), the § 1044a notarization is sufficient without an Apostille. Remote online notarization through an Oklahoma-commissioned notary may also be an option if the deployed service member has reliable internet access.',
+  },
+  {
+    question: 'How much does it cost to get a power of attorney notarized in Oklahoma?',
+    answer: 'If you use your base JAG/legal assistance office, notarization of military POAs is free — it\'s a benefit provided to eligible service members and dependents. If you use a private Oklahoma notary, state law allows notaries to charge standard per-signature fees plus travel fees for mobile service. Remote online notarization services typically charge per session. At Just Legal Solutions, we offer competitive mobile notary rates for military families and can provide quotes for deployment-related notarization packages that include multiple documents. Visit our pricing page for current rates.',
+  },
+  {
+    question: 'What should I do with my POA after my spouse returns from deployment?',
+    answer: 'You should revoke it. Once the service member returns and can manage their own affairs, the POA should be formally revoked to prevent unauthorized use. Under Oklahoma law (58 O.S. § 3001 et seq.), a principal can revoke a POA at any time as long as they are mentally competent. The revocation should be: (1) in writing, (2) notarized for maximum legal protection, (3) delivered to the agent, and (4) provided to any institutions (banks, landlords, etc.) that were given the original POA. Base legal offices can help prepare revocation documents, or a private Oklahoma notary can notarize a revocation you\'ve drafted. Keep copies of the revocation for your records. This is a critical step that many military families overlook.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Military Power of Attorney & Notary Services in Oklahoma"
-
-        title="Military Power of Attorney & Notary Services in Oklahoma"
         pageDescription="Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more."
-
-        description="Learn how Oklahoma notary services help military families with deployment power of attorney. Covering Tinker AFB, Fort Sill, SCRA rights & more."
         pageUrl="https://justlegalsolutions.org/blog/notary-military-families-deployment-power-attorney-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Military Power of Attorney & Notary Services in Oklahoma
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">You can use either option. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-30').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~13 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             Deployment season is stressful enough without worrying about whether your family back home can handle your finances, break a lease, or enroll your kids in school. If you are stationed at Tinker AFB in Midwest City, Fort Sill in Lawton, Vance AFB in Enid, Altus AFB, or the McAlester Army Ammunition Plant, getting the right power of attorney — and getting it notarized — should be at the top of your pre-deployment checklist. Here is everything you need to know about military notary services and deployment POAs in Oklahoma.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Deployment Paperwork Challenge for Oklahoma Military Families</h2>
 
           <h3>Oklahoma's Military Community by the Numbers</h3>

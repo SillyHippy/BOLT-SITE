@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'The SCRA (50 U.S.C. §§ 3901-4043) is a federal law that protects active-duty military members from default judgments and certain legal proceedings while they are serving.',
-    'ai-key-facts': 'What is the Servicemembers Civil Relief Act (SCRA) and how does it affect process serving in Oklahoma: The SCRA (50 U; How do I verify if someone is on active military duty before serving papers: Use the Defense Manpower Data Center (DMDC) Mil...; Can a process server enter Tinker Air Force Base or Fort Sill to serve papers: Access requires advance coordination with the b...; What happens if the person I\\\'m trying to serve is deployed overseas: If the service member is deployed, the SCRA may...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Serving Active-Duty Military in Oklahoma: SCRA Guide"
-
-        title="Serving Active-Duty Military in Oklahoma: SCRA Guide"
         pageDescription="Learn how to serve active-duty military personnel in Oklahoma while complying with the SCRA. Covers DMDC verification, base access, and 180-day rules."
-
-        description="Learn how to serve active-duty military personnel in Oklahoma while complying with the SCRA. Covers DMDC verification, base access, and 180-day rules."
         pageUrl="https://justlegalsolutions.org/blog/serving-active-duty-military-personnel-scra-compliance-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serving Active-Duty Military in Oklahoma: SCRA Guide
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">The SCRA (50 U.S.C. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -171,8 +159,6 @@ export default function BlogPost() {
             server, attorney, and legal professional must understand.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Serving Active-Duty Military in Oklahoma Requires Special Expertise</h2>
 
           <h3>Oklahoma's Major Military Installations and Their Impact on Legal Service</h3>

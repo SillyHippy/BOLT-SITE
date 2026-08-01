@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Year-End Legal Deadlines Every Oklahoma Attorney Must Track',
-  description: 'Don. Learn Oklahoma rules, statutory deadlines, and professional process serving options statewide........................................................',
+  description: 'Don',
   keywords: 'Oklahoma legal procedures, court deadlines Oklahoma, legal document requirements, Oklahoma court rules, legal compliance',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-04',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma attorneys must complete 12 CLE credit hours (including 2 ethics credits) by December 31 of each calendar year. Credits must be reported by February 15 of the following ...',
-    'ai-key-facts': 'What is the deadline for Oklahoma attorneys to complete CLE credits: Oklahoma attorneys must complete 12 CLE credit ...; Are Oklahoma courts closed between Christmas and New Year\\u2019s: Oklahoma state and federal courts are closed on...; Can I serve legal papers on someone during the Christmas holiday in Oklahoma: Yes, Oklahoma law permits service of process on...; When is the deadline to pay Oklahoma Bar Association dues for 2026: OBA membership dues for 2026 must be paid by Fe...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Year-End Legal Deadlines Every Oklahoma Attorney Must Track"
-
-        title="Year-End Legal Deadlines Every Oklahoma Attorney Must Track"
         pageDescription="Don"
-
-        description="Don"
         pageUrl="https://justlegalsolutions.org/blog/year-end-legal-deadlines-oklahoma-attorneys"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Year-End Legal Deadlines Every Oklahoma Attorney Must Track
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Oklahoma attorneys must complete 12 CLE credit hours (including 2 ethics credits) by December 31 of each calendar year. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-04').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Picture this: it is the Monday after Thanksgiving. You walk into your office, coffee in hand, and realize there are exactly thirty days left in the year. Three of your active cases have deadlines approaching, your MCLE transcript shows you are still four credits short, the Oklahoma eFiling system has scheduled maintenance next week, and your process server just told you they are taking vacation December 20 through January 2. If this scenario makes your chest tighten, you are not alone. Every December, Oklahoma attorneys face a perfect storm of court closures, compliance deadlines, and filing pressure that can derail even the most organized practice. Here is the good news: with the right plan, you can glide into January with every deadline met and every obligation satisfied. This article is that plan.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Year-End Crunch: Why December Is Different for Oklahoma Attorneys</h2>
           <p>Here is the thing about December in the Oklahoma legal world: it is simultaneously the busiest filing month of the year and the month with the fewest court business days. That combination creates a pressure cooker that catches even experienced attorneys off guard.</p>
           <p>Let us look at the calendar reality. Oklahoma state courts, the three federal districts (Northern, Western, and Eastern), and most county clerk offices are closed on <strong>December 24-25, 2025</strong> for Christmas Eve and Christmas Day, and on <strong>January 1, 2026</strong> for New Year&apos;s Day. Many county courts also close December 26, giving staff an extended holiday. That means in the final two weeks of December, you lose at least two full business days to court closures, and possibly three depending on your county.</p>

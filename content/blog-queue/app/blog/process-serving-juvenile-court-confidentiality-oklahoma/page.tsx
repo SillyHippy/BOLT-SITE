@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving in Juvenile Court: Oklahoma Guide',
-  description: 'Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best pract...',
+  description: 'Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-19',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes. Under 10A O.S.',
-    'ai-key-facts': 'Are juvenile court records confidential in Oklahoma: Yes; Who must be served with a summons in a juvenile deprived child case: Under 10A O; How soon after service can a juvenile hearing be held: For deprived child proceedings under 10A O; Can a process server serve a minor child directly in Oklahoma: Under 12 O',
   },
 };
 
@@ -103,11 +101,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Serving in Juvenile Court: Oklahoma Guide"
-
-        title="Process Serving in Juvenile Court: Oklahoma Guide"
         pageDescription="Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases."
-
-        description="Learn how Oklahoma process servers navigate juvenile court service under 10A O.S. Discover confidentiality rules, dual-service requirements, and best practices for delinquency and deprived child cases."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-juvenile-court-confidentiality-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -152,12 +146,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving in Juvenile Court: Oklahoma Guide
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Yes. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-19').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>
@@ -173,8 +161,6 @@ export default function BlogPost() {
             You pull up to a modest home in a quiet Tulsa neighborhood, sealed envelope in hand. Before you reach the door, a neighbor on the adjacent porch asks what brings you by. In any other case, you might offer a brief explanation. But not today — not with juvenile court documents. The answer is legally required to be almost nothing at all. Oklahoma juvenile proceedings operate under a blanket of confidentiality under 10A O.S. that makes them unlike any other area of process serving. The server on that doorstep is the first outsider to enter a world of strict statutory protections, emotional stakes, and zero-margin-for-error procedures.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p className="text-gray-700 mb-6">
             Whether you are an Oklahoma attorney hiring process servers or a server seeking to handle juvenile court work, this guide covers what you need to serve documents lawfully and discreetly.
           </p>

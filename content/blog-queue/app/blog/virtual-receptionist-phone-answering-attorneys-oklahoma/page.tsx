@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-26',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'A virtual receptionist is a trained remote professional who answers your firm\\\'s calls, screens potential clients, schedules consultations, and routes urgent matters — all under...',
-    'ai-key-facts': 'What is a virtual receptionist for attorneys, and how does it differ from a regular answering service: A virtual receptionist is a trained remote prof...; How much does a virtual receptionist service cost compared to hiring an in-house receptionist in Oklahoma: A full-time receptionist in Oklahoma costs $30,...; Can using a virtual receptionist help me comply with Oklahoma attorney ethics rules: Yes; What percentage of law firm calls actually go unanswered: A 2025 national audit of 1,200 law firms found ...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Receptionist for Oklahoma Attorneys"
-
-        title="Virtual Receptionist for Oklahoma Attorneys"
         pageDescription="35% of law firm calls go unanswered. Discover how Oklahoma attorneys use virtual receptionists to capture leads, stay ethics-compliant, and grow their practice."
-
-        description="35% of law firm calls go unanswered. Discover how Oklahoma attorneys use virtual receptionists to capture leads, stay ethics-compliant, and grow their practice."
         pageUrl="https://justlegalsolutions.org/blog/virtual-receptionist-phone-answering-attorneys-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Receptionist for Oklahoma Attorneys
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">A virtual receptionist is a trained remote professional who answers your firm\&apos;s calls, screens potential clients, schedules consultations, and routes urgent matters — all under your firm\&apos;s name. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-26').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~12 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             It is 2:47 PM on a Tuesday in Oklahoma City. You are in deposition across town. Your phone rings back at the office. It rings again. And again. By the time you check your messages three hours later, that potential client — the one with a six-figure personal injury case — has already hired another firm. This scenario plays out thousands of times every single day across Oklahoma. A 2025 national audit of 1,200 law firms found that 35% of calls during regular business hours went completely unanswered. Eighty percent of callers who reached voicemail hung up without leaving a message. And here is the number that should keep every Oklahoma attorney awake at night: 78% of legal clients hire the first lawyer who responds. If you are not answering, someone else is getting the case.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The $109 Billion Problem — Why Law Firm Calls Go Unanswered</h2>
           <p>
             Let us talk about the scale of this problem for a moment. Missed calls cost the legal industry an estimated $109 billion annually in lost revenue. That is not a typo — $109 billion. Law firms nationwide receive roughly 557 million calls per year, and with 35% going unanswered, even a conservative conversion rate means approximately 13 million lost cases industry-wide. For a profession built on advocating for others, we have a strange blind spot when it comes to answering our own phones.

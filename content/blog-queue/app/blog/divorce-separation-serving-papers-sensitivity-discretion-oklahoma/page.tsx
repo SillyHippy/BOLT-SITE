@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Serve Divorce Papers in Oklahoma with Discretion',
-  description: 'Oklahoma leads the nation in divorce rates. Professional process servers deliver court papers with legal compliance, discretion, and sensitivity under 12 O...',
+  description: 'Oklahoma leads the nation in divorce rates. Learn how professional process servers serve divorce papers with legal compliance, sensitivity, and discretion under state law.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Serve Divorce Papers in Oklahoma with Discretion',
-    description: 'Oklahoma leads the nation in divorce rates. Professional process servers deliver court papers with legal compliance, discretion, and sensitivity under 12 O.S. § 2004 statewide.',
+    description: 'Oklahoma leads the nation in divorce rates. Learn how professional process servers serve divorce papers with legal compliance, sensitivity, and discretion under state law.',
     url: 'https://justlegalsolutions.org/blog/divorce-separation-serving-papers-sensitivity-discretion-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma's nation-leading divorce rate makes sensitive, discreet service of process essential. Professional servers navigate ATI triggers, workplace service, and the 180-day deadline under 12 O.S. § 2004 while protecting all parties' dignity.',
-    'ai-key-facts': 'Divorce papers must be served by a neutral third party under 12 O.S. § 2004 — never by the filing spouse; the Automatic Temporary Injunction (ATI) takes effect immediately upon service under 43 O.S. § 110; respondents have 20 days to answer; service must be completed within 180 days or the case faces dismissal; professional servers avoid serving in front of children and maintain discretion at workplaces',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Serve Divorce Papers in Oklahoma with Discretion"
-
-        title="Serve Divorce Papers in Oklahoma with Discretion"
-        pageDescription="Oklahoma leads the nation in divorce rates. Professional process servers deliver court papers with legal compliance, discretion, and sensitivity under 12 O.S. § 2004 statewide."
-
-        description="Oklahoma leads the nation in divorce rates. Professional process servers deliver court papers with legal compliance, discretion, and sensitivity under 12 O.S. § 2004 statewide."
+        pageDescription="Oklahoma leads the nation in divorce rates. Learn how professional process servers serve divorce papers with legal compliance, sensitivity, and discretion under state law."
         pageUrl="https://justlegalsolutions.org/blog/divorce-separation-serving-papers-sensitivity-discretion-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Serve Divorce Papers in Oklahoma with Discretion
           </h1>
-          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-            <p className="text-gray-800">
-              Divorce papers in Oklahoma must be served by a <strong>neutral third party</strong> at least 18 years old — never by the filing spouse — under <strong>12 O.S. § 2004</strong>. Professional process servers prioritize <strong>discretion and sensitivity</strong>, timing service to avoid children's presence and workplace embarrassment. The <strong>Automatic Temporary Injunction</strong> under 43 O.S. § 110 takes effect the moment papers are served, freezing assets and prohibiting harassment. Respondents have <strong>20 days</strong> to answer, and service must be completed within <strong>180 days</strong> of filing or the case may be dismissed.
-            </p>
-          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-24').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Divorce is rarely easy — and in Oklahoma, where the divorce rate leads the nation, the moment those papers are served can be one of the most emotionally charged experiences a person ever faces. Whether you are an attorney managing multiple family law cases, a paralegal coordinating service logistics, or someone filing for divorce on your own, understanding how professional process servers handle this delicate responsibility can make the difference between a respectful transition and an unnecessarily painful confrontation. At Just Legal Solutions, we believe that serving divorce papers is not just about legal compliance — it is about human dignity.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Oklahoma's Divorce Reality: Why Sensitivity Matters</h2>
 
           <h3>The Numbers Behind the Need — Oklahoma's Nation-Leading Divorce Rate</h3>

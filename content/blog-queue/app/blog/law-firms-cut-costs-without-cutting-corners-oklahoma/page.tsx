@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How Oklahoma Law Firms Can Cut Costs Without Cutting Corners',
-  description: 'Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outso...',
+  description: 'Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-11-25',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Administrative labor is typically the largest reducible expense. Oklahoma legal assistants earn an average of $19.14 per hour plus benefits and overhead, but many routine tasks ...',
-    'ai-key-facts': 'What is the biggest expense most Oklahoma law firms can cut without affecting client service: Administrative labor is typically the largest r...; How much can a law firm really save by using a virtual assistant instead of in-house staff: Industry data shows savings of 40–75% on staffi...; What non-billable tasks should law firms delegate to virtual assistants first: Start with the highest time-drains: client inta...; How many billable hours do attorneys typically lose to administrative work: According to Bloomberg Law\\\'s 2025 Attorney Wor...',
   },
 };
 
@@ -113,11 +111,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Oklahoma Law Firms Can Cut Costs Without Cutting Corners"
-
-        title="How Oklahoma Law Firms Can Cut Costs Without Cutting Corners"
         pageDescription="Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services."
-
-        description="Discover proven strategies for Oklahoma law firms to reduce overhead, reclaim billable hours, and boost profitability using virtual assistants, smart outsourcing, and bundled legal support services."
         pageUrl="https://justlegalsolutions.org/blog/law-firms-cut-costs-without-cutting-corners-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -162,12 +156,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Oklahoma Law Firms Can Cut Costs Without Cutting Corners
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Administrative labor is typically the largest reducible expense. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-11-25').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -189,8 +177,6 @@ export default function BlogPost() {
             They represent real money walking out your door every single week.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <p>
             Oklahoma&rsquo;s legal industry is valued at $2.5 billion, with approximately
             15,000 active attorneys serving nearly 400,000 small businesses across the

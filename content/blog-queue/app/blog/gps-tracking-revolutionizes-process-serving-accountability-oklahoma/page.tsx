@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-03',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'GPS tracking transforms Oklahoma process serving by creating verifiable, court-admissible digital records under 12A O.S. § 15-101. GPS data includes timestamps, coordinates, and accuracy radius — defeating service challenges in contested cases.',
-    'ai-key-facts': 'GPS data admissible under Oklahoma Uniform Electronic Transactions Act (12A O.S. § 15-101); five key metadata elements: timestamp, coordinates, accuracy radius, device ID, and street map; HB 3260 criminalizes tracking defendants without consent; GPS spoofing prevention now built into leading platforms like Proof Technology',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma"
-
-        title="GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma"
         pageDescription="GPS tracking is transforming process serving in Oklahoma. Learn how it strengthens court proof, improves accountability, and protects servers under state law."
-
-        description="GPS tracking is transforming process serving in Oklahoma. Learn how it strengthens court proof, improves accountability, and protects servers under state law."
         pageUrl="https://justlegalsolutions.org/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,10 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma
           </h1>
-            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-              <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-              <p className="text-gray-800">GPS tracking provides court-admissible proof of service in Oklahoma under the <strong>Uniform Electronic Transactions Act (12A O.S. § 15-101)</strong>, documenting timestamps, GPS coordinates, and accuracy radius. Process servers may <strong>only track their own location</strong> — tracking defendants without consent violates <strong>HB 3260</strong>. GPS-verified service records defeat challenges in contested cases and protect servers' safety.</p>
-            </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-09-03').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -161,8 +151,6 @@ export default function BlogPost() {
             When you order a pizza or call a rideshare, you expect to see exactly where your driver is in real time. So why should process serving — where constitutional rights hang in the balance — still rely on handwritten notes and a server&apos;s memory? GPS tracking is transforming how Oklahoma process servers document service attempts, prove their work in court, and stay safe in the field. Here&apos;s what every attorney, paralegal, and legal professional needs to know about this technology shift.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why GPS Tracking Matters for Process Servers in 2026</h2>
 
           <h3>The Explosion of GPS Technology Across Industries</h3>

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary Immigration Documents Oklahoma | I-9 & Affidavits',
-  description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma. Learn Oklahoma rules, statutory deadlines, and p...',
+  description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-18',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'No. Under Oklahoma law (49 O.S.',
-    'ai-key-facts': 'Can a notary public help me fill out my immigration forms: No; Does USCIS require notarization on immigration forms like the I-130 or I-485: No; Can a notary notarize an Affidavit of Support (Form I-864): A notary can notarize a separate affidavit or s...; What is an I-9 authorized representative, and can a notary serve as one: Yes',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Can a notary public help me fill out my immigration forms?',
     answer: 'No. Under Oklahoma law (49 O.S. § 6(B)), a notary public who is not a licensed attorney cannot provide legal advice on immigration matters, assist with selecting forms, or help complete USCIS applications. A notary\'s role is limited to verifying identity and witnessing signatures on documents that require notarization, such as affidavits or sworn statements. For help with immigration forms, consult a licensed immigration attorney or a DOJ-accredited representative.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What immigration-related documents in Oklahoma actually require notarization?',
     answer: 'The most common immigration-related documents requiring notarization in Oklahoma include: (1) Lawful presence affidavits under 56 O.S. § 71 for state and local public benefits, (2) Sworn affidavits of support or relationship for immigration proceedings, (3) Powers of attorney for someone to act on your behalf in immigration matters, (4) Translation certifications for some consulates (though USCIS does not require notarized translations), and (5) Minor travel consent forms for children crossing international borders.',
-  }
+  },
+  {
+    question: 'Does USCIS require notarized translations of foreign-language documents?',
+    answer: 'No. USCIS requires "certified translations," which means a translator must provide a signed statement certifying that the translation is accurate and complete, and that the translator is competent to translate. The translator\'s certification statement is sufficient — notarization is not required by USCIS. However, some foreign embassies, consulates, or courts may request notarized translations, so always check the specific requirements of the receiving authority.',
+  },
+  {
+    question: 'Can a notary refuse to notarize my immigration documents?',
+    answer: 'Some notaries choose to decline immigration-related documents. In fact, one of Tulsa\'s largest mobile notary services explicitly lists immigration documents as a category they will not notarize. However, at Just Legal Solutions, we provide professional notary services for immigration-related affidavits, lawful presence verifications, and I-9 authorized representative services — while always staying within the legal boundaries of what a notary can do under Oklahoma law.',
+  },
+  {
+    question: 'How much does it cost to notarize immigration documents in Oklahoma?',
+    answer: 'Under Oklahoma law (49 O.S. § 5), the maximum fee for a traditional notarial act is $5 per signature. Remote Online Notarization (RON) is capped at $25 per act under 49 O.S. § 209. Mobile notaries may charge additional travel fees depending on distance. For I-9 authorized representative services, fees differ since it is not a notarial act. Visit our pricing page for current service rates.',
+  },
+  {
+    question: 'What should I bring to my appointment to notarize an immigration affidavit?',
+    answer: 'Bring: (1) The unsigned document that requires notarization, (2) A valid government-issued photo ID such as a driver\'s license, passport, state ID, or consular ID, (3) Any supporting documents referenced in the affidavit, and (4) All parties who need to sign must be present. Do NOT sign the document before your appointment — it must be signed in the notary\'s physical presence or on camera for RON. If you are unsure what type of notarial act you need, call ahead and we\'ll help you determine the correct one.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary Immigration Documents Oklahoma | I-9 & Affidavits"
-
-        title="Notary Immigration Documents Oklahoma | I-9 & Affidavits"
         pageDescription="Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma"
-
-        description="Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/notary-services-immigration-documents-i9-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Notary Immigration Documents Oklahoma | I-9 & Affidavits
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">No. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-18').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             If you or a family member are navigating the immigration process in Oklahoma, you have probably wondered which documents need a notary stamp and which ones do not. The confusion is completely understandable — and unfortunately, it has also made immigrants a target for fraud. The truth is that most USCIS forms do not require notarization at all. In this guide, we will walk you through exactly what a notary can and cannot do for your immigration documents, how Oklahoma law protects you from notario scams, and which specific documents actually do need to be notarized. By the end, you will know exactly what you need — and what you do not.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Truth About Notarization and USCIS Immigration Forms</h2>
 
           <p>Let us clear up the confusion once and for all. The single biggest misconception we hear from clients across Oklahoma City, Tulsa, and every county in between is this: <strong>"Do I need to get my immigration forms notarized before I send them to USCIS?"</strong> The answer, in nearly every case, is no.</p>

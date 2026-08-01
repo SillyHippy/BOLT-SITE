@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-16',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'A virtual assistant can handle a wide range of trial preparation tasks including organizing case files and discovery materials, preparing exhibit lists and trial binders, summar...',
-    'ai-key-facts': 'What trial preparation tasks can a virtual assistant handle for my law firm: A virtual assistant can handle a wide range of ...; How far in advance should I involve a virtual assistant in trial preparation: For complex cases, involve a VA 8–12 weeks befo...; Can a virtual assistant help with exhibit organization for Oklahoma courtrooms: Yes; What\'s the difference between a virtual legal assistant and a virtual paralegal for trial prep: A virtual legal assistant handles administrativ...',
   },
 };
 
@@ -103,11 +101,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How Virtual Assistants Help Prepare for Trial in Oklahoma"
-
-        title="How Virtual Assistants Help Prepare for Trial in Oklahoma"
         pageDescription="Discover how virtual assistants streamline trial prep for Oklahoma law firms. From exhibits to witness coordination, VA support saves time and cuts costs."
-
-        description="Discover how virtual assistants streamline trial prep for Oklahoma law firms. From exhibits to witness coordination, VA support saves time and cuts costs."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistants-trial-preparation-support-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -152,12 +146,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How Virtual Assistants Help Prepare for Trial in Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">A virtual assistant can handle a wide range of trial preparation tasks including organizing case files and discovery materials, preparing exhibit lists and trial binders, summarizing depositions and transcripts, coordinating witness schedules, drafting subpoenas, preparing witness prep packets, managing pretrial filing deadlines, conducting legal research, and creating trial notebooks. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-16').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -181,8 +169,6 @@ export default function BlogPost() {
             where virtual assistant support becomes a game-changer for Oklahoma law firms.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Trial Preparation Overwhelms Even Experienced Firms</h2>
 
           <h3>The Hidden Cost of Non-Billable Trial Prep Hours</h3>

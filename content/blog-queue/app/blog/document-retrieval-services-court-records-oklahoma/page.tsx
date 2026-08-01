@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Court Records: Document Retrieval Guide',
-  description: "Learn how to retrieve Oklahoma court records via OSCN and ODCR, request certified copies from any of the state's 77 county clerks, and get apostille help.",
+  description: 'Learn how to retrieve court records across Oklahoma',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Court Records: Document Retrieval Guide',
-    description: "Learn how to retrieve Oklahoma court records via OSCN and ODCR, request certified copies from any of the state's 77 county clerks, and get apostille help.",
+    description: 'Learn how to retrieve court records across Oklahoma',
     url: 'https://justlegalsolutions.org/blog/document-retrieval-services-court-records-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-06-18',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma court records are held by 77 independent county clerks, searchable free on OSCN.net or via paid ODCR.com document images; certified copies require a direct clerk request.',
-    'ai-key-facts': 'OSCN covers all 77 counties for free docket searches; ODCR provides scanned document images from 64+ courts; copy fees are $1.00 first page/$0.50 additional under 28 O.S. § 31; certified copies only come from the Court Clerk',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Court Records: Document Retrieval Guide"
-
-        title="Oklahoma Court Records: Document Retrieval Guide"
         pageDescription="Learn how to retrieve court records across Oklahoma"
-
-        description="Learn how to retrieve court records across Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/document-retrieval-services-court-records-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -153,13 +147,10 @@ export default function BlogPost() {
       <div className="bg-gray-50 min-h-screen">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
-            <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6"><h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2><p className="text-gray-800">Oklahoma court records are managed independently by 77 county clerks rather than a central archive. Search dockets for free on OSCN.net or view scanned document images through paid ODCR.com subscriptions, but certified copies for legal use must come directly from the Court Clerk in the county where the case was filed.</p></div>
             <p className="lead text-xl text-gray-600 mb-8">
             If you need court records from anywhere in Oklahoma, you are going to run into a system that is scattered across 77 counties, two major online databases, and a whole lot of courthouse clerk offices that each do things their own way. Whether you are a paralegal pulling files for discovery, an attorney enforcing a judgment, or a private citizen trying to get a certified copy of a divorce decree, Oklahoma court records retrieval can feel overwhelming at first. The good news? Once you understand how the pieces fit together, the process becomes straightforward. In this guide, we will walk you through everything you need to know about obtaining court records across Oklahoma, from navigating OSCN and ODCR to getting certified copies from any county courthouse in the state.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Understanding Oklahoma&apos;s 77-County Court System</h2>
 
           <h3>How District Courts and Court Clerks Are Organized</h3>

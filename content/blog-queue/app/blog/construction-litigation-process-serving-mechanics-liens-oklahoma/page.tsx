@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Construction Process Serving in Oklahoma: Liens & Bond Claims',
-  description: 'Oklahoma mechanic liens require strict deadlines: 90 days for subs, 4 months for contractors, and 1 year to foreclose. Learn bond claim service rules under...',
+  description: 'Navigate mechanic',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Construction Process Serving in Oklahoma: Liens & Bond Claims',
-    description: 'Oklahoma mechanic liens require strict deadlines: 90 days for subs, 4 months for contractors, and 1 year to foreclose. Learn bond claim service rules under Title 42 statewide.',
+    description: 'Navigate mechanic',
     url: 'https://justlegalsolutions.org/blog/construction-litigation-process-serving-mechanics-liens-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-08-27',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma construction cases demand specialized process servers who understand mechanic's lien deadlines under Title 42, bond claim notice requirements under Title 61, and the unique challenges of serving out-of-state contractors and transient construction defendants.',
-    'ai-key-facts': 'Mechanic's liens must be filed within 90 days (subcontractors) or 4 months (original contractors) from last work performed; foreclosure lawsuits must be served within 180 days under 12 O.S. § 2004(I); public works bond claims over $50,000 require serving written notice on both the contractor and surety under 61 O.S. § 1; registered agent service is required for construction companies and LLCs under 12 O.S. § 2004',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Construction Process Serving in Oklahoma: Liens & Bond Claims"
-
-        title="Construction Process Serving in Oklahoma: Liens & Bond Claims"
-        pageDescription="Oklahoma mechanic liens require strict deadlines: 90 days for subs, 4 months for contractors, and 1 year to foreclose. Learn bond claim service rules under Title 42 statewide."
-
-        description="Oklahoma mechanic liens require strict deadlines: 90 days for subs, 4 months for contractors, and 1 year to foreclose. Learn bond claim service rules under Title 42 statewide."
+        pageDescription="Navigate mechanic"
         pageUrl="https://justlegalsolutions.org/blog/construction-litigation-process-serving-mechanics-liens-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Construction Process Serving in Oklahoma: Liens & Bond Claims
           </h1>
-          <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-            <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-            <p className="text-gray-800">
-              Oklahoma mechanic's liens under <strong>42 O.S. § 141</strong> require filing within <strong>90 days</strong> for subcontractors and <strong>4 months</strong> for original contractors from the last day work was performed. Foreclosure lawsuits must be filed within <strong>1 year</strong>, and all defendants must be served within <strong>180 days</strong> under 12 O.S. § 2004(I). For public works bond claims over $50,000 under <strong>61 O.S. § 1</strong>, subcontractors must serve written notice on both the contractor and the surety — serving only one party can invalidate the entire claim.
-            </p>
-          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-08-27').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Imagine you are an electrical subcontractor in Tulsa who just completed $80,000 of work on a commercial development. Sixty days have passed since completion, the general contractor is not returning calls, and every day that ticks by brings you closer to losing your legal right to file a mechanic's lien against that property. This scenario plays out across Oklahoma's $12 billion construction industry every week, and the difference between getting paid and writing off a debt often comes down to one critical factor: whether the right legal documents were served on the right people before Oklahoma's unforgiving statutory deadlines expired.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why Oklahoma's $12 Billion Construction Industry Demands Specialized Process Servers</h2>
           <p>
             Oklahoma's construction sector contributes $12 billion — roughly 4.2% of the state's GDP — with over 11,200 establishments employing approximately 88,400 workers across all 77 counties as of early 2025. That volume of activity creates inevitable payment disputes, from residential builds in Edmond to pipeline work in western Oklahoma to public infrastructure projects in Oklahoma City and Tulsa.

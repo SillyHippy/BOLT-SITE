@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-12',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'In Oklahoma, the average paralegal or legal assistant earns between $49,844 and $63,711 in base salary. But the fully loaded cost \\u2014 including employer payroll taxes at 7.65...',
-    'ai-key-facts': 'How much does it really cost to hire an in-house legal assistant in Oklahoma: In Oklahoma, the average paralegal or legal ass...; How much can an Oklahoma law firm save with a virtual assistant: Most law firms save between $24,000 and $68,000...; What\\u2019s the ROI timeline for hiring a virtual legal assistant: Seventy-two percent of businesses report notice...; Can a virtual assistant handle the same tasks as an in-house legal assistant: For any task that doesn\\u2019t require a physic...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Virtual Assistant vs. In-House Staff: A Law Firm"
-
-        title="Virtual Assistant vs. In-House Staff: A Law Firm"
         pageDescription="Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026."
-
-        description="Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Virtual Assistant vs. In-House Staff: A Law Firm\
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">In Oklahoma, the average paralegal or legal assistant earns between $49,844 and $63,711 in base salary. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-12').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             You went to law school to practice law, not to wrestle with calendar invites and chase down unpaid invoices. But here&apos;s a sobering statistic: the average lawyer bills just 2.6 hours of an 8-hour workday. That&apos;s a 33% utilization rate, according to Clio&apos;s 2024 Legal Trends Report. The rest? It disappears into admin work, client intake, document formatting, billing follow-ups, email management, and file organization. If you&apos;re an Oklahoma attorney billing at the state average of $280 per hour, every hour you spend on non-billable tasks is $280 in lost revenue. You&apos;re not a bad lawyer &mdash; you&apos;re a lawyer doing three jobs at once. The question isn&apos;t whether you can afford help. It&apos;s whether you can afford not to get help.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Hidden Cost of Doing It All Yourself</h2>
 
           <h3>Why Oklahoma Attorneys Only Bill 2.6 Hours a Day</h3>

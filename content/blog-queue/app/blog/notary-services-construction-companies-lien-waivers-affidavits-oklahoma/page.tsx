@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Construction Notary: Lien Waivers & Affidavits',
-  description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic. Learn Oklahoma rules, statutory deadlines, and professional pro...',
+  description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-01-20',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'No. Oklahoma does not require lien waivers to be notarized under state law (Title 42, Sections 141-154).',
-    'ai-key-facts': 'Do lien waivers need to be notarized in Oklahoma: No; What construction documents MUST be notarized in Oklahoma: Under Oklahoma law, mechanics lien statements (...; How long does a contractor have to file a mechanics lien in Oklahoma: Original contractors (those with a direct contr...; Can a mechanics lien be filed electronically in Oklahoma: No',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Do lien waivers need to be notarized in Oklahoma?',
     answer: 'No. Oklahoma does not require lien waivers to be notarized under state law (Title 42, Sections 141-154). Lien waivers are largely unregulated in Oklahoma and can be exchanged at any time during a project. However, some property owners or general contractors may contractually require notarization as an added layer of protection. Note that this is different from mechanics lien statements, which DO require notarization to be filed with the county clerk.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What is the Affidavit for Contracts and Payments under 62 O.S. § 310.9?',
     answer: 'This statute requires architects, contractors, engineers, and suppliers working on Oklahoma public projects (counties, municipalities, school districts) to submit a sworn, notarized affidavit with every invoice of $1,000 or more. The affidavit certifies that the invoice is true and correct, that work was completed per specifications, and that no improper payments were made to government officials. For continuing contracts, one annual affidavit may substitute for individual invoice affidavits.',
-  }
+  },
+  {
+    question: 'Can I use Remote Online Notarization (RON) for construction documents in Oklahoma?',
+    answer: 'Yes. Oklahoma has allowed RON since January 1, 2020, under Senate Bill 915 (codified at 49 O.S. § 112.1). RON is particularly useful for lien waivers, sworn statements, and other documents that don\'t require physical filing. However, mechanics lien statements that must be physically filed with county clerks may still benefit from mobile in-person notarization at the job site or office. RON fees are capped at $25 per notarial act versus $5 for traditional notarization.',
+  },
+  {
+    question: 'Do roofing contractors need notarized documents to work in Oklahoma?',
+    answer: 'Yes. Under the Oklahoma Roofing Contractor Registration Act (59 O.S. § 1151.5), roofing contractors must submit a notarized registration application to the Construction Industries Board, including proof of $500,000 liability insurance and workers\' compensation coverage (or a notarized affidavit of exemption). All changes to registration status must also be submitted in writing. Working without proper registration can result in penalties.',
+  },
+  {
+    question: 'What information must be included in an Oklahoma mechanics lien statement?',
+    answer: 'Under 42 O.S. § 142, a valid Oklahoma mechanics lien statement must include: (1) the amount claimed with itemized details, (2) the name of the property owner, (3) the name of the contractor, (4) the claimant\'s name and information, (5) a legal description of the property (street address alone is insufficient), and (6) a sworn affidavit verifying the information is correct. The statement must be signed, notarized, and accompanied by the county clerk\'s filing fee.',
+  },
+  {
+    question: 'Where can I find a mobile notary who understands construction documents in Oklahoma?',
+    answer: 'Look for a notary service that specifically lists construction documents among their specialties and understands Oklahoma\'s lien laws (Title 42). A construction-experienced notary will understand the urgency of lien filing deadlines, the difference between conditional and unconditional waivers, and the specific affidavit requirements under 62 O.S. § 310.9 and 42 O.S. § 142.6. Ask if they offer both mobile and RON services and if they\'re available for same-day or after-hours appointments, since lien deadlines are unforgiving.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Construction Notary: Lien Waivers & Affidavits"
-
-        title="Oklahoma Construction Notary: Lien Waivers & Affidavits"
         pageDescription="Construction notary services in Oklahoma: which documents must be notarized, from mechanic"
-
-        description="Construction notary services in Oklahoma: which documents must be notarized, from mechanic"
         pageUrl="https://justlegalsolutions.org/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Oklahoma Construction Notary: Lien Waivers & Affidavits
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">No. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-01-20').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -160,8 +162,6 @@ export default function BlogPost() {
             for your construction workflow.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Oklahoma Construction Notary Gap: Why Contractors Need a Notary Who Understands the Build</h2>
 
           <p>

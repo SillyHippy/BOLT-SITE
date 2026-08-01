@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'HOA & Property Management Process Serving in Oklahoma',
-  description: 'Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines...',
+  description: 'Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-03-31',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma HOAs and property management companies typically need process serving for assessment collection lawsuits and past-due notices, covenant violation notices and cure deman...',
-    'ai-key-facts': 'What types of legal documents do Oklahoma HOAs and property managers typically need to have served: Oklahoma HOAs and property management companies...; How does the assessment collection process work for Oklahoma HOAs, and when is process serving required: Under Oklahoma law, HOAs must follow a structur...; What are the foreclosure procedures for HOAs in Oklahoma, and why is proper service so critical: Oklahoma is a judicial foreclosure state, meani...; How do process servers access gated communities in Oklahoma for HOA service: Unlike some states such as California, Oklahoma...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="HOA & Property Management Process Serving in Oklahoma"
-
-        title="HOA & Property Management Process Serving in Oklahoma"
         pageDescription="Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide."
-
-        description="Navigate HOA process serving in Oklahoma with confidence. Learn about dual-sided service challenges, gated community access, judicial foreclosure timelines, and how professional servers support property managers statewide."
         pageUrl="https://justlegalsolutions.org/blog/hoa-property-management-process-serving-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             HOA & Property Management Process Serving in Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Oklahoma HOAs and property management companies typically need process serving for assessment collection lawsuits and past-due notices, covenant violation notices and cure demands, foreclosure proceedings and notice of sale documents, lien enforcement actions, injunction requests for ongoing violations, annual meeting notices and proxy materials, board election challenge documents, and eviction notices for rental properties managed by the association. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-03-31').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you manage property for a homeowners association in Oklahoma — or you serve on an HOA board yourself — you already know that legal disputes are an unavoidable part of community living. What you might not realize is how uniquely complicated the process serving side of those disputes can get. Unlike a straightforward delivery to a single homeowner, HOA process serving operates in a dual-sided world: sometimes the association is doing the serving, and sometimes the association is the one being served. Add gated communities, out-of-state investors, and Oklahoma's judicial foreclosure system into the mix, and you have a service environment that demands real expertise. At Just Legal Solutions, we specialize in professional process serving across all 77 Oklahoma counties, and we work with HOAs, condominium associations, and property management companies every single week.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why HOA and Property Management Process Serving Is Different</h2>
 
           <h3>The Unique Legal Ecosystem of Oklahoma Community Associations</h3>

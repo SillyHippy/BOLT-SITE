@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'I-9 Verification by Notaries: What OK Employers Must Know',
-  description: 'Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employe...',
+  title: 'I-9 Verification by Notaries: What Oklahoma Employers Must Know',
+  description: 'Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,12 +39,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-02-10',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes, a notary public can serve as an authorized representative to complete Section 2 of Form I-9 on behalf of an employer. However, the notary is NOT acting in their official no...',
-    'ai-key-facts': 'Can a notary public complete Section 2 of Form I-9: Yes, a notary public can serve as an authorized...; Is I-9 verification the same as notarization: No; How much does I-9 verification cost with a notary in Oklahoma: I-9 verification service fees in Oklahoma typic...; Who is legally responsible if the I-9 form has errors \\u2014 the employer or the notary: The employer remains 100% legally responsible f...',
   },
 };
 
-const faqs = [
+const faqs: { question: string; answer: string }[] = [
   {
     question: 'Can a notary public complete Section 2 of Form I-9?',
     answer: 'Yes, a notary public can serve as an authorized representative to complete Section 2 of Form I-9 on behalf of an employer. However, the notary is NOT acting in their official notary capacity \u2014 they are acting as the employer\'s designated agent. They should NOT affix a notary seal or stamp to the form. I-9 completion is not a notarization under Oklahoma or federal law.',
@@ -68,7 +66,23 @@ const faqs = [
   {
     question: 'What is the deadline for completing I-9 Section 2?',
     answer: 'Section 2 must be completed within three business days of the employee\'s first day of work for pay. If employment lasts fewer than three business days, both Sections 1 and 2 must be completed by the first day. Missing this deadline can result in ICE penalties of $288 to $2,861 per violation under the 2025-2026 penalty structure.',
-  }
+  },
+  {
+    question: 'Can I-9 verification be done remotely by video call?',
+    answer: 'Only if the employer is enrolled in E-Verify and in good standing \u2014 then the DHS alternative procedure allows remote document examination via live video. For Oklahoma employers NOT enrolled in E-Verify, physical in-person inspection of original documents by the employer or an authorized representative (such as a mobile notary) is still required by federal law under 8 U.S.C. \u00a7 1324a.',
+  },
+  {
+    question: 'Should a notary put their seal on Form I-9?',
+    answer: 'No. USCIS explicitly states that when acting as an authorized representative, a notary public should NOT provide a notary seal on Form I-9. Using a notary seal creates confusion about the nature of the transaction and may misrepresent the notary\'s role. The notary signs as an individual acting on the employer\'s behalf, using the title \'Authorized Representative.\'',
+  },
+  {
+    question: 'What are the penalties for I-9 violations in 2025-2026?',
+    answer: 'ICE substantially increased enforcement in 2025-2026. Substantive violations now carry penalties of $288 to $2,861 per form. ICE also reclassified many previously correctable \'technical\' errors as \'substantive\' violations with no 10-day cure period as of March 2026. Errors such as missing dates, missing representative titles, and incomplete Section 2 document information now trigger immediate fines.',
+  },
+  {
+    question: 'Can any person be an authorized representative for I-9, or does it have to be a notary?',
+    answer: 'USCIS allows employers to designate virtually ANY person as an authorized representative \u2014 a colleague, friend, family member, HR professional, or third-party service. However, notaries are often preferred because of their training in identity verification, document examination, and professionalism. The key requirement is that the person must physically examine original documents and complete Section 2 accurately within the three-business-day deadline.',
+  },
 ];
 
 export default function BlogPost() {
@@ -77,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="I-9 Verification by Notaries: What Oklahoma Employers Must Know"
-
-        title="I-9 Verification by Notaries: What Oklahoma Employers Must Know"
         pageDescription="Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules."
-
-        description="Learn how Oklahoma notaries serve as I-9 authorized representatives. Understand the critical distinction between I-9 verification and notarization, employer liability, and 2026 compliance rules."
         pageUrl="https://justlegalsolutions.org/blog/i9-verification-services-notary-employment-eligibility-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -126,14 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             I-9 Verification by Notaries: What Oklahoma Employers Must Know
           </h1>
-        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. 2004 requirements and Title 49 O.S. where applicable.</p>
-
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Yes, a notary public can serve as an authorized representative to complete Section 2 of Form I-9 on behalf of an employer. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-02-10').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -149,8 +151,6 @@ export default function BlogPost() {
             If you run a business in Oklahoma and hire employees, you already know that verifying employment eligibility is non-negotiable. But here is something most employers get wrong: when a notary helps you complete Form I-9, they are not performing a notarization. That single misunderstanding creates compliance risk, costs businesses thousands in ICE penalties, and leads notaries to make mistakes that expose your company to liability. At Just Legal Solutions, we provide I-9 authorized representative services across all 77 Oklahoma counties, and we believe every employer deserves to understand exactly how this process works before they delegate it.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>I-9 Verification Is NOT a Notarization: The Critical Distinction Every Oklahoma Employer Must Understand</h2>
           <p>
             Let us start with the single most important fact in this entire article: <strong>I-9 verification by a notary is not a notarization</strong>. Say it again. Write it on a sticky note. Tattoo it on your forearm if you have to. Because getting this wrong is the number one source of confusion among Oklahoma employers and employees alike.

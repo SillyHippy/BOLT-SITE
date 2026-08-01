@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How a Virtual Assistant Can Help with Case Management',
-  description: 'Discover how virtual assistants help Oklahoma law firms manage cases more efficiently. Learn about case intake, deadline tracking, client communication & e...',
+  description: 'Discover how virtual assistants help Oklahoma law firms manage cases more efficiently. Learn about case intake, deadline tracking, client communication & ethical compliance under Rule 5.3.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-02',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'A virtual assistant can handle case file organization and document management; updating case notes and tracking case status in your practice management software such as Clio, My...',
-    'ai-key-facts': 'What specific case management tasks can a virtual assistant handle for my law firm: A virtual assistant can handle case file organi...; Is it ethical under Oklahoma law to delegate case management tasks to a virtual assistant: Yes; How does a virtual case management assistant differ from a virtual paralegal: A virtual case management assistant focuses on ...; Can a virtual assistant use my firm\\\'s existing case management software: Absolutely',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How a Virtual Assistant Can Help with Case Management"
-
-        title="How a Virtual Assistant Can Help with Case Management"
         pageDescription="Discover how virtual assistants help Oklahoma law firms manage cases more efficiently. Learn about case intake, deadline tracking, client communication & ethical compliance under Rule 5.3."
-
-        description="Discover how virtual assistants help Oklahoma law firms manage cases more efficiently. Learn about case intake, deadline tracking, client communication & ethical compliance under Rule 5.3."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-case-management-help-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             How a Virtual Assistant Can Help with Case Management
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">A virtual assistant can handle case file organization and document management; updating case notes and tracking case status in your practice management software such as Clio, MyCase, or Filevine; managing client communication and follow-ups; calendaring court deadlines, hearings, and depositions; coordinating with opposing counsel and court staff; preparing case correspondence and routine documents; and maintaining medical records, discovery documents, and evidence files. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-04-02').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~14 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             If you are an Oklahoma attorney running a small firm or solo practice, you already know the feeling. You went to law school to practice law, to advocate for clients, to argue in court. But somewhere between the bar exam and this morning's calendar, case management ate your day. The good news? A skilled virtual assistant trained in legal case management can give you back the hours you need to actually practice law. At Just Legal Solutions, we provide comprehensive virtual assistant and legal support services designed specifically for Oklahoma attorneys who need reliable, efficient case management support across all 77 counties.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>The Case Management Crisis Facing Oklahoma Law Firms</h2>
 
           <h3>Why Attorneys Only Spend 60% of Their Time on Actual Client Work</h3>

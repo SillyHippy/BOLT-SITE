@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'McGirt & Post-McGirt Process Serving: A 2026 Guide',
-  description: 'Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable fie...',
+  description: 'Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-07-09',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'McGirt v. Oklahoma (2020) was a landmark U.S.',
-    'ai-key-facts': 'What was the McGirt v. Oklahoma decision and why does it matter for process servers: McGirt v; Does McGirt affect civil cases or only criminal cases: While McGirt specifically addressed criminal ju...; Do I need special permission to serve process on tribal land in Oklahoma: Yes, in most cases; How do I know if an address is on tribal land: Reservation boundaries are not always clearly m...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="McGirt & Post-McGirt Process Serving: A 2026 Guide"
-
-        title="McGirt & Post-McGirt Process Serving: A 2026 Guide"
         pageDescription="Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers."
-
-        description="Navigate tribal land process serving in post-McGirt Oklahoma. Learn the 2026 jurisdiction rules, avoid common McGirt mistakes, and download a printable field checklist for process servers."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-tribal-land-mcgirt-jurisdiction-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             McGirt & Post-McGirt Process Serving: A 2026 Guide
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">McGirt v. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-07-09').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~15 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Six years after the McGirt decision redrew Oklahoma\u2019s jurisdictional map, process servers across the state are still navigating a landscape that looks nothing like the one they trained for. If you serve papers in Tulsa, Muskogee, Tahlequah, Durant, or Ada, tribal jurisdiction is no longer an abstract legal concept\u2014it is a daily operational reality. This guide gives you the 2026 legal landscape, a practical field decision tree, and the hard-won lessons from process servers who have been doing this work since day one.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Why McGirt Still Matters for Process Servers in 2026</h2>
 
           <h3>The Decision That Redrew Oklahoma\u2019s Map</h3>

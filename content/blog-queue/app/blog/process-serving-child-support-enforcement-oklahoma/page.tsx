@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving for Child Support Enforcement in Oklahoma',
-  description: 'Learn how Oklahoma process servers serve child support papers, contempt citations, and bench warrants. Covers CSS rules, AOR service, and licensed server r...',
+  description: 'Learn how Oklahoma process servers serve child support papers, contempt citations, and bench warrants. Covers CSS rules, AOR service, and licensed server requirements.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -39,8 +39,6 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-12-10',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'In Oklahoma, child support papers may be served by a sheriff or deputy sheriff, a licensed private process server under 12 O.S. \\u00a7 158.1, or a person specially appointed by ...',
-    'ai-key-facts': 'Who can serve child support papers in Oklahoma: In Oklahoma, child support papers may be served...; What is the Address of Record for child support in Oklahoma: Under 43 O; Can child support contempt citations be served by regular mail in Oklahoma: No; What happens if the non-custodial parent cannot be served with a contempt citation: If service of a contempt citation cannot be com...',
   },
 };
 
@@ -93,11 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Process Serving for Child Support Enforcement in Oklahoma"
-
-        title="Process Serving for Child Support Enforcement in Oklahoma"
         pageDescription="Learn how Oklahoma process servers serve child support papers, contempt citations, and bench warrants. Covers CSS rules, AOR service, and licensed server requirements."
-
-        description="Learn how Oklahoma process servers serve child support papers, contempt citations, and bench warrants. Covers CSS rules, AOR service, and licensed server requirements."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-child-support-enforcement-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -142,12 +136,6 @@ export default function BlogPost() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Process Serving for Child Support Enforcement in Oklahoma
           </h1>
-
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
-          <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">In Oklahoma, child support papers may be served by a sheriff or deputy sheriff, a licensed private process server under 12 O.S. Just Legal Solutions provides licensed process serving and legal support statewide — <strong>(539) 367-6832</strong>.</p>
-        </div>
-
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-blue-200/80 mt-8">
             <span className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> {new Date('2026-12-10').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> ~16 min read</span>
@@ -163,8 +151,6 @@ export default function BlogPost() {
             Imagine you are an Oklahoma family law attorney. You have just filed a contempt citation against a non-custodial parent who owes $15,000 in unpaid child support. The custodial parent has been waiting months \u2014 bills are piling up, the child needs dental work, and the rent is late. You drop the citation in the mail to the address on file with Oklahoma Child Support Services. The hearing date arrives, and the obligor does not show. You ask the judge for a bench warrant. The judge looks at your proof of service, frowns, and says: \u201cRegular mail to the Address of Record? That\u2019s not sufficient for contempt. I\u2019m issuing an alias citation. We\u2019ll reset the hearing.\u201d Your heart sinks. The custodial parent will wait another two months. Maybe longer. That is the difference between proper and improper service of process in Oklahoma child support enforcement \u2014 and it happens more often than most attorneys realize.
           </p>
 
-
-<p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every service with 12 O.S. § 2004 requirements and Title 49 O.S. where applicable.</p>
           <h2>Oklahoma Child Support Enforcement at a Glance: The Scale of the System</h2>
 
           <h3>How Oklahoma CSS Operates: 40 District Offices, 200,000+ Cases, and $300 Million Collected</h3>
