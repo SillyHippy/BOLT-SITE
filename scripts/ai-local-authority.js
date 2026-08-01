@@ -142,7 +142,7 @@ const localAuthority = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "156",
+    "reviewCount": 156,
     "bestRating": "5"
   }
 };

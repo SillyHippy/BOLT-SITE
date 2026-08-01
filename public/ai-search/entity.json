@@ -61,7 +61,7 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "156",
+    "reviewCount": 156,
     "bestRating": "5"
   },
   "dateModified": "2026-08-01T16:32:09.648Z"

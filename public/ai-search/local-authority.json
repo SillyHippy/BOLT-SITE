@@ -4,6 +4,12 @@
   "@id": "https://justlegalsolutions.org/#localbusiness",
   "name": "Just Legal Solutions",
   "description": "Tulsa's highest-rated process serving company, covering all 77 Oklahoma counties",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tulsa",
+    "addressRegion": "OK",
+    "addressCountry": "US"
+  },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": "36.1540",
@@ -109,7 +115,7 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "156",
+    "reviewCount": 156,
     "bestRating": "5"
   }
 }

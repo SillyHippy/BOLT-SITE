@@ -34,7 +34,8 @@
     "blog:normalize-queue": "node scripts/normalize-kimi-queue-posts.js",
     "blog:enhance-queue-seo-ai": "node scripts/enhance-queue-editorial-seo.js",
     "blog:audit-monthly": "node scripts/monthly-seo-audit.js",
-    "prebuild": "node scripts/generate-page-freshness.mjs && node scripts/run-ai-optimization.js && node scripts/prioritize-county-redirects.mjs",
+    "validate:schema": "node scripts/validate-schema.js",
+    "prebuild": "node scripts/validate-schema.js && node scripts/generate-page-freshness.mjs && node scripts/run-ai-optimization.js && node scripts/prioritize-county-redirects.mjs",
     "postbuild": "node scripts/generate-page-freshness.mjs && node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js && node scripts/generate-image-sitemap.js && node scripts/sync-ai-freshness-dates.mjs",
     "postexport": "node scripts/verify-contact-info.js"
   },
