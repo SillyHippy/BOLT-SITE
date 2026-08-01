@@ -2,7 +2,9 @@ name: Weekly Blog Release
 
 on:
   schedule:
+    # Tuesday + Thursday at 15:00 UTC (9:00 AM Central / 10:00 AM Eastern)
     - cron: '0 15 * * 2'
+    - cron: '0 15 * * 4'
   workflow_dispatch:
 
 permissions:
@@ -13,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BLOG_TARGET_DATE: '2027-02-28'
-      BLOG_MAX_RELEASES_PER_RUN: '5'
+      BLOG_MAX_RELEASES_PER_RUN: '2'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
