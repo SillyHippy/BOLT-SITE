@@ -111,3 +111,5 @@ Sitemap: https://justlegalsolutions.org/sitemap-index.xml
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
 Sitemap: https://justlegalsolutions.org/video-sitemap.xml
+Sitemap: https://justlegalsolutions.org/ai-sitemap.xml
+Sitemap: https://justlegalsolutions.org/supremacy-sitemap.xml

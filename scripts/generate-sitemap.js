@@ -518,6 +518,39 @@ function generateSitemap() {
     fs.writeFileSync(path.join(OUT_DIR, 'sitemap.xml'), sitemap);
   }
   console.log(`🗺️ Sitemap generated with ${urlEntries.length} URLs.`);
+
+  // ── Regenerate sitemap-index.xml with current lastmod dates ──────────
+  // The index references all child sitemaps and must have up-to-date lastmod
+  // so Google knows to re-fetch. Previously this was a static file from Apr 2026.
+  const childSitemaps = [
+    { loc: 'sitemap.xml', changefreq: 'weekly' },
+    { loc: 'video-sitemap.xml', changefreq: 'monthly' },
+    { loc: 'sitemap-images.xml', changefreq: 'monthly' },
+    { loc: 'ai-sitemap.xml', changefreq: 'weekly' },
+    { loc: 'supremacy-sitemap.xml', changefreq: 'monthly' },
+  ];
+
+  const indexEntries = childSitemaps.map(child => {
+    let childLastmod = today;
+    try {
+      const childPath = path.join(PUBLIC_DIR, child.loc);
+      if (fs.existsSync(childPath)) {
+        const stats = fs.statSync(childPath);
+        childLastmod = stats.mtime.toISOString().split('T')[0];
+      }
+    } catch {
+      childLastmod = today;
+    }
+    return `  <sitemap>\n    <loc>${DOMAIN}/${child.loc}</loc>\n    <lastmod>${childLastmod}</lastmod>\n  </sitemap>`;
+  });
+
+  const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexEntries.join('\n')}\n</sitemapindex>\n`;
+
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-index.xml'), sitemapIndex);
+  if (fs.existsSync(OUT_DIR)) {
+    fs.writeFileSync(path.join(OUT_DIR, 'sitemap-index.xml'), sitemapIndex);
+  }
+  console.log(`📌 Sitemap index regenerated with ${indexEntries.length} child sitemaps.`);
 }
 
 generateSitemap();
