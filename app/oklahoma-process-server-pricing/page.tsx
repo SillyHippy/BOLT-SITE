@@ -403,6 +403,18 @@ export default function OklahomaProcessServerPricing2026() {
           </div>
         </section>
 
+        <section className="mb-8" aria-labelledby="filing-direction-heading">
+          <h2 id="filing-direction-heading" className="text-3xl font-semibold mb-4">Filing & Drop-Off Direction</h2>
+          <div className="bg-white border border-gray-200 p-6 rounded shadow">
+            <p className="mb-4">
+              If no specific filing instructions are provided &mdash; including a preferred e-filing portal, physical drop-off location, inbox, department, or recipient &mdash; we will follow the <strong>court clerk&rsquo;s guidance</strong> to determine where and how to file or deliver your documents. This ensures your documents reach the right place correctly and on time.
+            </p>
+            <p>
+              To route documents to a specific location or method, please provide those instructions when you request service. Otherwise, we will confirm the appropriate filing destination with the clerk of court on your behalf.
+            </p>
+          </div>
+        </section>
+
         <section className="mb-8" aria-labelledby="guarantee-heading">
           <h2 id="guarantee-heading" className="text-3xl font-semibold mb-4">Professional Service Guarantee</h2>
           <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-900 p-6 rounded mb-4">

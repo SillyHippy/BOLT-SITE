@@ -772,6 +772,16 @@ export default function PricingPage() {
                   </p>
                 </div>
               </div>
+              {/* full-width: filing/drop-off direction policy */}
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold mb-3 text-blue-900">Filing & Drop-Off Direction</h3>
+                <p className="text-gray-700">
+                  If no specific filing instructions are provided — including a preferred e-filing portal, physical drop-off location, inbox, department, or recipient — we will follow the <strong>court clerk&rsquo;s guidance</strong> to determine where and how to file or deliver your documents. This ensures your documents reach the right place correctly and on time.
+                </p>
+                <p className="text-gray-700 mt-4">
+                  To route documents to a specific location or method, please provide those instructions when you request service. Otherwise, we will confirm the appropriate filing destination with the clerk of court on your behalf.
+                </p>
+              </div>
             </div>
           </div>
         </section>
