@@ -1,13 +1,6 @@
 {
   "generatedAt": "2026-06-23T02:30:00.000Z",
   "redirects": {
-    "electronic-filing-service-oklahoma-courts": {
-      "target": "/blog/oklahoma-court-filing-services",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-06-02"
-    },
     "electronic-proof-service-digital-signatures-court-acceptance-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -93,6 +86,6 @@
       "updatedAt": "2026-06-02"
     }
   },
-  "lastPublishedSlug": "what-does-process-server-do-day-in-life",
-  "lastPublishedAt": "2026-07-28T16:28:10.525Z"
+  "lastPublishedSlug": "electronic-filing-service-oklahoma-courts",
+  "lastPublishedAt": "2026-08-04T16:46:23.078Z"
 }

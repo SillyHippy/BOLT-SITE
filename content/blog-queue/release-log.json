@@ -5224,6 +5224,46 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-04T16:46:23.076Z",
+      "releaseDate": "2026-08-04",
+      "quality": {
+        "words": 3164,
+        "headings": 24,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-04T16:46:23.084Z",
+      "releaseDate": "2026-08-04",
+      "quality": {
+        "words": 2331,
+        "headings": 15,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
