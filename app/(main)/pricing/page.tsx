@@ -80,14 +80,6 @@ export const metadata: Metadata = {
 // Data for additional services organized by category
 const serviceCategories = [
   {
-    category: 'Rush & Emergency Services',
-    services: [
-      { title: 'Immediate Action Service', description: 'Critical emergency service for time-sensitive legal situations requiring service within <strong>2-4 hours</strong>. Additional fee of <strong>$100</strong> on top of base service rate. Subject to availability and confirmation.' },
-      { title: 'Holiday Service', description: 'Service available on holidays with an additional surcharge of <strong>$25-50</strong> depending on the specific date and urgency. Contact us for availability and exact pricing.' },
-      { title: 'Set Time of Service', description: 'If you require service at a specific time and date, an additional rush fee may apply. This will be confirmed with you beforehand.' },
-    ]
-  },
-  {
     category: 'Filing & Documentation',
     services: [
       { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. <strong>eFiling is free in Oklahoma upon request</strong>. For in-person filing in Tulsa County, the fee is <strong>$35 plus court costs</strong>. Fees for other counties will be quoted upfront.' },
@@ -97,17 +89,20 @@ const serviceCategories = [
     ]
   },
   {
-    category: 'Difficult Service & Investigations',
+    category: 'Investigations',
     services: [
       { title: 'Evasive Respondent Stakeout', description: 'For difficult-to-serve individuals, stakeout services are available at <strong>$90 per hour</strong> (2 hour minimum). This is only performed at your request.' },
       { title: 'Skip Tracing', description: 'Need to locate an individual? We offer skip tracing services. Please contact us for a quote.' },
     ]
   },
   {
-    category: 'Special Pricing & Court',
+    category: 'Court & Special Pricing',
     services: [
       { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$35</strong>.' },
       { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>Up to $500/hour</strong>, billed in full-hour increments (contact us for negotiated rates). Appearances outside Tulsa County: Additional fees based on travel/time will be negotiated beforehand. This fee is separate from standard document service charges and covers time spent attending court and testifying. Rescheduling/cancellation fees may apply.' },
+      { title: 'Immediate Action Service', description: 'Critical emergency service for time-sensitive legal situations requiring service within <strong>2-4 hours</strong>. Additional fee of <strong>$100</strong> on top of base service rate. Subject to availability and confirmation.' },
+      { title: 'Holiday Service', description: 'Service available on holidays with an additional surcharge of <strong>$25-50</strong> depending on the specific date and urgency. Contact us for availability and exact pricing.' },
+      { title: 'Set Time of Service', description: 'If you require service at a specific time and date, an additional rush fee may apply. This will be confirmed with you beforehand.' },
     ]
   },
 ];
@@ -197,6 +192,26 @@ export default function PricingPage() {
               itemOffered: {
                 name: "Specialty Legal Service",
                 serviceType: "Legal Document Services"
+              }
+            },
+            {
+              name: "Standard Courier",
+              description: "Same-day or next-morning legal document delivery for non-urgent items",
+              price: "$60",
+              priceCurrency: "USD",
+              itemOffered: {
+                name: "Standard Courier Delivery",
+                serviceType: "Legal Document Courier"
+              }
+            },
+            {
+              name: "Rush Courier",
+              description: "Priority legal document delivery within 2-3 hours",
+              price: "$100",
+              priceCurrency: "USD",
+              itemOffered: {
+                name: "Rush Courier Delivery",
+                serviceType: "Expedited Legal Document Courier"
               }
             }
           ]
@@ -418,9 +433,9 @@ export default function PricingPage() {
         <section className="py-10 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900">Process Service Packages</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Process Serving &amp; Courier Pricing</h2>
               <p className="text-lg text-gray-600 mt-2 mb-6">
-                Base starting prices for our primary service area. See the fuel adjustment notice above for current rates on affected services.
+                Process serving and courier delivery use the same starting rates for Standard and Rush. Different job, same transparent base pricing. See the fuel adjustment notice above for current rates on affected services.
               </p>
               <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
@@ -430,6 +445,10 @@ export default function PricingPage() {
               </div>
             </div>
 
+            <div className="mb-4">
+              <h3 className="text-lg font-bold text-blue-900 mb-1">Process Serving</h3>
+              <p className="text-sm text-gray-600 mb-4">Legal service of process with GPS-verified proof and court-ready affidavit.</p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                 <div className="inline-flex items-center justify-center bg-gray-100 rounded-full p-2 mb-3">
@@ -490,6 +509,50 @@ export default function PricingPage() {
               </div>
             </div>
 
+            <div className="mt-10 mb-4">
+              <h3 className="text-lg font-bold text-blue-900 mb-1 flex items-center gap-2">
+                <Truck className="h-5 w-5 text-blue-600" />
+                Courier Delivery
+              </h3>
+              <p className="text-sm text-gray-600 mb-4">
+                Same Standard (${getBasePrice('standard-courier')}) and Rush (${getBasePrice('rush-courier')}) starting rates as process serving — for fast, reliable legal document transportation (not formal service of process).
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
+              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+                <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-2 mb-3">
+                  <Truck className="h-6 w-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Courier</h3>
+                <div className="mb-3">
+                  <p className="text-3xl font-bold text-green-600">${getBasePrice('standard-courier')}</p>
+                  <p className="text-xs text-gray-500 mb-2">base starting price — same as Standard Service</p>
+                </div>
+                <p className="text-gray-600 mb-3 text-sm">Delivery within the same business day or next morning for non-urgent items.</p>
+                <p className="text-sm text-gray-500">
+                  Court filings, firm-to-firm drops, and other non-serve document transport.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+                <div className="inline-flex items-center justify-center bg-yellow-100 rounded-full p-2 mb-3">
+                  <Zap className="h-6 w-6 text-yellow-600" />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Courier</h3>
+                <div className="mb-3">
+                  <p className="text-3xl font-bold text-green-600">${getBasePrice('rush-courier')}</p>
+                  <p className="text-xs text-gray-500 mb-2">base starting price — same as Rush Service</p>
+                </div>
+                <p className="text-gray-600 mb-3 text-sm">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
+                <p className="text-sm text-gray-500">
+                  Same rush floor as process serving; different scope (transport, not service of process).
+                </p>
+              </div>
+            </div>
+            <p className="text-center text-sm text-gray-500 mt-8 max-w-3xl mx-auto">
+              Base rates shown above. See the fuel adjustment notice for current rates on standard and rush process serving and courier. Prices shown are starting rates and are subject to change; mileage and location may affect your final quote.<br />
+              <span className="text-gray-600 font-medium">Note: Courier rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
+            </p>
+
             {/* CTA Button */}
             <div className="text-center mt-10">
               <a href="#contact" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
@@ -499,38 +562,6 @@ export default function PricingPage() {
               </a>
               <p className="text-sm text-gray-500 mt-3">Or call us directly: <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a></p>
             </div>
-          </div>
-        </section>
-
-        <section className="py-10 px-4 bg-white">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-3 mb-4">
-                <Truck className="h-8 w-8 text-blue-600" />
-              </div>
-              <h2 className="text-3xl font-bold text-gray-900">Courier Service Pricing</h2>
-              <p className="text-lg text-gray-600 mt-2">
-                For fast and reliable document transportation.
-              </p>
-            </div>
-            <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">${getBasePrice('standard-courier')}</p>
-                <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
-              </div>
-              <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">${getBasePrice('rush-courier')}</p>
-                <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
-              </div>
-            </div>
-            <p className="text-center text-sm text-gray-500 mt-8">
-              Base courier rates shown above. See the fuel adjustment notice for current rates on standard and rush courier. Prices shown are starting rates and are subject to change; mileage and location may affect your final quote.<br />
-              <span className="text-gray-600 font-medium">Note: Rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
-            </p>
           </div>
         </section>
 
@@ -662,8 +693,8 @@ export default function PricingPage() {
         <section className="py-10 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900">Additional &amp; Optional Services</h2>
-              <p className="text-lg text-gray-600 mt-2">Customize your service with these available add-ons.</p>
+              <h2 className="text-3xl font-bold text-gray-900">Filing, Investigations &amp; Court Services</h2>
+              <p className="text-lg text-gray-600 mt-2">Optional add-ons and specialized services — clear pricing for filing, locate work, and court support.</p>
             </div>
 
             <div className="max-w-4xl mx-auto mb-10 bg-amber-50 border border-amber-200 rounded-xl px-6 py-5 shadow-sm">
