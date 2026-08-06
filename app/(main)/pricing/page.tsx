@@ -440,74 +440,146 @@ export default function PricingPage() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 items-start">
               {/* Standard */}
-              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all">
-                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 mb-4">
-                  <Clock className="h-5 w-5 text-slate-700" />
+              <div className="flex flex-col h-full bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all overflow-hidden">
+                <div className="bg-slate-100 px-5 py-3 border-b border-slate-200">
+                  <div className="flex items-center gap-2 text-slate-700">
+                    <Clock className="h-4 w-4" />
+                    <span className="text-sm font-bold">First attempt within the first week</span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Standard</h3>
-                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('standard')}</p>
-                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
-                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
-                  Everyday process serving or courier delivery. Solid default for routine jobs.
-                </p>
-                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
-                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
-                  <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
-                </div>
-              </div>
-
-              {/* Rush */}
-              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-yellow-300 transition-all">
-                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-yellow-50 mb-4">
-                  <Zap className="h-5 w-5 text-yellow-600" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">Rush</h3>
-                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('rush')}</p>
-                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
-                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
-                  Priority process serving or courier when the job can&apos;t wait on the standard queue.
-                </p>
-                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
-                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
-                  <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
-                </div>
-              </div>
-
-              {/* Same-Day */}
-              <div className="relative flex flex-col bg-gradient-to-b from-blue-50 to-white rounded-2xl border-2 border-blue-500 p-6 shadow-md hover:shadow-lg transition-all">
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[11px] font-bold tracking-wide px-3 py-1 rounded-full uppercase">
-                  Most popular
-                </span>
-                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-orange-50 mb-4 mt-1">
-                  <Flame className="h-5 w-5 text-orange-500" />
-                </div>
-                <h3 className="text-xl font-bold text-blue-900">Same-Day Rush</h3>
-                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('same-day')}</p>
-                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
-                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
-                  Same-day process serving or courier for time-critical filings and deliveries.
-                </p>
-                <div className="mt-5 pt-4 border-t border-blue-100 flex flex-wrap gap-2">
-                  <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Process serving</span>
-                  <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Courier</span>
+                <div className="flex flex-col flex-grow p-6">
+                  <h3 className="text-xl font-bold text-gray-900">Standard</h3>
+                  <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('standard')}</p>
+                  <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    Everyday process serving or courier delivery for routine, non-urgent jobs.
+                  </p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                    <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
+                  </div>
+                  <details className="group mt-5 pt-4 border-t border-gray-100">
+                    <summary className="flex items-center justify-between cursor-pointer list-none text-sm font-semibold text-blue-700 hover:text-blue-900">
+                      <span>What&apos;s included</span>
+                      <ArrowRight className="h-4 w-4 transition-transform group-open:rotate-90" />
+                    </summary>
+                    <ul className="mt-3 space-y-2 text-sm text-gray-600">
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Up to 3 service attempts</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt within the first week</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />GPS + photo-verified proof of service</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Court-ready affidavit</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Same $60 base for courier delivery</li>
+                    </ul>
+                  </details>
                 </div>
               </div>
 
-              {/* Triple-Attempt */}
-              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-red-200 transition-all">
-                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-red-50 mb-4">
-                  <Target className="h-5 w-5 text-red-600" />
+              {/* Rush / Priority */}
+              <div className="flex flex-col h-full bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-yellow-300 transition-all overflow-hidden">
+                <div className="bg-yellow-50 px-5 py-3 border-b border-yellow-200">
+                  <div className="flex items-center gap-2 text-yellow-700">
+                    <Zap className="h-4 w-4" />
+                    <span className="text-sm font-bold">First attempt within 3 days</span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900">Triple-Attempt Rush</h3>
-                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('triple-attempt')}</p>
-                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
-                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
-                  Three attempts with detailed reporting — built for evasive or hard-to-serve respondents.
-                </p>
-                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
-                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                <div className="flex flex-col flex-grow p-6">
+                  <h3 className="text-xl font-bold text-gray-900">Rush</h3>
+                  <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('rush')}</p>
+                  <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    Priority process serving or courier when the job can&apos;t wait on the standard queue.
+                  </p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                    <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
+                  </div>
+                  <details className="group mt-5 pt-4 border-t border-gray-100">
+                    <summary className="flex items-center justify-between cursor-pointer list-none text-sm font-semibold text-blue-700 hover:text-blue-900">
+                      <span>What&apos;s included</span>
+                      <ArrowRight className="h-4 w-4 transition-transform group-open:rotate-90" />
+                    </summary>
+                    <ul className="mt-3 space-y-2 text-sm text-gray-600">
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt within 3 days</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Priority scheduling over standard jobs</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />GPS + photo-verified proof of service</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Court-ready affidavit</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Same $100 base for rush courier delivery</li>
+                    </ul>
+                  </details>
+                </div>
+              </div>
+
+              {/* Same-Day Rush */}
+              <div className="relative flex flex-col h-full bg-white rounded-2xl border-2 border-blue-500 shadow-md hover:shadow-lg transition-all overflow-hidden">
+                <div className="bg-blue-600 px-5 py-3">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-white">
+                      <Flame className="h-4 w-4" />
+                      <span className="text-sm font-bold">First attempt same day</span>
+                    </div>
+                    <span className="bg-white/20 text-white text-[10px] font-bold tracking-wide px-2 py-0.5 rounded-full uppercase">Popular</span>
+                  </div>
+                </div>
+                <div className="flex flex-col flex-grow p-6 bg-gradient-to-b from-blue-50 to-white">
+                  <h3 className="text-xl font-bold text-blue-900">Same-Day Rush</h3>
+                  <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('same-day')}</p>
+                  <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    Same-day process serving or courier for time-critical filings and deliveries.
+                  </p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Process serving</span>
+                    <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Courier</span>
+                  </div>
+                  <details className="group mt-5 pt-4 border-t border-blue-100">
+                    <summary className="flex items-center justify-between cursor-pointer list-none text-sm font-semibold text-blue-700 hover:text-blue-900">
+                      <span>What&apos;s included</span>
+                      <ArrowRight className="h-4 w-4 transition-transform group-open:rotate-90" />
+                    </summary>
+                    <ul className="mt-3 space-y-2 text-sm text-gray-600">
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt the same day</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Front-of-line dispatch</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />GPS + photo-verified proof of service</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Court-ready affidavit</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Same $150 base for same-day courier delivery</li>
+                    </ul>
+                  </details>
+                </div>
+              </div>
+
+              {/* Triple-Attempt Rush */}
+              <div className="flex flex-col h-full bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md hover:border-red-200 transition-all overflow-hidden">
+                <div className="bg-red-50 px-5 py-3 border-b border-red-200">
+                  <div className="flex items-center gap-2 text-red-700">
+                    <Target className="h-4 w-4" />
+                    <span className="text-sm font-bold">First attempt within 48 hours</span>
+                  </div>
+                </div>
+                <div className="flex flex-col flex-grow p-6">
+                  <h3 className="text-xl font-bold text-gray-900">Triple-Attempt Rush</h3>
+                  <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('triple-attempt')}</p>
+                  <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    Three documented attempts — built for evasive or hard-to-serve respondents.
+                  </p>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                  </div>
+                  <details className="group mt-5 pt-4 border-t border-gray-100">
+                    <summary className="flex items-center justify-between cursor-pointer list-none text-sm font-semibold text-blue-700 hover:text-blue-900">
+                      <span>What&apos;s included</span>
+                      <ArrowRight className="h-4 w-4 transition-transform group-open:rotate-90" />
+                    </summary>
+                    <ul className="mt-3 space-y-2 text-sm text-gray-600">
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt within 48 hours</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Three documented attempts</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Detailed attempt reporting for the court</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />GPS + photo-verified proof of service</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Best for evasive respondents</li>
+                    </ul>
+                  </details>
                 </div>
               </div>
             </div>
