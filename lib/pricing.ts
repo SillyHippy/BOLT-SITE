@@ -21,13 +21,17 @@ export const FUEL_OPERATING_ADJUSTMENT = 20;
 /** When the current fuel adjustment took effect (display string). */
 export const FUEL_ADJUSTMENT_EFFECTIVE_DATE = 'July 19, 2026';
 
-/** Service ids that receive the temporary fuel & operating-cost adjustment. */
+/**
+ * Service ids that receive the temporary fuel & operating-cost adjustment.
+ * UI shows one shared ladder (standard / rush / same-day) for process serving + courier.
+ * standard-courier / rush-courier remain as aliases of the same dollars for backward compat.
+ */
 export const FUEL_ADJUSTED_SERVICE_IDS = [
   'standard',
   'rush',
   'same-day',
-  'standard-courier',
-  'rush-courier',
+  'standard-courier', // alias of standard
+  'rush-courier', // alias of rush
 ] as const;
 
 /** Base starting rates before temporary fuel adjustment. */
@@ -38,6 +42,7 @@ export const BASE_PRICES: Record<string, number> = {
   'same-day': 150,
   'triple-attempt': 225,
   'after-hours-rush': 265,
+  // Aliases — same dollars as standard / rush (shared process + courier ladder)
   'standard-courier': 60,
   'rush-courier': 100,
   'notary-in-office': 20,
@@ -80,10 +85,13 @@ export const STARTING_PRICES: readonly StartingPrice[] = [
   { id: 'after-hours-rush', label: 'After-Hours Rush', startsAt: getBasePrice('after-hours-rush')!, note: '2-hour response' },
 ] as const;
 
-/** Add-on / non-process-serving services. Optional; for richer pricing pages. */
+/**
+ * Ancillary prices. Courier is NOT a separate package ladder on /pricing —
+ * Standard/Rush courier share standard/rush. These ids stay for internal/compat use.
+ */
 export const ANCILLARY_STARTING_PRICES: readonly StartingPrice[] = [
-  { id: 'standard-courier', label: 'Standard Courier', startsAt: getBasePrice('standard-courier')!, note: 'same-day or next-morning' },
-  { id: 'rush-courier', label: 'Rush Courier', startsAt: getBasePrice('rush-courier')!, note: '2-3 hour priority' },
+  { id: 'standard-courier', label: 'Standard (courier alias)', startsAt: getBasePrice('standard')!, note: 'same as Standard tier' },
+  { id: 'rush-courier', label: 'Rush (courier alias)', startsAt: getBasePrice('rush')!, note: 'same as Rush tier' },
   { id: 'notary-in-office', label: 'In-Office Notary', startsAt: 20, note: 'Mon-Fri 8am-6pm' },
   { id: 'notary-mobile', label: 'Mobile Notary / RON', startsAt: 25, note: 'per act, travel fee may apply' },
   { id: 'skip-tracing', label: 'Skip Tracing', startsAt: 50, note: 'standard turnaround' },

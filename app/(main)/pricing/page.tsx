@@ -68,8 +68,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'ai-summary': 'Just Legal Solutions transparent base pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $35, standard $60, rush $100, same-day $150, triple-attempt $225, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $60. A temporary $20 fuel and operating-cost adjustment applies to fuel-dependent services (see pricing page banner). All 77 Oklahoma counties served. Final cost depends on location, mileage, timing, attempts, add-ons, and complexity.',
-    'ai-key-facts': 'Single attempt $35, Standard $60 base, Rush $100 base, Same-Day $150 base, Triple-Attempt $225, Standard Courier $60 base, Rush Courier $100 base, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $90/hr, eFiling free, temporary $20 fuel adjustment on affected services effective July 19 2026, Glenpool/Tulsa County primary service area, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions transparent base pricing for process serving and courier in Oklahoma — one shared tier ladder. Starts at: single-attempt $35, standard $60 (process serving & courier), rush $100 (process serving & courier), same-day $150, triple-attempt $225, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. A temporary $20 fuel and operating-cost adjustment applies to fuel-dependent services (see pricing page banner). All 77 Oklahoma counties served. Final cost depends on location, mileage, timing, attempts, add-ons, and complexity.',
+    'ai-key-facts': 'Single attempt $35, Standard $60 base (process serving & courier), Rush $100 base (process serving & courier), Same-Day $150 base (process serving & courier), Triple-Attempt $225, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $90/hr, eFiling free, temporary $20 fuel adjustment on affected services effective July 19 2026, Glenpool/Tulsa County primary service area, (539) 367-6832',
     ...buildFreshnessMetadata({
       datePublished: pricingFreshness.datePublished,
       dateModified: pricingFreshness.dateModified,
@@ -145,73 +145,53 @@ export default function PricingPage() {
         datePublished={pricingFreshness.datePublished}
         dateModified={pricingFreshness.dateModified}
         serviceDetails={{
-          name: "Process Server Services Oklahoma",
-          description: "Professional process serving and legal document delivery in Oklahoma with transparent base starting prices. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",
+          name: "Process Serving & Courier Services Oklahoma",
+          description: "Professional process serving and courier delivery in Oklahoma on one shared price ladder. Starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",
           price: "$35-$265",
           areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
-          serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
+          serviceType: ["Process Serving", "Courier Services", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
         }}
         hasOfferCatalog={{
-          name: "Process Serving Services",
+          name: "Process Serving & Courier Packages",
           itemListElement: [
             {
-              name: "Standard Process Service",
-              description: "First service attempt within 10 business days",
+              name: "Standard Service",
+              description: "Process serving or courier delivery — shared standard tier",
               price: "$60",
               priceCurrency: "USD",
               itemOffered: {
-                name: "Standard Process Service",
-                serviceType: "Process Serving"
+                name: "Standard Process Serving & Courier",
+                serviceType: "Process Serving and Courier"
               }
             },
             {
-              name: "Rush Process Service",
-              description: "Service attempt within 72 hours or sooner",
+              name: "Rush Service",
+              description: "Process serving or courier delivery — shared rush tier",
               price: "$100",
               priceCurrency: "USD",
               itemOffered: {
-                name: "Rush Process Service",
-                serviceType: "Expedited Process Serving"
+                name: "Rush Process Serving & Courier",
+                serviceType: "Expedited Process Serving and Courier"
               }
             },
             {
-              name: "Same-Day Rush Service",
-              description: "Emergency same-day service available",
+              name: "Same-Day Rush",
+              description: "Process serving or courier delivery — shared same-day tier",
               price: "$150",
               priceCurrency: "USD",
               itemOffered: {
-                name: "Same-Day Rush Service",
-                serviceType: "Emergency Process Serving"
+                name: "Same-Day Process Serving & Courier",
+                serviceType: "Same-Day Process Serving and Courier"
               }
             },
             {
-              name: "Specialty Service",
-              description: "Document filing, skip tracing, and specialized legal services",
-              price: "$75",
+              name: "Triple-Attempt Rush",
+              description: "Three attempts for hard-to-serve respondents — process serving",
+              price: "$225",
               priceCurrency: "USD",
               itemOffered: {
-                name: "Specialty Legal Service",
-                serviceType: "Legal Document Services"
-              }
-            },
-            {
-              name: "Standard Courier",
-              description: "Same-day or next-morning legal document delivery for non-urgent items",
-              price: "$60",
-              priceCurrency: "USD",
-              itemOffered: {
-                name: "Standard Courier Delivery",
-                serviceType: "Legal Document Courier"
-              }
-            },
-            {
-              name: "Rush Courier",
-              description: "Priority legal document delivery within 2-3 hours",
-              price: "$100",
-              priceCurrency: "USD",
-              itemOffered: {
-                name: "Rush Courier Delivery",
-                serviceType: "Expedited Legal Document Courier"
+                name: "Triple-Attempt Rush Process Service",
+                serviceType: "Process Serving"
               }
             }
           ]
@@ -409,11 +389,9 @@ export default function PricingPage() {
                   <span>Service</span><span>Regular</span><span>Current</span>
                 </div>
                 {[
-                  { label: 'Standard Service', regular: `$${getBasePrice('standard')}`, current: `$${getCurrentPrice('standard')}` },
-                  { label: 'Rush Service', regular: `$${getBasePrice('rush')}`, current: `$${getCurrentPrice('rush')}` },
-                  { label: 'Same-Day Rush', regular: `$${getBasePrice('same-day')}`, current: `$${getCurrentPrice('same-day')}` },
-                  { label: 'Standard Courier', regular: `$${getBasePrice('standard-courier')}`, current: `$${getCurrentPrice('standard-courier')}` },
-                  { label: 'Rush Courier', regular: `$${getBasePrice('rush-courier')}`, current: `$${getCurrentPrice('rush-courier')}` },
+                  { label: 'Standard (process serving & courier)', regular: `$${getBasePrice('standard')}`, current: `$${getCurrentPrice('standard')}` },
+                  { label: 'Rush (process serving & courier)', regular: `$${getBasePrice('rush')}`, current: `$${getCurrentPrice('rush')}` },
+                  { label: 'Same-Day Rush (process serving & courier)', regular: `$${getBasePrice('same-day')}`, current: `$${getCurrentPrice('same-day')}` },
                 ].map(({ label, regular, current }) => (
                   <div key={label} className="grid grid-cols-[1fr_auto_auto] gap-3 items-center border-t border-amber-100 px-4 py-3">
                     <span className="font-semibold text-gray-900">{label}</span>
@@ -430,137 +408,121 @@ export default function PricingPage() {
           </div>
         </section>
 
-        <section className="py-10 px-4 bg-gray-50">
+        <section className="py-12 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900">Process Serving &amp; Courier Pricing</h2>
-              <p className="text-lg text-gray-600 mt-2 mb-6">
-                Process serving and courier delivery use the same starting rates for Standard and Rush. Different job, same transparent base pricing. See the fuel adjustment notice above for current rates on affected services.
+            <div className="text-center max-w-3xl mx-auto mb-10">
+              <p className="text-sm font-semibold uppercase tracking-wider text-blue-700 mb-2">One price list</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Process Serving &amp; Courier</h2>
+              <p className="text-lg text-gray-600 mt-3 leading-relaxed">
+                Same tiers. Same starting prices. Whether you need papers served or documents delivered — pick a package below.
               </p>
-              <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
-                <p className="text-sm text-blue-800">
-                  <span className="font-semibold">Base rates &amp; service area:</span> Prices below are <strong>general base rates</strong> for the Glenpool area and surrounding communities — including most of Tulsa County, parts of Creek County, and select parts of Wagoner County. These are starting prices only and <strong>are subject to change</strong> based on service address, mileage, timing, complexity, and operating costs. Some addresses may cost more because of distance. We also serve all 77 Oklahoma counties through our partner network; locations outside our primary area may include an additional travel charge.{' '}
-                  <a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Contact us for an exact quote</a>.
+            </div>
+
+            <div className="flex flex-wrap justify-center gap-3 mb-10">
+              <span className="inline-flex items-center gap-2 rounded-full bg-white border border-gray-200 px-4 py-2 text-sm font-medium text-gray-800 shadow-sm">
+                <Scale className="h-4 w-4 text-blue-600" />
+                Process serving
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-white border border-gray-200 px-4 py-2 text-sm font-medium text-gray-800 shadow-sm">
+                <Truck className="h-4 w-4 text-blue-600" />
+                Courier delivery
+              </span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-blue-50 border border-blue-200 px-4 py-2 text-sm font-semibold text-blue-900">
+                Same Standard · Rush · Same-Day rates
+              </span>
+            </div>
+
+            <div className="max-w-3xl mx-auto bg-white border border-blue-100 rounded-xl p-4 mb-10 shadow-sm">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                <span className="font-semibold text-blue-900">Base rates &amp; area:</span> Starting prices for the Glenpool / Tulsa County primary area (parts of Creek &amp; Wagoner too). Final quote can change with address, mileage, and complexity. All 77 Oklahoma counties available — out-of-area travel may apply.{' '}
+                <a href="/contact" className="font-semibold underline text-blue-700 hover:text-blue-900">Get an exact quote</a>.
+                {' '}Fuel adjustment (above) applies to Standard, Rush, and Same-Day.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
+              {/* Standard */}
+              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all">
+                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-slate-100 mb-4">
+                  <Clock className="h-5 w-5 text-slate-700" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Standard</h3>
+                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('standard')}</p>
+                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
+                  Everyday process serving or courier delivery. Solid default for routine jobs.
                 </p>
+                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
+                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                  <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
+                </div>
+              </div>
+
+              {/* Rush */}
+              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-yellow-300 transition-all">
+                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-yellow-50 mb-4">
+                  <Zap className="h-5 w-5 text-yellow-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Rush</h3>
+                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('rush')}</p>
+                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
+                  Priority process serving or courier when the job can&apos;t wait on the standard queue.
+                </p>
+                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
+                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                  <span className="text-xs font-semibold rounded-md bg-slate-100 text-slate-700 px-2 py-1">Courier</span>
+                </div>
+              </div>
+
+              {/* Same-Day */}
+              <div className="relative flex flex-col bg-gradient-to-b from-blue-50 to-white rounded-2xl border-2 border-blue-500 p-6 shadow-md hover:shadow-lg transition-all">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[11px] font-bold tracking-wide px-3 py-1 rounded-full uppercase">
+                  Most popular
+                </span>
+                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-orange-50 mb-4 mt-1">
+                  <Flame className="h-5 w-5 text-orange-500" />
+                </div>
+                <h3 className="text-xl font-bold text-blue-900">Same-Day Rush</h3>
+                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('same-day')}</p>
+                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
+                  Same-day process serving or courier for time-critical filings and deliveries.
+                </p>
+                <div className="mt-5 pt-4 border-t border-blue-100 flex flex-wrap gap-2">
+                  <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Process serving</span>
+                  <span className="text-xs font-semibold rounded-md bg-blue-100 text-blue-900 px-2 py-1">Courier</span>
+                </div>
+              </div>
+
+              {/* Triple-Attempt */}
+              <div className="flex flex-col bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md hover:border-red-200 transition-all">
+                <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-red-50 mb-4">
+                  <Target className="h-5 w-5 text-red-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900">Triple-Attempt Rush</h3>
+                <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('triple-attempt')}</p>
+                <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
+                <p className="text-sm text-gray-600 flex-grow leading-relaxed">
+                  Three attempts with detailed reporting — built for evasive or hard-to-serve respondents.
+                </p>
+                <div className="mt-5 pt-4 border-t border-gray-100 flex flex-wrap gap-2">
+                  <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
+                </div>
               </div>
             </div>
 
-            <div className="mb-4">
-              <h3 className="text-lg font-bold text-blue-900 mb-1">Process Serving</h3>
-              <p className="text-sm text-gray-600 mb-4">Legal service of process with GPS-verified proof and court-ready affidavit.</p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <div className="inline-flex items-center justify-center bg-gray-100 rounded-full p-2 mb-3">
-                  <Clock className="h-6 w-6 text-gray-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('standard')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 10 Business Days (usually sooner).</p>
-                <p className="text-sm text-gray-500">
-                  Ideal for routine document delivery.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <div className="inline-flex items-center justify-center bg-yellow-100 rounded-full p-2 mb-3">
-                  <Zap className="h-6 w-6 text-yellow-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('rush')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
-                <p className="text-sm text-gray-500">
-                  For urgent demands that need immediate attention.
-                </p>
-              </div>
-              <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg border-2 border-blue-500 relative hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
-                <div className="inline-flex items-center justify-center bg-orange-100 rounded-full p-2 mb-3 mt-2">
-                  <Flame className="h-6 w-6 text-orange-500" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('same-day')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
-                <p className="text-sm text-gray-500">
-                  For the most urgent, time-critical matters.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <div className="inline-flex items-center justify-center bg-red-100 rounded-full p-2 mb-3">
-                  <Target className="h-6 w-6 text-red-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('triple-attempt')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">Three service attempts within 48 hours or sooner, with detailed reporting.</p>
-                <p className="text-sm text-gray-500">
-                  For evasive or hard-to-serve respondents.
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-10 mb-4">
-              <h3 className="text-lg font-bold text-blue-900 mb-1 flex items-center gap-2">
-                <Truck className="h-5 w-5 text-blue-600" />
-                Courier Delivery
-              </h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Same Standard (${getBasePrice('standard-courier')}) and Rush (${getBasePrice('rush-courier')}) starting rates as process serving — for fast, reliable legal document transportation (not formal service of process).
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
-              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-2 mb-3">
-                  <Truck className="h-6 w-6 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Courier</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('standard-courier')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price — same as Standard Service</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">Delivery within the same business day or next morning for non-urgent items.</p>
-                <p className="text-sm text-gray-500">
-                  Court filings, firm-to-firm drops, and other non-serve document transport.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
-                <div className="inline-flex items-center justify-center bg-yellow-100 rounded-full p-2 mb-3">
-                  <Zap className="h-6 w-6 text-yellow-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Courier</h3>
-                <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">${getBasePrice('rush-courier')}</p>
-                  <p className="text-xs text-gray-500 mb-2">base starting price — same as Rush Service</p>
-                </div>
-                <p className="text-gray-600 mb-3 text-sm">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
-                <p className="text-sm text-gray-500">
-                  Same rush floor as process serving; different scope (transport, not service of process).
-                </p>
-              </div>
-            </div>
-            <p className="text-center text-sm text-gray-500 mt-8 max-w-3xl mx-auto">
-              Base rates shown above. See the fuel adjustment notice for current rates on standard and rush process serving and courier. Prices shown are starting rates and are subject to change; mileage and location may affect your final quote.<br />
-              <span className="text-gray-600 font-medium">Note: Courier rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
+            <p className="text-center text-sm text-gray-500 mt-8 max-w-2xl mx-auto leading-relaxed">
+              Starting prices only — see fuel notice above for current Standard / Rush / Same-Day rates. Documents should be complete and court-ready; wait time or return trips may add fees.
             </p>
 
-            {/* CTA Button */}
             <div className="text-center mt-10">
               <a href="#contact" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
                 <Phone className="h-5 w-5" />
                 Get a Free Quote
                 <ArrowRight className="h-5 w-5" />
               </a>
-              <p className="text-sm text-gray-500 mt-3">Or call us directly: <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a></p>
+              <p className="text-sm text-gray-500 mt-3">Or call: <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a></p>
             </div>
           </div>
         </section>
