@@ -121,7 +121,7 @@ export default function RushEmergencyCostCalculator() {
           {/* Tier Selector */}
           <div className="mb-5">
             <label className="label block mb-2">Service tier</label>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2" role="group" aria-label="Service Tier Selection">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2" role="radiogroup" aria-label="Service Tier Selection">
               {allTiers.map((t) => {
                 const labels: Record<ServiceTier, string> = {
                   standard: 'Standard (1–3 days)',
@@ -133,13 +133,14 @@ export default function RushEmergencyCostCalculator() {
                   <button
                     key={t}
                     type="button"
+                    role="radio"
                     onClick={() => setTier(t)}
-                    className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors ${
+                    className={`px-3 py-2.5 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                       tier === t
                         ? 'bg-navy text-white border-navy'
                         : 'bg-white text-navy border-gray-300 hover:border-navy/50'
                     }`}
-                    aria-pressed={tier === t}
+                    aria-checked={tier === t}
                   >
                     {labels[t]}
                   </button>
@@ -151,28 +152,30 @@ export default function RushEmergencyCostCalculator() {
           {/* County Type */}
           <div className="mb-5">
             <label className="label block mb-2">County type</label>
-            <div className="flex gap-3">
+            <div className="flex gap-3" role="radiogroup" aria-label="County Type">
               <button
                 type="button"
+                role="radio"
                 onClick={() => setCounty('metro')}
-                className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                   county === 'metro'
                     ? 'bg-navy text-white border-navy'
                     : 'bg-white text-navy border-gray-300 hover:border-navy/50'
                 }`}
-                aria-pressed={county === 'metro'}
+                aria-checked={county === 'metro'}
               >
                 Metro (Tulsa/OKC area)
               </button>
               <button
                 type="button"
+                role="radio"
                 onClick={() => setCounty('rural')}
-                className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                   county === 'rural'
                     ? 'bg-navy text-white border-navy'
                     : 'bg-white text-navy border-gray-300 hover:border-navy/50'
                 }`}
-                aria-pressed={county === 'rural'}
+                aria-checked={county === 'rural'}
               >
                 Rural / Outlying
               </button>
@@ -182,7 +185,7 @@ export default function RushEmergencyCostCalculator() {
           {/* Add-ons */}
           <div className="mb-5">
             <label className="label block mb-2">Add-on services</label>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3" role="group" aria-label="Add-on services">
               {[
                 { key: 'afterHours' as const, label: 'After-Hours (+$50)', state: afterHours, setter: setAfterHours },
                 { key: 'weekend' as const, label: 'Weekend (+$75)', state: weekend, setter: setWeekend },
@@ -192,7 +195,7 @@ export default function RushEmergencyCostCalculator() {
                   key={addon.key}
                   type="button"
                   onClick={() => addon.setter(!addon.state)}
-                  className={`px-4 py-2 rounded text-sm font-medium border transition-colors ${
+                  className={`px-4 py-2 rounded text-sm font-medium border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                     addon.state
                       ? 'bg-[#d4a017] text-navy border-[#d4a017]'
                       : 'bg-white text-navy border-gray-300 hover:border-navy/50'

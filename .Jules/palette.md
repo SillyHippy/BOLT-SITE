@@ -4,3 +4,6 @@
 ## 2026-07-10 - Added ARIA role="group" and aria-label to calculator buttons
 **Learning:** Found several tools (Cost Calculator, Time Estimator, etc.) where `<button>` elements were used to simulate radio groups for selecting single options, but the wrapper `<div>` elements lacked `role="group"` and `aria-label`. Without this context, assistive technologies won't announce these buttons as a related set of choices.
 **Action:** When creating custom interactive widgets that group `<button>` elements to behave like `<input type="radio">` (e.g. step selections), always ensure the parent container includes `role="group"` and an explicit, descriptive `aria-label`.
+## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
+**Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
+**Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
