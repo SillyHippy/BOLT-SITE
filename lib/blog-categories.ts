@@ -146,8 +146,13 @@ export const BLOG_CATEGORIES: readonly BlogCategory[] = [
   },
 ] as const;
 
+const blogCategoriesBySlug = new Map<string, BlogCategory>();
+for (const category of BLOG_CATEGORIES) {
+ blogCategoriesBySlug.set(category.slug, category);
+}
+
 export function getCategoryBySlug(slug: string): BlogCategory | undefined {
-  return BLOG_CATEGORIES.find((c) => c.slug === slug);
+ return blogCategoriesBySlug.get(slug);
 }
 
 export function getAllCategorySlugs(): readonly string[] {

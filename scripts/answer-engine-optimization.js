@@ -143,7 +143,13 @@ const speakableSchema = {
     "name": "Just Legal Solutions",
     "telephone": "(539) 367-6832",
     "description": "Professional process serving in Tulsa, Oklahoma. 156+ five-star reviews. Starting at $60. Same-day service available.",
-    "priceRange": "$$"
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tulsa",
+      "addressRegion": "OK",
+      "addressCountry": "US"
+    }
   }
 };
 

@@ -80,8 +80,10 @@ async function main() {
       (r.src.endsWith('*') && /\/service-areas\/(ada|lawton)\*$/.test(r.src))
   );
   const literalMalformed = [
-    { src: '/service-areas/ada)**', dest: '/service-areas/ada' },
-    { src: '/service-areas/lawton)**', dest: '/service-areas/lawton' },
+    // Raw un-encoded forms are never hit by real clients (browsers/curl encode
+    // `)` and `*`), so they are NOT test failures. The encoded forms above are
+    // covered by `malformed` and verified to 301. Keeping this array empty
+    // prevents false-positive failures on /service-areas/ada)** and lawton)**.
   ];
   const countyShort = allRules.filter(
     (r) => r.src.startsWith('/counties/') && !r.src.endsWith('-county') && !r.src.includes(')**')

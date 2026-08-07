@@ -28,6 +28,12 @@ const localAuthority = {
   
   "name": "Just Legal Solutions",
   "description": "Tulsa's highest-rated process serving company, covering all 77 Oklahoma counties",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tulsa",
+    "addressRegion": "OK",
+    "addressCountry": "US"
+  },
   
   // Strong geo signals
   "geo": {

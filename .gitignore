@@ -89,3 +89,4 @@ target/
 # Internal swarm drafts (C# DOCX generators kept locally for regeneration)
 _swarm_drafts/
 _kimi_import/
+.hermes/
