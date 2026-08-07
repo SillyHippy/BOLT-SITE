@@ -1118,8 +1118,18 @@ export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];
 
 export const videoIdMap = new Map<string, Video>();
 export const videoSlugMap = new Map<string, Video>();
+export const videosByCategoryMap = new Map<string, Video[]>();
 
 for (const video of allVideos) {
   videoIdMap.set(video.videoId, video);
   videoSlugMap.set(slugifyVideoTitle(video.title), video);
+
+  const categoryVideos = videosByCategoryMap.get(video.category);
+  if (categoryVideos) {
+    categoryVideos.push(video);
+  } else {
+    videosByCategoryMap.set(video.category, [video]);
+  }
 }
+
+export const videoCategories = Array.from(videosByCategoryMap.keys()).sort();
