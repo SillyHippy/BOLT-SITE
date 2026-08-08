@@ -4,7 +4,7 @@
   "posts": [
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
       "category": "Process Serving",
       "file_path": "app/blog/25-faq-process-serving-oklahoma/page.tsx"
     },
@@ -841,6 +841,336 @@
       "title": "Year-End Legal Deadlines Every Oklahoma Attorney Must Track",
       "category": "Legal Procedures",
       "file_path": "app/blog/year-end-legal-deadlines-oklahoma-attorneys/page.tsx"
+    },
+    {
+      "slug": "serving-summons-answer-deadline-oklahoma",
+      "title": "What Happens After You're Served Papers in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serving-summons-answer-deadline-oklahoma/page.tsx"
+    },
+    {
+      "slug": "default-judgment-oklahoma-avoid",
+      "title": "Default Judgment in Oklahoma: What It Is and How to Avoid It",
+      "category": "Process Serving",
+      "file_path": "app/blog/default-judgment-oklahoma-avoid/page.tsx"
+    },
+    {
+      "slug": "writ-garnishment-execution-service-oklahoma",
+      "title": "Writ of Garnishment and Execution Service in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/writ-garnishment-execution-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "deposition-subpoena-witness-service-oklahoma",
+      "title": "Deposition and Subpoena Service in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/deposition-subpoena-witness-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "probate-estate-process-serving-oklahoma",
+      "title": "Probate and Estate Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/probate-estate-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-divorce-papers-spouse-moves-oklahoma-counties",
+      "title": "Serving Divorce Papers When a Spouse Moves Between Oklahoma Counties",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-divorce-papers-spouse-moves-oklahoma-counties/page.tsx"
+    },
+    {
+      "slug": "serve-lawsuit-workplace-oklahoma",
+      "title": "How to Serve a Lawsuit at an Oklahoma Workplace",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-lawsuit-workplace-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-legal-papers-apartment-complex-oklahoma",
+      "title": "Serving Papers at an Oklahoma Apartment Complex",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-legal-papers-apartment-complex-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-papers-sunday-oklahoma",
+      "title": "Can a Process Server Serve Papers on Sunday in Oklahoma?",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-papers-sunday-oklahoma/page.tsx"
+    },
+    {
+      "slug": "evening-process-serving-oklahoma",
+      "title": "Evening Process Serving in Oklahoma: When the Defendant Works Days",
+      "category": "Process Serving",
+      "file_path": "app/blog/evening-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-legal-papers-hospital-oklahoma",
+      "title": "Serving Legal Papers at an Oklahoma Hospital",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-legal-papers-hospital-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-incarcerated-person-oklahoma",
+      "title": "Serving Papers on an Oklahoma Incarcerated Person",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-incarcerated-person-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-defendant-hotel-oklahoma",
+      "title": "Serving a Defendant at an Oklahoma Hotel or Short-Term Rental",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-defendant-hotel-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-registered-agent-oklahoma",
+      "title": "How to Serve a Business Registered Agent in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-registered-agent-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-closed-business-corporation-oklahoma",
+      "title": "Serving an Oklahoma Corporation After Its Office Closes",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-closed-business-corporation-oklahoma/page.tsx"
+    },
+    {
+      "slug": "due-diligence-service-publication-oklahoma",
+      "title": "What Counts as Due Diligence Before Service by Publication in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/due-diligence-service-publication-oklahoma/page.tsx"
+    },
+    {
+      "slug": "service-by-publication-oklahoma-requirements",
+      "title": "Service by Publication in Oklahoma: What Plaintiffs Must Prove",
+      "category": "Process Serving",
+      "file_path": "app/blog/service-by-publication-oklahoma-requirements/page.tsx"
+    },
+    {
+      "slug": "substituted-service-residence-oklahoma",
+      "title": "Substituted Service at an Oklahoma Residence Explained",
+      "category": "Process Serving",
+      "file_path": "app/blog/substituted-service-residence-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-legal-papers-minor-oklahoma",
+      "title": "Serving Legal Papers on a Minor in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-legal-papers-minor-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-parent-custody-case-oklahoma",
+      "title": "Serving a Parent in an Oklahoma Custody Case",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-parent-custody-case-oklahoma/page.tsx"
+    },
+    {
+      "slug": "paternity-case-process-serving-oklahoma",
+      "title": "Paternity Case Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/paternity-case-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-guardianship-papers-relative-oklahoma",
+      "title": "Serving Guardianship Papers on an Oklahoma Relative",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-guardianship-papers-relative-oklahoma/page.tsx"
+    },
+    {
+      "slug": "protective-order-service-respondent-hiding-oklahoma",
+      "title": "Oklahoma Protective Order Service When the Respondent Hides",
+      "category": "Process Serving",
+      "file_path": "app/blog/protective-order-service-respondent-hiding-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-eviction-notice-oklahoma-tenant",
+      "title": "Serving Eviction Notices on Oklahoma Tenants",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-eviction-notice-oklahoma-tenant/page.tsx"
+    },
+    {
+      "slug": "serve-three-day-notice-tulsa-county",
+      "title": "Serving a Three-Day Notice in Tulsa County",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-three-day-notice-tulsa-county/page.tsx"
+    },
+    {
+      "slug": "foreclosure-document-service-oklahoma",
+      "title": "Serving Foreclosure Documents in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/foreclosure-document-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "mechanics-lien-lawsuit-service-oklahoma",
+      "title": "Serving Mechanics Lien Lawsuit Papers in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/mechanics-lien-lawsuit-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-business-debt-lawsuit-oklahoma",
+      "title": "Serving Small Business Debt Lawsuits in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-business-debt-lawsuit-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-defendant-tribal-land-oklahoma",
+      "title": "Serving a Defendant Who Lives on Tribal Land in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-defendant-tribal-land-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-across-county-lines-oklahoma",
+      "title": "Oklahoma Process Serving Across County Lines",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-across-county-lines-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-court-papers-oklahoma-city-rural-counties",
+      "title": "Serving Court Papers in Oklahoma City and Rural Counties",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-court-papers-oklahoma-city-rural-counties/page.tsx"
+    },
+    {
+      "slug": "serve-papers-vacant-address-oklahoma",
+      "title": "How to Serve Papers When an Oklahoma Address Is Vacant",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-papers-vacant-address-oklahoma/page.tsx"
+    },
+    {
+      "slug": "skip-tracing-bad-address-oklahoma-process-serving",
+      "title": "Process Server Skip Tracing for Oklahoma Bad Addresses",
+      "category": "Process Serving",
+      "file_path": "app/blog/skip-tracing-bad-address-oklahoma-process-serving/page.tsx"
+    },
+    {
+      "slug": "serve-legal-papers-construction-site-oklahoma",
+      "title": "Serving Legal Papers at an Oklahoma Construction Site",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-legal-papers-construction-site-oklahoma/page.tsx"
+    },
+    {
+      "slug": "oil-gas-litigation-process-serving-oklahoma",
+      "title": "Serving Oil and Gas Litigation Papers in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/oil-gas-litigation-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "medical-malpractice-process-serving-oklahoma",
+      "title": "Serving Medical Malpractice Papers in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/medical-malpractice-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serve-lawsuit-out-of-state-defendant-oklahoma",
+      "title": "Serving a Lawsuit on an Out-of-State Oklahoma Defendant",
+      "category": "Process Serving",
+      "file_path": "app/blog/serve-lawsuit-out-of-state-defendant-oklahoma/page.tsx"
+    },
+    {
+      "slug": "foreign-judgment-enforcement-service-oklahoma",
+      "title": "Foreign Judgment Enforcement Service in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/foreign-judgment-enforcement-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "attorney-service-attempt-tracking-oklahoma",
+      "title": "How Oklahoma Attorneys Track Service Attempts and Deadlines",
+      "category": "Process Serving",
+      "file_path": "app/blog/attorney-service-attempt-tracking-oklahoma/page.tsx"
+    },
+    {
+      "slug": "affidavit-of-non-service-oklahoma",
+      "title": "Affidavit of Non-Service in Oklahoma: What It Should Document",
+      "category": "Process Serving",
+      "file_path": "app/blog/affidavit-of-non-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "oklahoma-remote-online-notarization-identity-records",
+      "title": "Oklahoma Remote Online Notarization: Identity Proofing and Records",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-remote-online-notarization-identity-records/page.tsx"
+    },
+    {
+      "slug": "oklahoma-notary-journal-paper-electronic",
+      "title": "Oklahoma Notary Journal Requirements: Paper vs Electronic",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-notary-journal-paper-electronic/page.tsx"
+    },
+    {
+      "slug": "oklahoma-notary-fees-allowed-charges",
+      "title": "Oklahoma Notary Fees: What Can a Notary Charge?",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-notary-fees-allowed-charges/page.tsx"
+    },
+    {
+      "slug": "oklahoma-notary-bond-errors-omissions-insurance",
+      "title": "Oklahoma Notary Bond vs Errors and Omissions Insurance",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-notary-bond-errors-omissions-insurance/page.tsx"
+    },
+    {
+      "slug": "mobile-notary-hospitals-nursing-homes-oklahoma",
+      "title": "Mobile Notary for Hospitals and Nursing Homes in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/mobile-notary-hospitals-nursing-homes-oklahoma/page.tsx"
+    },
+    {
+      "slug": "mobile-notary-real-estate-documents-oklahoma",
+      "title": "Mobile Notary for Real Estate Documents in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/mobile-notary-real-estate-documents-oklahoma/page.tsx"
+    },
+    {
+      "slug": "home-notary-power-of-attorney-oklahoma",
+      "title": "Oklahoma Notary for Power of Attorney at Home",
+      "category": "Notary Services",
+      "file_path": "app/blog/home-notary-power-of-attorney-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notarize-wills-estate-documents-oklahoma",
+      "title": "Notarizing Wills and Estate Documents in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notarize-wills-estate-documents-oklahoma/page.tsx"
+    },
+    {
+      "slug": "business-contract-notary-oklahoma",
+      "title": "Oklahoma Notary for Business Contracts & Vendor Agreements",
+      "category": "Notary Services",
+      "file_path": "app/blog/business-contract-notary-oklahoma/page.tsx"
+    },
+    {
+      "slug": "vehicle-title-bill-sale-notary-oklahoma",
+      "title": "Oklahoma Notary for Vehicle Titles & Bills of Sale",
+      "category": "Notary Services",
+      "file_path": "app/blog/vehicle-title-bill-sale-notary-oklahoma/page.tsx"
+    },
+    {
+      "slug": "oklahoma-apostille-vs-notary",
+      "title": "Oklahoma Apostille vs Notary: Which One Do You Need?",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-apostille-vs-notary/page.tsx"
+    },
+    {
+      "slug": "oklahoma-notary-immigration-form-limits",
+      "title": "Oklahoma Notary for Immigration Forms: Legal Limits",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-notary-immigration-form-limits/page.tsx"
+    },
+    {
+      "slug": "notary-deaf-blind-signers-oklahoma",
+      "title": "Notarizing Documents for Deaf or Blind Signers in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-deaf-blind-signers-oklahoma/page.tsx"
+    },
+    {
+      "slug": "oklahoma-notary-identification-credible-witness",
+      "title": "Oklahoma Notary Identification Rules and Credible Witnesses",
+      "category": "Notary Services",
+      "file_path": "app/blog/oklahoma-notary-identification-credible-witness/page.tsx"
+    },
+    {
+      "slug": "loan-signing-agent-vs-mobile-notary-oklahoma",
+      "title": "Loan Signing Agent vs Mobile Notary in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/loan-signing-agent-vs-mobile-notary-oklahoma/page.tsx"
     }
   ]
 }
