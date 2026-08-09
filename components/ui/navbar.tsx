@@ -125,7 +125,6 @@ export function Navbar() {
               aria-controls="mobile-menu"
               aria-label={isMobileMenuOpen ? 'Close main menu' : 'Open main menu'}
             >
-              <span className="sr-only">Open main menu</span>
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -161,7 +160,7 @@ export function Navbar() {
               className="p-2 hover:bg-gray-100 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
               aria-label="Close menu"
             >
-              <X className="h-6 w-6" />
+              <X className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           {/* ⚡ Bolt Optimization: Disabled prefetching for mobile menu links

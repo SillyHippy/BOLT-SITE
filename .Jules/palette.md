@@ -7,3 +7,6 @@
 ## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
 **Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
 **Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
+## 2025-05-15 - Screen Reader Redundancy and Focus Management
+**Learning:** When using dynamic `aria-label` attributes for stateful interactive elements (like a mobile menu toggle), avoid duplicating text content in visually hidden (`sr-only`) spans within the same element, as it creates conflicting announcements for screen readers. Additionally, mobile-specific CTAs still require `focus-visible` utility classes with high-contrast outlines for users relying on external keyboards or switch control navigation.
+**Action:** Ensure toggle buttons rely exclusively on dynamic `aria-label` or `aria-expanded` with static content, and verify `focus-visible` states on mobile-only components during accessibility reviews.
