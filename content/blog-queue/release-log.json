@@ -5264,6 +5264,42 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-11T15:50:33.615Z",
+      "releaseDate": "2026-08-11",
+      "quality": {
+        "words": 4368,
+        "headings": 22,
+        "paragraphs": 46
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-11T15:50:33.618Z",
+      "releaseDate": "2026-08-11",
+      "quality": {
+        "words": 2649,
+        "headings": 24,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
