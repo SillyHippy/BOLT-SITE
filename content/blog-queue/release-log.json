@@ -5300,6 +5300,44 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-13T16:01:48.909Z",
+      "releaseDate": "2026-08-13",
+      "quality": {
+        "words": 4721,
+        "headings": 32,
+        "paragraphs": 54
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-industry-trends-2026",
+      "title": "Process Serving Industry Trends to Watch in 2026",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-13T16:01:48.911Z",
+      "releaseDate": "2026-08-13",
+      "quality": {
+        "words": 1766,
+        "headings": 15,
+        "paragraphs": 24
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
