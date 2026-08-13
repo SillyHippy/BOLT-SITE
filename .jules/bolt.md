@@ -17,3 +17,6 @@
 ## 2026-05-24 - Pre-compute and cache heavy static mathematical operations
 **Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), executing the operations dynamically inside repetitive renders or static generation loops results in significant performance bottlenecks.
 **Action:** Implement an in-memory caching mechanism like a `Map` initialized at module load time to store previously computed results, shifting O(N log N) operations and repeated mathematical calculations to fast O(1) lookups during execution.
+## 2025-08-13 - Eliminate redundant O(N log N) sorting by caching at module load time without limit keys
+**Learning:** Functions that perform mathematical operations and sorting to find "nearby" entities (like `getNearbyCounties` in `lib/county-neighbors.ts`) often receive a `limit` parameter. Caching the result using a key like `${slug}-${limit}` causes cache misses and redundant O(N log N) recalculations when the same entity is queried with different limits.
+**Action:** Always pre-compute and sort the *entire* list of neighbors for each entity at module load time (storing it in a `Map`). At runtime, retrieve the full sorted list in O(1) time and apply `.slice(0, limit)` to return the requested number of items instantaneously.

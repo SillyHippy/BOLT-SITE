@@ -16,21 +16,13 @@ function haversineMiles(
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+// ⚡ Bolt: Pre-compute and cache heavy static mathematical operations
 const nearbyCountiesCache = new Map<string, { slug: string; countyName: string }[]>();
 
-export function getNearbyCounties(
-  slug: string,
-  limit = 4
-): { slug: string; countyName: string }[] {
-  const cacheKey = `${slug}-${limit}`;
-  if (nearbyCountiesCache.has(cacheKey)) {
-    return nearbyCountiesCache.get(cacheKey)!;
-  }
-
-  const current = COUNTY_GEO[slug];
-  if (!current) return [];
-
-  const result = Object.values(COUNTY_GEO)
+// Initialize the cache eagerly at module load time to shift O(N log N)
+// mathematical operations and array sorting to initialization time
+for (const [slug, current] of Object.entries(COUNTY_GEO)) {
+  const neighbors = Object.values(COUNTY_GEO)
     .filter((c) => c.slug !== slug)
     .map((c) => ({
       slug: c.slug,
@@ -43,9 +35,17 @@ export function getNearbyCounties(
       ),
     }))
     .sort((a, b) => a.dist - b.dist)
-    .slice(0, limit)
     .map(({ slug: s, countyName }) => ({ slug: s, countyName }));
 
-  nearbyCountiesCache.set(cacheKey, result);
-  return result;
+  nearbyCountiesCache.set(slug, neighbors);
+}
+
+export function getNearbyCounties(
+  slug: string,
+  limit = 4
+): { slug: string; countyName: string }[] {
+  const neighbors = nearbyCountiesCache.get(slug);
+  if (!neighbors) return [];
+
+  return neighbors.slice(0, limit);
 }
