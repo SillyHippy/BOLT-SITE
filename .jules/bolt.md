@@ -17,3 +17,7 @@
 ## 2026-05-24 - Pre-compute and cache heavy static mathematical operations
 **Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), executing the operations dynamically inside repetitive renders or static generation loops results in significant performance bottlenecks.
 **Action:** Implement an in-memory caching mechanism like a `Map` initialized at module load time to store previously computed results, shifting O(N log N) operations and repeated mathematical calculations to fast O(1) lookups during execution.
+
+## 2026-05-24 - Pre-compute and cache heavy static mathematical operations
+**Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), executing the operations dynamically inside repetitive renders or static generation loops results in significant performance bottlenecks.
+**Action:** Implement an in-memory caching mechanism like a `Map` initialized at module load time to store previously computed results, shifting O(N log N) operations and repeated mathematical calculations to fast O(1) lookups during execution.

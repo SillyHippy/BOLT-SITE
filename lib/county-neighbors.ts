@@ -16,22 +16,14 @@ function haversineMiles(
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-const nearbyCountiesCache = new Map<string, { slug: string; countyName: string }[]>();
+// Pre-compute and cache the full sorted list of neighbors for every county
+const precomputedNeighbors = new Map<string, { slug: string; countyName: string }[]>();
 
-export function getNearbyCounties(
-  slug: string,
-  limit = 4
-): { slug: string; countyName: string }[] {
-  const cacheKey = `${slug}-${limit}`;
-  if (nearbyCountiesCache.has(cacheKey)) {
-    return nearbyCountiesCache.get(cacheKey)!;
-  }
-
-  const current = COUNTY_GEO[slug];
-  if (!current) return [];
-
-  const result = Object.values(COUNTY_GEO)
-    .filter((c) => c.slug !== slug)
+// Initialize the cache at module load time
+const counties = Object.values(COUNTY_GEO);
+for (const current of counties) {
+  const sortedNeighbors = counties
+    .filter((c) => c.slug !== current.slug)
     .map((c) => ({
       slug: c.slug,
       countyName: c.countyName,
@@ -43,9 +35,17 @@ export function getNearbyCounties(
       ),
     }))
     .sort((a, b) => a.dist - b.dist)
-    .slice(0, limit)
-    .map(({ slug: s, countyName }) => ({ slug: s, countyName }));
+    .map(({ slug, countyName }) => ({ slug, countyName }));
 
-  nearbyCountiesCache.set(cacheKey, result);
-  return result;
+  precomputedNeighbors.set(current.slug, sortedNeighbors);
+}
+
+export function getNearbyCounties(
+  slug: string,
+  limit = 4
+): { slug: string; countyName: string }[] {
+  const neighbors = precomputedNeighbors.get(slug);
+  if (!neighbors) return [];
+
+  return neighbors.slice(0, limit);
 }
