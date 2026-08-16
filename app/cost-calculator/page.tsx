@@ -129,7 +129,7 @@ export default function CostCalculatorPage() {
                 <select
                   value={area}
                   onChange={(e) => { setArea(e.target.value); setCalculated(false); }}
-                  className="w-full border-2 border-gray-200 focus:border-blue-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium outline-none transition-colors"
+                  className="w-full border-2 border-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium transition-colors"
                 >
                   <option value="">— Select a location —</option>
                   {serviceAreas.map((c) => (

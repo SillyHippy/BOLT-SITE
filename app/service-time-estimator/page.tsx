@@ -103,7 +103,7 @@ export default function ServiceTimeEstimatorPage() {
                   <select
                     value={docType}
                     onChange={(e) => { setDocType(e.target.value); setCalculated(false); }}
-                    className="w-full border-2 border-gray-200 focus:border-indigo-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium outline-none transition-colors"
+                    className="w-full border-2 border-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium transition-colors"
                   >
                     <option value="">— Select document type —</option>
                     {documentTypes.map((c) => (
