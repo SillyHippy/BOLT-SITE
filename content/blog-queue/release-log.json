@@ -5338,6 +5338,26 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "process-serving-federal-courts-oklahoma",
+      "title": "Oklahoma Federal Court Process Serving: N.D., W.D., E.D.",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-16T14:33:21.099Z",
+      "releaseDate": "2026-08-16",
+      "quality": {
+        "words": 5537,
+        "headings": 30,
+        "paragraphs": 54
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
