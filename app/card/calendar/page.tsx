@@ -82,7 +82,7 @@ END:VCALENDAR`;
           { name: 'Schedule an Appointment', url: '/card/calendar' },
         ]}
       />
-    <div className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4">
+    <main id="main-content" className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4">
       <div className="bg-[#1B2738] rounded-[24px] p-8 max-w-[480px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.8)] relative border border-[#2A3653]">
         <button 
           onClick={() => router.push('/card')}
@@ -153,7 +153,7 @@ END:VCALENDAR`;
           </button>
         </form>
       </div>
-    </div>
+    </main>
     </>
   );
 }
