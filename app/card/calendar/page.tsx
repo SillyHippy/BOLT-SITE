@@ -106,7 +106,7 @@ END:VCALENDAR`;
               value={date} 
               onChange={(e) => setDate(e.target.value)} 
               required
-              className="w-full p-3 bg-[#2A3B58] rounded-[12px] text-white border border-[#3A4B68] focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 bg-[#2A3B58] rounded-[12px] text-white border border-[#3A4B68] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             />
           </div>
           
@@ -118,7 +118,7 @@ END:VCALENDAR`;
               value={time} 
               onChange={(e) => setTime(e.target.value)} 
               required
-              className="w-full p-3 bg-[#2A3B58] rounded-[12px] text-white border border-[#3A4B68] focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-3 bg-[#2A3B58] rounded-[12px] text-white border border-[#3A4B68] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             />
           </div>
           
