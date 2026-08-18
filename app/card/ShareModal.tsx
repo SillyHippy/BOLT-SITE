@@ -100,12 +100,10 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
         </h2>
         <div className="space-y-3">
           {/* Copy Card Link */}
-          <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          <button
+            type="button"
+            className="w-full flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleCopyLink}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleCopyLink(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/favicon1.svg" alt="Link" width={24} height={24} />
@@ -114,15 +112,13 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             <div className="flex items-center">
               <Image src="/landingpage/icons/copy.svg" alt="Copy" width={32} height={32} />
             </div>
-          </div>
+          </button>
           
           {/* Share via Text */}
-          <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          <button
+            type="button"
+            className="w-full flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleTextShare}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleTextShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/imessage.svg" alt="Text" width={24} height={24} />
@@ -131,15 +127,13 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             <div className="flex items-center">
               <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
             </div>
-          </div>
+          </button>
           
           {/* Share via Email */}
-          <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          <button
+            type="button"
+            className="w-full flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleEmailShare}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleEmailShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/mail.svg" alt="Email" width={24} height={24} />
@@ -148,15 +142,13 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             <div className="flex items-center">
               <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
             </div>
-          </div>
+          </button>
           
           {/* Share via WhatsApp */}
-          <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
+          <button
+            type="button"
+            className="w-full flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1B2738]"
             onClick={handleWhatsAppShare}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleWhatsAppShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/WhatsApp.svg" alt="WhatsApp" width={30} height={30} />
@@ -165,7 +157,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             <div className="flex items-center">
               <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
             </div>
-          </div>
+          </button>
         </div>
         <button 
           onClick={onClose} 
