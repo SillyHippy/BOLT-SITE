@@ -5358,6 +5358,46 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "releasedAt": "2026-08-18T15:22:04.021Z",
+      "releaseDate": "2026-08-18",
+      "quality": {
+        "words": 4420,
+        "headings": 33,
+        "paragraphs": 51
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "adoptions-termination-parental-rights-service-requirements-oklahoma",
+      "title": "Adoption & TPR Service Requirements in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-18T15:22:04.023Z",
+      "releaseDate": "2026-08-18",
+      "quality": {
+        "words": 5213,
+        "headings": 27,
+        "paragraphs": 50
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
