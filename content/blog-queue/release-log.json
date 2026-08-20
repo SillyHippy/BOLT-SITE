@@ -5398,6 +5398,46 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-20T15:37:18.165Z",
+      "releaseDate": "2026-08-20",
+      "quality": {
+        "words": 5129,
+        "headings": 32,
+        "paragraphs": 57
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "chain-custody-legal-document-handling-importance-oklahoma",
+      "title": "Chain of Custody in Legal Documents: Oklahoma Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-20T15:37:18.169Z",
+      "releaseDate": "2026-08-20",
+      "quality": {
+        "words": 5389,
+        "headings": 36,
+        "paragraphs": 47
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
