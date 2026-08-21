@@ -7,3 +7,6 @@
 ## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
 **Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
 **Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
+## 2026-07-28 - Migrated focus: to focus-visible: for components
+**Learning:** Found several UI components (`select`, `badge`, `toast`, `dialog`, `sheet`) using the `focus:ring` pattern instead of `focus-visible:ring`. This causes a visual annoyance for mouse users, where focus rings stick around after a click, while standardizing on `focus-visible:` ensures rings only show for keyboard users.
+**Action:** When applying focus styles to interactive elements (or reviewing generated components), use `focus-visible:` pseudo-classes instead of `focus:` to ensure focus rings are visible for keyboard navigation but suppressed during mouse clicks.
