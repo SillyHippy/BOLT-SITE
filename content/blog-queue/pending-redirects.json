@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-23T02:30:00.000Z",
+  "generatedAt": "2026-08-22T13:39:20.035Z",
   "redirects": {
-    "notary-journal-requirements-best-practices-record-keeping-oklahoma": {
-      "target": "/notary-laws",
+    "document-service-attempts-best-practices-affidavits-oklahoma": {
+      "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 2,
       "inQueue": true,
@@ -11,88 +11,156 @@
     "electronic-proof-service-digital-signatures-court-acceptance-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 4,
+      "inboundLinkCount": 5,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
+    },
+    "gps-proof-service-process-server-accountability-oklahoma": {
+      "target": "/blog/proof-of-service-oklahoma-guide",
+      "reason": "No published page — redirect to closest live topic",
+      "inboundLinkCount": 1,
+      "inQueue": false,
+      "updatedAt": "2026-08-22"
     },
     "gps-tracking-revolutionizes-process-serving-accountability-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 4,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "how-long-to-respond-lawsuit-oklahoma": {
       "target": "/blog/how-long-respond-lawsuit-oklahoma",
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 2,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
+    },
+    "legal-document-courier-services-speed-security-chain-custody-oklahoma": {
+      "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "notary-journal-requirements-best-practices-record-keeping-oklahoma": {
+      "target": "/blog/mobile-notary-tulsa-guide",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "oklahoma-180-day-rule-service-process-explained": {
+      "target": "/blog/25-faq-process-serving-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 3,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
     },
     "oklahoma-process-server-best-practices-checklist": {
       "target": "/oklahoma-process-server-best-practices-checklist",
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 3,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "oklahoma-process-server-faq": {
       "target": "/oklahoma-process-server-faq",
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 2,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "oklahoma-process-server-laws": {
       "target": "/oklahoma-process-server-laws",
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 1,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "onboard-virtual-assistant-legal-practice-oklahoma": {
       "target": "/blog/virtual-assistants-court-filing-efiling-support-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 1,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
+    },
+    "process-serving-family-law-paternity-adoption-custody-oklahoma": {
+      "target": "/blog/how-to-serve-divorce-papers-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "process-serving-juvenile-court-confidentiality-oklahoma": {
+      "target": "/blog/how-to-hire-a-process-server-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "process-serving-tribal-land-mcgirt-jurisdiction-oklahoma": {
+      "target": "/serving-legal-papers-on-tribal-land",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
     },
     "same-day-document-delivery-law-firms-oklahoma": {
       "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 2,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "scale-solo-practice-virtual-support-oklahoma": {
       "target": "/blog/virtual-assistants-court-filing-efiling-support-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 6,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "secure-document-handling-hipaa-attorney-client-privilege-oklahoma": {
       "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 3,
+      "inboundLinkCount": 4,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
+    },
+    "serving-active-duty-military-personnel-scra-compliance-oklahoma": {
+      "target": "/blog/how-to-hire-a-process-server-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "track-legal-documents-transit-gps-proof-delivery-oklahoma": {
+      "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
+    "verify-service-process-completed-correctly-oklahoma": {
+      "target": "/blog/how-to-hire-a-process-server-oklahoma",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 1,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
     },
     "virtual-assistant-transform-law-firm-efficiency-oklahoma": {
       "target": "/blog/virtual-assistants-court-filing-efiling-support-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
       "inboundLinkCount": 7,
       "inQueue": true,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     },
     "what-happens-if-someone-refuses-service": {
       "target": "/what-happens-if-someone-refuses-service",
       "reason": "No published page — redirect to closest live topic",
       "inboundLinkCount": 1,
       "inQueue": false,
-      "updatedAt": "2026-06-02"
+      "updatedAt": "2026-08-22"
     }
-  },
-  "lastPublishedSlug": "electronic-filing-service-oklahoma-courts",
-  "lastPublishedAt": "2026-08-04T16:46:23.078Z"
+  }
 }

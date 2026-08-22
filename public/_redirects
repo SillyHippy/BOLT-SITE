@@ -127,6 +127,8 @@
 
 # regen: node scripts/prioritize-county-redirects.mjs
 
+# regen: node scripts/prioritize-county-redirects.mjs
+
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
@@ -444,17 +446,27 @@
 
 # ── interim blog queue redirects ──
 # regen: node scripts/audit-blog-queue-redirects.mjs
+/blog/document-service-attempts-best-practices-affidavits-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma /blog/proof-of-service-oklahoma-guide 301
+/blog/gps-proof-service-process-server-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/how-long-to-respond-lawsuit-oklahoma /blog/how-long-respond-lawsuit-oklahoma 301
+/blog/legal-document-courier-services-speed-security-chain-custody-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma /blog/mobile-notary-tulsa-guide 301
+/blog/oklahoma-180-day-rule-service-process-explained /blog/25-faq-process-serving-oklahoma 301
 /blog/oklahoma-process-server-best-practices-checklist /oklahoma-process-server-best-practices-checklist 301
 /blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
 /blog/oklahoma-process-server-laws /oklahoma-process-server-laws 301
 /blog/onboard-virtual-assistant-legal-practice-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
+/blog/process-serving-family-law-paternity-adoption-custody-oklahoma /blog/how-to-serve-divorce-papers-oklahoma 301
+/blog/process-serving-juvenile-court-confidentiality-oklahoma /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/process-serving-tribal-land-mcgirt-jurisdiction-oklahoma /serving-legal-papers-on-tribal-land 301
 /blog/same-day-document-delivery-law-firms-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
 /blog/scale-solo-practice-virtual-support-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
 /blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/serving-active-duty-military-personnel-scra-compliance-oklahoma /blog/how-to-hire-a-process-server-oklahoma 301
+/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma /blog/document-courier-vs-regular-mail-law-firms-oklahoma 301
+/blog/verify-service-process-completed-correctly-oklahoma /blog/how-to-hire-a-process-server-oklahoma 301
 /blog/virtual-assistant-transform-law-firm-efficiency-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
 /blog/what-happens-if-someone-refuses-service /what-happens-if-someone-refuses-service 301
-
 
