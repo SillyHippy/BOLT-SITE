@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/blog/i9-verification-services-notary-employment-eligibility-oklahoma',
   },
   other: {
-    'article:published_time': '2026-08-20',
-    'article:modified_time': '2026-08-20',
+    'article:published_time': '2026-08-08',
+    'article:modified_time': '2026-08-08',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Oklahoma notaries may complete I-9 Section 2 as employer authorized representatives without a notary seal—physical document review, three-business-day timing, employer liability for errors, and stricter 2026 ICE substantive penalties.',
@@ -105,8 +105,8 @@ export default function BlogPost() {
         ]}
         articleDetails={{
           headline: 'I-9 Verification by Notaries: What Oklahoma Employers Must Know',
-          datePublished: '2026-08-20',
-          dateModified: '2026-08-20',
+          datePublished: '2026-08-08',
+          dateModified: '2026-08-08',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'

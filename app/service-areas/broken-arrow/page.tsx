@@ -260,6 +260,7 @@ export default function BrokenArrowServiceAreaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
               {/* Standard */}
               <div className="bg-white rounded-2xl p-8 border hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative">
+                <div className="text-2xl font-extrabold text-blue-900 mb-1">$60 <span className="text-sm font-normal text-gray-500">base rate</span></div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Standard Delivery</h3>
                 <div className="text-gray-500 font-medium h-12">First attempt within 2–3 days</div>
                 <ul className="space-y-3 mb-8 mt-6">
@@ -272,6 +273,7 @@ export default function BrokenArrowServiceAreaPage() {
               {/* Rush */}
               <div className="bg-gradient-to-b from-rose-50 to-white rounded-2xl p-8 border-2 border-rose-500 shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 relative transform md:scale-105 z-10">
                 <div className="absolute top-0 right-0 bg-rose-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl uppercase tracking-wider">Most Popular</div>
+                <div className="text-2xl font-extrabold text-rose-900 mb-1">$100 <span className="text-sm font-normal text-rose-600">base rate</span></div>
                 <h3 className="text-xl font-bold text-rose-900 mb-2">Priority Rush</h3>
                 <div className="text-rose-700 font-medium h-12">First attempt by next business day</div>
                 <ul className="space-y-3 mb-8 mt-6">
@@ -283,6 +285,7 @@ export default function BrokenArrowServiceAreaPage() {
               
               {/* Same Day */}
               <div className="bg-white rounded-2xl p-8 border border-rose-200 hover:border-rose-400 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <div className="text-2xl font-extrabold text-rose-700 mb-1">$150 <span className="text-sm font-normal text-gray-500">base rate</span></div>
                 <h3 className="text-xl font-bold text-rose-700 mb-2">Same-Day Service</h3>
                 <div className="text-rose-600 font-medium h-12">Immediate deployment<br/><span className="text-xs">(Call by 12:00 PM)</span></div>
                 <ul className="space-y-3 mb-8 mt-6">

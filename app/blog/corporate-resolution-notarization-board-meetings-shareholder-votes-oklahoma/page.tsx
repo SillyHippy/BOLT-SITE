@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma',
   },
   other: {
-    'article:published_time': '2026-08-18',
-    'article:modified_time': '2026-08-18',
+    'article:published_time': '2026-08-08',
+    'article:modified_time': '2026-08-08',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Oklahoma corporate resolutions bind when properly signed; notarization proves officer authority to banks and lenders. Use 49 O.S. § 119 representative-capacity acknowledgments, 18 O.S. § 1073 written consents, and RON for remote directors.',
@@ -115,8 +115,8 @@ export default function BlogPost() {
         ]}
         articleDetails={{
           headline: 'Corporate Resolution Notarization in Oklahoma Guide',
-          datePublished: '2026-08-18',
-          dateModified: '2026-08-18',
+          datePublished: '2026-08-08',
+          dateModified: '2026-08-08',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'

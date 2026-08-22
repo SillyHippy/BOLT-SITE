@@ -25,6 +25,21 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+const courthouseFAQs = [
+  {
+    question: 'How do I find an Oklahoma county courthouse address and contact number?',
+    answer: 'This directory lists all 77 Oklahoma district courthouses with full street addresses, clerk telephone numbers, judicial districts, and links to county docket searches.'
+  },
+  {
+    question: 'How many days do I have to serve papers after filing in an Oklahoma district court?',
+    answer: 'Under 12 O.S. § 2004(I), a summons and petition must be served on the defendant within 180 days of filing the action with the court clerk.'
+  },
+  {
+    question: 'Can process servers file or retrieve documents at Oklahoma courthouses?',
+    answer: 'Yes. Just Legal Solutions provides courthouse filing, document retrieval, and physical service of process across all 77 Oklahoma county courts.'
+  }
+];
+
 const courthouses = [
   // District 1
   { county: 'Adair', city: 'Stilwell', address: '220 W Division St, Stilwell, OK 74960', phone: '(918) 696-7633', district: 1, slug: 'adair' },
@@ -129,6 +144,7 @@ export default function OklahomaCourthouseDirectoryPage() {
         pageDescription="Complete directory of all 77 Oklahoma county courthouses with addresses, phone numbers, hours, filing info, and OSCN links. Updated 2026. Bookmark this page."
         pageUrl="https://justlegalsolutions.org/oklahoma-courthouse-directory"
         siteName="Just Legal Solutions"
+        faqItems={courthouseFAQs}
         breadcrumbs={[
           { name: 'Home', url: '/' },
           { name: 'Oklahoma Courthouse Directory — All 77 Counties | Addresses, Hours & Filing Info', url: '/oklahoma-courthouse-directory' },

@@ -1,6 +1,13 @@
 {
   "generatedAt": "2026-06-23T02:30:00.000Z",
   "redirects": {
+    "notary-journal-requirements-best-practices-record-keeping-oklahoma": {
+      "target": "/notary-laws",
+      "reason": "Queued post — interim redirect until weekly publish",
+      "inboundLinkCount": 2,
+      "inQueue": true,
+      "updatedAt": "2026-08-22"
+    },
     "electronic-proof-service-digital-signatures-court-acceptance-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",

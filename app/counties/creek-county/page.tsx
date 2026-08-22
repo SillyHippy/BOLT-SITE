@@ -212,7 +212,7 @@ export default function CreekCountyProcessServer() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Sapulpa</h3>
                 <p className="text-sm text-gray-600 mb-2">Population: 20,544</p>
-                <p className="text-gray-700 text-sm mb-4">Named for Chief Sapulpa, full-blood Lower Creek Indian who established trading post 1850 near Polecat and Rock creeks. A...</p>
+                <p className="text-gray-700 text-sm mb-4">Named for Chief Sapulpa, full-blood Lower Creek Indian who established trading post 1850 near Polecat and Rock creeks. County seat of Creek County.</p>
                 <Link 
                   href="/service-areas/sapulpa"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
@@ -223,7 +223,7 @@ export default function CreekCountyProcessServer() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Bristow</h3>
                 <p className="text-sm text-gray-600 mb-2">Population: 4,222</p>
-                <p className="text-gray-700 text-sm mb-4">Railroad town on St. Louis-Oklahoma City line, oil boom community...</p>
+                <p className="text-gray-700 text-sm mb-4">Railroad town on St. Louis-Oklahoma City line, oil boom community, and historic Route 66 hub.</p>
                 <Link 
                   href="/service-areas/bristow"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
@@ -234,9 +234,31 @@ export default function CreekCountyProcessServer() {
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Kellyville</h3>
                 <p className="text-sm text-gray-600 mb-2">Population: 1,150</p>
-                <p className="text-gray-700 text-sm mb-4">Railroad town, agricultural community...</p>
+                <p className="text-gray-700 text-sm mb-4">Railroad town, agricultural community on Route 66 in central Creek County.</p>
                 <Link 
                   href="/service-areas/kellyville"
+                  className="text-blue-600 hover:text-blue-800 font-medium text-sm"
+                >
+                  Learn More →
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Kiefer</h3>
+                <p className="text-sm text-gray-600 mb-2">Population: 2,400</p>
+                <p className="text-gray-700 text-sm mb-4">Historic Glenn Pool oil boom town on Highway 75 corridor with rapidly growing residential neighborhoods.</p>
+                <Link 
+                  href="/service-areas/kiefer"
+                  className="text-blue-600 hover:text-blue-800 font-medium text-sm"
+                >
+                  Learn More →
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Mounds</h3>
+                <p className="text-sm text-gray-600 mb-2">Population: 1,000</p>
+                <p className="text-gray-700 text-sm mb-4">Quiet Creek County community south of Glenpool with rural acreages and agricultural properties.</p>
+                <Link 
+                  href="/service-areas/mounds"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
                   Learn More →
