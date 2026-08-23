@@ -7,3 +7,6 @@
 ## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
 **Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
 **Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
+## 2025-02-28 - Inconsistent focus color on mobile menu toggles
+**Learning:** Found mobile menu toggles using `focus-visible:ring-black` while the rest of the application uses the theme standardized `focus-visible:ring-blue-500` for keyboard focus states. The discrepancy in focus color causes a fragmented keyboard user experience. Standardizing the focus indicators creates a more uniform and expected visual experience across interactive components.
+**Action:** When working on navigation or UI toggles, verify that focus ring colors adhere to the project's brand token (e.g. `ring-blue-500`) instead of arbitrarily assigning colors like `black`.
