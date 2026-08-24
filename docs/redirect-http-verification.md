@@ -2,7 +2,7 @@
 
 # Redirect HTTP verification (Layer 2)
 
-- **When:** 2026-08-07T20:56:30.296Z
+- **When:** 2026-08-24T13:33:54.882Z
 - **Base:** https://justlegalsolutions.org
 - **Rules tested:** 17 (2 malformed + 8 county sample of 78)
 - **Failed:** 0

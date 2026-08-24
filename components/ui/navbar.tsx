@@ -120,7 +120,7 @@ export function Navbar() {
             <button
               type="button"
               onClick={toggleMobileMenu}
-              className="rounded-lg p-2 text-gray-600 transition hover:bg-slate-100 hover:text-gray-900 focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
+              className="rounded-lg p-2 text-gray-600 transition hover:bg-slate-100 hover:text-gray-900 focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-menu"
               aria-label={isMobileMenuOpen ? 'Close main menu' : 'Open main menu'}
@@ -157,7 +157,7 @@ export function Navbar() {
             <div className="text-lg font-semibold text-slate-900">Menu</div>
             <button
               onClick={toggleMobileMenu}
-              className="p-2 hover:bg-gray-100 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
+              className="p-2 hover:bg-gray-100 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               aria-label="Close menu"
             >
               <X className="h-6 w-6" aria-hidden="true" />

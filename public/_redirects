@@ -91,44 +91,6 @@
 /counties/woods /counties/woods-county 301
 /counties/woodward /counties/woodward-county 301
 
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
-# regen: node scripts/prioritize-county-redirects.mjs
-
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
@@ -469,4 +431,5 @@
 /blog/verify-service-process-completed-correctly-oklahoma /blog/how-to-hire-a-process-server-oklahoma 301
 /blog/virtual-assistant-transform-law-firm-efficiency-oklahoma /blog/virtual-assistants-court-filing-efiling-support-oklahoma 301
 /blog/what-happens-if-someone-refuses-service /what-happens-if-someone-refuses-service 301
+
 

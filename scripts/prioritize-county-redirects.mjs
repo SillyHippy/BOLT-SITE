@@ -38,6 +38,7 @@ async function main() {
   for (const line of lines) {
     const t = line.trim();
     if (t.startsWith('# ── 0b. Priority SEO redirects')) continue;
+    if (t === '# regen: node scripts/prioritize-county-redirects.mjs') continue;
     const m = t.match(COUNTY_LINE);
     if (m && !m[1].endsWith('-county') && m[2] === `${m[1]}-county`) {
       if (!countySources.has(m[1])) {
