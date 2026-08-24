@@ -13,7 +13,6 @@ import {
 import { getPromoDescription } from '@/lib/promo-utils';
 import {
   FUEL_ADJUSTMENT_EFFECTIVE_DATE,
-  FUEL_OPERATING_ADJUSTMENT,
   getBasePrice,
   getCurrentPrice,
   getStartingPrice,
@@ -68,8 +67,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'ai-summary': 'Just Legal Solutions transparent base pricing for process serving and courier in Oklahoma — one shared tier ladder. Starts at: single-attempt $35, standard $60 (process serving & courier), rush $100 (process serving & courier), same-day $150, triple-attempt $225, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. A temporary $20 fuel and operating-cost adjustment applies to fuel-dependent services (see pricing page banner). All 77 Oklahoma counties served. Final cost depends on location, mileage, timing, attempts, add-ons, and complexity.',
-    'ai-key-facts': 'Single attempt $35, Standard $60 base (process serving & courier), Rush $100 base (process serving & courier), Same-Day $150 base (process serving & courier), Triple-Attempt $225, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $90/hr, eFiling free, temporary $20 fuel adjustment on affected services effective July 19 2026, Glenpool/Tulsa County primary service area, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions transparent base pricing for process serving and courier in Oklahoma — one shared tier ladder. Starts at: single-attempt $35, standard $60 (process serving & courier), rush $100 (process serving & courier), same-day $150, triple-attempt $225, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. A temporary fuel and operating-cost adjustment applies to fuel-dependent services (see pricing page banner). All 77 Oklahoma counties served. Final cost depends on location, mileage, timing, attempts, add-ons, and complexity.',
+    'ai-key-facts': 'Single attempt $35, Standard $60 base (process serving & courier), Rush $100 base (process serving & courier), Same-Day $150 base (process serving & courier), Triple-Attempt $225, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $90/hr, eFiling free, temporary fuel adjustment on affected services effective July 19 2026, Glenpool/Tulsa County primary service area, (539) 367-6832',
     ...buildFreshnessMetadata({
       datePublished: pricingFreshness.datePublished,
       dateModified: pricingFreshness.dateModified,
@@ -110,7 +109,7 @@ const serviceCategories = [
 const pricingFaqItems = [
   {
     question: "How much does a process server cost in Tulsa?",
-    answer: "Process server costs in Tulsa start at $35 for a single-attempt posting and $60 for standard service (up to three attempts). Rush service starts at $100; same-day delivery starts at $150. A temporary $20 fuel and operating-cost adjustment currently applies to fuel-dependent services — see our pricing page for current adjusted rates. County sheriff service in Tulsa County typically runs $40–$50 per attempt with a longer wait. Just Legal Solutions includes GPS-verified proof and real-time updates in every tier."
+    answer: "Process server costs in Tulsa start at $35 for a single-attempt posting and $60 for standard service (up to three attempts). Rush service starts at $100; same-day delivery starts at $150. A temporary fuel and operating-cost adjustment currently applies to fuel-dependent services — see our pricing page for current adjusted rates. County sheriff service in Tulsa County typically runs $40–$50 per attempt with a longer wait. Just Legal Solutions includes GPS-verified proof and real-time updates in every tier."
   },
   {
     question: "What is the cheapest process server option in Oklahoma?",
@@ -378,9 +377,9 @@ export default function PricingPage() {
                 <div className="h-12 w-12 rounded-full bg-amber-100 flex items-center justify-center text-2xl flex-shrink-0" aria-hidden="true">⛽</div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-amber-700 mb-1">Current pricing notice</p>
-                  <h2 className="font-bold text-amber-950 text-xl md:text-2xl">Temporary $20 Fuel &amp; Operating-Cost Adjustment</h2>
+                  <h2 className="font-bold text-amber-950 text-xl md:text-2xl">Temporary Fuel &amp; Operating-Cost Adjustment</h2>
                   <p className="text-amber-900 mt-2 leading-relaxed">
-                    Effective {FUEL_ADJUSTMENT_EFFECTIVE_DATE}, current rates for fuel-dependent services include a temporary <strong>${FUEL_OPERATING_ADJUSTMENT} adjustment</strong> because of continued increases in fuel, vehicle maintenance, and other operating costs. For example, Standard Service is normally ${getBasePrice('standard')} and is currently ${getCurrentPrice('standard')}. We will continue reviewing the adjustment as costs change.
+                    Effective {FUEL_ADJUSTMENT_EFFECTIVE_DATE}, current rates for fuel-dependent services include a temporary adjustment because of continued increases in fuel, vehicle maintenance, and other operating costs. For example, Standard Service is normally ${getBasePrice('standard')} and is currently ${getCurrentPrice('standard')}. We will continue reviewing the adjustment as costs change.
                   </p>
                 </div>
               </div>

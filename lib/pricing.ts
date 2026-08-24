@@ -16,7 +16,7 @@ export type StartingPrice = {
 };
 
 /** Temporary fuel & operating-cost adjustment on fuel-dependent services. */
-export const FUEL_OPERATING_ADJUSTMENT = 20;
+export const FUEL_OPERATING_ADJUSTMENT = 30;
 
 /** When the current fuel adjustment took effect (display string). */
 export const FUEL_ADJUSTMENT_EFFECTIVE_DATE = 'July 19, 2026';

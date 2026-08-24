@@ -34,9 +34,9 @@ const areaPriceAdders: Record<string, number> = {
 };
 
 const serviceTypes = [
-  { id: 'standard', label: 'Standard Service', base: 80, desc: 'Up to 3 attempts within 10 business days' },
-  { id: 'rush', label: 'Rush Service', base: 120, desc: 'Attempt within 72 hours' },
-  { id: 'sameday', label: 'Same-Day Service', base: 170, desc: 'Attempt within 24 hours' },
+  { id: 'standard', label: 'Standard Service', base: 90, desc: 'Up to 3 attempts within 10 business days' },
+  { id: 'rush', label: 'Rush Service', base: 130, desc: 'Attempt within 72 hours' },
+  { id: 'sameday', label: 'Same-Day Service', base: 180, desc: 'Attempt within 24 hours' },
   { id: 'triple', label: 'Triple-Attempt Rush', base: 225, desc: 'Three attempts within 48 hours or sooner' },
 ];
 
@@ -279,7 +279,7 @@ export default function CostCalculatorPage() {
 
           {/* Disclaimer + Cross-links */}
           <div className="mt-8 bg-white rounded-xl border border-gray-200 p-5 text-sm text-gray-600">
-            <p className="mb-3"><strong>About these estimates:</strong> Estimates include the temporary $20 fuel and operating-cost adjustment on fuel-dependent services (effective July 19, 2026). Distance charges are estimates and will be confirmed before you commit. All quotes are free.</p>
+            <p className="mb-3"><strong>About these estimates:</strong> Estimates include the temporary fuel and operating-cost adjustment on fuel-dependent services (effective July 19, 2026). Distance charges are estimates and will be confirmed before you commit. All quotes are free.</p>
             <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-gray-100">
               <Link href="/pricing" className="text-blue-600 hover:underline font-medium">Full Pricing Page →</Link>
               <Link href="/contact" className="text-blue-600 hover:underline font-medium">Request Service →</Link>
@@ -298,7 +298,7 @@ export default function CostCalculatorPage() {
           {
             "@type": "Question",
             "name": "How much does a process server cost in Oklahoma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Standard process serving in Oklahoma starts at $60 for Tulsa County. Rush service (within 72 hours) starts at $100. Same-day service starts at $150. A temporary $20 fuel and operating-cost adjustment currently applies to fuel-dependent services. Additional fees may apply for mileage, distant counties, printing, and add-on services. Use our cost calculator above to estimate your total." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Standard process serving in Oklahoma starts at $60 for Tulsa County. Rush service (within 72 hours) starts at $100. Same-day service starts at $150. A temporary fuel and operating-cost adjustment currently applies to fuel-dependent services. Additional fees may apply for mileage, distant counties, printing, and add-on services. Use our cost calculator above to estimate your total." },
           },
           {
             "@type": "Question",
