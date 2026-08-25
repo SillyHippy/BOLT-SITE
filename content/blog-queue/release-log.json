@@ -5438,6 +5438,46 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-25T15:33:33.722Z",
+      "releaseDate": "2026-08-25",
+      "quality": {
+        "words": 4244,
+        "headings": 27,
+        "paragraphs": 41
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "construction-litigation-process-serving-mechanics-liens-oklahoma",
+      "title": "Construction Process Serving in Oklahoma: Liens & Bond Claims",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-25T15:33:33.725Z",
+      "releaseDate": "2026-08-25",
+      "quality": {
+        "words": 4176,
+        "headings": 26,
+        "paragraphs": 39
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
