@@ -7,3 +7,6 @@
 ## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
 **Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
 **Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
+## 2026-08-26 - Prevent redundant screen reader announcements on buttons with decorative icons
+**Learning:** Decorative icons inside buttons that already contain visible descriptive text (like "Share via Text") can cause screen readers to announce redundant and confusing text if they have explicit `alt` text (e.g. `alt="Text"`).
+**Action:** Always ensure that decorative icons within buttons that have visible text labels use `alt=""` and `aria-hidden="true"` to hide them from assistive technologies.
