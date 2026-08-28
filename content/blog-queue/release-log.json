@@ -5478,6 +5478,46 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-08-28T00:18:24.886Z",
+      "releaseDate": "2026-08-27",
+      "quality": {
+        "words": 5677,
+        "headings": 40,
+        "paragraphs": 61
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "divorce-separation-serving-papers-sensitivity-discretion-oklahoma",
+      "title": "Serve Divorce Papers in Oklahoma with Discretion",
+      "category": "Process Serving",
+      "releasedAt": "2026-08-28T00:18:24.889Z",
+      "releaseDate": "2026-08-27",
+      "quality": {
+        "words": 4933,
+        "headings": 28,
+        "paragraphs": 47
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
