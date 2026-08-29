@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback, useRef, useEffect } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { 
   Printer, 
   Share2, 
@@ -10,11 +10,7 @@ import {
   Check, 
   Scale, 
   Sparkles, 
-  UserCheck, 
-  MapPin, 
-  Building2, 
-  FileText,
-  HelpCircle
+  ShieldCheck
 } from 'lucide-react';
 
 export type DocumentType = 
@@ -34,18 +30,18 @@ interface Attempt {
 export default function AffidavitOfService() {
   // Document Type & Jurisdiction
   const [docType, setDocType] = useState<DocumentType>('AFFIDAVIT OF SERVICE');
-  const [jurisdictionState, setJurisdictionState] = useState('');
-  const [county, setCounty] = useState('');
+  const [jurisdictionState, setJurisdictionState] = useState('Oklahoma');
+  const [county, setCounty] = useState('Tulsa');
   
   // Case & Court Info
-  const [courtName, setCourtName] = useState('');
+  const [courtName, setCourtName] = useState('IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA');
   const [caseNumber, setCaseNumber] = useState('');
   const [jobNumber, setJobNumber] = useState('');
   const [plaintiff, setPlaintiff] = useState('');
   const [defendant, setDefendant] = useState('');
   const [clientFirm, setClientFirm] = useState('');
 
-  // Process Server / Affiant Info (Blank by default for any user nationwide)
+  // Process Server / Affiant Info (Default: Editable blanks)
   const [serverName, setServerName] = useState('');
   const [serverCompany, setServerCompany] = useState('');
   const [serverPhone, setServerPhone] = useState('');
@@ -68,8 +64,8 @@ export default function AffidavitOfService() {
   const [executionCity, setExecutionCity] = useState('');
 
   // Notary Details (For Affidavits)
-  const [notaryCounty, setNotaryCounty] = useState('');
-  const [notaryState, setNotaryState] = useState('');
+  const [notaryCounty, setNotaryCounty] = useState('Tulsa');
+  const [notaryState, setNotaryState] = useState('Oklahoma');
   const [commissionExp, setCommissionExp] = useState('');
   const [commissionNum, setCommissionNum] = useState('');
 
@@ -78,7 +74,7 @@ export default function AffidavitOfService() {
     { id: 1, date: '', time: '', notes: '' },
   ]);
 
-  // UI state
+  // UI feedback
   const [copiedLink, setCopiedLink] = useState(false);
 
   const isDeclaration = docType.includes('DECLARATION') || docType === 'CERTIFICATE OF SERVICE';
@@ -94,18 +90,7 @@ export default function AffidavitOfService() {
     if (!executionDate) setExecutionDate(today);
   }, [executionDate]);
 
-  // Sync state & county defaults
-  const handleStateChange = (st: string) => {
-    setJurisdictionState(st);
-    if (!notaryState) setNotaryState(st);
-  };
-
-  const handleCountyChange = (ct: string) => {
-    setCounty(ct);
-    if (!notaryCounty) setNotaryCounty(ct);
-  };
-
-  // URL Query Parameter Pre-fill
+  // URL Query Parameter Pre-fill & Backward Compatibility
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
@@ -334,38 +319,38 @@ export default function AffidavitOfService() {
     setSelectedMannerKey(presetKey);
     switch (presetKey) {
       case 'personal':
-        setMannerText('PERSONAL SERVICE: By delivering true and correct copies of the above-listed documents to the named recipient personally at the service address.');
+        setMannerText('PERSONAL SERVICE: By personally delivering true and correct copies of the above-described documents to the recipient named herein at the address stated above.');
         break;
       case 'sub_residence':
-        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-listed documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion residing therein, and informing them of the general nature of the papers.');
+        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-described documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion (age 15+) residing therein, and informing said person of the contents.');
         break;
       case 'sub_business':
-        setMannerText('SUBSTITUTED SERVICE (BUSINESS / EMPLOYMENT): By delivering true and correct copies of the above-listed documents during regular business hours to the recipient\'s place of business/employment with the person in charge or authorized to receive process.');
+        setMannerText('SUBSTITUTED SERVICE (BUSINESS): By delivering true and correct copies of the above-described documents during regular business hours to the recipient\'s usual place of business with the person in charge or authorized to receive process.');
         break;
       case 'corp_agent':
-        setMannerText('CORPORATE / REGISTERED AGENT SERVICE: By delivering true and correct copies of the above-listed documents to the designated Registered Agent or authorized representative of the entity.');
+        setMannerText('CORPORATE / REGISTERED AGENT: By delivering true and correct copies of the above-described documents to the designated Registered Agent or authorized officer of the entity.');
         break;
       case 'posting':
-        setMannerText('POSTING / CONSPICUOUS PLACE: After multiple diligent attempts, by posting true and correct copies in a conspicuous place affixed firmly to the main entrance of the premises, and subsequently mailing a copy via First Class U.S. Mail.');
+        setMannerText('POSTING: After multiple diligent attempts, by posting true and correct copies in a conspicuous place on the front entrance of the premises, and subsequently mailing a copy via First Class U.S. Mail.');
         break;
       case 'certified_mail':
-        setMannerText('CERTIFIED MAIL SERVICE: By mailing true and correct copies via USPS Certified Mail, Return Receipt Requested with restricted delivery.');
+        setMannerText('CERTIFIED MAIL: By mailing true and correct copies via USPS Certified Mail, Return Receipt Requested with restricted delivery.');
         break;
       case 'non_unknown':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (UNKNOWN AT ADDRESS): Diligent inquiry with current resident/occupant confirmed that the subject does not reside at this location and is unknown.');
+        setMannerText('NON-SERVICE (UNKNOWN): Diligent inquiry with current resident/occupant confirmed that the subject does not reside at this location and is completely unknown.');
         break;
       case 'non_moved':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (MOVED / NO FORWARDING): Diligent inquiry confirmed the subject has moved from this location. No forwarding address was provided or available.');
+        setMannerText('NON-SERVICE (MOVED): Diligent inquiry confirmed the subject has moved from this location. No forwarding address was available or provided.');
         break;
       case 'non_bad_address':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (VACANT / BAD ADDRESS): Address does not exist or property was found completely vacant/abandoned with no connection to the subject.');
+        setMannerText('NON-SERVICE (VACANT / BAD ADDRESS): Address does not exist or property was found vacant/abandoned with no connection to the subject.');
         break;
       case 'non_evasion':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (EVASION / HOSTILE REFUSAL): Subject or occupant actively avoided service, refused to answer the door or acknowledge presence despite confirmed residency/vehicle on site.');
+        setMannerText('NON-SERVICE (EVASION / REFUSAL): Subject or occupant actively avoided service, refused to open the door, or refused to accept papers despite confirmed presence.');
         break;
       default:
         break;
@@ -380,14 +365,14 @@ export default function AffidavitOfService() {
     setServerLicense('Licensed Private Process Server');
     setJurisdictionState('Oklahoma');
     setCounty('Tulsa');
-    setCourtName('District Court of Tulsa County');
+    setCourtName('IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA');
     setExecutionCity('Tulsa, OK');
     setNotaryState('Oklahoma');
     setNotaryCounty('Tulsa');
   };
 
   const handleReset = () => {
-    if (window.confirm('Reset all fields to a blank form?')) {
+    if (window.confirm('Clear all fields to a blank form?')) {
       setDocType('AFFIDAVIT OF SERVICE');
       setCourtName('');
       setCaseNumber('');
@@ -422,74 +407,48 @@ export default function AffidavitOfService() {
       <style jsx global>{`
         @page {
           size: letter portrait;
-          margin: 0.4in 0.5in;
+          margin: 0.35in 0.45in;
         }
         @media print {
-          * {
-            -webkit-print-color-adjust: exact !important;
-            print-color-adjust: exact !important;
-            background-color: transparent !important;
+          /* Force hide entire webpage body children except the targeted document */
+          body * {
+            visibility: hidden !important;
           }
-          html, body {
-            background: #fff !important;
-            padding: 0 !important;
+          .affidavit-page, .affidavit-page * {
+            visibility: visible !important;
+          }
+          .affidavit-page {
+            position: absolute !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100% !important;
+            max-width: 100% !important;
             margin: 0 !important;
-            height: auto !important;
-            overflow: visible !important;
-            font-size: 11pt !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            border: none !important;
+            background: #fff !important;
           }
-          header, footer, footer#contact, nav, .navbar, .site-footer, .breadcrumb, .no-print-affidavit {
+          header, footer, nav, aside, .fixed, .sticky, [aria-label="Call or contact Just Legal Solutions"], .no-print, .no-print-affidavit, .ui-glass-nav, .site-footer, #mobile-menu, .ui-mobile-safe-panel {
             display: none !important;
             visibility: hidden !important;
             height: 0 !important;
             max-height: 0 !important;
             overflow: hidden !important;
-            padding: 0 !important;
-            margin: 0 !important;
-            border: none !important;
-          }
-          .affidavit-wrapper {
-            background: #fff !important;
-            padding: 0 !important;
-            margin: 0 !important;
-            min-height: 0 !important;
-          }
-          main, .flex.flex-col.min-h-screen, .flex.flex-col.min-h-screen > main {
-            padding: 0 !important;
-            margin: 0 !important;
-            min-height: 0 !important;
-            background: #fff !important;
-          }
-          .flex.flex-col.min-h-screen {
-            min-height: 0 !important;
-            display: block !important;
-          }
-          .pt-14 {
-            padding-top: 0 !important;
-          }
-          .affidavit-page {
-            width: 100% !important;
-            max-width: 100% !important;
-            min-height: 0 !important;
             margin: 0 !important;
             padding: 0 !important;
             border: none !important;
-            box-shadow: none !important;
-            background: #fff !important;
-            overflow: visible !important;
+            position: static !important;
           }
           .print-clean-input {
             border: none !important;
             border-bottom: 1px solid #000 !important;
             background: transparent !important;
-            padding: 1px 2px !important;
+            padding: 0 1px !important;
           }
           .print-clean-text {
             white-space: pre-wrap !important;
             word-break: break-word !important;
-          }
-          .no-print-element {
-            display: none !important;
           }
           .page-break-auto {
             page-break-inside: avoid;
@@ -499,566 +458,503 @@ export default function AffidavitOfService() {
       `}</style>
 
       {/* Top Mobile/Desktop Control Panel */}
-      <div className="no-print-affidavit max-w-5xl mx-auto px-4 mb-6">
-        <div className="bg-slate-900 text-white rounded-2xl shadow-xl p-4 sm:p-6 border border-slate-800 space-y-4">
+      <div className="no-print-affidavit max-w-4xl mx-auto px-3 sm:px-4 mb-4">
+        <div className="bg-slate-900 text-white rounded-xl shadow-lg p-3 sm:p-4 border border-slate-800 space-y-3">
           
           {/* Header Row: Title & Action Buttons */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
-            <div>
-              <div className="flex items-center gap-2 mb-1">
-                <Scale className="w-5 h-5 text-amber-400" />
-                <h2 className="font-bold text-lg text-white">Nationwide Court Document Generator</h2>
-                <span className="bg-blue-600/30 text-blue-300 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-blue-500/30">
-                  All 50 States &amp; Federal
-                </span>
-              </div>
-              <p className="text-slate-400 text-xs sm:text-sm">
-                Generates court-admissible returns of service for any process server, attorney, or pro se litigant.
-              </p>
+          <div className="flex flex-wrap items-center justify-between gap-2.5 pb-3 border-b border-slate-800">
+            <div className="flex items-center gap-2">
+              <Scale className="w-4 h-4 text-amber-400 shrink-0" />
+              <h2 className="font-bold text-sm sm:text-base text-white">Nationwide Court Document Generator</h2>
+              <span className="bg-blue-600/30 text-blue-300 text-[10px] sm:text-xs font-semibold px-2 py-0.5 rounded-full border border-blue-500/30 hidden sm:inline-block">
+                50-State &amp; Federal
+              </span>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2">
+            <div className="flex items-center gap-2">
               <button
                 type="button"
                 onClick={handlePrint}
-                className="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2.5 rounded-xl font-semibold text-sm shadow-md transition-all active:scale-95 cursor-pointer"
+                className="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer"
               >
-                <Printer className="w-4 h-4" />
+                <Printer className="w-3.5 h-3.5" />
                 <span>Print / Save PDF</span>
               </button>
 
               <button
                 type="button"
                 onClick={handleCopyShareLink}
-                className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-3.5 py-2.5 rounded-xl font-semibold text-sm shadow-md transition-all active:scale-95 cursor-pointer"
+                className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-500 text-white px-3 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer"
                 title="Copy shareable pre-filled link"
               >
-                {copiedLink ? <Check className="w-4 h-4 text-emerald-300" /> : <Share2 className="w-4 h-4" />}
-                <span>{copiedLink ? 'Link Copied!' : 'Share Link'}</span>
+                {copiedLink ? <Check className="w-3.5 h-3.5 text-emerald-300" /> : <Share2 className="w-3.5 h-3.5" />}
+                <span>{copiedLink ? 'Copied' : 'Share'}</span>
               </button>
 
               <button
                 type="button"
                 onClick={handleReset}
-                className="flex items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-2.5 rounded-xl text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700"
-                title="Clear all fields to blank"
+                className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700"
+                title="Clear all fields"
               >
-                <RotateCcw className="w-3.5 h-3.5" />
-                <span>Clear Form</span>
+                <RotateCcw className="w-3 h-3" />
+                <span>Clear</span>
               </button>
             </div>
           </div>
 
-          {/* Document Type Selection */}
-          <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-              Select Document Format:
-            </label>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
-              {[
-                { type: 'AFFIDAVIT OF SERVICE', title: 'Affidavit of Service', desc: 'Sworn & Notarized Jurat' },
-                { type: 'DECLARATION OF SERVICE', title: 'Declaration of Service', desc: 'Unsworn / Penalty of Perjury' },
-                { type: 'AFFIDAVIT OF NON-SERVICE', title: 'Affidavit of Non-Service', desc: 'Notarized Due Diligence' },
-                { type: 'DECLARATION OF NON-SERVICE', title: 'Declaration of Non-Service', desc: 'Unsworn Diligent Search' },
-              ].map((tab) => {
-                const active = docType === tab.type;
-                return (
-                  <button
-                    key={tab.type}
-                    type="button"
-                    onClick={() => setDocType(tab.type as DocumentType)}
-                    className={`p-3 rounded-xl text-left border transition-all cursor-pointer flex flex-col justify-between ${
-                      active
-                        ? 'bg-blue-600 border-blue-400 text-white shadow-lg ring-2 ring-blue-400/40'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-slate-600'
-                    }`}
-                  >
-                    <span className="font-bold text-xs sm:text-sm leading-snug">{tab.title}</span>
-                    <span className={`text-[10px] sm:text-xs mt-1 ${active ? 'text-blue-100' : 'text-slate-400'}`}>
-                      {tab.desc}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
+          {/* Document Type Selector Segmented Row */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+            {[
+              { type: 'AFFIDAVIT OF SERVICE', label: 'Affidavit of Service', sub: 'Sworn & Notarized' },
+              { type: 'DECLARATION OF SERVICE', label: 'Declaration of Service', sub: 'Penalty of Perjury' },
+              { type: 'AFFIDAVIT OF NON-SERVICE', label: 'Affidavit Non-Service', sub: 'Notarized Log' },
+              { type: 'DECLARATION OF NON-SERVICE', label: 'Declaration Non-Service', sub: 'Diligent Search' },
+            ].map((tab) => {
+              const active = docType === tab.type;
+              return (
+                <button
+                  key={tab.type}
+                  type="button"
+                  onClick={() => setDocType(tab.type as DocumentType)}
+                  className={`p-2 rounded-lg text-left border transition-all cursor-pointer flex flex-col justify-center ${
+                    active
+                      ? 'bg-blue-600 border-blue-400 text-white shadow ring-1 ring-blue-400'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-800'
+                  }`}
+                >
+                  <span className="font-bold text-xs leading-tight">{tab.label}</span>
+                  <span className={`text-[10px] mt-0.5 ${active ? 'text-blue-100' : 'text-slate-400'}`}>
+                    {tab.sub}
+                  </span>
+                </button>
+              );
+            })}
           </div>
 
-          {/* Presets and Options Section */}
-          <div className="pt-2 border-t border-slate-800 space-y-3">
-            <div>
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                  Quick Manner &amp; Non-Service Presets:
-                </span>
-                <button
-                  type="button"
-                  onClick={handlePrefillJLS}
-                  className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
-                  title="Prefill Just Legal Solutions info"
-                >
-                  Prefill JLS Default Info
-                </button>
-              </div>
-
-              {/* Responsive Categorized Presets Grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-                {[
-                  { id: 'personal', label: 'Personal Delivery', category: 'Service' },
-                  { id: 'sub_residence', label: 'Substituted (Residence)', category: 'Service' },
-                  { id: 'sub_business', label: 'Substituted (Business)', category: 'Service' },
-                  { id: 'corp_agent', label: 'Registered Agent', category: 'Service' },
-                  { id: 'posting', label: 'Posting / Conspicuous', category: 'Service' },
-                  { id: 'non_unknown', label: 'Unknown at Address', category: 'Non-Service' },
-                  { id: 'non_moved', label: 'Moved / No Forwarding', category: 'Non-Service' },
-                  { id: 'non_evasion', label: 'Evasion / Hostile Refusal', category: 'Non-Service' },
-                ].map((p) => {
-                  const isSelected = selectedMannerKey === p.id;
-                  return (
-                    <button
-                      key={p.id}
-                      type="button"
-                      onClick={() => applyMannerPreset(p.id)}
-                      className={`px-3 py-2 rounded-lg text-xs font-medium transition-all text-left border cursor-pointer flex flex-col justify-center ${
-                        isSelected
-                          ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold shadow-md'
-                          : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-750 hover:border-slate-600'
-                      }`}
-                    >
-                      <span>{p.label}</span>
-                      <span className={`text-[9px] uppercase font-semibold mt-0.5 ${isSelected ? 'text-slate-900' : 'text-slate-400'}`}>
-                        {p.category}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
+          {/* Quick Presets Dropdown & Buttons */}
+          <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800 text-xs">
+            <div className="flex items-center gap-2 flex-grow sm:flex-grow-0">
+              <span className="text-slate-400 font-semibold flex items-center gap-1 shrink-0">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" /> Presets:
+              </span>
+              <select
+                value={selectedMannerKey}
+                onChange={(e) => applyMannerPreset(e.target.value)}
+                className="bg-slate-800 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1 outline-none focus:border-blue-500 cursor-pointer"
+              >
+                <option value="" disabled>-- Select Manner / Non-Service Preset --</option>
+                <optgroup label="Completed Service">
+                  <option value="personal">Personal Delivery</option>
+                  <option value="sub_residence">Substituted (Residence — Age 15+)</option>
+                  <option value="sub_business">Substituted (Business / Employment)</option>
+                  <option value="corp_agent">Registered Agent / Entity</option>
+                  <option value="posting">Posting / Conspicuous Place</option>
+                  <option value="certified_mail">Certified Mail Service</option>
+                </optgroup>
+                <optgroup label="Diligent Non-Service">
+                  <option value="non_unknown">Non-Service: Unknown at Address</option>
+                  <option value="non_moved">Non-Service: Moved, Left No Forwarding</option>
+                  <option value="non_bad_address">Non-Service: Vacant / Bad Address</option>
+                  <option value="non_evasion">Non-Service: Evasion / Hostile Refusal</option>
+                </optgroup>
+              </select>
             </div>
 
-            {/* Optional Military / SCRA Toggle */}
-            <div className="pt-2 flex items-center justify-between">
-              <label className="inline-flex items-center gap-2 text-xs text-slate-300 cursor-pointer bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 hover:bg-slate-800">
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={handlePrefillJLS}
+                className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
+                title="Prefill Just Legal Solutions info"
+              >
+                Prefill JLS Info
+              </button>
+
+              <label className="inline-flex items-center gap-1.5 text-xs text-slate-300 cursor-pointer">
                 <input
                   type="checkbox"
                   checked={showMilitary}
                   onChange={(e) => setShowMilitary(e.target.checked)}
                   className="rounded text-blue-600 focus:ring-0 cursor-pointer"
                 />
-                <span>Include Servicemembers Civil Relief Act (SCRA) Declaration</span>
+                <span>Include SCRA Military</span>
               </label>
-              <span className="text-[11px] text-slate-400 hidden sm:inline">
-                (Optional — check if required by your state court or for default judgments)
-              </span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Main Printable Legal Document Sheet */}
+      {/* ServeTracker-Style Compact Legal Sheet */}
       <div className="max-w-4xl mx-auto px-2 sm:px-4">
         <div
-          className="affidavit-page bg-white text-black shadow-2xl rounded-sm sm:rounded-md p-4 sm:p-8 md:p-10 font-serif leading-relaxed border border-slate-300"
+          className="affidavit-page bg-white text-black shadow-xl rounded-sm p-4 sm:p-6 md:p-8 font-serif leading-tight border border-slate-300"
           style={{
             fontFamily: '"Times New Roman", Times, Georgia, serif',
             color: '#000',
-            minHeight: '10.5in',
+            fontSize: '10pt',
+            lineHeight: 1.25,
           }}
         >
-          {/* Document Title Header */}
-          <div className="text-center mb-4 pb-2 border-b-2 border-black">
-            <h1 className="text-xl sm:text-2xl font-bold uppercase tracking-wider underline mb-1">
-              {docType}
-            </h1>
-            <p className="text-xs italic text-gray-700">
-              {isDeclaration 
-                ? 'Pursuant to 28 U.S.C. § 1746 / Uniform Unsworn Declarations Act / State Civil Procedure'
-                : 'Sworn Return of Process Server with Official Notary Jurat'}
-            </p>
+          {/* Header: Court & Venue */}
+          <div className="text-center font-bold text-xs uppercase mb-2 tracking-wide">
+            <input
+              type="text"
+              value={courtName}
+              onChange={(e) => setCourtName(e.target.value)}
+              placeholder="IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA"
+              aria-label="Court and Venue"
+              className="w-full text-center font-bold text-xs sm:text-sm uppercase bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+            />
           </div>
 
-          {/* Court & Case Caption Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-12 border-2 border-black mb-4 text-xs sm:text-sm">
-            <div className="sm:col-span-6 p-2.5 border-b sm:border-b-0 sm:border-r border-black flex flex-col justify-between">
-              <div>
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Court / Jurisdiction:</span>
-                <input
-                  type="text"
-                  value={courtName}
-                  onChange={(e) => setCourtName(e.target.value)}
-                  placeholder="e.g. District Court / Superior Court / Municipal Court"
-                  aria-label="Court Name"
-                  className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-                />
-              </div>
-              <div className="mt-2 grid grid-cols-2 gap-2">
-                <div>
-                  <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">County:</span>
-                  <input
-                    type="text"
-                    value={county}
-                    onChange={(e) => handleCountyChange(e.target.value)}
-                    placeholder="County"
-                    aria-label="County"
-                    className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
-                  />
-                </div>
-                <div>
-                  <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">State:</span>
-                  <input
-                    type="text"
-                    value={jurisdictionState}
-                    onChange={(e) => handleStateChange(e.target.value)}
-                    placeholder="State"
-                    aria-label="State"
-                    className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
-                  />
-                </div>
-              </div>
-            </div>
+          {/* Caption Table */}
+          <table className="w-full border-collapse border-b-2 border-t-2 border-black mb-2 text-xs">
+            <tbody>
+              <tr>
+                <td className="w-[55%] align-top p-1.5 border-r-2 border-black pr-2">
+                  <div className="font-bold">
+                    <input
+                      type="text"
+                      value={plaintiff}
+                      onChange={(e) => setPlaintiff(e.target.value)}
+                      placeholder="PETITIONER / PLAINTIFF NAME(S)"
+                      aria-label="Plaintiff or Petitioner"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                    />
+                  </div>
+                  <div className="italic text-[10px] text-gray-700">Plaintiff / Petitioner,</div>
+                  <div className="font-bold my-1 text-center text-gray-600">vs.</div>
+                  <div className="font-bold">
+                    <input
+                      type="text"
+                      value={defendant}
+                      onChange={(e) => setDefendant(e.target.value)}
+                      placeholder="DEFENDANT / RESPONDENT NAME(S)"
+                      aria-label="Defendant or Respondent"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                    />
+                  </div>
+                  <div className="italic text-[10px] text-gray-700">Defendant / Respondent.</div>
+                </td>
 
-            <div className="sm:col-span-6 p-2.5 flex flex-col justify-between">
-              <div>
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Case / Docket Number:</span>
-                <input
-                  type="text"
-                  value={caseNumber}
-                  onChange={(e) => setCaseNumber(e.target.value)}
-                  placeholder="e.g. 2026-CV-01234"
-                  aria-label="Case Number"
-                  className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-                />
-              </div>
-              <div className="mt-2">
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Internal Job / File Ref #:</span>
-                <input
-                  type="text"
-                  value={jobNumber}
-                  onChange={(e) => setJobNumber(e.target.value)}
-                  placeholder="e.g. Job #12345 (optional)"
-                  aria-label="Job Number"
-                  className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
-                />
-              </div>
-            </div>
+                <td className="w-[45%] align-top p-1.5 pl-2 space-y-1">
+                  <div>
+                    <span className="font-bold text-[10px] uppercase">Case No: </span>
+                    <input
+                      type="text"
+                      value={caseNumber}
+                      onChange={(e) => setCaseNumber(e.target.value)}
+                      placeholder="e.g. CJ-2026-01234"
+                      aria-label="Case Number"
+                      className="font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none w-36 print-clean-input"
+                    />
+                  </div>
+                  <div>
+                    <span className="font-bold text-[10px] uppercase">County/State: </span>
+                    <input
+                      type="text"
+                      value={county}
+                      onChange={(e) => setCounty(e.target.value)}
+                      placeholder="Tulsa"
+                      aria-label="County"
+                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input"
+                    />
+                    <span>, </span>
+                    <input
+                      type="text"
+                      value={jurisdictionState}
+                      onChange={(e) => setJurisdictionState(e.target.value)}
+                      placeholder="Oklahoma"
+                      aria-label="State"
+                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input"
+                    />
+                  </div>
+                  <div>
+                    <span className="font-bold text-[10px] uppercase">Job Ref #: </span>
+                    <input
+                      type="text"
+                      value={jobNumber}
+                      onChange={(e) => setJobNumber(e.target.value)}
+                      placeholder="e.g. 12345 (optional)"
+                      aria-label="Job Number"
+                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-28 print-clean-input"
+                    />
+                  </div>
+                  <div className="pt-0.5">
+                    <span className="font-bold text-[10px] uppercase block">Person To Be Served:</span>
+                    <input
+                      type="text"
+                      value={recipientName}
+                      onChange={(e) => setRecipientName(e.target.value)}
+                      placeholder="Target Recipient Name"
+                      aria-label="Recipient Name"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                    />
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          {/* Title */}
+          <div className="text-center font-bold text-sm uppercase underline my-1 tracking-wider">
+            {docType}
           </div>
 
-          {/* Party Caption Box */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4 text-xs sm:text-sm">
-            <div className="border border-black p-2.5 rounded-sm">
-              <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                Plaintiff(s) / Petitioner(s):
-              </span>
-              <input
-                type="text"
-                value={plaintiff}
-                onChange={(e) => setPlaintiff(e.target.value)}
-                placeholder="Plaintiff / Petitioner Name(s)"
-                aria-label="Plaintiff or Petitioner"
-                className="w-full font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-              />
-              <div className="mt-2 text-center text-xs font-bold text-gray-500">vs.</div>
-              <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mt-2 mb-1">
-                Defendant(s) / Respondent(s):
-              </span>
-              <input
-                type="text"
-                value={defendant}
-                onChange={(e) => setDefendant(e.target.value)}
-                placeholder="Defendant / Respondent Name(s)"
-                aria-label="Defendant or Respondent"
-                className="w-full font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-              />
-            </div>
-
-            <div className="border border-black p-2.5 rounded-sm flex flex-col justify-between">
-              <div>
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                  Recipient To Be Served:
-                </span>
-                <input
-                  type="text"
-                  value={recipientName}
-                  onChange={(e) => setRecipientName(e.target.value)}
-                  placeholder="Target Individual or Entity Name"
-                  aria-label="Recipient To Be Served"
-                  className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-                />
-              </div>
-              <div className="mt-2">
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                  Forwarding Attorney / Client:
-                </span>
-                <input
-                  type="text"
-                  value={clientFirm}
-                  onChange={(e) => setClientFirm(e.target.value)}
-                  placeholder="Attorney or Law Firm Name (optional)"
-                  aria-label="Attorney or Client"
-                  className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Statutory Competency & Authorization Statement */}
-          <div className="text-xs sm:text-sm text-justify mb-4 leading-normal bg-gray-50/50 p-2.5 border border-gray-200 print:bg-transparent print:border-none print:p-0">
+          {/* Statutory Sworn Body */}
+          <p className="text-justify text-[10pt] mb-2 leading-tight">
             I, <input
               type="text"
               value={serverName}
               onChange={(e) => setServerName(e.target.value)}
-              placeholder="Process Server Full Name"
-              aria-label="Server Name"
-              className="inline-block font-bold text-center border-b border-black outline-none px-2 py-0.5 bg-transparent min-w-[180px] print-clean-input"
-            />, being first duly sworn or declaring under penalty of perjury, depose and say: 
-            I am a citizen of the United States, over the age of eighteen (18) years, not a party to or interested in the above-entitled action, 
-            and competent to make this statement. I was authorized by law to execute service of legal process in the jurisdiction where service was performed or attempted.
-          </div>
+              placeholder="Process Server Name"
+              aria-label="Process Server Name"
+              className="inline-block font-bold text-center border-b border-black outline-none px-1 bg-transparent min-w-[150px] print-clean-input"
+            />, being duly sworn or declaring under penalty of perjury, depose and state: 
+            I am a legally authorized process server in the State of <input
+              type="text"
+              value={jurisdictionState}
+              onChange={(e) => setJurisdictionState(e.target.value)}
+              placeholder="State"
+              aria-label="Server State"
+              className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
+            /> (License/Reg No. <input
+              type="text"
+              value={serverLicense}
+              onChange={(e) => setServerLicense(e.target.value)}
+              placeholder="License # / Title"
+              aria-label="Server License Number"
+              className="font-bold border-b border-black outline-none px-1 bg-transparent w-28 print-clean-input"
+            />), over the age of eighteen (18) years, and not a party to nor interested in the outcome of the above-entitled action.
+          </p>
 
-          {/* Service Details Box */}
-          <div className="border-2 border-black p-3 mb-4 space-y-3 text-xs sm:text-sm">
+          {/* Documents & Address Lines */}
+          <div className="space-y-1 mb-2 text-[9.5pt]">
             <div>
-              <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-0.5">
-                Service Address / Location:
-              </span>
-              <input
-                type="text"
-                value={serviceAddress}
-                onChange={(e) => setServiceAddress(e.target.value)}
-                placeholder="Street Address, Suite/Apt, City, State, ZIP"
-                aria-label="Service Address"
-                className="w-full font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
-              />
-            </div>
-
-            <div>
-              <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-0.5">
-                Legal Documents Effected / Attempted:
-              </span>
+              <strong className="uppercase text-[9pt]">Documents: </strong>
               <input
                 type="text"
                 value={documentsServed}
                 onChange={(e) => setDocumentsServed(e.target.value)}
-                placeholder="e.g. Summons, Petition/Complaint, Notice, Discovery Requests"
+                placeholder="e.g. Summons, Petition/Complaint, Notice, Discovery"
                 aria-label="Documents Served"
-                className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
+                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[80%] print-clean-input"
               />
             </div>
-
             <div>
-              <div className="flex items-center justify-between mb-1">
-                <span className="font-bold uppercase text-[10px] tracking-wider text-gray-800">
-                  {isNonService ? 'Statement of Diligent Inquiry / Non-Service Reason:' : 'Manner & Method of Service:'}
-                </span>
-              </div>
-              <textarea
-                value={mannerText}
-                onChange={(e) => setMannerText(e.target.value)}
-                placeholder="Describe exact details of service or reasons for non-service (or select a preset above)..."
-                rows={3}
-                aria-label="Manner of Service Details"
-                className="w-full bg-transparent border border-gray-300 focus:border-black outline-none p-2 leading-relaxed resize-y print:border-none print:p-0 print-clean-text"
+              <strong className="uppercase text-[9pt]">Service Address: </strong>
+              <input
+                type="text"
+                value={serviceAddress}
+                onChange={(e) => setServiceAddress(e.target.value)}
+                placeholder="Service Street Address, City, State, ZIP"
+                aria-label="Service Address"
+                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[75%] print-clean-input font-medium"
               />
             </div>
           </div>
 
+          {/* Manner of Service Block */}
+          <div className="mb-2">
+            <strong className="uppercase text-[9pt] block mb-0.5">
+              {isNonService ? 'Statement of Diligent Inquiry / Non-Service Reason:' : 'Manner & Details of Service:'}
+            </strong>
+            <textarea
+              value={mannerText}
+              onChange={(e) => setMannerText(e.target.value)}
+              placeholder="State the exact details of service or reasons for non-service (or choose a preset above)..."
+              rows={2}
+              aria-label="Manner of Service"
+              className="w-full bg-transparent border border-gray-300 focus:border-black outline-none p-1.5 text-[9.5pt] leading-tight resize-y print:border-none print:p-0 print-clean-text"
+            />
+          </div>
+
           {/* Chronological Service Attempts Log */}
-          <div className="mb-4 page-break-auto">
-            <div className="flex items-center justify-between mb-2">
-              <span className="font-bold uppercase text-xs tracking-wider text-gray-900">
-                Chronological Service Attempts &amp; Due Diligence Log:
-              </span>
-              <div className="no-print-affidavit flex gap-2">
-                <button
-                  type="button"
-                  onClick={addAttempt}
-                  className="flex items-center gap-1 bg-slate-100 hover:bg-slate-200 text-slate-800 px-2 py-1 rounded text-xs font-semibold cursor-pointer border border-slate-300"
-                >
-                  <Plus className="w-3 h-3" /> Add Attempt Row
-                </button>
-              </div>
+          <div className="mb-2 page-break-auto">
+            <div className="flex items-center justify-between mb-1">
+              <strong className="uppercase text-[9pt]">
+                Service Attempts &amp; Due Diligence Log:
+              </strong>
+              <button
+                type="button"
+                onClick={addAttempt}
+                className="no-print-affidavit text-[10px] bg-slate-100 hover:bg-slate-200 text-slate-800 px-1.5 py-0.5 rounded font-semibold cursor-pointer border border-slate-300"
+              >
+                + Add Attempt
+              </button>
             </div>
 
-            <div className="border border-black text-xs">
-              <div className="grid grid-cols-12 bg-gray-100 font-bold border-b border-black p-1.5 text-center text-[10px] uppercase">
-                <div className="col-span-1">#</div>
-                <div className="col-span-3 sm:col-span-2">Date</div>
-                <div className="col-span-3 sm:col-span-2">Time</div>
-                <div className="col-span-5 sm:col-span-7 text-left pl-2">Observations &amp; Details</div>
-              </div>
-
-              {attempts.map((att, idx) => (
-                <div 
-                  key={att.id} 
-                  className="grid grid-cols-12 border-b border-gray-300 last:border-b-0 p-1.5 items-center text-xs"
-                >
-                  <div className="col-span-1 text-center font-bold">{idx + 1}</div>
-                  <div className="col-span-3 sm:col-span-2 px-1">
-                    <input
-                      type="text"
-                      value={att.date}
-                      onChange={(e) => updateAttempt(att.id, 'date', e.target.value)}
-                      placeholder="MM/DD/YYYY"
-                      aria-label={`Attempt ${idx + 1} Date`}
-                      className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none text-center print-clean-input"
-                    />
-                  </div>
-                  <div className="col-span-3 sm:col-span-2 px-1">
-                    <input
-                      type="text"
-                      value={att.time}
-                      onChange={(e) => updateAttempt(att.id, 'time', e.target.value)}
-                      placeholder="10:30 AM"
-                      aria-label={`Attempt ${idx + 1} Time`}
-                      className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none text-center print-clean-input"
-                    />
-                  </div>
-                  <div className="col-span-5 sm:col-span-7 pl-2 flex items-center justify-between gap-2">
-                    <input
-                      type="text"
-                      value={att.notes}
-                      onChange={(e) => updateAttempt(att.id, 'notes', e.target.value)}
-                      placeholder="e.g. No answer, spoke with neighbor, vehicle on site..."
-                      aria-label={`Attempt ${idx + 1} Notes`}
-                      className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none py-0.5 print-clean-input"
-                    />
-                    {attempts.length > 1 && (
-                      <button
-                        type="button"
-                        onClick={() => removeAttempt(att.id)}
-                        className="no-print-affidavit text-red-500 hover:text-red-700 p-1 cursor-pointer"
-                        title="Remove row"
-                      >
-                        <Trash2 className="w-3.5 h-3.5" />
-                      </button>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
+            <table className="w-full border-collapse border border-black text-[9pt]">
+              <thead>
+                <tr className="bg-gray-100 text-center uppercase text-[8pt] border-b border-black">
+                  <th className="p-1 border-r border-black w-8">#</th>
+                  <th className="p-1 border-r border-black w-24">Date</th>
+                  <th className="p-1 border-r border-black w-20">Time</th>
+                  <th className="p-1 text-left pl-2">Observations &amp; Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                {attempts.map((att, idx) => (
+                  <tr key={att.id} className="border-b border-gray-300 last:border-b-0">
+                    <td className="p-1 text-center font-bold border-r border-black">{idx + 1}</td>
+                    <td className="p-1 border-r border-black">
+                      <input
+                        type="text"
+                        value={att.date}
+                        onChange={(e) => updateAttempt(att.id, 'date', e.target.value)}
+                        placeholder="MM/DD/YYYY"
+                        aria-label={`Attempt ${idx + 1} Date`}
+                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                      />
+                    </td>
+                    <td className="p-1 border-r border-black">
+                      <input
+                        type="text"
+                        value={att.time}
+                        onChange={(e) => updateAttempt(att.id, 'time', e.target.value)}
+                        placeholder="10:30 AM"
+                        aria-label={`Attempt ${idx + 1} Time`}
+                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                      />
+                    </td>
+                    <td className="p-1 pl-2 flex items-center justify-between gap-1">
+                      <input
+                        type="text"
+                        value={att.notes}
+                        onChange={(e) => updateAttempt(att.id, 'notes', e.target.value)}
+                        placeholder="e.g. No answer, spoke with neighbor, verified vehicle..."
+                        aria-label={`Attempt ${idx + 1} Notes`}
+                        className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                      />
+                      {attempts.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => removeAttempt(att.id)}
+                          className="no-print-affidavit text-red-500 hover:text-red-700 px-1 cursor-pointer"
+                          title="Remove attempt"
+                        >
+                          <Trash2 className="w-3 h-3" />
+                        </button>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
 
           {/* Optional Military Status (SCRA 50 U.S.C. § 3931) */}
           {showMilitary && (
-            <div className="mb-4 text-xs page-break-auto">
-              <div className="border border-gray-300 p-2.5 print:border-none print:p-0">
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                  Servicemembers Civil Relief Act (SCRA) Declaration:
-                </span>
-                <div className="no-print-affidavit flex flex-wrap gap-3 mb-1.5">
-                  {[
-                    { key: 'not_active', label: 'Confirmed Not Active Military' },
-                    { key: 'active', label: 'Active Military Service' },
-                    { key: 'unknown', label: 'Military Status Unknown' },
-                  ].map(opt => (
-                    <label key={opt.key} className="inline-flex items-center gap-1 cursor-pointer">
-                      <input
-                        type="radio"
-                        name="militaryStatus"
-                        checked={militaryStatus === opt.key}
-                        onChange={() => setMilitaryStatus(opt.key as any)}
-                      />
-                      <span className="text-xs">{opt.label}</span>
-                    </label>
-                  ))}
-                </div>
-
-                {militaryStatus === 'not_active' && (
-                  <p className="text-justify leading-snug">
-                    <strong>Military Status:</strong> I inquired and confirmed that the person served/named herein is not currently on active duty in the armed forces of the United States, nor entitled to military stay of proceedings under 50 U.S.C. § 3931.
-                  </p>
-                )}
-                {militaryStatus === 'active' && (
-                  <p className="text-justify leading-snug">
-                    <strong>Military Status:</strong> Upon inquiry, the recipient/party was confirmed to be an active-duty servicemember in the armed forces of the United States.
-                  </p>
-                )}
-                {militaryStatus === 'unknown' && (
-                  <p className="text-justify leading-snug">
-                    <strong>Military Status:</strong> I was unable to determine whether the subject is currently in active military service of the United States.
-                  </p>
-                )}
+            <div className="mb-2 text-[9pt] border border-gray-300 p-1.5 print:border-none print:p-0 page-break-auto">
+              <strong className="uppercase text-[8pt] block mb-0.5">Military Status (SCRA 50 U.S.C. § 3931):</strong>
+              <div className="no-print-affidavit flex gap-3 mb-1 text-[9pt]">
+                {[
+                  { key: 'not_active', label: 'Not Active Military' },
+                  { key: 'active', label: 'Active Military' },
+                  { key: 'unknown', label: 'Status Unknown' },
+                ].map(opt => (
+                  <label key={opt.key} className="inline-flex items-center gap-1 cursor-pointer">
+                    <input
+                      type="radio"
+                      name="militaryStatus"
+                      checked={militaryStatus === opt.key}
+                      onChange={() => setMilitaryStatus(opt.key as any)}
+                    />
+                    <span>{opt.label}</span>
+                  </label>
+                ))}
               </div>
+              {militaryStatus === 'not_active' && (
+                <p>I inquired and confirmed that the person named herein is not currently on active duty in the U.S. armed forces.</p>
+              )}
+              {militaryStatus === 'active' && (
+                <p>Upon inquiry, the person named herein was confirmed to be an active-duty servicemember in the U.S. armed forces.</p>
+              )}
+              {militaryStatus === 'unknown' && (
+                <p>I was unable to determine whether the person named herein is in active military service of the United States.</p>
+              )}
             </div>
           )}
 
-          {/* Legal Execution Closing */}
-          <div className="pt-2 border-t-2 border-black page-break-auto">
+          {/* Closing Block: Declaration vs Affidavit */}
+          <div className="pt-2 border-t border-black page-break-auto">
             {isDeclaration ? (
-              /* ─── UNSWORN DECLARATION BLOCK ─── */
-              <div className="space-y-3 text-xs sm:text-sm">
-                <p className="font-semibold text-justify leading-snug">
+              /* ─── UNSWORN DECLARATION CLOSING ─── */
+              <div className="space-y-2 text-xs">
+                <p className="font-semibold text-justify leading-tight">
                   I declare under penalty of perjury under the laws of the State of{' '}
                   <input
                     type="text"
                     value={jurisdictionState}
-                    onChange={(e) => handleStateChange(e.target.value)}
+                    onChange={(e) => setJurisdictionState(e.target.value)}
                     placeholder="State"
-                    aria-label="State of Law"
-                    className="font-bold border-b border-black outline-none px-1 bg-transparent w-28 print-clean-input"
+                    aria-label="Declaration State"
+                    className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
                   /> and the United States of America that the foregoing is true and correct.
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-3">
+                <div className="grid grid-cols-2 gap-4 pt-1">
                   <div>
-                    <div className="mb-2">
-                      <span className="font-bold text-xs block text-gray-800">Executed On:</span>
+                    <div>
+                      <span className="font-bold text-[10px] block">Executed On:</span>
                       <input
                         type="text"
                         value={executionDate}
                         onChange={(e) => setExecutionDate(e.target.value)}
-                        placeholder="e.g. October 14, 2026"
+                        placeholder="MM/DD/YYYY"
                         aria-label="Execution Date"
-                        className="w-full font-semibold bg-transparent border-b border-black outline-none py-1 print-clean-input"
+                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input"
                       />
                     </div>
-                    <div>
-                      <span className="font-bold text-xs block text-gray-800">At (City, State):</span>
+                    <div className="mt-1">
+                      <span className="font-bold text-[10px] block">At (City, State):</span>
                       <input
                         type="text"
                         value={executionCity}
                         onChange={(e) => setExecutionCity(e.target.value)}
                         placeholder="e.g. Tulsa, OK"
-                        aria-label="Execution City and State"
-                        className="w-full font-semibold bg-transparent border-b border-black outline-none py-1 print-clean-input"
+                        aria-label="Execution City"
+                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input"
                       />
                     </div>
                   </div>
 
-                  <div className="flex flex-col justify-end space-y-1">
-                    <div className="border-b-2 border-black w-full mb-1 mt-4" />
-                    <span className="font-bold uppercase text-[10px] text-gray-700 block">Declarant / Process Server:</span>
+                  <div className="space-y-0.5">
+                    <div className="border-b border-black w-full mb-1 mt-4" />
+                    <span className="font-bold text-[9pt] uppercase block text-gray-700">Declarant / Process Server:</span>
                     <input
                       type="text"
                       value={serverName}
                       onChange={(e) => setServerName(e.target.value)}
                       placeholder="Server Full Name"
-                      aria-label="Declarant Name"
-                      className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      aria-label="Server Name"
+                      className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                     />
                     <input
                       type="text"
                       value={serverLicense}
                       onChange={(e) => setServerLicense(e.target.value)}
-                      placeholder="License / Reg # or Title (optional)"
-                      aria-label="License / Title"
-                      className="w-full text-xs text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      placeholder="License / Title (optional)"
+                      aria-label="Server License"
+                      className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                     />
                     <input
                       type="text"
                       value={serverCompany}
                       onChange={(e) => setServerCompany(e.target.value)}
-                      placeholder="Company / Agency Name (optional)"
+                      placeholder="Company Name (optional)"
                       aria-label="Company Name"
-                      className="w-full text-xs font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                     />
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 text-[8.5pt]">
                       <input
                         type="text"
                         value={serverPhone}
                         onChange={(e) => setServerPhone(e.target.value)}
                         placeholder="Phone (optional)"
                         aria-label="Phone"
-                        className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                        className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                       />
                       <input
                         type="text"
@@ -1066,51 +962,51 @@ export default function AffidavitOfService() {
                         onChange={(e) => setServerEmail(e.target.value)}
                         placeholder="Email (optional)"
                         aria-label="Email"
-                        className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                        className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                       />
                     </div>
                   </div>
                 </div>
               </div>
             ) : (
-              /* ─── SWORN NOTARIZED AFFIDAVIT BLOCK ─── */
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs sm:text-sm">
-                {/* Server Signature Line */}
-                <div className="flex flex-col justify-end space-y-1">
-                  <div className="border-b-2 border-black w-full mb-1 mt-6" />
-                  <span className="font-bold uppercase text-[10px] text-gray-700 block">Affiant / Process Server Signature:</span>
+              /* ─── SWORN NOTARIZED AFFIDAVIT CLOSING ─── */
+              <div className="grid grid-cols-2 gap-4 text-xs">
+                {/* Left: Server Signature */}
+                <div className="space-y-0.5">
+                  <div className="border-b border-black w-full mb-1 mt-5" />
+                  <span className="font-bold text-[9pt] uppercase block text-gray-700">Affiant / Process Server Signature</span>
                   <input
                     type="text"
                     value={serverName}
                     onChange={(e) => setServerName(e.target.value)}
                     placeholder="Process Server Full Name"
-                    aria-label="Process Server Name"
-                    className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    aria-label="Server Name"
+                    className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                   />
                   <input
                     type="text"
                     value={serverLicense}
                     onChange={(e) => setServerLicense(e.target.value)}
-                    placeholder="License / Reg # or Title (optional)"
-                    aria-label="License / Title"
-                    className="w-full text-xs text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    placeholder="License / Title (optional)"
+                    aria-label="Server License"
+                    className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                   />
                   <input
                     type="text"
                     value={serverCompany}
                     onChange={(e) => setServerCompany(e.target.value)}
-                    placeholder="Company / Agency Name (optional)"
+                    placeholder="Company Name (optional)"
                     aria-label="Company Name"
-                    className="w-full text-xs font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                   />
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 text-[8.5pt]">
                     <input
                       type="text"
                       value={serverPhone}
                       onChange={(e) => setServerPhone(e.target.value)}
                       placeholder="Phone (optional)"
                       aria-label="Phone"
-                      className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                     />
                     <input
                       type="text"
@@ -1118,63 +1014,60 @@ export default function AffidavitOfService() {
                       onChange={(e) => setServerEmail(e.target.value)}
                       placeholder="Email (optional)"
                       aria-label="Email"
-                      className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                     />
                   </div>
                 </div>
 
-                {/* Notary Jurat Box */}
-                <div className="border border-black p-3 bg-gray-50/50 print:bg-transparent">
-                  <div className="font-bold uppercase text-xs mb-2 border-b border-gray-400 pb-1">
+                {/* Right: Notary Jurat */}
+                <div className="border border-black p-2 bg-gray-50/50 print:bg-transparent text-[8.5pt] space-y-1">
+                  <div className="font-bold uppercase text-[8pt] border-b border-gray-400 pb-0.5">
                     Notary Public Jurat / Acknowledgment
                   </div>
-                  <div className="text-xs mb-2">
+                  <div>
                     State of <input
                       type="text"
                       value={notaryState}
                       onChange={(e) => setNotaryState(e.target.value)}
                       placeholder="State"
                       aria-label="Notary State"
-                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-24 print-clean-input"
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
                     />, County of <input
                       type="text"
                       value={notaryCounty}
                       onChange={(e) => setNotaryCounty(e.target.value)}
                       placeholder="County"
                       aria-label="Notary County"
-                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-24 print-clean-input"
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
                     />
                   </div>
-                  <p className="text-[11px] leading-snug mb-3 text-justify">
-                    Subscribed and sworn to (or affirmed) before me this _____ day of __________________, 20___, 
-                    by the affiant <strong className="border-b border-black px-1">{serverName || '___________________________'}</strong>, 
-                    who proved to me on the basis of satisfactory evidence to be the person who appeared before me.
+                  <p className="text-[8pt] leading-tight">
+                    Subscribed and sworn to before me this _____ day of __________________, 20___, 
+                    by the affiant <strong className="border-b border-black px-1">{serverName || '___________________________'}</strong>.
                   </p>
-
-                  <div className="border-b border-black w-full mb-1 mt-5" />
-                  <div className="text-xs font-bold mb-2">Notary Public Signature &amp; Official Seal</div>
-
-                  <div className="grid grid-cols-2 gap-2 text-[11px]">
+                  <div className="border-b border-black w-full mt-3 mb-0.5" />
+                  <div className="text-[8pt] font-bold">Notary Public Signature &amp; Official Seal</div>
+                  <div className="grid grid-cols-2 gap-1 text-[8pt]">
                     <div>
-                      <span>Commission No:</span>
+                      <span>Comm. #:</span>
                       <input
                         type="text"
                         value={commissionNum}
                         onChange={(e) => setCommissionNum(e.target.value)}
                         placeholder="Commission #"
-                        aria-label="Notary Commission Number"
-                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                        aria-label="Commission Number"
+                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                       />
                     </div>
                     <div>
-                      <span>My Comm. Expires:</span>
+                      <span>Expires:</span>
                       <input
                         type="text"
                         value={commissionExp}
                         onChange={(e) => setCommissionExp(e.target.value)}
                         placeholder="MM/DD/YYYY"
-                        aria-label="Notary Commission Expiration"
-                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                        aria-label="Expiration Date"
+                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
                       />
                     </div>
                   </div>

@@ -470,3 +470,24 @@ select.input-field {
   color: var(--hub-navy);
   margin-bottom: 0.375rem;
 }
+
+@media print {
+  html, body {
+    background: #fff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  header, footer, nav, aside, .fixed, .sticky, [aria-label="Call or contact Just Legal Solutions"], .no-print, .no-print-affidavit, .ui-glass-nav, .site-footer, #mobile-menu, .ui-mobile-safe-panel {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    position: static !important;
+  }
+}

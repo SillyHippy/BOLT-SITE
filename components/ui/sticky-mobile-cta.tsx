@@ -15,7 +15,7 @@ export default function StickyMobileCTA() {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-50 md:hidden transition-transform duration-300 ${
+      className={`fixed bottom-0 left-0 right-0 z-50 md:hidden transition-transform duration-300 print:hidden no-print no-print-affidavit ${
         visible ? 'translate-y-0' : 'translate-y-full'
       }`}
       aria-label="Call or contact Just Legal Solutions"
