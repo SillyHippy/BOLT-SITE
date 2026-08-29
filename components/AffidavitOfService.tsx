@@ -61,8 +61,9 @@ export default function AffidavitOfService() {
   const [mannerText, setMannerText] = useState('');
   const [selectedMannerKey, setSelectedMannerKey] = useState<string>('');
 
-  // Military / SCRA Status
-  const [militaryStatus, setMilitaryStatus] = useState<'not_active' | 'active' | 'unknown' | 'omitted'>('not_active');
+  // Military / SCRA Status (Default: omitted / hidden for Oklahoma & standard state filings)
+  const [showMilitary, setShowMilitary] = useState<boolean>(false);
+  const [militaryStatus, setMilitaryStatus] = useState<'not_active' | 'active' | 'unknown'>('not_active');
 
   // Execution Details (For Declarations)
   const [executionDate, setExecutionDate] = useState('');
@@ -196,6 +197,18 @@ export default function AffidavitOfService() {
       setDocType('DECLARATION OF SERVICE');
     }
 
+    // Military / SCRA Status
+    const militaryParam = getParam('military', 'scra', 'include_military');
+    if (militaryParam === '1' || militaryParam === 'true' || militaryParam === 'on') {
+      setShowMilitary(true);
+      const mStatus = getParam('military_status');
+      if (mStatus === 'active' || mStatus === 'unknown' || mStatus === 'not_active') {
+        setMilitaryStatus(mStatus);
+      }
+    } else if (militaryParam === '0' || militaryParam === 'false' || militaryParam === 'off') {
+      setShowMilitary(false);
+    }
+
     // Manner Presets
     if (params.get('Personal Service') === 'on' || params.get('personal') === '1') {
       applyMannerPreset('personal');
@@ -272,6 +285,10 @@ export default function AffidavitOfService() {
     if (mannerText) url.searchParams.set('manner', mannerText);
     if (serverName) url.searchParams.set('server', serverName);
     if (serverLicense) url.searchParams.set('license', serverLicense);
+    if (showMilitary) {
+      url.searchParams.set('military', '1');
+      url.searchParams.set('military_status', militaryStatus);
+    }
 
     // Attempts
     attempts.forEach((att, idx) => {
@@ -521,34 +538,47 @@ export default function AffidavitOfService() {
             })}
           </div>
 
-          {/* Manner Presets Quick Picker */}
-          <div className="mt-3 flex items-center gap-1.5 overflow-x-auto pb-1 text-xs no-scrollbar">
-            <span className="text-slate-400 text-xs font-semibold whitespace-nowrap flex items-center gap-1">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" /> Presets:
-            </span>
-            {[
-              { id: 'personal', label: 'Personal Service' },
-              { id: 'sub_residence', label: 'Substituted (Residence)' },
-              { id: 'sub_business', label: 'Substituted (Business)' },
-              { id: 'corp_agent', label: 'Registered Agent' },
-              { id: 'posting', label: 'Posting / Nail & Mail' },
-              { id: 'non_unknown', label: 'Non-Service (Unknown)' },
-              { id: 'non_moved', label: 'Non-Service (Moved)' },
-              { id: 'non_evasion', label: 'Non-Service (Evasion)' },
-            ].map(p => (
-              <button
-                key={p.id}
-                type="button"
-                onClick={() => applyMannerPreset(p.id)}
-                className={`whitespace-nowrap px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer border ${
-                  selectedMannerKey === p.id 
-                    ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold' 
-                    : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
-                }`}
-              >
-                {p.label}
-              </button>
-            ))}
+          {/* Presets and Options Row */}
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
+              <span className="text-slate-400 text-xs font-semibold whitespace-nowrap flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" /> Presets:
+              </span>
+              {[
+                { id: 'personal', label: 'Personal Service' },
+                { id: 'sub_residence', label: 'Substituted (Residence)' },
+                { id: 'sub_business', label: 'Substituted (Business)' },
+                { id: 'corp_agent', label: 'Registered Agent' },
+                { id: 'posting', label: 'Posting / Nail & Mail' },
+                { id: 'non_unknown', label: 'Non-Service (Unknown)' },
+                { id: 'non_moved', label: 'Non-Service (Moved)' },
+                { id: 'non_evasion', label: 'Non-Service (Evasion)' },
+              ].map(p => (
+                <button
+                  key={p.id}
+                  type="button"
+                  onClick={() => applyMannerPreset(p.id)}
+                  className={`whitespace-nowrap px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer border ${
+                    selectedMannerKey === p.id 
+                      ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold' 
+                      : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
+                  }`}
+                >
+                  {p.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Military Checkbox Option */}
+            <label className="flex items-center gap-1.5 text-xs text-slate-300 cursor-pointer bg-slate-800/90 px-2.5 py-1 rounded-lg border border-slate-700 hover:bg-slate-700 shrink-0">
+              <input
+                type="checkbox"
+                checked={showMilitary}
+                onChange={(e) => setShowMilitary(e.target.checked)}
+                className="rounded text-blue-600 focus:ring-0 cursor-pointer"
+              />
+              <span>Include Military / SCRA Box</span>
+            </label>
           </div>
         </div>
       </div>
@@ -830,48 +860,49 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
-          {/* Military Status (SCRA 50 U.S.C. § 3931) */}
-          <div className="mb-4 text-xs page-break-auto">
-            <div className="border border-gray-300 p-2 print:border-none print:p-0">
-              <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                Servicemembers Civil Relief Act (SCRA) Declaration:
-              </span>
-              <div className="no-print-affidavit flex flex-wrap gap-3 mb-1">
-                {[
-                  { key: 'not_active', label: 'Confirmed Not Active Military' },
-                  { key: 'active', label: 'Active Military Service' },
-                  { key: 'unknown', label: 'Military Status Unknown' },
-                  { key: 'omitted', label: 'Omit SCRA Statement' },
-                ].map(opt => (
-                  <label key={opt.key} className="inline-flex items-center gap-1 cursor-pointer">
-                    <input
-                      type="radio"
-                      name="militaryStatus"
-                      checked={militaryStatus === opt.key}
-                      onChange={() => setMilitaryStatus(opt.key as any)}
-                    />
-                    <span className="text-xs">{opt.label}</span>
-                  </label>
-                ))}
-              </div>
+          {/* Military Status (SCRA 50 U.S.C. § 3931) - Optional / Hidden by default */}
+          {showMilitary && (
+            <div className="mb-4 text-xs page-break-auto">
+              <div className="border border-gray-300 p-2 print:border-none print:p-0">
+                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
+                  Servicemembers Civil Relief Act (SCRA) Declaration:
+                </span>
+                <div className="no-print-affidavit flex flex-wrap gap-3 mb-1">
+                  {[
+                    { key: 'not_active', label: 'Confirmed Not Active Military' },
+                    { key: 'active', label: 'Active Military Service' },
+                    { key: 'unknown', label: 'Military Status Unknown' },
+                  ].map(opt => (
+                    <label key={opt.key} className="inline-flex items-center gap-1 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="militaryStatus"
+                        checked={militaryStatus === opt.key}
+                        onChange={() => setMilitaryStatus(opt.key as any)}
+                      />
+                      <span className="text-xs">{opt.label}</span>
+                    </label>
+                  ))}
+                </div>
 
-              {militaryStatus === 'not_active' && (
-                <p className="text-justify leading-snug">
-                  <strong>Military Status:</strong> I inquired and confirmed that the person served/named herein is not currently on active duty in the armed forces of the United States, nor entitled to military stay of proceedings under 50 U.S.C. § 3931.
-                </p>
-              )}
-              {militaryStatus === 'active' && (
-                <p className="text-justify leading-snug">
-                  <strong>Military Status:</strong> Upon inquiry, the recipient/party was confirmed to be an active-duty servicemember in the armed forces of the United States.
-                </p>
-              )}
-              {militaryStatus === 'unknown' && (
-                <p className="text-justify leading-snug">
-                  <strong>Military Status:</strong> I was unable to determine whether the subject is currently in active military service of the United States.
-                </p>
-              )}
+                {militaryStatus === 'not_active' && (
+                  <p className="text-justify leading-snug">
+                    <strong>Military Status:</strong> I inquired and confirmed that the person served/named herein is not currently on active duty in the armed forces of the United States, nor entitled to military stay of proceedings under 50 U.S.C. § 3931.
+                  </p>
+                )}
+                {militaryStatus === 'active' && (
+                  <p className="text-justify leading-snug">
+                    <strong>Military Status:</strong> Upon inquiry, the recipient/party was confirmed to be an active-duty servicemember in the armed forces of the United States.
+                  </p>
+                )}
+                {militaryStatus === 'unknown' && (
+                  <p className="text-justify leading-snug">
+                    <strong>Military Status:</strong> I was unable to determine whether the subject is currently in active military service of the United States.
+                  </p>
+                )}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Legal Footing: Declaration vs Notarized Affidavit */}
           <div className="pt-2 border-t-2 border-black page-break-auto">
