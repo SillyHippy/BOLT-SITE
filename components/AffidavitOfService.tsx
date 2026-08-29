@@ -8,15 +8,13 @@ import {
   Trash2, 
   RotateCcw, 
   Check, 
-  FileText, 
-  ShieldCheck, 
   Scale, 
+  Sparkles, 
   UserCheck, 
   MapPin, 
-  Clock, 
-  Calendar,
-  Sparkles,
-  Copy
+  Building2, 
+  FileText,
+  HelpCircle
 } from 'lucide-react';
 
 export type DocumentType = 
@@ -34,45 +32,44 @@ interface Attempt {
 }
 
 export default function AffidavitOfService() {
-  // Document Type & Notarization
+  // Document Type & Jurisdiction
   const [docType, setDocType] = useState<DocumentType>('AFFIDAVIT OF SERVICE');
-  const [jurisdictionState, setJurisdictionState] = useState('Oklahoma');
-  const [county, setCounty] = useState('Tulsa');
+  const [jurisdictionState, setJurisdictionState] = useState('');
+  const [county, setCounty] = useState('');
   
   // Case & Court Info
-  const [courtName, setCourtName] = useState('District Court of Tulsa County');
+  const [courtName, setCourtName] = useState('');
   const [caseNumber, setCaseNumber] = useState('');
   const [jobNumber, setJobNumber] = useState('');
   const [plaintiff, setPlaintiff] = useState('');
   const [defendant, setDefendant] = useState('');
   const [clientFirm, setClientFirm] = useState('');
 
-  // Server Info
-  const [serverName, setServerName] = useState('Joseph Iannazzi');
-  const [serverCompany, setServerCompany] = useState('Just Legal Solutions');
-  const [serverPhone, setServerPhone] = useState('(539) 367-6832');
-  const [serverEmail, setServerEmail] = useState('info@justlegalsolutions.org');
-  const [serverLicense, setServerLicense] = useState('Licensed & Bonded Private Process Server');
+  // Process Server / Affiant Info (Blank by default for any user nationwide)
+  const [serverName, setServerName] = useState('');
+  const [serverCompany, setServerCompany] = useState('');
+  const [serverPhone, setServerPhone] = useState('');
+  const [serverEmail, setServerEmail] = useState('');
+  const [serverLicense, setServerLicense] = useState('');
 
   // Service Details
   const [recipientName, setRecipientName] = useState('');
   const [serviceAddress, setServiceAddress] = useState('');
-  const [documentsServed, setDocumentsServed] = useState('Summons, Petition/Complaint, and Notice');
+  const [documentsServed, setDocumentsServed] = useState('');
   const [mannerText, setMannerText] = useState('');
   const [selectedMannerKey, setSelectedMannerKey] = useState<string>('');
 
-  // Military / SCRA Status (Default: omitted / hidden for Oklahoma & standard state filings)
+  // Military / SCRA Status (Default: Hidden / Optional)
   const [showMilitary, setShowMilitary] = useState<boolean>(false);
   const [militaryStatus, setMilitaryStatus] = useState<'not_active' | 'active' | 'unknown'>('not_active');
 
   // Execution Details (For Declarations)
   const [executionDate, setExecutionDate] = useState('');
-  const [executionCity, setExecutionCity] = useState('Tulsa, OK');
+  const [executionCity, setExecutionCity] = useState('');
 
   // Notary Details (For Affidavits)
-  const [notaryDate, setNotaryDate] = useState('');
-  const [notaryCounty, setNotaryCounty] = useState('Tulsa');
-  const [notaryState, setNotaryState] = useState('Oklahoma');
+  const [notaryCounty, setNotaryCounty] = useState('');
+  const [notaryState, setNotaryState] = useState('');
   const [commissionExp, setCommissionExp] = useState('');
   const [commissionNum, setCommissionNum] = useState('');
 
@@ -83,12 +80,11 @@ export default function AffidavitOfService() {
 
   // UI state
   const [copiedLink, setCopiedLink] = useState(false);
-  const [viewMode, setViewMode] = useState<'form' | 'preview'>('form');
 
   const isDeclaration = docType.includes('DECLARATION') || docType === 'CERTIFICATE OF SERVICE';
   const isNonService = docType.includes('NON-SERVICE');
 
-  // Auto-set execution date to today if empty
+  // Set default execution date to today
   useEffect(() => {
     const today = new Date().toLocaleDateString('en-US', {
       month: 'long',
@@ -98,7 +94,18 @@ export default function AffidavitOfService() {
     if (!executionDate) setExecutionDate(today);
   }, [executionDate]);
 
-  // URL Query Parameter Pre-fill & Backward Compatibility
+  // Sync state & county defaults
+  const handleStateChange = (st: string) => {
+    setJurisdictionState(st);
+    if (!notaryState) setNotaryState(st);
+  };
+
+  const handleCountyChange = (ct: string) => {
+    setCounty(ct);
+    if (!notaryCounty) setNotaryCounty(ct);
+  };
+
+  // URL Query Parameter Pre-fill
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
@@ -112,7 +119,7 @@ export default function AffidavitOfService() {
       return null;
     };
 
-    // Court & Case Info
+    // Court & Case
     const cName = getParam('Name of Court', 'court', 'court_name');
     if (cName) setCourtName(cName);
 
@@ -169,7 +176,10 @@ export default function AffidavitOfService() {
     const sEm = getParam('Email', 'email', 'server_email');
     if (sEm) setServerEmail(sEm);
 
-    // Document Type & Notarization
+    const execCity = getParam('city', 'exec_city', 'execution_city');
+    if (execCity) setExecutionCity(execCity);
+
+    // Document Type
     const t = getParam('type', 'doc_type', 'doctype');
     const isDeclParam = getParam('declaration', 'is_declaration');
     const isNonServParam = getParam('Non-Service', 'non_service', 'nonservice');
@@ -197,7 +207,7 @@ export default function AffidavitOfService() {
       setDocType('DECLARATION OF SERVICE');
     }
 
-    // Military / SCRA Status
+    // Military
     const militaryParam = getParam('military', 'scra', 'include_military');
     if (militaryParam === '1' || militaryParam === 'true' || militaryParam === 'on') {
       setShowMilitary(true);
@@ -205,8 +215,6 @@ export default function AffidavitOfService() {
       if (mStatus === 'active' || mStatus === 'unknown' || mStatus === 'not_active') {
         setMilitaryStatus(mStatus);
       }
-    } else if (militaryParam === '0' || militaryParam === 'false' || militaryParam === 'off') {
-      setShowMilitary(false);
     }
 
     // Manner Presets
@@ -228,11 +236,11 @@ export default function AffidavitOfService() {
       setMannerText(params.get('manner') || '');
     }
 
-    // Comments / Attempts
+    // Attempts
     const comments = getParam('Comments', 'comments', 'notes');
     const parsedAttempts: Attempt[] = [];
 
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 8; i++) {
       const d = getParam(`Service attempt ${i} Date`, `attempt_${i}_date`, `attempt${i}Date`);
       const tm = getParam(`Service attempt ${i} time`, `attempt_${i}_time`, `attempt${i}Time`);
       const n = getParam(`Service attempt ${i} notes`, `attempt_${i}_notes`, `attempt${i}Notes`);
@@ -269,7 +277,6 @@ export default function AffidavitOfService() {
     if (typeof window === 'undefined') return;
     const url = new URL(window.location.origin + window.location.pathname);
     
-    // Core parameters
     url.searchParams.set('type', docType);
     if (courtName) url.searchParams.set('court', courtName);
     if (caseNumber) url.searchParams.set('case', caseNumber);
@@ -284,13 +291,17 @@ export default function AffidavitOfService() {
     if (documentsServed) url.searchParams.set('docs', documentsServed);
     if (mannerText) url.searchParams.set('manner', mannerText);
     if (serverName) url.searchParams.set('server', serverName);
+    if (serverCompany) url.searchParams.set('company', serverCompany);
     if (serverLicense) url.searchParams.set('license', serverLicense);
+    if (serverPhone) url.searchParams.set('phone', serverPhone);
+    if (serverEmail) url.searchParams.set('email', serverEmail);
+    if (executionCity) url.searchParams.set('city', executionCity);
+
     if (showMilitary) {
       url.searchParams.set('military', '1');
       url.searchParams.set('military_status', militaryStatus);
     }
 
-    // Attempts
     attempts.forEach((att, idx) => {
       if (att.date || att.time || att.notes) {
         if (att.date) url.searchParams.set(`attempt_${idx + 1}_date`, att.date);
@@ -326,7 +337,7 @@ export default function AffidavitOfService() {
         setMannerText('PERSONAL SERVICE: By delivering true and correct copies of the above-listed documents to the named recipient personally at the service address.');
         break;
       case 'sub_residence':
-        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-listed documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion (age 15 or older) residing therein, and informing them of the general nature of the papers.');
+        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-listed documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion residing therein, and informing them of the general nature of the papers.');
         break;
       case 'sub_business':
         setMannerText('SUBSTITUTED SERVICE (BUSINESS / EMPLOYMENT): By delivering true and correct copies of the above-listed documents during regular business hours to the recipient\'s place of business/employment with the person in charge or authorized to receive process.');
@@ -341,19 +352,19 @@ export default function AffidavitOfService() {
         setMannerText('CERTIFIED MAIL SERVICE: By mailing true and correct copies via USPS Certified Mail, Return Receipt Requested with restricted delivery.');
         break;
       case 'non_unknown':
-        setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
+        if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
         setMannerText('NON-SERVICE (UNKNOWN AT ADDRESS): Diligent inquiry with current resident/occupant confirmed that the subject does not reside at this location and is unknown.');
         break;
       case 'non_moved':
-        setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
+        if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
         setMannerText('NON-SERVICE (MOVED / NO FORWARDING): Diligent inquiry confirmed the subject has moved from this location. No forwarding address was provided or available.');
         break;
       case 'non_bad_address':
-        setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
+        if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
         setMannerText('NON-SERVICE (VACANT / BAD ADDRESS): Address does not exist or property was found completely vacant/abandoned with no connection to the subject.');
         break;
       case 'non_evasion':
-        setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
+        if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
         setMannerText('NON-SERVICE (EVASION / HOSTILE REFUSAL): Subject or occupant actively avoided service, refused to answer the door or acknowledge presence despite confirmed residency/vehicle on site.');
         break;
       default:
@@ -361,17 +372,47 @@ export default function AffidavitOfService() {
     }
   };
 
+  const handlePrefillJLS = () => {
+    setServerName('Joseph Iannazzi');
+    setServerCompany('Just Legal Solutions');
+    setServerPhone('(539) 367-6832');
+    setServerEmail('info@justlegalsolutions.org');
+    setServerLicense('Licensed Private Process Server');
+    setJurisdictionState('Oklahoma');
+    setCounty('Tulsa');
+    setCourtName('District Court of Tulsa County');
+    setExecutionCity('Tulsa, OK');
+    setNotaryState('Oklahoma');
+    setNotaryCounty('Tulsa');
+  };
+
   const handleReset = () => {
-    if (window.confirm('Reset all fields to default blank form?')) {
+    if (window.confirm('Reset all fields to a blank form?')) {
+      setDocType('AFFIDAVIT OF SERVICE');
+      setCourtName('');
       setCaseNumber('');
       setJobNumber('');
+      setCounty('');
+      setJurisdictionState('');
       setPlaintiff('');
       setDefendant('');
       setClientFirm('');
       setRecipientName('');
       setServiceAddress('');
+      setDocumentsServed('');
       setMannerText('');
       setSelectedMannerKey('');
+      setServerName('');
+      setServerCompany('');
+      setServerPhone('');
+      setServerEmail('');
+      setServerLicense('');
+      setExecutionCity('');
+      setNotaryCounty('');
+      setNotaryState('');
+      setCommissionNum('');
+      setCommissionExp('');
+      setShowMilitary(false);
       setAttempts([{ id: 1, date: '', time: '', notes: '' }]);
     }
   };
@@ -381,7 +422,7 @@ export default function AffidavitOfService() {
       <style jsx global>{`
         @page {
           size: letter portrait;
-          margin: 0.45in 0.5in;
+          margin: 0.4in 0.5in;
         }
         @media print {
           * {
@@ -457,27 +498,26 @@ export default function AffidavitOfService() {
         }
       `}</style>
 
-      {/* Top Mobile/Desktop Action Toolbar */}
+      {/* Top Mobile/Desktop Control Panel */}
       <div className="no-print-affidavit max-w-5xl mx-auto px-4 mb-6">
-        <div className="bg-slate-900 text-white rounded-2xl shadow-xl p-4 sm:p-5 border border-slate-800">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-            
-            {/* Title & Document Badge */}
+        <div className="bg-slate-900 text-white rounded-2xl shadow-xl p-4 sm:p-6 border border-slate-800 space-y-4">
+          
+          {/* Header Row: Title & Action Buttons */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <Scale className="w-5 h-5 text-amber-400" />
                 <h2 className="font-bold text-lg text-white">Nationwide Court Document Generator</h2>
-                <span className="bg-blue-600/30 text-blue-300 text-xs font-semibold px-2 py-0.5 rounded-full border border-blue-500/30">
-                  50-State Compliant
+                <span className="bg-blue-600/30 text-blue-300 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-blue-500/30">
+                  All 50 States &amp; Federal
                 </span>
               </div>
               <p className="text-slate-400 text-xs sm:text-sm">
-                Generates court-admissible sworn Affidavits (Notarized) or unsworn Declarations (28 U.S.C. § 1746 / State Code).
+                Generates court-admissible returns of service for any process server, attorney, or pro se litigant.
               </p>
             </div>
 
-            {/* Quick Action Buttons */}
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+            <div className="flex flex-wrap items-center gap-2">
               <button
                 type="button"
                 onClick={handlePrint}
@@ -491,99 +531,130 @@ export default function AffidavitOfService() {
                 type="button"
                 onClick={handleCopyShareLink}
                 className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-3.5 py-2.5 rounded-xl font-semibold text-sm shadow-md transition-all active:scale-95 cursor-pointer"
-                title="Copy shareable pre-filled URL"
+                title="Copy shareable pre-filled link"
               >
                 {copiedLink ? <Check className="w-4 h-4 text-emerald-300" /> : <Share2 className="w-4 h-4" />}
-                <span>{copiedLink ? 'Link Copied!' : 'Share / Link'}</span>
+                <span>{copiedLink ? 'Link Copied!' : 'Share Link'}</span>
               </button>
 
               <button
                 type="button"
                 onClick={handleReset}
-                className="flex items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-2.5 rounded-xl text-xs font-medium transition-all active:scale-95 cursor-pointer"
-                title="Clear all fields"
+                className="flex items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-2.5 rounded-xl text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700"
+                title="Clear all fields to blank"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
-                <span>Reset</span>
+                <span>Clear Form</span>
               </button>
             </div>
           </div>
 
-          {/* Mode Selector Tabs (Mobile Touch Friendly) */}
-          <div className="mt-4 pt-4 border-t border-slate-800 grid grid-cols-2 sm:grid-cols-4 gap-2">
-            {[
-              { type: 'AFFIDAVIT OF SERVICE', label: 'Affidavit of Service', desc: 'Notarized / Sworn' },
-              { type: 'DECLARATION OF SERVICE', label: 'Declaration of Service', desc: 'Unsworn / Perjury' },
-              { type: 'AFFIDAVIT OF NON-SERVICE', label: 'Affidavit of Non-Service', desc: 'Notarized Attempts' },
-              { type: 'DECLARATION OF NON-SERVICE', label: 'Declaration of Non-Service', desc: 'Due Diligence' },
-            ].map((tab) => {
-              const active = docType === tab.type;
-              return (
-                <button
-                  key={tab.type}
-                  type="button"
-                  onClick={() => setDocType(tab.type as DocumentType)}
-                  className={`flex flex-col text-left p-2.5 rounded-xl transition-all border cursor-pointer ${
-                    active
-                      ? 'bg-blue-600 text-white border-blue-400 shadow-md ring-2 ring-blue-400/40'
-                      : 'bg-slate-800/80 text-slate-300 border-slate-700 hover:bg-slate-800'
-                  }`}
-                >
-                  <span className="font-bold text-xs sm:text-sm leading-tight">{tab.label}</span>
-                  <span className={`text-[10px] sm:text-xs mt-0.5 ${active ? 'text-blue-100' : 'text-slate-400'}`}>
-                    {tab.desc}
-                  </span>
-                </button>
-              );
-            })}
+          {/* Document Type Selection */}
+          <div>
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
+              Select Document Format:
+            </label>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+              {[
+                { type: 'AFFIDAVIT OF SERVICE', title: 'Affidavit of Service', desc: 'Sworn & Notarized Jurat' },
+                { type: 'DECLARATION OF SERVICE', title: 'Declaration of Service', desc: 'Unsworn / Penalty of Perjury' },
+                { type: 'AFFIDAVIT OF NON-SERVICE', title: 'Affidavit of Non-Service', desc: 'Notarized Due Diligence' },
+                { type: 'DECLARATION OF NON-SERVICE', title: 'Declaration of Non-Service', desc: 'Unsworn Diligent Search' },
+              ].map((tab) => {
+                const active = docType === tab.type;
+                return (
+                  <button
+                    key={tab.type}
+                    type="button"
+                    onClick={() => setDocType(tab.type as DocumentType)}
+                    className={`p-3 rounded-xl text-left border transition-all cursor-pointer flex flex-col justify-between ${
+                      active
+                        ? 'bg-blue-600 border-blue-400 text-white shadow-lg ring-2 ring-blue-400/40'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-300 hover:bg-slate-800 hover:border-slate-600'
+                    }`}
+                  >
+                    <span className="font-bold text-xs sm:text-sm leading-snug">{tab.title}</span>
+                    <span className={`text-[10px] sm:text-xs mt-1 ${active ? 'text-blue-100' : 'text-slate-400'}`}>
+                      {tab.desc}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
-          {/* Presets and Options Row */}
-          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar">
-              <span className="text-slate-400 text-xs font-semibold whitespace-nowrap flex items-center gap-1">
-                <Sparkles className="w-3.5 h-3.5 text-amber-400" /> Presets:
-              </span>
-              {[
-                { id: 'personal', label: 'Personal Service' },
-                { id: 'sub_residence', label: 'Substituted (Residence)' },
-                { id: 'sub_business', label: 'Substituted (Business)' },
-                { id: 'corp_agent', label: 'Registered Agent' },
-                { id: 'posting', label: 'Posting / Nail & Mail' },
-                { id: 'non_unknown', label: 'Non-Service (Unknown)' },
-                { id: 'non_moved', label: 'Non-Service (Moved)' },
-                { id: 'non_evasion', label: 'Non-Service (Evasion)' },
-              ].map(p => (
+          {/* Presets and Options Section */}
+          <div className="pt-2 border-t border-slate-800 space-y-3">
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                  Quick Manner &amp; Non-Service Presets:
+                </span>
                 <button
-                  key={p.id}
                   type="button"
-                  onClick={() => applyMannerPreset(p.id)}
-                  className={`whitespace-nowrap px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer border ${
-                    selectedMannerKey === p.id 
-                      ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold' 
-                      : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
-                  }`}
+                  onClick={handlePrefillJLS}
+                  className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
+                  title="Prefill Just Legal Solutions info"
                 >
-                  {p.label}
+                  Prefill JLS Default Info
                 </button>
-              ))}
+              </div>
+
+              {/* Responsive Categorized Presets Grid */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                {[
+                  { id: 'personal', label: 'Personal Delivery', category: 'Service' },
+                  { id: 'sub_residence', label: 'Substituted (Residence)', category: 'Service' },
+                  { id: 'sub_business', label: 'Substituted (Business)', category: 'Service' },
+                  { id: 'corp_agent', label: 'Registered Agent', category: 'Service' },
+                  { id: 'posting', label: 'Posting / Conspicuous', category: 'Service' },
+                  { id: 'non_unknown', label: 'Unknown at Address', category: 'Non-Service' },
+                  { id: 'non_moved', label: 'Moved / No Forwarding', category: 'Non-Service' },
+                  { id: 'non_evasion', label: 'Evasion / Hostile Refusal', category: 'Non-Service' },
+                ].map((p) => {
+                  const isSelected = selectedMannerKey === p.id;
+                  return (
+                    <button
+                      key={p.id}
+                      type="button"
+                      onClick={() => applyMannerPreset(p.id)}
+                      className={`px-3 py-2 rounded-lg text-xs font-medium transition-all text-left border cursor-pointer flex flex-col justify-center ${
+                        isSelected
+                          ? 'bg-amber-400 text-slate-950 border-amber-300 font-bold shadow-md'
+                          : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-750 hover:border-slate-600'
+                      }`}
+                    >
+                      <span>{p.label}</span>
+                      <span className={`text-[9px] uppercase font-semibold mt-0.5 ${isSelected ? 'text-slate-900' : 'text-slate-400'}`}>
+                        {p.category}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
-            {/* Military Checkbox Option */}
-            <label className="flex items-center gap-1.5 text-xs text-slate-300 cursor-pointer bg-slate-800/90 px-2.5 py-1 rounded-lg border border-slate-700 hover:bg-slate-700 shrink-0">
-              <input
-                type="checkbox"
-                checked={showMilitary}
-                onChange={(e) => setShowMilitary(e.target.checked)}
-                className="rounded text-blue-600 focus:ring-0 cursor-pointer"
-              />
-              <span>Include Military / SCRA Box</span>
-            </label>
+            {/* Optional Military / SCRA Toggle */}
+            <div className="pt-2 flex items-center justify-between">
+              <label className="inline-flex items-center gap-2 text-xs text-slate-300 cursor-pointer bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 hover:bg-slate-800">
+                <input
+                  type="checkbox"
+                  checked={showMilitary}
+                  onChange={(e) => setShowMilitary(e.target.checked)}
+                  className="rounded text-blue-600 focus:ring-0 cursor-pointer"
+                />
+                <span>Include Servicemembers Civil Relief Act (SCRA) Declaration</span>
+              </label>
+              <span className="text-[11px] text-slate-400 hidden sm:inline">
+                (Optional — check if required by your state court or for default judgments)
+              </span>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Main Printable Legal Document Container */}
+      {/* Main Printable Legal Document Sheet */}
       <div className="max-w-4xl mx-auto px-2 sm:px-4">
         <div
           className="affidavit-page bg-white text-black shadow-2xl rounded-sm sm:rounded-md p-4 sm:p-8 md:p-10 font-serif leading-relaxed border border-slate-300"
@@ -593,28 +664,28 @@ export default function AffidavitOfService() {
             minHeight: '10.5in',
           }}
         >
-          {/* Top Document Title Heading */}
+          {/* Document Title Header */}
           <div className="text-center mb-4 pb-2 border-b-2 border-black">
             <h1 className="text-xl sm:text-2xl font-bold uppercase tracking-wider underline mb-1">
               {docType}
             </h1>
             <p className="text-xs italic text-gray-700">
               {isDeclaration 
-                ? 'Pursuant to 28 U.S.C. § 1746 / Uniform Unsworn Declarations Act / Applicable State Civil Procedure'
-                : 'State of Execution Jurat & Sworn Return of Process Server'}
+                ? 'Pursuant to 28 U.S.C. § 1746 / Uniform Unsworn Declarations Act / State Civil Procedure'
+                : 'Sworn Return of Process Server with Official Notary Jurat'}
             </p>
           </div>
 
-          {/* Court Caption & Case Identification Grid */}
+          {/* Court & Case Caption Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-12 border-2 border-black mb-4 text-xs sm:text-sm">
-            <div className="sm:col-span-6 p-2 border-b sm:border-b-0 sm:border-r border-black flex flex-col justify-between">
+            <div className="sm:col-span-6 p-2.5 border-b sm:border-b-0 sm:border-r border-black flex flex-col justify-between">
               <div>
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Court / Venue:</span>
+                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Court / Jurisdiction:</span>
                 <input
                   type="text"
                   value={courtName}
                   onChange={(e) => setCourtName(e.target.value)}
-                  placeholder="e.g. District Court of Tulsa County"
+                  placeholder="e.g. District Court / Superior Court / Municipal Court"
                   aria-label="Court Name"
                   className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
                 />
@@ -625,8 +696,8 @@ export default function AffidavitOfService() {
                   <input
                     type="text"
                     value={county}
-                    onChange={(e) => setCounty(e.target.value)}
-                    placeholder="Tulsa"
+                    onChange={(e) => handleCountyChange(e.target.value)}
+                    placeholder="County"
                     aria-label="County"
                     className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                   />
@@ -636,8 +707,8 @@ export default function AffidavitOfService() {
                   <input
                     type="text"
                     value={jurisdictionState}
-                    onChange={(e) => setJurisdictionState(e.target.value)}
-                    placeholder="Oklahoma"
+                    onChange={(e) => handleStateChange(e.target.value)}
+                    placeholder="State"
                     aria-label="State"
                     className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                   />
@@ -645,25 +716,25 @@ export default function AffidavitOfService() {
               </div>
             </div>
 
-            <div className="sm:col-span-6 p-2 flex flex-col justify-between">
+            <div className="sm:col-span-6 p-2.5 flex flex-col justify-between">
               <div>
                 <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Case / Docket Number:</span>
                 <input
                   type="text"
                   value={caseNumber}
                   onChange={(e) => setCaseNumber(e.target.value)}
-                  placeholder="e.g. CJ-2026-01234"
+                  placeholder="e.g. 2026-CV-01234"
                   aria-label="Case Number"
                   className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
                 />
               </div>
               <div className="mt-2">
-                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Job / File Ref #:</span>
+                <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800">Internal Job / File Ref #:</span>
                 <input
                   type="text"
                   value={jobNumber}
                   onChange={(e) => setJobNumber(e.target.value)}
-                  placeholder="e.g. JLS-9842"
+                  placeholder="e.g. Job #12345 (optional)"
                   aria-label="Job Number"
                   className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                 />
@@ -681,7 +752,7 @@ export default function AffidavitOfService() {
                 type="text"
                 value={plaintiff}
                 onChange={(e) => setPlaintiff(e.target.value)}
-                placeholder="Plaintiff / Petitioner Full Name"
+                placeholder="Plaintiff / Petitioner Name(s)"
                 aria-label="Plaintiff or Petitioner"
                 className="w-full font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
               />
@@ -693,7 +764,7 @@ export default function AffidavitOfService() {
                 type="text"
                 value={defendant}
                 onChange={(e) => setDefendant(e.target.value)}
-                placeholder="Defendant / Respondent Full Name"
+                placeholder="Defendant / Respondent Name(s)"
                 aria-label="Defendant or Respondent"
                 className="w-full font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
               />
@@ -708,20 +779,20 @@ export default function AffidavitOfService() {
                   type="text"
                   value={recipientName}
                   onChange={(e) => setRecipientName(e.target.value)}
-                  placeholder="Target Individual or Corporate Entity"
+                  placeholder="Target Individual or Entity Name"
                   aria-label="Recipient To Be Served"
                   className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
                 />
               </div>
               <div className="mt-2">
                 <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
-                  Attorney / Client Forwarding Action:
+                  Forwarding Attorney / Client:
                 </span>
                 <input
                   type="text"
                   value={clientFirm}
                   onChange={(e) => setClientFirm(e.target.value)}
-                  placeholder="Forwarding Law Firm / Attorney Name"
+                  placeholder="Attorney or Law Firm Name (optional)"
                   aria-label="Attorney or Client"
                   className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                 />
@@ -729,15 +800,21 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
-          {/* Statutory Competency & Capacity Statement */}
+          {/* Statutory Competency & Authorization Statement */}
           <div className="text-xs sm:text-sm text-justify mb-4 leading-normal bg-gray-50/50 p-2.5 border border-gray-200 print:bg-transparent print:border-none print:p-0">
-            I, <strong className="border-b border-black px-2">{serverName || 'Joseph Iannazzi'}</strong>, 
-            being first duly sworn or declaring under penalty of perjury, depose and say: 
+            I, <input
+              type="text"
+              value={serverName}
+              onChange={(e) => setServerName(e.target.value)}
+              placeholder="Process Server Full Name"
+              aria-label="Server Name"
+              className="inline-block font-bold text-center border-b border-black outline-none px-2 py-0.5 bg-transparent min-w-[180px] print-clean-input"
+            />, being first duly sworn or declaring under penalty of perjury, depose and say: 
             I am a citizen of the United States, over the age of eighteen (18) years, not a party to or interested in the above-entitled action, 
             and competent to make this statement. I was authorized by law to execute service of legal process in the jurisdiction where service was performed or attempted.
           </div>
 
-          {/* Service Particulars Box */}
+          {/* Service Details Box */}
           <div className="border-2 border-black p-3 mb-4 space-y-3 text-xs sm:text-sm">
             <div>
               <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-0.5">
@@ -761,7 +838,7 @@ export default function AffidavitOfService() {
                 type="text"
                 value={documentsServed}
                 onChange={(e) => setDocumentsServed(e.target.value)}
-                placeholder="e.g. Summons, Petition for Dissolution of Marriage, Discovery Requests"
+                placeholder="e.g. Summons, Petition/Complaint, Notice, Discovery Requests"
                 aria-label="Documents Served"
                 className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-1 print-clean-input"
               />
@@ -776,7 +853,7 @@ export default function AffidavitOfService() {
               <textarea
                 value={mannerText}
                 onChange={(e) => setMannerText(e.target.value)}
-                placeholder="Describe exact details of service or non-service..."
+                placeholder="Describe exact details of service or reasons for non-service (or select a preset above)..."
                 rows={3}
                 aria-label="Manner of Service Details"
                 className="w-full bg-transparent border border-gray-300 focus:border-black outline-none p-2 leading-relaxed resize-y print:border-none print:p-0 print-clean-text"
@@ -788,7 +865,7 @@ export default function AffidavitOfService() {
           <div className="mb-4 page-break-auto">
             <div className="flex items-center justify-between mb-2">
               <span className="font-bold uppercase text-xs tracking-wider text-gray-900">
-                Chronological Service Attempts & Due Diligence Log:
+                Chronological Service Attempts &amp; Due Diligence Log:
               </span>
               <div className="no-print-affidavit flex gap-2">
                 <button
@@ -796,7 +873,7 @@ export default function AffidavitOfService() {
                   onClick={addAttempt}
                   className="flex items-center gap-1 bg-slate-100 hover:bg-slate-200 text-slate-800 px-2 py-1 rounded text-xs font-semibold cursor-pointer border border-slate-300"
                 >
-                  <Plus className="w-3 h-3" /> Add Attempt
+                  <Plus className="w-3 h-3" /> Add Attempt Row
                 </button>
               </div>
             </div>
@@ -806,7 +883,7 @@ export default function AffidavitOfService() {
                 <div className="col-span-1">#</div>
                 <div className="col-span-3 sm:col-span-2">Date</div>
                 <div className="col-span-3 sm:col-span-2">Time</div>
-                <div className="col-span-5 sm:col-span-7 text-left pl-2">Observations & Result</div>
+                <div className="col-span-5 sm:col-span-7 text-left pl-2">Observations &amp; Details</div>
               </div>
 
               {attempts.map((att, idx) => (
@@ -840,7 +917,7 @@ export default function AffidavitOfService() {
                       type="text"
                       value={att.notes}
                       onChange={(e) => updateAttempt(att.id, 'notes', e.target.value)}
-                      placeholder="e.g. No answer, lights on, silver sedan in driveway (OK tag #...)"
+                      placeholder="e.g. No answer, spoke with neighbor, vehicle on site..."
                       aria-label={`Attempt ${idx + 1} Notes`}
                       className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none py-0.5 print-clean-input"
                     />
@@ -860,14 +937,14 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
-          {/* Military Status (SCRA 50 U.S.C. § 3931) - Optional / Hidden by default */}
+          {/* Optional Military Status (SCRA 50 U.S.C. § 3931) */}
           {showMilitary && (
             <div className="mb-4 text-xs page-break-auto">
-              <div className="border border-gray-300 p-2 print:border-none print:p-0">
+              <div className="border border-gray-300 p-2.5 print:border-none print:p-0">
                 <span className="font-bold uppercase text-[10px] tracking-wider block text-gray-800 mb-1">
                   Servicemembers Civil Relief Act (SCRA) Declaration:
                 </span>
-                <div className="no-print-affidavit flex flex-wrap gap-3 mb-1">
+                <div className="no-print-affidavit flex flex-wrap gap-3 mb-1.5">
                   {[
                     { key: 'not_active', label: 'Confirmed Not Active Military' },
                     { key: 'active', label: 'Active Military Service' },
@@ -904,20 +981,27 @@ export default function AffidavitOfService() {
             </div>
           )}
 
-          {/* Legal Footing: Declaration vs Notarized Affidavit */}
+          {/* Legal Execution Closing */}
           <div className="pt-2 border-t-2 border-black page-break-auto">
             {isDeclaration ? (
-              /* ─── UNSWORN DECLARATION BLOCK (28 U.S.C. § 1746 / CA / TX / Uniform Act) ─── */
+              /* ─── UNSWORN DECLARATION BLOCK ─── */
               <div className="space-y-3 text-xs sm:text-sm">
                 <p className="font-semibold text-justify leading-snug">
                   I declare under penalty of perjury under the laws of the State of{' '}
-                  <strong className="border-b border-black px-1">{jurisdictionState || 'Oklahoma'}</strong> and the United States of America that the foregoing is true and correct.
+                  <input
+                    type="text"
+                    value={jurisdictionState}
+                    onChange={(e) => handleStateChange(e.target.value)}
+                    placeholder="State"
+                    aria-label="State of Law"
+                    className="font-bold border-b border-black outline-none px-1 bg-transparent w-28 print-clean-input"
+                  /> and the United States of America that the foregoing is true and correct.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-3">
                   <div>
                     <div className="mb-2">
-                      <span className="font-bold text-xs">Executed On:</span>
+                      <span className="font-bold text-xs block text-gray-800">Executed On:</span>
                       <input
                         type="text"
                         value={executionDate}
@@ -928,39 +1012,78 @@ export default function AffidavitOfService() {
                       />
                     </div>
                     <div>
-                      <span className="font-bold text-xs">At (City, State):</span>
+                      <span className="font-bold text-xs block text-gray-800">At (City, State):</span>
                       <input
                         type="text"
                         value={executionCity}
                         onChange={(e) => setExecutionCity(e.target.value)}
-                        placeholder="Tulsa, OK"
+                        placeholder="e.g. Tulsa, OK"
                         aria-label="Execution City and State"
                         className="w-full font-semibold bg-transparent border-b border-black outline-none py-1 print-clean-input"
                       />
                     </div>
                   </div>
 
-                  <div className="flex flex-col justify-end">
-                    <div className="border-b-2 border-black w-full mb-1 mt-6" />
-                    <div className="font-bold text-sm">{serverName || 'Joseph Iannazzi'}</div>
-                    <div className="text-xs text-gray-800">{serverLicense || 'Licensed Private Process Server'}</div>
-                    <div className="text-xs font-semibold">{serverCompany || 'Just Legal Solutions'}</div>
-                    <div className="text-xs text-gray-700">{serverPhone} • {serverEmail}</div>
+                  <div className="flex flex-col justify-end space-y-1">
+                    <div className="border-b-2 border-black w-full mb-1 mt-4" />
+                    <span className="font-bold uppercase text-[10px] text-gray-700 block">Declarant / Process Server:</span>
+                    <input
+                      type="text"
+                      value={serverName}
+                      onChange={(e) => setServerName(e.target.value)}
+                      placeholder="Server Full Name"
+                      aria-label="Declarant Name"
+                      className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    />
+                    <input
+                      type="text"
+                      value={serverLicense}
+                      onChange={(e) => setServerLicense(e.target.value)}
+                      placeholder="License / Reg # or Title (optional)"
+                      aria-label="License / Title"
+                      className="w-full text-xs text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    />
+                    <input
+                      type="text"
+                      value={serverCompany}
+                      onChange={(e) => setServerCompany(e.target.value)}
+                      placeholder="Company / Agency Name (optional)"
+                      aria-label="Company Name"
+                      className="w-full text-xs font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    />
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={serverPhone}
+                        onChange={(e) => setServerPhone(e.target.value)}
+                        placeholder="Phone (optional)"
+                        aria-label="Phone"
+                        className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      />
+                      <input
+                        type="text"
+                        value={serverEmail}
+                        onChange={(e) => setServerEmail(e.target.value)}
+                        placeholder="Email (optional)"
+                        aria-label="Email"
+                        className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             ) : (
-              /* ─── SWORN AFFIDAVIT NOTARY JURAT BLOCK ─── */
+              /* ─── SWORN NOTARIZED AFFIDAVIT BLOCK ─── */
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-xs sm:text-sm">
                 {/* Server Signature Line */}
-                <div className="flex flex-col justify-end">
-                  <div className="border-b-2 border-black w-full mb-1 mt-8" />
-                  <span className="font-bold uppercase text-[10px] text-gray-700 block">Affiant / Process Server Signature</span>
+                <div className="flex flex-col justify-end space-y-1">
+                  <div className="border-b-2 border-black w-full mb-1 mt-6" />
+                  <span className="font-bold uppercase text-[10px] text-gray-700 block">Affiant / Process Server Signature:</span>
                   <input
                     type="text"
                     value={serverName}
                     onChange={(e) => setServerName(e.target.value)}
-                    placeholder="Joseph Iannazzi"
+                    placeholder="Process Server Full Name"
                     aria-label="Process Server Name"
                     className="w-full font-bold text-sm bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                   />
@@ -968,12 +1091,36 @@ export default function AffidavitOfService() {
                     type="text"
                     value={serverLicense}
                     onChange={(e) => setServerLicense(e.target.value)}
-                    placeholder="Licensed Process Server #..."
-                    aria-label="License / Credentials"
+                    placeholder="License / Reg # or Title (optional)"
+                    aria-label="License / Title"
                     className="w-full text-xs text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                   />
-                  <div className="text-xs font-semibold mt-1">{serverCompany}</div>
-                  <div className="text-xs text-gray-700">{serverPhone} • {serverEmail}</div>
+                  <input
+                    type="text"
+                    value={serverCompany}
+                    onChange={(e) => setServerCompany(e.target.value)}
+                    placeholder="Company / Agency Name (optional)"
+                    aria-label="Company Name"
+                    className="w-full text-xs font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                  />
+                  <div className="flex gap-2">
+                    <input
+                      type="text"
+                      value={serverPhone}
+                      onChange={(e) => setServerPhone(e.target.value)}
+                      placeholder="Phone (optional)"
+                      aria-label="Phone"
+                      className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    />
+                    <input
+                      type="text"
+                      value={serverEmail}
+                      onChange={(e) => setServerEmail(e.target.value)}
+                      placeholder="Email (optional)"
+                      aria-label="Email"
+                      className="w-1/2 text-xs text-gray-700 bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+                    />
+                  </div>
                 </div>
 
                 {/* Notary Jurat Box */}
@@ -982,16 +1129,30 @@ export default function AffidavitOfService() {
                     Notary Public Jurat / Acknowledgment
                   </div>
                   <div className="text-xs mb-2">
-                    State of <strong className="border-b border-black px-1">{notaryState || jurisdictionState}</strong>, County of <strong className="border-b border-black px-1">{notaryCounty || county}</strong>
+                    State of <input
+                      type="text"
+                      value={notaryState}
+                      onChange={(e) => setNotaryState(e.target.value)}
+                      placeholder="State"
+                      aria-label="Notary State"
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-24 print-clean-input"
+                    />, County of <input
+                      type="text"
+                      value={notaryCounty}
+                      onChange={(e) => setNotaryCounty(e.target.value)}
+                      placeholder="County"
+                      aria-label="Notary County"
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-24 print-clean-input"
+                    />
                   </div>
                   <p className="text-[11px] leading-snug mb-3 text-justify">
                     Subscribed and sworn to (or affirmed) before me this _____ day of __________________, 20___, 
-                    by the affiant <strong className="border-b border-black px-1">{serverName}</strong>, 
+                    by the affiant <strong className="border-b border-black px-1">{serverName || '___________________________'}</strong>, 
                     who proved to me on the basis of satisfactory evidence to be the person who appeared before me.
                   </p>
 
-                  <div className="border-b border-black w-full mb-1 mt-6" />
-                  <div className="text-xs font-bold mb-2">Notary Public Signature & Official Seal</div>
+                  <div className="border-b border-black w-full mb-1 mt-5" />
+                  <div className="text-xs font-bold mb-2">Notary Public Signature &amp; Official Seal</div>
 
                   <div className="grid grid-cols-2 gap-2 text-[11px]">
                     <div>
@@ -1000,7 +1161,7 @@ export default function AffidavitOfService() {
                         type="text"
                         value={commissionNum}
                         onChange={(e) => setCommissionNum(e.target.value)}
-                        placeholder="e.g. 26001889"
+                        placeholder="Commission #"
                         aria-label="Notary Commission Number"
                         className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
                       />
