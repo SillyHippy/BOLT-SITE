@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { 
   Printer, 
   Share2, 
@@ -9,7 +9,10 @@ import {
   RotateCcw, 
   Check, 
   Scale, 
-  Sparkles
+  Sparkles,
+  Building2,
+  User,
+  FileCheck
 } from 'lucide-react';
 
 export type DocumentType = 
@@ -29,18 +32,18 @@ interface Attempt {
 export default function AffidavitOfService() {
   // Document Type & Jurisdiction
   const [docType, setDocType] = useState<DocumentType>('AFFIDAVIT OF SERVICE');
-  const [jurisdictionState, setJurisdictionState] = useState('Oklahoma');
-  const [county, setCounty] = useState('Tulsa');
+  const [jurisdictionState, setJurisdictionState] = useState('');
+  const [county, setCounty] = useState('');
   
   // Case & Court Info
-  const [courtName, setCourtName] = useState('IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA');
+  const [courtName, setCourtName] = useState('');
   const [caseNumber, setCaseNumber] = useState('');
   const [jobNumber, setJobNumber] = useState('');
   const [plaintiff, setPlaintiff] = useState('');
   const [defendant, setDefendant] = useState('');
   const [clientFirm, setClientFirm] = useState('');
 
-  // Process Server / Affiant Info (Default: Editable blanks)
+  // Process Server / Affiant Info
   const [serverName, setServerName] = useState('');
   const [serverCompany, setServerCompany] = useState('');
   const [serverPhone, setServerPhone] = useState('');
@@ -54,7 +57,7 @@ export default function AffidavitOfService() {
   const [mannerText, setMannerText] = useState('');
   const [selectedMannerKey, setSelectedMannerKey] = useState<string>('');
 
-  // Military / SCRA Status (Default: Hidden / Optional)
+  // Military / SCRA Status (Default: Hidden)
   const [showMilitary, setShowMilitary] = useState<boolean>(false);
   const [militaryStatus, setMilitaryStatus] = useState<'not_active' | 'active' | 'unknown'>('not_active');
 
@@ -63,8 +66,8 @@ export default function AffidavitOfService() {
   const [executionCity, setExecutionCity] = useState('');
 
   // Notary Details (For Affidavits)
-  const [notaryCounty, setNotaryCounty] = useState('Tulsa');
-  const [notaryState, setNotaryState] = useState('Oklahoma');
+  const [notaryCounty, setNotaryCounty] = useState('');
+  const [notaryState, setNotaryState] = useState('');
   const [commissionExp, setCommissionExp] = useState('');
   const [commissionNum, setCommissionNum] = useState('');
 
@@ -76,10 +79,24 @@ export default function AffidavitOfService() {
   // UI feedback
   const [copiedLink, setCopiedLink] = useState(false);
 
+  const mannerTextareaRef = useRef<HTMLTextAreaElement>(null);
+
   const isDeclaration = docType.includes('DECLARATION') || docType === 'CERTIFICATE OF SERVICE';
   const isNonService = docType.includes('NON-SERVICE');
 
-  // Set default execution date to today
+  // Auto-resize textarea
+  const adjustMannerHeight = useCallback(() => {
+    if (mannerTextareaRef.current) {
+      mannerTextareaRef.current.style.height = 'auto';
+      mannerTextareaRef.current.style.height = `${Math.max(64, mannerTextareaRef.current.scrollHeight)}px`;
+    }
+  }, []);
+
+  useEffect(() => {
+    adjustMannerHeight();
+  }, [mannerText, adjustMannerHeight]);
+
+  // Set default execution date to today if empty
   useEffect(() => {
     const today = new Date().toLocaleDateString('en-US', {
       month: 'long',
@@ -321,27 +338,28 @@ export default function AffidavitOfService() {
         setMannerText('PERSONAL SERVICE: By personally delivering true and correct copies of the above-described documents to the recipient named herein at the address stated above.');
         break;
       case 'sub_residence':
-        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-described documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion (age 15+) residing therein, and informing said person of the contents.');
+        // Universal 50-state language (suitable age and discretion)
+        setMannerText('SUBSTITUTED SERVICE (RESIDENCE): By leaving true and correct copies of the above-described documents at the dwelling house or usual place of abode of the recipient with a person of suitable age and discretion residing therein, and informing said person of the general contents thereof.');
         break;
       case 'sub_business':
-        setMannerText('SUBSTITUTED SERVICE (BUSINESS): By delivering true and correct copies of the above-described documents during regular business hours to the recipient\'s usual place of business with the person in charge or authorized to receive process.');
+        setMannerText('SUBSTITUTED SERVICE (BUSINESS): By delivering true and correct copies of the above-described documents during regular business hours to the recipient\'s usual place of business/employment with the person in charge or authorized to receive process.');
         break;
       case 'corp_agent':
         setMannerText('CORPORATE / REGISTERED AGENT: By delivering true and correct copies of the above-described documents to the designated Registered Agent or authorized officer of the entity.');
         break;
       case 'posting':
-        setMannerText('POSTING: After multiple diligent attempts, by posting true and correct copies in a conspicuous place on the front entrance of the premises, and subsequently mailing a copy via First Class U.S. Mail.');
+        setMannerText('POSTING / CONSPICUOUS PLACE: After multiple diligent attempts, by posting true and correct copies in a conspicuous place on the main entrance of the premises, and subsequently mailing a copy via First Class U.S. Mail.');
         break;
       case 'certified_mail':
         setMannerText('CERTIFIED MAIL: By mailing true and correct copies via USPS Certified Mail, Return Receipt Requested with restricted delivery.');
         break;
       case 'non_unknown':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (UNKNOWN): Diligent inquiry with current resident/occupant confirmed that the subject does not reside at this location and is completely unknown.');
+        setMannerText('NON-SERVICE (UNKNOWN AT ADDRESS): Diligent inquiry with current resident/occupant confirmed that the subject does not reside at this location and is unknown.');
         break;
       case 'non_moved':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (MOVED): Diligent inquiry confirmed the subject has moved from this location. No forwarding address was available or provided.');
+        setMannerText('NON-SERVICE (MOVED / NO FORWARDING): Diligent inquiry confirmed the subject has moved from this location. No forwarding address was available or provided.');
         break;
       case 'non_bad_address':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
@@ -349,7 +367,7 @@ export default function AffidavitOfService() {
         break;
       case 'non_evasion':
         if (!isNonService) setDocType(isDeclaration ? 'DECLARATION OF NON-SERVICE' : 'AFFIDAVIT OF NON-SERVICE');
-        setMannerText('NON-SERVICE (EVASION / REFUSAL): Subject or occupant actively avoided service, refused to open the door, or refused to accept papers despite confirmed presence.');
+        setMannerText('NON-SERVICE (EVASION / HOSTILE REFUSAL): Subject or occupant actively avoided service, refused to open the door, or refused to accept papers despite confirmed presence.');
         break;
       default:
         break;
@@ -459,7 +477,12 @@ export default function AffidavitOfService() {
             background: transparent !important;
             padding: 0 1px !important;
           }
-          .print-clean-text {
+          /* Hide inputs in print and show pure text so nothing is ever clipped or scrolled */
+          .screen-only-input {
+            display: none !important;
+          }
+          .print-only-text {
+            display: block !important;
             white-space: pre-wrap !important;
             word-break: break-word !important;
           }
@@ -470,7 +493,7 @@ export default function AffidavitOfService() {
         }
       `}</style>
 
-      {/* Top Mobile/Desktop Control Panel */}
+      {/* Top Mobile/Desktop Control Toolbar */}
       <div className="no-print-affidavit max-w-4xl mx-auto px-3 sm:px-4 mb-4">
         <div className="bg-slate-900 text-white rounded-xl shadow-lg p-3 sm:p-4 border border-slate-800 space-y-3">
           
@@ -501,14 +524,14 @@ export default function AffidavitOfService() {
                 title="Copy shareable pre-filled link"
               >
                 {copiedLink ? <Check className="w-3.5 h-3.5 text-emerald-300" /> : <Share2 className="w-3.5 h-3.5" />}
-                <span>{copiedLink ? 'Copied' : 'Share'}</span>
+                <span>{copiedLink ? 'Copied' : 'Share Link'}</span>
               </button>
 
               <button
                 type="button"
                 onClick={handleReset}
                 className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700"
-                title="Clear all fields"
+                title="Clear all fields to blank"
               >
                 <RotateCcw className="w-3 h-3" />
                 <span>Clear</span>
@@ -559,9 +582,9 @@ export default function AffidavitOfService() {
                 <option value="" disabled>-- Select Manner / Non-Service Preset --</option>
                 <optgroup label="Completed Service">
                   <option value="personal">Personal Delivery</option>
-                  <option value="sub_residence">Substituted (Residence — Age 15+)</option>
-                  <option value="sub_business">Substituted (Business / Employment)</option>
-                  <option value="corp_agent">Registered Agent / Entity</option>
+                  <option value="sub_residence">Substituted Service (Residence)</option>
+                  <option value="sub_business">Substituted Service (Business / Employment)</option>
+                  <option value="corp_agent">Registered Agent / Entity Officer</option>
                   <option value="posting">Posting / Conspicuous Place</option>
                   <option value="certified_mail">Certified Mail Service</option>
                 </optgroup>
@@ -579,7 +602,7 @@ export default function AffidavitOfService() {
                 type="button"
                 onClick={handlePrefillJLS}
                 className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
-                title="Prefill Just Legal Solutions info"
+                title="Prefill Just Legal Solutions server info"
               >
                 Prefill JLS Info
               </button>
@@ -615,10 +638,13 @@ export default function AffidavitOfService() {
               type="text"
               value={courtName}
               onChange={(e) => setCourtName(e.target.value)}
-              placeholder="IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA"
+              placeholder="IN THE DISTRICT COURT / SUPERIOR COURT / MUNICIPAL COURT"
               aria-label="Court and Venue"
-              className="w-full text-center font-bold text-xs sm:text-sm uppercase bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input"
+              className="w-full text-center font-bold text-xs sm:text-sm uppercase bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 print-clean-input screen-only-input"
             />
+            <div className="print-only-text hidden text-center font-bold text-xs sm:text-sm uppercase">
+              {courtName || 'IN THE DISTRICT COURT'}
+            </div>
           </div>
 
           {/* Caption Table */}
@@ -626,27 +652,33 @@ export default function AffidavitOfService() {
             <tbody>
               <tr>
                 <td className="w-[55%] align-top p-1.5 border-r-2 border-black pr-2">
-                  <div className="font-bold">
+                  <div>
                     <input
                       type="text"
                       value={plaintiff}
                       onChange={(e) => setPlaintiff(e.target.value)}
                       placeholder="PETITIONER / PLAINTIFF NAME(S)"
                       aria-label="Plaintiff or Petitioner"
-                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
                     />
+                    <div className="print-only-text hidden font-bold">
+                      {plaintiff || 'PLAINTIFF / PETITIONER'}
+                    </div>
                   </div>
                   <div className="italic text-[10px] text-gray-700">Plaintiff / Petitioner,</div>
                   <div className="font-bold my-1 text-center text-gray-600">vs.</div>
-                  <div className="font-bold">
+                  <div>
                     <input
                       type="text"
                       value={defendant}
                       onChange={(e) => setDefendant(e.target.value)}
                       placeholder="DEFENDANT / RESPONDENT NAME(S)"
                       aria-label="Defendant or Respondent"
-                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
                     />
+                    <div className="print-only-text hidden font-bold">
+                      {defendant || 'DEFENDANT / RESPONDENT'}
+                    </div>
                   </div>
                   <div className="italic text-[10px] text-gray-700">Defendant / Respondent.</div>
                 </td>
@@ -658,42 +690,66 @@ export default function AffidavitOfService() {
                       type="text"
                       value={caseNumber}
                       onChange={(e) => setCaseNumber(e.target.value)}
-                      placeholder="e.g. CJ-2026-01234"
+                      placeholder="Case Number"
                       aria-label="Case Number"
-                      className="font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none w-36 print-clean-input"
+                      className="font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none w-36 print-clean-input screen-only-input"
                     />
+                    <span className="print-only-text hidden font-bold inline">
+                      {caseNumber || '____________________'}
+                    </span>
                   </div>
+
                   <div>
                     <span className="font-bold text-[10px] uppercase">County/State: </span>
                     <input
                       type="text"
                       value={county}
                       onChange={(e) => setCounty(e.target.value)}
-                      placeholder="Tulsa"
+                      placeholder="County"
                       aria-label="County"
-                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input"
+                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input screen-only-input"
                     />
-                    <span>, </span>
+                    <span className="screen-only-input">, </span>
                     <input
                       type="text"
                       value={jurisdictionState}
                       onChange={(e) => setJurisdictionState(e.target.value)}
-                      placeholder="Oklahoma"
+                      placeholder="State"
                       aria-label="State"
-                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input"
+                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-20 print-clean-input screen-only-input"
                     />
+                    <span className="print-only-text hidden inline">
+                      {county ? `${county}, ` : ''}{jurisdictionState || ''}
+                    </span>
                   </div>
-                  <div>
-                    <span className="font-bold text-[10px] uppercase">Job Ref #: </span>
-                    <input
-                      type="text"
-                      value={jobNumber}
-                      onChange={(e) => setJobNumber(e.target.value)}
-                      placeholder="e.g. 12345 (optional)"
-                      aria-label="Job Number"
-                      className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-28 print-clean-input"
-                    />
-                  </div>
+
+                  {jobNumber ? (
+                    <div>
+                      <span className="font-bold text-[10px] uppercase">Job Ref #: </span>
+                      <input
+                        type="text"
+                        value={jobNumber}
+                        onChange={(e) => setJobNumber(e.target.value)}
+                        placeholder="Job Ref #"
+                        aria-label="Job Number"
+                        className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-28 print-clean-input screen-only-input"
+                      />
+                      <span className="print-only-text hidden inline">{jobNumber}</span>
+                    </div>
+                  ) : (
+                    <div className="no-print">
+                      <span className="font-bold text-[10px] uppercase text-gray-500">Job Ref #: </span>
+                      <input
+                        type="text"
+                        value={jobNumber}
+                        onChange={(e) => setJobNumber(e.target.value)}
+                        placeholder="e.g. 12345 (optional)"
+                        aria-label="Job Number"
+                        className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-28 print-clean-input text-xs"
+                      />
+                    </div>
+                  )}
+
                   <div className="pt-0.5">
                     <span className="font-bold text-[10px] uppercase block">Person To Be Served:</span>
                     <input
@@ -702,8 +758,11 @@ export default function AffidavitOfService() {
                       onChange={(e) => setRecipientName(e.target.value)}
                       placeholder="Target Recipient Name"
                       aria-label="Recipient Name"
-                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                      className="w-full font-bold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
                     />
+                    <div className="print-only-text hidden font-bold">
+                      {recipientName || '________________________________'}
+                    </div>
                   </div>
                 </td>
               </tr>
@@ -721,25 +780,37 @@ export default function AffidavitOfService() {
               type="text"
               value={serverName}
               onChange={(e) => setServerName(e.target.value)}
-              placeholder="Process Server Name"
+              placeholder="Process Server Full Name"
               aria-label="Process Server Name"
-              className="inline-block font-bold text-center border-b border-black outline-none px-1 bg-transparent min-w-[150px] print-clean-input"
-            />, being duly sworn or declaring under penalty of perjury, depose and state: 
+              className="inline-block font-bold text-center border-b border-black outline-none px-1 bg-transparent min-w-[150px] print-clean-input screen-only-input"
+            /><span className="print-only-text hidden font-bold inline">{serverName || '___________________________'}</span>, being duly sworn or declaring under penalty of perjury, depose and state: 
             I am a legally authorized process server in the State of <input
               type="text"
               value={jurisdictionState}
               onChange={(e) => setJurisdictionState(e.target.value)}
               placeholder="State"
               aria-label="Server State"
-              className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
-            /> (License/Reg No. <input
-              type="text"
-              value={serverLicense}
-              onChange={(e) => setServerLicense(e.target.value)}
-              placeholder="License # / Title"
-              aria-label="Server License Number"
-              className="font-bold border-b border-black outline-none px-1 bg-transparent w-28 print-clean-input"
-            />), over the age of eighteen (18) years, and not a party to nor interested in the outcome of the above-entitled action.
+              className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input screen-only-input"
+            /><span className="print-only-text hidden font-bold inline">{jurisdictionState || '_________'}</span>
+            {serverLicense.trim() ? (
+              <> (License/Reg No. <input
+                type="text"
+                value={serverLicense}
+                onChange={(e) => setServerLicense(e.target.value)}
+                placeholder="License #"
+                aria-label="Server License Number"
+                className="font-bold border-b border-black outline-none px-1 bg-transparent w-28 print-clean-input screen-only-input"
+              /><span className="print-only-text hidden font-bold inline">{serverLicense}</span>)</>
+            ) : (
+              <span className="no-print"> (<input
+                type="text"
+                value={serverLicense}
+                onChange={(e) => setServerLicense(e.target.value)}
+                placeholder="License # (if applicable)"
+                aria-label="Server License Number"
+                className="font-bold border-b border-gray-300 focus:border-black outline-none px-1 bg-transparent w-36 text-xs"
+              />)</span>
+            )}, over the age of eighteen (18) years, and not a party to nor interested in the outcome of the above-entitled action.
           </p>
 
           {/* Documents & Address Lines */}
@@ -750,10 +821,13 @@ export default function AffidavitOfService() {
                 type="text"
                 value={documentsServed}
                 onChange={(e) => setDocumentsServed(e.target.value)}
-                placeholder="e.g. Summons, Petition/Complaint, Notice, Discovery"
+                placeholder="e.g. Summons, Petition/Complaint, Notice, Discovery Requests"
                 aria-label="Documents Served"
-                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[80%] print-clean-input"
+                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[80%] print-clean-input screen-only-input"
               />
+              <span className="print-only-text hidden inline font-medium">
+                {documentsServed || 'Legal process / pleadings in this action'}
+              </span>
             </div>
             <div>
               <strong className="uppercase text-[9pt]">Service Address: </strong>
@@ -763,24 +837,35 @@ export default function AffidavitOfService() {
                 onChange={(e) => setServiceAddress(e.target.value)}
                 placeholder="Service Street Address, City, State, ZIP"
                 aria-label="Service Address"
-                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[75%] print-clean-input font-medium"
+                className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[75%] print-clean-input font-medium screen-only-input"
               />
+              <span className="print-only-text hidden inline font-medium">
+                {serviceAddress || '__________________________________________________'}
+              </span>
             </div>
           </div>
 
-          {/* Manner of Service Block */}
+          {/* Manner of Service Block - Auto-expanding and clean in print */}
           <div className="mb-2">
             <strong className="uppercase text-[9pt] block mb-0.5">
               {isNonService ? 'Statement of Diligent Inquiry / Non-Service Reason:' : 'Manner & Details of Service:'}
             </strong>
             <textarea
+              ref={mannerTextareaRef}
               value={mannerText}
-              onChange={(e) => setMannerText(e.target.value)}
-              placeholder="State the exact details of service or reasons for non-service (or choose a preset above)..."
+              onChange={(e) => {
+                setMannerText(e.target.value);
+                adjustMannerHeight();
+              }}
+              placeholder="State the exact details of service or reasons for non-service (or select a preset above)..."
               rows={2}
               aria-label="Manner of Service"
-              className="w-full bg-transparent border border-gray-300 focus:border-black outline-none p-1.5 text-[9.5pt] leading-tight resize-y print:border-none print:p-0 print-clean-text"
+              className="w-full bg-transparent border border-gray-300 focus:border-black outline-none p-1.5 text-[9.5pt] leading-tight resize-y screen-only-input"
             />
+            {/* Pure text block for print so it expands infinitely and never truncates */}
+            <div className="print-only-text hidden text-[9.5pt] leading-snug p-0 m-0">
+              {mannerText || 'Service effected in accordance with applicable state civil procedure.'}
+            </div>
           </div>
 
           {/* Chronological Service Attempts Log */}
@@ -811,45 +896,52 @@ export default function AffidavitOfService() {
                 {attempts.map((att, idx) => (
                   <tr key={att.id} className="border-b border-gray-300 last:border-b-0">
                     <td className="p-1 text-center font-bold border-r border-black">{idx + 1}</td>
-                    <td className="p-1 border-r border-black">
+                    <td className="p-1 border-r border-black text-center">
                       <input
                         type="text"
                         value={att.date}
                         onChange={(e) => updateAttempt(att.id, 'date', e.target.value)}
                         placeholder="MM/DD/YYYY"
                         aria-label={`Attempt ${idx + 1} Date`}
-                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt] screen-only-input"
                       />
+                      <span className="print-only-text hidden">{att.date || '—'}</span>
                     </td>
-                    <td className="p-1 border-r border-black">
+                    <td className="p-1 border-r border-black text-center">
                       <input
                         type="text"
                         value={att.time}
                         onChange={(e) => updateAttempt(att.id, 'time', e.target.value)}
                         placeholder="10:30 AM"
                         aria-label={`Attempt ${idx + 1} Time`}
-                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                        className="w-full text-center bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt] screen-only-input"
                       />
+                      <span className="print-only-text hidden">{att.time || '—'}</span>
                     </td>
-                    <td className="p-1 pl-2 flex items-center justify-between gap-1">
-                      <input
-                        type="text"
-                        value={att.notes}
-                        onChange={(e) => updateAttempt(att.id, 'notes', e.target.value)}
-                        placeholder="e.g. No answer, spoke with neighbor, verified vehicle..."
-                        aria-label={`Attempt ${idx + 1} Notes`}
-                        className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
-                      />
-                      {attempts.length > 1 && (
-                        <button
-                          type="button"
-                          onClick={() => removeAttempt(att.id)}
-                          className="no-print-affidavit text-red-500 hover:text-red-700 px-1 cursor-pointer"
-                          title="Remove attempt"
-                        >
-                          <Trash2 className="w-3 h-3" />
-                        </button>
-                      )}
+                    <td className="p-1 pl-2">
+                      <div className="flex items-center justify-between gap-1 screen-only-input">
+                        <input
+                          type="text"
+                          value={att.notes}
+                          onChange={(e) => updateAttempt(att.id, 'notes', e.target.value)}
+                          placeholder="e.g. No answer, spoke with resident, vehicle on site..."
+                          aria-label={`Attempt ${idx + 1} Notes`}
+                          className="w-full bg-transparent border-b border-gray-200 focus:border-black outline-none print-clean-input text-[9pt]"
+                        />
+                        {attempts.length > 1 && (
+                          <button
+                            type="button"
+                            onClick={() => removeAttempt(att.id)}
+                            className="no-print-affidavit text-red-500 hover:text-red-700 px-1 cursor-pointer"
+                            title="Remove attempt"
+                          >
+                            <Trash2 className="w-3 h-3" />
+                          </button>
+                        )}
+                      </div>
+                      <div className="print-only-text hidden">
+                        {att.notes || '—'}
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -903,8 +995,8 @@ export default function AffidavitOfService() {
                     onChange={(e) => setJurisdictionState(e.target.value)}
                     placeholder="State"
                     aria-label="Declaration State"
-                    className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
-                  /> and the United States of America that the foregoing is true and correct.
+                    className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input screen-only-input"
+                  /><span className="print-only-text hidden font-bold inline">{jurisdictionState || '_________'}</span> and the United States of America that the foregoing is true and correct.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 pt-1">
@@ -917,8 +1009,9 @@ export default function AffidavitOfService() {
                         onChange={(e) => setExecutionDate(e.target.value)}
                         placeholder="MM/DD/YYYY"
                         aria-label="Execution Date"
-                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input"
+                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input screen-only-input"
                       />
+                      <span className="print-only-text hidden font-semibold inline">{executionDate || '_________________'}</span>
                     </div>
                     <div className="mt-1">
                       <span className="font-bold text-[10px] block">At (City, State):</span>
@@ -926,58 +1019,125 @@ export default function AffidavitOfService() {
                         type="text"
                         value={executionCity}
                         onChange={(e) => setExecutionCity(e.target.value)}
-                        placeholder="e.g. Tulsa, OK"
+                        placeholder="City, State"
                         aria-label="Execution City"
-                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input"
+                        className="font-semibold bg-transparent border-b border-black outline-none w-36 print-clean-input screen-only-input"
                       />
+                      <span className="print-only-text hidden font-semibold inline">{executionCity || '_________________'}</span>
                     </div>
                   </div>
 
                   <div className="space-y-0.5">
                     <div className="border-b border-black w-full mb-1 mt-4" />
                     <span className="font-bold text-[9pt] uppercase block text-gray-700">Declarant / Process Server:</span>
-                    <input
-                      type="text"
-                      value={serverName}
-                      onChange={(e) => setServerName(e.target.value)}
-                      placeholder="Server Full Name"
-                      aria-label="Server Name"
-                      className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                    />
-                    <input
-                      type="text"
-                      value={serverLicense}
-                      onChange={(e) => setServerLicense(e.target.value)}
-                      placeholder="License / Title (optional)"
-                      aria-label="Server License"
-                      className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                    />
-                    <input
-                      type="text"
-                      value={serverCompany}
-                      onChange={(e) => setServerCompany(e.target.value)}
-                      placeholder="Company Name (optional)"
-                      aria-label="Company Name"
-                      className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                    />
-                    <div className="flex gap-2 text-[8.5pt]">
+                    <div>
                       <input
                         type="text"
-                        value={serverPhone}
-                        onChange={(e) => setServerPhone(e.target.value)}
-                        placeholder="Phone (optional)"
-                        aria-label="Phone"
-                        className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                        value={serverName}
+                        onChange={(e) => setServerName(e.target.value)}
+                        placeholder="Server Full Name"
+                        aria-label="Server Name"
+                        className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
                       />
-                      <input
-                        type="text"
-                        value={serverEmail}
-                        onChange={(e) => setServerEmail(e.target.value)}
-                        placeholder="Email (optional)"
-                        aria-label="Email"
-                        className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                      />
+                      <div className="print-only-text hidden font-bold text-[10pt]">
+                        {serverName || '___________________________'}
+                      </div>
                     </div>
+
+                    {serverLicense.trim() ? (
+                      <div>
+                        <input
+                          type="text"
+                          value={serverLicense}
+                          onChange={(e) => setServerLicense(e.target.value)}
+                          placeholder="License / Title"
+                          aria-label="Server License"
+                          className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
+                        />
+                        <div className="print-only-text hidden text-[9pt] text-gray-800">{serverLicense}</div>
+                      </div>
+                    ) : (
+                      <div className="no-print">
+                        <input
+                          type="text"
+                          value={serverLicense}
+                          onChange={(e) => setServerLicense(e.target.value)}
+                          placeholder="License / Title (optional)"
+                          aria-label="Server License"
+                          className="w-full text-[9pt] text-gray-500 bg-transparent border-b border-gray-200 focus:border-black outline-none"
+                        />
+                      </div>
+                    )}
+
+                    {serverCompany.trim() ? (
+                      <div>
+                        <input
+                          type="text"
+                          value={serverCompany}
+                          onChange={(e) => setServerCompany(e.target.value)}
+                          placeholder="Company Name"
+                          aria-label="Company Name"
+                          className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
+                        />
+                        <div className="print-only-text hidden text-[9pt] font-semibold">{serverCompany}</div>
+                      </div>
+                    ) : (
+                      <div className="no-print">
+                        <input
+                          type="text"
+                          value={serverCompany}
+                          onChange={(e) => setServerCompany(e.target.value)}
+                          placeholder="Company Name (optional)"
+                          aria-label="Company Name"
+                          className="w-full text-[9pt] text-gray-500 bg-transparent border-b border-gray-200 focus:border-black outline-none"
+                        />
+                      </div>
+                    )}
+
+                    {(serverPhone.trim() || serverEmail.trim()) ? (
+                      <div className="text-[8.5pt]">
+                        <div className="flex gap-2 screen-only-input">
+                          <input
+                            type="text"
+                            value={serverPhone}
+                            onChange={(e) => setServerPhone(e.target.value)}
+                            placeholder="Phone"
+                            aria-label="Phone"
+                            className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                          />
+                          <input
+                            type="text"
+                            value={serverEmail}
+                            onChange={(e) => setServerEmail(e.target.value)}
+                            placeholder="Email"
+                            aria-label="Email"
+                            className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                          />
+                        </div>
+                        <div className="print-only-text hidden text-[8.5pt] text-gray-700">
+                          {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="no-print flex gap-2 text-[8.5pt]">
+                        <input
+                          type="text"
+                          value={serverPhone}
+                          onChange={(e) => setServerPhone(e.target.value)}
+                          placeholder="Phone (optional)"
+                          aria-label="Phone"
+                          className="w-1/2 bg-transparent border-b border-gray-200 focus:border-black outline-none text-gray-500"
+                        />
+                        <input
+                          type="text"
+                          value={serverEmail}
+                          onChange={(e) => setServerEmail(e.target.value)}
+                          placeholder="Email (optional)"
+                          aria-label="Email"
+                          className="w-1/2 bg-transparent border-b border-gray-200 focus:border-black outline-none text-gray-500"
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
@@ -988,48 +1148,114 @@ export default function AffidavitOfService() {
                 <div className="space-y-0.5">
                   <div className="border-b border-black w-full mb-1 mt-5" />
                   <span className="font-bold text-[9pt] uppercase block text-gray-700">Affiant / Process Server Signature</span>
-                  <input
-                    type="text"
-                    value={serverName}
-                    onChange={(e) => setServerName(e.target.value)}
-                    placeholder="Process Server Full Name"
-                    aria-label="Server Name"
-                    className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                  />
-                  <input
-                    type="text"
-                    value={serverLicense}
-                    onChange={(e) => setServerLicense(e.target.value)}
-                    placeholder="License / Title (optional)"
-                    aria-label="Server License"
-                    className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                  />
-                  <input
-                    type="text"
-                    value={serverCompany}
-                    onChange={(e) => setServerCompany(e.target.value)}
-                    placeholder="Company Name (optional)"
-                    aria-label="Company Name"
-                    className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                  />
-                  <div className="flex gap-2 text-[8.5pt]">
+                  <div>
                     <input
                       type="text"
-                      value={serverPhone}
-                      onChange={(e) => setServerPhone(e.target.value)}
-                      placeholder="Phone (optional)"
-                      aria-label="Phone"
-                      className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                      value={serverName}
+                      onChange={(e) => setServerName(e.target.value)}
+                      placeholder="Process Server Full Name"
+                      aria-label="Server Name"
+                      className="w-full font-bold text-[10pt] bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
                     />
-                    <input
-                      type="text"
-                      value={serverEmail}
-                      onChange={(e) => setServerEmail(e.target.value)}
-                      placeholder="Email (optional)"
-                      aria-label="Email"
-                      className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
-                    />
+                    <div className="print-only-text hidden font-bold text-[10pt]">
+                      {serverName || '___________________________'}
+                    </div>
                   </div>
+
+                  {serverLicense.trim() ? (
+                    <div>
+                      <input
+                        type="text"
+                        value={serverLicense}
+                        onChange={(e) => setServerLicense(e.target.value)}
+                        placeholder="License / Title"
+                        aria-label="Server License"
+                        className="w-full text-[9pt] text-gray-800 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
+                      />
+                      <div className="print-only-text hidden text-[9pt] text-gray-800">{serverLicense}</div>
+                    </div>
+                  ) : (
+                    <div className="no-print">
+                      <input
+                        type="text"
+                        value={serverLicense}
+                        onChange={(e) => setServerLicense(e.target.value)}
+                        placeholder="License / Title (optional)"
+                        aria-label="Server License"
+                        className="w-full text-[9pt] text-gray-500 bg-transparent border-b border-gray-200 focus:border-black outline-none"
+                      />
+                    </div>
+                  )}
+
+                  {serverCompany.trim() ? (
+                    <div>
+                      <input
+                        type="text"
+                        value={serverCompany}
+                        onChange={(e) => setServerCompany(e.target.value)}
+                        placeholder="Company Name"
+                        aria-label="Company Name"
+                        className="w-full text-[9pt] font-semibold bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input"
+                      />
+                      <div className="print-only-text hidden text-[9pt] font-semibold">{serverCompany}</div>
+                    </div>
+                  ) : (
+                    <div className="no-print">
+                      <input
+                        type="text"
+                        value={serverCompany}
+                        onChange={(e) => setServerCompany(e.target.value)}
+                        placeholder="Company Name (optional)"
+                        aria-label="Company Name"
+                        className="w-full text-[9pt] text-gray-500 bg-transparent border-b border-gray-200 focus:border-black outline-none"
+                      />
+                    </div>
+                  )}
+
+                  {(serverPhone.trim() || serverEmail.trim()) ? (
+                    <div className="text-[8.5pt]">
+                      <div className="flex gap-2 screen-only-input">
+                        <input
+                          type="text"
+                          value={serverPhone}
+                          onChange={(e) => setServerPhone(e.target.value)}
+                          placeholder="Phone"
+                          aria-label="Phone"
+                          className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                        />
+                        <input
+                          type="text"
+                          value={serverEmail}
+                          onChange={(e) => setServerEmail(e.target.value)}
+                          placeholder="Email"
+                          aria-label="Email"
+                          className="w-1/2 bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                        />
+                      </div>
+                      <div className="print-only-text hidden text-[8.5pt] text-gray-700">
+                        {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="no-print flex gap-2 text-[8.5pt]">
+                      <input
+                        type="text"
+                        value={serverPhone}
+                        onChange={(e) => setServerPhone(e.target.value)}
+                        placeholder="Phone (optional)"
+                        aria-label="Phone"
+                        className="w-1/2 bg-transparent border-b border-gray-200 focus:border-black outline-none text-gray-500"
+                      />
+                      <input
+                        type="text"
+                        value={serverEmail}
+                        onChange={(e) => setServerEmail(e.target.value)}
+                        placeholder="Email (optional)"
+                        aria-label="Email"
+                        className="w-1/2 bg-transparent border-b border-gray-200 focus:border-black outline-none text-gray-500"
+                      />
+                    </div>
+                  )}
                 </div>
 
                 {/* Right: Notary Jurat */}
@@ -1044,15 +1270,15 @@ export default function AffidavitOfService() {
                       onChange={(e) => setNotaryState(e.target.value)}
                       placeholder="State"
                       aria-label="Notary State"
-                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
-                    />, County of <input
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input screen-only-input"
+                    /><span className="print-only-text hidden font-bold inline">{notaryState || '_________'}</span>, County of <input
                       type="text"
                       value={notaryCounty}
                       onChange={(e) => setNotaryCounty(e.target.value)}
                       placeholder="County"
                       aria-label="Notary County"
-                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input"
-                    />
+                      className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 print-clean-input screen-only-input"
+                    /><span className="print-only-text hidden font-bold inline">{notaryCounty || '_________'}</span>
                   </div>
                   <p className="text-[8pt] leading-tight">
                     Subscribed and sworn to before me this _____ day of __________________, 20___, 
@@ -1062,26 +1288,28 @@ export default function AffidavitOfService() {
                   <div className="text-[8pt] font-bold">Notary Public Signature &amp; Official Seal</div>
                   <div className="grid grid-cols-2 gap-1 text-[8pt]">
                     <div>
-                      <span>Comm. #:</span>
+                      <span>Comm. #: </span>
                       <input
                         type="text"
                         value={commissionNum}
                         onChange={(e) => setCommissionNum(e.target.value)}
                         placeholder="Commission #"
                         aria-label="Commission Number"
-                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                        className="bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input w-20"
                       />
+                      <span className="print-only-text hidden inline">{commissionNum || '____________'}</span>
                     </div>
                     <div>
-                      <span>Expires:</span>
+                      <span>Expires: </span>
                       <input
                         type="text"
                         value={commissionExp}
                         onChange={(e) => setCommissionExp(e.target.value)}
                         placeholder="MM/DD/YYYY"
                         aria-label="Expiration Date"
-                        className="w-full bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input"
+                        className="bg-transparent border-b border-gray-300 focus:border-black outline-none print-clean-input screen-only-input w-24"
                       />
+                      <span className="print-only-text hidden inline">{commissionExp || '____________'}</span>
                     </div>
                   </div>
                 </div>
