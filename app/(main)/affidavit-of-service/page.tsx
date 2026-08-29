@@ -4,23 +4,29 @@ import AffidavitOfService from '@/components/AffidavitOfService';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Affidavit of Service Generator',
+  title: 'Affidavit & Declaration of Service Generator (50-State Compliant)',
   description:
-    'Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving. Fill in case details, manner of service, and notary — then print or save as PDF.',
+    'Free nationwide legal document generator for process servers and attorneys. Create court-ready Affidavits of Service (Notarized), Declarations of Service (Unsworn under penalty of perjury), and Affidavits/Declarations of Non-Service.',
   keywords: [
     'affidavit of service',
+    'declaration of service',
     'affidavit of non-service',
-    'oklahoma affidavit of service form',
-    'process server affidavit',
-    'service of process affidavit',
-    'tulsa affidavit of service',
+    'declaration of non-service',
     'proof of service form',
+    'oklahoma affidavit of service form',
+    'nationwide affidavit of service',
+    'unsworn declaration of service',
+    'process server affidavit',
+    'service of process return',
+    'tulsa affidavit of service',
+    'due diligence non-service form',
   ],
   robots: 'index, follow',
   twitter: {
     card: 'summary_large_image',
-    title: 'Affidavit of Service Generator',
-    description: 'Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving. Fill in case details, manner of service, and notary — then print or save as PDF.',
+    title: 'Affidavit & Declaration of Service Generator (50-State Compliant)',
+    description:
+      'Create court-ready Affidavits of Service (Notarized), Declarations of Service (Unsworn penalty of perjury), and Non-Service due diligence forms.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-060-affidavit-of-service-og.png'],
   },
   alternates: {
@@ -31,11 +37,11 @@ export const metadata: Metadata = {
       url: 'https://justlegalsolutions.org/image-pack/images/image-060-affidavit-of-service-og.png',
       width: 1200,
       height: 630,
-      alt: 'Just Legal Solutions — professional process serving in Oklahoma',
+      alt: 'Just Legal Solutions — professional process serving and legal document tools',
     }],
-    title: 'Affidavit of Service Generator',
+    title: 'Affidavit & Declaration of Service Generator (50-State Compliant)',
     description:
-      'Professional Affidavit of Service generator for Oklahoma process servers. Fill, print, or save to PDF.',
+      'Professional Affidavit and Declaration of Service generator for process servers, attorneys, and legal professionals. Fill on mobile or desktop, print, or save to PDF.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/affidavit-of-service',
@@ -49,24 +55,26 @@ export default function AffidavitOfServicePage() {
       <UnifiedSchema
         pageType="generic"
         url="https://justlegalsolutions.org/affidavit-of-service"
-        title="Affidavit of Service Generator | Just Legal Solutions"
-        description="Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving."
+        title="Affidavit & Declaration of Service Generator | Just Legal Solutions"
+        description="Generate and print court-ready Affidavits of Service, Declarations of Service, and Due Diligence Non-Service documents for all 50 states."
         breadcrumbItems={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
-          { name: 'Affidavit of Service', item: 'https://justlegalsolutions.org/affidavit-of-service' }
+          { name: 'Affidavit & Declaration of Service', item: 'https://justlegalsolutions.org/affidavit-of-service' }
         ]}
       />
-    <div className="affidavit-wrapper" style={{ backgroundColor: '#555', minHeight: '100vh', paddingBottom: 40 }}>
-      <div className="max-w-5xl mx-auto px-4 pt-6 pb-4 no-print-affidavit">
-        <h1 className="text-3xl font-bold text-center text-white mb-1">
-          Affidavit of Service Generator
-        </h1>
-        <p className="text-center text-gray-300 text-sm mb-4">
-          Fill in the details below, then print or save as PDF for your records.
-        </p>
+      <div className="affidavit-wrapper bg-slate-950/90 py-6 sm:py-8 min-h-screen">
+        <div className="max-w-5xl mx-auto px-4 pb-2 no-print-affidavit text-center">
+          <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
+            Nationwide Affidavit &amp; Declaration Generator
+          </h1>
+          <p className="text-slate-300 text-xs sm:text-base max-w-2xl mx-auto">
+            Easily generate court-admissible returns of service for all 50 states. Choose between a sworn 
+            <strong className="text-white"> Affidavit (Notarized)</strong> or an unsworn 
+            <strong className="text-white"> Declaration (Penalty of Perjury)</strong> for both completed service and diligent non-service.
+          </p>
+        </div>
+        <AffidavitOfService />
       </div>
-      <AffidavitOfService />
-    </div>
     </>
   );
 }
