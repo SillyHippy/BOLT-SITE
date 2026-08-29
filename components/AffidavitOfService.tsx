@@ -9,8 +9,7 @@ import {
   RotateCcw, 
   Check, 
   Scale, 
-  Sparkles, 
-  ShieldCheck
+  Sparkles
 } from 'lucide-react';
 
 export type DocumentType = 
@@ -410,26 +409,13 @@ export default function AffidavitOfService() {
           margin: 0.35in 0.45in;
         }
         @media print {
-          /* Force hide entire webpage body children except the targeted document */
-          body * {
-            visibility: hidden !important;
-          }
-          .affidavit-page, .affidavit-page * {
-            visibility: visible !important;
-          }
-          .affidavit-page {
-            position: absolute !important;
-            left: 0 !important;
-            top: 0 !important;
-            width: 100% !important;
-            max-width: 100% !important;
+          html, body {
+            background: #fff !important;
             margin: 0 !important;
             padding: 0 !important;
-            box-shadow: none !important;
-            border: none !important;
-            background: #fff !important;
+            font-size: 10pt !important;
           }
-          header, footer, nav, aside, .fixed, .sticky, [aria-label="Call or contact Just Legal Solutions"], .no-print, .no-print-affidavit, .ui-glass-nav, .site-footer, #mobile-menu, .ui-mobile-safe-panel {
+          header, footer, nav, aside, .navbar, .site-footer, .no-print, .no-print-affidavit, [aria-label="Call or contact Just Legal Solutions"], .fixed, .sticky, [class*="sticky"], [class*="Sticky"], #mobile-menu, .ui-mobile-safe-panel, .ui-glass-nav {
             display: none !important;
             visibility: hidden !important;
             height: 0 !important;
@@ -439,6 +425,33 @@ export default function AffidavitOfService() {
             padding: 0 !important;
             border: none !important;
             position: static !important;
+          }
+          .affidavit-wrapper {
+            background: #fff !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            min-height: 0 !important;
+          }
+          main, .flex.flex-col.min-h-screen, .flex.flex-col.min-h-screen > main {
+            padding: 0 !important;
+            margin: 0 !important;
+            min-height: 0 !important;
+            background: #fff !important;
+            display: block !important;
+          }
+          .pt-14 {
+            padding-top: 0 !important;
+          }
+          .affidavit-page {
+            width: 100% !important;
+            max-width: 100% !important;
+            min-height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            box-shadow: none !important;
+            background: #fff !important;
+            overflow: visible !important;
           }
           .print-clean-input {
             border: none !important;
@@ -450,9 +463,9 @@ export default function AffidavitOfService() {
             white-space: pre-wrap !important;
             word-break: break-word !important;
           }
-          .page-break-auto {
-            page-break-inside: avoid;
-            break-inside: avoid;
+          .page-break-avoid {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
           }
         }
       `}</style>
@@ -532,7 +545,7 @@ export default function AffidavitOfService() {
             })}
           </div>
 
-          {/* Quick Presets Dropdown & Buttons */}
+          {/* Quick Presets Dropdown & Options */}
           <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800 text-xs">
             <div className="flex items-center gap-2 flex-grow sm:flex-grow-0">
               <span className="text-slate-400 font-semibold flex items-center gap-1 shrink-0">
@@ -771,7 +784,7 @@ export default function AffidavitOfService() {
           </div>
 
           {/* Chronological Service Attempts Log */}
-          <div className="mb-2 page-break-auto">
+          <div className="mb-2 page-break-avoid">
             <div className="flex items-center justify-between mb-1">
               <strong className="uppercase text-[9pt]">
                 Service Attempts &amp; Due Diligence Log:
@@ -846,7 +859,7 @@ export default function AffidavitOfService() {
 
           {/* Optional Military Status (SCRA 50 U.S.C. § 3931) */}
           {showMilitary && (
-            <div className="mb-2 text-[9pt] border border-gray-300 p-1.5 print:border-none print:p-0 page-break-auto">
+            <div className="mb-2 text-[9pt] border border-gray-300 p-1.5 print:border-none print:p-0 page-break-avoid">
               <strong className="uppercase text-[8pt] block mb-0.5">Military Status (SCRA 50 U.S.C. § 3931):</strong>
               <div className="no-print-affidavit flex gap-3 mb-1 text-[9pt]">
                 {[
@@ -878,7 +891,7 @@ export default function AffidavitOfService() {
           )}
 
           {/* Closing Block: Declaration vs Affidavit */}
-          <div className="pt-2 border-t border-black page-break-auto">
+          <div className="pt-2 border-t border-black page-break-avoid">
             {isDeclaration ? (
               /* ─── UNSWORN DECLARATION CLOSING ─── */
               <div className="space-y-2 text-xs">

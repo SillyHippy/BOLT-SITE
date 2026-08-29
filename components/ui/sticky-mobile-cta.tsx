@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function StickyMobileCTA() {
   const [visible, setVisible] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     // Show after scrolling 300px
@@ -12,6 +14,11 @@ export default function StickyMobileCTA() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Do not render on legal generator/document tool pages
+  if (pathname && (pathname.includes('/affidavit-of-service') || pathname.includes('/affidavit'))) {
+    return null;
+  }
 
   return (
     <div
