@@ -402,7 +402,7 @@ export default function BlogPost() {
             </p>
             <p className="text-gray-700">
               <Link href="/contact" className="text-blue-600 hover:underline font-medium">Request service today</Link> or call/text{' '}
-              <a href="tel:5393676832" className="text-blue-600 hover:underline font-medium">(539) 367-6832</a> for immediate assistance. For more general questions about hiring a process server in Oklahoma, see our <Link href="/blog/what-to-expect-hiring-process-server-client-faq-oklahoma" className="text-blue-600 hover:underline">client FAQ guide</Link>.
+              <a href="tel:5393676832" className="text-blue-600 hover:underline font-medium">(539) 367-6832</a> for immediate assistance. For more general questions about hiring a process server in Oklahoma, see our <Link href="/blog/questions-to-ask-before-hiring-process-server" className="text-blue-600 hover:underline">client hiring questions guide</Link>.
             </p>
           </div>
 

@@ -225,7 +225,7 @@ export default function BlogPost() {
           </p>
           <p className="text-gray-700 mb-4">
             Corporate documents like articles of incorporation and certificates of good standing are also generally exempt — the date of issuance is acceptable, even if it is older than 12 months. The key is knowing which documents need attention and which do not. If you are unsure, it is always worth a quick phone call before you submit.{' '}
-            <Link href="/services/notary-services" className="text-blue-600 hover:underline">
+            <Link href="/mobile-notary" className="text-blue-600 hover:underline">
               Need a fresh notarization on a new document? Our mobile notaries cover all 77 Oklahoma counties
             </Link>.
           </p>
@@ -262,7 +262,7 @@ export default function BlogPost() {
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-8">
             <p className="text-gray-800 mb-3 font-medium">
               Are you an Oklahoman abroad, military personnel, or international business client?{' '}
-              <Link href="/services/notary-services" className="text-blue-600 hover:underline">
+              <Link href="/mobile-notary" className="text-blue-600 hover:underline">
                 Book a Remote Online Notarization session
               </Link>{' '}
               and handle your Oklahoma documents from anywhere in the world.
@@ -290,7 +290,7 @@ export default function BlogPost() {
           </p>
           <p className="text-gray-700 mb-4">
             For countries not in the Hague Convention, Section 117(C) allows documents notarized by a consular officer of that country to be recognized in Oklahoma. This creates a pathway for documents from nations that have not yet joined the Convention — though the process is more complex and may require additional steps.{' '}
-            <Link href="/services/notary-services" className="text-blue-600 hover:underline">
+            <Link href="/mobile-notary" className="text-blue-600 hover:underline">
               Need help understanding whether your foreign document is ready for use in Oklahoma? We can review it
             </Link>.
           </p>
