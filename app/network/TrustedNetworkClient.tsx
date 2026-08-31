@@ -7,15 +7,11 @@ import {
   MapPin, 
   Search, 
   AlertTriangle, 
-  ShieldCheck, 
-  Star, 
-  ExternalLink,
-  MessageSquare,
+  KeyRound, 
+  LogOut, 
+  Lock, 
   CreditCard,
-  Lock,
-  Unlock,
-  KeyRound,
-  LogOut
+  MessageSquare
 } from 'lucide-react';
 
 interface Territory {
@@ -112,7 +108,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
     });
   }, [servers, searchTerm, selectedRegion]);
 
-  // Loading state while checking localStorage
+  // Loading state
   if (isAuthenticated === null) {
     return (
       <div className="min-h-[400px] flex items-center justify-center">
@@ -228,7 +224,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
 
       {/* Result Count */}
       <div className="text-xs text-slate-400 flex items-center justify-between px-1">
-        <span>Showing {filteredServers.length} of {servers.length} trusted contacts</span>
+        <span>Showing {filteredServers.length} of {servers.length} verified servers</span>
         {searchTerm && <span>Filtering by: &quot;{searchTerm}&quot;</span>}
       </div>
 
@@ -236,6 +232,8 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
       <div className="grid grid-cols-1 gap-6">
         {filteredServers.map((server) => {
           const hasWarning = server.pricingRules.includes('⚠️') || server.pricingRules.toLowerCase().includes('prior approval');
+          const hasPhone = Boolean(server.phone && server.phone.trim().length > 0);
+          const hasEmail = Boolean(server.email && server.email.trim().length > 0);
 
           return (
             <div
@@ -331,99 +329,57 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
                   </div>
 
                   {/* Primary Phone */}
-                  <div className="space-y-1">
-                    <span className="text-[11px] text-slate-400 font-medium">Primary Phone:</span>
-                    <div className="grid grid-cols-2 gap-2">
-                      <a
-                        href={`tel:${server.phone.replace(/[^0-9]/g, '')}`}
-                        className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition-colors"
-                      >
-                        <Phone className="w-3.5 h-3.5" />
-                        Call
-                      </a>
-                      <a
-                        href={`sms:${server.phone.replace(/[^0-9]/g, '')}`}
-                        className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow transition-colors"
-                      >
-                        <MessageSquare className="w-3.5 h-3.5" />
-                        Text
-                      </a>
-                    </div>
-                    <div className="text-center text-xs text-slate-300 font-mono pt-0.5">{server.phone}</div>
-                  </div>
-
-                  {/* Alternate Phone */}
-                  {server.altPhone && (
-                    <div className="space-y-1 pt-1">
-                      <span className="text-[11px] text-slate-400 font-medium">Secondary / Alt Phone:</span>
+                  {hasPhone ? (
+                    <div className="space-y-1">
+                      <span className="text-[11px] text-slate-400 font-medium">Primary Phone:</span>
                       <div className="grid grid-cols-2 gap-2">
                         <a
-                          href={`tel:${server.altPhone.replace(/[^0-9]/g, '')}`}
-                          className="flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs border border-slate-600"
+                          href={`tel:${server.phone.replace(/[^0-9]/g, '')}`}
+                          className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition-colors"
                         >
-                          <Phone className="w-3 h-3 text-emerald-400" />
-                          Call Alt
+                          <Phone className="w-3.5 h-3.5" />
+                          Call
                         </a>
                         <a
-                          href={`sms:${server.altPhone.replace(/[^0-9]/g, '')}`}
-                          className="flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs border border-slate-600"
+                          href={`sms:${server.phone.replace(/[^0-9]/g, '')}`}
+                          className="flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow transition-colors"
                         >
-                          <MessageSquare className="w-3 h-3 text-blue-400" />
-                          Text Alt
+                          <MessageSquare className="w-3.5 h-3.5" />
+                          Text
                         </a>
                       </div>
-                      <div className="text-center text-xs text-slate-400 font-mono">{server.altPhone}</div>
+                      <div className="text-center text-xs text-slate-300 font-mono pt-0.5">{server.phone}</div>
+                    </div>
+                  ) : (
+                    <div className="text-xs text-slate-400 py-2 bg-slate-800/60 rounded px-2.5 text-center">
+                      Contact: Direct / In App
                     </div>
                   )}
 
                   {/* Email Actions */}
-                  <div className="space-y-1.5 pt-2 border-t border-slate-800">
-                    <span className="text-[11px] text-slate-400 font-medium">Email Dispatch:</span>
-                    <a
-                      href={`mailto:${server.email}?subject=Process%20Service%20Dispatch%20-%20Just%20Legal%20Solutions`}
-                      className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold border border-slate-600 transition-colors"
-                    >
-                      <Mail className="w-3.5 h-3.5 text-amber-400" />
-                      <span className="truncate">{server.email}</span>
-                    </a>
-
-                    {server.altEmail && (
+                  {hasEmail ? (
+                    <div className="space-y-1.5 pt-2 border-t border-slate-800">
+                      <span className="text-[11px] text-slate-400 font-medium">Email Dispatch:</span>
                       <a
-                        href={`mailto:${server.altEmail}?subject=Process%20Service%20Dispatch%20-%20Just%20Legal%20Solutions`}
-                        className="flex items-center justify-center gap-2 w-full py-1.5 px-3 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs border border-slate-700 transition-colors"
+                        href={`mailto:${server.email}?subject=Process%20Service%20Dispatch%20-%20Just%20Legal%20Solutions`}
+                        className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold border border-slate-600 transition-colors"
                       >
-                        <Mail className="w-3.5 h-3.5 text-slate-400" />
-                        <span className="truncate">{server.altEmail}</span>
+                        <Mail className="w-3.5 h-3.5 text-amber-400" />
+                        <span className="truncate">{server.email}</span>
                       </a>
-                    )}
-                  </div>
+                    </div>
+                  ) : null}
 
                   {/* Payment */}
                   <div className="pt-2 border-t border-slate-800 flex items-center justify-between text-xs">
                     <span className="text-slate-400">Payment:</span>
-                    <span className="font-semibold text-emerald-400">{server.paymentMethod}</span>
+                    <span className="font-semibold text-emerald-400">{server.paymentMethod || 'Direct'}</span>
                   </div>
                 </div>
               </div>
             </div>
           );
         })}
-
-        {filteredServers.length === 0 && (
-          <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-12 text-center">
-            <p className="text-slate-300 text-base font-semibold">No servers found matching &quot;{searchTerm}&quot;</p>
-            <p className="text-slate-500 text-sm mt-1">Try searching by county name (e.g. &quot;Payne&quot;, &quot;Rogers&quot;, &quot;Oklahoma&quot;) or clear the search.</p>
-            <button
-              onClick={() => {
-                setSearchTerm('');
-                setSelectedRegion('All');
-              }}
-              className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg text-xs font-bold hover:bg-blue-500"
-            >
-              Reset Filters
-            </button>
-          </div>
-        )}
       </div>
     </div>
   );
