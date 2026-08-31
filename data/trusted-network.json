@@ -1,0 +1,249 @@
+[
+  {
+    "id": "riley-rmm",
+    "name": "Riley",
+    "businessName": "RMM Service of Process, LLC",
+    "rating": "5.0 \u2605\u2605\u2605\u2605\u2605 (Top Tier)",
+    "phone": "(405) 833-2894",
+    "email": "rmmprocess@gmail.com",
+    "altEmail": "riley@rmmprocess.com",
+    "paymentMethod": "Venmo (@RMM-Process)",
+    "territory": {
+      "region": "Oklahoma City Metro & Central OK",
+      "primaryCounties": [
+        "Oklahoma",
+        "Cleveland",
+        "Canadian",
+        "Logan",
+        "Grady",
+        "Caddo",
+        "Pottawatomie",
+        "McClain"
+      ],
+      "majorCities": [
+        "Oklahoma City",
+        "Edmond",
+        "Norman",
+        "Yukon",
+        "Mustang",
+        "Moore",
+        "Chickasha",
+        "Anadarko",
+        "El Reno"
+      ]
+    },
+    "services": [
+      "Registered Agent Serves",
+      "Secretary of State (SOS) Filings",
+      "Priority Metro Rush",
+      "Skip Tracing"
+    ],
+    "notes": "Phenomenal 5-star partner all the way around. Primary contact for all OKC and Central Oklahoma jobs. Fast turnaround with immediate affidavit return.",
+    "pricingRules": "Standard transparent metro flat rates. Venmo accepted."
+  },
+  {
+    "id": "bill-aycock-linda-young",
+    "name": "William 'Bill' Aycock & Linda Young",
+    "businessName": "Acox & Associates / Independent Field Service",
+    "rating": "4.8 \u2605\u2605\u2605\u2605\u2605 (Phenomenal Field Servers)",
+    "phone": "(918) 694-1180",
+    "altPhone": "(918) 341-2940",
+    "email": "billaycock@sbcglobal.net",
+    "altEmail": "lindayoungprocess@yahoo.com",
+    "paymentMethod": "Direct / Venmo / Check",
+    "territory": {
+      "region": "Northeast Oklahoma & Green Country",
+      "primaryCounties": [
+        "Rogers",
+        "Mayes",
+        "Craig",
+        "Delaware",
+        "Wagoner",
+        "Creek",
+        "Nowata",
+        "Ottawa"
+      ],
+      "majorCities": [
+        "Claremore",
+        "Pryor",
+        "Vinita",
+        "Grove",
+        "Sapulpa",
+        "Bristow",
+        "Miami",
+        "Nowata"
+      ]
+    },
+    "services": [
+      "Rural Route Serves",
+      "Multi-County Outlying Delivery",
+      "Court Affidavits"
+    ],
+    "notes": "Both operate essentially together under separate email dispatches. High volume, great local county coverage.",
+    "pricingRules": "\u26a0\ufe0f MANDATORY RULE: You must specify upfront that if the price goes above the quoted price, they MUST let you know first before proceeding to prevent overcharging."
+  },
+  {
+    "id": "kevin-plunkett",
+    "name": "Kevin Plunkett",
+    "businessName": "Plunkett Legal Support",
+    "rating": "4.9 \u2605\u2605\u2605\u2605\u2605 (Very Good)",
+    "phone": "(405) 615-3920",
+    "email": "kplunkett.process@gmail.com",
+    "paymentMethod": "Venmo",
+    "territory": {
+      "region": "Central & Greater Oklahoma Metro",
+      "primaryCounties": [
+        "Oklahoma",
+        "Cleveland",
+        "Canadian",
+        "Lincoln"
+      ],
+      "majorCities": [
+        "Oklahoma City",
+        "Midwest City",
+        "Shawnee",
+        "Norman"
+      ]
+    },
+    "services": [
+      "Standard Civil Process",
+      "Court Filings",
+      "Rush Service"
+    ],
+    "notes": "Pretty good, reliable server. Prompt communication and clear attempt logging.",
+    "pricingRules": "Standard metro rates (~$75\u2013$100)."
+  },
+  {
+    "id": "cale-pyngst",
+    "name": "Cale Pyngst",
+    "businessName": "Pyngst Process Service",
+    "rating": "4.8 \u2605\u2605\u2605\u2605\u2606 (Very Good)",
+    "phone": "(918) 720-4412",
+    "email": "calepyngst@gmail.com",
+    "paymentMethod": "Venmo / Cash App",
+    "territory": {
+      "region": "Eastern / Northeast Corridor",
+      "primaryCounties": [
+        "Tulsa",
+        "Osage",
+        "Washington",
+        "Pawnee"
+      ],
+      "majorCities": [
+        "Bartlesville",
+        "Pawhuska",
+        "Skiatook",
+        "Collinsville"
+      ]
+    },
+    "services": [
+      "Field Process Serving",
+      "Skip Tracing",
+      "Document Delivery"
+    ],
+    "notes": "Solid field operator with good reach into northern/eastern counties.",
+    "pricingRules": "Per-county flat rates."
+  },
+  {
+    "id": "misty-pingleton",
+    "name": "Misty Pingleton",
+    "businessName": "Pingleton Process Serving",
+    "rating": "4.8 \u2605\u2605\u2605\u2605\u2606 (Very Good)",
+    "phone": "(580) 317-5501",
+    "email": "mistypingleton@gmail.com",
+    "paymentMethod": "Venmo / Cash App",
+    "territory": {
+      "region": "Southeast / South Central OK",
+      "primaryCounties": [
+        "Choctaw",
+        "Pushmataha",
+        "McCurtain",
+        "Atoka",
+        "Bryan"
+      ],
+      "majorCities": [
+        "Hugo",
+        "Idabel",
+        "Antlers",
+        "Atoka",
+        "Durant"
+      ]
+    },
+    "services": [
+      "Rural Process Serving",
+      "Affidavit of Service",
+      "Difficult Serves"
+    ],
+    "notes": "Good dependable field server for southeast Oklahoma rural areas.",
+    "pricingRules": "Standard rural fees (~$85+)."
+  },
+  {
+    "id": "chet-golden",
+    "name": "Chet Golden",
+    "businessName": "Golden & Associates Process Serving",
+    "rating": "4.7 \u2605\u2605\u2605\u2605\u2606 (Western OK Specialist)",
+    "phone": "(580) 482-1200",
+    "email": "goldenprocessok@gmail.com",
+    "paymentMethod": "Cash App ($ChetGolden)",
+    "territory": {
+      "region": "Southwest & Western Oklahoma",
+      "primaryCounties": [
+        "Jackson",
+        "Comanche",
+        "Beckham",
+        "Greer",
+        "Harmon",
+        "Kiowa",
+        "Washita",
+        "Custer"
+      ],
+      "majorCities": [
+        "Altus",
+        "Lawton",
+        "Sayre",
+        "Elk City",
+        "Clinton",
+        "Geronimo",
+        "Mangum"
+      ]
+    },
+    "services": [
+      "Long-Distance Western Serves",
+      "Subcontract Delivery",
+      "Court Filings"
+    ],
+    "notes": "Our primary go-to for far western and southwest Oklahoma jobs. Great coverage in Altus and Lawton areas.",
+    "pricingRules": "Flat rate ~$60-$80 for routine; custom quotes for Sayre / Elk City long runs."
+  },
+  {
+    "id": "will-gillum",
+    "name": "Will Gillum",
+    "businessName": "Gillum Process Service",
+    "rating": "4.7 \u2605\u2605\u2605\u2605\u2606 (North Central Specialist)",
+    "phone": "(405) 747-8890",
+    "email": "willgillumprocess@gmail.com",
+    "paymentMethod": "Cash App ($WillGillum)",
+    "territory": {
+      "region": "North Central OK",
+      "primaryCounties": [
+        "Payne",
+        "Pawnee",
+        "Noble",
+        "Creek West"
+      ],
+      "majorCities": [
+        "Stillwater",
+        "Cushing",
+        "Yale",
+        "Perry",
+        "Pawnee"
+      ]
+    },
+    "services": [
+      "OSU Campus Serves",
+      "Rural Outlying Serves"
+    ],
+    "notes": "Very dependable for Stillwater, Yale, and Payne County corridor.",
+    "pricingRules": "Standard flat rates (~$65\u2013$140 depending on mileage)."
+  }
+]
