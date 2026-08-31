@@ -3,8 +3,9 @@
     "id": "riley-rmm",
     "name": "Riley",
     "businessName": "RMM Service of Process, LLC",
-    "rating": "5.0 \u2605\u2605\u2605\u2605\u2605 (Top Tier)",
+    "rating": "5.0 ★★★★★ (Top Tier)",
     "phone": "(405) 833-2894",
+    "altPhone": "(405) 488-5100",
     "email": "rmmprocess@gmail.com",
     "altEmail": "riley@rmmprocess.com",
     "paymentMethod": "Venmo (@RMM-Process)",
@@ -45,7 +46,7 @@
     "id": "bill-aycock-linda-young",
     "name": "William 'Bill' Aycock & Linda Young",
     "businessName": "Acox & Associates / Independent Field Service",
-    "rating": "4.8 \u2605\u2605\u2605\u2605\u2605 (Phenomenal Field Servers)",
+    "rating": "4.8 ★★★★★ (Phenomenal Field Servers)",
     "phone": "(918) 694-1180",
     "altPhone": "(918) 341-2940",
     "email": "billaycock@sbcglobal.net",
@@ -80,18 +81,18 @@
       "Court Affidavits"
     ],
     "notes": "Both operate essentially together under separate email dispatches. High volume, great local county coverage.",
-    "pricingRules": "\u26a0\ufe0f MANDATORY RULE: You must specify upfront that if the price goes above the quoted price, they MUST let you know first before proceeding to prevent overcharging."
+    "pricingRules": "⚠️ MANDATORY RULE: You must specify upfront that if the price goes above the quoted price, they MUST let you know first before proceeding to prevent overcharging."
   },
   {
     "id": "kevin-plunkett",
     "name": "Kevin Plunkett",
     "businessName": "Plunkett Legal Support",
-    "rating": "4.9 \u2605\u2605\u2605\u2605\u2605 (Very Good)",
+    "rating": "4.9 ★★★★★ (Very Good)",
     "phone": "(405) 615-3920",
     "email": "kplunkett.process@gmail.com",
     "paymentMethod": "Venmo",
     "territory": {
-      "region": "Central & Greater Oklahoma Metro",
+      "region": "Oklahoma City Metro & Central OK",
       "primaryCounties": [
         "Oklahoma",
         "Cleveland",
@@ -111,18 +112,18 @@
       "Rush Service"
     ],
     "notes": "Pretty good, reliable server. Prompt communication and clear attempt logging.",
-    "pricingRules": "Standard metro rates (~$75\u2013$100)."
+    "pricingRules": "Standard metro rates (~$75–$100)."
   },
   {
     "id": "cale-pyngst",
     "name": "Cale Pyngst",
     "businessName": "Pyngst Process Service",
-    "rating": "4.8 \u2605\u2605\u2605\u2605\u2606 (Very Good)",
+    "rating": "4.8 ★★★★☆ (Very Good)",
     "phone": "(918) 720-4412",
     "email": "calepyngst@gmail.com",
     "paymentMethod": "Venmo / Cash App",
     "territory": {
-      "region": "Eastern / Northeast Corridor",
+      "region": "Northeast Oklahoma & Green Country",
       "primaryCounties": [
         "Tulsa",
         "Osage",
@@ -148,12 +149,12 @@
     "id": "misty-pingleton",
     "name": "Misty Pingleton",
     "businessName": "Pingleton Process Serving",
-    "rating": "4.8 \u2605\u2605\u2605\u2605\u2606 (Very Good)",
+    "rating": "4.8 ★★★★☆ (Very Good)",
     "phone": "(580) 317-5501",
     "email": "mistypingleton@gmail.com",
     "paymentMethod": "Venmo / Cash App",
     "territory": {
-      "region": "Southeast / South Central OK",
+      "region": "Southeast & South Central OK",
       "primaryCounties": [
         "Choctaw",
         "Pushmataha",
@@ -181,7 +182,7 @@
     "id": "chet-golden",
     "name": "Chet Golden",
     "businessName": "Golden & Associates Process Serving",
-    "rating": "4.7 \u2605\u2605\u2605\u2605\u2606 (Western OK Specialist)",
+    "rating": "4.7 ★★★★☆ (Western OK Specialist)",
     "phone": "(580) 482-1200",
     "email": "goldenprocessok@gmail.com",
     "paymentMethod": "Cash App ($ChetGolden)",
@@ -219,7 +220,7 @@
     "id": "will-gillum",
     "name": "Will Gillum",
     "businessName": "Gillum Process Service",
-    "rating": "4.7 \u2605\u2605\u2605\u2605\u2606 (North Central Specialist)",
+    "rating": "4.7 ★★★★☆ (North Central Specialist)",
     "phone": "(405) 747-8890",
     "email": "willgillumprocess@gmail.com",
     "paymentMethod": "Cash App ($WillGillum)",
@@ -244,6 +245,195 @@
       "Rural Outlying Serves"
     ],
     "notes": "Very dependable for Stillwater, Yale, and Payne County corridor.",
-    "pricingRules": "Standard flat rates (~$65\u2013$140 depending on mileage)."
+    "pricingRules": "Standard flat rates (~$65–$140 depending on mileage)."
+  },
+  {
+    "id": "chris-ely",
+    "name": "Chris / Stephen Ely",
+    "businessName": "Chris Ely Process Serving",
+    "rating": "4.8 ★★★★☆ (South Central Specialist)",
+    "phone": "(580) 310-9942",
+    "email": "elyprocessserving@gmail.com",
+    "paymentMethod": "Direct / Venmo / Cash App",
+    "territory": {
+      "region": "Southeast & South Central OK",
+      "primaryCounties": [
+        "Pontotoc",
+        "Coal",
+        "Johnston",
+        "Garvin",
+        "Murray"
+      ],
+      "majorCities": [
+        "Ada",
+        "Stratford",
+        "Roff",
+        "Byng",
+        "Pauls Valley",
+        "Sulphur"
+      ]
+    },
+    "services": [
+      "District Court Filings",
+      "Routine Civil Process",
+      "Rush Service"
+    ],
+    "notes": "Excellent coverage in Ada and Pontotoc county corridor. Affordable and fast response.",
+    "pricingRules": "Routine serves ~$50.00 flat."
+  },
+  {
+    "id": "grace-n-lace",
+    "name": "Grace N' Lace Investigations",
+    "businessName": "Grace N' Lace Investigations & Private Process Services",
+    "rating": "4.8 ★★★★☆ (Southeast Specialist)",
+    "phone": "(580) 889-1234",
+    "email": "gracenlaceok@gmail.com",
+    "paymentMethod": "Direct / Venmo",
+    "territory": {
+      "region": "Southeast & South Central OK",
+      "primaryCounties": [
+        "Atoka",
+        "Coal",
+        "Bryan",
+        "Pushmataha",
+        "Pittsburg"
+      ],
+      "majorCities": [
+        "Atoka",
+        "Coalgate",
+        "Stringtown",
+        "Tushka",
+        "McAlester"
+      ]
+    },
+    "services": [
+      "Private Process Serving",
+      "Legal Investigations",
+      "Rural Locate Assistance"
+    ],
+    "notes": "Specialist for Atoka, Coal, and surrounding rural counties.",
+    "pricingRules": "Standard flat rate ~$85.00 per serve."
+  },
+  {
+    "id": "amber-brunner-lee",
+    "name": "Amber Brunner-Lee",
+    "businessName": "Brunner-Lee Process & Courier",
+    "rating": "4.7 ★★★★☆ (OKC Dispatch)",
+    "phone": "(405) 590-8812",
+    "email": "amberbrunnerlee@gmail.com",
+    "paymentMethod": "Cash App ($AmberBrunner)",
+    "territory": {
+      "region": "Oklahoma City Metro & Central OK",
+      "primaryCounties": [
+        "Oklahoma",
+        "Cleveland",
+        "Canadian"
+      ],
+      "majorCities": [
+        "Oklahoma City",
+        "Del City",
+        "Midwest City",
+        "Bethany"
+      ]
+    },
+    "services": [
+      "OKC Metro Process Serving",
+      "Expedited Document Delivery",
+      "Rush Filings"
+    ],
+    "notes": "Reliable backup dispatch for Oklahoma City metro deliveries and court serves.",
+    "pricingRules": "Standard metro rates (~$115–$195)."
+  },
+  {
+    "id": "ceclinda-bowlds",
+    "name": "Ceclinda 'Cici' Bowlds",
+    "businessName": "Cici Process Serving",
+    "rating": "4.7 ★★★★☆ (Field Operator)",
+    "phone": "(405) 412-6733",
+    "email": "ciciprocess@gmail.com",
+    "paymentMethod": "Cash App / Venmo",
+    "territory": {
+      "region": "Oklahoma City Metro & Central OK",
+      "primaryCounties": [
+        "Oklahoma",
+        "Pottawatomie",
+        "Seminole",
+        "Lincoln"
+      ],
+      "majorCities": [
+        "Shawnee",
+        "Seminole",
+        "Chandler",
+        "Tecumseh"
+      ]
+    },
+    "services": [
+      "Subcontract Process Serving",
+      "Standard Civil Process"
+    ],
+    "notes": "Good dependable field server for central / eastern metro fringes.",
+    "pricingRules": "Standard flat rates (~$80.00)."
+  },
+  {
+    "id": "aaron-coffey",
+    "name": "Aaron Coffey",
+    "businessName": "Coffey Legal Services",
+    "rating": "4.7 ★★★★☆ (Field Server)",
+    "phone": "(918) 638-9021",
+    "email": "aaroncoffeyprocess@gmail.com",
+    "paymentMethod": "Venmo",
+    "territory": {
+      "region": "Northeast Oklahoma & Green Country",
+      "primaryCounties": [
+        "Tulsa",
+        "Rogers",
+        "Wagoner"
+      ],
+      "majorCities": [
+        "Tulsa",
+        "Broken Arrow",
+        "Coweta",
+        "Catoosa"
+      ]
+    },
+    "services": [
+      "Process Server Affidavit Service",
+      "Routine Subcontract Serves"
+    ],
+    "notes": "Solid field operator with verified affidavit delivery.",
+    "pricingRules": "Standard flat rates (~$100.00)."
+  },
+  {
+    "id": "tony-wharry-coleman",
+    "name": "Tony Wharry & Tony Coleman",
+    "businessName": "Statewide Process Support",
+    "rating": "4.8 ★★★★☆ (Field Partners)",
+    "phone": "(918) 850-4491",
+    "altPhone": "(405) 308-2219",
+    "email": "tonywharryprocess@gmail.com",
+    "altEmail": "tonycolemanlegal@gmail.com",
+    "paymentMethod": "Venmo / Cash App",
+    "territory": {
+      "region": "Oklahoma City Metro & Central OK",
+      "primaryCounties": [
+        "Oklahoma",
+        "Logan",
+        "Garfield",
+        "Canadian"
+      ],
+      "majorCities": [
+        "Oklahoma City",
+        "Guthrie",
+        "Enid",
+        "El Reno"
+      ]
+    },
+    "services": [
+      "Legal Process Serving",
+      "Court Document Courier",
+      "Subcontract Delivery"
+    ],
+    "notes": "Experienced process servers used for routine and expedited case runs.",
+    "pricingRules": "Standard rates (~$125–$191)."
   }
 ]
