@@ -74,34 +74,6 @@
     "pricingRules": "\u26a0\ufe0f MANDATORY RULE: You must specify upfront that if the price goes above the quoted price, they MUST let you know first before proceeding to prevent overcharging."
   },
   {
-    "id": "kevin-plunkett",
-    "name": "Kevin Plunkett",
-    "businessName": "Independent Process Server",
-    "rating": "4.9 \u2605\u2605\u2605\u2605\u2605 (Very Good)",
-    "phone": "",
-    "email": "",
-    "paymentMethod": "Venmo",
-    "territory": {
-      "region": "Oklahoma City Metro & Central OK",
-      "primaryCounties": [
-        "Oklahoma",
-        "Cleveland",
-        "Canadian"
-      ],
-      "majorCities": [
-        "Oklahoma City",
-        "Metro Area"
-      ]
-    },
-    "services": [
-      "Standard Civil Process",
-      "Court Filings",
-      "Rush Service"
-    ],
-    "notes": "Pretty good, reliable process server for Oklahoma area.",
-    "pricingRules": "Standard rates."
-  },
-  {
     "id": "cale-pyngst",
     "name": "Cale Pyngst",
     "businessName": "Independent Process Server",
