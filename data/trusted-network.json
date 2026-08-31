@@ -74,6 +74,45 @@
     "pricingRules": "\u26a0\ufe0f MANDATORY RULE: You must specify upfront that if the price goes above the quoted price, they MUST let you know first before proceeding to prevent overcharging."
   },
   {
+    "id": "kevin-plunkett",
+    "name": "Kevin Plunkett",
+    "businessName": "Independent Process Server",
+    "rating": "5.0 \u2605\u2605\u2605\u2605\u2605 (A+ Process Server)",
+    "phone": "",
+    "email": "",
+    "paymentMethod": "Venmo",
+    "territory": {
+      "region": "Northeast Oklahoma & Green Country",
+      "primaryCounties": [
+        "Tulsa",
+        "Rogers",
+        "Wagoner",
+        "Creek",
+        "Osage",
+        "Okmulgee"
+      ],
+      "majorCities": [
+        "Tulsa",
+        "Broken Arrow",
+        "Owasso",
+        "Bixby",
+        "Jenks",
+        "Sand Springs",
+        "Sapulpa",
+        "Claremore",
+        "Surrounding Areas"
+      ]
+    },
+    "services": [
+      "Standard Civil Process",
+      "Surrounding Metro Delivery",
+      "Court Filings",
+      "Priority Rush"
+    ],
+    "notes": "A+ process server. Top-tier reliability covering Tulsa and all surrounding areas.",
+    "pricingRules": "Around $100 flat rate for Tulsa and surrounding coverage areas."
+  },
+  {
     "id": "cale-pyngst",
     "name": "Cale Pyngst",
     "businessName": "Independent Process Server",
