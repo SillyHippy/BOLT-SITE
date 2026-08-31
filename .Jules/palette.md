@@ -7,3 +7,6 @@
 ## 2026-07-13 - Corrected ARIA Roles for Button Groups Used as Radios
 **Learning:** Found custom button groups acting as radio selectors in the Rush Emergency Cost Calculator that incorrectly used `aria-pressed` (meant for toggles) and lacked container context.
 **Action:** When using `<button>` elements to simulate radio groups (mutually exclusive options), wrap the group in `role="radiogroup"` and use `role="radio"` with `aria-checked` on the buttons. Only use `role="group"` and `aria-pressed` for multi-select toggle buttons.
+## 2024-05-18 - Decorative Icon Accessibility
+**Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
+**Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
