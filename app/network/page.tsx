@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function NetworkPage() {
   return (
-    <main className="min-h-screen bg-slate-900 text-slate-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-900 text-slate-100 pt-8 pb-32 md:pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8 border-b border-slate-800 pb-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
@@ -46,6 +46,9 @@ export default function NetworkPage() {
         </div>
 
         <TrustedNetworkClient servers={trustedServers} />
+        
+        {/* Generous bottom spacer so sticky mobile docks never obscure cards */}
+        <div className="h-24 md:h-12" />
       </div>
     </main>
   );
