@@ -5518,6 +5518,44 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-01T18:03:13.959Z",
+      "releaseDate": "2026-09-01",
+      "quality": {
+        "words": 3688,
+        "headings": 26,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "document-service-attempts-best-practices-affidavits-oklahoma",
+      "title": "How to Document Service Attempts: Affidavit Best Practices",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-01T18:03:13.967Z",
+      "releaseDate": "2026-09-01",
+      "quality": {
+        "words": 4836,
+        "headings": 38,
+        "paragraphs": 51
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [

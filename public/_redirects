@@ -408,7 +408,6 @@
 
 # ── interim blog queue redirects ──
 # regen: node scripts/audit-blog-queue-redirects.mjs
-/blog/document-service-attempts-best-practices-affidavits-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/gps-proof-service-process-server-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301
 /blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma /blog/proof-of-service-oklahoma-guide 301

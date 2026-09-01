@@ -1,13 +1,6 @@
 {
   "generatedAt": "2026-08-22T13:39:20.035Z",
   "redirects": {
-    "document-service-attempts-best-practices-affidavits-oklahoma": {
-      "target": "/blog/proof-of-service-oklahoma-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 2,
-      "inQueue": true,
-      "updatedAt": "2026-08-22"
-    },
     "electronic-proof-service-digital-signatures-court-acceptance-oklahoma": {
       "target": "/blog/proof-of-service-oklahoma-guide",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -162,5 +155,7 @@
       "inQueue": false,
       "updatedAt": "2026-08-22"
     }
-  }
+  },
+  "lastPublishedSlug": "document-service-attempts-best-practices-affidavits-oklahoma",
+  "lastPublishedAt": "2026-09-01T18:03:13.962Z"
 }
