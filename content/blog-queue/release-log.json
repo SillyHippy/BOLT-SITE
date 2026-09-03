@@ -5556,6 +5556,44 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-03T18:25:13.970Z",
+      "releaseDate": "2026-09-03",
+      "quality": {
+        "words": 4320,
+        "headings": 24,
+        "paragraphs": 48
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "domestic-violence-protective-order-service-oklahoma",
+      "title": "Serving Protective Orders in Oklahoma DV Cases",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-03T18:25:13.972Z",
+      "releaseDate": "2026-09-03",
+      "quality": {
+        "words": 4737,
+        "headings": 28,
+        "paragraphs": 53
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 5 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
