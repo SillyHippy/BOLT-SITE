@@ -10,3 +10,6 @@
 ## 2024-05-18 - Decorative Icon Accessibility
 **Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
 **Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
+## 2026-09-04 - Match focus ring colors to component theme
+**Learning:** When adding keyboard accessibility to diverse sets of colored utility buttons (e.g., emerald Print buttons, blue Share buttons, amber Prefill buttons, red Remove buttons), a generic blue focus ring looks mismatched.
+**Action:** When applying `focus-visible` ring styles to colored utility buttons, match the `focus-visible:ring-*` color contextually to the button's primary theme color (e.g., `ring-emerald-500`, `ring-amber-500`, `ring-red-500`) to maintain a cohesive visual design for keyboard users.
