@@ -321,7 +321,7 @@ export default function WhatToDoWhenServedPage() {
               />
               <button
                 type="submit"
-                className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-3 px-6 rounded-lg transition-colors"
+                className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-3 px-6 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-blue-900"
               >
                 Subscribe
               </button>
