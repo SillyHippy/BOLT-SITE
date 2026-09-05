@@ -3,15 +3,15 @@
   "@type": "WebSite",
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
-  "dateModified": "2026-08-31T21:07:23.723Z",
-  "lastReviewed": "2026-08-31T21:07:23.723Z",
+  "dateModified": "2026-09-05T16:50:35.502Z",
+  "lastReviewed": "2026-09-05T16:50:35.502Z",
   "maintainer": {
     "@type": "Organization",
     "name": "Just Legal Solutions"
   },
   "status": {
     "operational": true,
-    "lastUpdated": "2026-08-31T21:07:23.723Z",
+    "lastUpdated": "2026-09-05T16:50:35.502Z",
     "contentFreshness": "daily",
     "dataAccuracy": "verified",
     "businessStatus": "OPEN",
