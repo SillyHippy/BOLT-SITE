@@ -10,3 +10,6 @@
 ## 2024-05-18 - Decorative Icon Accessibility
 **Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
 **Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
+## 2026-10-27 - Decorative Icon Accessibility in UI Components
+**Learning:** Found multiple standard UI components (Carousel, Dialog, Sheet, Toast) where `lucide-react` icons (like `ArrowLeft`, `ArrowRight`, and `X`) were paired with visually hidden `<span className="sr-only">` text for screen readers. However, the icons themselves lacked `aria-hidden="true"`, causing screen readers to announce the SVG alongside the hidden text, resulting in a confusing experience.
+**Action:** When adding decorative icons (e.g., from `lucide-react`) next to screen-reader-only text within interactive components, always ensure the icon element explicitly includes `aria-hidden="true"` to prevent redundant announcements.
