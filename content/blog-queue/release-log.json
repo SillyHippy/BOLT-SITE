@@ -5594,6 +5594,42 @@
         "FAQ answers short: 5 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-08T18:11:41.797Z",
+      "releaseDate": "2026-09-08",
+      "quality": {
+        "words": 4212,
+        "headings": 30,
+        "paragraphs": 42
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "enforcing-out-of-state-custody-orders-service-process-oklahoma",
+      "title": "Enforcing Out-of-State Custody Orders in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-08T18:11:41.801Z",
+      "releaseDate": "2026-09-08",
+      "quality": {
+        "words": 5383,
+        "headings": 32,
+        "paragraphs": 45
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
