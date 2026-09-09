@@ -662,10 +662,11 @@ export default function AffidavitOfService() {
                           <button
                             type="button"
                             onClick={() => removeAttempt(att.id)}
-                            className="no-print-affidavit text-red-500 hover:text-red-700 ml-auto cursor-pointer"
+                            className="no-print-affidavit text-red-500 hover:text-red-700 ml-auto cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded"
                             title="Remove attempt"
+                            aria-label="Remove attempt"
                           >
-                            <Trash2 className="w-3 h-3" />
+                            <Trash2 className="w-3 h-3" aria-hidden="true" />
                           </button>
                         )}
                       </div>

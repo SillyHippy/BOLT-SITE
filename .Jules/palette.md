@@ -10,3 +10,6 @@
 ## 2024-05-18 - Decorative Icon Accessibility
 **Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
 **Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
+## 2025-01-20 - Adding ARIA labels to dynamically added icon buttons
+**Learning:** When dealing with dynamic form fields (like adding service attempts), any repeating icon-only buttons (like delete/trash) must have `aria-label`s for screen readers. Furthermore, adding `aria-hidden="true"` on the SVG itself ensures screen readers don't announce it confusingly. Lastly, Playwright strict mode will fail if there are multiple dynamically added instances, so `.last` or `.nth()` is necessary during verification.
+**Action:** When adding accessible labels to repeating dynamic elements, verify the `aria-label` provides enough context, and remember to use specific target selectors (like `.last`) in automated Playwright verification scripts.
