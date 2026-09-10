@@ -5630,6 +5630,46 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-10T18:13:55.452Z",
+      "releaseDate": "2026-09-10",
+      "quality": {
+        "words": 4219,
+        "headings": 27,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "environmental-law-process-serving-epa-compliance-oklahoma",
+      "title": "Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-10T18:13:55.455Z",
+      "releaseDate": "2026-09-10",
+      "quality": {
+        "words": 4868,
+        "headings": 26,
+        "paragraphs": 46
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
