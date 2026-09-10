@@ -10,3 +10,6 @@
 ## 2024-05-18 - Decorative Icon Accessibility
 **Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
 **Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
+## 2024-11-13 - Decorative Icon Accessibility
+**Learning:** Found several buttons in `app/card/ShareModal.tsx` and `app/card/page.tsx` that contained `Image` components acting as decorative icons, but these icons had non-empty `alt` attributes and lacked `aria-hidden="true"`. This caused screen readers to redundantly announce the image context alongside the button's text or `aria-label`.
+**Action:** When adding decorative icons (e.g., from `lucide-react` or `Image` components) to interactive components like buttons, explicitly add `alt=""` and `aria-hidden="true"` to the icon element to prevent screen readers from making redundant announcements.

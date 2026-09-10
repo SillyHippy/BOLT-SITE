@@ -106,11 +106,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             onClick={handleCopyLink}
           >
             <div className="flex items-center">
-              <Image src="/favicon1.svg" alt="Link" width={24} height={24} />
+              <Image src="/favicon1.svg" alt="" aria-hidden="true" width={24} height={24} />
               <span className="ml-3">{copySuccess ? "Link Copied!" : "Copy Card Link"}</span>
             </div>
             <div className="flex items-center">
-              <Image src="/landingpage/icons/copy.svg" alt="Copy" width={32} height={32} />
+              <Image src="/landingpage/icons/copy.svg" alt="" aria-hidden="true" width={32} height={32} />
             </div>
           </button>
           
@@ -121,11 +121,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             onClick={handleTextShare}
           >
             <div className="flex items-center">
-              <Image src="/landingpage/icons/imessage.svg" alt="Text" width={24} height={24} />
+              <Image src="/landingpage/icons/imessage.svg" alt="" aria-hidden="true" width={24} height={24} />
               <span className="ml-3">Share via Text</span>
             </div>
             <div className="flex items-center">
-              <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
+              <Image src="/landingpage/icons/external link icon.svg" alt="" aria-hidden="true" width={24} height={24} />
             </div>
           </button>
           
@@ -136,11 +136,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             onClick={handleEmailShare}
           >
             <div className="flex items-center">
-              <Image src="/landingpage/icons/mail.svg" alt="Email" width={24} height={24} />
+              <Image src="/landingpage/icons/mail.svg" alt="" aria-hidden="true" width={24} height={24} />
               <span className="ml-3">Share via Email</span>
             </div>
             <div className="flex items-center">
-              <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
+              <Image src="/landingpage/icons/external link icon.svg" alt="" aria-hidden="true" width={24} height={24} />
             </div>
           </button>
           
@@ -151,11 +151,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
             onClick={handleWhatsAppShare}
           >
             <div className="flex items-center">
-              <Image src="/landingpage/icons/WhatsApp.svg" alt="WhatsApp" width={30} height={30} />
+              <Image src="/landingpage/icons/WhatsApp.svg" alt="" aria-hidden="true" width={30} height={30} />
               <span className="ml-3">Share via WhatsApp</span>
             </div>
             <div className="flex items-center">
-              <Image src="/landingpage/icons/external link icon.svg" alt="External Link" width={24} height={24} />
+              <Image src="/landingpage/icons/external link icon.svg" alt="" aria-hidden="true" width={24} height={24} />
             </div>
           </button>
         </div>

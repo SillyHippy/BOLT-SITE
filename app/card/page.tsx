@@ -37,7 +37,8 @@ export default function CardPage() {
         >
           <Image
             src="/landingpage/icons/share.svg"
-            alt="Share"
+            alt=""
+            aria-hidden="true"
             width={20}
             height={20}
             className="mr-1"
