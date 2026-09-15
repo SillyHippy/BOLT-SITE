@@ -5670,6 +5670,46 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-15T18:35:19.110Z",
+      "releaseDate": "2026-09-15",
+      "quality": {
+        "words": 4803,
+        "headings": 31,
+        "paragraphs": 43
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "guardianship-conservatorship-process-serving-oklahoma",
+      "title": "Guardianship & Conservatorship Process Serving Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-15T18:35:19.113Z",
+      "releaseDate": "2026-09-15",
+      "quality": {
+        "words": 4758,
+        "headings": 34,
+        "paragraphs": 45
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
