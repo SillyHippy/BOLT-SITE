@@ -10,3 +10,6 @@
 ## 2024-05-18 - Decorative Icon Accessibility
 **Learning:** Radix UI primitives like `AccordionTrigger` and `SelectTrigger` naturally handle their own ARIA states (e.g., `aria-expanded`). Decorative `lucide-react` icons inside these triggers (like `ChevronDown` or `ChevronUp`) need `aria-hidden="true"` to prevent screen readers from redundantly announcing the image context alongside the trigger's state.
 **Action:** Always add `aria-hidden="true"` to decorative icons (such as chevrons, close 'X' marks, and generic check marks) placed within functional interactive elements like buttons, triggers, and list items.
+## 2024-03-20 - Invisible Screen Reader Text in Ellipsis Wrappers
+**Learning:** Placing `aria-hidden="true"` or `aria-hidden` on a parent wrapper (like an ellipsis `<span>` container) hides all its children from screen readers. This inadvertently renders any nested `<span className="sr-only">` helper text completely invisible to assistive technologies, defeating the purpose of the `sr-only` text.
+**Action:** Always apply `aria-hidden="true"` directly to the decorative or icon element (like `<MoreHorizontal />` or `<ChevronRight />`) itself, not the parent container if the parent also contains screen-reader-only text intended to be announced.
