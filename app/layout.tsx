@@ -68,6 +68,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Professional process server approaching an Oklahoma courthouse entrance',
+      },
+    ],
   },
   robots: {
     index: true,
@@ -80,12 +88,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    languages: {
-      'en-US': 'https://justlegalsolutions.org',
-      'x-default': 'https://justlegalsolutions.org',
-    },
-  }
 };
 
 export const viewport: Viewport = {

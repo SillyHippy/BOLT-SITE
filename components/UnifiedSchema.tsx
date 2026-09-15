@@ -215,7 +215,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'https://www.linkedin.com/company/justlegalsolutionsok/',
         'https://twitter.com/ServeOK',
         'https://www.instagram.com/just_legal_solutions/',
-        'https://napps.org/member-info.aspx?id=14801',
+        'https://www.napps.org/member-info.aspx?id=14801',
         'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
       ]
     } : {
@@ -234,7 +234,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'https://www.linkedin.com/company/justlegalsolutionsok/',
         'https://twitter.com/ServeOK',
         'https://www.instagram.com/just_legal_solutions/',
-        'https://napps.org/member-info.aspx?id=14801',
+        'https://www.napps.org/member-info.aspx?id=14801',
         'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
       ]
     },
@@ -298,7 +298,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
     '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ?
-      ['Organization', 'LocalBusiness', 'LegalService'] : ['Organization', 'LocalBusiness', 'LegalService'],
+      ['Organization', 'LocalBusiness', 'LegalService'] : 'Organization',
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     alternateName: [
@@ -367,7 +367,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/',
       'https://www.linkedin.com/company/justlegalsolutionsok/',
       'https://www.instagram.com/just_legal_solutions/',
-      'https://napps.org/member-info.aspx?id=14801',
+      'https://www.napps.org/member-info.aspx?id=14801',
       'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
       'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
       'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
@@ -379,7 +379,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     memberOf: {
       '@type': 'Organization',
       name: 'National Association of Professional Process Servers',
-      url: 'https://napps.org'
+      url: 'https://www.napps.org'
     }
   };
 

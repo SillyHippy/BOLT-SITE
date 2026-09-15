@@ -201,7 +201,7 @@ export default function KieferProcessServerPage() {
               <h3 className="font-semibold text-blue-700">Bixby →</h3>
               <p className="text-gray-600 text-sm mt-1">12 miles southeast. "Garden Spot of Oklahoma."</p>
             </Link>
-            <Link href="/service-areas/tulsa" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/tulsa-process-server" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Tulsa →</h3>
               <p className="text-gray-600 text-sm mt-1">20 miles north. Tulsa County seat and major metro center.</p>
             </Link>

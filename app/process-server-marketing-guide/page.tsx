@@ -42,6 +42,7 @@ title: 'Process Server Marketing Guide | How to Get Clients & Grow Your Business
   description: 'Complete marketing guide for process servers: Google Business Profile optimization, SEO strategies, attorney networking, online directories, and proven tactics to attract clients.',
   keywords: 'how to get clients process server, process server marketing, process server Google profile, process server SEO, attorney networking, ServeNow, legal service marketing',
   openGraph: {
+    url: 'https://justlegalsolutions.org/process-server-marketing-guide',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
       width: 1200,

@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
   },
   alternates: {
-    canonical: '/resources/attorneys-guide-hiring-process-server/',
+    canonical: '/resources/attorneys-guide-hiring-process-server',
   },
 };
 

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service starts at $35. Call (539) 367-6832.',
   keywords: 'bankruptcy process serving Oklahoma, how to serve bankruptcy papers Oklahoma, bankruptcy process server, chapter 7 service requirements, FRBP 7004, adversary proceeding service, 341 meeting notice',
   openGraph: {
+    url: 'https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
       width: 1200,

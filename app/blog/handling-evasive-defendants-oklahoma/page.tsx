@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description: 'Proven strategies for serving evasive defendants in Oklahoma. Skip tracing, due diligence under 12 O.S. § 2004, and alternative service. Call (539) 367-6832.',
   keywords: 'defendant avoiding service oklahoma, hard to serve defendant, skip tracing evasive defendant, Oklahoma process server, service by publication, alternative service methods',
   openGraph: {
+    url: 'https://justlegalsolutions.org/blog/handling-evasive-defendants-oklahoma',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
       width: 1200,

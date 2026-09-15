@@ -58,7 +58,7 @@ const citations = [
   },
   {
     title: 'National Association of Professional Process Servers (NAPPS)',
-    url: 'https://napps.org/',
+    url: 'https://www.napps.org/',
     description:
       'National professional association for process servers; Joseph Iannazzi is member #14801.',
   },

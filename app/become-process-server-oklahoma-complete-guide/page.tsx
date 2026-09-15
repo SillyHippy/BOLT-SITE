@@ -35,6 +35,7 @@ title: 'Become a Process Server in Oklahoma — Complete 2026 Guide',
   description: 'Complete guide to becoming a licensed process server in Oklahoma. Learn CLEET requirements, licensing fees, application steps, surety bonds, training programs, and timeline from application to first serve.',
   keywords: 'how to become a process server in Oklahoma 2026, process server license oklahoma, CLEET requirements, Oklahoma process server training, process server bond Oklahoma',
   openGraph: {
+    url: 'https://justlegalsolutions.org/become-process-server-oklahoma-complete-guide',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
       width: 1200,

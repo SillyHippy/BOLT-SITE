@@ -46,7 +46,7 @@ export default function AttorneyHiringProcessServerPage() {
     },
     {
       title: 'National Association of Professional Process Servers (NAPPS)',
-      url: 'https://napps.org/',
+      url: 'https://www.napps.org/',
       description:
         'National professional association for process servers; membership indicates commitment to industry standards.',
     },

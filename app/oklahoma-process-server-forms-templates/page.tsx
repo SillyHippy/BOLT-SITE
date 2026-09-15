@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   keywords: 'affidavit of service template oklahoma, process server forms oklahoma, proof of service template, diligent search affidavit oklahoma, process server invoice template, client intake forms, field sheet template',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    url: 'https://justlegalsolutions.org/oklahoma-process-server-forms-templates',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
       width: 1200,

@@ -16,6 +16,12 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large',
   alternates: { canonical: canonicalUrl },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions',
+    }],
     title: 'Process Server vs Certified Mail in Oklahoma: Complete Comparison',
     description:
       'Compare process servers vs certified mail for serving legal papers in Oklahoma. Cost, speed, proof, success rate, and court acceptance.',

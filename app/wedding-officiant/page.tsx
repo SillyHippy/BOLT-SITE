@@ -845,7 +845,7 @@ export default function WeddingOfficiantPage() {
                 <div className="text-3xl mb-3">⚖️</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Courthouse Ceremonies (Tulsa County)</h3>
                 <p className="text-gray-700 text-sm">
-                  The <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk&apos;s office</a> is where you obtain your marriage license before the ceremony. Joseph regularly performs courthouse-style ceremonies that are professional, dignified, and efficient&mdash;ideal for couples who want a legally complete ceremony without the elaborate planning.
+                  The <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk&apos;s office</a> is where you obtain your marriage license before the ceremony. Joseph regularly performs courthouse-style ceremonies that are professional, dignified, and efficient&mdash;ideal for couples who want a legally complete ceremony without the elaborate planning.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-rose-50 to-pink-50 border border-rose-100 rounded-2xl p-6">
@@ -888,7 +888,7 @@ export default function WeddingOfficiantPage() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Get Your Marriage License from the County Clerk</h3>
                   <p className="text-gray-700">
-                    Both parties must appear in person at the county court clerk&apos;s office. In Tulsa County, visit the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a>. You&apos;ll need a <strong>valid government-issued photo ID</strong> (driver&apos;s license, passport, or state ID) and your <strong>Social Security number</strong>. The fee is approximately $50, reducible to as low as $5 with proof of premarital counseling (43 O.S. &sect; 5.1). Oklahoma has no residency requirement&mdash;couples from any state or country are welcome.
+                    Both parties must appear in person at the county court clerk&apos;s office. In Tulsa County, visit the <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a>. You&apos;ll need a <strong>valid government-issued photo ID</strong> (driver&apos;s license, passport, or state ID) and your <strong>Social Security number</strong>. The fee is approximately $50, reducible to as low as $5 with proof of premarital counseling (43 O.S. &sect; 5.1). Oklahoma has no residency requirement&mdash;couples from any state or country are welcome.
                   </p>
                 </div>
               </div>
@@ -1122,7 +1122,7 @@ export default function WeddingOfficiantPage() {
               </Link>
             </div>
             <div className="text-center mt-4">
-              <a href="https://www.themonastery.org/verify-ministers" target="_blank" rel="noopener noreferrer nofollow" className="text-rose-600 hover:underline text-sm">
+              <a href="https://www.themonastery.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-rose-600 hover:underline text-sm">
                 Verify Ordination at Universal Life Church ↗
               </a>
             </div>

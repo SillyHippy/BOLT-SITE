@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: 'Learn how to serve restraining orders in Oklahoma. TRO and VPO service requirements, 22 O.S. § 60.4, and 24-48 hr service. Call (539) 367-6832.',
   keywords: 'serve restraining order oklahoma, TRO service tulsa, VPO service of process oklahoma, protective order service, victim protective order oklahoma, emergency protective order service',
   openGraph: {
+    url: 'https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
       width: 1200,

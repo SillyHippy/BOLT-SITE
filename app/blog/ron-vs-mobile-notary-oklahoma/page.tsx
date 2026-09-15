@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: 'Compare Remote Online Notarization vs Mobile Notary in Oklahoma. Learn costs, laws, and which service fits your needs. Call (539) 367-6832.',
   keywords: 'remote online notarization vs mobile notary, RON oklahoma, which notary service to use, online notary Oklahoma, mobile notary Tulsa, virtual notary Oklahoma',
   openGraph: {
+    url: 'https://justlegalsolutions.org/blog/ron-vs-mobile-notary-oklahoma',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
       width: 1200,

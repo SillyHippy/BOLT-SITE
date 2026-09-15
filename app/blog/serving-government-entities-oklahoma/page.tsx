@@ -18,6 +18,12 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma'
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions',
+    }],
     title: 'Serving Government Entities in Oklahoma: Complete Legal Guide',
     description: 'Expert guide to serving government agencies in Oklahoma. Learn special rules for state, city, county, and federal entities.',
     url: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma',

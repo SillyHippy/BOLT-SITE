@@ -52,7 +52,7 @@ const citations = [
   },
   {
     title: 'Uniform Interstate Depositions and Discovery Act (UIDDA)',
-    url: 'https://www.uniformlaws.org/committees/community-home?CommunityKey=6f0e888f-7944-418a-9c3d-11e2a68fe4d1',
+    url: 'https://www.uniformlaws.org/viewdocument/final-act-80?CommunityKey=181202a2-172d-46a1-8dcc-cdb495621d35',
     description:
       'Uniform act adopted by Oklahoma to streamline interstate discovery and subpoena domestication.',
   },

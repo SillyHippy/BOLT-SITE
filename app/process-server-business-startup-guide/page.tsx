@@ -40,6 +40,7 @@ title: 'Process Server Business Startup Guide | Oklahoma 2025',
   keywords: 'start process serving business, process serving business plan, process server marketing, Oklahoma process server business, process server startup costs',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    url: 'https://justlegalsolutions.org/process-server-business-startup-guide',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
       width: 1200,

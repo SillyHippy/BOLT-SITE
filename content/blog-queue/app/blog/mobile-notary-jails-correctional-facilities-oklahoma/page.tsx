@@ -412,7 +412,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <strong>Step 1: Confirm the inmate's current facility location and DOC number.</strong> Inmates are transferred between facilities frequently — sometimes with little notice. Before you do anything else, verify through the <a href="https://oklahoma.gov/doc/services/ offender-lookup.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ODOC Offender Lookup</a> that your loved one is still at the facility you expect. You will need their exact DOC number for every step that follows.
+            <strong>Step 1: Confirm the inmate's current facility location and DOC number.</strong> Inmates are transferred between facilities frequently — sometimes with little notice. Before you do anything else, verify through the <a href="https://okoffender.doc.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ODOC Offender Lookup</a> that your loved one is still at the facility you expect. You will need their exact DOC number for every step that follows.
           </p>
 
           <p>

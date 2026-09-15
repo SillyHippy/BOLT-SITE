@@ -566,7 +566,7 @@ export default function BlogPost() {
             </Link>{' '}
             helps prevent these documentation oversights, and our{' '}
             <Link
-              href="/blog/how-to-serve-process-oklahoma-rules-step-by-step-guide"
+              href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step"
               className="text-blue-600 hover:underline"
             >
               step-by-step guide to serving process in Oklahoma
@@ -702,7 +702,7 @@ export default function BlogPost() {
             and that\'s exactly why your non-service documentation deserves the
             same care as your successful service records.{' '}
             <Link
-              href="/blog/oklahoma-service-by-publication-requirements-explained"
+              href="/blog/oklahoma-service-by-publication"
               className="text-blue-600 hover:underline"
             >
               For a deep dive into Oklahoma\'s service by publication

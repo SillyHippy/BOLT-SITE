@@ -105,7 +105,7 @@ export default function AboutPage() {
                 {
                   label: 'NAPPS Member',
                   value: 'ID 14801',
-                  href: 'https://napps.org/member-info.aspx?id=14801',
+                  href: 'https://www.napps.org/member-info.aspx?id=14801',
                   note: 'National Association of Professional Process Servers',
                 },
                 {

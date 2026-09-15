@@ -34,6 +34,7 @@ title: 'Oklahoma Eviction Timeline PDF | Free Download',
   keywords: 'Oklahoma eviction timeline, eviction process Oklahoma, landlord eviction steps, Oklahoma eviction timeframe, eviction notice service, writ of execution Oklahoma',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
+    url: 'https://justlegalsolutions.org/resources/oklahoma-eviction-timeline',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
       width: 1200,

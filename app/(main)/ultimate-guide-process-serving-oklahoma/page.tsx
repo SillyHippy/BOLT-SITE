@@ -142,7 +142,7 @@ const pageFaqs = [
   },
   {
     "question": "What professional associations should Oklahoma process servers join?",
-    "answer": "Recommended associations include: <strong>National Association of Professional Process Servers (NAPPS)</strong> at <a href='https://napps.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>napps.org</a> for nationwide directory and education, and <strong>Oklahoma Sooner Private Process Server Association (OKPPSA)</strong> at <a href='https://www.okppsa.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>okppsa.org</a> for state-specific training and advocacy. Both provide networking, legislative updates, and professional credibility that can lead to more client referrals."
+    "answer": "Recommended associations include: <strong>National Association of Professional Process Servers (NAPPS)</strong> at <a href='https://www.napps.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>napps.org</a> for nationwide directory and education, and <strong>Oklahoma Sooner Private Process Server Association (OKPPSA)</strong> at <a href='https://www.okppsa.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>okppsa.org</a> for state-specific training and advocacy. Both provide networking, legislative updates, and professional credibility that can lead to more client referrals."
   },
   {
     "question": "What is substituted service and when is it used in Oklahoma?",
@@ -1129,7 +1129,7 @@ export default function UltimateGuidePage() {
                 <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
                   <h4 className="font-bold text-blue-800 mb-3">National Association of Professional Process Servers (NAPPS)</h4>
                   <p className="text-sm mb-3">
-                    Just Legal Solutions is a member of <a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">NAPPS</a>, the premier professional organization for process servers nationwide. NAPPS maintains the highest ethical standards and requires adherence to strict professional codes of conduct.
+                    Just Legal Solutions is a member of <a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">NAPPS</a>, the premier professional organization for process servers nationwide. NAPPS maintains the highest ethical standards and requires adherence to strict professional codes of conduct.
                   </p>
                 </div>
                 
@@ -1276,10 +1276,10 @@ export default function UltimateGuidePage() {
               <p>For a deeper dive into specific topics, read our expert articles on Medium:</p>
               <ul className="list-disc pl-5 my-4">
                   <li>
-                    <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer nofollow">Why You Need a Professional Process Server in Oklahoma</a></strong>
+                    <strong><Link href="/why-choose-us">Why You Need a Professional Process Server in Oklahoma</Link></strong>
                   </li>
                   <li>
-                    <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer nofollow">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
+                    <strong><Link href="/blog/workers-comp-subpoena-service">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</Link></strong>
                   </li>
               </ul>
             </CardContent>
@@ -1676,7 +1676,7 @@ export default function UltimateGuidePage() {
                     </ul>
                   </div>
                   <a 
-                    href="https://napps.org" 
+                    href="https://www.napps.org" 
                     target="_blank" 
                     rel="noopener noreferrer nofollow" 
                     className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
@@ -2215,10 +2215,10 @@ export default function UltimateGuidePage() {
               <p>For a deeper dive into specific topics, read our expert articles on Medium:</p>
               <ul className="list-disc pl-5 my-4">
                   <li>
-                    <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer nofollow">Why You Need a Professional Process Server in Oklahoma</a></strong>
+                    <strong><Link href="/why-choose-us">Why You Need a Professional Process Server in Oklahoma</Link></strong>
                   </li>
                   <li>
-                    <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer nofollow">My Doctor or Theirs? The Workers&apos; Comp Choice That Defined My Life</a></strong>
+                    <strong><Link href="/blog/workers-comp-subpoena-service">My Doctor or Theirs? The Workers&apos; Comp Choice That Defined My Life</Link></strong>
                   </li>
               </ul>
             </CardContent>

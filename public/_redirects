@@ -126,7 +126,7 @@
 # ── 5. Duplicate city/SEO pages → service-areas ─────────────
 /seo/process-server-nowata /service-areas/nowata 301
 /seo/process-server-vinita /service-areas/vinita 301
-/seo/process-server-oakhurst/ /service-areas/tulsa 301
+/seo/process-server-oakhurst/ /tulsa-process-server 301
 /seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist 301
 /seo/bixby-process-server/ /service-areas/bixby 301
 /seo/jenks-process-server /service-areas/jenks 301
@@ -214,6 +214,10 @@
 /blog/process-server-scam-oklahoma /blog/process-server-scams-oklahoma 301
 /blog/workers-compensation-subpoena-service /blog/workers-comp-subpoena-service 301
 /blog/employment-law-process-serving-oklahoma /blog/employment-law-service-oklahoma 301
+/blog/oklahoma-service-by-publication-requirements-explained /blog/oklahoma-service-by-publication 301
+/blog/how-to-serve-process-oklahoma-rules-step-by-step-guide /blog/how-to-serve-legal-papers-oklahoma-step-by-step 301
+/service-areas/tulsa /tulsa-process-server 301
+/service-areas/tulsa/ /tulsa-process-server 301
 
 # ── 9. Content swarm/deployment draft slug consolidation ───────
 /180-day-service-deadline /oklahoma-tools/service-deadline-calculator 301

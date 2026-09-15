@@ -199,7 +199,7 @@ export default function KellyvilleProcessServerPage() {
               <h3 className="font-semibold text-blue-700">Glenpool →</h3>
               <p className="text-gray-600 text-sm mt-1">25 miles east. Our base location with fastest response times.</p>
             </Link>
-            <Link href="/service-areas/tulsa" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/tulsa-process-server" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Tulsa →</h3>
               <p className="text-gray-600 text-sm mt-1">30 miles northeast. Tulsa County seat and major metro center.</p>
             </Link>

@@ -175,6 +175,13 @@ function generateSitemap() {
     '/affidavit',
     '/voice-friendly',
     '/platform-supremacy',
+    '/network',
+    '/reviews/email',
+    '/service-areas/tulsa',
+    '/broken-arrow-process-server',
+    '/blog/skip-tracing-success-story-tulsa-case-study',
+    '/blog/common-process-serving-mistakes-oklahoma',
+    '/compare/process-server-vs-sheriff',
   ];
 
   // Additional URLs to ensure they're included (all service areas with Google Maps)
@@ -201,6 +208,9 @@ function generateSitemap() {
     '/service-areas/pryor',
     '/service-areas/nowata',
     '/service-areas/vinita',
+    '/service-areas/marietta',
+    '/service-areas/ardmore',
+    '/service-areas/durant',
 
     // County Pages
     '/counties',
@@ -379,7 +389,6 @@ function generateSitemap() {
 
     // Additional Service Pages
     '/process-server-near-me',
-    '/broken-arrow-process-server',
     '/oklahoma-courthouse-directory',
     '/join-our-network',
 

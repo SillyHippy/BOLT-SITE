@@ -136,7 +136,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'The SCRA (50 U.S.C. § 3901 et seq.) provides protections for active-duty service members, including potential stays of proceedings. Personal service is still required, but you must be mindful of SCRA requirements. The court may require an affidavit of non-military service before entering a default judgment. If the service member is stationed on a military base, coordinated base access may be needed. Personal service is the gold standard here. Residential substituted service under § 2004(C)(1) may be used where permitted without court approval; publication and other court-ordered methods require judicial authorization.',
       statute: '50 U.S.C. § 3901 et seq. (SCRA)',
-      statuteUrl: 'https://www.justice.gov/civil/servicemembers-civil-relief-act-scra',
+      statuteUrl: 'https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra',
       pros: ['Fully compliant with federal protections', 'Clear proof of service', 'Avoids SCRA-related challenges'],
       cons: ['Base access may require coordination', 'SCRA affidavits add steps', 'Service member may request a stay'],
     };
@@ -259,7 +259,7 @@ const CITATIONS = [
   },
   {
     title: '50 U.S.C. § 3901 et seq. — Servicemembers Civil Relief Act',
-    url: 'https://www.justice.gov/civil/servicemembers-civil-relief-act-scra',
+    url: 'https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra',
     description: 'Federal law protecting active-duty military members.',
   },
 ];

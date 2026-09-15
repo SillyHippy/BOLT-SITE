@@ -15,12 +15,12 @@ export const metadata = {
   aiSummary: "Estate planning documents in Oklahoma often require notarization to be legally valid and enforceable. Key documents include wills (with self-proving affidavits under 84 O.S. § 55), trusts, powers of attorney, advance directives, and beneficiary designations. Notarization provides authentication, prevents fraud, and facilitates probate. Mobile notary services are available for attorneys, hospitals, and homebound clients throughout Tulsa and Oklahoma.",
   aiKeyFacts: "84 O.S. § 55 governs self-proving wills in Oklahoma; notary fees are $5 per signature traditional, $25 for RON; powers of attorney require notarization under 58 O.S. § 1071; advance directives need two witnesses OR notarization; mobile notary available for estate planning attorneys and hospital situations",
   alternates: {
-    canonical: "/blog/estate-planning-notarization-oklahoma/",
+    canonical: "/blog/estate-planning-notarization-oklahoma",
   },
   openGraph: {
     title: "Estate Planning Notarization in Oklahoma",
     description: "Professional mobile notary services for wills, trusts, and estate planning documents throughout Oklahoma.",
-    url: "/blog/estate-planning-notarization-oklahoma/",
+    url: "/blog/estate-planning-notarization-oklahoma",
     type: "article",
     author: "Joseph Iannazzi",
   },
@@ -87,7 +87,7 @@ export default function EstatePlanningNotarizationBlog() {
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <UnifiedSchema
         pageType="article"
-        pageUrl="/blog/estate-planning-notarization-oklahoma/"
+        pageUrl="/blog/estate-planning-notarization-oklahoma"
         title="Estate Planning Notarization in Oklahoma: Complete Guide to Wills, Trusts & Powers of Attorney"
         description="Professional estate planning notarization services in Oklahoma. Mobile notary for wills, trusts, powers of attorney, and advance directives. Expert guidance on self-proving wills under 84 O.S. § 55."
         datePublished="2026-05-23"

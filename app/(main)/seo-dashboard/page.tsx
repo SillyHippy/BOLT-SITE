@@ -3,6 +3,10 @@ import React from 'react';
 export const metadata = {
   title: 'SEO Dashboard',
   description: 'SEO dashboard and analytics for Just Legal Solutions. Track your legal service SEO performance and structured data health.',
+  robots: {
+    index: false,
+    follow: false,
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo-dashboard',
   },

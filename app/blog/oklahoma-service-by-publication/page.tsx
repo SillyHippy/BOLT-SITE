@@ -20,10 +20,19 @@ export const metadata = {
   openGraph: {
     title: 'Oklahoma Service by Publication Guide | Legal Requirements Explained',
     description: 'Master Oklahoma service by publication under 12 O.S. § 2004(C)(3). Learn due diligence requirements, approved newspapers, costs, and affidavit procedures.',
+    url: 'https://justlegalsolutions.org/blog/oklahoma-service-by-publication',
     type: 'article',
     publishedTime: '2024-01-15T08:00:00Z',
     modifiedTime: '2024-01-15T08:00:00Z',
     authors: ['Joseph Iannazzi'],
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Oklahoma service by publication guide',
+      },
+    ],
   },
   other: {
     'article:published_time': '2026-05-23',

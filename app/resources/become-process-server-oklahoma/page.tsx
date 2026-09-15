@@ -27,7 +27,7 @@ const citations = [
   },
   {
     title: 'National Association of Professional Process Servers (NAPPS)',
-    url: 'https://napps.org/',
+    url: 'https://www.napps.org/',
     description: 'National professional association for process servers; Joseph Iannazzi is member #14801.',
   },
 ];
@@ -297,7 +297,7 @@ export default function BecomeProcessServerPage() {
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://napps.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">NAPPS (National Association of Professional Process Servers)</a>
+                <a href="https://www.napps.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">NAPPS (National Association of Professional Process Servers)</a>
                 <p className="text-sm text-text-muted">Join the national professional association, access industry resources, and network with other servers. Joseph Iannazzi, owner of Just Legal Solutions, is NAPPS member #14801.</p>
               </div>
             </div>

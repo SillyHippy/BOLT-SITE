@@ -19,6 +19,12 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma'
   },
   openGraph: {
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions',
+    }],
     title: 'Power of Attorney Guide Oklahoma | Complete 2025 POA Resource',
     description: 'Complete guide to Power of Attorney in Oklahoma. Learn about durable, medical, financial, springing & limited POA types, 58 O.S. § 3001 requirements, notarization & more.',
     url: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma',

@@ -76,12 +76,11 @@ const personSchema = {
   image: 'https://justlegalsolutions.org/images/1Headshot.webp',
   url,
   sameAs: [
-    'https://napps.org/member-info.aspx?id=14801',
+    'https://www.napps.org/member-info.aspx?id=14801',
     'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
     'https://notary.snapdocs.com/notary-public/oklahoma/glenpool/joseph-iannazzi',
     'https://www.bbb.org/us/ok/glenpool/profile/process-server/just-legal-solutions-1025-38110450',
     'https://www.linkedin.com/in/joseph-iannazzi',
-    'https://medium.com/@justlegalsolutionsok',
     'https://www.youtube.com/@Just-Legal-Solutions',
     'https://twitter.com/ServeOK',
     'https://www.issuewire.com/founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-1839846063085062',
@@ -120,7 +119,7 @@ const personSchema = {
     {
       '@type': 'Organization',
       name: 'National Association of Professional Process Servers (NAPPS)',
-      url: 'https://napps.org/member-info.aspx?id=14801',
+      url: 'https://www.napps.org/member-info.aspx?id=14801',
       identifier: '14801',
     },
     {
@@ -202,7 +201,7 @@ const credentialSections = [
       { label: 'Counties served (NAPPS)', value: 'Tulsa, Wagoner, Rogers, Osage (primary); statewide via partner network' },
     ],
     verifyLabel: 'Verify NAPPS Member Profile',
-    verifyUrl: 'https://napps.org/member-info.aspx?id=14801',
+    verifyUrl: 'https://www.napps.org/member-info.aspx?id=14801',
   },
   {
     icon: Stamp,
@@ -435,7 +434,7 @@ export default function JosephIannazziPage() {
               <p>
                 Joseph is a member of the{' '}
                 <a
-                  href="https://napps.org/member-info.aspx?id=14801"
+                  href="https://www.napps.org/member-info.aspx?id=14801"
                   className="text-blue-700 hover:text-blue-800 underline"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -619,22 +618,20 @@ export default function JosephIannazziPage() {
                   Read release <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
                 </span>
               </a>
-              <a
-                href="https://medium.com/@justlegalsolutionsok"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/blog"
                 className="block bg-gray-50 border border-gray-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition"
               >
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
-                  Medium · Author profile
+                  Just Legal Solutions · Blog
                 </span>
                 <h3 className="mt-2 text-lg font-semibold text-gray-900">
-                  Joseph Iannazzi on Medium
+                  Oklahoma process serving and notary articles
                 </h3>
                 <span className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-blue-700">
-                  Read articles <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+                  Read articles
                 </span>
-              </a>
+              </Link>
               <a
                 href="https://www.youtube.com/@Just-Legal-Solutions"
                 target="_blank"

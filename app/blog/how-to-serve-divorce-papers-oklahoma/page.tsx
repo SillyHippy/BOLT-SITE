@@ -328,7 +328,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               <li>The server&apos;s signature under oath</li>
             </ul>
             <p>
-              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our courthouse filing services can handle filing your proof of service with the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
+              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our courthouse filing services can handle filing your proof of service with the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
             </p>
             <p>
               A professionally prepared affidavit typically includes a physical description of the person served, the exact address and circumstances of service, notes on any obstacles encountered, and GPS-validated timestamps confirming the server&apos;s presence at the service location. This level of detail makes the document virtually unassailable if challenged.

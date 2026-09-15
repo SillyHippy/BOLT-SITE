@@ -200,7 +200,7 @@ export default function SapulpaProcessServerPage() {
             <p className="text-purple-100">We also serve these surrounding communities</p>
           </div>
           <div className="p-8 grid md:grid-cols-3 gap-4">
-            <Link href="/service-areas/tulsa" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/tulsa-process-server" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Tulsa →</h3>
               <p className="text-gray-600 text-sm mt-1">15 miles east. Tulsa County seat and major metro center.</p>
             </Link>

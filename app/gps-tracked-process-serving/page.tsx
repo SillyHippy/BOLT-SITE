@@ -713,7 +713,7 @@ export default function GPSTrackedProcessServing() {
                 {
                   label: 'NAPPS — National Assoc. of Professional Process Servers',
                   desc: 'The national professional association for process servers, setting industry standards and ethical guidelines.',
-                  href: 'https://napps.org',
+                  href: 'https://www.napps.org',
                 },
               ].map((resource, i) => (
                 <a key={i} href={resource.href} target="_blank" rel="noopener noreferrer" className="block bg-gray-50 hover:bg-blue-50 rounded-xl p-5 transition-colors border border-gray-200 hover:border-blue-300">

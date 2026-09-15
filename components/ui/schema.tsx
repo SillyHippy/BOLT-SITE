@@ -41,7 +41,7 @@ export const organizationSchema: WithContext<Organization> = {
     "https://www.google.com/maps/place/Just+Legal+Solutions/@35.3090496,-98.7167134,7z/data=!3m1!4b1!4m6!3m5!1s0x2d3a1c9aca7b5281:0x313651fd581f35bf!8m2!3d35.3090496!4d-98.7167134!16s%2Fg%2F11x0psycvf",
     "https://www.linkedin.com/company/justlegalsolutionsok/",
     "https://www.instagram.com/just_legal_solutions/",
-    "https://napps.org/member-info.aspx?id=14801",
+    "https://www.napps.org/member-info.aspx?id=14801",
     "https://nationalprocessservernetwork.com/directory/just-legal-solutions/",
     "https://twitter.com/ServeOK",
     "https://www.manta.com/c/m1x7pgf/just-legal-solutions"

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   description: 'Expert process serving for Oklahoma HOA and condo associations. Assessment collection, covenant violations, foreclosures, and gated community access.',
   keywords: 'serve HOA papers oklahoma, condo association process serving, HOA lawsuit service, homeowners association process server, condominium assessment collection, HOA foreclosure service',
   openGraph: {
+    url: 'https://justlegalsolutions.org/blog/process-serving-hoa-oklahoma',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
       width: 1200,

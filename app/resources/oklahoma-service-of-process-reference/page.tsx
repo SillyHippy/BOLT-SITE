@@ -39,6 +39,7 @@ title: 'Oklahoma Service of Process Quick Reference Card | Free PDF Download',
   description: 'Free downloadable quick reference card for Oklahoma service of process. Includes key statutes (12 O.S. § 2004, § 158.1), service methods, deadlines, and prohibited activities. Perfect for process servers, attorneys, and paralegals.',
   keywords: 'Oklahoma service of process, process server reference card, 12 O.S. 2004, service of process statutes, Oklahoma process serving laws, legal document service reference',
   openGraph: {
+    url: 'https://justlegalsolutions.org/resources/oklahoma-service-of-process-reference',
     images: [{
       url: 'https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png',
       width: 1200,

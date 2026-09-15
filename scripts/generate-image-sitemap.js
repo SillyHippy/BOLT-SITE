@@ -32,6 +32,13 @@ const EXCLUDE_PAGE_PATHS = new Set([
   '/voice-friendly',
   '/platform-supremacy',
   '/voice-search-marker',
+  '/network',
+  '/reviews/email',
+  '/service-areas/tulsa',
+  '/broken-arrow-process-server',
+  '/blog/skip-tracing-success-story-tulsa-case-study',
+  '/blog/common-process-serving-mistakes-oklahoma',
+  '/compare/process-server-vs-sheriff',
 ]);
 
 const EXCLUDE_IMAGE_RE = [

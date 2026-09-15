@@ -787,14 +787,14 @@ export function Footer() {
             </div>
             {/* NAPPS Member Logo */}
             <a
-              href="https://napps.org/member-info.aspx?id=14801"
+              href="https://www.napps.org/member-info.aspx?id=14801"
               target="_blank"
               rel="noopener noreferrer"
               className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-xl p-2 ring-1 ring-slate-100 hover:shadow-lg transition-shadow duration-200"
               title="Proud Member of NAPPS - National Association of Professional Process Servers"
             >
               <Image
-                src="https://napps.org/images/NAPPS4.png"
+                src="https://www.napps.org/images/NAPPS4.png"
                 alt="NAPPS member logo"
                 width={112}
                 height={112}

@@ -372,7 +372,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {[
-              { href: '/service-areas/tulsa', label: 'Tulsa' },
+              { href: '/tulsa-process-server', label: 'Tulsa' },
               { href: '/service-areas/broken-arrow', label: 'Broken Arrow' },
               { href: '/service-areas/owasso', label: 'Owasso' },
               { href: '/service-areas/bixby', label: 'Bixby' },

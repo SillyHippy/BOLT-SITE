@@ -685,7 +685,7 @@ const RemoteOnlineNotaryPage = () => {
               ))}
             </div>
             <p>
-              We track national best practices too. The <a href="https://www.nationalnotary.org/knowledge-center/about-ron" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">National Notary Association RON guide</a> and <a href="https://www.notarize.com/oklahoma" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">Notarize.com Oklahoma insights</a> inform our training, ensuring that every remote online notary Tulsa session reflects the latest security thinking.
+              We track national best practices too. The <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">National Notary Association knowledge center</a> and <a href="https://www.proof.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">Proof (formerly Notarize)</a> inform our training, ensuring that every remote online notary Tulsa session reflects the latest security thinking.
             </p>
           </div>
         </section>

@@ -119,7 +119,7 @@ export default function OwnerBio() {
             {/* Credential Trust Row */}
             <div className="grid grid-cols-2 gap-3">
               <a
-                href="https://napps.org/member-info.aspx?id=14801"
+                href="https://www.napps.org/member-info.aspx?id=14801"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white rounded-lg p-3 shadow-md hover:shadow-lg transition block"
