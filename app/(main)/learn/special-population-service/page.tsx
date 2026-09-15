@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const citations = [
   {
     title: 'Servicemembers Civil Relief Act (SCRA), 50 U.S.C. § 3901 et seq.',
-    url: 'https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra',
+    url: 'https://www.justice.gov/servicemembers',
     description:
       'Federal law protecting active-duty military members from default judgments and certain legal proceedings.',
   },

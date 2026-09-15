@@ -379,7 +379,7 @@ Monitor:
 | Cherokee Nation | <https://cherokeecourt.com/> | (918) 458-9440 |
 | Choctaw Nation | <https://www.choctawnation.com/judicial-branch> | (800) 522-6170 |
 | Chickasaw Nation | <https://www.chickasaw.net/Departments/Tribal-Courts.aspx> | (580) 436-7335 |
-| Muscogee (Creek) Nation | <https://www.muscogeenation.com/departments/muscogee-creek-nation-district-court> | (918) 732-7750 |
+| Muscogee (Creek) Nation | <https://creeksupremecourt.com/> | (918) 732-7750 |
 | Seminole Nation | <https://www.seminolenation.com/court> | (405) 257-7265 |
 
 ### State-Tribal Agreements
@@ -436,7 +436,7 @@ Monitor:
    <https://www.chickasaw.net/Departments/Tribal-Courts.aspx>
 
 9. Muscogee (Creek) Nation District Court.  
-   <https://www.muscogeenation.com/departments/muscogee-creek-nation-district-court>
+   <https://creeksupremecourt.com/>
 
 10. Seminole Nation of Oklahoma Court.  
     <https://www.seminolenation.com/court>
