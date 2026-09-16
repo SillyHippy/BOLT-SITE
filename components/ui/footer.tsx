@@ -794,7 +794,7 @@ export function Footer() {
               title="Proud Member of NAPPS - National Association of Professional Process Servers"
             >
               <Image
-                src="https://www.napps.org/images/NAPPS4.png"
+                src="/badges/napps-member.png"
                 alt="NAPPS member logo"
                 width={112}
                 height={112}
