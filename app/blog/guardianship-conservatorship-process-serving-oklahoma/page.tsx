@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     'ai-summary':
       'Oklahoma guardianship and conservatorship notice under Title 30—non-waivable ward service, authorized servers, four notice timelines, 11 mail categories, facility service, and post-appointment obligations.',
     'ai-key-facts':
-      '30 O.S. §3-106(B) makes ward notice non-waivable; Only the petitioner's attorney, sheriff, or licensed process server may personally serve the ward under ? 3-110; General guardianship requires 10-day personal service plus mail to interested parties; Conservatorship requires 5-day personal service under ? 3-211; Special guardianship may require 72-hour notice under ? 3-115; Annual reports under ? 4-307 restart mail notice every year',
+      '30 O.S. §3-106(B) makes ward notice non-waivable; Only the petitioner\'s attorney, sheriff, or licensed process server may personally serve the ward under § 3-110; General guardianship requires 10-day personal service plus mail to interested parties; Conservatorship requires 5-day personal service under § 3-211; Special guardianship may require 72-hour notice under § 3-115; Annual reports under § 4-307 restart mail notice every year',
   },
 };
 
