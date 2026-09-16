@@ -4,12 +4,9 @@
   "name": "Just Legal Solutions",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": {
-      "street": "Tulsa, OK",
-      "city": "Tulsa",
-      "state": "OK",
-      "zip": "74101"
-    },
+    "addressLocality": "Tulsa",
+    "addressRegion": "OK",
+    "postalCode": "74101",
     "addressCountry": "US"
   },
   "telephone": "+15393676832",

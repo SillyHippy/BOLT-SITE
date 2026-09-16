@@ -6,7 +6,7 @@
     "dev": "node scripts/generate-page-freshness.mjs && next dev",
     "build:dev": "vite build --mode development",
     "build": "next build",
-    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "typecheck": "node -e \"require('fs').rmSync('.next/types',{recursive:true,force:true})\" && next typegen && tsc --noEmit -p tsconfig.json",
     "typecheck:drafts": "tsc --noEmit -p tsconfig.kimi-import.json",
     "validate:county-geo": "node scripts/validate-county-geo.js",
     "verify:sitemap": "node scripts/verify-sitemap-urls.mjs",

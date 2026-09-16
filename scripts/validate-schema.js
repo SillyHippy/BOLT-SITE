@@ -50,8 +50,17 @@ function validateSchemaObject(data, fileName, pathPrefix = '') {
 
   const schemaType = data['@type'];
   if (!schemaType) {
-    // Might be a plain metadata JSON file (like build-manifest.json or ai-search files)
-    if (fileName.includes('ai-search') || fileName.includes('manifest')) {
+    // JSON-LD references containing only @id are valid and intentionally omit @type.
+    const keys = Object.keys(data);
+    if (keys.length > 0 && keys.every((key) => key === '@id')) {
+      return { errors, warnings };
+    }
+    // Plain metadata documents are not JSON-LD schemas and should not be linted as such.
+    if (
+      fileName.includes('ai-search') ||
+      fileName.includes('manifest') ||
+      fileName.endsWith('feed.json')
+    ) {
       return { errors, warnings };
     }
     warnings.push(`${pathPrefix}: Missing @type field`);

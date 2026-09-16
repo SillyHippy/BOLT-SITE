@@ -35,6 +35,8 @@ const EXCLUDE_PAGE_PATHS = new Set([
   '/network',
   '/reviews/email',
   '/service-areas/tulsa',
+  '/services',
+  '/oklahoma-process-serving-costs-comparison',
   '/broken-arrow-process-server',
   '/blog/skip-tracing-success-story-tulsa-case-study',
   '/blog/common-process-serving-mistakes-oklahoma',
@@ -280,7 +282,7 @@ function generateImageSitemap() {
   mapBlogImages(pageMap, fileIndex);
 
   const sortedPages = [...pageMap.entries()]
-    .filter(([, images]) => images.size > 0)
+    .filter(([pageUrl, images]) => images.size > 0 && !EXCLUDE_PAGE_PATHS.has(pageUrl))
     .sort(([a], [b]) => a.localeCompare(b));
 
   let urlBlocks = '';

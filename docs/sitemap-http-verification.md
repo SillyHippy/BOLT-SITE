@@ -2,21 +2,23 @@
 
 # Sitemap HTTP verification
 
-- **When:** 2026-06-23T03:14:00.097Z
+- **When:** 2026-09-16T01:42:54.450Z
+- **Sitemap source:** https://justlegalsolutions.org/sitemap.xml
 - **Base:** https://justlegalsolutions.org
-- **URLs in <loc> (deduped):** 558
-- **Non-success (outside 200–399):** 0
+- **URLs in <loc> (deduped):** 603
+- **Redirects (invalid in sitemap):** 0
+- **Failures (non-2xx, excluding redirects):** 0
 - **Timeouts:** 0
 
-## Rows outside success / redirect range
+## Rows outside 2xx success range
 
-_None — all probes returned HTTP 200–399._
+_None — every sitemap URL returned HTTP 2xx without redirecting._
 
 
 ## All results (compact)
 
 <details>
-<summary>558 rows</summary>
+<summary>603 rows</summary>
 
 | Status | URL |
 |--------|-----|
@@ -32,8 +34,10 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/become-process-server-oklahoma-complete-guide |
 | 200 | https://justlegalsolutions.org/blog |
 | 200 | https://justlegalsolutions.org/blog/25-faq-process-serving-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/adoptions-termination-parental-rights-service-requirements-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/ai-changing-legal-support-services-2026 |
 | 200 | https://justlegalsolutions.org/blog/ai-skip-tracing-finding-evasive-defendants-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/apostille-document-authentication-services-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/automation-streamlines-legal-document-workflow-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/bail-bondsmen-process-servers-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma |
@@ -60,12 +64,15 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/category/pricing-and-cost-guides |
 | 200 | https://justlegalsolutions.org/blog/category/seasonal-and-timely |
 | 200 | https://justlegalsolutions.org/blog/certified-mail-vs-personal-service-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/chain-custody-legal-document-handling-importance-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/client-portals-legal-services-secure-document-access-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/client-relationship-management-oklahoma-law-firms |
 | 200 | https://justlegalsolutions.org/blog/cloud-based-case-management-process-servers-oklahoma |
-| 200 | https://justlegalsolutions.org/blog/common-process-serving-mistakes-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/complete-guide-to-hiring-process-server-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/construction-litigation-process-serving-mechanics-liens-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/contest-improper-service-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/corporate-notary-services-bulk-notarization-businesses-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/cost-difference-fast-vs-standard-process-serving |
 | 200 | https://justlegalsolutions.org/blog/courier-services-integrate-process-serving-workflows-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/data-entry-database-management-legal-practices-oklahoma |
@@ -74,6 +81,7 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/digital-proof-service-gps-photos-documentation |
 | 200 | https://justlegalsolutions.org/blog/digital-proof-service-modern-documentation |
 | 200 | https://justlegalsolutions.org/blog/divorce-papers-served-oklahoma-tulsa |
+| 200 | https://justlegalsolutions.org/blog/divorce-separation-serving-papers-sensitivity-discretion-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/diy-vs-professional-service-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/do-i-need-be-present-notarization-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/do-i-need-notary-business-documents-oklahoma |
@@ -83,11 +91,18 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/do-process-servers-work-weekends-evenings-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/document-courier-vs-regular-mail-law-firms-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/document-organization-filing-systems-legal-practices-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/document-service-attempts-best-practices-affidavits-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/domestic-violence-protective-order-service-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/electronic-filing-service-oklahoma-courts |
 | 200 | https://justlegalsolutions.org/blog/electronic-service-process-oklahoma-eservice |
 | 200 | https://justlegalsolutions.org/blog/employment-law-service-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/environmental-law-process-serving-epa-compliance-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/estate-planning-notarization-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide |
 | 200 | https://justlegalsolutions.org/blog/find-local-notary-near-me-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/guardianship-conservatorship-process-serving-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/handling-evasive-defendants-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-do-i-know-process-server-legitimate-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-do-process-servers-find-people-skip-tracing |
@@ -111,22 +126,36 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/how-to-serve-divorce-papers-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-to-serve-eviction-notices-in-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-to-serve-legal-papers-oklahoma-step-by-step |
+| 200 | https://justlegalsolutions.org/blog/how-to-serve-legal-papers-yourself-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/how-to-serve-small-claims-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/i9-verification-services-notary-employment-eligibility-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/in-state-vs-out-of-state-service-process-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/international-document-notarization-apostille-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/is-it-legal-to-serve-yourself-instead-of-process-server |
 | 200 | https://justlegalsolutions.org/blog/is-online-notarization-legal-my-state-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/january-process-serving-spike-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/legal-support-services-beyond-process-serving |
+| 200 | https://justlegalsolutions.org/blog/legal-tech-tools-oklahoma-law-firms-2026 |
 | 200 | https://justlegalsolutions.org/blog/loan-signing-agent-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/mobile-notary-come-to-office-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/mobile-notary-jails-correctional-facilities-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/mobile-notary-tulsa-guide |
+| 200 | https://justlegalsolutions.org/blog/national-process-server-week |
+| 200 | https://justlegalsolutions.org/blog/notaries-support-bankruptcy-filings-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/notarize-documents-when-cant-leave-home-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/notarizing-documents-incapacitated-individuals-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/notary-errors-omissions-insurance-every-notary-needs-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/notary-healthcare-directives-medical-documents-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/notary-intellectual-property-filings-patent-documents-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-apostille-services-guide |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-child-custody-support-service |
+| 200 | https://justlegalsolutions.org/blog/oklahoma-courier-services-legal-documents |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-court-filing-services |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-default-judgment-guide |
+| 200 | https://justlegalsolutions.org/blog/oklahoma-document-retrieval-services |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-landlord-tenant-eviction-timelines |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-mobile-notary-guide |
@@ -136,33 +165,51 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/oklahoma-power-of-attorney-notarization |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-real-estate-closing-notary |
 | 200 | https://justlegalsolutions.org/blog/oklahoma-service-by-publication |
+| 200 | https://justlegalsolutions.org/blog/oklahoma-virtual-assistant-legal-services |
+| 200 | https://justlegalsolutions.org/blog/oklahoma-witness-locate-services |
 | 200 | https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-server-safety-guide-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/process-server-scams-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-server-vs-certified-mail-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-server-vs-sheriff-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/process-serving-all-77-oklahoma-counties |
 | 200 | https://justlegalsolutions.org/blog/process-serving-cost-guide-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-serving-demand-growing-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-serving-federal-courts-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/process-serving-healthcare-hospitals-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/process-serving-hoa-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/process-serving-industry-trends-2026 |
 | 200 | https://justlegalsolutions.org/blog/process-serving-oil-gas-companies-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/process-serving-small-business-owners-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide |
 | 200 | https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server |
 | 200 | https://justlegalsolutions.org/blog/real-estate-agents-process-serving-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/ron-vs-mobile-notary-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/rush-same-day-process-serving-importance |
+| 200 | https://justlegalsolutions.org/blog/same-day-divorce-service-tulsa-case-study |
 | 200 | https://justlegalsolutions.org/blog/serve-business-corporation-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/serve-out-of-state-defendant-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/serving-government-entities-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/serving-papers-rural-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/sheriff-vs-private-process-server-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/skip-tracing-oklahoma-guide |
+| 200 | https://justlegalsolutions.org/blog/skip-tracing-technology-process-serving |
+| 200 | https://justlegalsolutions.org/blog/small-claims-tulsa-county-filing-guide |
+| 200 | https://justlegalsolutions.org/blog/someone-avoids-being-served-oklahoma-options |
+| 200 | https://justlegalsolutions.org/blog/standard-vs-rush-vs-same-day-process-serving |
+| 200 | https://justlegalsolutions.org/blog/subpoena-service-oklahoma-rules |
 | 200 | https://justlegalsolutions.org/blog/substitute-service-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/tax-season-legal-actions-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/tulsa-county-court-filing-guide |
 | 200 | https://justlegalsolutions.org/blog/tulsa-court-filing-guide |
 | 200 | https://justlegalsolutions.org/blog/types-legal-documents-process-server-deliver |
+| 200 | https://justlegalsolutions.org/blog/understanding-proof-of-service-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/understanding-the-affidavit-of-service |
 | 200 | https://justlegalsolutions.org/blog/virtual-assistants-court-filing-efiling-support-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/what-documents-can-process-server-deliver-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/what-documents-cannot-be-notarized-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/what-documents-need-notarized-oklahoma |
+| 200 | https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life |
 | 200 | https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/what-happens-if-someone-wont-answer-door-process-server |
 | 200 | https://justlegalsolutions.org/blog/what-happens-notarization-done-incorrectly-oklahoma |
@@ -176,10 +223,8 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/blog/what-to-do-when-served-papers-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/what-to-look-for-choosing-process-server-oklahoma |
 | 200 | https://justlegalsolutions.org/blog/workers-comp-subpoena-service |
-| 200 | https://justlegalsolutions.org/broken-arrow-process-server |
 | 200 | https://justlegalsolutions.org/can-process-server-serve-on-sunday |
 | 200 | https://justlegalsolutions.org/compare |
-| 200 | https://justlegalsolutions.org/compare/process-server-vs-sheriff |
 | 200 | https://justlegalsolutions.org/contact |
 | 200 | https://justlegalsolutions.org/cost-calculator |
 | 200 | https://justlegalsolutions.org/counties |
@@ -326,6 +371,7 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/oklahoma-process-server-pricing |
 | 200 | https://justlegalsolutions.org/oklahoma-process-server-technology |
 | 200 | https://justlegalsolutions.org/oklahoma-process-serving-hub |
+| 200 | https://justlegalsolutions.org/oklahoma-process-serving-laws-simplified |
 | 200 | https://justlegalsolutions.org/oklahoma-tools |
 | 200 | https://justlegalsolutions.org/oklahoma-tools/can-i-serve-my-own-papers |
 | 200 | https://justlegalsolutions.org/oklahoma-tools/e-service-validity-checker |
@@ -348,12 +394,14 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/process-server-near-me |
 | 200 | https://justlegalsolutions.org/process-server-safety-guide-oklahoma |
 | 200 | https://justlegalsolutions.org/process-server-tulsa-guide |
+| 200 | https://justlegalsolutions.org/process-server-vs-certified-mail |
 | 200 | https://justlegalsolutions.org/process-server-vs-sheriff |
 | 200 | https://justlegalsolutions.org/process-serving |
 | 200 | https://justlegalsolutions.org/process-serving-for-debt-collection |
 | 200 | https://justlegalsolutions.org/process-serving-for-insurance-companies |
 | 200 | https://justlegalsolutions.org/process-serving-for-property-managers |
 | 200 | https://justlegalsolutions.org/process-serving-mistakes-guide |
+| 200 | https://justlegalsolutions.org/process-serving-statistics-oklahoma |
 | 200 | https://justlegalsolutions.org/protective-order-service |
 | 200 | https://justlegalsolutions.org/real-estate-notary |
 | 200 | https://justlegalsolutions.org/remote-online-notary |
@@ -372,7 +420,6 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/resources/tools-and-guides |
 | 200 | https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma |
 | 200 | https://justlegalsolutions.org/reviews |
-| 200 | https://justlegalsolutions.org/reviews/email |
 | 200 | https://justlegalsolutions.org/reviews/google |
 | 200 | https://justlegalsolutions.org/rush-vs-standard-vs-same-day-service |
 | 200 | https://justlegalsolutions.org/same-day-process-server |
@@ -417,6 +464,7 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/service-areas/kellyville |
 | 200 | https://justlegalsolutions.org/service-areas/kiefer |
 | 200 | https://justlegalsolutions.org/service-areas/lawton |
+| 200 | https://justlegalsolutions.org/service-areas/marietta |
 | 200 | https://justlegalsolutions.org/service-areas/mcalester |
 | 200 | https://justlegalsolutions.org/service-areas/miami |
 | 200 | https://justlegalsolutions.org/service-areas/midwest-city |
@@ -443,7 +491,6 @@ _None — all probes returned HTTP 200–399._
 | 200 | https://justlegalsolutions.org/service-areas/stilwell |
 | 200 | https://justlegalsolutions.org/service-areas/sulphur |
 | 200 | https://justlegalsolutions.org/service-areas/tahlequah |
-| 200 | https://justlegalsolutions.org/service-areas/tulsa |
 | 200 | https://justlegalsolutions.org/service-areas/vinita |
 | 200 | https://justlegalsolutions.org/service-areas/wagoner |
 | 200 | https://justlegalsolutions.org/service-areas/yukon |

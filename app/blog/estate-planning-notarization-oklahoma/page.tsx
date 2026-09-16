@@ -23,6 +23,18 @@ export const metadata = {
     url: "/blog/estate-planning-notarization-oklahoma",
     type: "article",
     author: "Joseph Iannazzi",
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Estate planning notarization services in Oklahoma',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Estate Planning Notarization in Oklahoma',
+    description: 'Professional mobile notary services for wills, trusts, and estate planning documents throughout Oklahoma.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   other: {
     'article:published_time': '2026-05-23',
