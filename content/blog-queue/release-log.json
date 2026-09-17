@@ -5710,6 +5710,44 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-17T18:53:34.563Z",
+      "releaseDate": "2026-09-17",
+      "quality": {
+        "words": 5165,
+        "headings": 14,
+        "paragraphs": 55
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "hoa-property-management-process-serving-oklahoma",
+      "title": "HOA & Property Management Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-17T18:53:34.565Z",
+      "releaseDate": "2026-09-17",
+      "quality": {
+        "words": 5579,
+        "headings": 30,
+        "paragraphs": 52
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [

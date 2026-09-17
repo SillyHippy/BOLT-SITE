@@ -36,13 +36,6 @@
       "inQueue": true,
       "updatedAt": "2026-08-22"
     },
-    "notary-journal-requirements-best-practices-record-keeping-oklahoma": {
-      "target": "/blog/mobile-notary-tulsa-guide",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-08-22"
-    },
     "oklahoma-180-day-rule-service-process-explained": {
       "target": "/blog/25-faq-process-serving-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -156,6 +149,6 @@
       "updatedAt": "2026-08-22"
     }
   },
-  "lastPublishedSlug": "document-service-attempts-best-practices-affidavits-oklahoma",
-  "lastPublishedAt": "2026-09-01T18:03:13.962Z"
+  "lastPublishedSlug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+  "lastPublishedAt": "2026-09-17T18:53:34.557Z"
 }
