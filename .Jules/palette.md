@@ -13,3 +13,6 @@
 ## 2024-03-20 - Invisible Screen Reader Text in Ellipsis Wrappers
 **Learning:** Placing `aria-hidden="true"` or `aria-hidden` on a parent wrapper (like an ellipsis `<span>` container) hides all its children from screen readers. This inadvertently renders any nested `<span className="sr-only">` helper text completely invisible to assistive technologies, defeating the purpose of the `sr-only` text.
 **Action:** Always apply `aria-hidden="true"` directly to the decorative or icon element (like `<MoreHorizontal />` or `<ChevronRight />`) itself, not the parent container if the parent also contains screen-reader-only text intended to be announced.
+## 2026-09-18 - Missing Focus Visible on Social Links
+**Learning:** Found social media icon links (Facebook, LinkedIn, Instagram, Google My Business) in the footer that lacked explicit `focus-visible` styles, rendering keyboard focus invisible.
+**Action:** When adding utility links without standard button variants, always explicitly declare `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2` alongside the appropriate color class to ensure keyboard accessibility.
