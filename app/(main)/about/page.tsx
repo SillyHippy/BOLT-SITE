@@ -111,7 +111,7 @@ export default function AboutPage() {
                 {
                   label: 'NPSN Listed',
                   value: 'Directory',
-                  href: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+                  href: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
                   note: 'National Process Server Network directory',
                 },
                 {

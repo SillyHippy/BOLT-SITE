@@ -216,7 +216,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'https://twitter.com/ServeOK',
         'https://www.instagram.com/just_legal_solutions/',
         'https://www.napps.org/member-info.aspx?id=14801',
-        'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
+        'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/'
       ]
     } : {
       name: 'Just Legal Solutions',
@@ -235,7 +235,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'https://twitter.com/ServeOK',
         'https://www.instagram.com/just_legal_solutions/',
         'https://www.napps.org/member-info.aspx?id=14801',
-        'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
+        'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/'
       ]
     },
     // Map legacy aggregate rating - ONLY include for location/home/service pages, NOT articles
@@ -368,7 +368,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://www.linkedin.com/company/justlegalsolutionsok/',
       'https://www.instagram.com/just_legal_solutions/',
       'https://www.napps.org/member-info.aspx?id=14801',
-      'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+      'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
       'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
       'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
       'https://www.crunchbase.com/organization/just-legal-solutions',

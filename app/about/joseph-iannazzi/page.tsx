@@ -77,7 +77,7 @@ const personSchema = {
   url,
   sameAs: [
     'https://www.napps.org/member-info.aspx?id=14801',
-    'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+    'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
     'https://notary.snapdocs.com/notary-public/oklahoma/glenpool/joseph-iannazzi',
     'https://www.bbb.org/us/ok/glenpool/profile/process-server/just-legal-solutions-1025-38110450',
     'https://www.linkedin.com/in/joseph-iannazzi',
@@ -125,7 +125,7 @@ const personSchema = {
     {
       '@type': 'Organization',
       name: 'National Process Server Network (NPSN)',
-      url: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+      url: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
     },
   ],
   hasCredential: [
@@ -238,7 +238,7 @@ const credentialSections = [
       { label: 'BBB', value: 'Listed with A- rating (not accredited)' },
     ],
     verifyLabel: 'Verify NPSN Directory Listing',
-    verifyUrl: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+    verifyUrl: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
   },
   {
     icon: Briefcase,
@@ -443,7 +443,7 @@ export default function JosephIannazziPage() {
                 </a>{' '}
                 and the{' '}
                 <a
-                  href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/"
+                  href="https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/"
                   className="text-blue-700 hover:text-blue-800 underline"
                   target="_blank"
                   rel="noopener noreferrer"

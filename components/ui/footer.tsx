@@ -823,7 +823,7 @@ export function Footer() {
             </a>
             {/* NPSN Directory Listing */}
             <a
-              href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/"
+              href="https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-xl p-2 ring-1 ring-slate-100 hover:shadow-lg transition-shadow duration-200"

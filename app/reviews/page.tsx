@@ -130,7 +130,7 @@ export default function ReviewsPage() {
             <p className="text-sm text-blue-100 mt-5">
               Third-party profiles:{' '}
               <a href="https://www.google.com/maps/place/Just+Legal+Solutions/@35.3090496,-98.7167134,7z/data=!3m1!4b1!4m6!3m5!1s0x2d3a1c9aca7b5281:0x313651fd581f35bf!8m2!3d35.3090496!4d-98.7167134!16s%2Fg%2F11x0psycvf" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Google Business Profile</a>{' '}·{' '}
-              <a href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">National Process Server Network</a>{' '}·{' '}
+              <a href="https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">National Process Server Network</a>{' '}·{' '}
               <a href="https://www.instagram.com/just_legal_solutions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Instagram</a>
             </p>
           </div>

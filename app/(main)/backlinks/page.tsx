@@ -89,7 +89,7 @@ const backlinkUrls = [
   'https://twitter.com/ServeOK',
   'https://www.instagram.com/just_legal_solutions/',
   'https://www.napps.org/member-info.aspx?id=14801',
-  'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+  'https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/',
   
   // Press Releases & News
   'https://www.issuewire.com/founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-1839846063085062',

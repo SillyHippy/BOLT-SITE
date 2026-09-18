@@ -42,7 +42,7 @@ export const organizationSchema: WithContext<Organization> = {
     "https://www.linkedin.com/company/justlegalsolutionsok/",
     "https://www.instagram.com/just_legal_solutions/",
     "https://www.napps.org/member-info.aspx?id=14801",
-    "https://nationalprocessservernetwork.com/directory/just-legal-solutions/",
+    "https://nationalprocessservernetwork.com/directory/just-legal-solutions-2/",
     "https://twitter.com/ServeOK",
     "https://www.manta.com/c/m1x7pgf/just-legal-solutions"
   ],
