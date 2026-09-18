@@ -539,7 +539,7 @@ export default function BailBondsmenProcessServingPage() {
                     (539) 367-6832
                   </a>
                   <a
-                    href="mailto:joseph@justlegalsolutions.org?subject=Bail%20Agency%20Volume%20Pricing"
+                    href="/contact"
                     className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-white border border-gray-300 text-gray-900 rounded-lg font-semibold hover:border-rose-400 hover:text-rose-700 transition"
                   >
                     joseph@justlegalsolutions.org

@@ -93,7 +93,7 @@ export default function SecurityPolicyPage() {
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">Reporting Security Issues</h2>
             <p className="mb-4">
-              If you discover a security vulnerability on our website or have concerns about data handling, please report it immediately to <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline">info@JustLegalSolutions.org</a>. We will investigate all legitimate reports promptly and do our best to resolve any issues quickly. We appreciate responsible disclosure and will not take legal action against individuals who report vulnerabilities in good faith.
+              If you discover a security vulnerability on our website or have concerns about data handling, please report it immediately to <a href="/contact" className="text-blue-600 hover:underline">info@JustLegalSolutions.org</a>. We will investigate all legitimate reports promptly and do our best to resolve any issues quickly. We appreciate responsible disclosure and will not take legal action against individuals who report vulnerabilities in good faith.
             </p>
 
             <h2 className="text-2xl font-semibold mt-8 mb-4">Policy Updates</h2>

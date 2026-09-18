@@ -189,7 +189,7 @@ export default function ContactPage() {
                   <h3 className="font-bold text-white mb-1">Call Us</h3>
                   <p className="text-blue-100 font-semibold">(539) 367-6832</p>
                 </a>
-                <a href="mailto:info@JustLegalSolutions.org" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
+                <a href="/contact" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
                   <Mail className="h-8 w-8 text-white mx-auto mb-3 group-hover:scale-110 transition-transform" />
                   <h3 className="font-bold text-white mb-1">Email Us</h3>
                   <p className="text-blue-100 font-semibold text-sm">info@JustLegalSolutions.org</p>
@@ -301,7 +301,7 @@ export default function ContactPage() {
           </section>
           {/* Accessibility Statement */}
           <section className="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-md p-4 mb-8 border border-gray-200">
-            <p className="text-xs text-gray-600">We are committed to accessibility. If you have trouble using this site or need assistance, please <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline">contact us</a> and we will help promptly.</p>
+            <p className="text-xs text-gray-600">We are committed to accessibility. If you have trouble using this site or need assistance, please <a href="/contact" className="text-blue-600 hover:underline">contact us</a> and we will help promptly.</p>
           </section>
           <div className="mb-4">
             <div className="rounded overflow-hidden shadow border border-gray-200">

@@ -717,7 +717,7 @@ export default function WhatIsAProcessServerPage() {
                     </a>
                     <p className="text-sm text-gray-200 mb-3">Available 24/7 • Emergency & weekend service</p>
                     <div className="flex flex-col gap-2">
-                      <a href="mailto:info@JustLegalSolutions.org" className="text-sm text-yellow-300 underline hover:no-underline">📧 info@JustLegalSolutions.org</a>
+                      <a href="/contact" className="text-sm text-yellow-300 underline hover:no-underline">📧 info@JustLegalSolutions.org</a>
                       <Link href="/contact" className="bg-yellow-500 text-black px-4 py-2 rounded font-semibold text-sm hover:bg-yellow-400 transition">📝 Get Instant Quote →</Link>
                     </div>
                   </div>

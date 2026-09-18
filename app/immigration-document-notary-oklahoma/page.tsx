@@ -680,7 +680,7 @@ export default function ImmigrationDocumentNotaryPage() {
                   <Phone className="w-5 h-5" />
                   (539) 367-6832
                 </a>
-                <a href="mailto:info@JustLegalSolutions.org" className="w-full inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-3 rounded-xl font-medium border border-white/30 hover:bg-white/20 transition-all">
+                <a href="/contact" className="w-full inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-3 rounded-xl font-medium border border-white/30 hover:bg-white/20 transition-all">
                   <Mail className="w-5 h-5" />
                   info@JustLegalSolutions.org
                 </a>

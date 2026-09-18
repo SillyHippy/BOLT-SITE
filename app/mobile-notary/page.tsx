@@ -568,7 +568,7 @@ export default function MobileNotaryPage() {
                     <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@JustLegalSolutions.org"
+                    href="/contact"
                     className="inline-flex items-center bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg font-semibold border border-white/30"
                   >
                     <Mail className="w-5 h-5 mr-2" /> info@JustLegalSolutions.org
@@ -809,7 +809,7 @@ export default function MobileNotaryPage() {
             </div>
             <div className="mt-10 text-center">
               <p className="text-slate-600">
-                Need a formal proposal for your firm or lender? Email <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 underline">info@JustLegalSolutions.org</a> and we will send rate sheets with GL and W-9 documentation within one business day.
+                Need a formal proposal for your firm or lender? Email <a href="/contact" className="text-blue-600 underline">info@JustLegalSolutions.org</a> and we will send rate sheets with GL and W-9 documentation within one business day.
               </p>
             </div>
           </div>
@@ -873,7 +873,7 @@ export default function MobileNotaryPage() {
                 <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@JustLegalSolutions.org"
+                href="/contact"
                 className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold border border-white/30"
               >
                 <Mail className="w-5 h-5 mr-2" /> info@JustLegalSolutions.org

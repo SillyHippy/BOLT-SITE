@@ -365,7 +365,7 @@ export default function RushEmergencyCostCalculator() {
               Call (539) 367-6832
             </a>
             <a
-              href="mailto:info@JustLegalSolutions.org"
+              href="/contact"
               className="inline-block bg-white/10 text-white font-semibold px-6 py-2.5 rounded hover:bg-white/20 transition-colors"
             >
               Email for Quote

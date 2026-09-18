@@ -615,7 +615,7 @@ const RemoteOnlineNotaryPage = () => {
                 <Phone className="h-5 w-5" /> Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@JustLegalSolutions.org"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-4 font-semibold text-white hover:bg-white/10 transition"
               >
                 <Mail className="h-5 w-5" /> Email Us
@@ -919,7 +919,7 @@ const RemoteOnlineNotaryPage = () => {
                 <a href="tel:15393676832" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 font-semibold text-white">
                   <Phone className="h-5 w-5" /> Call (539) 367-6832
                 </a>
-                <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
+                <a href="/contact" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
                   <Mail className="h-5 w-5" /> Email Our Team
                 </a>
               </div>

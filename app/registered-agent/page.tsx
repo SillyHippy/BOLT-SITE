@@ -479,7 +479,7 @@ export default function RegisteredAgentPage() {
                 <a href="tel:5393676832" className="flex items-center gap-3 bg-white text-emerald-900 font-semibold px-5 py-3 rounded-xl">
                   <Phone className="w-5 h-5" /> (539) 367-6832
                 </a>
-                <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl hover:bg-white/10">
+                <a href="/contact" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl hover:bg-white/10">
                   <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
                 </a>
                 <Link href="/contact" className="flex items-center gap-2 text-emerald-200 font-semibold hover:text-white">

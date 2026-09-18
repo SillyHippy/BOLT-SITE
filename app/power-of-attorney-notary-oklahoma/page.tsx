@@ -687,7 +687,7 @@ export default function PowerOfAttorneyNotaryPage() {
               Call (539) 367-6832
             </a>
             <a 
-              href="mailto:joseph@JustLegalSolutions.org" 
+              href="/contact" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Email Us

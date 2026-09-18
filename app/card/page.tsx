@@ -95,7 +95,7 @@ export default function CardPage() {
               customSize: "120%" // Custom size for this icon
             },
             {
-              href: "mailto:Joseph@JustLegalSolutions.org",
+              href: "/contact",
               icon: "/landingpage/icons/mail.svg",
               label: "Email",
               customSize: "110%" // Custom size for this icon

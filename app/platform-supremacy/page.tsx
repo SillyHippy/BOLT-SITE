@@ -44,7 +44,7 @@ export default function PlatformSupremacy() {
             <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700 mr-4">
               📞 Call (539) 367-6832
             </a>
-            <a href="mailto:info@JustLegalSolutions.org" className="bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-700">
+            <a href="/contact" className="bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-700">
               📧 Email Us
             </a>
           </div>

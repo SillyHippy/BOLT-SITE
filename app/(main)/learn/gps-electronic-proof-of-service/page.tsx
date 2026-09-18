@@ -328,7 +328,7 @@ export default function GPSElectronicProofOfServicePage() {
             (539) 367-6832
           </a>{' '}
           or email{' '}
-          <a href="mailto:info@JustLegalSolutions.org" className="underline text-navy hover:text-gold">
+          <a href="/contact" className="underline text-navy hover:text-gold">
             info@JustLegalSolutions.org
           </a>
           .

@@ -699,7 +699,7 @@ export default function JosephCredentialsPage() {
                 Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@JustLegalSolutions.org"
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-500 text-white rounded-lg font-bold hover:bg-blue-400 transition-colors"
               >
                 <Mail className="w-5 h-5" />

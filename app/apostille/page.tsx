@@ -74,7 +74,7 @@ const heroStats = [
 
 const contactMethods = [
   { label: 'Call', value: '(539) 367-6832', href: 'tel:5393676832', icon: Phone },
-  { label: 'Email', value: 'info@JustLegalSolutions.org', href: 'mailto:info@JustLegalSolutions.org', icon: Mail }
+  { label: 'Email', value: 'info@JustLegalSolutions.org', href: '/contact', icon: Mail }
 ];
 
 const valueProps = [
@@ -540,7 +540,7 @@ export default function ApostillePage() {
                   Call (539) 367-6832
                 </a>
                 <a
-                  href="mailto:info@JustLegalSolutions.org"
+                  href="/contact"
                   className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-xl font-semibold hover:bg-white/10 transition"
                 >
                   <Mail className="w-5 h-5" />
@@ -970,7 +970,7 @@ export default function ApostillePage() {
                 (539) 367-6832
               </a>
               <a
-                href="mailto:info@JustLegalSolutions.org"
+                href="/contact"
                 className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-2xl font-semibold hover:bg-white/10"
               >
                 <Mail className="w-5 h-5" />

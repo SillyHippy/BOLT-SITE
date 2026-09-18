@@ -346,7 +346,7 @@ export default function WeddingOfficiantPage() {
                     <Phone className="w-5 h-5" /> Call (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@JustLegalSolutions.org"
+                    href="/contact"
                     className="inline-flex items-center gap-2 border border-white/70 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
                   >
                     <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
@@ -526,7 +526,7 @@ export default function WeddingOfficiantPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5" />
-                    <a href="mailto:info@JustLegalSolutions.org" className="font-semibold">info@JustLegalSolutions.org</a>
+                    <a href="/contact" className="font-semibold">info@JustLegalSolutions.org</a>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-5 h-5" /> Tulsa, Oklahoma Area
@@ -1084,7 +1084,7 @@ export default function WeddingOfficiantPage() {
               <a href="tel:5393676832" className="inline-flex items-center gap-2 bg-white text-rose-700 px-6 py-3 rounded-lg font-semibold shadow">
                 <Phone className="w-5 h-5" /> Call Now
               </a>
-              <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 border border-white text-white px-6 py-3 rounded-lg font-semibold">
+              <a href="/contact" className="inline-flex items-center gap-2 border border-white text-white px-6 py-3 rounded-lg font-semibold">
                 <Mail className="w-5 h-5" /> Request Availability
               </a>
             </div>

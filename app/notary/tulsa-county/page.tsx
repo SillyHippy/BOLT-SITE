@@ -310,7 +310,7 @@ export default function TulsaCountyNotaryPage() {
                     (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@JustLegalSolutions.org"
+                    href="/contact"
                     className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-lg font-semibold hover:bg-white/10"
                   >
                     <Mail className="w-5 h-5" />
@@ -528,7 +528,7 @@ export default function TulsaCountyNotaryPage() {
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
-              <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
+              <a href="/contact" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
                 <Mail className="w-5 h-5" />
                 Email Dispatch
               </a>

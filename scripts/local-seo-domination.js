@@ -227,7 +227,7 @@ function generateLocalLandingPages() {
           
           <h2>Contact Information</h2>
           <p>Phone: <a href="tel:${localBusinessData.phone}">${localBusinessData.phone}</a></p>
-          <p>Email: <a href="mailto:${localBusinessData.email}">${localBusinessData.email}</a></p>
+          <p>Email: <a href="/contact">${localBusinessData.email}</a></p>
           <p>Service Area: ${city}, ${area.name}, Oklahoma</p>
           
           <h2>Business Hours</h2>

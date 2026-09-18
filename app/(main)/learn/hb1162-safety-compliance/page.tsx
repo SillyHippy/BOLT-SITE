@@ -303,7 +303,7 @@ export default function Hb1162SafetyCompliancePage() {
             </a>{' '}
             or{' '}
             <a
-              href="mailto:info@JustLegalSolutions.org"
+              href="/contact"
               className="text-navy underline font-semibold"
             >
               info@JustLegalSolutions.org

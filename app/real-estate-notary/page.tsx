@@ -310,7 +310,7 @@ export default function RealEstateNotaryPage() {
                     Call (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@JustLegalSolutions.org"
+                    href="/contact"
                     className="inline-flex items-center gap-2 border border-white/70 text-white px-6 py-3 rounded-xl font-semibold"
                   >
                     <ArrowRight className="w-5 h-5" />

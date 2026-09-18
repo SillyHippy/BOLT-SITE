@@ -346,7 +346,7 @@ export default function FutureOfProcessServingPage() {
             <a href="tel:539-367-6832" className="btn-primary bg-gold text-navy hover:bg-white hover:text-navy">
               Call (539) 367-6832
             </a>
-            <a href="mailto:info@JustLegalSolutions.org" className="btn-secondary border-white text-white hover:bg-white hover:text-navy">
+            <a href="/contact" className="btn-secondary border-white text-white hover:bg-white hover:text-navy">
               Email Us
             </a>
           </div>

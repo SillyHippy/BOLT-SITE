@@ -263,7 +263,7 @@ export default function ProcessServingCostEstimator() {
             (539) 367-6832
           </a>{' '}
           or email{' '}
-          <a href="mailto:info@JustLegalSolutions.org" className="text-indigo-600 underline hover:text-indigo-800">
+          <a href="/contact" className="text-indigo-600 underline hover:text-indigo-800">
             info@JustLegalSolutions.org
           </a>.
         </p>
@@ -620,7 +620,7 @@ export default function ProcessServingCostEstimator() {
           </a>{' '}
           or email{' '}
           <a
-            href="mailto:info@JustLegalSolutions.org"
+            href="/contact"
             className="text-gold font-semibold hover:underline"
           >
             info@JustLegalSolutions.org

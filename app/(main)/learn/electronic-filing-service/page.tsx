@@ -286,7 +286,7 @@ export default function ElectronicFilingServicePage() {
             </a>{' '}
             or email{' '}
             <a
-              href="mailto:info@JustLegalSolutions.org"
+              href="/contact"
               className="text-navy underline font-semibold"
             >
               info@JustLegalSolutions.org

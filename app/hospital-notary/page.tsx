@@ -721,7 +721,7 @@ export default function HospitalNotaryPage() {
                   <a href="tel:5393676832" className="flex items-center gap-3 text-indigo-900 bg-gradient-to-r from-indigo-100 to-purple-100 font-semibold px-5 py-3 rounded-xl">
                     <Phone className="w-5 h-5" /> (539) 367-6832
                   </a>
-                  <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-3 text-indigo-700 px-5 py-3 border border-indigo-200 rounded-xl hover:bg-indigo-50">
+                  <a href="/contact" className="flex items-center gap-3 text-indigo-700 px-5 py-3 border border-indigo-200 rounded-xl hover:bg-indigo-50">
                     <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
                   </a>
                   <Link href="/notary" className="flex items-center gap-2 text-indigo-700 font-semibold hover:text-indigo-900">
@@ -795,7 +795,7 @@ export default function HospitalNotaryPage() {
                 <a href="tel:5393676832" className="flex items-center gap-3 bg-white text-indigo-900 font-semibold px-5 py-3 rounded-xl">
                   <Phone className="w-5 h-5" /> (539) 367-6832
                 </a>
-                <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl">
+                <a href="/contact" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl">
                   <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
                 </a>
               </div>

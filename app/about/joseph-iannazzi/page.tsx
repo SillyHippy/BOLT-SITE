@@ -372,7 +372,7 @@ export default function JosephIannazziPage() {
                     <span>(539) 367-6832</span>
                   </a>
                   <a
-                    href="mailto:joseph@justlegalsolutions.org"
+                    href="/contact"
                     className="flex items-center gap-2 px-4 py-3 bg-white border border-gray-300 text-gray-900 rounded-lg font-semibold hover:border-blue-400 hover:text-blue-700 transition"
                   >
                     <Mail className="w-5 h-5" aria-hidden="true" />

@@ -1007,7 +1007,7 @@ export default function NotaryPage() {
 
               <div className="mt-8 pt-6 border-t border-white/20">
                 <p className="text-sm text-blue-200 mb-2"><strong className="text-white">Payment Methods:</strong> Cash, Credit/Debit Cards, Business Checks, Wire Transfer</p>
-                <p className="text-sm text-blue-200"><strong className="text-white">Email:</strong> <a href="mailto:info@JustLegalSolutions.org" className="underline hover:text-white">info@JustLegalSolutions.org</a></p>
+                <p className="text-sm text-blue-200"><strong className="text-white">Email:</strong> <a href="/contact" className="underline hover:text-white">info@JustLegalSolutions.org</a></p>
               </div>
             </div>
           </div>

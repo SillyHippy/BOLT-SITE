@@ -124,7 +124,7 @@ export default function PrivacyPolicyPage() {
             <li>Request deletion of your information (subject to our legal obligations)</li>
             <li>Opt out of marketing communications at any time</li>
           </ul>
-          <p>To exercise these rights, contact us at <a href="mailto:info@JustLegalSolutions.org">info@JustLegalSolutions.org</a>.</p>
+          <p>To exercise these rights, contact us at <a href="/contact">info@JustLegalSolutions.org</a>.</p>
 
           <h2>8. Security</h2>
           <p>
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
           <h2>12. Contact Us</h2>
           <p>If you have questions about this Privacy Policy, contact us:</p>
           <ul>
-            <li><strong>Email:</strong> <a href="mailto:info@JustLegalSolutions.org">info@JustLegalSolutions.org</a></li>
+            <li><strong>Email:</strong> <a href="/contact">info@JustLegalSolutions.org</a></li>
             <li><strong>Phone:</strong> <a href="tel:5393676832">(539) 367-6832</a></li>
             <li><strong>Address:</strong> 564 E 138th PL, Glenpool, OK 74033</li>
           </ul>

@@ -249,7 +249,7 @@ export default function VPOProtectiveOrderServicePage() {
           </a>{' '}
           or email{' '}
           <a
-            href="mailto:info@JustLegalSolutions.org"
+            href="/contact"
             className="underline text-navy hover:text-gold"
           >
             info@JustLegalSolutions.org

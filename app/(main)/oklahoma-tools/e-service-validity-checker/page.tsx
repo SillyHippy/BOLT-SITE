@@ -724,7 +724,7 @@ export default function EServiceValidityChecker() {
           </a>{' '}
           or email{' '}
           <a
-            href="mailto:info@JustLegalSolutions.org"
+            href="/contact"
             className="text-gold font-semibold hover:underline"
           >
             info@JustLegalSolutions.org
