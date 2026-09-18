@@ -4,7 +4,7 @@ import TrustedNetworkClient from './TrustedNetworkClient';
 import trustedServers from '@/data/trusted-network.json';
 
 export const metadata: Metadata = {
-  title: 'Internal Server Directory & Partner Network | Just Legal Solutions',
+  title: 'Internal Server Directory & Partner Network',
   description: 'Private trusted process server lookup for Oklahoma coverage.',
   robots: {
     index: false,

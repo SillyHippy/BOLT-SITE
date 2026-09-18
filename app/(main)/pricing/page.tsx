@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/pricing'
   },
   openGraph: {
-    title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
+    title: 'Process Server Pricing Oklahoma',
     description: 'Transparent process server pricing in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Clear base starting rates.',
     url: 'https://justlegalsolutions.org/pricing',
     siteName: 'Just Legal Solutions',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
+    title: 'Process Server Pricing Oklahoma',
     description: 'Transparent process server pricing in Oklahoma. Starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.webp'],
   },

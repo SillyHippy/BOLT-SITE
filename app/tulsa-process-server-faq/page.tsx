@@ -7,12 +7,12 @@ import { Phone, Shield, Clock, CheckCircle, Star, ArrowRight, FileText, MapPin, 
 import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
-  title: 'Tulsa Process Server FAQ 2026 | Pricing, Speed & Coverage | Just Legal Solutions',
+  title: 'Tulsa Process Server FAQ 2026 | Pricing, Speed & Coverage',
   description: 'Tulsa process server FAQ for 2026. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Answers on coverage, GPS proof, after-hours, and more. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'tulsa process server faq, tulsa process server cost, oklahoma process server questions, just legal solutions, process server hours, process server tulsa pricing, gps proof of service',
   alternates: { canonical: 'https://justlegalsolutions.org/tulsa-process-server-faq' },
   openGraph: {
-    title: 'Tulsa Process Server FAQ — 2026 | Just Legal Solutions',
+    title: 'Tulsa Process Server FAQ — 2026',
     description: '20+ answers about pricing, speed, coverage, and how to get started with a Tulsa-based process server who covers all 77 Oklahoma counties.',
     url: 'https://justlegalsolutions.org/tulsa-process-server-faq',
     siteName: 'Just Legal Solutions',

@@ -27,7 +27,7 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/registered-agent';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Registered Agent Service | $99/Year — Just Legal Solutions',
+  title: 'Oklahoma Registered Agent Service | $99/Year',
   description:
     'Professional registered agent service for Oklahoma LLCs, corporations, and foreign entities. Same-day document notification, secure portal access, compliance reminders. $99/year flat rate. Call (539) 367-6832.',
   keywords: [

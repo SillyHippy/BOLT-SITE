@@ -3,14 +3,14 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata = {
-  title: 'Voice Search Marker - Just Legal Solutions',
+  title: 'Voice Search Marker',
   description: 'This page marks voice search optimization for Just Legal Solutions. Our services are discoverable and optimized for voice assistants and smart devices.',
   keywords: 'voice search, smart assistant, process server, just legal solutions',
   alternates: {
     canonical: 'https://justlegalsolutions.org/voice-search-marker'
   },
   openGraph: {
-    title: 'Voice Search Marker - Just Legal Solutions',
+    title: 'Voice Search Marker',
     description: 'Voice search optimization for Just Legal Solutions. Services discoverable and optimized for voice assistants and smart devices.',
     url: 'https://justlegalsolutions.org/voice-search-marker',
     siteName: 'Just Legal Solutions',

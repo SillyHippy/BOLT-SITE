@@ -2,6 +2,20 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
+
+function gitLastmod(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) return null;
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cs', '--', filePath], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    return /^\d{4}-\d{2}-\d{2}$/.test(out) ? out : null;
+  } catch {
+    return null;
+  }
+}
 
 // Directory to scan for static pages (Next.js export output or public)
 const OUT_DIR = path.join(process.cwd(), 'out');
@@ -75,7 +89,6 @@ function filePathToUrl(filePath, baseDir) {
 function generateSitemap() {
   const baseDir = fs.existsSync(OUT_DIR) ? OUT_DIR : PUBLIC_DIR;
   const files = getHtmlFiles(baseDir);
-  const today = new Date().toISOString().split('T')[0];
 
   // URLs to exclude (redirect pages, internal tools, utility pages)
   const excludeUrls = [
@@ -440,18 +453,14 @@ function generateSitemap() {
     let changefreq = 'monthly';
     const urlPath = url.replace(DOMAIN, '');
 
-    // Use actual file modification date instead of today's date
-    // This gives Google accurate signals about what actually changed
-    let lastmod = today; // Default to today for safety
+    // Git commit date only. Never default to today — CI checkouts reset mtimes
+    // and new Date() stamped every URL as "changed" on each deploy.
+    let lastmod = null;
     try {
       const pagePath = resolveAppPagePath(urlPath);
-      if (pagePath) {
-        const stats = fs.statSync(pagePath);
-        lastmod = stats.mtime.toISOString().split('T')[0];
-      }
+      if (pagePath) lastmod = gitLastmod(pagePath);
     } catch (err) {
-      // Fallback to today's date if file not found
-      lastmod = today;
+      lastmod = null;
     }
 
     if (PRIORITY_1_0_PAGES.includes(urlPath)) {
@@ -515,7 +524,8 @@ function generateSitemap() {
       changefreq = 'monthly';
     }
 
-    return `  <url>\n    <loc>${url}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : '';
+    return `  <url>\n    <loc>${url}</loc>${lastmodTag}\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
@@ -540,17 +550,10 @@ function generateSitemap() {
   ];
 
   const indexEntries = childSitemaps.map(child => {
-    let childLastmod = today;
-    try {
-      const childPath = path.join(PUBLIC_DIR, child.loc);
-      if (fs.existsSync(childPath)) {
-        const stats = fs.statSync(childPath);
-        childLastmod = stats.mtime.toISOString().split('T')[0];
-      }
-    } catch {
-      childLastmod = today;
-    }
-    return `  <sitemap>\n    <loc>${DOMAIN}/${child.loc}</loc>\n    <lastmod>${childLastmod}</lastmod>\n  </sitemap>`;
+    const childPath = path.join(PUBLIC_DIR, child.loc);
+    const childLastmod = gitLastmod(childPath);
+    const lastmodTag = childLastmod ? `\n    <lastmod>${childLastmod}</lastmod>` : '';
+    return `  <sitemap>\n    <loc>${DOMAIN}/${child.loc}</loc>${lastmodTag}\n  </sitemap>`;
   });
 
   const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexEntries.join('\n')}\n</sitemapindex>\n`;

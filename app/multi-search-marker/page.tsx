@@ -6,7 +6,7 @@ export const metadata = {
     alternates: {
     canonical: 'https://justlegalsolutions.org/multi-search-marker',
   },
-title: 'Multi-Search Marker - Just Legal Solutions',
+title: 'Multi-Search Marker',
   description: 'This page marks multi-search optimization for Just Legal Solutions. Our services are discoverable across all major search platforms and assistants.',
   keywords: 'multi-search, search engine, voice assistant, just legal solutions',
   robots: {

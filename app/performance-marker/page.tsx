@@ -6,7 +6,7 @@ export const metadata = {
     alternates: {
     canonical: 'https://justlegalsolutions.org/performance-marker',
   },
-title: 'Performance Marker - Just Legal Solutions',
+title: 'Performance Marker',
   description: 'This page marks performance optimization for Just Legal Solutions. Our site is fast, reliable, and optimized for all devices.',
   keywords: 'performance, site speed, optimization, just legal solutions',
   robots: {

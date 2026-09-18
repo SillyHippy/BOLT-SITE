@@ -13,7 +13,7 @@ import LastUpdated from '@/components/ui/last-updated';
 const contactFreshness = getPageFreshness('/contact')!;
 
 export const metadata = {
-  title: '(539) 367-6832 | Contact Just Legal Solutions',
+  title: '(539) 367-6832 | Contact',
   description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
   keywords: [
     'contact process server',
@@ -35,7 +35,7 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/contact'
   },
   openGraph: {
-    title: '(539) 367-6832 | Contact Just Legal Solutions',
+    title: '(539) 367-6832 | Contact',
     description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     type: 'website',
     locale: 'en_US',
@@ -52,7 +52,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '(539) 367-6832 | Contact Just Legal Solutions',
+    title: '(539) 367-6832 | Contact',
     description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.webp'],
     site: '@ServeOK',

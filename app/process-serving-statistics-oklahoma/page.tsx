@@ -7,7 +7,7 @@ import UnifiedSchema from '../../components/UnifiedSchema';
 const canonicalUrl = 'https://justlegalsolutions.org/process-serving-statistics-oklahoma';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Statistics 2026 | Data, Trends & Analysis | Just Legal Solutions',
+  title: 'Oklahoma Process Serving Statistics 2026 | Data, Trends & Analysis',
   description:
     'Original 2026 Oklahoma process serving statistics: average costs, success rates, turnaround times, Tulsa County filings, all 77 counties, and statewide data based on industry data and Oklahoma court records.',
   keywords:

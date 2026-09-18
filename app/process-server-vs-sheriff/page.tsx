@@ -7,12 +7,12 @@ import { Phone, Shield, Clock, CheckCircle, Star, ArrowRight, FileText, MapPin, 
 import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
-  title: 'Process Server vs Sheriff in Oklahoma | Cost, Speed & Reliability | Just Legal Solutions',
+  title: 'Process Server vs Sheriff in Oklahoma | Cost, Speed & Reliability',
   description: 'Process server vs sheriff in Oklahoma compared head-to-head. Private process serving starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'process server vs sheriff oklahoma, sheriff service of process tulsa, private process server cost, 12 OS 158.1, 12 OS 2004, sheriff fees oklahoma, private vs sheriff service, court-ready affidavit',
   alternates: { canonical: 'https://justlegalsolutions.org/process-server-vs-sheriff' },
   openGraph: {
-    title: 'Process Server vs Sheriff in Oklahoma | Just Legal Solutions',
+    title: 'Process Server vs Sheriff in Oklahoma',
     description: 'Side-by-side comparison of private process servers and the county sheriff in Oklahoma. Speed, cost, hours, GPS proof, and success rates explained.',
     url: 'https://justlegalsolutions.org/process-server-vs-sheriff',
     siteName: 'Just Legal Solutions',

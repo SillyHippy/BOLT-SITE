@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: 'https://justlegalsolutions.org/oklahoma-process-serving-hub' },
   openGraph: {
-    title: 'Oklahoma Process Serving — Free Tools & Guides | Just Legal Solutions',
+    title: 'Oklahoma Process Serving — Free Tools & Guides',
     description:
       'Free Oklahoma process serving calculators and citation-backed guides for attorneys and the public.',
     url: 'https://justlegalsolutions.org/oklahoma-process-serving-hub',

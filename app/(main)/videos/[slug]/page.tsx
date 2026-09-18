@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   ];
 
   return {
-    title: `${video.title} | Oklahoma Process Server | Just Legal Solutions`,
+    title: `${video.title} | Oklahoma Process Server`,
     description: `${video.description} Professional process serving in Tulsa and all 77 Oklahoma counties. Same-day service available. Call (539) 367-6832 for fast, GPS-tracked legal document delivery.`,
     keywords: dynamicKeywords.join(', '),
     authors: [{ name: 'Joseph Iannazzi' }, { name: 'Just Legal Solutions' }],

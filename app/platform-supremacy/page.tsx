@@ -5,7 +5,7 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server - Just Legal Solutions',
+  title: 'Oklahoma Process Server',
   description: 'Professional process serving across Oklahoma: Google optimization, AI assistants, voice search. Same-day service across all 77 Oklahoma counties. Call (539) 367-6832.',
   keywords: 'oklahoma process server, professional process server tulsa, legal document delivery',
   openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Process Server - Just Legal Solutions',
+    title: 'Oklahoma Process Server',
     description: 'Professional process serving across Oklahoma: Google optimization, AI assistants, voice search. Same-day service across all 77 Oklahoma counties. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },

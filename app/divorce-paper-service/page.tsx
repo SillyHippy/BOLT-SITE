@@ -8,12 +8,12 @@ import { Phone, Shield, Clock, CheckCircle, Star, ArrowRight, FileText, MapPin, 
 import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
-  title: 'Divorce Paper Service in Oklahoma | Discreet Process Serving | Just Legal Solutions',
+  title: 'Divorce Paper Service in Oklahoma | Discreet Process Serving',
   description: 'Divorce paper service in Oklahoma starts at $35 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Discreet, GPS-verified service of divorce petitions, summonses, and temporary orders. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'divorce paper service oklahoma, serve divorce papers tulsa, divorce process server, family law process server, serve divorce summons, 12 OS 2004, evasive spouse service, mobile notary divorce',
   alternates: { canonical: 'https://justlegalsolutions.org/divorce-paper-service' },
   openGraph: {
-    title: 'Divorce Paper Service in Oklahoma | Just Legal Solutions',
+    title: 'Divorce Paper Service in Oklahoma',
     description: 'Discreet, court-ready service of divorce petitions, summonses, and temporary orders across all 77 Oklahoma counties. Same-day and after-hours available.',
     url: 'https://justlegalsolutions.org/divorce-paper-service',
     siteName: 'Just Legal Solutions',

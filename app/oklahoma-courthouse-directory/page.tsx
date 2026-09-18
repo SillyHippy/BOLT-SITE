@@ -221,7 +221,7 @@ export default function OklahomaCourthouseDirectoryPage() {
                 {courthouses.map((ch, i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="px-4 py-3">
-                      <Link href={`/counties/${ch.slug}`} className="font-semibold text-blue-700 hover:text-blue-900 hover:underline">
+                      <Link href={`/counties/${ch.slug}-county`} className="font-semibold text-blue-700 hover:text-blue-900 hover:underline">
                         {ch.county}
                       </Link>
                     </td>
@@ -252,7 +252,7 @@ export default function OklahomaCourthouseDirectoryPage() {
                       </a>
                     </td>
                     <td className="px-4 py-3">
-                      <Link href={`/counties/${ch.slug}`} className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full hover:bg-blue-200 transition-colors">
+                      <Link href={`/counties/${ch.slug}-county`} className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full hover:bg-blue-200 transition-colors">
                         Hire Server
                       </Link>
                     </td>

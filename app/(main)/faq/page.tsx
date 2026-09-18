@@ -22,14 +22,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server & Notary FAQ - All Your Questions Answered | Just Legal Solutions',
+  title: 'Oklahoma Process Server & Notary FAQ - All Your Questions Answered',
   description: 'Complete FAQ for Oklahoma process serving and notary services. 90+ questions answered on pricing ($35-$265), timelines, licensing, GPS proof, coverage (all 77 counties), and notary requirements. Licensed & bonded.',
   keywords: 'Oklahoma process server FAQ, process serving questions, notary FAQ Oklahoma, Tulsa process server cost, legal document service questions, Oklahoma notary requirements, process serving pricing, how does process serving work',
   alternates: {
     canonical: 'https://justlegalsolutions.org/faq',
   },
   openGraph: {
-    title: 'Oklahoma Process Server & Notary FAQ - All Your Questions Answered | Just Legal Solutions',
+    title: 'Oklahoma Process Server & Notary FAQ - All Your Questions Answered',
     description: '90+ questions answered about Oklahoma process serving and notary services. Pricing, timelines, licensing, GPS proof, and more.',
     url: 'https://justlegalsolutions.org/faq',
     siteName: 'Just Legal Solutions',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Process Server & Notary FAQ | Just Legal Solutions',
+    title: 'Oklahoma Process Server & Notary FAQ',
     description: '90+ questions answered about Oklahoma process serving and notary services. Licensed & bonded, all 77 counties.',
     images: ['https://justlegalsolutions.org/images/Legal-document-types-process-server.webp'],
   },

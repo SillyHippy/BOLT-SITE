@@ -254,7 +254,7 @@ export default function ProcessServerNearMePage() {
               {countyLinks.map((county) => (
                 <Link
                   key={county}
-                  href={`/counties/${county.toLowerCase().replace(/ /g, '-').replace("'", '')}`}
+                  href={`/counties/${county.toLowerCase().replace(/ /g, '-').replace("'", '')}-county`}
                   className="block bg-blue-800/50 hover:bg-blue-700 border border-blue-700 hover:border-blue-500 rounded-lg px-2 py-2 text-center text-xs font-medium transition-all"
                 >
                   {county}

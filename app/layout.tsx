@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org'),
   title: {
     default: 'Just Legal Solutions - Process Serving Oklahoma',
-    template: '%s | Just Legal Solutions'
+    template: '%s | Just Legal Solutions',
   },
   description: 'Expert process serving starting at $60 flat rate — Tulsa, Broken Arrow, Sapulpa, Glenpool & all 77 Oklahoma counties. Same-day, rush & standard service. No mileage or hidden fees.',
   keywords: [

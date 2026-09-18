@@ -18,7 +18,7 @@ import {
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Attorneys | Just Legal Solutions',
+  title: 'Process Serving for Attorneys',
   description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits. Licensed in all 77 OK counties. Call (539) 367-6832.',
   keywords:
     'process server for attorneys, law firm process server oklahoma, legal document service for attorneys, subpoena service law firms, volume process serving, net-15 billing process server, tulsa attorney services, oklahoma process server law firms',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Serving for Attorneys | Just Legal Solutions',
+    title: 'Process Serving for Attorneys',
     description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/for-attorneys',
     siteName: 'Just Legal Solutions',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Serving for Attorneys | Just Legal Solutions',
+    title: 'Process Serving for Attorneys',
     description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.webp'],
   },

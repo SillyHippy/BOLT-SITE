@@ -9,7 +9,7 @@ const canonicalUrl =
 
 export const metadata: Metadata = {
   title:
-    'Oklahoma Process Serving Laws Explained in Plain English | Just Legal Solutions',
+    'Oklahoma Process Serving Laws Explained in Plain English',
   description:
     "Oklahoma's process serving statutes (12 O.S. § 158.1, § 2004, § 2005) translated into simple, plain English. Understand licensing, service methods, and proof of service without legalese.",
   keywords:
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
     title:
-      'Oklahoma Process Serving Laws Explained in Plain English | Just Legal Solutions',
+      'Oklahoma Process Serving Laws Explained in Plain English',
     description:
       "Oklahoma's process serving statutes (12 O.S. § 158.1, § 2004, § 2005) translated into simple, plain English. Understand licensing, service methods, and proof of service without legalese.",
     url: canonicalUrl,

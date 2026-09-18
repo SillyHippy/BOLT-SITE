@@ -7,12 +7,12 @@ import { Phone, Shield, Clock, CheckCircle, Star, ArrowRight, FileText, MapPin, 
 import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
-  title: 'Small Claims Process Serving in Oklahoma | Affordable, Court-Ready | Just Legal Solutions',
+  title: 'Small Claims Process Serving in Oklahoma | Affordable, Court-Ready',
   description: 'Small claims process serving in Oklahoma starts at $35 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Court-ready notarized affidavit included. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'small claims process serving oklahoma, serve small claims papers tulsa, small claims affidavit of service, 12 OS 1751, 12 OS 1773, debt collection service, security deposit lawsuit oklahoma',
   alternates: { canonical: 'https://justlegalsolutions.org/small-claims-process-serving' },
   openGraph: {
-    title: 'Small Claims Process Serving in Oklahoma | Just Legal Solutions',
+    title: 'Small Claims Process Serving in Oklahoma',
     description: 'Affordable, fast service for Oklahoma small claims. Notarized affidavit included. Starts at $35 single-attempt.',
     url: 'https://justlegalsolutions.org/small-claims-process-serving',
     siteName: 'Just Legal Solutions',

@@ -22,7 +22,6 @@ if (!fs.existsSync(mainSitemapPath)) {
 }
 
 const main = fs.readFileSync(mainSitemapPath, 'utf8');
-const today = new Date().toISOString().split('T')[0];
 
 const urlRegex = /<url>\s*<loc>([^<]+)<\/loc>\s*(?:<lastmod>([^<]+)<\/lastmod>\s*)?(?:<changefreq>([^<]+)<\/changefreq>\s*)?(?:<priority>([^<]+)<\/priority>\s*)?<\/url>/g;
 
@@ -32,7 +31,7 @@ const seen = new Set();
 // llms.txt endpoints first so AI crawlers hit them immediately
 for (const llm of ['/llms.txt', '/llms-full.txt']) {
   const loc = DOMAIN + llm;
-  entries.push({ loc, lastmod: today, changefreq: 'weekly', priority: '1.0' });
+  entries.push({ loc, changefreq: 'weekly', priority: '1.0' });
   seen.add(loc);
 }
 
@@ -43,7 +42,7 @@ while ((match = urlRegex.exec(main)) !== null) {
   seen.add(loc);
   entries.push({
     loc: loc.trim(),
-    lastmod: (lastmod || today).trim(),
+    lastmod: lastmod ? lastmod.trim() : null,
     changefreq: (changefreq || 'monthly').trim(),
     priority: (priority || '0.7').trim(),
   });
@@ -55,8 +54,10 @@ const xml =
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   entries
     .map(
-      (e) =>
-        `  <url>\n    <loc>${e.loc}</loc>\n    <lastmod>${e.lastmod}</lastmod>\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>\n  </url>`
+      (e) => {
+        const lastmodTag = e.lastmod ? `\n    <lastmod>${e.lastmod}</lastmod>` : '';
+        return `  <url>\n    <loc>${e.loc}</loc>${lastmodTag}\n    <changefreq>${e.changefreq}</changefreq>\n    <priority>${e.priority}</priority>\n  </url>`;
+      }
     )
     .join('\n') +
   '\n</urlset>\n';

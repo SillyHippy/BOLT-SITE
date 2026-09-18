@@ -7,12 +7,12 @@ import { Phone, Shield, Clock, CheckCircle, Star, ArrowRight, FileText, MapPin, 
 import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
-  title: 'Protective Order Service in Oklahoma | Confidential, Trauma-Informed | Just Legal Solutions',
+  title: 'Protective Order Service in Oklahoma | Confidential, Trauma-Informed',
   description: 'Protective order service in Oklahoma starts at $60 standard, $100 rush, $150 same-day, $265 after-hours rush, and $35 single-attempt. Discreet, GPS-verified service of Final Protective Orders under 22 O.S. § 60.1-60.18. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'protective order service oklahoma, serve protective order tulsa, final protective order, 22 OS 60.1, 22 OS 60.18, VPO service, domestic violence protective order, trauma informed process server',
   alternates: { canonical: 'https://justlegalsolutions.org/protective-order-service' },
   openGraph: {
-    title: 'Protective Order Service in Oklahoma | Just Legal Solutions',
+    title: 'Protective Order Service in Oklahoma',
     description: 'Confidential, trauma-informed service of Final Protective Orders in all 77 Oklahoma counties. Same-day and after-hours rush available.',
     url: 'https://justlegalsolutions.org/protective-order-service',
     siteName: 'Just Legal Solutions',

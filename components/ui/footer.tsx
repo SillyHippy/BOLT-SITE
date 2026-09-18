@@ -592,7 +592,7 @@ export function Footer() {
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
                   <p className="text-xs text-gray-500 mt-1">
-                    Or email documents to <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline font-medium">info@JustLegalSolutions.org</a>
+                    Or email documents via <Link href="/contact" className="text-blue-600 hover:underline font-medium">the contact page</Link> (info@JustLegalSolutions.org)
                   </p>
                 </div>
                 <input
@@ -687,12 +687,12 @@ export function Footer() {
             <h3 className="text-xl font-bold mb-4">Email Us</h3>
             <p className="text-gray-600">
               You can reach us at{" "}
-              <a
-                href="mailto:info@JustLegalSolutions.org"
+              <Link
+                href="/contact"
                 className="text-blue-600 hover:text-blue-800"
               >
                 info@JustLegalSolutions.org
-              </a>
+              </Link>
               . We respond promptly to all inquiries.
             </p>
           </div>

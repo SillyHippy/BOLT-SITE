@@ -7,6 +7,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import {
   appPageFileToPathname,
@@ -49,6 +50,18 @@ function maxIsoDate(...dates) {
   return dates.filter(Boolean).sort().at(-1) ?? DEFAULT_DATE_PUBLISHED;
 }
 
+function gitDate(filePath) {
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cs', '--', filePath], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    return /^\d{4}-\d{2}-\d{2}$/.test(out) ? out : null;
+  } catch {
+    return null;
+  }
+}
+
 function main() {
   const overrides = loadOverrides();
   const pages = {};
@@ -58,7 +71,7 @@ function main() {
     const pathname = appPageFileToPathname(filePath, APP_DIR);
     if (!pathname) continue;
 
-    const mtime = fs.statSync(filePath).mtime.toISOString().split('T')[0];
+    const mtime = gitDate(filePath) || DEFAULT_DATE_PUBLISHED;
     const override = overrides[pathname];
     const dateModified = maxIsoDate(mtime, override);
 
