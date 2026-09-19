@@ -19,12 +19,12 @@ Jackson County is situated in southwestern Oklahoma, bordering Texas to the sout
 ### Geographic Boundaries
 
 Jackson County is bordered by:
-- **North:** [Greer County](./greer-county.md)
-- **Northeast:** [Kiowa County](./kiowa-county.md)
-- **East:** [Tillman County](./tillman-county.md)
+- **North:** [Greer County](/counties/greer-county)
+- **Northeast:** [Kiowa County](/counties/kiowa-county)
+- **East:** [Tillman County](/counties/tillman-county)
 - **South:** Wilbarger County, Texas
 - **Southwest:** Hardeman County, Texas
-- **West:** [Harmon County](./harmon-county.md)
+- **West:** [Harmon County](/counties/harmon-county)
 
 The county is drained by the Red River and its tributaries, including the North Fork and Salt Fork of the Red River.²
 
@@ -188,7 +188,7 @@ As the largest population center in far southwestern Oklahoma, Altus serves a mu
 
 ## Related Locations
 
-**Adjacent Counties:** [Greer County](./greer-county.md) | [Kiowa County](./kiowa-county.md) | [Tillman County](./tillman-county.md) | [Harmon County](./harmon-county.md)
+**Adjacent Counties:** [Greer County](/counties/greer-county) | [Kiowa County](/counties/kiowa-county) | [Tillman County](/counties/tillman-county) | [Harmon County](/counties/harmon-county)
 
 **Nearby Military Installations:** Altus Air Force Base
 

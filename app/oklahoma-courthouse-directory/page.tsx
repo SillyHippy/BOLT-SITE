@@ -61,7 +61,7 @@ const courthouses = [
   // District 6
   { county: 'Haskell', city: 'Stigler', address: '202 E Main St, Stigler, OK 74462', phone: '(918) 967-2884', district: 6, slug: 'haskell' },
   { county: 'Latimer', city: 'Wilburton', address: '109 N Central Ave, Wilburton, OK 74578', phone: '(918) 465-2011', district: 6, slug: 'latimer' },
-  { county: 'Le Flore', city: 'Poteau', address: '100 S Broadway St, Poteau, OK 74953', phone: '(918) 647-2527', district: 6, slug: 'le-flore' },
+  { county: 'Le Flore', city: 'Poteau', address: '100 S Broadway St, Poteau, OK 74953', phone: '(918) 647-2527', district: 6, slug: 'leflore' },
   // District 7
   { county: 'McIntosh', city: 'Eufaula', address: '110 N 2nd St, Eufaula, OK 74432', phone: '(918) 689-2361', district: 7, slug: 'mcintosh' },
   { county: 'Okmulgee', city: 'Okmulgee', address: '314 W 7th St, Okmulgee, OK 74447', phone: '(918) 756-3042', district: 7, slug: 'okmulgee' },

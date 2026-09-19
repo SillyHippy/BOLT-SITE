@@ -410,10 +410,10 @@ The university population creates unique challenges including seasonal fluctuati
 
 ## Related Counties
 
-- [Oklahoma County](./oklahoma-county.md)
-- [Canadian County](./canadian-county.md)
-- [McClain County](./mcclain-county.md)
-- [Pottawatomie County](./pottawatomie-county.md)
+- [Oklahoma County](/counties/oklahoma-county)
+- [Canadian County](/counties/canadian-county)
+- [McClain County](/counties/mcclain-county)
+- [Pottawatomie County](/counties/pottawatomie-county)
 
 ---
 

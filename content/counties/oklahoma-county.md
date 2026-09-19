@@ -443,11 +443,11 @@ Yes, same-day service is available for documents received before 10:00 AM, subje
 
 ## Related Counties
 
-- [Cleveland County](./cleveland-county.md)
-- [Canadian County](./canadian-county.md)
-- [Logan County](./logan-county.md)
-- [Lincoln County](./lincoln-county.md)
-- [Pottawatomie County](./pottawatomie-county.md)
+- [Cleveland County](/counties/cleveland-county)
+- [Canadian County](/counties/canadian-county)
+- [Logan County](/counties/logan-county)
+- [Lincoln County](/counties/lincoln-county)
+- [Pottawatomie County](/counties/pottawatomie-county)
 
 ---
 

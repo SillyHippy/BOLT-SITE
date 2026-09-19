@@ -451,13 +451,13 @@ The Canadian County Judicial Building is open Monday-Friday, 8:00 AM - 4:30 PM. 
 
 ## Related Counties
 
-- [Oklahoma County](./oklahoma-county.md)
-- [Cleveland County](./cleveland-county.md)
-- [Kingfisher County](./kingfisher-county.md)
-- [Logan County](./logan-county.md)
-- [Grady County](./grady-county.md)
-- [Caddo County](./caddo-county.md)
-- [Blaine County](./blaine-county.md)
+- [Oklahoma County](/counties/oklahoma-county)
+- [Cleveland County](/counties/cleveland-county)
+- [Kingfisher County](/counties/kingfisher-county)
+- [Logan County](/counties/logan-county)
+- [Grady County](/counties/grady-county)
+- [Caddo County](/counties/caddo-county)
+- [Blaine County](/counties/blaine-county)
 
 ---
 

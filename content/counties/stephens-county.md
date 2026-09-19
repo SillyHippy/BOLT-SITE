@@ -26,7 +26,7 @@ Stephens County shares borders with several counties, creating important jurisdi
 - **South:** Cotton County
 - **Southwest:** Jefferson County
 - **West:** Cotton County (partial)
-- **Northwest:** [Comanche County](./comanche-county.md)
+- **Northwest:** [Comanche County](/counties/comanche-county)
 
 The county's terrain features rolling prairie land with several lakes and waterways including Duncan Lake and Clear Creek Lake. U.S. Highway 81 runs north-south through the county, following the historic Chisholm Trail route.
 

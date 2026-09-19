@@ -33,7 +33,9 @@ export async function getCountySlugs(): Promise<string[]> {
 
 export async function getCountyContent(slug: string): Promise<string> {
   const filePath = join(COUNTIES_DIR, `${slug}.md`);
-  return await readFile(filePath, 'utf-8');
+  const raw = await readFile(filePath, 'utf-8');
+  // Neighbor markdown used ./foo-county.md; that ships as /counties/foo-county.md (404).
+  return raw.replace(/\]\(\.\/([^)\s]+)\.md\)/g, '](/counties/$1)');
 }
 
 export function extractTitle(content: string): string {

@@ -13,6 +13,14 @@
 # regen: node scripts/prioritize-county-redirects.mjs
 /compare/process-server-vs-sheriff /process-server-vs-sheriff 301
 /counties/le-flore /counties/leflore-county 301
+/counties/le-flore-county /counties/leflore-county 301
+/counties/blaine-county.md /counties/blaine-county 301
+/counties/caddo-county.md /counties/caddo-county 301
+/counties/cleveland-county.md /counties/cleveland-county 301
+/counties/grady-county.md /counties/grady-county 301
+/counties/kingfisher-county.md /counties/kingfisher-county 301
+/counties/logan-county.md /counties/logan-county 301
+/counties/oklahoma-county.md /counties/oklahoma-county 301
 /counties/adair /counties/adair-county 301
 /counties/alfalfa /counties/alfalfa-county 301
 /counties/atoka /counties/atoka-county 301

@@ -442,12 +442,12 @@ Faculty and staff can be served at their offices. Students in campus housing req
 
 ## Related Counties
 
-- [Caddo County](./caddo-county.md)
-- [Cotton County](./cotton-county.md)
-- [Grady County](./grady-county.md)
-- [Kiowa County](./kiowa-county.md)
-- [Stephens County](./stephens-county.md)
-- [Tillman County](./tillman-county.md)
+- [Caddo County](/counties/caddo-county)
+- [Cotton County](/counties/cotton-county)
+- [Grady County](/counties/grady-county)
+- [Kiowa County](/counties/kiowa-county)
+- [Stephens County](/counties/stephens-county)
+- [Tillman County](/counties/tillman-county)
 
 ---
 
