@@ -5748,6 +5748,46 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-22T18:25:17.133Z",
+      "releaseDate": "2026-09-22",
+      "quality": {
+        "words": 5764,
+        "headings": 34,
+        "paragraphs": 59
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "insurance-adjusters-use-process-servers-claims-subpoenas-oklahoma",
+      "title": "How Adjusters Use Process Servers: Claims & Subpoenas OK",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-22T18:25:17.135Z",
+      "releaseDate": "2026-09-22",
+      "quality": {
+        "words": 4300,
+        "headings": 13,
+        "paragraphs": 43
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
