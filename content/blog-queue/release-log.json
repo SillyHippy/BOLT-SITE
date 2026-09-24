@@ -5788,6 +5788,46 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "releasedAt": "2026-09-24T18:53:45.498Z",
+      "releaseDate": "2026-09-24",
+      "quality": {
+        "words": 6026,
+        "headings": 30,
+        "paragraphs": 55
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "private-investigators-collaborate-process-servers-oklahoma",
+      "title": "How Private Investigators Help Process Servers in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-09-24T18:53:45.501Z",
+      "releaseDate": "2026-09-24",
+      "quality": {
+        "words": 4595,
+        "headings": 27,
+        "paragraphs": 54
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
