@@ -16,3 +16,6 @@
 ## 2026-09-24 - Added aria-current="page" to Breadcrumbs
 **Learning:** Found navigation components (breadcrumbs) that visually indicated the current page but lacked the `aria-current="page"` attribute, leaving screen reader users without semantic context of their current location within the hierarchy. Additionally, interactive links lacked explicit focus-visible rings for keyboard users.
 **Action:** For navigation components like breadcrumbs or menus, always ensure the active or current item is explicitly marked with `aria-current="page"` to properly communicate the active state to assistive technologies, and ensure all interactive links have explicit focus-visible styles.
+## 2026-05-18 - Removed Nested Interactive Elements
+**Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
+**Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.

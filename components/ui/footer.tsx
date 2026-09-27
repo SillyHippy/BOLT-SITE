@@ -470,15 +470,15 @@ export function Footer() {
                   <label htmlFor="firm-name" className="block text-sm font-bold text-gray-700">Your Firm or Company Name (Your Name if Pro Se) <span className="text-red-500">*</span></label>
                   <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                 </div>
-                <div>
-                   <label className="block text-sm font-bold text-gray-700" id="your-address-label">Your Address</label>
+                <fieldset className="border-0 p-0 m-0 min-w-0">
+                   <legend className="block text-sm font-bold text-gray-700" id="your-address-label">Your Address</legend>
                    <input type="text" name="your_address_street" placeholder="Street Address" aria-label="Your street address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
-                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                       <input type="text" name="your_address_city" placeholder="City" aria-label="Your city" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                       <input type="text" name="your_address_state" placeholder="State/Region/Province" aria-label="Your state or region" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                       <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" aria-label="Your postal or zip code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                    </div>
-                </div>
+                </fieldset>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div><label htmlFor="phone" className="block text-sm font-bold text-gray-700">Your Phone Number <span className="text-red-500">*</span></label><input type="tel" id="phone" name="your_phone_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/></div>
                   <div><label htmlFor="email" className="block text-sm font-bold text-gray-700">Your Email Address <span className="text-red-500">*</span></label><input type="email" id="email" name="your_email_address" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/></div>
@@ -507,8 +507,8 @@ export function Footer() {
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
                 <div>
                     <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
-                    <textarea id="docs-to-be-served" name="documents_to_be_served" rows={3} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"></textarea>
-                    <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
+                    <textarea id="docs-to-be-served" name="documents_to_be_served" rows={3} required placeholder="e.g., Summons; Complaint; Notice of Hearing" aria-describedby="docs-to-be-served-help" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"></textarea>
+                    <p id="docs-to-be-served-help" className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/></div>
@@ -525,16 +525,16 @@ export function Footer() {
                     </div>
                   </fieldset>
                 </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></label>
+                <fieldset className="border-0 p-0 m-0 min-w-0">
+                  <legend className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></legend>
                   <input type="text" name="service_address_street" placeholder="Street Address" required aria-label="Service street address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                   <input type="text" name="service_address_line2" placeholder="Address Line 2 (Apt, Suite, etc.)" aria-label="Service address line 2" className="mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                     <input type="text" name="service_address_city" placeholder="City" required aria-label="Service city" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                     <input type="text" name="service_address_state" placeholder="State/Region/Province" required aria-label="Service state or region" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                     <input type="text" name="service_address_zip" placeholder="Postal / Zip Code" required aria-label="Service postal or zip code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"/>
                   </div>
-                </div>
+                </fieldset>
                 <div>
                   <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions / Notes <span className="text-xs font-normal text-gray-500">(optional — do not attach files, enter instructions here)</span></label>
                   <textarea id="instructions" name="service_instructions" rows={3} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"></textarea>
@@ -560,6 +560,7 @@ export function Footer() {
                   role="button"
                   tabIndex={0}
                   aria-label="Upload documents - drag and drop files here or click to browse"
+                  aria-describedby="upload-help-text"
                   onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInputRef.current?.click(); } }}
                   className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                     isDragging
@@ -583,18 +584,18 @@ export function Footer() {
                       d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
                     />
                   </svg>
-                  <p className="text-gray-700 font-semibold">Drag & drop files here</p>
-                  <p className="text-gray-500 text-sm">or click to browse</p>
-                  <span className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+                  <p className="text-gray-700 font-semibold" aria-hidden="true">Drag & drop files here</p>
+                  <p className="text-gray-500 text-sm" aria-hidden="true">or click to browse</p>
+                  <span className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors" aria-hidden="true">
                     Browse Files
                   </span>
-                  <p className="text-xs text-gray-500 mt-2">
+                  <p id="upload-help-text" className="text-xs text-gray-500 mt-2">
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
-                  <p className="text-xs text-gray-500 mt-1">
-                    Or email documents via <Link href="/contact" className="text-blue-600 hover:underline font-medium">the contact page</Link> (info@JustLegalSolutions.org)
-                  </p>
                 </div>
+                <p className="text-xs text-gray-500 mt-3 text-center">
+                  Or email documents via <Link href="/contact" className="text-blue-600 hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">the contact page</Link> (info@JustLegalSolutions.org)
+                </p>
                 <input
                   ref={fileInputRef}
                   type="file"
