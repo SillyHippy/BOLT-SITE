@@ -13,3 +13,6 @@
 ## 2024-03-20 - Invisible Screen Reader Text in Ellipsis Wrappers
 **Learning:** Placing `aria-hidden="true"` or `aria-hidden` on a parent wrapper (like an ellipsis `<span>` container) hides all its children from screen readers. This inadvertently renders any nested `<span className="sr-only">` helper text completely invisible to assistive technologies, defeating the purpose of the `sr-only` text.
 **Action:** Always apply `aria-hidden="true"` directly to the decorative or icon element (like `<MoreHorizontal />` or `<ChevronRight />`) itself, not the parent container if the parent also contains screen-reader-only text intended to be announced.
+## 2026-09-24 - Added aria-current="page" to Breadcrumbs
+**Learning:** Found navigation components (breadcrumbs) that visually indicated the current page but lacked the `aria-current="page"` attribute, leaving screen reader users without semantic context of their current location within the hierarchy. Additionally, interactive links lacked explicit focus-visible rings for keyboard users.
+**Action:** For navigation components like breadcrumbs or menus, always ensure the active or current item is explicitly marked with `aria-current="page"` to properly communicate the active state to assistive technologies, and ensure all interactive links have explicit focus-visible styles.
