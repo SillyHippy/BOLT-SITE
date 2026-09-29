@@ -19,3 +19,6 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+## 2026-09-29 - Added Keyboard Focus to Internal Access Controls
+**Learning:** Found critical directory access control buttons in `TrustedNetworkClient.tsx` (like 'Unlock Network' and 'Lock') that lacked explicit keyboard focus indicators, making the internal network tools inaccessible for keyboard users trying to dispatch or search for process servers.
+**Action:** Ensure all custom buttons, especially those managing critical directory access or layout controls, explicitly define `focus-visible` ring classes styled contextually for both light and dark themes (e.g., `focus-visible:ring-offset-slate-900` for dark backgrounds).

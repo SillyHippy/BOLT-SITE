@@ -155,7 +155,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
 
           <button
             type="submit"
-            className="w-full py-3 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-lg transition-all flex items-center justify-center gap-2"
+            className="w-full py-3 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-lg transition-all flex items-center justify-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
           >
             <KeyRound className="w-4 h-4" />
             Unlock Network
@@ -187,7 +187,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
             {searchTerm && (
               <button
                 onClick={() => setSearchTerm('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-white px-2 py-0.5 bg-slate-800 rounded"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-white px-2 py-0.5 bg-slate-800 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-1 focus-visible:ring-offset-slate-900"
               >
                 Clear
               </button>
@@ -200,7 +200,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
               <button
                 key={reg}
                 onClick={() => setSelectedRegion(reg)}
-                className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors ${
+                className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 ${
                   selectedRegion === reg
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'bg-slate-900 text-slate-300 hover:bg-slate-700 hover:text-white'
@@ -213,7 +213,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
             <button
               onClick={handleLogout}
               title="Lock Directory"
-              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-rose-900/60 text-slate-400 hover:text-rose-200 border border-slate-700 transition-colors flex items-center gap-1 ml-2"
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-900 hover:bg-rose-900/60 text-slate-400 hover:text-rose-200 border border-slate-700 transition-colors flex items-center gap-1 ml-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
             >
               <LogOut className="w-3.5 h-3.5" />
               Lock
