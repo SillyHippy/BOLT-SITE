@@ -5868,6 +5868,44 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-01T20:12:53.255Z",
+      "releaseDate": "2026-10-01",
+      "quality": {
+        "words": 4954,
+        "headings": 35,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-servers-handle-emotionally-charged-situations-oklahoma",
+      "title": "Process Servers & Emotional Situations in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-01T20:12:53.259Z",
+      "releaseDate": "2026-10-01",
+      "quality": {
+        "words": 5476,
+        "headings": 32,
+        "paragraphs": 73
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
