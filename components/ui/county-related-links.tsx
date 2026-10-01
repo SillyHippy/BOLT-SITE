@@ -26,24 +26,24 @@ export function CountyRelatedLinks({ countySlug, countyName }: CountyRelatedLink
           <h3 className="font-bold text-gray-900 mb-3">Process Serving Hubs</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/process-serving" className="text-blue-600 hover:underline">
+              <Link href="/process-serving" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 Oklahoma Process Serving
               </Link>
             </li>
             {isTulsaMetro && (
               <li>
-                <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">
+                <Link href="/tulsa-process-server" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                   Tulsa Process Server
                 </Link>
               </li>
             )}
             <li>
-              <Link href="/counties" className="text-blue-600 hover:underline">
+              <Link href="/counties" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 All 77 Oklahoma Counties
               </Link>
             </li>
             <li>
-              <Link href="/service-areas" className="text-blue-600 hover:underline">
+              <Link href="/service-areas" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 City Service Areas
               </Link>
             </li>
@@ -54,7 +54,7 @@ export function CountyRelatedLinks({ countySlug, countyName }: CountyRelatedLink
           <ul className="space-y-2">
             {nearby.map((c) => (
               <li key={c.slug}>
-                <Link href={`/counties/${c.slug}`} className="text-blue-600 hover:underline">
+                <Link href={`/counties/${c.slug}`} className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                   {c.countyName}
                 </Link>
               </li>
@@ -65,22 +65,22 @@ export function CountyRelatedLinks({ countySlug, countyName }: CountyRelatedLink
           <h3 className="font-bold text-gray-900 mb-3">Guides &amp; Services</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">
+              <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 Process Serving FAQ
               </Link>
             </li>
             <li>
-              <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">
+              <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 Oklahoma Service Laws (12 O.S. § 2004)
               </Link>
             </li>
             <li>
-              <Link href="/resources/attorneys-guide-hiring-process-server" className="text-blue-600 hover:underline">
+              <Link href="/resources/attorneys-guide-hiring-process-server" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 Attorney&apos;s Hiring Guide (PDF)
               </Link>
             </li>
             <li>
-              <Link href="/skip-tracing" className="text-blue-600 hover:underline">
+              <Link href="/skip-tracing" className="text-blue-600 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">
                 Skip Tracing
               </Link>
             </li>
