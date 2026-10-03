@@ -19,3 +19,6 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+## 2026-10-03 - Restored Focus Visibility on Radio Buttons
+**Learning:** Found custom radio groups where `<button role="radio">` elements lacked `focus-visible` styles, making keyboard navigation difficult as the active focus was invisible.
+**Action:** When implementing custom radio buttons or selectable cards using `<button>`, always ensure `focus-visible:ring-2` (and appropriate color/offset classes like `ring-gold` or `ring-navy`) is explicitly applied so keyboard users can track their position within the form.
