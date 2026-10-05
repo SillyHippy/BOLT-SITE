@@ -310,7 +310,7 @@ export default function ProcessServingCostEstimator() {
                   <button
                     key={key}
                     onClick={() => setSpeed(key)}
-                    className={`text-left border rounded-lg p-3 transition-all duration-200 ${
+                    className={`text-left border rounded-lg p-3 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 ${
                       isSelected
                         ? 'border-gold bg-gold/5 ring-1 ring-gold'
                         : 'border-gray-200 hover:border-gold/50 hover:bg-gray-50'
