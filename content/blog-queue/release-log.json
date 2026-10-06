@@ -5906,6 +5906,44 @@
         "FAQ answers short: 3 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-06T19:56:13.531Z",
+      "releaseDate": "2026-10-06",
+      "quality": {
+        "words": 4776,
+        "headings": 26,
+        "paragraphs": 46
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-child-support-enforcement-oklahoma",
+      "title": "Process Serving for Child Support Enforcement in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-06T19:56:13.534Z",
+      "releaseDate": "2026-10-06",
+      "quality": {
+        "words": 5224,
+        "headings": 31,
+        "paragraphs": 37
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
