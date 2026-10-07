@@ -38,10 +38,6 @@ export default function AffidavitOfService() {
   const [stateName, setStateName] = useState('');
   const [recipientName, setRecipientName] = useState('');
 
-  // ServeManager-style meta (optional; print only when filled or as blanks)
-  const [jobNumber, setJobNumber] = useState('');
-  const [receivedBy, setReceivedBy] = useState('');
-  const [forClient, setForClient] = useState('');
   const [recipientDescription, setRecipientDescription] = useState('');
 
   // Process Server Credentials — blank; fill via form or ?server=&license=&company= URL
@@ -153,12 +149,6 @@ export default function AffidavitOfService() {
     if (sPh) setServerPhone(sPh);
     const sEm = getParam('email', 'Email');
     if (sEm) setServerEmail(sEm);
-    const job = getParam('job', 'job_number', 'Job');
-    if (job) setJobNumber(job);
-    const recv = getParam('received_by', 'received', 'Received by');
-    if (recv) setReceivedBy(recv);
-    const forVal = getParam('for', 'for_client', 'For');
-    if (forVal) setForClient(forVal);
     const desc = getParam('description', 'recipient_description', 'Description');
     if (desc) setRecipientDescription(desc);
     const cty = getParam('county', 'County');
@@ -204,9 +194,6 @@ export default function AffidavitOfService() {
     if (serverAddress) url.searchParams.set('server_address', serverAddress);
     if (serverPhone) url.searchParams.set('phone', serverPhone);
     if (serverEmail) url.searchParams.set('email', serverEmail);
-    if (jobNumber) url.searchParams.set('job', jobNumber);
-    if (receivedBy) url.searchParams.set('received_by', receivedBy);
-    if (forClient) url.searchParams.set('for', forClient);
     if (recipientDescription) url.searchParams.set('description', recipientDescription);
     if (county) url.searchParams.set('county', county);
     if (stateName) url.searchParams.set('state', stateName);
@@ -241,9 +228,6 @@ export default function AffidavitOfService() {
       setCounty('');
       setStateName('');
       setRecipientName('');
-      setJobNumber('');
-      setReceivedBy('');
-      setForClient('');
       setRecipientDescription('');
       setDocumentsLine('');
       setServiceAddress('');
@@ -498,18 +482,6 @@ export default function AffidavitOfService() {
               <span className="text-slate-400 font-semibold block mb-0.5">Email</span>
               <input type="text" value={serverEmail} onChange={(e) => setServerEmail(e.target.value)} placeholder="server@example.com" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
             </div>
-            <div>
-              <span className="text-slate-400 font-semibold block mb-0.5">Job #</span>
-              <input type="text" value={jobNumber} onChange={(e) => setJobNumber(e.target.value)} placeholder="Optional job / file #" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
-            </div>
-            <div>
-              <span className="text-slate-400 font-semibold block mb-0.5">Received by</span>
-              <input type="text" value={receivedBy} onChange={(e) => setReceivedBy(e.target.value)} placeholder="Serving agency / server firm" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
-            </div>
-            <div>
-              <span className="text-slate-400 font-semibold block mb-0.5">For (client)</span>
-              <input type="text" value={forClient} onChange={(e) => setForClient(e.target.value)} placeholder="Client / forwarding firm" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
-            </div>
           </div>
         </div>
       </div>
@@ -618,27 +590,6 @@ export default function AffidavitOfService() {
           {/* Title */}
           <div className="text-center font-bold text-[11.5pt] uppercase underline my-2 tracking-wider">
             {docType}
-          </div>
-
-          {/* Optional ServeManager-style meta — same typography; blank when empty */}
-          <div className="mb-2 text-[9.5pt] leading-snug page-break-avoid">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-3 gap-y-1">
-              <div>
-                <strong className="uppercase font-bold text-[9pt]">Job: </strong>
-                <input type="text" value={jobNumber} onChange={(e) => setJobNumber(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only" />
-                <span className="print-only-inline hidden">{jobNumber || '_______________'}</span>
-              </div>
-              <div>
-                <strong className="uppercase font-bold text-[9pt]">Received by: </strong>
-                <input type="text" value={receivedBy} onChange={(e) => setReceivedBy(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[55%] screen-only" />
-                <span className="print-only-inline hidden">{receivedBy || '_______________'}</span>
-              </div>
-              <div>
-                <strong className="uppercase font-bold text-[9pt]">For: </strong>
-                <input type="text" value={forClient} onChange={(e) => setForClient(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only" />
-                <span className="print-only-inline hidden">{forClient || '_______________'}</span>
-              </div>
-            </div>
           </div>
 
           {/* Competency — national (ServeManager-style), layout unchanged */}
