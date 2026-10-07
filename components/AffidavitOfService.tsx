@@ -29,24 +29,31 @@ export default function AffidavitOfService() {
   // Document Type & Mode
   const [docType, setDocType] = useState<DocumentType>('AFFIDAVIT OF SERVICE');
 
-  // Case / Caption Details
-  const [courtName, setCourtName] = useState('IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA');
+  // Case / Caption Details — blank defaults (no locale/brand baked in)
+  const [courtName, setCourtName] = useState('');
   const [plaintiff, setPlaintiff] = useState('');
   const [defendant, setDefendant] = useState('');
   const [caseNumber, setCaseNumber] = useState('');
-  const [county, setCounty] = useState('Tulsa');
-  const [stateName, setStateName] = useState('Oklahoma');
+  const [county, setCounty] = useState('');
+  const [stateName, setStateName] = useState('');
   const [recipientName, setRecipientName] = useState('');
 
-  // Process Server Credentials
-  const [serverName, setServerName] = useState('Joseph Iannazzi');
-  const [serverLicense, setServerLicense] = useState('PSL-2026-2');
-  const [serverCompany, setServerCompany] = useState('Just Legal Solutions');
-  const [serverPhone, setServerPhone] = useState('(539) 367-6832');
-  const [serverEmail, setServerEmail] = useState('info@justlegalsolutions.org');
+  // ServeManager-style meta (optional; print only when filled or as blanks)
+  const [jobNumber, setJobNumber] = useState('');
+  const [receivedBy, setReceivedBy] = useState('');
+  const [forClient, setForClient] = useState('');
+  const [recipientDescription, setRecipientDescription] = useState('');
+
+  // Process Server Credentials — blank; fill via form or ?server=&license=&company= URL
+  const [serverName, setServerName] = useState('');
+  const [serverLicense, setServerLicense] = useState('');
+  const [serverCompany, setServerCompany] = useState('');
+  const [serverAddress, setServerAddress] = useState('');
+  const [serverPhone, setServerPhone] = useState('');
+  const [serverEmail, setServerEmail] = useState('');
 
   // Service Details
-  const [documentsLine, setDocumentsLine] = useState('Summons, Petition, and Notice of Hearing');
+  const [documentsLine, setDocumentsLine] = useState('');
   const [serviceAddress, setServiceAddress] = useState('');
   const [serviceMethod, setServiceMethod] = useState<'personal' | 'substituted-residence' | 'substituted-business' | 'corporate' | 'posting' | 'non-service' | 'custom'>('personal');
   const [acceptedBy, setAcceptedBy] = useState('');
@@ -58,11 +65,11 @@ export default function AffidavitOfService() {
 
   // Declaration Execution Info
   const [execDate, setExecDate] = useState('');
-  const [execCity, setExecCity] = useState('Tulsa, OK');
+  const [execCity, setExecCity] = useState('');
 
   // Notary Block Info
-  const [notaryState, setNotaryState] = useState('Oklahoma');
-  const [notaryCounty, setNotaryCounty] = useState('Tulsa');
+  const [notaryState, setNotaryState] = useState('');
+  const [notaryCounty, setNotaryCounty] = useState('');
   const [swornDayPhrase, setSwornDayPhrase] = useState('');
 
   // Attempts Log (Chronological)
@@ -134,16 +141,26 @@ export default function AffidavitOfService() {
     if (addr) setServiceAddress(addr);
     const docs = getParam('docs', 'documents_served', 'Documents');
     if (docs) setDocumentsLine(docs);
-    const sName = getParam('server', 'server_name', 'Server Name');
+    const sName = getParam('server', 'server_name', 'Server Name', 'name');
     if (sName) setServerName(sName);
     const sCo = getParam('company', 'agency', 'Company');
     if (sCo) setServerCompany(sCo);
     const sLic = getParam('license', 'License');
     if (sLic) setServerLicense(sLic);
+    const sAddr = getParam('server_address', 'agency_address', 'Agency Address');
+    if (sAddr) setServerAddress(sAddr);
     const sPh = getParam('phone', 'Phone');
     if (sPh) setServerPhone(sPh);
     const sEm = getParam('email', 'Email');
     if (sEm) setServerEmail(sEm);
+    const job = getParam('job', 'job_number', 'Job');
+    if (job) setJobNumber(job);
+    const recv = getParam('received_by', 'received', 'Received by');
+    if (recv) setReceivedBy(recv);
+    const forVal = getParam('for', 'for_client', 'For');
+    if (forVal) setForClient(forVal);
+    const desc = getParam('description', 'recipient_description', 'Description');
+    if (desc) setRecipientDescription(desc);
     const cty = getParam('county', 'County');
     if (cty) { setCounty(cty); setNotaryCounty(cty); }
     const st = getParam('state', 'State');
@@ -184,8 +201,13 @@ export default function AffidavitOfService() {
     if (serverName) url.searchParams.set('server', serverName);
     if (serverCompany) url.searchParams.set('company', serverCompany);
     if (serverLicense) url.searchParams.set('license', serverLicense);
+    if (serverAddress) url.searchParams.set('server_address', serverAddress);
     if (serverPhone) url.searchParams.set('phone', serverPhone);
     if (serverEmail) url.searchParams.set('email', serverEmail);
+    if (jobNumber) url.searchParams.set('job', jobNumber);
+    if (receivedBy) url.searchParams.set('received_by', receivedBy);
+    if (forClient) url.searchParams.set('for', forClient);
+    if (recipientDescription) url.searchParams.set('description', recipientDescription);
     if (county) url.searchParams.set('county', county);
     if (stateName) url.searchParams.set('state', stateName);
 
@@ -219,6 +241,10 @@ export default function AffidavitOfService() {
       setCounty('');
       setStateName('');
       setRecipientName('');
+      setJobNumber('');
+      setReceivedBy('');
+      setForClient('');
+      setRecipientDescription('');
       setDocumentsLine('');
       setServiceAddress('');
       setAcceptedBy('');
@@ -227,11 +253,20 @@ export default function AffidavitOfService() {
       setServerName('');
       setServerLicense('');
       setServerCompany('');
+      setServerAddress('');
       setServerPhone('');
       setServerEmail('');
+      setExecCity('');
+      setNotaryState('');
+      setNotaryCounty('');
+      setServiceMethod('personal');
       setAttempts([{ id: 1, date: '', time: '', notes: '' }]);
     }
   };
+
+  const licenseClause = serverLicense.trim()
+    ? ` (License No. ${serverLicense.trim()})`
+    : '';
 
   // ServeTracker Statutory Execution Sentence
   const getExecutionSentence = () => {
@@ -440,6 +475,42 @@ export default function AffidavitOfService() {
               )}
             </div>
           )}
+
+          {/* Server / agency credentials — screen only; print via signature block */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-2 border-t border-slate-800 text-xs">
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">License # (optional)</span>
+              <input type="text" value={serverLicense} onChange={(e) => setServerLicense(e.target.value)} placeholder="License / registration # if required" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Agency / Company</span>
+              <input type="text" value={serverCompany} onChange={(e) => setServerCompany(e.target.value)} placeholder="Agency name" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Agency Address</span>
+              <input type="text" value={serverAddress} onChange={(e) => setServerAddress(e.target.value)} placeholder="Street, City, State ZIP" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Phone</span>
+              <input type="text" value={serverPhone} onChange={(e) => setServerPhone(e.target.value)} placeholder="(xxx) xxx-xxxx" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Email</span>
+              <input type="text" value={serverEmail} onChange={(e) => setServerEmail(e.target.value)} placeholder="server@example.com" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Job #</span>
+              <input type="text" value={jobNumber} onChange={(e) => setJobNumber(e.target.value)} placeholder="Optional job / file #" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Received by</span>
+              <input type="text" value={receivedBy} onChange={(e) => setReceivedBy(e.target.value)} placeholder="Serving agency / server firm" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">For (client)</span>
+              <input type="text" value={forClient} onChange={(e) => setForClient(e.target.value)} placeholder="Client / forwarding firm" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -460,7 +531,7 @@ export default function AffidavitOfService() {
               type="text"
               value={courtName}
               onChange={(e) => setCourtName(e.target.value)}
-              placeholder="IN THE DISTRICT COURT OF TULSA COUNTY, STATE OF OKLAHOMA"
+              placeholder="IN THE DISTRICT COURT OF ________ COUNTY, STATE OF ________"
               aria-label="Court Name"
               className="w-full text-center font-bold text-xs uppercase bg-transparent border-b border-gray-300 focus:border-black outline-none py-0.5 screen-only"
             />
@@ -549,7 +620,28 @@ export default function AffidavitOfService() {
             {docType}
           </div>
 
-          {/* Competency Statement */}
+          {/* Optional ServeManager-style meta — same typography; blank when empty */}
+          <div className="mb-2 text-[9.5pt] leading-snug page-break-avoid">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-3 gap-y-1">
+              <div>
+                <strong className="uppercase font-bold text-[9pt]">Job: </strong>
+                <input type="text" value={jobNumber} onChange={(e) => setJobNumber(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only" />
+                <span className="print-only-inline hidden">{jobNumber || '_______________'}</span>
+              </div>
+              <div>
+                <strong className="uppercase font-bold text-[9pt]">Received by: </strong>
+                <input type="text" value={receivedBy} onChange={(e) => setReceivedBy(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[55%] screen-only" />
+                <span className="print-only-inline hidden">{receivedBy || '_______________'}</span>
+              </div>
+              <div>
+                <strong className="uppercase font-bold text-[9pt]">For: </strong>
+                <input type="text" value={forClient} onChange={(e) => setForClient(e.target.value)} placeholder="_______________" className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only" />
+                <span className="print-only-inline hidden">{forClient || '_______________'}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Competency — national (ServeManager-style), layout unchanged */}
           <p className="text-justify text-[10pt] mb-2 leading-snug">
             {isDeclaration ? (
               <>
@@ -565,7 +657,7 @@ export default function AffidavitOfService() {
                   onChange={(e) => setStateName(e.target.value)}
                   placeholder="State"
                   className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 screen-only"
-                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span> and the United States of America that I am a legally authorized Private Process Server{serverLicense.trim() ? ` (License No. ${serverLicense})` : ''}, over the age of eighteen (18) years, and not a party to nor interested in the outcome of the above-entitled action.
+                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span> and the United States of America that I am over the age of eighteen (18) years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
               </>
             ) : (
               <>
@@ -575,13 +667,7 @@ export default function AffidavitOfService() {
                   onChange={(e) => setServerName(e.target.value)}
                   placeholder="Server Full Name"
                   className="font-bold border-b border-black outline-none px-1 bg-transparent min-w-[140px] screen-only"
-                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, being duly sworn, depose and state that I am a duly licensed Private Process Server in the State of <input
-                  type="text"
-                  value={stateName}
-                  onChange={(e) => setStateName(e.target.value)}
-                  placeholder="State"
-                  className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 screen-only"
-                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span>{serverLicense.trim() ? ` (License No. ${serverLicense})` : ''}, over the age of eighteen (18) years, and not a party to nor interested in the outcome of the above-entitled action.
+                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, being duly sworn, depose and say: I am over the age of eighteen (18) years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
               </>
             )}
           </p>
@@ -602,7 +688,7 @@ export default function AffidavitOfService() {
           </div>
 
           {/* Service Address */}
-          <div className="mb-2 text-[9.5pt]">
+          <div className="mb-1 text-[9.5pt]">
             <strong className="uppercase font-bold text-[9pt]">Service Address: </strong>
             <input
               type="text"
@@ -614,6 +700,21 @@ export default function AffidavitOfService() {
             <span className="print-only-inline hidden font-medium">
               {serviceAddress || '__________________________________________________'}
             </span>
+          </div>
+
+          {/* Optional recipient description (ServeManager-style; omit print line when empty) */}
+          <div className={`mb-2 text-[9.5pt] ${recipientDescription.trim() ? '' : 'screen-only'}`}>
+            <strong className="uppercase font-bold text-[9pt]">Recipient Description: </strong>
+            <input
+              type="text"
+              value={recipientDescription}
+              onChange={(e) => setRecipientDescription(e.target.value)}
+              placeholder="Age / Sex / Ethnicity / Height / Weight / Hair / Relationship (optional)"
+              className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only"
+            />
+            {recipientDescription.trim() ? (
+              <span className="print-only-inline hidden font-medium">{recipientDescription}</span>
+            ) : null}
           </div>
 
           {/* Service Attempts (Physical) - Exact ServeTracker Table */}
@@ -752,7 +853,9 @@ export default function AffidavitOfService() {
                         <strong>{serverName || 'Process Server / Declarant'}</strong><br />
                         Private Process Server<br />
                         {serverLicense.trim() ? <>License No. {serverLicense}<br /></> : null}
-                        {[serverCompany, serverPhone].filter(Boolean).join(' • ')}
+                        {serverCompany.trim() ? <>{serverCompany}<br /></> : null}
+                        {serverAddress.trim() ? <>{serverAddress}<br /></> : null}
+                        {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
                       </div>
                     </td>
                   </tr>
@@ -767,10 +870,12 @@ export default function AffidavitOfService() {
                     <td style={{ width: '48%', verticalAlign: 'top' }}>
                       <div style={{ borderBottom: '1px solid #000', width: '260px', height: '52px', marginTop: '4px' }}></div>
                       <div style={{ marginTop: '4px', fontSize: '9.5pt', lineHeight: 1.3 }}>
-                        <strong>{serverName || 'Joseph Iannazzi'}</strong><br />
+                        <strong>{serverName || 'Process Server / Affiant'}</strong><br />
                         Private Process Server<br />
                         {serverLicense.trim() ? <>License No. {serverLicense}<br /></> : null}
-                        {[serverCompany, serverPhone].filter(Boolean).join(' • ')}
+                        {serverCompany.trim() ? <>{serverCompany}<br /></> : null}
+                        {serverAddress.trim() ? <>{serverAddress}<br /></> : null}
+                        {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
                       </div>
                     </td>
 
