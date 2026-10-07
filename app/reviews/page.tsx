@@ -154,8 +154,9 @@ export default function ReviewsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-1">
-                <label className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1">Source</label>
+                <label htmlFor="source-filter" className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1">Source</label>
                 <select
+                  id="source-filter"
                   value={sourceFilter}
                   onChange={e => { setSourceFilter(e.target.value); setPage(1); }}
                   className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -164,8 +165,9 @@ export default function ReviewsPage() {
                 </select>
               </div>
               <div className="flex-1">
-                <label className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1">Service Type</label>
+                <label htmlFor="service-filter" className="text-xs font-semibold text-gray-500 uppercase tracking-wide block mb-1">Service Type</label>
                 <select
+                  id="service-filter"
                   value={serviceFilter}
                   onChange={e => { setServiceFilter(e.target.value); setPage(1); }}
                   className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -175,6 +177,7 @@ export default function ReviewsPage() {
               </div>
               <div className="flex items-end">
                 <button
+                  type="button"
                   onClick={() => { setSourceFilter('All'); setServiceFilter('All'); setPage(1); }}
                   className="text-sm text-blue-600 hover:text-blue-800 font-medium px-4 py-2 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 >
@@ -228,6 +231,7 @@ export default function ReviewsPage() {
             {totalPages > 1 && (
               <div className="flex items-center justify-center gap-2 mt-10">
                 <button
+                  type="button"
                   disabled={page === 1}
                   onClick={() => setPage(p => p - 1)}
                   className="px-4 py-2 text-sm rounded-lg border border-gray-300 disabled:opacity-40 hover:bg-gray-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -238,6 +242,7 @@ export default function ReviewsPage() {
                   Page {page} of {totalPages}
                 </span>
                 <button
+                  type="button"
                   disabled={page === totalPages}
                   onClick={() => setPage(p => p + 1)}
                   className="px-4 py-2 text-sm rounded-lg border border-gray-300 disabled:opacity-40 hover:bg-gray-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
