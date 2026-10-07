@@ -47,12 +47,16 @@ export default function AffidavitOfService() {
   const [serverAddress, setServerAddress] = useState('');
   const [serverPhone, setServerPhone] = useState('');
   const [serverEmail, setServerEmail] = useState('');
+  /** Competency age for the server (national default 18; optional override). */
+  const [serverAge, setServerAge] = useState('18');
 
   // Service Details
   const [documentsLine, setDocumentsLine] = useState('');
   const [serviceAddress, setServiceAddress] = useState('');
   const [serviceMethod, setServiceMethod] = useState<'personal' | 'substituted-residence' | 'substituted-business' | 'corporate' | 'posting' | 'non-service' | 'custom'>('personal');
   const [acceptedBy, setAcceptedBy] = useState('');
+  /** Min age of co-resident for substitute residence (OK 15, AR 16, many 18) — blank = no age number in sentence. */
+  const [coResidentMinAge, setCoResidentMinAge] = useState('');
   const [recipientTitle, setRecipientTitle] = useState('Registered Agent');
   const [customExecutionText, setCustomExecutionText] = useState('');
 
@@ -151,6 +155,10 @@ export default function AffidavitOfService() {
     if (sEm) setServerEmail(sEm);
     const desc = getParam('description', 'recipient_description', 'Description');
     if (desc) setRecipientDescription(desc);
+    const sAge = getParam('server_age', 'age', 'competency_age');
+    if (sAge) setServerAge(sAge);
+    const coAge = getParam('co_resident_age', 'sub_age', 'substitute_age');
+    if (coAge) setCoResidentMinAge(coAge);
     const cty = getParam('county', 'County');
     if (cty) { setCounty(cty); setNotaryCounty(cty); }
     const st = getParam('state', 'State');
@@ -195,6 +203,8 @@ export default function AffidavitOfService() {
     if (serverPhone) url.searchParams.set('phone', serverPhone);
     if (serverEmail) url.searchParams.set('email', serverEmail);
     if (recipientDescription) url.searchParams.set('description', recipientDescription);
+    if (serverAge && serverAge !== '18') url.searchParams.set('server_age', serverAge);
+    if (coResidentMinAge) url.searchParams.set('co_resident_age', coResidentMinAge);
     if (county) url.searchParams.set('county', county);
     if (stateName) url.searchParams.set('state', stateName);
 
@@ -240,6 +250,8 @@ export default function AffidavitOfService() {
       setServerAddress('');
       setServerPhone('');
       setServerEmail('');
+      setServerAge('18');
+      setCoResidentMinAge('');
       setExecCity('');
       setNotaryState('');
       setNotaryCounty('');
@@ -252,18 +264,40 @@ export default function AffidavitOfService() {
     ? ` (License No. ${serverLicense.trim()})`
     : '';
 
+  /** Word form for common competency / co-resident ages; fallback is digits only. */
+  const agePhrase = (raw: string) => {
+    const n = (raw || '18').trim();
+    const words: Record<string, string> = {
+      '15': 'fifteen',
+      '16': 'sixteen',
+      '17': 'seventeen',
+      '18': 'eighteen',
+      '19': 'nineteen',
+      '20': 'twenty',
+      '21': 'twenty-one',
+      '25': 'twenty-five',
+    };
+    return words[n] ? `${words[n]} (${n})` : `${n} (${n})`;
+  };
+
+  const competencyAgePhrase = agePhrase(serverAge || '18');
+
   // ServeTracker Statutory Execution Sentence
   const getExecutionSentence = () => {
     if (customExecutionText.trim()) return customExecutionText;
     const target = recipientName.trim() || 'the recipient named herein';
     const docs = documentsLine.trim() ? 'true and correct copies of the documents listed above' : 'true and correct copies of the legal process';
     const acc = acceptedBy.trim() || 'a person authorized to accept service';
+    const coAge = coResidentMinAge.trim();
+    const coAgeClause = coAge
+      ? `, a person of suitable age and discretion residing therein who is ${agePhrase(coAge)} years of age or older`
+      : ', a person of suitable age and discretion residing therein';
 
     switch (serviceMethod) {
       case 'personal':
         return `I executed personal service upon ${target} by personally delivering ${docs} to ${target}.`;
       case 'substituted-residence':
-        return `I executed substituted service upon ${target} by leaving ${docs} at the dwelling house or usual place of abode of ${target} with ${acc}, a person of suitable age and discretion residing therein, and I explained the general nature of the papers.`;
+        return `I executed substituted service upon ${target} by leaving ${docs} at the dwelling house or usual place of abode of ${target} with ${acc}${coAgeClause}, and I explained the general nature of the papers.`;
       case 'substituted-business':
         return `I executed substituted service upon ${target} by leaving, during regular business hours, ${docs} at the office / place of employment of ${target} with ${acc}, the person apparently in charge thereof.`;
       case 'corporate':
@@ -445,6 +479,20 @@ export default function AffidavitOfService() {
                   className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
                 />
               </div>
+              {serviceMethod === 'substituted-residence' && (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">Co-resident min age (optional):</span>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    value={coResidentMinAge}
+                    onChange={(e) => setCoResidentMinAge(e.target.value.replace(/[^\d]/g, '').slice(0, 2))}
+                    placeholder="e.g. 15 (OK) / 16 (AR) / 18"
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                  />
+                  <span className="text-slate-500 text-[10px] block mt-0.5">Blank = “suitable age &amp; discretion” only (no number)</span>
+                </div>
+              )}
               {serviceMethod === 'corporate' && (
                 <div>
                   <span className="text-slate-400 font-semibold block mb-0.5">Recipient Title / Capacity:</span>
@@ -462,6 +510,18 @@ export default function AffidavitOfService() {
 
           {/* Server / agency credentials — screen only; print via signature block */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-2 border-t border-slate-800 text-xs">
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Server age (competency)</span>
+              <input
+                type="text"
+                inputMode="numeric"
+                value={serverAge}
+                onChange={(e) => setServerAge(e.target.value.replace(/[^\d]/g, '').slice(0, 2) || '18')}
+                placeholder="18"
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+              />
+              <span className="text-slate-500 text-[10px] block mt-0.5">Default 18 — override if jurisdiction needs another</span>
+            </div>
             <div>
               <span className="text-slate-400 font-semibold block mb-0.5">License # (optional)</span>
               <input type="text" value={serverLicense} onChange={(e) => setServerLicense(e.target.value)} placeholder="License / registration # if required" className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500" />
@@ -608,7 +668,7 @@ export default function AffidavitOfService() {
                   onChange={(e) => setStateName(e.target.value)}
                   placeholder="State"
                   className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 screen-only"
-                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span> and the United States of America that I am over the age of eighteen (18) years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
+                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span> and the United States of America that I am over the age of {competencyAgePhrase} years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
               </>
             ) : (
               <>
@@ -618,7 +678,7 @@ export default function AffidavitOfService() {
                   onChange={(e) => setServerName(e.target.value)}
                   placeholder="Server Full Name"
                   className="font-bold border-b border-black outline-none px-1 bg-transparent min-w-[140px] screen-only"
-                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, being duly sworn, depose and say: I am over the age of eighteen (18) years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
+                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, being duly sworn, depose and say: I am over the age of {competencyAgePhrase} years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
               </>
             )}
           </p>
