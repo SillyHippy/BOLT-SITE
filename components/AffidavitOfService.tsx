@@ -38,8 +38,6 @@ export default function AffidavitOfService() {
   const [stateName, setStateName] = useState('');
   const [recipientName, setRecipientName] = useState('');
 
-  const [recipientDescription, setRecipientDescription] = useState('');
-
   // Process Server Credentials — blank; fill via form or ?server=&license=&company= URL
   const [serverName, setServerName] = useState('');
   const [serverLicense, setServerLicense] = useState('');
@@ -53,14 +51,14 @@ export default function AffidavitOfService() {
   // Service Details
   const [documentsLine, setDocumentsLine] = useState('');
   const [serviceAddress, setServiceAddress] = useState('');
-  const [serviceMethod, setServiceMethod] = useState<'personal' | 'substituted-residence' | 'substituted-business' | 'corporate' | 'posting' | 'non-service' | 'custom'>('personal');
+  const [serviceMethod, setServiceMethod] = useState<'personal' | 'substituted-residence' | 'substituted-business' | 'corporate' | 'posting' | 'non-service' | 'custom'>('substituted-residence');
   const [acceptedBy, setAcceptedBy] = useState('');
   /** Min age of co-resident for substitute residence (OK 15, AR 16, many 18) — blank = no age number in sentence. */
   const [coResidentMinAge, setCoResidentMinAge] = useState('');
   const [recipientTitle, setRecipientTitle] = useState('Registered Agent');
   const [customExecutionText, setCustomExecutionText] = useState('');
 
-  // Comments / Narrative Notes
+  // Comments / Narrative Notes (physical description goes here when needed)
   const [comments, setComments] = useState('');
 
   // Declaration Execution Info
@@ -153,8 +151,6 @@ export default function AffidavitOfService() {
     if (sPh) setServerPhone(sPh);
     const sEm = getParam('email', 'Email');
     if (sEm) setServerEmail(sEm);
-    const desc = getParam('description', 'recipient_description', 'Description');
-    if (desc) setRecipientDescription(desc);
     const sAge = getParam('server_age', 'age', 'competency_age');
     if (sAge) setServerAge(sAge);
     const coAge = getParam('co_resident_age', 'sub_age', 'substitute_age');
@@ -202,7 +198,6 @@ export default function AffidavitOfService() {
     if (serverAddress) url.searchParams.set('server_address', serverAddress);
     if (serverPhone) url.searchParams.set('phone', serverPhone);
     if (serverEmail) url.searchParams.set('email', serverEmail);
-    if (recipientDescription) url.searchParams.set('description', recipientDescription);
     if (serverAge && serverAge !== '18') url.searchParams.set('server_age', serverAge);
     if (coResidentMinAge) url.searchParams.set('co_resident_age', coResidentMinAge);
     if (county) url.searchParams.set('county', county);
@@ -238,7 +233,6 @@ export default function AffidavitOfService() {
       setCounty('');
       setStateName('');
       setRecipientName('');
-      setRecipientDescription('');
       setDocumentsLine('');
       setServiceAddress('');
       setAcceptedBy('');
@@ -255,7 +249,7 @@ export default function AffidavitOfService() {
       setExecCity('');
       setNotaryState('');
       setNotaryCounty('');
-      setServiceMethod('personal');
+      setServiceMethod('substituted-residence');
       setAttempts([{ id: 1, date: '', time: '', notes: '' }]);
     }
   };
@@ -713,21 +707,6 @@ export default function AffidavitOfService() {
             </span>
           </div>
 
-          {/* Optional recipient description (ServeManager-style; omit print line when empty) */}
-          <div className={`mb-2 text-[9.5pt] ${recipientDescription.trim() ? '' : 'screen-only'}`}>
-            <strong className="uppercase font-bold text-[9pt]">Recipient Description: </strong>
-            <input
-              type="text"
-              value={recipientDescription}
-              onChange={(e) => setRecipientDescription(e.target.value)}
-              placeholder="Age / Sex / Ethnicity / Height / Weight / Hair / Relationship (optional)"
-              className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-[70%] screen-only"
-            />
-            {recipientDescription.trim() ? (
-              <span className="print-only-inline hidden font-medium">{recipientDescription}</span>
-            ) : null}
-          </div>
-
           {/* Service Attempts (Physical) - Exact ServeTracker Table */}
           <div className="mb-2 page-break-avoid">
             <div className="flex items-center justify-between mb-1">
@@ -799,7 +778,7 @@ export default function AffidavitOfService() {
               ref={commentsRef}
               value={comments}
               onChange={(e) => setComments(e.target.value)}
-              placeholder="Attempt 1: No answer at residence, vehicle in driveway...\nAttempt 2: Spoke with neighbor who confirmed occupancy..."
+              placeholder="Due diligence notes, recipient description (age/sex/height/etc.), neighbor info…"
               rows={2}
               className="w-full bg-transparent border border-black p-1 text-[9.5pt] leading-tight resize-y screen-only"
             />
