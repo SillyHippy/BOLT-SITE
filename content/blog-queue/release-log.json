@@ -5944,6 +5944,46 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-remote-online-notarization-identity-records",
+      "title": "Oklahoma Remote Online Notarization: Identity Proofing and Records",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-08T20:35:25.550Z",
+      "releaseDate": "2026-10-08",
+      "quality": {
+        "words": 3144,
+        "headings": 18,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 4 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-class-action-lawsuits-mass-notification-oklahoma",
+      "title": "Class Action Process Serving & Mass Notification in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-08T20:35:25.553Z",
+      "releaseDate": "2026-10-08",
+      "quality": {
+        "words": 4997,
+        "headings": 30,
+        "paragraphs": 56
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
