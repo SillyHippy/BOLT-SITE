@@ -1,0 +1,3 @@
+# Generated PDFs are binary documents; do not treat their cross-reference tables as text.
+*.pdf binary
+*.docx binary

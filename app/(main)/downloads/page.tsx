@@ -5,11 +5,11 @@ import { FileText, Download, ClipboardCheck, BookOpen, Users, MapPin } from 'luc
 export const metadata: Metadata = {
   title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
   description:
-    '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+    '36 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
   twitter: {
     card: 'summary_large_image',
     title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
-    description: '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+    description: '36 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
   },
   alternates: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     }],
     title: 'Free Oklahoma Process Serving Downloads',
     description:
-      '30 free downloadable resources covering Oklahoma process-serving law, procedure, and operations. DOCX and PDF formats.',
+      '36 free downloadable resources covering Oklahoma process-serving law, procedure, and operations. DOCX and PDF formats.',
     url: 'https://justlegalsolutions.org/downloads',
     type: 'website',
   },
@@ -252,6 +252,26 @@ const CLUSTERS: ResourceCluster[] = [
   },
 ];
 
+// New browser-generator templates; only blank versions have both formats.
+CLUSTERS.push({
+  id: 'blank-affidavits', title: 'Blank Affidavits & Field Sheet', blurb: 'Editable DOCX and print-ready PDF forms without firm contact details.', Icon: FileText,
+  items: [
+    { slug: 'JLS-Blank-Affidavit-of-Service-v1.0', title: 'Blank Affidavit of Service', description: 'Sworn return with notary block.' },
+    { slug: 'JLS-Blank-Declaration-of-Service-v1.0', title: 'Blank Declaration of Service', description: 'Unsworn return; verify your court accepts it.' },
+    { slug: 'JLS-Blank-Affidavit-of-Non-Service-v1.0', title: 'Blank Affidavit of Non-Service', description: 'Sworn non-service return.' },
+    { slug: 'JLS-Blank-Declaration-of-Non-Service-v1.0', title: 'Blank Declaration of Non-Service', description: 'Unsworn non-service return; verify court acceptance.' },
+    { slug: 'JLS-Blank-Field-Sheet-v1.0', title: 'Blank Field Sheet', description: 'Print or edit your own street sheet.' },
+  ],
+});
+
+CLUSTERS.push({
+  id: 'notary-resources', title: 'Oklahoma Notary Examples', blurb: 'SOS-sourced examples; read the official guide for current requirements.', Icon: FileText,
+  items: [
+    { slug: 'JLS-OK-Notary-Short-Form-Certificates-v1.0', title: 'Oklahoma Short-Form Certificate Examples', description: 'Five SOS examples. Do not replace an instrument’s prescribed wording.', internalHref: '/notary-tools' },
+    { slug: 'JLS-OK-Recommended-Notary-Journal-Page-v1.0', title: 'Recommended Notary Journal Page', description: 'For traditional acts; RON requires its own electronic journal and audiovisual records.', internalHref: '/notary-tools' },
+  ],
+});
+
 const TOTAL_ITEMS = CLUSTERS.reduce((n, c) => n + c.items.length, 0);
 
 function ResourceCard({ item }: { item: ResourceItem }) {
@@ -297,7 +317,7 @@ export default function DownloadsPage() {
     '@type': 'ItemList',
     name: 'Just Legal Solutions Free Oklahoma Process Serving Downloads',
     description:
-      '30 free downloadable Oklahoma process-serving resources in DOCX and PDF formats.',
+      '36 free downloadable Oklahoma process-serving resources in DOCX and PDF formats.',
     numberOfItems: TOTAL_ITEMS,
     itemListElement: CLUSTERS.flatMap((cluster) =>
       cluster.items.map((item, i) => ({

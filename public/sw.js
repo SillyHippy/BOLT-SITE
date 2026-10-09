@@ -1,17 +1,24 @@
 // Service Worker for Just Legal Solutions
 // Provides offline functionality and advanced caching for better mobile performance
 
-const CACHE_NAME = 'jls-v2026-04-10';
-const STATIC_CACHE_NAME = 'jls-static-v2026-04-10';
+const CACHE_NAME = 'jls-v2026-10-09-tools';
+const STATIC_CACHE_NAME = 'jls-static-v2026-10-09-tools';
 
 // Critical assets to cache immediately
 const CRITICAL_ASSETS = [
   '/',
   '/pricing',
+  '/affidavit-of-service',
+  '/field-sheet',
+  '/pdf-tools',
+  '/downloads',
+  '/downloads/JLS-Blank-Affidavit-of-Service-v1.0.pdf',
+  '/downloads/JLS-Fillable-Affidavit-of-Service-v1.0.pdf',
+  '/downloads/JLS-Blank-Field-Sheet-v1.0.pdf',
+  '/downloads/JLS-Fillable-Field-Sheet-v1.0.pdf',
   '/images/hero.webp',
   '/images/jls-logo.webp',
-  '/Favicon/favicon.ico',
-  '/_next/static/css/app/layout.css'
+  '/Favicon/favicon.ico'
 ];
 
 // Static assets to cache on first visit
@@ -118,6 +125,11 @@ self.addEventListener('fetch', (event) => {
           }
         }
 
+        // Route JS/CSS must be available when a previously opened tool goes offline.
+        if (request.destination === 'script' || request.destination === 'style') {
+          const cached = await caches.match(request);
+          if (cached) return cached;
+        }
         // For other assets, try network first
         const networkResponse = await fetch(request);
         if (networkResponse.ok) {

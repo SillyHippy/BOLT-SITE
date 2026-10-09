@@ -68,7 +68,7 @@ export default function ResourcesPage() {
           <div className="max-w-3xl mx-auto mb-6 bg-navy text-white rounded-xl p-5 md:p-6 flex flex-col md:flex-row md:items-center gap-4">
             <div className="flex-1">
               <p className="text-sm text-white/70 mb-1">New — Free Download Library</p>
-              <p className="text-lg font-semibold">30 free Oklahoma process serving resources (PDF + DOCX)</p>
+              <p className="text-lg font-semibold">36 free Oklahoma process serving resources (PDF + DOCX)</p>
             </div>
             <Link
               href="/downloads"
