@@ -59,7 +59,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           {/* Logo */}
-          <Link href="/" className="flex items-center rounded-lg px-1 py-1 transition hover:bg-white/70">
+          <Link href="/" className="flex shrink-0 items-center rounded-lg px-1 py-1 transition hover:bg-white/70">
             <Image 
               src="/favicon1.svg" 
               alt="Just Legal Solutions \u2014 Oklahoma process server and notary" 
@@ -71,7 +71,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden min-[1440px]:flex items-center space-x-8 whitespace-nowrap">
             <Link href="/" className={navLinkClass(pathname === '/')} aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
               Home
             </Link>
@@ -106,7 +106,7 @@ export function Navbar() {
           </div>
 
           {/* Contact Us Button - Desktop */}
-          <div className="hidden md:block">
+          <div className="hidden min-[1440px]:block">
             <Button
               onClick={scrollToFooter}
               className="ui-btn-primary"
@@ -116,7 +116,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="min-[1440px]:hidden">
             <button
               type="button"
               onClick={toggleMobileMenu}
@@ -151,7 +151,7 @@ export function Navbar() {
           aria-label="Mobile navigation menu"
           className={`ui-mobile-safe-panel fixed top-0 right-0 bottom-0 w-[270px] bg-white border-l border-slate-300 shadow-xl transform transition-all duration-300 ease-in-out z-50 ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-          } md:hidden`}
+          } min-[1440px]:hidden`}
         >
           <div className="flex justify-between items-center p-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-900">Menu</div>
@@ -259,7 +259,7 @@ export function Navbar() {
         {/* Overlay */}
         {isMobileMenuOpen && (
           <div
-            className="fixed inset-0 bg-slate-900/45 backdrop-blur-[1px] z-40 md:hidden"
+            className="fixed inset-0 bg-slate-900/45 backdrop-blur-[1px] z-40 min-[1440px]:hidden"
             onClick={toggleMobileMenu}
             aria-hidden="true"
           />

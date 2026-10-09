@@ -529,7 +529,7 @@ export default function AffidavitOfService() {
               </span>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <button
                 type="button"
                 onClick={handlePrint}
@@ -681,9 +681,9 @@ export default function AffidavitOfService() {
       </div>
 
       {/* ServeTracker Exact Legal Document Sheet */}
-      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12">
+      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12 min-w-0">
         <div
-          className="affidavit-page bg-white text-black shadow-xl rounded-sm p-6 sm:p-8 border border-slate-300"
+          className="affidavit-page bg-white text-black shadow-xl rounded-sm p-6 sm:p-8 border border-slate-300 max-w-full min-w-0"
           style={{
             fontFamily: '"Times New Roman", Times, Georgia, serif',
             color: '#000',
@@ -946,14 +946,14 @@ export default function AffidavitOfService() {
           {isDeclaration && <p className="text-[9.5pt] leading-snug page-break-avoid mb-2">I state under penalty of perjury under the laws of the State of {stateName || '__________'} that the foregoing is true and correct.</p>}
 
           {/* ServeTracker Exact Signature & Notary Block */}
-          <div className="sig-block pt-1 page-break-avoid">
+          <div className="sig-block pt-1 page-break-avoid break-words">
             {isDeclaration ? (
               /* ─── UNSWORN DECLARATION FOOTER ─── */
-              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+              <table style={{ width: '100%', tableLayout: 'fixed', borderCollapse: 'collapse' }}>
                 <tbody>
                   <tr>
                     <td style={{ width: '48%', verticalAlign: 'top' }}>
-                      <div style={{ borderBottom: '1px solid #000', width: '260px', height: '0px', marginTop: '4px' }}></div>
+                      <div style={{ borderBottom: '1px solid #000', width: 'min(260px, 100%)', height: '0px', marginTop: '4px' }}></div>
                       <div style={{ marginTop: '-6px', fontSize: '9.5pt', lineHeight: 1.3 }}>
                         <strong>{serverName || 'Process Server / Declarant'}</strong><br />
                         Private Process Server<br />
@@ -995,12 +995,12 @@ export default function AffidavitOfService() {
               </table>
             ) : (
               /* ─── SWORN NOTARIZED AFFIDAVIT FOOTER ─── */
-              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+              <table style={{ width: '100%', tableLayout: 'fixed', borderCollapse: 'collapse' }}>
                 <tbody>
                   <tr>
                     {/* Process Server LEFT */}
                     <td style={{ width: '48%', verticalAlign: 'top' }}>
-                      <div style={{ borderBottom: '1px solid #000', width: '260px', height: '52px', marginTop: '4px' }}></div>
+                      <div style={{ borderBottom: '1px solid #000', width: 'min(260px, 100%)', height: '52px', marginTop: '4px' }}></div>
                       <div style={{ marginTop: '4px', fontSize: '9.5pt', lineHeight: 1.3 }}>
                         <strong>{serverName || 'Process Server / Affiant'}</strong><br />
                         Private Process Server<br />
@@ -1034,7 +1034,7 @@ export default function AffidavitOfService() {
                       <p style={{ fontSize: '9.5pt', margin: '0 0 4px 0', lineHeight: 1.2 }}>
                         Subscribed and sworn to before me {swornDayPhrase}.
                       </p>
-                      <div style={{ borderBottom: '1px solid #000', width: '260px', height: '36px', marginTop: '4px' }}></div>
+                      <div style={{ borderBottom: '1px solid #000', width: 'min(260px, 100%)', height: '36px', marginTop: '4px' }}></div>
                       <div style={{ marginTop: '3px', fontSize: '9.5pt' }}>
                         Notary Public
                       </div>
