@@ -269,7 +269,7 @@ const credentials = [
   {
     title: "Oklahoma Notary Public Commission",
     icon: Stamp,
-    description: "State of Oklahoma commissioned Notary Public, authorized to perform notarial acts throughout all 77 counties. Enhanced journal requirements per HB 2265.",
+    description: "State of Oklahoma commissioned Notary Public, authorized to perform notarial acts throughout all 77 counties. Record-keeping practices in line with Oklahoma Secretary of State guidance.",
     status: "Active",
     downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Commission.pdf",
     color: "blue"

@@ -261,8 +261,8 @@ export const featuredVideos: Video[] = [
   },
   {
     videoId: '-C9XFE71nVU',
-    title: 'New Oklahoma Notary Laws 2026 — HB 2265 Changes Explained',
-    description: 'What changed for Oklahoma notaries in 2026 under HB 2265 — new requirements, updated journal rules, and what notaries must do to stay compliant.',
+    title: 'New Oklahoma Notary Laws 2026 — What Actually Changed',
+    description: 'What changed for Oklahoma notaries in 2026 — SB 1028 background checks and bond requirements, journal rules for RON, and the status of the 2025 reform bill.',
     datePublished: '2026-04-01',
     duration: 'PT11M0S',
     relatedPage: '/notary-laws',

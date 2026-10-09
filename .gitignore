@@ -90,3 +90,5 @@ target/
 _swarm_drafts/
 _kimi_import/
 .hermes/
+sqlite_mcp_server.db
+tsconfig.tsbuildinfo

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Notary Journal Requirements: Best Practices Guide',
-  description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and HB 2265 explained.',
+  description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and the status of HB 2265.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Notary Journal Requirements: Best Practices Guide',
-    description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and HB 2265 explained.',
+    description: 'Oklahoma notary journal rules: paper journals optional; RON and absentee ballot logs mandatory. Retention, tamper-evident formats, and the status of HB 2265.',
     url: 'https://justlegalsolutions.org/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-09-17',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma does not mandate journals for traditional in-person notarizations, but RON and absentee ballot logs are required—with 10-year RON retention and separate election logs; HB 2265 would broaden mandatory journaling.',
+    'ai-summary': 'Oklahoma does not mandate journals for traditional in-person notarizations, but RON and absentee ballot logs are required—with 10-year RON retention and separate election logs. HB 2265, which would have broadened mandatory journaling, died in committee in 2026.',
     'ai-key-facts': 'Paper in-person journals are recommended by the SOS but not required by statute; RON requires tamper-evident electronic journals under 49 O.S. § 206; Absentee ballot notaries must keep a dedicated log for two years under 26 O.S. § 14-108.1; RON journals and A/V recordings require 10-year retention under 49 O.S. § 207',
   },
 };
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const faqs: { question: string; answer: string }[] = [
   {
     question: 'Is a notary journal required for all notarizations in Oklahoma?',
-    answer: 'Currently, Oklahoma law does not require a journal for traditional, in-person paper notarizations, though the Secretary of State strongly recommends keeping one. However, a journal IS mandatory for Remote Online Notarizations (RON) under 49 O.S. § 206, and a log is required for absentee ballot affidavits under 26 O.S. § 14-108.1. If HB 2265 passes, journaling would become mandatory for all notarial acts except those performed for an established business relationship in the ordinary course of business.',
+    answer: 'Oklahoma law does not require a journal for traditional, in-person paper notarizations, though the Secretary of State strongly recommends keeping one. However, a journal IS mandatory for Remote Online Notarizations (RON) under 49 O.S. § 206, and a log is required for absentee ballot affidavits under 26 O.S. § 14-108.1. HB 2265, which would have made journaling mandatory for all notarial acts, died in the Senate Judiciary Committee when the 2026 session adjourned on May 14, 2026.',
   },
   {
     question: 'What information should I record in my Oklahoma notary journal?',
@@ -55,15 +55,15 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How long must I keep my Oklahoma notary journal?',
-    answer: 'Retention periods vary by notarization type. For traditional paper notarizations, there is no statutory retention period since journals are currently voluntary — best practice is to keep them indefinitely. For RON, the electronic journal must be retained at least 10 years after the last remote online notarial act recorded per 49 O.S. § 207. For absentee ballot affidavits, the log must be kept at least 2 years after the election date per 26 O.S. § 14-108.1. If HB 2265 passes, all journals would require 10-year retention.',
+    answer: 'Retention periods vary by notarization type. For traditional paper notarizations, there is no statutory retention period since journals are voluntary — best practice is to keep them indefinitely. For RON, the electronic journal must be retained at least 10 years after the last remote online notarial act recorded per 49 O.S. § 207. For absentee ballot affidavits, the log must be kept at least 2 years after the election date per 26 O.S. § 14-108.1. HB 2265 would have imposed a 10-year retention period on all journals but did not become law.',
   },
   {
     question: 'What happens if my notary journal is lost or stolen?',
-    answer: 'For a tangible paper journal, there is no current Oklahoma statute addressing this, but best practice is to file a police report and notify the Secretary of State. For an electronic journal used for RON, 49 O.S. § 207 requires you to immediately notify both an appropriate law enforcement agency AND the Oklahoma Secretary of State upon actual knowledge of theft or vandalism. If HB 2265 passes, prompt notification to the SOS would be required for all lost or stolen journals.',
+    answer: 'For a tangible paper journal, there is no current Oklahoma statute addressing this, but best practice is to file a police report and notify the Secretary of State. For an electronic journal used for RON, 49 O.S. § 207 requires you to immediately notify both an appropriate law enforcement agency AND the Oklahoma Secretary of State upon actual knowledge of theft or vandalism. HB 2265 would have extended that notification requirement to all lost or stolen journals but did not become law.',
   },
   {
     question: 'Can I use an electronic journal for traditional paper notarizations in Oklahoma?',
-    answer: 'Yes, Oklahoma law does not prohibit using an electronic journal for traditional notarizations. However, if HB 2265 passes, electronic journals must be in a permanent, tamper-evident format complying with Secretary of State rules. Notaries would maintain only one journal at a time to chronicle all notarial acts, whether tangible or electronic.',
+    answer: 'Yes, Oklahoma law does not prohibit using an electronic journal for traditional notarizations. However, HB 2265 would have required electronic journals to be permanent and tamper-evident and limited notaries to one journal at a time, but it did not become law.',
   },
   {
     question: 'What are the requirements for notarizing absentee ballots in Oklahoma?',
@@ -71,18 +71,18 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'What is a "tamper-evident" journal format and why does it matter?',
-    answer: 'A tamper-evident format makes unauthorized alterations visibly detectable. For tangible journals, this means a permanent, bound register with sequentially numbered pages — if a page is removed or altered, it is obvious. For electronic journals, tamper-evident systems use technology such as cryptographic hashing, audit trails, and access controls to detect changes. Oklahoma requires tamper-evident electronic journals for RON under 49 O.S. § 206, and HB 2265 would extend this requirement to all electronic journals.',
+    answer: 'A tamper-evident format makes unauthorized alterations visibly detectable. For tangible journals, this means a permanent, bound register with sequentially numbered pages — if a page is removed or altered, it is obvious. For electronic journals, tamper-evident systems use technology such as cryptographic hashing, audit trails, and access controls to detect changes. Oklahoma requires tamper-evident electronic journals for RON under 49 O.S. § 206. HB 2265 would have extended that requirement to all electronic journals but did not become law.',
   },
   {
     question: 'What should I do with my journal when I resign or my commission expires?',
-    answer: 'Under current law, there is no specific requirement for traditional journals — the notary should retain them personally. For RON journals, 49 O.S. § 207 requires the notary (or personal representative, guardian, or agent) to retain the journal for the full 10-year period or deposit it with a depository designated by the notary. If HB 2265 passes, all notaries would be required to retain journals for 10 years after the last recorded act and inform the SOS of the journal\'s location upon resignation, revocation, or death, or alternatively transmit the journal to the SOS or an approved repository.',
+    answer: 'Under current law, there is no specific requirement for traditional journals — the notary should retain them personally. For RON journals, 49 O.S. § 207 requires the notary (or personal representative, guardian, or agent) to retain the journal for the full 10-year period or deposit it with a depository designated by the notary. HB 2265 would have required all notaries to retain journals for 10 years after the last recorded act and to notify the SOS of the journal\'s location upon resignation, revocation, or death, but it did not become law.',
   },
   {
     question: 'Can my employer keep or control my notary journal?',
-    answer: 'Your notary journal should remain under your exclusive control as a best practice. Under current Oklahoma law, there is no specific employer provision for traditional journals. However, 49 O.S. § 206 requires RON notaries to take reasonable steps to protect journals from unauthorized use. If HB 2265 passes, the requirement that notaries maintain only one journal and retain it for 10 years suggests the journal is the notary\'s personal responsibility even if employer-purchased. Best practice: never allow your employer or anyone else to control your journal.',
+    answer: 'Your notary journal should remain under your exclusive control as a best practice. Under current Oklahoma law, there is no specific employer provision for traditional journals. However, 49 O.S. § 206 requires RON notaries to take reasonable steps to protect journals from unauthorized use. HB 2265 would have required notaries to maintain only one journal and retain it for 10 years, which suggests the journal is the notary\'s personal responsibility even if employer-purchased — but the bill did not become law. Best practice: never allow your employer or anyone else to control your journal.',
   },
   {
-    question: 'How can I prepare for potential mandatory journal requirements under HB 2265?',
+    question: 'How should I prepare my journal system now?',
     answer: 'Start journaling now even though it is not yet mandatory for traditional acts. Choose a permanent, bound paper journal with numbered pages, or a tamper-evident electronic system. Practice making entries contemporaneously at the time of each notarization and include all recommended fields. Establish a secure storage system — a locked filing cabinet or safe for paper journals, encrypted backups for electronic journals. Begin building the habit of consistent record-keeping now so compliance will be seamless if and when the law changes.',
   },
 ];
@@ -141,10 +141,9 @@ export default function BlogPost() {
           <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
             <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
             <p className="text-gray-800">
-              Oklahoma does not require a journal for most in-person notarizations, but{' '}
+              Oklahoma does not require a journal for traditional in-person notarizations, but{' '}
               <strong>RON</strong> and <strong>absentee ballot affidavits</strong> do mandate logs with strict
-              retention. Best practice: keep a bound or tamper-evident journal anyway—and prepare for{' '}
-              <strong>HB 2265</strong> mandatory journaling.
+              retention. Best practice: keep a bound or tamper-evident journal anyway.
             </p>
 
           </div>
@@ -179,10 +178,10 @@ export default function BlogPost() {
             Adding another layer of urgency, Oklahoma has been signaling a broader shift toward notary accountability. SB 1028 became law without the Governor&apos;s signature on May 15, 2025, and took effect January 1, 2026. It raised the notary surety bond from $1,000 to $10,000, added national criminal history record check requirements for all applicants, and increased application and renewal fees. This is not random bureaucracy — it is a clear legislative trend toward treating notaries as serious professionals with serious responsibilities.
           </p>
           <p>
-            And then there is HB 2265, the Notaries Public Reform Act of 2025. It passed the Oklahoma House by a commanding 90-to-3 vote on March 26, 2025, and was referred to the Senate Judiciary Committee. If enacted, HB 2265 would mandate journals for all notarial acts in Oklahoma — with a limited exception for established business relationships conducted in the ordinary course of business. It would also impose 10-year retention requirements, specify six required data elements per entry, and establish formal rules for journal format, lost journal notification, and post-commission disposition. In other words, everything that is currently voluntary would become mandatory.
+            And then there is HB 2265, the Notaries Public Reform Act of 2025. It passed the Oklahoma House by a commanding 90-to-3 vote on March 26, 2025, and was referred to the Senate Judiciary Committee. It would have mandated journals for all notarial acts in Oklahoma — with a limited exception for established business relationships conducted in the ordinary course of business — and imposed 10-year retention requirements, six required data elements per entry, and formal rules for journal format, lost journal notification, and post-commission disposition. <strong>It did not become law.</strong> The bill never received a Senate hearing and died when the 2026 legislative session adjourned on May 14, 2026. Journaling remains voluntary for traditional notarizations.
           </p>
           <p>
-            <strong>Key takeaway:</strong> Just because Oklahoma does not require a traditional paper journal today does not mean you should operate without one. And even if HB 2265 stalls in the Senate, the liability protection a journal provides is invaluable. If you perform RON or notarize absentee ballots, record-keeping is already mandatory — no exceptions.
+            <strong>Key takeaway:</strong> Just because Oklahoma does not require a traditional paper journal today does not mean you should operate without one. The liability protection a journal provides is invaluable, and every notarization you perform without a journal entry is one you cannot fully defend if questioned. If you perform RON or notarize absentee ballots, record-keeping is already mandatory — no exceptions.
           </p>
 
           <div className="bg-blue-50 p-6 rounded-lg my-8">
@@ -275,13 +274,13 @@ export default function BlogPost() {
             For absentee ballot affidavits, 26 O.S. § 14-108.1 requires the log to be maintained for at least 2 years after the election date. This is the shortest retention period of the three, but it is no less mandatory. And because it is a separate log with its own rules, you need to track these retention periods independently.
           </p>
           <p>
-            If HB 2265 becomes law, all of this would change. Every journal — paper or electronic, traditional or RON — would require a 10-year retention period from the last recorded act. No more gaps. No more confusion. Every notary in Oklahoma would be playing by the same retention rules.
+            HB 2265 would have changed this. It would have required every journal — paper or electronic, traditional or RON — to be retained for 10 years from the last recorded act. The bill died in committee, so that uniform rule is not in place today.
           </p>
           <p>
-            Now, what happens if your journal is lost, stolen, or damaged? For a tangible paper journal, Oklahoma currently has no statute addressing this situation — which is actually a problem. Best practice is to file a police report immediately and notify the Secretary of State in writing. Create a detailed written record of what happened, when it happened, and what entries were in the lost journal. If you have photocopies or photographs of your journal pages, those become your backup evidence. For an electronic RON journal, 49 O.S. § 207 requires you to immediately notify both an appropriate law enforcement agency AND the Secretary of State upon actual knowledge of theft or vandalism. If HB 2265 passes, this immediate notification requirement would extend to all lost or stolen journals.
+            Now, what happens if your journal is lost, stolen, or damaged? For a tangible paper journal, Oklahoma currently has no statute addressing this situation — which is actually a problem. Best practice is to file a police report immediately and notify the Secretary of State in writing. Create a detailed written record of what happened, when it happened, and what entries were in the lost journal. If you have photocopies or photographs of your journal pages, those become your backup evidence. For an electronic RON journal, 49 O.S. § 207 requires you to immediately notify both an appropriate law enforcement agency AND the Secretary of State upon actual knowledge of theft or vandalism. HB 2265 would have extended that immediate notification requirement to all lost or stolen journals, but it did not become law.
           </p>
           <p>
-            Life after your commission ends — whether through expiration, resignation, revocation, or death — also has specific rules. For traditional journals under current law, there is no requirement. You simply retain them personally. For RON journals, 49 O.S. § 207 specifies that the notary, or their personal representative, guardian, conservator, or agent, must retain the journal for the full 10-year period OR deposit it with a depository designated by the notary. If HB 2265 passes, all notaries would be required to inform the SOS of the journal&apos;s location upon resignation, revocation, or death, or alternatively transmit the journal to the SOS or an approved repository.
+            Life after your commission ends — whether through expiration, resignation, revocation, or death — also has specific rules. For traditional journals under current law, there is no requirement. You simply retain them personally. For RON journals, 49 O.S. § 207 specifies that the notary, or their personal representative, guardian, conservator, or agent, must retain the journal for the full 10-year period OR deposit it with a depository designated by the notary. HB 2265 would have required all notaries to inform the SOS of the journal&apos;s location upon resignation, revocation, or death, or to transmit the journal to the SOS or an approved repository. It did not become law.
           </p>
           <p>
             Here is a practical tip that most notaries never think about: include journal disposition instructions in your estate planning. Your executor or personal representative needs to know these journals exist, where they are stored, and what the legal requirements are for retaining or transferring them. A simple paragraph in your will or trust documents can save your family a significant headache later.
@@ -290,18 +289,18 @@ export default function BlogPost() {
             One unique exception worth noting: bank protests under 49 O.S. § 7 require notaries to keep a separate register provided by the bank. This register stays with the bank when the notary leaves — it does not travel with the notary. If you perform bank protests, understand that this is the one type of notary record you do not personally retain.
           </p>
 
-          <h2>Getting Ahead of the Law: How to Prepare Your Journal System Before HB 2265 Becomes Mandatory</h2>
+          <h2>Getting Ahead of the Law: How to Prepare Your Journal System Now</h2>
           <p>
-            HB 2265 represents the most significant overhaul of Oklahoma notary law in decades. It passed the House 90-to-3, which is about as close to unanimous as you get in a legislative body. It is currently pending in the Senate Judiciary Committee, and while its final form and passage date remain uncertain, the direction is clear: Oklahoma is moving toward mandatory journaling for all notarial acts. Notaries who start preparing now will have a seamless transition. Notaries who wait until the last minute will be scrambling to build systems under a deadline.
+            HB 2265 represents the most significant overhaul of Oklahoma notary law in decades. It passed the House 90-to-3, which is about as close to unanimous as you get in a legislative body. It died in the Senate Judiciary Committee when the 2026 session adjourned on May 14, 2026, so mandatory journaling is not on the horizon. That does not change the practical advice: a journal is your evidence and your defense, and starting the habit now costs you nothing and protects you immediately.
           </p>
           <p>
-            The first step is simple: start journaling now, even though it is not yet mandatory for traditional acts. This is not just about getting ahead of the law — it is about protecting yourself immediately. Every notarization you perform without a journal entry is a notarization you cannot fully defend if questioned. By starting now, you also build the habit of contemporaneous entry-making, which is the single most important discipline HB 2265 would require.
+            The first step is simple: start journaling now, even though it is not required for traditional acts. This is not just about getting ahead of the law — it is about protecting yourself immediately. Every notarization you perform without a journal entry is a notarization you cannot fully defend if questioned. By starting now, you also build the habit of contemporaneous entry-making, which is the single most important discipline HB 2265 would require.
           </p>
           <p>
-            If you choose a paper journal, select a permanent, bound register with consecutively numbered pages. Look for journals that provide space for all six required fields that HB 2265 would mandate: (1) date and time, (2) type of notarial act and document description, (3) the signer&apos;s name and address, (4) identification method used, (5) fee charged, and (6) notes on unusual circumstances. Many commercial notary journals already include these fields. Buy one that does, and you are already compliant with the format HB 2265 would require.
+            If you choose a paper journal, select a permanent, bound register with consecutively numbered pages. Look for journals that provide space for all the fields the Secretary of State recommends: (1) date and time, (2) type of notarial act and document description, (3) the signer&apos;s name and address, (4) identification method used, (5) fee charged, and (6) notes on unusual circumstances. Many commercial notary journals already include these fields. Buy one that does and you already have everything you need.
           </p>
           <p>
-            If you prefer an electronic journal — or if you perform RON and need one anyway — research platforms that offer tamper-evident technology, audit trails, encrypted backups, and SOS-compliant formatting. Compare at least three to five platforms before committing. Look for platforms that are specifically designed for notary compliance, not just general document management systems. The platform should make contemporaneous entry-making intuitive and should have robust backup and recovery capabilities. Remember, if HB 2265 passes, your electronic journal must be tamper-evident regardless of whether you perform RON or traditional notarizations.
+            If you prefer an electronic journal — or if you perform RON and need one anyway — research platforms that offer tamper-evident technology, audit trails, encrypted backups, and SOS-compliant formatting. Compare at least three to five platforms before committing. Look for platforms that are specifically designed for notary compliance, not just general document management systems. The platform should make contemporaneous entry-making intuitive and should have robust backup and recovery capabilities. Remember, an electronic journal must be tamper-evident if you perform RON.
           </p>
           <p>
             Storage planning is equally important. For paper journals, invest in a locked, fireproof filing cabinet or safe in a climate-controlled location. Paper degrades over time, especially in Oklahoma&apos;s heat and humidity. For electronic journals, set up encrypted cloud storage with automatic backups AND a local backup. Test your backup recovery process at least once a quarter. A backup you cannot restore is not a backup — it is a false sense of security.
@@ -310,10 +309,10 @@ export default function BlogPost() {
             Budgeting for compliance is also something to consider. Factor in the cost of your journal (typically $15-$50 for a quality paper journal), electronic platform subscription fees if applicable, storage solutions, and the time investment of consistent record-keeping. This is a small price to pay for professional protection and peace of mind.
           </p>
           <p>
-            Finally, make the mindset shift from &quot;journal-keeping as optional best practice&quot; to &quot;journal-keeping as professional non-negotiable.&quot; Even if HB 2265 stalls in the Senate and never becomes law, the legal protection a journal provides is invaluable. It is your evidence. Your defense. Your professional record. Treat it with the seriousness it deserves.
+            Finally, make the mindset shift from &quot;journal-keeping as optional best practice&quot; to &quot;journal-keeping as professional non-negotiable.&quot; Even though journaling is voluntary for traditional acts, the legal protection a journal provides is invaluable. It is your evidence. Your defense. Your professional record. Treat it with the seriousness it deserves.
           </p>
           <p>
-            <em>Note: HB 2265 is pending legislation as of this writing. Its status may change at any time. We recommend checking the current status with the <a href="https://www.oklegislature.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Legislature website</a> or the <a href="https://www.sos.ok.gov/notary/default.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> for the most up-to-date information.</em>
+            <em>Note: HB 2265 died in the Senate Judiciary Committee when the 2026 legislative session adjourned on May 14, 2026, and did not become law. We recommend confirming current requirements with the <a href="https://www.oklegislature.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Legislature website</a> or the <a href="https://www.sos.ok.gov/notary/default.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> for the most up-to-date information.</em>
           </p>
           </article>
           
@@ -391,7 +390,7 @@ export default function BlogPost() {
           <article className="prose prose-lg prose-blue max-w-none mt-12 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
             <h2>Conclusion</h2>
             <p>
-            Oklahoma notary journal requirements may seem straightforward at first glance, but the reality is more nuanced — and more important — than most notaries realize. The current dual-track system creates confusion: paper notarizations have no journal mandate, while RON notarizations have strict electronic journal requirements. Absentee ballot notarizations carry their own hidden log requirements under election law. And HB 2265 could change everything by mandating journals for all notarial acts with 10-year retention requirements.
+            Oklahoma notary journal requirements may seem straightforward at first glance, but the reality is more nuanced — and more important — than most notaries realize. The current dual-track system creates confusion: paper notarizations have no journal mandate, while RON notarizations have strict electronic journal requirements. Absentee ballot notarizations carry their own hidden log requirements under election law. HB 2265, which would have mandated journals for all notarial acts with 10-year retention, died in committee in 2026.
           </p>
           <p>
             The smartest approach is to stop treating journal-keeping as optional and start treating it as essential. Whether you choose a traditional paper journal or a tamper-evident electronic system, the discipline of recording every notarial act contemporaneously is what separates professional notaries from those who are one disputed signature away from a commission investigation. Build the habit now, choose compliant formats, set up secure storage, and plan for the long term. Your future self — and your professional reputation — will thank you.

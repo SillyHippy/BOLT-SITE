@@ -325,9 +325,9 @@ const faqs: FAQItem[] = [
   {
     question: 'What identification is acceptable for Oklahoma notarizations?',
     answer:
-      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves. Our notaries comply with 2026 HB 2265 identification standards.',
+      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves. Our notaries follow the identification requirements of 49 O.S. § 113.',
     schemaAnswer:
-      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, credible witnesses may be used. Compliant with 2026 HB 2265 identification standards.'
+      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, credible witnesses may be used, per 49 O.S. § 113.'
   },
   {
     question: 'Can attorneys and lenders integrate this service with process serving?',
@@ -371,7 +371,7 @@ const notaryServiceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'Just Legal Solutions',
-    description: 'Oklahoma mobile notary service compliant with 2026 notary law requirements including SB 1028 background screening and HB 2265 standards.'
+    description: 'Oklahoma mobile notary service compliant with 2026 notary law requirements including SB 1028 background screening and the $10,000 surety bond.'
   },
   serviceType: [
     'Mobile notary',
@@ -421,7 +421,7 @@ const notaryServiceSchema = {
       serviceUrl: 'https://justlegalsolutions.org/contact'
     }
   ],
-  termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts), SB 1028, and HB 2265',
+  termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts) and SB 1028',
   sameAs: ['https://justlegalsolutions.org/notary', 'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/'],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -633,7 +633,7 @@ export default function MobileNotaryPage() {
               <div className="bg-white shadow-xl rounded-2xl p-8 border border-slate-100">
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Oklahoma Notary Facts</h3>
                 <p className="text-slate-600 mb-4">
-                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 111 et seq.</strong> (Revised Uniform Law on Notarial Acts) by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and <strong>HB 2265</strong> (updated identification standards). As NNA-certified members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education.
+                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 111 et seq.</strong> (Revised Uniform Law on Notarial Acts) by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and identity verification under <strong>49 O.S. § 113</strong>. As NNA-certified members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">
@@ -650,11 +650,11 @@ export default function MobileNotaryPage() {
                   </li>
                   <li className="flex items-start">
                     <FileText className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600"><strong>Acceptable ID (HB 2265):</strong> Government-issued photo identification per updated Oklahoma standards, or credible witnesses personally known to the signer and notary.</span>
+                    <span className="text-slate-600"><strong>Acceptable ID:</strong> Government-issued photo identification per 49 O.S. § 113, or credible witnesses personally known to the signer and notary.</span>
                   </li>
                 </ul>
                 <p className="text-slate-600 mt-4">
-                  Our compliance with 49 O.S. § 111 et seq., SB 1028, and HB 2265 means we can advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
+                  Our compliance with 49 O.S. § 111 et seq. and SB 1028 means we can advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
                 </p>
               </div>
             </div>
