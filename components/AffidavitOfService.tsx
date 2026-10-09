@@ -168,6 +168,7 @@ export default function AffidavitOfService() {
     const timer = window.setTimeout(() => { saveToolDraft(DRAFT_KEY, draftSnapshot); }, 600);
     return () => window.clearTimeout(timer);
   }, [draftReady, ...Object.values(draftSnapshot)]);
+
   const saveDraftNow = () => setDraftNotice(saveToolDraft(DRAFT_KEY, draftSnapshot) ? 'Saved on this device only' : 'Storage unavailable — use Print / Save PDF');
   const discardDraft = () => { removeToolDraft(DRAFT_KEY); setAvailableDraft(null); suppressAutosave.current = false; setDraftNotice('Saved draft removed'); };
 
@@ -680,7 +681,7 @@ export default function AffidavitOfService() {
       </div>
 
       {/* ServeTracker Exact Legal Document Sheet */}
-      <div className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12">
+      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12">
         <div
           className="affidavit-page bg-white text-black shadow-xl rounded-sm p-6 sm:p-8 border border-slate-300"
           style={{
