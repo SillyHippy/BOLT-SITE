@@ -385,31 +385,31 @@
 /careers /contact 301
 
 # ── Legacy /resources/*.pdf → /downloads/JLS-* (forms page now links to /downloads/) ──
-/resources/oklahoma-affidavit-of-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-substitute-service-affidavit.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-publication-service-affidavit.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-corporate-service-affidavit.pdf /downloads/JLS-How-To-Serve-Business-Papers-v1.0.pdf 301
-/resources/oklahoma-proof-personal-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-proof-certified-mail.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-proof-posting-service.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
+/resources/oklahoma-affidavit-of-service.pdf /affidavit-of-service 302
+/resources/oklahoma-substitute-service-affidavit.pdf /affidavit-of-service 302
+/resources/oklahoma-publication-service-affidavit.pdf /affidavit-of-service 302
+/resources/oklahoma-corporate-service-affidavit.pdf /affidavit-of-service 302
+/resources/oklahoma-proof-personal-service.pdf /affidavit-of-service 302
+/resources/oklahoma-proof-certified-mail.pdf /affidavit-of-service 302
+/resources/oklahoma-proof-posting-service.pdf /affidavit-of-service 302
 /resources/oklahoma-diligent-search-checklist.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
-/resources/oklahoma-diligent-search-affidavit.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
+/resources/oklahoma-diligent-search-affidavit.pdf /contact 302
 /resources/oklahoma-skip-trace-form.pdf /downloads/JLS-Skip-Trace-Checklist-v1.0.pdf 301
-/resources/oklahoma-service-invoice.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-rush-service-invoice.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-attempt-invoice.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
-/resources/oklahoma-monthly-statement.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
+/resources/oklahoma-service-invoice.pdf /contact 302
+/resources/oklahoma-rush-service-invoice.pdf /contact 302
+/resources/oklahoma-attempt-invoice.pdf /contact 302
+/resources/oklahoma-monthly-statement.pdf /contact 302
 /resources/oklahoma-client-intake-form.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
 /resources/oklahoma-service-request-form.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
 /resources/oklahoma-subject-info-sheet.pdf /downloads/JLS-Client-Intake-Form-v1.0.pdf 301
-/resources/oklahoma-attempt-log.pdf /downloads/JLS-Service-Attempt-Log-v1.0.pdf 301
+/resources/oklahoma-attempt-log.pdf /field-sheet 302
 /resources/oklahoma-field-notes.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
 /resources/oklahoma-vehicle-description.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
 /resources/oklahoma-witness-form.pdf /downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf 301
-/resources/oklahoma-service-log.xlsx /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
-/resources/oklahoma-mileage-log.pdf /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
-/resources/oklahoma-expense-report.pdf /downloads/JLS-GPS-Service-Log-v1.0.pdf 301
-/resources/oklahoma-cleet-compliance-checklist.pdf /downloads/JLS-Server-Safety-Checklist-v1.0.pdf 301
+/resources/oklahoma-service-log.xlsx /field-sheet 302
+/resources/oklahoma-mileage-log.pdf /downloads 302
+/resources/oklahoma-expense-report.pdf /downloads 302
+/resources/oklahoma-cleet-compliance-checklist.pdf /downloads 302
 
 # Legacy /downloads/*.pdf resource aliases → JLS files
 /downloads/attorneys-guide-hiring-process-server.pdf /downloads/JLS-Attorney-Quick-Reference-v1.0.pdf 301

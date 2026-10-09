@@ -19,8 +19,8 @@ import {
 import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)',
-  description: 'Download our free Oklahoma Notarization Requirements Cheat Sheet. Complete guide to ID requirements, journal entries, certificate types, fees under 49 O.S. § 5, and RON rules.',
+  title: 'Oklahoma Notarization Requirements & SOS Guide',
+  description: 'Read the official Oklahoma Secretary of State guide for current requirements and certificate examples.',
   keywords: [
     'Oklahoma notary requirements',
     'Oklahoma notarization guide',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'notary journal requirements Oklahoma',
     'Oklahoma notary certificate types',
     'mobile notary Oklahoma requirements',
-    'free notary cheat sheet',
+    'Oklahoma SOS notary public guide',
     'Oklahoma notary public guide'
   ],
   openGraph: {
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
       height: 630,
       alt: 'Free Oklahoma process server forms and legal document downloads',
     }],
-    title: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)',
-    description: 'Complete guide to Oklahoma notary requirements, ID verification, fees, and RON rules. Download your free cheat sheet today.',
+    title: 'Oklahoma Notarization Requirements & SOS Guide',
+    description: 'Complete guide to Oklahoma notary requirements, ID verification, fees, and RON rules. Read the official guide.',
     type: 'website',
     url: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Notarization Requirements Cheat Sheet',
-    description: 'Free PDF guide covering all Oklahoma notary requirements, fees, and procedures.',
+    title: 'Oklahoma Notarization Requirements & SOS Guide',
+    description: 'Official Oklahoma notary guide and resource links.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements',
@@ -67,13 +67,13 @@ export default function OklahomaNotarizationRequirementsPage() {
     <>
       <UnifiedSchema
         pageType="generic"
-        pageTitle="Oklahoma Notarization Requirements Cheat Sheet (Free PDF)"
-        pageDescription="Download our free Oklahoma Notarization Requirements Cheat Sheet. Complete guide to ID requirements, journal entries, certificate types, fees under 49 O.S. § 5, and RON rules."
+        pageTitle="Oklahoma Notarization Requirements & SOS Guide"
+        pageDescription="Read the official Oklahoma Secretary of State guide for current requirements and certificate examples."
         pageUrl="https://justlegalsolutions.org/resources/oklahoma-notarization-requirements"
         siteName="Just Legal Solutions"
         breadcrumbs={[
           { name: 'Home', url: '/' },
-          { name: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)', url: '/resources/oklahoma-notarization-requirements' },
+          { name: 'Oklahoma Notarization Requirements & SOS Guide', url: '/resources/oklahoma-notarization-requirements' },
         ]}
       />
     <div className="min-h-screen bg-white">
@@ -87,7 +87,7 @@ export default function OklahomaNotarizationRequirementsPage() {
                 <span>Free Downloadable Resource</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                Oklahoma Notarization Requirements Cheat Sheet
+                Oklahoma Notarization Requirements & SOS Guide
               </h1>
               <p className="text-xl text-blue-100 mb-8 leading-relaxed">
                 Your complete quick-reference guide to Oklahoma notary laws, ID requirements, 
@@ -122,8 +122,8 @@ export default function OklahomaNotarizationRequirementsPage() {
                       <FileCheck className="w-6 h-6 text-yellow-400" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-900">Cheat Sheet Preview</h3>
-                      <p className="text-sm text-gray-500">2-Page Quick Reference</p>
+                      <h3 className="font-bold text-gray-900">Guide Topics</h3>
+                      <p className="text-sm text-gray-500">Official SOS Reference</p>
                     </div>
                   </div>
                   <div className="space-y-3">
@@ -152,7 +152,7 @@ export default function OklahomaNotarizationRequirementsPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What's Inside This Cheat Sheet
+              What's in the Official Guide
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Everything you need to know about Oklahoma notarization requirements in one 
@@ -302,7 +302,7 @@ export default function OklahomaNotarizationRequirementsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Who Is This Cheat Sheet For?
+                Who Should Read the Guide?
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -336,8 +336,7 @@ export default function OklahomaNotarizationRequirementsPage() {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">New Notary Applicants</h4>
                     <p className="text-gray-600">
-                      Study guide for the Oklahoma notary exam and reference for your 
-                      first notarizations.
+                      Read the Secretary of State guide before your first notarizations.
                     </p>
                   </div>
                 </div>
@@ -345,7 +344,7 @@ export default function OklahomaNotarizationRequirementsPage() {
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Why Download This Cheat Sheet?
+                Why Read the Official Guide?
               </h3>
               <ul className="space-y-4">
                 {[
@@ -371,22 +370,20 @@ export default function OklahomaNotarizationRequirementsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FileCheck className="w-16 h-16 text-yellow-400 mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Download Your Free Cheat Sheet Now
+            Read the Official Oklahoma Notary Guide
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Get instant access to the complete Oklahoma Notarization Requirements Cheat Sheet. 
-            No email required—just click and download.
+            The Secretary of State publishes the current guide. Open the official PDF directly; no email required.
           </p>
-          <Link 
-            href="/blog/mobile-notary-tulsa-guide"
+          <a
+            href="https://sos.ok.gov/forms/notary/NotaryPublicGuide.pdf" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg transition-colors text-lg"
           >
             <Download className="w-5 h-5" />
-            Read Mobile Notary Guide
-          </Link>
-          <p className="text-blue-200 text-sm mt-4">
-            Online guide • Oklahoma notary requirements • Free access
-          </p>
+            Open SOS Notary Guide (PDF)
+          </a>
+          <p className="text-blue-200 text-sm mt-4">Official Secretary of State PDF • No email required</p>
+          <p className="mt-4"><Link href="/notary-tools" className="text-white underline">All official notary links</Link></p>
         </div>
       </section>
 

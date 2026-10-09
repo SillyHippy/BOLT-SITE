@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { readToolDraft, saveToolDraft, removeToolDraft, type ToolDraft } from '@/lib/local-tool-draft';
 import { 
   Printer, 
   RotateCcw, 
@@ -78,6 +79,97 @@ export default function AffidavitOfService() {
 
   const [copiedLink, setCopiedLink] = useState(false);
   const commentsRef = useRef<HTMLTextAreaElement>(null);
+
+  const DRAFT_KEY = 'jls.affidavit.draft.v2';
+  type DraftValue = Record<string, unknown>;
+  const [draftReady, setDraftReady] = useState(false);
+  const [availableDraft, setAvailableDraft] = useState<ToolDraft<DraftValue> | null>(null);
+  const [draftNotice, setDraftNotice] = useState('');
+  const draftInit = useRef(false);
+  const suppressAutosave = useRef(false);
+  const draftSnapshot = {
+    docType,
+    courtName,
+    plaintiff,
+    defendant,
+    caseNumber,
+    county,
+    stateName,
+    recipientName,
+    serverName,
+    serverLicense,
+    serverCompany,
+    serverAddress,
+    serverPhone,
+    serverEmail,
+    serverAge,
+    documentsLine,
+    serviceAddress,
+    serviceMethod,
+    acceptedBy,
+    coResidentMinAge,
+    recipientTitle,
+    customExecutionText,
+    comments,
+    execDate,
+    execCity,
+    notaryState,
+    notaryCounty,
+    swornDayPhrase,
+    attempts,
+  };
+  const restoreDraft = (draft: ToolDraft<DraftValue>) => {
+    const v = draft.value;
+    if (typeof v.docType === 'string') setDocType(v.docType as DocumentType);
+    if (typeof v.courtName === 'string') setCourtName(v.courtName as string);
+    if (typeof v.plaintiff === 'string') setPlaintiff(v.plaintiff as string);
+    if (typeof v.defendant === 'string') setDefendant(v.defendant as string);
+    if (typeof v.caseNumber === 'string') setCaseNumber(v.caseNumber as string);
+    if (typeof v.county === 'string') setCounty(v.county as string);
+    if (typeof v.stateName === 'string') setStateName(v.stateName as string);
+    if (typeof v.recipientName === 'string') setRecipientName(v.recipientName as string);
+    if (typeof v.serverName === 'string') setServerName(v.serverName as string);
+    if (typeof v.serverLicense === 'string') setServerLicense(v.serverLicense as string);
+    if (typeof v.serverCompany === 'string') setServerCompany(v.serverCompany as string);
+    if (typeof v.serverAddress === 'string') setServerAddress(v.serverAddress as string);
+    if (typeof v.serverPhone === 'string') setServerPhone(v.serverPhone as string);
+    if (typeof v.serverEmail === 'string') setServerEmail(v.serverEmail as string);
+    if (typeof v.serverAge === 'string') setServerAge(v.serverAge as string);
+    if (typeof v.documentsLine === 'string') setDocumentsLine(v.documentsLine as string);
+    if (typeof v.serviceAddress === 'string') setServiceAddress(v.serviceAddress as string);
+    if (typeof v.serviceMethod === 'string') setServiceMethod(v.serviceMethod as typeof serviceMethod);
+    if (typeof v.acceptedBy === 'string') setAcceptedBy(v.acceptedBy as string);
+    if (typeof v.coResidentMinAge === 'string') setCoResidentMinAge(v.coResidentMinAge as string);
+    if (typeof v.recipientTitle === 'string') setRecipientTitle(v.recipientTitle as string);
+    if (typeof v.customExecutionText === 'string') setCustomExecutionText(v.customExecutionText as string);
+    if (typeof v.comments === 'string') setComments(v.comments as string);
+    if (typeof v.execDate === 'string') setExecDate(v.execDate as string);
+    if (typeof v.execCity === 'string') setExecCity(v.execCity as string);
+    if (typeof v.notaryState === 'string') setNotaryState(v.notaryState as string);
+    if (typeof v.notaryCounty === 'string') setNotaryCounty(v.notaryCounty as string);
+    if (typeof v.swornDayPhrase === 'string') setSwornDayPhrase(v.swornDayPhrase as string);
+    if (Array.isArray(v.attempts)) {
+      const safe = v.attempts.slice(0, 8).filter((a): a is Attempt => a && typeof a.id === 'number' && typeof a.date === 'string' && typeof a.time === 'string' && typeof a.notes === 'string');
+      if (safe.length) setAttempts(safe);
+    }
+    suppressAutosave.current = false;
+    setAvailableDraft(null);
+    setDraftNotice('Draft restored on this device');
+  };
+  useEffect(() => {
+    if (draftInit.current) return;
+    draftInit.current = true;
+    const stored = readToolDraft<DraftValue>(DRAFT_KEY);
+    if (stored) { setAvailableDraft(stored); suppressAutosave.current = true; }
+    setDraftReady(true);
+  }, []);
+  useEffect(() => {
+    if (!draftReady || suppressAutosave.current) return;
+    const timer = window.setTimeout(() => { saveToolDraft(DRAFT_KEY, draftSnapshot); }, 600);
+    return () => window.clearTimeout(timer);
+  }, [draftReady, ...Object.values(draftSnapshot)]);
+  const saveDraftNow = () => setDraftNotice(saveToolDraft(DRAFT_KEY, draftSnapshot) ? 'Saved on this device only' : 'Storage unavailable — use Print / Save PDF');
+  const discardDraft = () => { removeToolDraft(DRAFT_KEY); setAvailableDraft(null); suppressAutosave.current = false; setDraftNotice('Saved draft removed'); };
 
   const isDeclaration = docType.includes('DECLARATION');
   const isNonService = docType.includes('NON-SERVICE') || serviceMethod === 'non-service';
@@ -160,12 +252,36 @@ export default function AffidavitOfService() {
     const st = getParam('state', 'State');
     if (st) { setStateName(st); setNotaryState(st); }
 
+    const method = getParam('method', 'service_method');
+    const validMethods = ['personal','substituted-residence','substituted-business','corporate','posting','non-service','custom'];
+    if (method && validMethods.includes(method)) setServiceMethod(method as typeof serviceMethod);
+    const optional: [string[], (value: string) => void][] = [
+      [['accepted_by','acceptedBy'], setAcceptedBy],
+      [['recipient_title','recipientTitle'], setRecipientTitle],
+      [['custom_text','customExecutionText'], setCustomExecutionText],
+      [['comments','notes'], setComments],
+      [['exec_date','execution_date'], setExecDate],
+      [['exec_city','execution_city'], setExecCity],
+      [['notary_state'], setNotaryState],
+      [['notary_county'], setNotaryCounty],
+      [['sworn_day'], setSwornDayPhrase],
+    ];
+    optional.forEach(([keys, setter]) => { const value = getParam(...keys); if (value !== null) setter(value); });
+    const loadedAttempts: Attempt[] = [];
+    for (let i = 1; i <= 8; i++) {
+      const date = getParam(`a${i}d`) || '';
+      const time = getParam(`a${i}t`) || '';
+      const notes = getParam(`a${i}n`) || '';
+      if (date || time || notes) loadedAttempts.push({ id:i,date,time,notes });
+    }
+    if (loadedAttempts.length) setAttempts(loadedAttempts);
+
     const t = getParam('type', 'doc_type');
     if (t) {
       const u = t.toUpperCase();
-      if (u.includes('DECLARATION') && u.includes('NON-SERVICE')) setDocType('DECLARATION OF NON-SERVICE');
+      if (u.includes('DECLARATION') && u.includes('NON-SERVICE')) { setDocType('DECLARATION OF NON-SERVICE'); setServiceMethod('non-service'); }
       else if (u.includes('DECLARATION')) setDocType('DECLARATION OF SERVICE');
-      else if (u.includes('NON-SERVICE')) setDocType('AFFIDAVIT OF NON-SERVICE');
+      else if (u.includes('NON-SERVICE')) { setDocType('AFFIDAVIT OF NON-SERVICE'); setServiceMethod('non-service'); }
       else setDocType('AFFIDAVIT OF SERVICE');
     }
   }, []);
@@ -202,16 +318,33 @@ export default function AffidavitOfService() {
     if (coResidentMinAge) url.searchParams.set('co_resident_age', coResidentMinAge);
     if (county) url.searchParams.set('county', county);
     if (stateName) url.searchParams.set('state', stateName);
+    if (serviceMethod) url.searchParams.set('method', serviceMethod);
+    if (acceptedBy) url.searchParams.set('accepted_by', acceptedBy);
+    if (recipientTitle) url.searchParams.set('recipient_title', recipientTitle);
+    if (customExecutionText) url.searchParams.set('custom_text', customExecutionText);
+    if (comments) url.searchParams.set('comments', comments);
+    if (execDate) url.searchParams.set('exec_date', execDate);
+    if (execCity) url.searchParams.set('exec_city', execCity);
+    if (notaryState) url.searchParams.set('notary_state', notaryState);
+    if (notaryCounty) url.searchParams.set('notary_county', notaryCounty);
+    if (swornDayPhrase) url.searchParams.set('sworn_day', swornDayPhrase);
+    attempts.slice(0,8).forEach((a,i) => {
+      if (a.date) url.searchParams.set(`a${i+1}d`, a.date);
+      if (a.time) url.searchParams.set(`a${i+1}t`, a.time);
+      if (a.notes) url.searchParams.set(`a${i+1}n`, a.notes);
+    });
+    if (url.toString().length > 6000) { setDraftNotice('Link too long; use local draft and print the form.'); return; }
+
 
     navigator.clipboard.writeText(url.toString()).then(() => {
       setCopiedLink(true);
       setTimeout(() => setCopiedLink(false), 3000);
-    });
+    }).catch(() => setDraftNotice('Copy failed; use Print / Save PDF.'));
   };
 
   const addAttempt = () => {
     if (attempts.length >= 8) return;
-    setAttempts(prev => [...prev, { id: prev.length + 1, date: '', time: '', notes: '' }]);
+    setAttempts(prev => [...prev, { id: Math.max(0,...prev.map(a=>a.id)) + 1, date: '', time: '', notes: '' }]);
   };
 
   const removeAttempt = (id: number) => {
@@ -225,6 +358,7 @@ export default function AffidavitOfService() {
 
   const handleReset = () => {
     if (window.confirm('Clear all fields to a blank template?')) {
+      removeToolDraft(DRAFT_KEY); setAvailableDraft(null); suppressAutosave.current = false;
       setDocType('AFFIDAVIT OF SERVICE');
       setCourtName('');
       setPlaintiff('');
@@ -398,7 +532,7 @@ export default function AffidavitOfService() {
               <button
                 type="button"
                 onClick={handlePrint}
-                className="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+                className="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 min-h-[44px]"
               >
                 <Printer className="w-3.5 h-3.5" aria-hidden="true" />
                 <span>Print / Save PDF</span>
@@ -407,17 +541,19 @@ export default function AffidavitOfService() {
               <button
                 type="button"
                 onClick={handleShare}
-                className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-500 text-white px-3 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+                className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-500 text-white px-3 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 min-h-[44px]"
                 title="Copy shareable link"
               >
                 {copiedLink ? <Check className="w-3.5 h-3.5 text-emerald-300" aria-hidden="true" /> : <Share2 className="w-3.5 h-3.5" aria-hidden="true" />}
                 <span>{copiedLink ? 'Copied' : 'Share'}</span>
               </button>
 
+              <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Save draft</button>
+              <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Load draft</button>
               <button
                 type="button"
                 onClick={handleReset}
-                className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+                className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 min-h-[44px]"
                 title="Clear form"
               >
                 <RotateCcw className="w-3 h-3" aria-hidden="true" />
@@ -426,6 +562,9 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
+          {availableDraft && <div role="status" className="rounded-lg bg-amber-950 p-2 text-sm text-white">A draft is saved on this device. A link you opened stays on screen. <button type="button" className="min-h-[44px] px-2 underline" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline" onClick={discardDraft}>Discard draft</button></div>}
+          {draftNotice && <p role="status" className="text-xs text-amber-200">{draftNotice}</p>}
+          <details className="text-xs text-slate-300"><summary className="min-h-[44px] cursor-pointer inline-flex items-center">Shareable-link fields</summary><p>The link includes parties, case, recipient, method, address, comments, execution and notary venue, and up to eight attempts (a1d/a1t/a1n through a8d/a8t/a8n). Anyone with the link can read these details; use a local draft for sensitive cases.</p></details>
           {/* Mode & Method Selector Row */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
             <div className="flex items-center gap-2">
@@ -803,6 +942,8 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
+          {isDeclaration && <p className="text-[9.5pt] leading-snug page-break-avoid mb-2">I state under penalty of perjury under the laws of the State of {stateName || '__________'} that the foregoing is true and correct.</p>}
+
           {/* ServeTracker Exact Signature & Notary Block */}
           <div className="sig-block pt-1 page-break-avoid">
             {isDeclaration ? (
@@ -810,6 +951,20 @@ export default function AffidavitOfService() {
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <tbody>
                   <tr>
+                    <td style={{ width: '48%', verticalAlign: 'top' }}>
+                      <div style={{ borderBottom: '1px solid #000', width: '260px', height: '0px', marginTop: '4px' }}></div>
+                      <div style={{ marginTop: '-6px', fontSize: '9.5pt', lineHeight: 1.3 }}>
+                        <strong>{serverName || 'Process Server / Declarant'}</strong><br />
+                        Private Process Server<br />
+                        {serverLicense.trim() ? <>License No. {serverLicense}<br /></> : null}
+                        {serverCompany.trim() ? <>{serverCompany}<br /></> : null}
+                        {serverAddress.trim() ? <>{serverAddress}<br /></> : null}
+                        {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
+                      </div>
+                    </td>
+
+                    <td style={{ width: '4%' }}></td>
+
                     <td style={{ width: '48%', verticalAlign: 'top', fontSize: '9.5pt' }}>
                       <div className="mb-1">
                         <strong>Executed on: </strong>
@@ -832,20 +987,6 @@ export default function AffidavitOfService() {
                           className="font-bold border-b border-black bg-transparent outline-none w-36 screen-only"
                         />
                         <span className="print-only-inline hidden font-bold">{execCity || '_________________'}</span>
-                      </div>
-                    </td>
-
-                    <td style={{ width: '4%' }}></td>
-
-                    <td style={{ width: '48%', verticalAlign: 'top' }}>
-                      <div style={{ borderBottom: '1px solid #000', width: '260px', height: '48px', marginTop: '4px' }}></div>
-                      <div style={{ marginTop: '4px', fontSize: '9.5pt', lineHeight: 1.3 }}>
-                        <strong>{serverName || 'Process Server / Declarant'}</strong><br />
-                        Private Process Server<br />
-                        {serverLicense.trim() ? <>License No. {serverLicense}<br /></> : null}
-                        {serverCompany.trim() ? <>{serverCompany}<br /></> : null}
-                        {serverAddress.trim() ? <>{serverAddress}<br /></> : null}
-                        {[serverPhone, serverEmail].filter(Boolean).join(' • ')}
                       </div>
                     </td>
                   </tr>

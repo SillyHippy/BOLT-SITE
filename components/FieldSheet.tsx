@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { readToolDraft, saveToolDraft, removeToolDraft, type ToolDraft } from '@/lib/local-tool-draft';
 import { Printer, RotateCcw, Sparkles } from 'lucide-react';
 
 export default function FieldSheet() {
@@ -40,6 +41,88 @@ export default function FieldSheet() {
   const [address1, setAddress1] = useState('');
   const [address2, setAddress2] = useState('');
 
+  const DRAFT_KEY = 'jls.fieldsheet.draft.v2';
+  type DraftValue = Record<string, unknown>;
+  const [draftReady, setDraftReady] = useState(false);
+  const [availableDraft, setAvailableDraft] = useState<ToolDraft<DraftValue> | null>(null);
+  const [draftNotice, setDraftNotice] = useState('');
+  const draftInit = useRef(false);
+  const suppressAutosave = useRef(false);
+  const draftSnapshot = {
+    companyName,
+    companyEmail,
+    companyPhone,
+    serverName,
+    clientName,
+    clientPhone,
+    jobNumber,
+    dueDate,
+    caseNumber,
+    courtName,
+    plaintiff,
+    defendant,
+    documentsLine,
+    specialInstructions,
+    recipientName,
+    targetPhone,
+    targetAge,
+    targetSex,
+    targetRace,
+    targetHeight,
+    targetWeight,
+    targetHair,
+    targetMarks,
+    vehicleInfo,
+    address1,
+    address2,
+  };
+  const restoreDraft = (draft: ToolDraft<DraftValue>) => {
+    const v = draft.value;
+    if (typeof v.companyName === 'string') setCompanyName(v.companyName as string);
+    if (typeof v.companyEmail === 'string') setCompanyEmail(v.companyEmail as string);
+    if (typeof v.companyPhone === 'string') setCompanyPhone(v.companyPhone as string);
+    if (typeof v.serverName === 'string') setServerName(v.serverName as string);
+    if (typeof v.clientName === 'string') setClientName(v.clientName as string);
+    if (typeof v.clientPhone === 'string') setClientPhone(v.clientPhone as string);
+    if (typeof v.jobNumber === 'string') setJobNumber(v.jobNumber as string);
+    if (typeof v.dueDate === 'string') setDueDate(v.dueDate as string);
+    if (typeof v.caseNumber === 'string') setCaseNumber(v.caseNumber as string);
+    if (typeof v.courtName === 'string') setCourtName(v.courtName as string);
+    if (typeof v.plaintiff === 'string') setPlaintiff(v.plaintiff as string);
+    if (typeof v.defendant === 'string') setDefendant(v.defendant as string);
+    if (typeof v.documentsLine === 'string') setDocumentsLine(v.documentsLine as string);
+    if (typeof v.specialInstructions === 'string') setSpecialInstructions(v.specialInstructions as string);
+    if (typeof v.recipientName === 'string') setRecipientName(v.recipientName as string);
+    if (typeof v.targetPhone === 'string') setTargetPhone(v.targetPhone as string);
+    if (typeof v.targetAge === 'string') setTargetAge(v.targetAge as string);
+    if (typeof v.targetSex === 'string') setTargetSex(v.targetSex as string);
+    if (typeof v.targetRace === 'string') setTargetRace(v.targetRace as string);
+    if (typeof v.targetHeight === 'string') setTargetHeight(v.targetHeight as string);
+    if (typeof v.targetWeight === 'string') setTargetWeight(v.targetWeight as string);
+    if (typeof v.targetHair === 'string') setTargetHair(v.targetHair as string);
+    if (typeof v.targetMarks === 'string') setTargetMarks(v.targetMarks as string);
+    if (typeof v.vehicleInfo === 'string') setVehicleInfo(v.vehicleInfo as string);
+    if (typeof v.address1 === 'string') setAddress1(v.address1 as string);
+    if (typeof v.address2 === 'string') setAddress2(v.address2 as string);
+    suppressAutosave.current = false;
+    setAvailableDraft(null);
+    setDraftNotice('Draft restored on this device');
+  };
+  useEffect(() => {
+    if (draftInit.current) return;
+    draftInit.current = true;
+    const stored = readToolDraft<DraftValue>(DRAFT_KEY);
+    if (stored) { setAvailableDraft(stored); suppressAutosave.current = true; }
+    setDraftReady(true);
+  }, []);
+  useEffect(() => {
+    if (!draftReady || suppressAutosave.current) return;
+    const timer = window.setTimeout(() => { saveToolDraft(DRAFT_KEY, draftSnapshot); }, 600);
+    return () => window.clearTimeout(timer);
+  }, [draftReady, ...Object.values(draftSnapshot)]);
+  const saveDraftNow = () => setDraftNotice(saveToolDraft(DRAFT_KEY, draftSnapshot) ? 'Saved on this device only' : 'Storage unavailable — use Print / Save PDF');
+  const discardDraft = () => { removeToolDraft(DRAFT_KEY); setAvailableDraft(null); suppressAutosave.current = false; setDraftNotice('Saved draft removed'); };
+
   const handlePrint = useCallback(() => {
     const originalTitle = document.title;
     if (caseNumber.trim()) {
@@ -62,6 +145,7 @@ export default function FieldSheet() {
 
   const handleReset = () => {
     if (window.confirm('Clear all fields to a blank field sheet?')) {
+      removeToolDraft(DRAFT_KEY); setAvailableDraft(null); suppressAutosave.current = false;
       setCompanyName('');
       setCompanyEmail('');
       setCompanyPhone('');
@@ -139,7 +223,11 @@ export default function FieldSheet() {
           .pt-14 {
             padding-top: 0 !important;
           }
+          /* Reserve vertical slack for Android print engines and prevent a trailing sheet. */
+          @page { size: letter portrait; margin: 0.2in 0.3in; }
           .field-sheet-page {
+            break-after: avoid-page !important;
+            page-break-after: avoid !important;
             width: 100% !important;
             max-width: 100% !important;
             height: auto !important;
@@ -153,13 +241,22 @@ export default function FieldSheet() {
           }
           .field-sheet-page input[type="text"],
           .field-sheet-page textarea {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            color: #000 !important;
+            opacity: 1 !important;
+            -webkit-text-fill-color: #000 !important;
+            appearance: none !important;
             border: none !important;
             border-bottom: 1px solid #000 !important;
             background: transparent !important;
             padding: 0 2px !important;
           }
-          .field-sheet-page ::placeholder {
+          .field-sheet-page input::placeholder,
+          .field-sheet-page textarea::placeholder {
             color: transparent !important;
+            -webkit-text-fill-color: transparent !important;
+            opacity: 0 !important;
           }
           .section-title-bar {
             background-color: #e5e7eb !important;
@@ -198,7 +295,7 @@ export default function FieldSheet() {
             <button
               type="button"
               onClick={handlePrefillJLS}
-              className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 rounded-sm"
+              className="text-xs text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 rounded-sm min-h-[44px]"
               title="Prefill Just Legal Solutions info"
             >
               Prefill JLS Info
@@ -207,16 +304,18 @@ export default function FieldSheet() {
             <button
               type="button"
               onClick={handlePrint}
-              className="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+              className="flex items-center justify-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg font-semibold text-xs shadow transition-all active:scale-95 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 min-h-[44px]"
             >
               <Printer className="w-3.5 h-3.5" aria-hidden="true" />
               <span>Print / Save PDF</span>
             </button>
 
+            <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Save draft</button>
+            <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Load draft</button>
             <button
               type="button"
               onClick={handleReset}
-              className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900"
+              className="flex items-center justify-center gap-1 bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all active:scale-95 cursor-pointer border border-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900 min-h-[44px]"
               title="Clear all fields"
             >
               <RotateCcw className="w-3 h-3" aria-hidden="true" />
@@ -226,6 +325,8 @@ export default function FieldSheet() {
         </div>
       </div>
 
+      {availableDraft && <div role="status" className="no-print-field-sheet mx-auto max-w-4xl bg-amber-950 px-3 py-2 text-sm text-white">Draft saved on this device. <button type="button" className="min-h-[44px] px-2 underline" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline" onClick={discardDraft}>Discard draft</button></div>}
+      {draftNotice && <p role="status" className="no-print-field-sheet mx-auto max-w-4xl px-3 text-sm text-slate-700">{draftNotice}</p>}
       {/* Street Field Sheet Form (Exact 1-Page Letter Layout) */}
       <div className="field-sheet-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-8">
         <div

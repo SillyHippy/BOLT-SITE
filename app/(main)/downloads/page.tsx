@@ -5,11 +5,11 @@ import { FileText, Download, ClipboardCheck, BookOpen, Users, MapPin } from 'luc
 export const metadata: Metadata = {
   title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
   description:
-    '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+    '28 free downloadable Oklahoma process-serving resources: how-to guides, printable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
   twitter: {
     card: 'summary_large_image',
     title: 'Free Oklahoma Process Serving Downloads — DOCX & PDF Library',
-    description: '30 free downloadable Oklahoma process-serving resources: how-to guides, fillable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
+    description: '28 free downloadable Oklahoma process-serving resources: how-to guides, printable forms, audience packs, and statewide references. Each available as both DOCX and PDF.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-051-downloads-card.png'],
   },
   alternates: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     }],
     title: 'Free Oklahoma Process Serving Downloads',
     description:
-      '30 free downloadable resources covering Oklahoma process-serving law, procedure, and operations. DOCX and PDF formats.',
+      '28 free downloadable resources covering Oklahoma process-serving law, procedure, and operations. DOCX and PDF formats.',
     url: 'https://justlegalsolutions.org/downloads',
     type: 'website',
   },
@@ -113,11 +113,6 @@ const CLUSTERS: ResourceCluster[] = [
         title: 'Process Server Field Sheet',
         description: 'Case info, 5-row attempt log with GPS column, result-code reference.',
         internalHref: '/resources/process-server-field-sheet-template',
-      },
-      {
-        slug: 'JLS-Service-Attempt-Log-v1.0',
-        title: 'Service Attempt Log',
-        description: 'Multi-row attempt tracker with GPS coordinates and result codes.',
       },
       {
         slug: 'JLS-Client-Intake-Form-v1.0',
@@ -297,7 +292,7 @@ export default function DownloadsPage() {
     '@type': 'ItemList',
     name: 'Just Legal Solutions Free Oklahoma Process Serving Downloads',
     description:
-      '30 free downloadable Oklahoma process-serving resources in DOCX and PDF formats.',
+      '28 free downloadable Oklahoma process-serving resources in DOCX and PDF formats.',
     numberOfItems: TOTAL_ITEMS,
     itemListElement: CLUSTERS.flatMap((cluster) =>
       cluster.items.map((item, i) => ({
@@ -326,7 +321,7 @@ export default function DownloadsPage() {
             Oklahoma Process Serving Resources
           </h1>
           <p className="text-white/80 text-lg max-w-3xl mb-6">
-            {TOTAL_ITEMS} free guides, fillable forms, and reference documents covering Oklahoma
+            {TOTAL_ITEMS} free guides, printable forms, and reference documents covering Oklahoma
             service of process — every resource available as both <strong>PDF</strong> and{' '}
             <strong>DOCX</strong>.
           </p>

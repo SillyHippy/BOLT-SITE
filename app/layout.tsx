@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react';
 import dynamic from 'next/dynamic';
 import WebsiteSchema from '@/components/ui/website-schema';
+import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 
 // ⚡ Bolt Performance Optimization:
 // Dynamically import client-side components to reduce initial JavaScript bundle size.
@@ -143,6 +144,7 @@ export default function RootLayout({
           <StaticSiteOptimizer />
         </DeferredLoader>
         <WebsiteSchema />
+        <ServiceWorkerRegistration />
         {/* Simple Analytics noscript fallback */}
         <noscript>
           <Image
