@@ -6,11 +6,12 @@ export const ServiceWorkerRegistration = () => {
   useEffect(() => {
     // Register service worker for offline functionality and caching
     if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-      window.addEventListener('load', async () => {
+      const registerWorker = async () => {
         try {
           const registration = await navigator.serviceWorker.register('/sw.js?v=20261009-tools');
           
-          console.log('Service Worker registered successfully:', registration.scope);
+          // Registration can succeed before installation; the worker only controls
+          // pages once all precached URLs have loaded successfully.
 
           // Listen for updates
           registration.addEventListener('updatefound', () => {
@@ -37,7 +38,9 @@ export const ServiceWorkerRegistration = () => {
         } catch (error) {
           console.error('Service Worker registration failed:', error);
         }
-      });
+      };
+      if (document.readyState === 'complete') { void registerWorker(); }
+      else { window.addEventListener('load', registerWorker, { once: true }); }
 
       // Handle service worker controller change
       navigator.serviceWorker.addEventListener('controllerchange', () => {
