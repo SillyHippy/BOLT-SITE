@@ -166,7 +166,7 @@ export default function TulsaMobileNotaryPage() {
               <div className="bg-white shadow-xl rounded-2xl p-8 border border-slate-100">
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Oklahoma Notary Facts</h3>
                 <p className="text-slate-600 mb-4">
-                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 111 et seq.</strong> by the Secretary of State. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and <strong>HB 2265</strong> (updated identification standards).
+                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 111 et seq.</strong> by the Secretary of State. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and identity verification under <strong>49 O.S. § 113</strong>.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">

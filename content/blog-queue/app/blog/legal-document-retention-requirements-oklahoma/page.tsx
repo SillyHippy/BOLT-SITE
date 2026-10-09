@@ -63,7 +63,7 @@ const faqs: { question: string; answer: string }[] = [
     question:
       'How long does an Oklahoma notary have to keep records of notarial acts?',
     answer:
-      'For traditional in-person notarizations, Oklahoma does not currently mandate a specific journal retention period for all acts — though absentee ballot affidavits must be kept 2 years. For remote online notarizations (RON), 49 O.S. §206 requires the electronic journal and audio-visual recording be retained for at least 10 years from the date of the last notarial act recorded. Proposed HB 2265 (2025) may extend detailed journaling requirements to all notarial acts.',
+      'For traditional in-person notarizations, Oklahoma does not currently mandate a specific journal retention period for all acts — though absentee ballot affidavits must be kept 2 years. For remote online notarizations (RON), 49 O.S. §206 requires the electronic journal and audio-visual recording be retained for at least 10 years from the date of the last notarial act recorded. HB 2265 (2025), which would have extended detailed journaling requirements to all notarial acts, died in the Senate Judiciary Committee when the 2026 session adjourned.',
   },
   {
     question:
@@ -226,8 +226,8 @@ export default function BlogPost() {
             <strong>specialized retention schedules</strong> governs court
             records, notary journals, state agency documents, and specific
             industries. These rules changed as recently as 2024 with the passage
-            of HB 3643, and notary requirements continue evolving with proposed
-            HB 2265. If your retention policy has not been reviewed lately, it
+            of HB 3643. Notary requirements continue evolving, though the 2025 reform
+            bill HB 2265 died in committee in 2026. If your retention policy has not been reviewed lately, it
             may already be out of date.
           </p>
           <p>
@@ -576,10 +576,11 @@ export default function BlogPost() {
             journals and audio-visual recordings of each notarial act.
           </p>
           <p>
-            Proposed <strong>HB 2265 (2025)</strong> would significantly change
+            <strong>HB 2265 (2025)</strong> would have significantly changed
             this landscape by extending detailed journaling requirements to{' '}
-            <em>all</em> notarial acts, not just RON. If passed, Oklahoma
-            notaries would need to maintain comprehensive journals for every
+            <em>all</em> notarial acts, not just RON. It did not pass — the bill
+            died in the Senate Judiciary Committee in 2026. As the law stands,
+            Oklahoma notaries are not required to maintain comprehensive journals for every
             notarization they perform, with retention requirements potentially
             matching the 10-year RON standard. The best practice right now is to
             adopt 10-year journaling for all notarial acts regardless of the
@@ -811,8 +812,8 @@ export default function BlogPost() {
             </li>
             <li>
               <strong>Notaries:</strong> Adopt 10-year journaling for all acts,
-              not just RON. If HB 2265 passes, early adoption puts you ahead
-              of the compliance curve.
+              not just RON. Only RON is required today, but a consistent habit
+              puts you ahead of any future change and protects you now.
             </li>
             <li>
               <strong>Paralegals and legal assistants:</strong> Work product

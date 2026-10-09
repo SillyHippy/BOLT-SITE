@@ -10,7 +10,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
   description:
-    'Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
+    'Start an Oklahoma mobile notary in 2026: $10K bond, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
     description:
-      'Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
+      'Start an Oklahoma mobile notary in 2026: $10K bond, OSBI background check, then travel fees and RON for income beyond the $5 notary cap.',
     url: 'https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma',
   },
   other: {
-    'article:published_time': '2026-03-03',
-    'article:modified_time': '2026-03-03',
+    'article:published_time': '2026-10-01',
+    'article:modified_time': '2026-10-01',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary':
-      'Oklahoma mobile notaries in 2026 face SB 1028’s $10,000 bond, HB 2265’s mandatory exam for new applicants, OSBI fingerprint background checks, a $5 per-act fee cap with unregulated travel fees, and optional RON authorization for higher earnings statewide.',
+      'Oklahoma mobile notaries in 2026 face SB 1028’s $10,000 bond, OSBI fingerprint background checks, a $5 per-act fee cap with unregulated travel fees, and optional RON authorization for higher earnings statewide.',
     'ai-key-facts':
-      '49 O.S. § 2 requires $10,000 surety bond (raised 2026 under SB 1028); New applicants must pass HB 2265 exam and OSBI background check; Notarial fees capped at $5 per act and $25 for RON under §§ 5 and 209; Travel fees are unregulated and drive mobile income; Commission filing due within 60 days of issuance; Tamper-evident journal mandatory under HB 2265',
+      '49 O.S. § 2 requires $10,000 surety bond (raised 2026 under SB 1028); New applicants must pass an OSBI national criminal history check; Notarial fees capped at $5 per act and $25 for RON under §§ 5 and 209; Travel fees are unregulated and drive mobile income; Commission filing due within 60 days of issuance; A journal is recommended for traditional acts and mandatory for RON',
   },
 };
 
@@ -55,11 +55,11 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'What are the requirements to become a notary in Oklahoma in 2026?',
-    answer: 'Under 49 O.S. \u00a7 1, you must be at least 18 years old, a U.S. citizen, a legal Oklahoma resident (or employed in Oklahoma), able to read and write English, and have no felony convictions. As of 2026, new applicants must also pass a mandatory examination on Oklahoma notary law, procedures, and ethical responsibilities under HB 2265, and complete a national criminal history background check through OSBI under SB 1028. Existing notaries renewing their commissions are grandfathered and do not need to take the exam. The background check requires electronic fingerprinting and costs approximately $50-$60; any felony conviction will automatically disqualify you from receiving a commission.',
+    answer: 'Under 49 O.S. \u00a7 1, you must be at least 18 years old, a U.S. citizen, a legal Oklahoma resident (or employed in Oklahoma), able to read and write English, and have no felony convictions. As of 2026, new applicants must also complete a national criminal history background check through OSBI under SB 1028. There is no state examination requirement — a 2025 bill that would have added one (HB 2265) died in committee in 2026. The background check requires electronic fingerprinting and costs approximately $50-$60; any felony conviction will automatically disqualify you from receiving a commission.',
   },
   {
     question: 'How long does it take to become a commissioned notary in Oklahoma?',
-    answer: 'The timeline varies depending on how quickly you complete each step, but most applicants can expect the process to take 3 to 6 weeks from initial application to full commissioning. After submitting your $50 application to the Oklahoma Secretary of State, you will receive instructions to complete electronic fingerprinting for the national criminal background check. OSBI delivers results to the Secretary of State within 14 working days. Once your background check clears and you pass the mandatory examination under HB 2265, your commission is issued. You then have 60 days to file your $10,000 surety bond, official seal impression, oath of office, and loyalty oath with the Secretary of State. Acting quickly at each stage keeps your total timeline on the shorter end.',
+    answer: 'The timeline varies depending on how quickly you complete each step, but most applicants can expect the process to take 3 to 6 weeks from initial application to full commissioning. After submitting your $50 application to the Oklahoma Secretary of State, you will receive instructions to complete electronic fingerprinting for the national criminal background check. OSBI delivers results to the Secretary of State within 14 working days. Once your background check clears, your commission is issued. You then have 60 days to file your $10,000 surety bond, official seal impression, oath of office, and loyalty oath with the Secretary of State. Acting quickly at each stage keeps your total timeline on the shorter end.',
   },
   {
     question: 'How much can I charge as a mobile notary in Oklahoma?',
@@ -83,7 +83,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'What supplies do I need as a mobile notary in Oklahoma?',
-    answer: 'Your essential mobile notary supply kit should include: an official notary seal or stamp (self-inking stamps are most popular) that includes your name, "State of Oklahoma," "Notary Public," and your commission expiration date as required by 49 O.S. \u00a7 5; a tamper-evident notary journal, which is now mandatory under HB 2265 for recording all notarial acts and must be retained for 10 years; blue and black pens (always carry extras, as clients never seem to have one); legal-size paper and envelopes; a portable hard writing surface; your commission certificate and bond documentation; professional business cards; and a professional carrying case or messenger bag to keep everything organized. If you plan to perform loan signings, you will also want a portable printer and multi-page scanner. Optional but recommended items include a laptop or tablet, a portable phone charger, and a mileage tracking app for tax purposes.',
+    answer: 'Your essential mobile notary supply kit should include: an official notary seal or stamp (self-inking stamps are most popular) that includes your name, "State of Oklahoma," "Notary Public," and your commission expiration date as required by 49 O.S. \u00a7 5; a notary journal, which the Secretary of State recommends for traditional acts and requires for remote online notarizations; blue and black pens (always carry extras, as clients never seem to have one); legal-size paper and envelopes; a portable hard writing surface; your commission certificate and bond documentation; professional business cards; and a professional carrying case or messenger bag to keep everything organized. If you plan to perform loan signings, you will also want a portable printer and multi-page scanner. Optional but recommended items include a laptop or tablet, a portable phone charger, and a mileage tracking app for tax purposes.',
   },
   {
     question: 'How do I find clients as a new mobile notary in Oklahoma?',
@@ -97,7 +97,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Start a Mobile Notary Business in Oklahoma (2026)"
-        pageDescription="Start an Oklahoma mobile notary in 2026: $10K bond, mandatory exam, OSBI background check, then travel fees and RON for income beyond the $5 notary cap."
+        pageDescription="Start an Oklahoma mobile notary in 2026: $10K bond, OSBI background check, then travel fees and RON for income beyond the $5 notary cap."
         pageUrl="https://justlegalsolutions.org/blog/start-mobile-notary-business-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -109,8 +109,8 @@ export default function BlogPost() {
         ]}
         articleDetails={{
           headline: 'How to Start a Mobile Notary Business in Oklahoma (2026)',
-          datePublished: '2026-03-03',
-          dateModified: '2026-03-03',
+          datePublished: '2026-10-01',
+          dateModified: '2026-10-01',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -145,8 +145,8 @@ export default function BlogPost() {
           <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6 max-w-3xl mx-auto text-left">
             <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
             <p className="text-gray-800">
-              Apply through the <strong>Oklahoma Secretary of State</strong>, pass the <strong>2026 mandatory exam</strong>,
-              clear an <strong>OSBI</strong> background check, post the <strong>$10,000 bond</strong>, then build income with
+              Apply through the <strong>Oklahoma Secretary of State</strong>, clear the <strong>OSBI background check</strong>,
+              post the <strong>$10,000 bond</strong>, then build income with
               unregulated <strong>travel fees</strong>, loan signings, and optional <strong>RON</strong> beyond the{' '}
               <strong>$5</strong> notary fee cap.
             </p>
@@ -166,7 +166,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            If you have been thinking about how to start a mobile notary business in Oklahoma, there has never been a better time to get started. The 2026 law changes under Senate Bill 1028 and House Bill 2265 have raised the professional bar for notaries across the state, which means well-prepared new entrants have a real competitive advantage. Whether you want a flexible side hustle or a full-time career, this step-by-step guide covers everything you need to know, from getting commissioned under the new rules to pricing your services and finding your first clients across all 77 Oklahoma counties.
+            If you have been thinking about how to start a mobile notary business in Oklahoma, there has never been a better time to get started. The 2026 law changes under Senate Bill 1028 have raised the professional bar for notaries across the state, which means well-prepared new entrants have a real competitive advantage. Whether you want a flexible side hustle or a full-time career, this step-by-step guide covers everything you need to know, from getting commissioned under the new rules to pricing your services and finding your first clients across all 77 Oklahoma counties.
           </p>
 
           <h2>Why Start a Mobile Notary Business in Oklahoma?</h2>
@@ -181,7 +181,7 @@ export default function BlogPost() {
             One of the biggest draws of the mobile notary business is the flexibility. You can work part-time around another job, or build a full-time practice on your own terms. There are no set hours, no boss, and no ceiling on what you can earn. Startup costs are refreshingly low, typically between $250 and $600 to get fully operational. Part-time mobile notaries in Oklahoma generally earn $3,000 to $15,000 per year, while full-time operators report $30,000 to $60,000 annually. If you pursue the Notary Signing Agent path handling mortgage documents, earnings jump to $50,000 to $95,000 per year with individual loan signings paying $75 to $200 each.
           </p>
           <p>
-            The 2026 law changes create an additional opportunity. SB 1028 and HB 2265 have introduced stricter requirements, including a mandatory examination and a significantly higher surety bond. While this may discourage some would-be notaries, it also reduces competition from unqualified operators and positions properly credentialed notaries as true professionals. If you are also interested in process serving as a complementary service, check out our guide on <Link href="/blog/special-process-server-appointment-authority-oklahoma">Oklahoma process server licensing requirements</Link>.
+            The 2026 law changes create an additional opportunity. SB 1028 introduced stricter requirements, including a national criminal history check and a significantly higher surety bond. While this may discourage some would-be notaries, it also reduces competition from unqualified operators and positions properly credentialed notaries as true professionals. If you are also interested in process serving as a complementary service, check out our guide on <Link href="/blog/special-process-server-appointment-authority-oklahoma">Oklahoma process server licensing requirements</Link>.
           </p>
 
           <h2>Oklahoma Notary Requirements in 2026: What Is New</h2>
@@ -196,9 +196,9 @@ export default function BlogPost() {
             Senate Bill 1028 took effect on January 1, 2026, and it fundamentally changed the financial and procedural landscape for Oklahoma notaries. Here is what changed. The new commission application fee doubled from $25 to $50. The renewal fee increased from $20 to $45. The surety bond requirement jumped from $1,000 to $10,000 under 49 O.S. &sect; 2, one of the most significant changes in the bill. The bond filing fee rose from $10 to $25. Most importantly, SB 1028 now requires all applicants to undergo a national criminal history background check through electronic fingerprinting with the Oklahoma State Bureau of Investigation (OSBI). This background check carries a fee of up to $50, and OSBI delivers results to the Secretary of State within 14 working days. Any felony conviction discovered during this check will automatically disqualify you from receiving a commission.
           </p>
 
-          <h3>House Bill 2265: The New Mandatory Examination</h3>
+          <h3>What Did Not Change: The 2025 Reform Bill</h3>
           <p>
-            House Bill 2265 adds another major layer of professional standards for new Oklahoma notaries. Under this legislation, all first-time applicants must now pass a mandatory examination covering Oklahoma notary law, procedures, and ethical responsibilities. Existing notaries who are renewing their commissions are grandfathered in and do not need to take the exam. HB 2265 also introduces enhanced journal requirements. All notarial acts must now be recorded in a tamper-evident journal format, and those journals must be retained for at least 10 years. For more details on your journal obligations, read our guide on <Link href="/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma">Oklahoma notary journal requirements</Link>.
+            House Bill 2265, the Notaries Public Reform Act of 2025, would have added a mandatory examination for first-time applicants and required a tamper-evident journal for every notarial act with 10-year retention. It passed the Oklahoma House 90-3 on March 26, 2025, but was never heard in the Senate Judiciary Committee and died when the 2026 session adjourned on May 14, 2026. It is not law, and no examination is required. For what currently applies to journaling, read our guide on <Link href="/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma">Oklahoma notary journal requirements</Link>.
           </p>
           <p>
             It is natural to look at these changes and feel a little overwhelmed. But here is the reframe: these requirements professionalize the industry. They weed out people who are not serious, and they signal to clients, title companies, and attorneys that Oklahoma notaries who meet the 2026 standards are credentialed professionals worth paying premium rates for. That is a competitive advantage for you.
@@ -218,12 +218,12 @@ export default function BlogPost() {
 
           <h3>Step 3: Pass the Mandatory Notary Examination</h3>
           <p>
-            Under HB 2265, all new applicants must pass a mandatory examination. The exam covers Oklahoma notary law, notarial procedures, and ethical responsibilities. Study resources are available through the National Notary Association and the Oklahoma Secretary of State&apos;s office. Take this exam seriously. It is your opportunity to demonstrate that you understand the laws you will be operating under, and passing it gives you confidence and credibility from day one.
+            There is no state examination requirement in Oklahoma. HB 2265 would have created one, but the bill died in committee when the 2026 session adjourned. You are still responsible for knowing the laws you operate under, and the National Notary Association and the Oklahoma Secretary of State&apos;s office both publish study material worth reading before your first signing.
           </p>
 
           <h3>Step 4: Purchase Your $10,000 Surety Bond and Supplies</h3>
           <p>
-            Once your application, background check, and examination are approved, the Secretary of State will issue your notary commission certificate. Before you can begin performing notarial acts, you need three things: a $10,000 surety bond, an official notary seal or stamp, and a tamper-evident notary journal. The surety bond typically costs $50 to $100 for the four-year commission term and can be purchased from licensed bonding companies or insurance providers. Your official seal or stamp costs $25 to $50 and must include your name, &quot;State of Oklahoma,&quot; &quot;Notary Public,&quot; and your commission expiration date as specified in 49 O.S. &sect; 5. Your notary journal, which is now required under HB 2265 for all acts, costs $15 to $40 and must be tamper-evident.
+            Once your application and background check are approved, the Secretary of State will issue your notary commission certificate. Before you can begin performing notarial acts, you need three things: a $10,000 surety bond, an official notary seal or stamp, and a tamper-evident notary journal. The surety bond typically costs $50 to $100 for the four-year commission term and can be purchased from licensed bonding companies or insurance providers. Your official seal or stamp costs $25 to $50 and must include your name, &quot;State of Oklahoma,&quot; &quot;Notary Public,&quot; and your commission expiration date as specified in 49 O.S. &sect; 5. A notary journal is recommended for traditional acts and required for RON; one costs $15 to $40, and a tamper-evident format is mandatory if you perform remote online notarizations.
           </p>
 
           <h3>Step 5: File Your Bond, Seal, and Oath Within 60 Days</h3>
@@ -283,7 +283,7 @@ export default function BlogPost() {
 
           <h3>Build Your Mobile Notary Supply Kit</h3>
           <p>
-            Your mobile notary kit is your office on wheels. Here is what belongs in it: a self-inking notary seal or stamp (your most-used tool), a tamper-evident notary journal (mandatory under HB 2265), blue and black pens (always carry extras), legal-size paper and envelopes, a portable hard writing surface, a professional carrying case or messenger bag, business cards, and copies of your commission certificate and bond documentation. For loan signings, add a portable printer and multi-page scanner. Optional but recommended items include a laptop or tablet, a portable phone charger, and a mileage tracking app to simplify your tax deductions. Being prepared means you never have to turn down a job because you lack the right equipment.
+            Your mobile notary kit is your office on wheels. Here is what belongs in it: a self-inking notary seal or stamp (your most-used tool), a notary journal (recommended for traditional acts, mandatory for RON), blue and black pens (always carry extras), legal-size paper and envelopes, a portable hard writing surface, a professional carrying case or messenger bag, business cards, and copies of your commission certificate and bond documentation. For loan signings, add a portable printer and multi-page scanner. Optional but recommended items include a laptop or tablet, a portable phone charger, and a mileage tracking app to simplify your tax deductions. Being prepared means you never have to turn down a job because you lack the right equipment.
           </p>
           <p>
             If you plan to offer apostille services as an add-on revenue stream, see our guide on <Link href="/blog/apostille-document-authentication-services-oklahoma">apostille and document authentication services</Link>. For reference on how established services price mobile notary work, see our <Link href="/pricing">pricing page</Link>.
@@ -450,7 +450,7 @@ export default function BlogPost() {
           <article className="prose prose-lg prose-blue max-w-none mt-12 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-100">
             <h2>Conclusion</h2>
             <p>
-            Starting a mobile notary business in Oklahoma in 2026 is one of the most accessible and rewarding entrepreneurial paths available. The startup costs are low, the demand is real, and the new requirements under SB 1028 and HB 2265 create a professional landscape where well-prepared notaries can truly stand out. From getting commissioned under the updated rules to setting up your business structure, pricing your services strategically, and building a client base across all 77 Oklahoma counties, this guide has given you the roadmap. Now it is time to take the first step. Submit that application, study for the exam, and start building the flexible, profitable notary business you have been thinking about.
+            Starting a mobile notary business in Oklahoma in 2026 is one of the most accessible and rewarding entrepreneurial paths available. The startup costs are low, the demand is real, and the new requirements under SB 1028 create a professional landscape where well-prepared notaries can truly stand out. From getting commissioned under the updated rules to setting up your business structure, pricing your services strategically, and building a client base across all 77 Oklahoma counties, this guide has given you the roadmap. Now it is time to take the first step. Submit that application, complete your background check, and start building the flexible, profitable notary business you have been thinking about.
           </p>
           <p>
             Bookmark this guide and refer back to it as you work through each step. The mobile notary profession rewards preparation, professionalism, and persistence. With the 2026 law changes raising the bar for everyone, the notaries who invest in doing things right from the start will be the ones thriving for years to come.

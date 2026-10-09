@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/blog/notary-healthcare-directives-medical-documents-oklahoma',
   },
   other: {
-    'article:published_time': '2026-02-03',
-    'article:modified_time': '2026-02-03',
+    'article:published_time': '2026-09-10',
+    'article:modified_time': '2026-09-10',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Oklahoma advance directives under 63 O.S. § 3101.4 and DNR forms under 63 O.S. § 3131.5 require two qualified witnesses only; medical POAs under 63 O.S. § 3111.3 require either notarization or two witnesses; notarization adds authentication but is not always mandatory.',
@@ -105,8 +105,8 @@ export default function BlogPost() {
         ]}
         articleDetails={{
           headline: 'Notary for Healthcare Directives & Medical Docs in Oklahoma',
-          datePublished: '2026-02-03',
-          dateModified: '2026-02-03',
+          datePublished: '2026-09-10',
+          dateModified: '2026-09-10',
           author: 'Just Legal Solutions Team',
           
           image: 'https://justlegalsolutions.org/images/jls-logo.webp'
@@ -293,7 +293,7 @@ export default function BlogPost() {
 
           <h3>Oklahoma&apos;s RON Legal Framework and Requirements</h3>
 
-          <p>Oklahoma notaries who perform RON must register separately with the Secretary of State, use approved RON technology platforms, and maintain electronic journals in a permanent, tamper-evident format. The fee for a remote online notarial act is capped at $25 under <strong>49 O.S. § 209</strong>. Looking ahead, HB 2265 (2025) — which passed the Oklahoma House 90-3 — would require new notary applicants to pass an examination covering laws, procedures, and ethical responsibilities. This signals a clear trend toward increasing professionalism and consumer protection in Oklahoma&apos;s notary industry. At Just Legal Solutions, we welcome these higher standards. We are committed to providing <Link href="/services/notary" className="text-blue-600 hover:underline">both mobile in-person and remote online notarization</Link> for healthcare documents across all 77 Oklahoma counties. <Link href="/contact" className="text-blue-600 hover:underline">Schedule a RON appointment</Link> for your healthcare documents from the comfort and safety of your own home.</p>
+          <p>Oklahoma notaries who perform RON must register separately with the Secretary of State, use approved RON technology platforms, and maintain electronic journals in a permanent, tamper-evident format. The fee for a remote online notarial act is capped at $25 under <strong>49 O.S. § 209</strong>. A 2025 reform bill, HB 2265, would have required new notary applicants to pass an examination covering laws, procedures, and ethical responsibilities, but it died in the Senate Judiciary Committee when the 2026 session adjourned. Oklahoma&apos;s notary standards still rose in 2026 through other means, including national criminal history checks under SB 1028. At Just Legal Solutions, we welcome these higher standards. We are committed to providing <Link href="/services/notary" className="text-blue-600 hover:underline">both mobile in-person and remote online notarization</Link> for healthcare documents across all 77 Oklahoma counties. <Link href="/contact" className="text-blue-600 hover:underline">Schedule a RON appointment</Link> for your healthcare documents from the comfort and safety of your own home.</p>
           </article>
           
           <div className="mt-12">

@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     question: 'What does a notary record about me in their journal?',
-    answer: 'Under 49 O.S. § 119, Oklahoma notaries must keep a journal of all notarial acts. The journal entry includes: the date and time of the notarization, the type of notarial act (acknowledgment, jurat, etc.), a description of the document, the name and address of the signer, the type of identification presented, the signature of the signer, and the notary fee charged. The journal is a permanent record that may be used as evidence if the notarization is ever questioned or challenged in court. Your signature in the journal confirms that you appeared before the notary and satisfied all requirements.',
+    answer: 'Oklahoma does not require a notary to keep a journal for traditional in-person notarizations — the Secretary of State recommends one, and it is required for Remote Online Notarization. When a journal is kept, the recommended entry includes: the date and time of the notarization, the type of notarial act (acknowledgment, jurat, etc.), a description of the document, the name and address of the signer, the type of identification presented, the signature of the signer, and the notary fee charged. The journal is a record that may be used as evidence if the notarization is ever questioned or challenged in court. Your signature in the journal confirms that you appeared before the notary and satisfied all requirements.',
   },
 ];
 
@@ -201,7 +201,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Journal Entry and Signature</h2>
           <p className="mb-4">
-            After all questions have been satisfactorily answered, the notary will ask you to sign their official journal. Under <strong>49 O.S. § 119</strong>, Oklahoma notaries are required to maintain a journal of every notarial act. The journal entry includes the date and time, the type of notarial act, a description of the document, your name and address, the type of ID you presented, the fee charged, and your signature.
+            After all questions have been satisfactorily answered, the notary will ask you to sign their journal. Oklahoma does not require a journal for traditional in-person notarizations — the Secretary of State recommends one, and it is mandatory for Remote Online Notarization. When a journal is used, the entry includes the date and time, the type of notarial act, a description of the document, your name and address, the type of ID you presented, the fee charged, and your signature.
           </p>
           <p className="mb-4">
             Your signature in the journal serves as a contemporaneous record that you appeared before the notary, provided satisfactory identification, and voluntarily participated in the notarization. If the notarization is ever questioned — for example, if someone claims you never signed the document — the journal entry provides critical evidence of what occurred.
