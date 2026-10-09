@@ -21,6 +21,9 @@
 /badges/*
   Cache-Control: public, max-age=31536000, immutable
 
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
 /*.css
   Cache-Control: public, max-age=31536000, immutable
 
@@ -49,6 +52,3 @@
 /llms-full.txt
   Cache-Control: public, max-age=3600
   Content-Type: text/plain; charset=utf-8
-
-/sw.js
-  Cache-Control: no-cache, no-store, must-revalidate

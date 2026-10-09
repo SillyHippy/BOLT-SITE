@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { formDownloadHref } from '@/lib/form-downloads';
 import { 
   FileText, 
   Download, 
@@ -20,8 +21,8 @@ import {
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Forms & Templates | Free Downloads',
-  description: 'Download blank and fillable Oklahoma process server affidavits, declarations, field sheets, attempt logs, and client intake forms. No signup required.',
-  keywords: 'affidavit of service template oklahoma, process server forms oklahoma, declaration of service template, fillable affidavit PDF, client intake forms, field sheet template',
+  description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, invoice templates, client intake forms, and field sheets. Professional forms by Joseph Iannazzi, CLEET Licensed Professional.',
+  keywords: 'affidavit of service template oklahoma, process server forms oklahoma, proof of service template, diligent search affidavit oklahoma, process server invoice template, client intake forms, field sheet template',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
     url: 'https://justlegalsolutions.org/oklahoma-process-server-forms-templates',
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Forms & Templates | Free Downloads',
-    description: 'Download blank and fillable Oklahoma process server affidavits, declarations, field sheets, attempt logs, and client intake forms. No signup required.',
+    description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, invoice templates, client intake forms, and field sheets. Professional forms by Joseph Iannazzi, CLEET Licensed Professional.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
@@ -56,7 +57,7 @@ const schemaData = {
       '@id': 'https://justlegalsolutions.org/oklahoma-process-server-forms-templates/#webpage',
       url: 'https://justlegalsolutions.org/oklahoma-process-server-forms-templates/',
       name: 'Oklahoma Process Server Forms & Templates | Free Downloads',
-      description: 'Download blank affidavits and declarations, fillable PDFs, field sheets and attempt logs.',
+      description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, and more.',
       isPartOf: {
         '@id': 'https://justlegalsolutions.org/#website',
       },
@@ -78,7 +79,7 @@ const schemaData = {
           name: 'What forms do Oklahoma process servers need?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Process servers can use a field sheet and attempt log during field work, then prepare a return of service as the filing court requires. Counsel handles the showing for alternative service.',
+            text: 'Oklahoma process servers need several essential forms including: Affidavit of Service (Return of Service), Proof of Service forms, Diligent Search Affidavit for substitute service, client intake forms, invoice templates, field sheets for documentation, and record-keeping forms for CLEET compliance.',
           },
         },
         {
@@ -110,7 +111,7 @@ const schemaData = {
           name: 'How long must Oklahoma process servers keep records?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Retain accurate records of service attempts, documents, and outcomes; follow the requirements applicable to your license and court.',
+            text: 'Oklahoma process servers must maintain service records for a minimum of three years according to CLEET requirements. This includes affidavits of service, field notes, photographs, GPS data, and all documentation related to service attempts.',
           },
         },
         {
@@ -118,7 +119,7 @@ const schemaData = {
           name: 'Can I use digital forms and electronic signatures in Oklahoma?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes, Oklahoma accepts electronic signatures on affidavits of service under the Oklahoma Electronic Transactions Act. A sworn affidavit requires notarization; an unsworn declaration requires the appropriate penalty-of-perjury statement. Some courts have specific electronic submission requirements.',
+            text: 'Yes, Oklahoma accepts electronic signatures on affidavits of service under the Oklahoma Electronic Transactions Act. However, the affidavit must still be properly notarized, and some courts may have specific requirements for electronic submissions.',
           },
         },
         {
@@ -126,7 +127,7 @@ const schemaData = {
           name: 'Where can I download free Oklahoma process server forms?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Download blank and fillable affidavits, attempt logs, client intake forms, and field sheets from Just Legal Solutions at /downloads.',
+            text: 'Free Oklahoma process server forms are available for download from Just Legal Solutions at /resources/. Forms include affidavit of service templates, proof of service forms, diligent search affidavits, invoice templates, client intake forms, and field sheets.',
           },
         },
         {
@@ -134,7 +135,7 @@ const schemaData = {
           name: 'Do Oklahoma process server forms need to be notarized?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A sworn affidavit requires a notary. An unsworn declaration uses a penalty-of-perjury closing and may have different acceptance rules. Some courts have additional requirements.',
+            text: 'Yes, affidavits of service in Oklahoma must be notarized. The process server must sign the affidavit in the presence of a notary public who will administer the oath and affix their seal. Some counties may have additional requirements.',
           },
         },
       ],
@@ -152,34 +153,196 @@ const schemaData = {
   ],
 };
 
-// Honest form library: every card opens its own document or the matching generator.
+// Form categories data
 const formCategories = [
-  { id: 'affidavit-service', title: 'Affidavits & Declarations', icon: <FileText className="w-8 h-8 text-blue-600" />, description: 'Blank court-return templates. Verify the filing court accepts your selected form.', forms: [
-    { name: 'Affidavit of Service', description: 'Sworn return with notary block', filename: 'JLS-Blank-Affidavit-of-Service-v1.0.pdf' },
-    { name: 'Declaration of Service', description: 'Unsworn return; verify acceptance with the filing court', filename: 'JLS-Blank-Declaration-of-Service-v1.0.pdf' },
-    { name: 'Affidavit of Non-Service', description: 'Sworn return of unsuccessful service attempts', filename: 'JLS-Blank-Affidavit-of-Non-Service-v1.0.pdf' },
-    { name: 'Declaration of Non-Service', description: 'Unsworn non-service return; verify acceptance', filename: 'JLS-Blank-Declaration-of-Non-Service-v1.0.pdf' },
-    { name: 'Fillable Affidavit of Service', description: 'Type directly into this PDF using a compatible viewer', filename: 'JLS-Fillable-Affidavit-of-Service-v1.0.pdf' },
-  ] },
-  { id: 'field-sheets', title: 'Field & Attempt Forms', icon: <MapPin className="w-8 h-8 text-red-600" />, description: 'Prepare before dispatch and document actual field work.', forms: [
-    { name: 'Blank Field Sheet', description: 'Print-ready street sheet', filename: 'JLS-Blank-Field-Sheet-v1.0.pdf' },
-    { name: 'Fillable Field Sheet', description: 'Type directly into this PDF', filename: 'JLS-Fillable-Field-Sheet-v1.0.pdf' },
-    { name: 'Service Attempt Log', description: 'Record each date, time, and outcome', filename: 'JLS-Service-Attempt-Log-v1.0.pdf' },
-    { name: 'GPS Service Log', description: 'Document location and timestamp for service attempts', filename: 'JLS-GPS-Service-Log-v1.0.pdf' },
-  ] },
-  { id: 'client-intake', title: 'Intake & Other Records', icon: <Users className="w-8 h-8 text-teal-600" />, description: 'Only documents actually available in the download library.', forms: [
-    { name: 'Client Intake Form', description: 'Case and client information', filename: 'JLS-Client-Intake-Form-v1.0.pdf' },
-    { name: 'Skip Trace Checklist', description: 'A checklist, not an attorney\'s diligent-search affidavit', filename: 'JLS-Skip-Trace-Checklist-v1.0.pdf' },
-    { name: 'Process Server Safety Checklist', description: 'Field safety reference', filename: 'JLS-Server-Safety-Checklist-v1.0.pdf' },
-    { name: 'Chain of Custody Form', description: 'Document pickup and handoff', filename: 'JLS-Chain-Of-Custody-Form-v1.0.pdf' },
-  ] },
+  {
+    id: 'affidavit-service',
+    title: 'Affidavit of Service Templates',
+    icon: <FileText className="w-8 h-8 text-blue-600" />,
+    description: 'The cornerstone document for every service. Our affidavit of service templates comply with Oklahoma court requirements and include all mandatory fields.',
+    forms: [
+      {
+        name: 'Standard Affidavit of Service',
+        description: 'General-purpose affidavit for personal service of legal documents',
+        filename: 'oklahoma-affidavit-of-service.pdf',
+      },
+      {
+        name: 'Substitute Service Affidavit',
+        description: 'For service on a family member or resident of suitable age',
+        filename: 'oklahoma-substitute-service-affidavit.pdf',
+      },
+      {
+        name: 'Service by Publication Affidavit',
+        description: 'Required when serving via newspaper publication',
+        filename: 'oklahoma-publication-service-affidavit.pdf',
+      },
+      {
+        name: 'Corporate Service Affidavit',
+        description: 'For service on registered agents or corporate officers',
+        filename: 'oklahoma-corporate-service-affidavit.pdf',
+      },
+    ],
+  },
+  {
+    id: 'proof-service',
+    title: 'Proof of Service Forms',
+    icon: <ClipboardCheck className="w-8 h-8 text-green-600" />,
+    description: 'Documentation forms that provide evidence of successful service attempts and completions. Essential for court records and client reporting.',
+    forms: [
+      {
+        name: 'Proof of Personal Service',
+        description: 'Documents direct service on the named defendant',
+        filename: 'oklahoma-proof-personal-service.pdf',
+      },
+      {
+        name: 'Proof of Certified Mail Service',
+        description: 'For service completed via certified mail with return receipt',
+        filename: 'oklahoma-proof-certified-mail.pdf',
+      },
+      {
+        name: 'Proof of Service by Posting',
+        description: 'Documents service by posting at the last known address',
+        filename: 'oklahoma-proof-posting-service.pdf',
+      },
+    ],
+  },
+  {
+    id: 'diligent-search',
+    title: 'Diligent Search Affidavits',
+    icon: <Search className="w-8 h-8 text-purple-600" />,
+    description: 'Required when standard service methods fail. These affidavits document your exhaustive efforts to locate defendants before requesting alternative service methods.',
+    forms: [
+      {
+        name: 'Diligent Search Checklist',
+        description: 'Comprehensive checklist of search efforts required by Oklahoma courts',
+        filename: 'oklahoma-diligent-search-checklist.pdf',
+      },
+      {
+        name: 'Diligent Search Affidavit',
+        description: 'Sworn statement documenting all search attempts',
+        filename: 'oklahoma-diligent-search-affidavit.pdf',
+      },
+      {
+        name: 'Skip Trace Documentation Form',
+        description: 'Record database searches and investigative efforts',
+        filename: 'oklahoma-skip-trace-form.pdf',
+      },
+    ],
+  },
+  {
+    id: 'invoice-templates',
+    title: 'Invoice & Billing Templates',
+    icon: <Receipt className="w-8 h-8 text-orange-600" />,
+    description: 'Professional invoice templates designed specifically for process serving businesses. Include all necessary details for client billing and accounting.',
+    forms: [
+      {
+        name: 'Service Invoice Template',
+        description: 'Standard invoice for completed service of process',
+        filename: 'oklahoma-service-invoice.pdf',
+      },
+      {
+        name: 'Rush Service Invoice',
+        description: 'Invoice template for expedited or same-day service',
+        filename: 'oklahoma-rush-service-invoice.pdf',
+      },
+      {
+        name: 'Attempt Invoice Template',
+        description: 'For billing unsuccessful service attempts',
+        filename: 'oklahoma-attempt-invoice.pdf',
+      },
+      {
+        name: 'Monthly Statement Template',
+        description: 'Consolidated billing for regular clients',
+        filename: 'oklahoma-monthly-statement.pdf',
+      },
+    ],
+  },
+  {
+    id: 'client-intake',
+    title: 'Client Intake Forms',
+    icon: <Users className="w-8 h-8 text-teal-600" />,
+    description: 'Streamline your client onboarding with professional intake forms that capture all necessary information for efficient service.',
+    forms: [
+      {
+        name: 'New Client Intake Form',
+        description: 'Comprehensive form for first-time clients',
+        filename: 'oklahoma-client-intake-form.pdf',
+      },
+      {
+        name: 'Service Request Form',
+        description: 'Quick form for repeat client service requests',
+        filename: 'oklahoma-service-request-form.pdf',
+      },
+      {
+        name: 'Subject Information Sheet',
+        description: 'Detailed information about the person to be served',
+        filename: 'oklahoma-subject-info-sheet.pdf',
+      },
+    ],
+  },
+  {
+    id: 'field-sheets',
+    title: 'Field Sheet Templates',
+    icon: <MapPin className="w-8 h-8 text-red-600" />,
+    description: 'Mobile-friendly forms for documenting service attempts in the field. Essential for maintaining accurate records and supporting affidavits.',
+    forms: [
+      {
+        name: 'Service Attempt Log',
+        description: 'Record each attempt with date, time, and outcome',
+        filename: 'oklahoma-attempt-log.pdf',
+      },
+      {
+        name: 'Field Notes Template',
+        description: 'Detailed narrative documentation of service attempts',
+        filename: 'oklahoma-field-notes.pdf',
+      },
+      {
+        name: 'Vehicle Description Form',
+        description: 'Document vehicles at service location',
+        filename: 'oklahoma-vehicle-description.pdf',
+      },
+      {
+        name: 'Witness Information Form',
+        description: 'Record witness details when present during service',
+        filename: 'oklahoma-witness-form.pdf',
+      },
+    ],
+  },
+  {
+    id: 'record-keeping',
+    title: 'Record-Keeping Forms',
+    icon: <Database className="w-8 h-8 text-indigo-600" />,
+    description: 'Forms to help maintain organized records that meet CLEET requirements and support your business operations.',
+    forms: [
+      {
+        name: 'Service Log Spreadsheet',
+        description: 'Excel template for tracking all services',
+        filename: 'oklahoma-service-log.xlsx',
+      },
+      {
+        name: 'Mileage Log Template',
+        description: 'Track business mileage for tax purposes',
+        filename: 'oklahoma-mileage-log.pdf',
+      },
+      {
+        name: 'Expense Report Form',
+        description: 'Document business expenses for reimbursement',
+        filename: 'oklahoma-expense-report.pdf',
+      },
+      {
+        name: 'CLEET Compliance Checklist',
+        description: 'Ensure your records meet licensing requirements',
+        filename: 'oklahoma-cleet-compliance-checklist.pdf',
+      },
+    ],
+  },
 ];
 
 // FAQ data
 const faqs = [
   {
     question: 'What forms do Oklahoma process servers need?',
-    answer: 'Process servers can use a field sheet and attempt log during field work, and prepare an affidavit or declaration afterward as the court requires. The hiring attorney handles motions for alternative service and the diligence showing.',
+    answer: 'Oklahoma process servers need several essential forms including: Affidavit of Service (Return of Service), Proof of Service forms, Diligent Search Affidavit for substitute service, client intake forms, invoice templates, field sheets for documentation, and record-keeping forms for CLEET compliance. Each form serves a specific purpose in the service of process workflow and helps ensure legal compliance.',
   },
   {
     question: 'Is an affidavit of service required in Oklahoma?',
@@ -191,23 +354,23 @@ const faqs = [
   },
   {
     question: 'What is a diligent search affidavit in Oklahoma?',
-    answer: 'A diligent-search affidavit is part of the attorney’s court filing when requesting certain alternative methods. Servers should provide factual attempt notes and investigation results to counsel. The linked skip trace file is only a checklist, not a sworn affidavit.',
+    answer: 'A diligent search affidavit documents the efforts made to locate a defendant when personal service cannot be accomplished. In Oklahoma, this affidavit is required when seeking court approval for service by publication under § 2004(C)(3). Residential substituted service under § 2004(C)(1) at a dwelling with a resident 15+ does not require a fixed number of prior attempts, though documentation supports any challenged service. The affidavit must detail all reasonable efforts made to locate the defendant, including database searches, address verification, contact with neighbors, workplace visits, and other investigative steps.',
   },
   {
     question: 'How long must Oklahoma process servers keep records?',
-    answer: 'Keep complete, accurate service and attempt records. Check the rules that apply to your license, case, and court before choosing a retention period; this template library does not prescribe one.',
+    answer: 'Oklahoma process servers must maintain service records for a minimum of three years according to CLEET (Council on Law Enforcement Education and Training) requirements. This includes affidavits of service, field notes, photographs, GPS data, client communications, and all documentation related to service attempts. Proper record retention protects both the process server and ensures compliance with professional standards.',
   },
   {
     question: 'Can I use digital forms and electronic signatures in Oklahoma?',
-    answer: 'Yes, Oklahoma accepts electronic signatures on affidavits of service under the Oklahoma Electronic Transactions Act. A sworn affidavit requires notarization; an unsworn declaration requires the appropriate penalty-of-perjury statement. Some courts have specific electronic submission requirements. Always verify with the specific court where the case is filed, as acceptance of electronic documents can vary by jurisdiction within Oklahoma.',
+    answer: 'Yes, Oklahoma accepts electronic signatures on affidavits of service under the Oklahoma Electronic Transactions Act. However, the affidavit must still be properly notarized, and some courts may have specific requirements for electronic submissions. Always verify with the specific court where the case is filed, as acceptance of electronic documents can vary by jurisdiction within Oklahoma.',
   },
   {
     question: 'Where can I download free Oklahoma process server forms?',
-    answer: 'Free Oklahoma process server forms are available for download from Just Legal Solutions. Our library includes blank and fillable affidavits, attempt logs, client intake forms, and field sheets. All forms are designed to meet Oklahoma legal requirements and are regularly updated to reflect current standards.',
+    answer: 'Free Oklahoma process server forms are available for download from Just Legal Solutions. Our comprehensive library includes affidavit of service templates, proof of service forms, diligent search affidavits, invoice templates, client intake forms, and field sheets. All forms are designed to meet Oklahoma legal requirements and are regularly updated to reflect current standards.',
   },
   {
     question: 'Do Oklahoma process server forms need to be notarized?',
-    answer: 'A sworn affidavit requires notarization. A declaration uses an unsworn penalty-of-perjury closing. Confirm which document type the filing court accepts in your case.',
+    answer: 'Yes, affidavits of service in Oklahoma must be notarized. The process server must sign the affidavit in the presence of a notary public who will administer the oath and affix their seal. Some counties may have additional requirements, such as specific notary wording or formatting. Always check local court rules to ensure compliance with all notarization requirements.',
   },
   {
     question: 'What is the difference between an affidavit of service and proof of service?',
@@ -215,7 +378,7 @@ const faqs = [
   },
   {
     question: 'Are these forms acceptable in all Oklahoma counties?',
-    answer: 'These are general-purpose blank templates, not an assurance that a particular filing court will accept them. However, some counties may have specific local rules or formatting preferences. We recommend verifying with the court clerk in the county where service will be filed if you have any concerns about form acceptance. Tulsa County, Oklahoma County, and Cleveland County may have specific requirements.',
+    answer: 'Our forms are designed to meet statewide Oklahoma requirements and are generally accepted in all counties. However, some counties may have specific local rules or formatting preferences. We recommend verifying with the court clerk in the county where service will be filed if you have any concerns about form acceptance. Tulsa County, Oklahoma County, and Cleveland County may have specific requirements.',
   },
 ];
 
@@ -276,7 +439,7 @@ export default function OklahomaProcessServerFormsPage() {
                 Operating as a professional process server in Oklahoma requires maintaining proper documentation at every stage of the service process. From the moment you receive a service request to the final filing of your return of service, having the right forms ensures compliance with state law, protects your professional standing, and provides the documentation courts require.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                At Just Legal Solutions, we understand the challenges process servers face in maintaining accurate records while working efficiently in the field. That is why we have created this comprehensive library of free, downloadable forms and templates specifically designed for Oklahoma process servers. Check the filing court’s current requirements before using a template.
+                At Just Legal Solutions, we understand the challenges process servers face in maintaining accurate records while working efficiently in the field. That is why we have created this comprehensive library of free, downloadable forms and templates specifically designed for Oklahoma process servers. Each form has been reviewed for compliance with Oklahoma statutes and CLEET requirements.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Whether you are just starting your process serving career or are an experienced professional looking to streamline your documentation, these forms will help you maintain the professional standards that clients and courts expect.
@@ -290,12 +453,12 @@ export default function OklahomaProcessServerFormsPage() {
               <ul className="space-y-3">
                 {[
                   'Court-ready affidavit of service templates',
-                  'Blank PDF and editable DOCX forms',
-                  'A skip trace checklist (not a court affidavit)',
-                  'Fillable PDF forms for offline use',
+                  'Proof of service forms for all service types',
+                  'Diligent search affidavits for substitute service',
+                  'Professional invoice templates',
                   'Client intake and service request forms',
                   'Field documentation sheets',
-                  'Attempt and GPS documentation logs',
+                  'CLEET-compliant record-keeping forms',
                   'Regular updates to reflect legal changes',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -400,18 +563,12 @@ export default function OklahomaProcessServerFormsPage() {
                           </p>
                         </div>
                         <Link
-                          href={`/downloads/${form.filename}`}
+                          href={formDownloadHref(form.filename)}
                           className="flex-shrink-0 inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium text-sm"
                         >
                           <Download className="w-4 h-4" />
                           PDF
                         </Link>
-                        {form.filename.startsWith('JLS-Blank-') && (
-                          <Link href={`/downloads/${form.filename.replace(/\.pdf$/, '.docx')}`} className="ml-2 text-blue-600 text-sm font-medium hover:underline">DOCX</Link>
-                        )}
-                        {form.filename.includes('Affidavit') || form.filename.includes('Declaration') ? (
-                          <Link href="/affidavit-of-service" className="ml-2 text-blue-600 text-sm font-medium hover:underline">Generate online</Link>
-                        ) : null}
                       </div>
                     </div>
                   ))}
@@ -434,7 +591,7 @@ export default function OklahomaProcessServerFormsPage() {
                 The affidavit of service, also known as the Return of Service, is the most critical document in the process serving profession. This sworn statement provides official proof that legal documents were properly delivered to the intended recipient according to Oklahoma law.
               </p>
               <p className="text-lg text-blue-100 mb-6 leading-relaxed">
-                The server who made the service should describe what actually happened. A sworn affidavit requires a notary; an unsworn declaration has different execution language and may not be accepted in every matter. Confirm the filing court’s requirements before submitting.
+                In Oklahoma, the affidavit of service must be completed by the process server who personally made the service. It must then be sworn or affirmed before a notary public and filed with the court where the case is pending. Without a properly executed affidavit, the service may be deemed invalid, potentially delaying or jeopardizing the legal proceedings.
               </p>
               <h3 className="text-xl font-semibold mb-4">Required Elements</h3>
               <ul className="space-y-2 text-blue-100">
@@ -447,7 +604,7 @@ export default function OklahomaProcessServerFormsPage() {
                   'Name and physical description of person served',
                   'Method used to verify recipient\'s identity',
                   'Process server\'s signature and contact information',
-                  'Notary jurat and seal for a sworn affidavit',
+                  'Notary acknowledgment with seal',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <span className="text-blue-300 mt-1">✓</span>
@@ -471,8 +628,8 @@ export default function OklahomaProcessServerFormsPage() {
                     solution: 'Provide complete address including apartment number, floor, or suite',
                   },
                   {
-                    mistake: 'Missing execution block',
-                    solution: 'Use a notary for a sworn affidavit; never backdate any document',
+                    mistake: 'Missing notarization',
+                    solution: 'Have affidavit notarized immediately after signing, never backdate',
                   },
                   {
                     mistake: 'Incorrect case information',
@@ -507,13 +664,13 @@ export default function OklahomaProcessServerFormsPage() {
                 The Diligent Search Requirement
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                When a defendant cannot be found, document your actual field attempts and give the results to the hiring attorney. Counsel decides whether to seek alternative service and what sworn showing the court requires.
+                When personal service cannot be accomplished because the defendant cannot be located, Oklahoma law requires a diligent search before alternative service methods can be authorized. The diligent search affidavit documents your exhaustive efforts to find the defendant and demonstrates to the court that reasonable attempts have been made.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Do not put unverified database claims on a return of service. The field sheet and attempt log help record the date, time, location, observation, and outcome of each physical visit.
+                Oklahoma courts expect process servers to conduct a thorough investigation that may include database searches, address verification, contact with neighbors and associates, workplace inquiries, and other reasonable efforts. The diligent search affidavit must detail each attempt made, when it occurred, and the results.
               </p>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Possible Research Leads for Counsel
+                Standard Diligent Search Steps
               </h3>
               <ol className="space-y-3 text-gray-700">
                 {[
@@ -543,10 +700,10 @@ export default function OklahomaProcessServerFormsPage() {
                 </h3>
               </div>
               <p className="text-amber-800 mb-4">
-                Counsel is responsible for the court filing. Your field records should be factual, dated, and limited to the work you actually performed.
+                The diligent search standard varies by jurisdiction within Oklahoma. Some judges require more extensive efforts than others. When in doubt, document more efforts rather than fewer.
               </p>
               <p className="text-amber-800 mb-4">
-                Maintain dated records of attempts and outcomes. They may be important if service is challenged.
+                Always maintain detailed records of your search efforts including dates, times, and outcomes. These records support your affidavit and may be required if the service is challenged.
               </p>
               <p className="text-amber-800">
                 Consult with the attorney who hired you if you encounter difficulties locating the defendant. They may have additional information or resources to assist with the search.
