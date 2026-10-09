@@ -223,7 +223,6 @@ export default function FieldSheet() {
           }
           .pt-14 { padding-top: 0 !important; }
           @page { size: letter portrait; margin: 0.25in 0.3in; }
-          .field-sheet-route .field-sheet-page .flex-wrap { flex-wrap: nowrap !important; }
           .field-sheet-route .field-sheet-page {
             width: 100% !important;
             max-width: 100% !important;
@@ -346,7 +345,7 @@ export default function FieldSheet() {
                 placeholder="PROCESS SERVICE AGENCY / SERVER NAME"
                 className="font-extrabold text-sm sm:text-base uppercase w-full bg-transparent border-b border-gray-300 focus:border-black outline-none"
               />
-              <div className="flex flex-wrap gap-x-3 gap-y-0.5 text-[8.5pt] mt-0.5">
+              <div className="flex gap-3 text-[8.5pt] mt-0.5">
                 <div className="flex items-center gap-1">
                   <strong>Phone:</strong>
                   <input
@@ -364,7 +363,7 @@ export default function FieldSheet() {
                     value={companyEmail}
                     onChange={(e) => setCompanyEmail(e.target.value)}
                     placeholder="server@agency.com"
-                    className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-44 max-w-[calc(100vw-7rem)] min-w-0 text-[8.5pt]"
+                    className="bg-transparent border-b border-gray-300 focus:border-black outline-none w-44 text-[8.5pt]"
                   />
                 </div>
               </div>
