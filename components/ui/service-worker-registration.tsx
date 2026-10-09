@@ -8,7 +8,7 @@ export const ServiceWorkerRegistration = () => {
     if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
       window.addEventListener('load', async () => {
         try {
-          const registration = await navigator.serviceWorker.register('/sw.js');
+          const registration = await navigator.serviceWorker.register('/sw.js?v=20261009-tools');
           
           console.log('Service Worker registered successfully:', registration.scope);
 
