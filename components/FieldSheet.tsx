@@ -125,15 +125,15 @@ export default function FieldSheet() {
 
   const handlePrint = useCallback(() => {
     const originalTitle = document.title;
-    if (caseNumber.trim()) {
-      document.title = `${caseNumber.trim()} - Field Sheet`;
-    } else if (recipientName.trim()) {
-      document.title = `${recipientName.trim()} - Field Sheet`;
-    } else {
-      document.title = 'Process Server Field Sheet';
-    }
+    const printTitle = caseNumber.trim() || recipientName.trim();
+    document.title = printTitle ? `${printTitle} - Field Sheet` : 'Process Server Field Sheet';
+    const restore = () => {
+      document.title = originalTitle;
+      window.removeEventListener('afterprint', restore);
+    };
+    window.addEventListener('afterprint', restore, { once: true });
     window.print();
-    setTimeout(() => { document.title = originalTitle; }, 1000);
+    window.setTimeout(restore, 5000);
   }, [caseNumber, recipientName]);
 
   const handlePrefillJLS = () => {
@@ -178,10 +178,6 @@ export default function FieldSheet() {
   return (
     <>
       <style jsx global>{`
-        @page {
-          size: letter portrait;
-          margin: 0.25in 0.3in;
-        }
         @media print {
           * {
             background-color: transparent !important;
@@ -207,29 +203,30 @@ export default function FieldSheet() {
             border: none !important;
             position: static !important;
           }
-          .field-sheet-wrapper {
+          .field-sheet-route > :not(.field-sheet-wrapper) { display: none !important; }
+          .field-sheet-route .field-sheet-wrapper {
+            max-width: none !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
             background: #fff !important;
             padding: 0 !important;
             margin: 0 !important;
             min-height: 0 !important;
           }
-          main, .flex.flex-col.min-h-screen, .flex.flex-col.min-h-screen > main {
+          main, .flex.flex-col.min-h-screen, .flex.flex-col.min-h-screen > main,
+          .field-sheet-route {
             padding: 0 !important;
             margin: 0 !important;
             min-height: 0 !important;
             background: #fff !important;
             display: block !important;
           }
-          .pt-14 {
-            padding-top: 0 !important;
-          }
-          /* Reserve vertical slack for Android print engines and prevent a trailing sheet. */
-          @page { size: letter portrait; margin: 0.2in 0.3in; }
-          .field-sheet-page {
-            break-after: avoid-page !important;
-            page-break-after: avoid !important;
+          .pt-14 { padding-top: 0 !important; }
+          @page { size: letter portrait; margin: 0.25in 0.3in; }
+          .field-sheet-route .field-sheet-page {
             width: 100% !important;
             max-width: 100% !important;
+            box-sizing: border-box !important;
             height: auto !important;
             min-height: 0 !important;
             margin: 0 !important;

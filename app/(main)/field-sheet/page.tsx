@@ -59,7 +59,7 @@ export default function FieldSheetPage() {
           { name: 'Field Sheet', item: 'https://justlegalsolutions.org/field-sheet' }
         ]}
       />
-    <div className="min-h-screen bg-gray-100 pb-10">
+    <div className="field-sheet-route min-h-screen bg-gray-100 pb-10">
       <div className="max-w-5xl mx-auto px-4 pt-6 pb-4 no-print-field-sheet">
         <h1 className="text-3xl font-bold text-center text-gray-900 mb-1">
           Field Sheet Generator

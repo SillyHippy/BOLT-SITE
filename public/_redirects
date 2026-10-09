@@ -6,6 +6,9 @@
 # www → non-www: handled by Cloudflare DNS redirect rule (Page Rule or Bulk Redirect)
 # These cannot be source-matched as absolute URLs in Cloudflare Pages _redirects
 
+# Withdraw rejected standalone PDF at its bare URL; the supported tool is the generator.
+/downloads/JLS-Blank-Field-Sheet-v1.0.pdf /field-sheet 302
+
 # Redirect /index.html to /
 /index.html / 301
 
