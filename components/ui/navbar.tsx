@@ -71,7 +71,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden xl:flex items-center space-x-4 2xl:space-x-7">
+          <div className="hidden 2xl:flex items-center space-x-5">
             <Link href="/" className={navLinkClass(pathname === '/')} aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
               Home
             </Link>
@@ -106,7 +106,7 @@ export function Navbar() {
           </div>
 
           {/* Contact Us Button - Desktop */}
-          <div className="hidden xl:block shrink-0">
+          <div className="hidden 2xl:block shrink-0">
             <Button
               onClick={scrollToFooter}
               className="ui-btn-primary"
@@ -116,7 +116,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="xl:hidden">
+          <div className="2xl:hidden">
             <button
               type="button"
               onClick={toggleMobileMenu}
@@ -151,7 +151,7 @@ export function Navbar() {
           aria-label="Mobile navigation menu"
           className={`ui-mobile-safe-panel fixed top-0 right-0 bottom-0 w-[270px] bg-white border-l border-slate-300 shadow-xl transform transition-all duration-300 ease-in-out z-50 ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full invisible pointer-events-none'
-          } xl:hidden`}
+          } 2xl:hidden`}
         >
           <div className="flex justify-between items-center p-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-900">Menu</div>
@@ -259,7 +259,7 @@ export function Navbar() {
         {/* Overlay */}
         {isMobileMenuOpen && (
           <div
-            className="fixed inset-0 bg-slate-900/45 backdrop-blur-[1px] z-40 xl:hidden"
+            className="fixed inset-0 bg-slate-900/45 backdrop-blur-[1px] z-40 2xl:hidden"
             onClick={toggleMobileMenu}
             aria-hidden="true"
           />

@@ -125,7 +125,7 @@
   }
 
   .ui-nav-link {
-    @apply rounded-lg px-2.5 py-1.5 text-[15px] font-medium text-slate-700 transition-all hover:bg-slate-100 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
+    @apply rounded-lg px-2.5 py-1.5 text-[15px] font-medium text-slate-700 whitespace-nowrap transition-all hover:bg-slate-100 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2;
   }
 
   .ui-nav-link-active {
