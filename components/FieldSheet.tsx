@@ -325,7 +325,7 @@ export default function FieldSheet() {
       {availableDraft && <div role="status" className="no-print-field-sheet mx-auto max-w-4xl bg-amber-950 px-3 py-2 text-sm text-white">Draft saved on this device. <button type="button" className="min-h-[44px] px-2 underline" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline" onClick={discardDraft}>Discard draft</button></div>}
       {draftNotice && <p role="status" className="no-print-field-sheet mx-auto max-w-4xl px-3 text-sm text-slate-700">{draftNotice}</p>}
       {/* Street Field Sheet Form (Exact 1-Page Letter Layout) */}
-      <div className="field-sheet-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-8">
+      <div className="field-sheet-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-8 overflow-x-auto">
         <div
           className="field-sheet-page bg-white text-black shadow-xl rounded-sm p-4 sm:p-6 border border-slate-300"
           style={{

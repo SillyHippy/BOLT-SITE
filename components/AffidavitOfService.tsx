@@ -681,7 +681,7 @@ export default function AffidavitOfService() {
       </div>
 
       {/* ServeTracker Exact Legal Document Sheet */}
-      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12">
+      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12 overflow-x-auto">
         <div
           className="affidavit-page bg-white text-black shadow-xl rounded-sm p-6 sm:p-8 border border-slate-300"
           style={{
