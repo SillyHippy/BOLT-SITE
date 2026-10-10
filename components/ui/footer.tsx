@@ -384,7 +384,7 @@ export function Footer() {
         <div className="flex flex-wrap gap-3 mb-8">
           <button
             onClick={toggleForm}
-            className="ui-btn-primary"
+            className="ui-btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
             aria-expanded={showForm}
             aria-controls="serve-request-form-container"
           >
@@ -631,7 +631,7 @@ export function Footer() {
                         <button
                           type="button"
                           onClick={(e) => { e.stopPropagation(); removeUploadFile(fileItem.id); }}
-                          className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+                          className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
                           aria-label={`Remove file ${fileItem.file.name}`}
                         >
                           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
