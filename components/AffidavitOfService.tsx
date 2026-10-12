@@ -549,8 +549,8 @@ export default function AffidavitOfService() {
                 <span>{copiedLink ? 'Copied' : 'Share'}</span>
               </button>
 
-              <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Save draft</button>
-              <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Load draft</button>
+              <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">Save draft</button>
+              <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">Load draft</button>
               <button
                 type="button"
                 onClick={handleReset}
@@ -563,7 +563,7 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
-          {availableDraft && <div role="status" className="rounded-lg bg-amber-950 p-2 text-sm text-white">A draft is saved on this device. A link you opened stays on screen. <button type="button" className="min-h-[44px] px-2 underline" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline" onClick={discardDraft}>Discard draft</button></div>}
+          {availableDraft && <div role="status" className="rounded-lg bg-amber-950 p-2 text-sm text-white">A draft is saved on this device. A link you opened stays on screen. <button type="button" className="min-h-[44px] px-2 underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-amber-950 rounded-sm" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-amber-950 rounded-sm" onClick={discardDraft}>Discard draft</button></div>}
           {draftNotice && <p role="status" className="text-xs text-amber-200">{draftNotice}</p>}
           <details className="text-xs text-slate-300"><summary className="min-h-[44px] cursor-pointer inline-flex items-center">Shareable-link fields</summary><p>The link includes parties, case, recipient, method, address, comments, execution and notary venue, and up to eight attempts (a1d/a1t/a1n through a8d/a8t/a8n). Anyone with the link can read these details; use a local draft for sensitive cases.</p></details>
           {/* Mode & Method Selector Row */}

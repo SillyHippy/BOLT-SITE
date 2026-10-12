@@ -230,7 +230,7 @@ export default function ReviewWidget() {
             ))}
             <button
               onClick={() => setIsAutoPlaying(!isAutoPlaying)}
-              className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+              className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               aria-label={isAutoPlaying ? 'Pause auto-rotating reviews' : 'Resume auto-rotating reviews'}
             >
               {isAutoPlaying ? (

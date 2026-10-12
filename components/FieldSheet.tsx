@@ -307,8 +307,8 @@ export default function FieldSheet() {
               <span>Print / Save PDF</span>
             </button>
 
-            <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Save draft</button>
-            <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white">Load draft</button>
+            <button type="button" onClick={saveDraftNow} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">Save draft</button>
+            <button type="button" onClick={() => { const saved = readToolDraft<DraftValue>(DRAFT_KEY); if (saved) restoreDraft(saved); else setDraftNotice('No saved draft on this device'); }} className="min-h-[44px] rounded-lg bg-slate-700 px-3 py-2 text-xs font-semibold text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">Load draft</button>
             <button
               type="button"
               onClick={handleReset}
@@ -322,7 +322,7 @@ export default function FieldSheet() {
         </div>
       </div>
 
-      {availableDraft && <div role="status" className="no-print-field-sheet mx-auto max-w-4xl bg-amber-950 px-3 py-2 text-sm text-white">Draft saved on this device. <button type="button" className="min-h-[44px] px-2 underline" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline" onClick={discardDraft}>Discard draft</button></div>}
+      {availableDraft && <div role="status" className="no-print-field-sheet mx-auto max-w-4xl bg-amber-950 px-3 py-2 text-sm text-white">Draft saved on this device. <button type="button" className="min-h-[44px] px-2 underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-amber-950 rounded-sm" onClick={() => restoreDraft(availableDraft)}>Restore draft</button><button type="button" className="min-h-[44px] px-2 underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-amber-950 rounded-sm" onClick={discardDraft}>Discard draft</button></div>}
       {draftNotice && <p role="status" className="no-print-field-sheet mx-auto max-w-4xl px-3 text-sm text-slate-700">{draftNotice}</p>}
       {/* Street Field Sheet Form (Exact 1-Page Letter Layout) */}
       <div className="field-sheet-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-8 overflow-x-auto">
