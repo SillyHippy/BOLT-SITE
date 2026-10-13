@@ -4,3 +4,6 @@
 ## 2026-05-12 - Applied focus-visible to form inputs
 **Learning:** Standard form inputs and selects across components (like `footer.tsx` and calculators) were using standard `focus:ring-blue-500` classes, causing unwanted sticky focus rings for mouse users clicking fields (especially problematic on radios/checkboxes).
 **Action:** Consistently replace `focus:ring-` patterns on forms with `focus-visible:ring-` (e.g. `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500`) to ensure focus outlines only appear for keyboard navigators, respecting modern accessibility expectations.
+## 2026-10-13 - Replaced fake interactive divs with native buttons
+**Learning:** Found multiple instances (like video thumbnails and file upload dropzones) using `<div>` wrappers masquerading as buttons with `role="button"`, `tabIndex={0}`, and manual `onKeyDown` handlers. While partially accessible, these frequently miss complete keyboard interaction patterns and rely on brittle workarounds.
+**Action:** Replace interactive `div` containers that act like buttons with native `<button type="button">` elements. Apply `w-full` to maintain block-level formatting where needed, completely drop redundant ARIA roles, `tabIndex`, and manual keyboard handlers, and ensure explicit `focus-visible` ring classes are retained.

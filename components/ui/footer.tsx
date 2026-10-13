@@ -552,17 +552,15 @@ export function Footer() {
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
                 
                 {/* Drop Zone */}
-                <div
+                <button
+                  type="button"
                   onDragOver={handleDragOver}
                   onDragLeave={handleDragLeave}
                   onDrop={handleDrop}
                   onClick={() => fileInputRef.current?.click()}
-                  role="button"
-                  tabIndex={0}
                   aria-label="Upload documents - drag and drop files here or click to browse"
                   aria-describedby="upload-help-text"
-                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInputRef.current?.click(); } }}
-                  className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+                  className={`w-full border-3 border-dashed rounded-xl p-6 text-center transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                     isDragging
                       ? "border-blue-500 bg-blue-100 scale-[1.01]"
                       : "border-gray-300 bg-blue-50 hover:border-blue-400 hover:bg-blue-100"
@@ -592,7 +590,7 @@ export function Footer() {
                   <p id="upload-help-text" className="text-xs text-gray-500 mt-2">
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
-                </div>
+                </button>
                 <p className="text-xs text-gray-500 mt-3 text-center">
                   Or email documents via <Link href="/contact" className="text-blue-600 hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">the contact page</Link> (info@JustLegalSolutions.org)
                 </p>

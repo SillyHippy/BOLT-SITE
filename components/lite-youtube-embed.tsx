@@ -17,7 +17,8 @@ export function LiteYouTubeEmbed({
 }: LiteYouTubeProps) {
   const [isActivated, setIsActivated] = useState(false);
   const [isInView, setIsInView] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLButtonElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const thumbnailLoaded = useRef(false);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ export function LiteYouTubeEmbed({
   if (isActivated) {
     const embedParams = `?autoplay=1&autohide=1&${params}`;
     return (
-      <div ref={containerRef} className="absolute inset-0 w-full h-full">
+      <div ref={wrapperRef} className="absolute inset-0 w-full h-full">
         <iframe
           src={`https://www.youtube.com/embed/${videoid}${embedParams}`}
           title={title}
@@ -61,18 +62,11 @@ export function LiteYouTubeEmbed({
   }
 
   return (
-    <div
+    <button
+      type="button"
       ref={containerRef}
-      className="absolute inset-0 w-full h-full cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+      className="absolute inset-0 w-full h-full group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
       onClick={activateVideo}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          activateVideo();
-        }
-      }}
       aria-label={`Play YouTube video: ${title}`}
     >
       {/* Thumbnail */}
@@ -114,6 +108,6 @@ export function LiteYouTubeEmbed({
         </svg>
         <span className="text-white text-xs font-semibold drop-shadow">YouTube</span>
       </div>
-    </div>
+    </button>
   );
 }
