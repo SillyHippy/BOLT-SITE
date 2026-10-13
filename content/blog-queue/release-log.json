@@ -5984,6 +5984,44 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-journal-paper-electronic",
+      "title": "Oklahoma Notary Journal Requirements: Paper vs Electronic",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-13T20:26:27.090Z",
+      "releaseDate": "2026-10-13",
+      "quality": {
+        "words": 3085,
+        "headings": 18,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-debt-collection-agencies-oklahoma",
+      "title": "Process Serving for Debt Collection Agencies in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-13T20:26:27.092Z",
+      "releaseDate": "2026-10-13",
+      "quality": {
+        "words": 4455,
+        "headings": 13,
+        "paragraphs": 44
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
