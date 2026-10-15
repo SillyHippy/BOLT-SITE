@@ -6022,6 +6022,44 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-fees-allowed-charges",
+      "title": "Oklahoma Notary Fees: What Can a Notary Charge?",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-15T18:58:52.151Z",
+      "releaseDate": "2026-10-15",
+      "quality": {
+        "words": 3146,
+        "headings": 17,
+        "paragraphs": 27
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-ethics-professionals-oklahoma",
+      "title": "Process Serving Ethics: What Sets Oklahoma Pros Apart",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-15T18:58:52.153Z",
+      "releaseDate": "2026-10-15",
+      "quality": {
+        "words": 4139,
+        "headings": 14,
+        "paragraphs": 58
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
