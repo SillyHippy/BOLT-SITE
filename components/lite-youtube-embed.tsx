@@ -17,7 +17,8 @@ export function LiteYouTubeEmbed({
 }: LiteYouTubeProps) {
   const [isActivated, setIsActivated] = useState(false);
   const [isInView, setIsInView] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLButtonElement>(null);
+  const activatedContainerRef = useRef<HTMLDivElement>(null);
   const thumbnailLoaded = useRef(false);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ export function LiteYouTubeEmbed({
   if (isActivated) {
     const embedParams = `?autoplay=1&autohide=1&${params}`;
     return (
-      <div ref={containerRef} className="absolute inset-0 w-full h-full">
+      <div ref={activatedContainerRef} className="absolute inset-0 w-full h-full">
         <iframe
           src={`https://www.youtube.com/embed/${videoid}${embedParams}`}
           title={title}
@@ -61,18 +62,11 @@ export function LiteYouTubeEmbed({
   }
 
   return (
-    <div
+    <button
+      type="button"
       ref={containerRef}
       className="absolute inset-0 w-full h-full cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
       onClick={activateVideo}
-      role="button"
-      tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          activateVideo();
-        }
-      }}
       aria-label={`Play YouTube video: ${title}`}
     >
       {/* Thumbnail */}
@@ -89,13 +83,13 @@ export function LiteYouTubeEmbed({
       </picture>
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
+      <span className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
 
       {/* Play button */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative w-16 h-12 sm:w-20 sm:h-14">
+      <span className="absolute inset-0 flex items-center justify-center">
+        <span className="relative block w-16 h-12 sm:w-20 sm:h-14">
           {/* Play button background */}
-          <div className="absolute inset-0 bg-red-600 rounded-xl opacity-90 group-hover:opacity-100 transition-opacity shadow-lg" />
+          <span className="absolute inset-0 bg-red-600 rounded-xl opacity-90 group-hover:opacity-100 transition-opacity shadow-lg" />
           {/* Play triangle */}
           <svg
             className="absolute inset-0 w-full h-full text-white ml-1"
@@ -104,16 +98,16 @@ export function LiteYouTubeEmbed({
           >
             <path d="M8 5v14l11-7z" />
           </svg>
-        </div>
-      </div>
+        </span>
+      </span>
 
       {/* YouTube branding (optional, matches native embed feel) */}
-      <div className="absolute bottom-3 right-3 flex items-center gap-1.5">
+      <span className="absolute bottom-3 right-3 flex items-center gap-1.5">
         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="white">
           <path d="M23.5 6.2c-.3-1-1-1.8-2-2.1C19.6 3.5 12 3.5 12 3.5s-7.6 0-9.5.6c-1 .3-1.7 1.1-2 2.1C0 8.1 0 12 0 12s0 3.9.5 5.8c.3 1 1 1.8 2 2.1 1.9.6 9.5.6 9.5.6s7.6 0 9.5-.6c1-.3 1.7-1.1 2-2.1.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z" />
         </svg>
         <span className="text-white text-xs font-semibold drop-shadow">YouTube</span>
-      </div>
-    </div>
+      </span>
+    </button>
   );
 }

@@ -552,17 +552,15 @@ export function Footer() {
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
                 
                 {/* Drop Zone */}
-                <div
+                <button
+                  type="button"
                   onDragOver={handleDragOver}
                   onDragLeave={handleDragLeave}
                   onDrop={handleDrop}
                   onClick={() => fileInputRef.current?.click()}
-                  role="button"
-                  tabIndex={0}
                   aria-label="Upload documents - drag and drop files here or click to browse"
                   aria-describedby="upload-help-text"
-                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInputRef.current?.click(); } }}
-                  className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+                  className={`w-full border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                     isDragging
                       ? "border-blue-500 bg-blue-100 scale-[1.01]"
                       : "border-gray-300 bg-blue-50 hover:border-blue-400 hover:bg-blue-100"
@@ -584,15 +582,15 @@ export function Footer() {
                       d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
                     />
                   </svg>
-                  <p className="text-gray-700 font-semibold" aria-hidden="true">Drag & drop files here</p>
-                  <p className="text-gray-500 text-sm" aria-hidden="true">or click to browse</p>
+                  <span className="block text-gray-700 font-semibold" aria-hidden="true">Drag & drop files here</span>
+                  <span className="block text-gray-500 text-sm" aria-hidden="true">or click to browse</span>
                   <span className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors" aria-hidden="true">
                     Browse Files
                   </span>
-                  <p id="upload-help-text" className="text-xs text-gray-500 mt-2">
+                  <span id="upload-help-text" className="block text-xs text-gray-500 mt-2">
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
-                  </p>
-                </div>
+                  </span>
+                </button>
                 <p className="text-xs text-gray-500 mt-3 text-center">
                   Or email documents via <Link href="/contact" className="text-blue-600 hover:underline font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-sm">the contact page</Link> (info@JustLegalSolutions.org)
                 </p>
