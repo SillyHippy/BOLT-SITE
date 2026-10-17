@@ -2,9 +2,9 @@
 
 # Redirect HTTP verification (Layer 2)
 
-- **When:** 2026-08-31T21:49:16.789Z
+- **When:** 2026-10-17T11:29:31.038Z
 - **Base:** https://justlegalsolutions.org
-- **Rules tested:** 17 (2 malformed + 8 county sample of 78)
+- **Rules tested:** 18 (2 malformed + 9 county sample of 85)
 - **Failed:** 0
 
 All tested redirect sources returned **3xx** without follow, then **2xx** at canonical destination.
@@ -30,3 +30,4 @@ All tested redirect sources returned **3xx** without follow, then **2xx** at can
 | /counties/murray | /counties/murray-county | 301 | /counties/murray-county | yes |
 | /counties/payne | /counties/payne-county | 301 | /counties/payne-county | yes |
 | /counties/texas | /counties/texas-county | 301 | /counties/texas-county | yes |
+| /counties/cleveland-county.md | /counties/cleveland-county | 301 | /counties/cleveland-county | yes |

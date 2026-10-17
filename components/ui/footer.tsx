@@ -892,12 +892,12 @@ export function Footer() {
                 {/* Quick Links Column */}
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-gray-800 text-sm mb-1">Quick Links</h4>
-                  <Link
+                  <a
                     href="/sitemap"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
                     Sitemap
-                  </Link>
+                  </a>
                   <Link
                     href="/videos"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"

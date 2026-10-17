@@ -198,6 +198,7 @@
 /seo/process-server-owasso /service-areas/owasso 301
 /seo/process-server-owasso/ /service-areas/owasso 301
 /sitemap-index /sitemap-index.xml 301
+/sitemap.txt /sitemap 301
 /service-areas/hugo /counties/choctaw-county 301
 /blog/oklahoma-180-day-rule-service-process-explained /blog/oklahoma-180-day-rule-service-process 301
 /JudicialDirectory.pdf /downloads/JLS-OK-77-County-Court-Directory-v1.0.pdf 301
