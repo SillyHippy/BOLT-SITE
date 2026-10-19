@@ -123,10 +123,11 @@ export default function CostCalculatorPage() {
 
               {/* Step 1: Area */}
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
+                <label htmlFor="area" className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
                   Step 1 — Select the City or County
                 </label>
                 <select
+                  id="area"
                   value={area}
                   onChange={(e) => { setArea(e.target.value); setCalculated(false); }}
                   className="w-full border-2 border-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium transition-colors"
@@ -149,10 +150,10 @@ export default function CostCalculatorPage() {
               </div>
 
               {/* Step 2: Service Type */}
-              <div>
-                <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
+              <fieldset>
+                <legend className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
                   Step 2 — Select Service Type
-                </label>
+                </legend>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3" role="group" aria-label="Service Type Selection">
                   {serviceTypes.map((s) => (
                     <button
@@ -173,13 +174,13 @@ export default function CostCalculatorPage() {
                     </button>
                   ))}
                 </div>
-              </div>
+              </fieldset>
 
               {/* Step 3: Add-ons */}
-              <div>
-                <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
+              <fieldset>
+                <legend className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">
                   Step 3 — Optional Add-Ons
-                </label>
+                </legend>
                 <div className="space-y-2">
                   {addOns.map((a) => (
                     <div key={a.id}>
@@ -199,8 +200,9 @@ export default function CostCalculatorPage() {
                       </label>
                       {a.id === 'stakeout' && selectedAddOns.includes('stakeout') && (
                         <div className="ml-7 mt-2 flex items-center gap-3">
-                          <label className="text-xs text-gray-600 font-medium">Hours (2 hr min):</label>
+                          <label htmlFor="stakeout-hours" className="text-xs text-gray-600 font-medium">Hours (2 hr min):</label>
                           <input
+                            id="stakeout-hours"
                             type="number"
                             min={2}
                             max={12}
@@ -213,7 +215,7 @@ export default function CostCalculatorPage() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </fieldset>
 
               {/* Calculate Button */}
               <button

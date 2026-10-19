@@ -19,3 +19,6 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+## 2026-10-19 - Semantic Grouping and Form Labels in Cost Calculator
+**Learning:** Found multiple form input sections in the Cost Calculator, including radio-group-like buttons and inputs, incorrectly wrapped in generic `<div>` tags with generic `<label>` text, lacking associative attributes like `htmlFor`. This removes semantic context for screen readers parsing complex forms, making them less accessible.
+**Action:** Always replace generic `<div>` wrappers with `<fieldset>` and use `<legend>` instead of generic text elements for logically grouped inputs to ensure proper semantic context. When adding form controls or filter inputs (`<select>`, `<input>`), always explicitly associate the `<label>` with the control using matching `htmlFor` and `id` attributes.
