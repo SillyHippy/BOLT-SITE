@@ -199,6 +199,24 @@
 /seo/process-server-owasso/ /service-areas/owasso 301
 /sitemap-index /sitemap-index.xml 301
 /sitemap.txt /sitemap 301
+
+# ── RSC payload .txt redirects (Next.js App Router static export) ──
+# Next.js generates /<route>.txt RSC payloads; redirect users who land on them
+/index.txt / 302
+/pricing.txt /pricing 302
+/process-serving.txt /process-serving 302
+/notary.txt /notary 302
+/service-areas.txt /service-areas 302
+/virtual-assistant-services.txt /virtual-assistant-services 302
+/law-firm-services.txt /law-firm-services 302
+/contact.txt /contact 302
+/payments.txt /payments 302
+/about.txt /about 302
+/skip-tracing.txt /skip-tracing 302
+/tulsa-process-server.txt /tulsa-process-server 302
+/affidavit-of-service.txt /affidavit-of-service 302
+/field-sheet.txt /field-sheet 302
+/downloads.txt /downloads 302
 /service-areas/hugo /counties/choctaw-county 301
 /blog/oklahoma-180-day-rule-service-process-explained /blog/oklahoma-180-day-rule-service-process 301
 /JudicialDirectory.pdf /downloads/JLS-OK-77-County-Court-Directory-v1.0.pdf 301

@@ -8,7 +8,7 @@ export const ServiceWorkerRegistration = () => {
     if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
       const registerWorker = async () => {
         try {
-          const registration = await navigator.serviceWorker.register('/sw.js?v=20261009-tools-v2');
+          const registration = await navigator.serviceWorker.register('/sw.js?v=20261019-rsc-fix-v3');
           
           console.log('Service Worker registered successfully:', registration.scope);
 
@@ -41,10 +41,8 @@ export const ServiceWorkerRegistration = () => {
       if (document.readyState === 'complete') { void registerWorker(); }
       else { window.addEventListener('load', registerWorker, { once: true }); }
 
-      // Handle service worker controller change
-      navigator.serviceWorker.addEventListener('controllerchange', () => {
-        window.location.reload();
-      });
+      // Note: controllerchange reload removed — it caused RSC navigation to .txt URLs
+      // when the SW updated mid-session. The new cache version handles stale cache cleanup.
     }
 
     // Preload critical resources using service worker

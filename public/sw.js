@@ -1,8 +1,8 @@
 // Service Worker for Just Legal Solutions
 // Provides offline functionality and advanced caching for better mobile performance
 
-const CACHE_NAME = 'jls-v2026-10-09-tools-v2';
-const STATIC_CACHE_NAME = 'jls-static-v2026-10-09-tools-v2';
+const CACHE_NAME = 'jls-v2026-10-19-rsc-fix-v3';
+const STATIC_CACHE_NAME = 'jls-static-v2026-10-19-rsc-fix-v3';
 
 // Critical assets to cache immediately
 const CRITICAL_ASSETS = [
