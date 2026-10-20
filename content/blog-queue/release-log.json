@@ -6060,6 +6060,46 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-bond-errors-omissions-insurance",
+      "title": "Oklahoma Notary Bond vs Errors and Omissions Insurance",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-20T18:50:30.589Z",
+      "releaseDate": "2026-10-20",
+      "quality": {
+        "words": 3092,
+        "headings": 17,
+        "paragraphs": 30
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-family-law-paternity-adoption-custody-oklahoma",
+      "title": "Serving Family Law Papers in Oklahoma: A Server\\",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-20T18:50:30.598Z",
+      "releaseDate": "2026-10-20",
+      "quality": {
+        "words": 4849,
+        "headings": 13,
+        "paragraphs": 35
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [

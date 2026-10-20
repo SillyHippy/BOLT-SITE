@@ -71,13 +71,6 @@
       "inQueue": true,
       "updatedAt": "2026-08-22"
     },
-    "process-serving-family-law-paternity-adoption-custody-oklahoma": {
-      "target": "/blog/how-to-serve-divorce-papers-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-08-22"
-    },
     "process-serving-juvenile-court-confidentiality-oklahoma": {
       "target": "/blog/how-to-hire-a-process-server-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -149,6 +142,6 @@
       "updatedAt": "2026-08-22"
     }
   },
-  "lastPublishedSlug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
-  "lastPublishedAt": "2026-09-17T18:53:34.557Z"
+  "lastPublishedSlug": "process-serving-family-law-paternity-adoption-custody-oklahoma",
+  "lastPublishedAt": "2026-10-20T18:50:30.593Z"
 }
