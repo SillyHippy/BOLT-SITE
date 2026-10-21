@@ -19,3 +19,7 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+
+## 2024-10-21 - Added type="button" to custom interactive buttons
+**Learning:** Found multiple interactive `<button>` elements in UI components (`review-widget`, `navbar`, `faq-accordion`) lacking the explicit `type="button"` attribute. Without this, these buttons default to `type="submit"`, creating potential bugs where clicking them inadvertently submits an enclosing form.
+**Action:** Always explicitly define `type="button"` on interactive UI `<button>` elements that do not intentionally function as form submit buttons, to prevent accidental form submissions and improve semantic clarity.

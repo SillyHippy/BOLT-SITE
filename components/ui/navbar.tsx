@@ -156,6 +156,7 @@ export function Navbar() {
           <div className="flex justify-between items-center p-4 border-b border-slate-200">
             <div className="text-lg font-semibold text-slate-900">Menu</div>
             <button
+              type="button"
               onClick={toggleMobileMenu}
               className="p-2 hover:bg-gray-100 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               aria-label="Close menu"
@@ -248,6 +249,7 @@ export function Navbar() {
               Payments
             </Link>
             <button
+              type="button"
               onClick={scrollToFooter}
               className="ui-btn-primary mt-2 w-full"
             >

@@ -160,7 +160,8 @@ export default function ReviewWidget() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-6 mb-6 relative">
             {/* Navigation Buttons */}
-            <button 
+            <button
+              type="button"
               onClick={prevReview}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               onMouseEnter={() => setIsAutoPlaying(false)}
@@ -168,7 +169,8 @@ export default function ReviewWidget() {
             >
               <ChevronLeft className="h-6 w-6 text-gray-600" aria-hidden="true" />
             </button>
-            <button 
+            <button
+              type="button"
               onClick={nextReview}
               className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               onMouseEnter={() => setIsAutoPlaying(false)}
@@ -214,6 +216,7 @@ export default function ReviewWidget() {
           <div className="flex justify-center items-center space-x-2 mb-6">
             {reviews.map((_, index) => (
               <button
+                type="button"
                 key={index}
                 onClick={() => {
                   setCurrentReview(index);
@@ -229,6 +232,7 @@ export default function ReviewWidget() {
               />
             ))}
             <button
+              type="button"
               onClick={() => setIsAutoPlaying(!isAutoPlaying)}
               className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               aria-label={isAutoPlaying ? 'Pause auto-rotating reviews' : 'Resume auto-rotating reviews'}
