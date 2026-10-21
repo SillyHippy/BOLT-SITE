@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
-export default function TermsOfServiceLayout({
+export default function TermsLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -10,7 +10,9 @@ export default function TermsOfServiceLayout({
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="pt-14 flex-grow">{children}</main>
+      <main className="pt-14 flex-grow">
+        {children}
+      </main>
       <Footer />
     </div>
   );
