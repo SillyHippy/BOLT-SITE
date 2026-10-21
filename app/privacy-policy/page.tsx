@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -153,16 +152,6 @@ export default function PrivacyPolicyPage() {
             <li><strong>Phone:</strong> <a href="tel:5393676832">(539) 367-6832</a></li>
             <li><strong>Address:</strong> 564 E 138th PL, Glenpool, OK 74033</li>
           </ul>
-        </div>
-      </section>
-
-      <section className="bg-gray-50 border-t border-gray-200 py-8 px-4">
-        <div className="max-w-3xl mx-auto flex flex-col sm:flex-row gap-4 justify-between items-center text-sm text-gray-600">
-          <p>© 2026 Just Legal Solutions. All rights reserved.</p>
-          <div className="flex gap-6">
-            <Link href="/terms-of-service" className="hover:text-blue-600">Terms of Service</Link>
-            <Link href="/contact" className="hover:text-blue-600">Contact Us</Link>
-          </div>
         </div>
       </section>
     </div>
