@@ -31,6 +31,7 @@ const FAQItem = memo(({
   <div className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden" itemScope itemType="https://schema.org/Question">
     <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
     <button
+      type="button"
       id={`${baseId}-faq-question-${index}`}
       onClick={() => onToggle(index)}
       className="w-full text-left p-6 hover:bg-gray-50 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset"
