@@ -6100,6 +6100,42 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "mobile-notary-hospitals-nursing-homes-oklahoma",
+      "title": "Mobile Notary for Hospitals and Nursing Homes in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-22T19:06:26.171Z",
+      "releaseDate": "2026-10-22",
+      "quality": {
+        "words": 3256,
+        "headings": 16,
+        "paragraphs": 27
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-government-contractors-federal-compliance-oklahoma",
+      "title": "Process Serving Government Contractors: Federal Compliance",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-22T19:06:26.174Z",
+      "releaseDate": "2026-10-22",
+      "quality": {
+        "words": 4599,
+        "headings": 27,
+        "paragraphs": 45
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
