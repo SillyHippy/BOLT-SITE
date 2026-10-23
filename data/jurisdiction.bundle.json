@@ -1,0 +1,5254 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "repo": "servetracker-saas",
+    "branch": "live/2026-10-17c",
+    "commit": "ab26879"
+  },
+  "states": {
+    "AK": {
+      "stateCode": "AK",
+      "stateName": "Alaska",
+      "return": {
+        "stateCode": "AK",
+        "stateName": "Alaska",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Civ. R. 4(f): non-peace-officer shall make affidavit; proof sets forth manner, place, date of service, and all pleadings served",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Licensed process servers; form family varies by process type",
+        "sources": [
+          "Alaska Civ. R. 4(f)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://courts.alaska.gov/rules/docs/civil.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "AK",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Alaska R. Civ. P. 4(f)",
+          "AS 09.63.020"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am a person authorized to serve civil process in the State of Alaska — a Civilian Process Server licensed by the Alaska Department of Public Safety under 13 AAC 67 (License No. {{licenseNumber}}) or specially appointed by the Court — over the age of eighteen (18) years, and not a party to this action.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "serviceFee",
+          "notarizationDate"
+        ]
+      }
+    },
+    "AL": {
+      "stateCode": "AL",
+      "stateName": "Alabama",
+      "return": {
+        "stateCode": "AL",
+        "stateName": "Alabama",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Certificate of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Ala. R. Civ. P. 4(i)(1)(C): private server (19+, non-party, not related within 3rd degree) endorses service on process; return indicates name/address/phone",
+        "eSignAffidavit": "no",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "OVERTURN: Alabama uses endorsement model like Ohio; Form C-34 uses 'I certify...' with NO jurat and NO perjury block; 60-day unserved return window",
+        "sources": [
+          "Ala. R. Civ. P. 4(i)(1)(C)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.alacourt.gov/rulesofcourt.aspx"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "AL",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "notRelatedThirdDegree"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "notRelatedThirdDegree"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Ala. R. Civ. P. 4(i)(1)(C)",
+          "Ala. R. Civ. P. 4(i)(1)(B)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to the above-entitled action, and not related within the third degree by blood or marriage to the party instituting this action (Ala. R. Civ. P. 4(i)(1)(B)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serverSignature",
+          "notarizationDate"
+        ]
+      }
+    },
+    "AR": {
+      "stateCode": "AR",
+      "stateName": "Arkansas",
+      "return": {
+        "stateCode": "AR",
+        "stateName": "Arkansas",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Certificate of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Ark. R. Civ. P. 4: non-sheriff certificate must be sworn; official form has dedicated jurat",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Non-sheriff certificate must be sworn per ARCP 4",
+        "sources": [
+          "Ark. R. Civ. P. 4"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.arcourts.gov/rules-and-forms/rules/civil-procedure"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "AR",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 18,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Ark. R. Civ. P. 4(g)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action, and duly appointed to serve civil process by Administrative Order No. 20 of the Circuit Court pursuant to Ark. R. Civ. P. 4(c)(2).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDate"
+        ],
+        "requiredFooterFields": [
+          "appointmentCircuit",
+          "appointmentOrderNumber",
+          "notarizationDate"
+        ]
+      }
+    },
+    "AZ": {
+      "stateCode": "AZ",
+      "stateName": "Arizona",
+      "return": {
+        "stateCode": "AZ",
+        "stateName": "Arizona",
+        "allowDeclaration": true,
+        "declarationStatute": "Ariz. R. Civ. P. 80(c)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare under penalty of perjury that the foregoing is true and correct.",
+        "juratHints": "ARCP 80(c) allows unsworn declaration; registered server must state registration county",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "ARCP 4(g)(3) requires non-sheriff return accompanied by affidavit; 80(c) declaration satisfies",
+        "sources": [
+          "Ariz. R. Civ. P. 4(g)",
+          "Ariz. R. Civ. P. 80(c)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.azcourts.gov/portals/0/rules/Current%20Rules%20of%20Civil%20Procedure.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "AZ",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "registrationCounty",
+            "registrationNumber"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Ariz. R. Civ. P. 4(g)",
+          "Ariz. R. Civ. P. 80(c)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, state that I am a Certified Private Process Server registered in {{registrationCounty}} County, State of Arizona (Registration No. {{licenseNumber}}), not a party to this action, and not less than twenty-one (21) years of age (Ariz. R. Civ. P. 4(d); ACJA § 7-204).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDateTime",
+          "serviceFeeBreakdown"
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "registrationCounty",
+          "serviceFee"
+        ]
+      }
+    },
+    "CA": {
+      "stateCode": "CA",
+      "stateName": "California",
+      "return": {
+        "stateCode": "CA",
+        "stateName": "California",
+        "allowDeclaration": true,
+        "declarationStatute": "Cal. CCP § 2015.5",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Proof of Service (POS-010)",
+        "declarationFormText": "I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.",
+        "juratHints": "POS-010 is mandatory Judicial Council form; no notary required",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "CCP § 2015.5 authorizes unsworn declaration; POS-010 is mandatory form per CRC 2.150",
+        "sources": [
+          "Cal. CCP § 2015.5",
+          "Cal. CCP § 417.10",
+          "CRC 2.150"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=2015.5"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "CA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "registrationCounty",
+            "registrationNumber"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Cal. Civ. Proc. Code § 417.10",
+          "POS-010"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "At the time of service I was at least 18 years of age and not a party to this action. I am a Registered California Process Server (Registration No. {{licenseNumber}}) or exempt from registration under Cal. Bus. & Prof. Code § 22350(b). My address and telephone number are stated below, and my fee for service was as recorded by the firm.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "serviceFeeBreakdown"
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "serverPhone",
+          "licenseNumber",
+          "registrationCounty",
+          "serviceFee"
+        ]
+      }
+    },
+    "CO": {
+      "stateCode": "CO",
+      "stateName": "Colorado",
+      "return": {
+        "stateCode": "CO",
+        "stateName": "Colorado",
+        "allowDeclaration": true,
+        "declarationStatute": "C.R.C.P. 4(h); C.R.S. § 13-27-106 (UUDA)",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare under penalty of perjury under the law of Colorado that the foregoing is true and correct. Executed on the __ day of __, __, at ___ (city or other location, and state or country)",
+        "juratHints": "CRCP 4(h) allows unsworn declaration; UUDA adopted",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "JDF 1034 uses Colorado UUDA perjury block; older self-help pages outdated vs CRCP 4(h)",
+        "sources": [
+          "C.R.C.P. 4(h)",
+          "C.R.S. §§ 13-27-101 et seq."
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.state.co.us/Courts/Supreme_Court/Rule_Changes/2020/2020(13).pdf"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "CO",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 18,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Colo. R. Civ. P. 4(h)",
+          "C.R.S. § 13-27-106"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, declare that I am eighteen (18) years of age or older and not a party to this action (C.R.C.P. 4(d)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serviceFee"
+        ]
+      }
+    },
+    "CT": {
+      "stateCode": "CT",
+      "stateName": "Connecticut",
+      "return": {
+        "stateCode": "CT",
+        "stateName": "Connecticut",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Return of Process",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Civil process traditionally via state marshals; private nationwide affidavit often wrong vehicle",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Indifferent person service is limited by statute/practice; treat as affidavit-required",
+        "sources": [
+          "Conn. Gen. Stat. ch. 510"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": "https://www.jud.ct.gov/webforms/"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "CT",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null,
+          "statutoryFees": {
+            "required": true,
+            "label": "STATUTORY FEES (Conn. Gen. Stat. § 52-261):",
+            "items": [
+              "serviceFee",
+              "mileage",
+              "total"
+            ],
+            "notes": "Itemized per Conn. Gen. Stat. § 52-261; travel/mileage included."
+          }
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "outOfStateAuthorizedPerson",
+            "specialDeputation"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Leave attested copy at abode, no co-resident needed."
+        },
+        "attestations": [
+          "officerOath"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Conn. Gen. Stat. § 52-54",
+          "Conn. Gen. Stat. § 52-261"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "STATE OF CONNECTICUT, SS: Then and there, by virtue hereof and by direction of the Plaintiff's attorney, I, {{serverName}}, a duly authorized State Marshal, Constable, or Indifferent Person under Conn. Gen. Stat. § 52-50, or a person authorized by law to serve process in the jurisdiction of service under Conn. Gen. Stat. § 52-57a, made due and legal service upon the recipient by leaving a true and attested copy of the original process, with my doings thereon endorsed.",
+        "qualificationTextUnserved": "I, {{serverName}}, a duly authorized State Marshal, Constable, or Indifferent Person under Conn. Gen. Stat. § 52-50, or a person authorized by law to serve process in the jurisdiction of service under Conn. Gen. Stat. § 52-57a, over the age of eighteen (18) years and not a party to this action, received the original process for service by direction of the Plaintiff's attorney and have made due and diligent efforts to effect service, as more fully appears by my doings hereon endorsed.",
+        "requiredBodyClauses": [
+          "The within and foregoing is the original process with my doings hereon endorsed.",
+          "FEES: itemized per Conn. Gen. Stat. § 52-261."
+        ],
+        "requiredFooterFields": [
+          "officerTitle",
+          "itemizedStatutoryFees",
+          "mileage"
+        ]
+      }
+    },
+    "DC": {
+      "stateCode": "DC",
+      "stateName": "District of Columbia",
+      "return": {
+        "stateCode": "DC",
+        "stateName": "District of Columbia",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service (SPS)",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Super. Ct. Civ. R. 4(l)(1): Affidavit Required; proof must be by server's affidavit under oath; per-defendant affidavit; physical description facts",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Special Process Server affidavit; often CV-3035 family; marshal-only exemption",
+        "sources": [
+          "D.C. Super. Ct. Civ. R. 4(l)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.dccourts.gov/internet/documents/SuperiorCourtCivilRules.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "DC",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "physicalDescription"
+          ],
+          "physicalDescription": {
+            "required": true
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "noInterest"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "D.C. Super. Ct. Civ. R. 4(l)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, declare that I am at least eighteen (18) years of age and not a party to the above-entitled action (D.C. Super. Ct. R. Civ. P. 4(c)(2)). My residence or business address and telephone number are stated below.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "physicalDescriptionOfRecipient"
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "serverPhone"
+        ]
+      }
+    },
+    "DE": {
+      "stateCode": "DE",
+      "stateName": "Delaware",
+      "return": {
+        "stateCode": "DE",
+        "stateName": "Delaware",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Super. R. 4(g): private server return shall be verified (sworn); Chancery R. 4(i): service must be proven by affidavit; 10 Del. C. § 3927 = opt-in by court rule; no rule opts in for ROS",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "10 Del. C. § 53A is foreign-declarant-only; Chancery requires registration with Register",
+        "sources": [
+          "Del. Super. Ct. Civ. R. 4(g)",
+          "Del. Ch. Ct. R. 4(i)",
+          "10 Del. C. § 3927"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://courts.delaware.gov/rules/"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "DE",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Del. Super. Ct. Civ. R. 4(g)",
+          "10 Del. C. § 3927"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly verified, state that I am at least eighteen (18) years of age, not a party to this action, and a Special Process Server duly appointed and registered with the Court pursuant to Del. Super. Ct. Civ. R. 4(d).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "appointmentOrderNumber"
+        ]
+      }
+    },
+    "FED": {
+      "stateCode": "FED",
+      "stateName": "United States District Court",
+      "return": {
+        "stateCode": "FED",
+        "stateName": "United States District Court",
+        "allowDeclaration": true,
+        "declarationStatute": "28 U.S.C. § 1746",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare (or certify, verify, or state) under penalty of perjury that the foregoing is true and correct. Executed on (date).",
+        "juratHints": "No notary required for 28 U.S.C. § 1746 declarations",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "FRCP 4(l) requires server's affidavit; 28 U.S.C. § 1746 allows unsworn declaration substitute",
+        "sources": [
+          "28 U.S.C. § 1746",
+          "FRCP 4(l)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.law.cornell.edu/uscode/text/28/1746"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "FED",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Fed. R. Civ. P. 4(l)",
+          "28 U.S.C. § 1746"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, declare that I am at least 18 years old and not a party to this action (Fed. R. Civ. P. 4(c)(2)). My server's address is stated below.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDate"
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "serviceFee"
+        ]
+      }
+    },
+    "FL": {
+      "stateCode": "FL",
+      "stateName": "Florida",
+      "return": {
+        "stateCode": "FL",
+        "stateName": "Florida",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Return of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Fla. Stat. § 48.21 requires signed return-of-service form; e-signature expressly OK; NOT § 92.525 declaration",
+        "eSignAffidavit": "yes",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "TRAP: Do NOT auto-pick § 92.525 'declaration of service' for ordinary process. Generate § 48.21 return-of-service. Affidavit only if specific rule/order requires verification.",
+        "sources": [
+          "Fla. Stat. § 48.031",
+          "Fla. Stat. § 48.21",
+          "Fla. Stat. § 92.525"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://flsenate.gov/Laws/Statutes/2024/48.21"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "FL",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": true,
+            "wording": "The process came to hand on {receivedDate} at {receivedTime}."
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": "conditional",
+            "wording": ", served in the capacity of {capacity}"
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": {
+            "whenLicensed": "I am a private process server duly licensed in {county} County, State of {licenseStateName}, by the District Court serving that county, License No. {licenseNo}, and was authorized under 12 O.S. § 158.1 to serve civil process on the date of service.",
+            "whenLicensedStatewide": "I am a private process server duly licensed in the State of {licenseStateName}, License No. {licenseNo}, and was authorized under 12 O.S. § 158.1 to serve civil process on the date of service.",
+            "servingState": "OK",
+            "note": "Evidentiary recital under § 48.194; {county} is the Oklahoma issuing district (license registration), not the case venue or notary county."
+          },
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": "§ 48.21 return is signed, not notarized; e-signature expressly allowed (§ 48.21(1)). Failure to state required facts invalidates service subject to amendment (§ 48.21(2))."
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "FL § 48.031(2): co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": null,
+        "sources": [
+          "Fla. Stat. § 48.21",
+          "Fla. Stat. § 48.194",
+          "Fla. Stat. § 48.031"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the above-styled action, and am a Certified Process Server (CPS #{{licenseNumber}}) or Special Process Server duly appointed in the circuit or county where service was made pursuant to Fla. Stat. §§ 48.021 / 48.27. This process came to hand on the date and at the time stated above (Fla. Stat. § 48.21(1)). I placed the date and time of service and my identification number and initials on the first page of the copy served (Fla. Stat. § 48.031(5)).",
+        "qualificationTextUnserved": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the above-styled action, and am a Certified Process Server (CPS #{{licenseNumber}}) or Special Process Server duly appointed in the circuit or county where service was attempted pursuant to Fla. Stat. §§ 48.021 / 48.27. This process came to hand on the date and at the time stated above (Fla. Stat. § 48.21(1)).",
+        "requiredBodyClauses": [
+          "This process came to hand on the date and at the time stated above (Fla. Stat. § 48.21(1)).",
+          "I placed the date and time of service and my identification number and initials on the first page of the copy served (Fla. Stat. § 48.031(5))."
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "cameToHandDateTime"
+        ]
+      }
+    },
+    "GA": {
+      "stateCode": "GA",
+      "stateName": "Georgia",
+      "return": {
+        "stateCode": "GA",
+        "stateName": "Georgia",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "O.C.G.A. § 9-11-4(h) requires signed entry of service; notarized affidavit is accepted instrument; 5 business day filing deadline or answer clock tolls",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Proof filed within 5 business days of service date; late filing tolls defendant's answer clock",
+        "sources": [
+          "O.C.G.A. § 9-11-4(h)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://advance.lexis.com/documentpage/?pdmfid=1000516&crid=0e7b703e-4652-4275-99f2-7b485529459a"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "GA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": 5,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "O.C.G.A. § 9-11-4(h)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am a Citizen of the United States, at least eighteen (18) years of age, not a party to this action, not related to or employed by any party or attorney herein, and am a Certified Process Server pursuant to O.C.G.A. § 9-11-4.1 (Cert. No. {{licenseNumber}}) AND/OR permanently or specially appointed by the Court pursuant to O.C.G.A. § 9-11-4(c).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDate"
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "appointmentOrderDate",
+          "notarizationDate"
+        ]
+      }
+    },
+    "HI": {
+      "stateCode": "HI",
+      "stateName": "Hawaii",
+      "return": {
+        "stateCode": "HI",
+        "stateName": "Hawaii",
+        "allowDeclaration": true,
+        "declarationStatute": "HRS § 634-22; RCCH Rule 7(g); RDCSH Rule 7(g)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Return and Acknowledgment of Service",
+        "declarationFormText": "I DECLARE UNDER PENALTY OF PERJURY UNDER THE LAWS OF THE STATE OF HAWAII that the foregoing is true and correct.",
+        "juratHints": "Court-level dependent: Circuit form 1C-P-022 uses jurat; District form 1DC47 uses unsworn declaration",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Engine must pick execution block by COURT LEVEL (circuit jurat vs district unsworn)",
+        "sources": [
+          "HRS § 634-22",
+          "RCCH Rule 7(g)",
+          "RDCSH Rule 7(g)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.state.hi.us/self-help/serving_the_defendant/serving_the_defendant"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "HI",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "ch634DRegistration"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Haw. R. Civ. P. 4(g)",
+          "HRS § 634D"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and an Independent Civil Process Server registered with the Hawaii Department of Law Enforcement pursuant to HRS Chapter 634D (Reg. No. {{licenseNumber}}).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Service was NOT made between the hours of 10:00 p.m. and 6:00 a.m. on premises not open to the public without written approval of a judge (Haw. R. Civ. P. 4(b)(11))."
+        ],
+        "requiredFooterFields": [
+          "licenseNumber"
+        ]
+      }
+    },
+    "IA": {
+      "stateCode": "IA",
+      "stateName": "Iowa",
+      "return": {
+        "stateCode": "IA",
+        "stateName": "Iowa",
+        "allowDeclaration": true,
+        "declarationStatute": "Iowa Code § 622.1; Iowa R. Civ. P. 1.308",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Certificate of Service",
+        "declarationFormText": "I declare under penalty of perjury that the foregoing is true and correct. Executed on (date).",
+        "juratHints": "Rule 1.308(1) requires non-officer proof by affidavit; § 622.1 unsworn certification reaches proofs of service",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Proof filed by served party's 20-day response window; 90-day service window; Form 1 has NO return section",
+        "sources": [
+          "Iowa R. Civ. P. 1.308",
+          "Iowa Code § 622.1"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.legis.iowa.gov/docs/code/2024/622.1.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "IA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 18,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "nonAttorney"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Iowa R. Civ. P. 1.305",
+          "Iowa Code § 622.1"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, certify that I am over the age of eighteen (18) years and am neither a party to this action nor the attorney for a party to this action (Iowa R. Civ. P. 1.302(4)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": []
+      }
+    },
+    "ID": {
+      "stateCode": "ID",
+      "stateName": "Idaho",
+      "return": {
+        "stateCode": "ID",
+        "stateName": "Idaho",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "CAO Cv 2-4X Affidavit of Service is statewide court-assistance form commonly expected",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Unsworn practice/UUDA-like uncertain; prefer CAO form; stay fail-closed",
+        "sources": [
+          "Idaho R. Civ. P. 4"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": ""
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "ID",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 18,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Idaho R. Civ. P. 4(g)",
+          "Idaho Code § 9-1406"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to the above-entitled action (I.R.C.P. 4(c)(1)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": []
+      }
+    },
+    "IL": {
+      "stateCode": "IL",
+      "stateName": "Illinois",
+      "return": {
+        "stateCode": "IL",
+        "stateName": "Illinois",
+        "allowDeclaration": true,
+        "declarationStatute": "735 ILCS 5/1-109",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Certificate of Service",
+        "declarationFormText": "I certify under penalty of perjury that the foregoing is true and correct.",
+        "juratHints": "735 ILCS 5/2-202 requires private return by affidavit; 5/1-109 certification covers return/proof of service",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Certification under 1-109 has same force as sworn; no notary required",
+        "sources": [
+          "735 ILCS 5/2-202",
+          "735 ILCS 5/1-109"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2017&ChapterID=62"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "IL",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 13,
+          "requiresFollowUpMail": true,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "735 ILCS 5/2-203",
+          "735 ILCS 5/1-109"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of 18 years, not a party to this action, and a Registered Employee of a licensed Private Detective Agency under 225 ILCS 447 (and, for Cook County service, duly registered under the Cook County Sheriff's Order of Registration), or a person appointed by the court under 735 ILCS 5/2-202.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Physical description of person served: Sex: {{recipientSex}}, Race: {{recipientRace}}, Approx. Age: {{recipientAge}} (735 ILCS 5/2-203(b))."
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "agencyLicenseNumber",
+          "recipientPhysicalDescription"
+        ]
+      }
+    },
+    "IN": {
+      "stateCode": "IN",
+      "stateName": "Indiana",
+      "return": {
+        "stateCode": "IN",
+        "stateName": "Indiana",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Trial Rule 4; no mandatory PDF found; content rules still control",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Uncertain; stay fail-closed until primary confirmation",
+        "sources": [
+          "Ind. Trial Rule 4"
+        ],
+        "confidence": "low",
+        "primarySourceUrl": ""
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "IN",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Ind. R. Trial P. 4.15"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to this action (Ind. R. Trial P. 4.12 / 4.15).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": []
+      }
+    },
+    "KS": {
+      "stateCode": "KS",
+      "stateName": "Kansas",
+      "return": {
+        "stateCode": "KS",
+        "stateName": "Kansas",
+        "allowDeclaration": true,
+        "declarationStatute": "K.S.A. 53-601; K.S.A. 60-312(a)(2)",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Return of Service",
+        "declarationFormText": "I declare (or verify, certify or state) under penalty of perjury that the foregoing is true and correct. Executed on (date).",
+        "juratHints": "60-312(a)(2) allows non-officer affidavit OR declaration per 53-601; 14-day return filing deadline",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Judicial Council Return of Service form has both jurat and 53-601 declaration blocks",
+        "sources": [
+          "K.S.A. 60-312",
+          "K.S.A. 53-601"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.kscourts.org/About-the-Courts/General-Information/Rules/Administrative-Rules"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "KS",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "ksaAppointment"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": 14,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "K.S.A. § 60-312",
+          "K.S.A. § 53-601"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and duly appointed/authorized to serve process pursuant to K.S.A. 60-303(d)(3).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Notice: This return of service must be filed with the court promptly and in any event no later than 14 days after service (K.S.A. 60-312(d))."
+        ],
+        "requiredFooterFields": [
+          "appointmentAuthority"
+        ]
+      }
+    },
+    "KY": {
+      "stateCode": "KY",
+      "stateName": "Kentucky",
+      "return": {
+        "stateCode": "KY",
+        "stateName": "Kentucky",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "CR 4.03 return; out-of-state personal service proof by affidavit CR 4.04(8); in-state return less explicit",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Conditional; stay affidavit-only until primary confirmation for in-state private returns",
+        "sources": [
+          "Ky. R. Civ. P. 4.03",
+          "Ky. R. Civ. P. 4.04(8)"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": "https://kycourts.gov/Resources/legalforms/Pages/default.aspx"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "KY",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "specialBailiffAppointment",
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "specialBailiffAppointment",
+            "courtAppointmentOrder"
+          ]
+        },
+        "abode": {
+          "allowed": false,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Kentucky law does not permit substituted abode service on a competent adult; personal delivery or authorized agent required."
+        },
+        "attestations": [
+          "specialBailiffAppointment"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Ky. R. Civ. P. 4.01",
+          "Ky. R. Civ. P. 4.03"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and for in-state service a Special Bailiff duly appointed under Ky. R. Civ. P. 4.01(1), or a person authorized by the law of the place where service is made for out-of-state service under Ky. R. Civ. P. 4.04.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "appointmentOrderDate",
+          "notarizationDate"
+        ]
+      }
+    },
+    "LA": {
+      "stateCode": "LA",
+      "stateName": "Louisiana",
+      "return": {
+        "stateCode": "LA",
+        "stateName": "Louisiana",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Sheriff's Return",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "CCP art. 1292: sheriff's return is the statutory model; private-server original-process path is narrow",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Private-server path depends on authorization; nationwide private affidavit often wrong vehicle",
+        "sources": [
+          "La. C.C.P. art. 1292"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.legis.la.gov/legis/Law.aspx?d=110140"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "LA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "courtAppointmentOrder"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "courtAppointed"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "La. Code Civ. Proc. Ann. art. 1292",
+          "art. 1293"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am of the age of majority, not a party to this action, and duly appointed by Order of the Court dated {{appointmentOrderDate}} pursuant to La. C.C.P. art. 1293, or authorized for out-of-state service pursuant to La. R.S. 13:3204.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "appointmentOrderDate",
+          "notarizationDate"
+        ]
+      }
+    },
+    "MA": {
+      "stateCode": "MA",
+      "stateName": "Massachusetts",
+      "return": {
+        "stateCode": "MA",
+        "stateName": "Massachusetts",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Mass. R. Civ. P. 4(f): non-sheriff/constable shall make affidavit; special appointment required for private servers",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "No statewide private 'affidavit of service' for routine personal service; clerk/mail return receipts often control",
+        "sources": [
+          "Mass. R. Civ. P. 4(f)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.mass.gov/rules-of-civil-procedure/rule-4-f-process"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": true,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Mass. R. Civ. P. 4(f)",
+          "M.G.L. c. 268, § 1A"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and a Constable / Special Process Server duly appointed by the Court pursuant to Mass. R. Civ. P. 4(c).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "If served at last and usual place of abode: I further certify that I mailed a copy of the process via first-class mail, postage prepaid, to the Defendant at said last and usual place of abode (G.L. c. 223, § 31)."
+        ],
+        "requiredFooterFields": [
+          "appointmentOrderDateOrConstableInfo"
+        ]
+      }
+    },
+    "MD": {
+      "stateCode": "MD",
+      "stateName": "Maryland",
+      "return": {
+        "stateCode": "MD",
+        "stateName": "Maryland",
+        "allowDeclaration": true,
+        "declarationStatute": "Md. Rule 1-304",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affirmation of Service",
+        "declarationFormText": "I solemnly affirm under the penalties of perjury that the contents of the foregoing paper are true to the best of my knowledge, information, and belief.",
+        "juratHints": "Rule 2-126(a)/3-126(a): proof filed promptly; non-sheriff affidavit adds age 18+ recital",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Rule 1-304: any required affidavit satisfied by affirmation; NO 72-hour rule (vendor marketing conflation)",
+        "sources": [
+          "Md. Rule 2-126",
+          "Md. Rule 1-304"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.state.md.us/rules/title1/chapter300/rule1-304"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MD",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "serverMailingAddress",
+            "serverPhone",
+            "recipientDescription"
+          ],
+          "physicalDescription": {
+            "required": true
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Md. Rule 2-126",
+          "Md. Rule 1-304"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am a competent private person, eighteen (18) years of age or older, and not a party to the above-entitled action (Md. Rule 2-123(a)). My mailing address and telephone number are stated below (Md. Rule 2-126(a)(3)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Physical description of individual served: Sex: {{recipientSex}}, Race: {{recipientRace}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}} (Md. Rule 2-126(a)(1))."
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "serverPhone",
+          "recipientPhysicalDescription"
+        ]
+      }
+    },
+    "ME": {
+      "stateCode": "ME",
+      "stateName": "Maine",
+      "return": {
+        "stateCode": "ME",
+        "stateName": "Maine",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "M.R.Civ.P. 4(h): non-officer (court appointee under 4(c)(2) or out-of-state under 4(e)) shall make proof by affidavit; officer return unsworn on CV-038",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Appointment-based private serving; 4(e) out-of-state affidavit = time/manner/place; deadlines: file within 20-day response or 90 days from commencement",
+        "sources": [
+          "Me. R. Civ. P. 4(h)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.maine.gov/rules_admin/orders/2021/05-26-21-cv-order.html"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "ME",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": null,
+        "sources": [
+          "Me. R. Civ. P. 4(h)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and a Deputy Sheriff, Constable, or person specially appointed by the Court to serve process pursuant to M. R. Civ. P. 4(b) and 4(c).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serverAuthority",
+          "notarizationDate"
+        ]
+      }
+    },
+    "MI": {
+      "stateCode": "MI",
+      "stateName": "Michigan",
+      "return": {
+        "stateCode": "MI",
+        "stateName": "Michigan",
+        "allowDeclaration": true,
+        "declarationStatute": "MCR 1.109(D)(3)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Verification of Service",
+        "declarationFormText": "I declare under the penalties of perjury that this _________ has been examined by me and that its contents are true to the best of my information, knowledge, and belief.",
+        "juratHints": "MCR 2.104(A)(3) allows private server written statement verified under 1.109(D)(3)",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "SCAO memo 2023-03-28: declaration under penalty of perjury; notarization removed from forms",
+        "sources": [
+          "MCR 2.104",
+          "MCR 1.109(D)(3)",
+          "MCL 600.1910"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.michigan.gov/rules/michigan-court-rules/"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MI",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "MCR 2.104",
+          "MCR 1.109(D)(3)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am a legally competent adult eighteen (18) years of age or older and not a party or an officer of a corporate party to this action (MCR 2.103(A)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serviceFee",
+          "mileageFee"
+        ]
+      }
+    },
+    "MN": {
+      "stateCode": "MN",
+      "stateName": "Minnesota",
+      "return": {
+        "stateCode": "MN",
+        "stateName": "Minnesota",
+        "allowDeclaration": true,
+        "declarationStatute": "Minn. Gen. R. Prac. 15; Minn. Stat. § 358.116",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Proof of Service",
+        "declarationFormText": "I declare under penalty of perjury that the foregoing is true and correct.",
+        "juratHints": "Minn. R. Civ. P. 4.06 allows affidavit; Gen. R. Prac. 15 + § 358.116 allows penalty-of-perjury documents as affidavits",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Must state time, place, manner; penalty-of-perjury signature built for e-file",
+        "sources": [
+          "Minn. R. Civ. P. 4.06",
+          "Minn. Gen. R. Prac. 15",
+          "Minn. Stat. § 358.116"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": "https://www.revisor.mn.gov/rules/?id=15"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MN",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Minn. R. Civ. P. 4.06",
+          "Minn. Stat. § 358.116"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am not less than eighteen (18) years of age and not a party to the above-entitled action (Minn. R. Civ. P. 4.02).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Service was not made on a Sunday (Minn. Stat. § 624.04) or on a statutory legal holiday (Minn. Stat. § 645.44, subd. 5)."
+        ],
+        "requiredFooterFields": [
+          "signingCounty",
+          "signingState"
+        ]
+      }
+    },
+    "MO": {
+      "stateCode": "MO",
+      "stateName": "Missouri",
+      "return": {
+        "stateCode": "MO",
+        "stateName": "Missouri",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "§ 506.180.2: private server shall make affidavit as to time, place and manner; out-of-state oath before any empowered officer",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Rule 54.20 cite unverified - use § 506.180 statute instead",
+        "sources": [
+          "Mo. Rev. Stat. § 506.180"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=506.180"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MO",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 15,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Mo. Sup. Ct. R. 54.20",
+          "RSMo § 506.180"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and duly appointed/authorized to serve process pursuant to Mo. Sup. Ct. R. 54.13(a) / 54.14 (Appointment/Registration No. {{licenseNumber}}).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "appointmentOrderNumber",
+          "notarizationDate"
+        ]
+      }
+    },
+    "MS": {
+      "stateCode": "MS",
+      "stateName": "Mississippi",
+      "return": {
+        "stateCode": "MS",
+        "stateName": "Mississippi",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "MRCP 4(f): non-sheriff shall make affidavit thereof; whole official rules PDF grep = zero 'unsworn'",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "No unsworn substitute confirmed for returns of service",
+        "sources": [
+          "Miss. R. Civ. P. 4(f)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://courts.ms.gov/rules/msrcp/msrcp4.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MS",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 16,
+          "requiresFollowUpMail": true,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Miss. R. Civ. P. 4(f)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age and not a party to this action (M.R.C.P. 4(c)(1)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "notarizationDate"
+        ]
+      }
+    },
+    "MT": {
+      "stateCode": "MT",
+      "stateName": "Montana",
+      "return": {
+        "stateCode": "MT",
+        "stateName": "Montana",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Rule 4(r)(1)(B): non-officer that person's affidavit; MT adopted UUFDA (26-1-1103) - foreign-declarant-only, NOT generic UUDA",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Affidavit states: time, date, place, manner of service + server of legal age + knew the person served; UUFDA = foreign only",
+        "sources": [
+          "Mont. R. Civ. P. 4(r)",
+          "MCA 26-1-1103"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://leg.mt.gov/bills/mca/title_260/chapter_100/part_10/section_103/26-1-1103-01-01-2025.html"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "MT",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "processServerRegistrationNumber",
+            "registrationCounty"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": false,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Montana law does not permit substituted abode service on a competent adult; personal delivery or authorized agent required."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Mont. R. Civ. P. 4(l)",
+          "MCA § 1-6-105"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action (M. R. Civ. P. 4(d)(2)), and am a Registered Process Server in {{registrationCounty}} County, State of Montana (Reg. No. {{licenseNumber}}), or exempt from registration under Mont. Code Ann. § 25-1-1101 as a person making ten (10) or fewer services per calendar year.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "registrationCounty"
+        ]
+      }
+    },
+    "NC": {
+      "stateCode": "NC",
+      "stateName": "North Carolina",
+      "return": {
+        "stateCode": "NC",
+        "stateName": "North Carolina",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "N.C. R. Civ. P. 4(j2)(1) points to G.S. 1-75.10 for default judgments; non-officer affidavit recitals: place/time/manner + qualifications + knew person served",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "No statewide registration; G.S. 1-75.10(a)(1)b requires knowing the person served to be the defendant",
+        "sources": [
+          "N.C. R. Civ. P. 4",
+          "G.S. 1-75.10"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/PDF/BySection/Chapter_1/GS_1-75.10.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "NC",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder",
+            "knewPersonServedAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "sheriffUnexecutedReturn",
+            "clerkAppointmentOrder"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "age21",
+          "nonParty",
+          "notRelated",
+          "knewPersonServed"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "N.C. Gen. Stat. § 1-75.10",
+          "N.C. R. Civ. P. 4(j)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least twenty-one (21) years of age, not a party to the action, and not related by blood or marriage to a party to the action or to a person upon whom service is to be made, and am qualified to make service under N.C. R. Civ. P. 4(a), 4(h), 4(h1), or 4(j3).",
+        "qualificationTextUnserved": "I, {{serverName}}, being duly sworn, depose and state that I am at least twenty-one (21) years of age, not a party to the action, and not related by blood or marriage to a party to the action or to a person upon whom service is to be made, and am qualified to make service under N.C. R. Civ. P. 4(a), 4(h), 4(h1), or 4(j3).",
+        "requiredBodyClauses": [
+          "I knew the person served to be the party mentioned in the summons and delivered to and left with him/her a copy (N.C. Gen. Stat. § 1-75.10(a)(1)b)."
+        ],
+        "requiredFooterFields": [
+          "notarizationDate"
+        ]
+      }
+    },
+    "ND": {
+      "stateCode": "ND",
+      "stateName": "North Dakota",
+      "return": {
+        "stateCode": "ND",
+        "stateName": "North Dakota",
+        "allowDeclaration": true,
+        "declarationStatute": "N.D.R.Civ.P. 4(i); N.D.C.C. ch. 31-15",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare, under penalty of perjury under the law of North Dakota, that the foregoing is true and correct. Signed on [date] at [city, state/country]",
+        "juratHints": "Rule 4(i) as amended eff. 3/1/2021: private server proof = declaration under penalty of perjury; word 'affidavit' eliminated",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Chapter 31-15 applies to declarants in the U.S.; proof files WITH initiating pleading",
+        "sources": [
+          "N.D.R.Civ.P. 4(i)",
+          "N.D.C.C. § 31-15-05"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.ndcourts.gov/legal-resources/rules-procedures"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "ND",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "notInterestedAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "legalAge",
+          "nonParty",
+          "notInterested"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "N.D. R. Civ. P. 4(i)",
+          "N.D.C.C. § 31-15-05"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am of legal age (eighteen (18) years or older) and am neither a party to nor interested in the above-entitled action (N.D.R.Civ.P. 4(d)(1)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "signingCounty",
+          "signingState"
+        ]
+      }
+    },
+    "NE": {
+      "stateCode": "NE",
+      "stateName": "Nebraska",
+      "return": {
+        "stateCode": "NE",
+        "stateName": "Nebraska",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Service Return",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Official CC 3:21 form; private path swear/affirm + notary acknowledgment; § 25-507.01 requires signed proof but NO oath/affidavit language",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "UUDA status unverified; stay affidavit-only until confirmed; Neb. Rev. Stat. § 25-507.01 content requirements",
+        "sources": [
+          "Neb. Rev. Stat. § 25-507.01",
+          "NE form CC 3:21"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://nebraskalegislature.gov/laws/statutes.php?statute=25-507.01"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "NE",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Neb. Rev. Stat. § 25-507.01"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action, and duly appointed to serve this process pursuant to Neb. Rev. Stat. §§ 25-506.01 / 25-507 (or authorized by the law of the jurisdiction where out-of-state service was made pursuant to Neb. Rev. Stat. § 25-540).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDate"
+        ],
+        "requiredFooterFields": [
+          "appointmentAuthority",
+          "notarizationDate"
+        ]
+      }
+    },
+    "NH": {
+      "stateCode": "NH",
+      "stateName": "New Hampshire",
+      "return": {
+        "stateCode": "NH",
+        "stateName": "New Hampshire",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "RSA 509:3: writs directed to sheriff only; private person serves only as sheriff-appointed special deputy; RSA 510:2-a: service details endorsed ON THE WRIT",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Out-of-state/nonresident path requires JP/notary signature; return filed within 21 days of court-set service deadline",
+        "sources": [
+          "RSA 509:3",
+          "RSA 510:2-a",
+          "RSA 510:4"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.state.nh.us/rules/superior/index.htm"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "NH",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "withoutAttachment"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "N.H. Super. Ct. R. 4(d)",
+          "RSA 516:19-a"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to this action (N.H. Super. Ct. R. 4(c)(1) / RSA 510:2).",
+        "qualificationTextUnserved": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to this action (N.H. Super. Ct. R. 4(c)(1) / RSA 510:2).",
+        "requiredBodyClauses": [
+          "At the time of service, I indicated on the writ or process delivered to the Defendant the time, place, and mode of service made upon the Defendant (RSA 510:2-a)."
+        ],
+        "requiredFooterFields": []
+      }
+    },
+    "NJ": {
+      "stateCode": "NJ",
+      "stateName": "New Jersey",
+      "return": {
+        "stateCode": "NJ",
+        "stateName": "New Jersey",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "R. 4:4-7: proof by affidavit; AOC form CN 10516 carries BOTH jurat AND penalty-of-perjury blocks; jurat is primary",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "R. 1:4-4(b) certification alternative exists but jurat-form default safest; non-sheriff: facts of diligent inquiry required",
+        "sources": [
+          "N.J. Ct. R. 4:4-7",
+          "N.J. Ct. R. 1:4-4(b)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.njcourts.gov/attorneys/rules/r4-4-7"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "NJ",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": true
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": true,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "N.J. Ct. R. 4:4-7"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, residing or having a business address as stated below, state that I am a competent adult at least eighteen (18) years of age, not a party to this action, and have no direct interest in the litigation (N.J. Ct. R. 4:4-3(a); 4:4-7).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Physical description of person served: Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}."
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "recipientPhysicalDescription"
+        ]
+      }
+    },
+    "NM": {
+      "stateCode": "NM",
+      "stateName": "New Mexico",
+      "return": {
+        "stateCode": "NM",
+        "stateName": "New Mexico",
+        "allowDeclaration": false,
+        "declarationStatute": "Rule 1-011(B) NMRA; Rule 23-115 NMRA",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I affirm under penalty of perjury under the laws of the State of New Mexico that the foregoing is true and correct.",
+        "juratHints": "Rule 1-004(L): non-sheriff proof by affidavit; Form 4-206 return mandates notarized signature; Rule 1-011(B) affirmation exists but form requires notary",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Form 4-206 fields: qualification recital (18+, not a party), 7 service-method checkboxes, fees, signature/title, sheriff-exempt jurat",
+        "sources": [
+          "NMRA 1-004(L)",
+          "NMRA 1-011(B)",
+          "Form 4-206"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.nmcourts.gov/forms/4-206.aspx"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "NM",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 15,
+          "requiresFollowUpMail": true,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "N.M. R. Civ. P. 1-004(L)",
+          "Rule 1-011(B)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to the above-entitled action (Rule 1-004(D)(1) NMRA).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serviceFee"
+        ]
+      }
+    },
+    "NV": {
+      "stateCode": "NV",
+      "stateName": "Nevada",
+      "return": {
+        "stateCode": "NV",
+        "stateName": "Nevada",
+        "allowDeclaration": true,
+        "declarationStatute": "NRCP 4(d); NRS 53.045",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare under penalty of perjury that the foregoing is true and correct. Executed on the __ day of __, ___",
+        "juratHints": "NRS 53.045 allows unsworn declaration; in-state vs out-of-state wording differs",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "NRCP 4(d)(1) requires proof by affidavit; NRS 53.045 declaration substantively satisfies",
+        "sources": [
+          "NRCP 4(d)",
+          "NRS 53.045"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.leg.state.nv.us/NRS/NRS-053.html#NRS053Sec045"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "NV",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "pilbLicenseNumberOrExemption"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": true,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "notAdverseParty"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Nev. R. Civ. P. 4(f)",
+          "NRS § 53.045"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age, not a party to this action (NRCP 4(c)(3)), and hold a Nevada Private Investigator's Licensing Board Process Server permit or work permit under NRS 648.112.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "licenseNumber"
+        ]
+      }
+    },
+    "NY": {
+      "stateCode": "NY",
+      "stateName": "New York",
+      "return": {
+        "stateCode": "NY",
+        "stateName": "New York",
+        "allowDeclaration": true,
+        "declarationStatute": "CPLR 2106 (eff. 2024)",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affirmation of Service",
+        "declarationFormText": "I affirm this ___ day of ______, ____, under the penalties of perjury under the laws of New York, which may include a fine or imprisonment, that the foregoing is true, and I understand that this document may be filed in an action or proceeding in a court of law.",
+        "juratHints": "CPLR 2106 affirmation mandatory wording; covers proof of service under CPLR 306(d)",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "CPLR 306(d) requires affidavit form; 2106 allows affirmation substitute with mandatory block text",
+        "sources": [
+          "CPLR 306",
+          "CPLR 2106"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/CVP/2106"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "NY",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "physicalDescription"
+          ],
+          "physicalDescription": {
+            "required": true
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "CPLR 306",
+          "CPLR 2106"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, affirm that I am over the age of eighteen (18) years, not a party to this action, and reside at the address stated below (N.Y. CPLR 2103(a)) (NYC DCWP License No. {{licenseNumber}}).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Description of person served (CPLR 306(b)): Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}.",
+          "Military Service Inquiry: I asked the person spoken to whether the Defendant/Recipient was in active military service of the United States or of the State of New York in any capacity whatever, and received a negative reply."
+        ],
+        "requiredFooterFields": [
+          "licenseNumberIfNYC",
+          "recipientPhysicalDescription",
+          "militaryInquiry"
+        ]
+      }
+    },
+    "OH": {
+      "stateCode": "OH",
+      "stateName": "Ohio",
+      "return": {
+        "stateCode": "OH",
+        "stateName": "Ohio",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Endorsement",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Civ.R. 4.1(B)(2)(a): court-designated server endorses service on the process and returns to clerk; no affidavit or declaration needed",
+        "eSignAffidavit": "no",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "OVERTURN: Ohio uses endorsement model, not affidavit/declaration for personal/residence service",
+        "sources": [
+          "Ohio Civ.R. 4.1"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.supremecourt.ohio.gov/JCS/CFC/RuleAmendments/2020/020420/CivR_4-1.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "OH",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 16,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "courtAppointed18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Ohio Civ. R. 4.1",
+          "Civ. R. 4.3"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age, not a party to this action, and have been designated by Order of the Court / Standing Appointment (Order No. {{licenseNumber}}) to make personal/residence service pursuant to Ohio Civ.R. 4.1(B)(2).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "appointmentOrderNumber",
+          "notarizationDate"
+        ]
+      }
+    },
+    "OK": {
+      "stateCode": "OK",
+      "stateName": "Oklahoma",
+      "return": {
+        "stateCode": "OK",
+        "stateName": "Oklahoma",
+        "allowDeclaration": true,
+        "declarationStatute": "12 O.S. § 426",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I state under penalty of perjury under the laws of Oklahoma that the foregoing is true and correct.",
+        "juratHints": "12 O.S. § 2004(G)(2) requires licensed process server affidavit; § 426 allows unsworn substitute",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "12 O.S. § 426 excludes certain documents but return of service is not excluded",
+        "sources": [
+          "12 O.S. § 426",
+          "12 O.S. § 2004(G)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://oklahoma.gov/content/dam/ok/en/oscn/supreme_court_decisions/2024/2024_OK_426.pdf"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "OK",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 15,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Substituted abode: co-resident over the age of 15 (firm recital)."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "12 O.S. § 2004",
+          "12 O.S. § 426",
+          "12 O.S. § 158.1"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age, not a party to this action, and a licensed Private Process Server in and for the State of Oklahoma, License No. {{licenseNumber}} (12 O.S. § 158.1; 12 O.S. § 2004).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "cameToHandDate"
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "serviceFee"
+        ]
+      }
+    },
+    "OR": {
+      "stateCode": "OR",
+      "stateName": "Oregon",
+      "return": {
+        "stateCode": "OR",
+        "stateName": "Oregon",
+        "allowDeclaration": true,
+        "declarationStatute": "ORCP 7 F; ORCP 1 E",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Certificate of Service",
+        "declarationFormText": "I hereby declare that the above statement is true to the best of my knowledge and belief, and that I understand it is made for use as evidence in court and is subject to penalty for perjury.",
+        "juratHints": "ORCP 1 E allows declaration in lieu of any affidavit; Certificate of Service is preferred",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "ORCP 7 F(2)(a)(i) for non-sheriff certificate; publication proof: affidavit OR declaration per ORCP 7 F(2)(b)",
+        "sources": [
+          "ORCP 7 F",
+          "ORCP 1 E"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.oregon.gov/rules/Pages/default.aspx"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "OR",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "residentOfStateAttestation",
+            "knewIdenticalPersonAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 14,
+          "requiresFollowUpMail": true,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "residentOfState",
+          "notEmployeeOrRelativeOfParty",
+          "knewIdenticalPerson"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "ORCP 7 F",
+          "ORCP 1 E"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, certify that I am a competent person 18 years of age or older, a resident of the State of Oregon or the State in which service was made, and am not a party to the action nor an officer, director, or employee of, nor attorney for, any party, corporate or otherwise (ORCP 7 E; ORCP 7 F(2)(a)(i)). I further certify that I knew that the person, firm, or corporation served is the identical one named in the action (ORCP 7 F(2)(a)(i)).",
+        "qualificationTextUnserved": "I, {{serverName}}, certify that I am a competent person 18 years of age or older, a resident of the State of Oregon or the State in which service was attempted, and am not a party to the action nor an officer, director, or employee of, nor attorney for, any party, corporate or otherwise (ORCP 7 E; ORCP 7 F(2)).",
+        "requiredBodyClauses": [
+          "I further certify that I knew that the person, firm, or corporation served is the identical one named in the action (ORCP 7 F(2)(a)(i))."
+        ],
+        "requiredFooterFields": [
+          "serverStateOfResidence"
+        ]
+      }
+    },
+    "PA": {
+      "stateCode": "PA",
+      "stateName": "Pennsylvania",
+      "return": {
+        "stateCode": "PA",
+        "stateName": "Pennsylvania",
+        "allowDeclaration": true,
+        "declarationStatute": "Pa.R.C.P. 76; 42 Pa.C.S. § 6206; 18 Pa.C.S. § 4904",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Verification of Service",
+        "declarationFormText": "I declare under penalty of perjury under the law of the Commonwealth of Pennsylvania that the foregoing is true and correct. Signed on (date) at (city/location, state, country)",
+        "juratHints": "Rule 76 defines affidavit to include unsworn statement subject to 18 Pa.C.S. § 4904; § 6206 provides mandatory form",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Pa.R.C.P. 405(d) requires affidavit; Rule 76 + § 4904 allows unsworn verification",
+        "sources": [
+          "Pa.R.C.P. 405",
+          "Pa.R.C.P. 76",
+          "42 Pa.C.S. § 6206",
+          "18 Pa.C.S. § 4904"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/042/partII/Ch.%2062.pdf&d=reduce"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "PA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "philadelphiaCounty",
+            "specialActionType",
+            "outOfState"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "notEmployeeOrRelativeOfParty"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Pa. R. Civ. P. 405",
+          "Pa. R. Civ. P. 76",
+          "18 Pa.C.S. § 4904"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, verify that I am a competent adult eighteen (18) years of age or older and am neither a party to the action nor an employee or a relative of a party (Pa.R.C.P. No. 76; Rule 400.1 / 400(b) / 404).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": []
+      }
+    },
+    "RI": {
+      "stateCode": "RI",
+      "stateName": "Rhode Island",
+      "return": {
+        "stateCode": "RI",
+        "stateName": "Rhode Island",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Rule 4(j): non-officer private server shall make affidavit thereof; officers sign unsworn official return on SC-CMS-1 summons",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "UUDA bill introduced but NOT enacted; 120 days to serve; proof returned forthwith",
+        "sources": [
+          "R.I. Super. Ct. Civ. R. 4(j)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.ri.gov/Courts/SupremeCourt/Pages/Superior-Court-Rules.aspx"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "RI",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "R.I. Super. Ct. R. Civ. P. 4(g)",
+          "R.I. Gen. Laws § 9-5-24"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age and not a party to the above-entitled action (R.I. Super. R. Civ. P. 4(c)) (Certified Constable License No. {{licenseNumber}}).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Service was not made on Sunday in violation of R.I. Gen. Laws § 9-5-24."
+        ],
+        "requiredFooterFields": [
+          "notarizationDate"
+        ]
+      }
+    },
+    "SC": {
+      "stateCode": "SC",
+      "stateName": "South Carolina",
+      "return": {
+        "stateCode": "SC",
+        "stateName": "South Carolina",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "SCRCP 4(g): non-sheriff shall make affidavit; S.C. Code §15-10-220 allows swear OR affirm but form mandates notarization",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Form 4-206 return historically shows oath/notary block; safer practice: notarized affidavit",
+        "sources": [
+          "SCRCP 4(g)",
+          "S.C. Code § 15-10-220"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.sccourts.org/forms/pdf/4-206.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "SC",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": 10,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "notAttorney"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "S.C. R. Civ. P. 4(g)",
+          "S.C. Code Ann. § 53-1-20"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age and am neither an attorney in nor a party to this action (SCRCP 4(c)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Service was not made on Sunday in violation of S.C. Code Ann. § 15-9-17."
+        ],
+        "requiredFooterFields": [
+          "notarizationDate"
+        ]
+      }
+    },
+    "SD": {
+      "stateCode": "SD",
+      "stateName": "South Dakota",
+      "return": {
+        "stateCode": "SD",
+        "stateName": "South Dakota",
+        "allowDeclaration": true,
+        "declarationStatute": "SDCL § 18-7-6",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Declaration of Service",
+        "declarationFormText": "I declare under penalty of perjury under the law of South Dakota that the foregoing is true and correct. Signed on [date] at [city/location, state]",
+        "juratHints": "SDCL § 18-7-6 (SL 2018) provides UUDA-style declaration; applies with 15-6-4(g) non-officer affidavit requirement",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Foreign-declarant twin = § 18-6-6 (adds country field)",
+        "sources": [
+          "SDCL § 18-7-6",
+          "SDCL 15-6-4(g)"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": "https://sdlegislature.gov/Statutes/Codified_Laws/18-7-6"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "SD",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "electorAttestation",
+            "knewPersonServedAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 14,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "electorOfAnyState",
+          "nonParty",
+          "knewPersonServed"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "SDCL § 15-6-4(g)",
+          "SDCL § 18-7-6"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and at the time of making service was an elector of the State of {{serverStateOfResidence}} (SDCL 15-6-4(c)). I knew the person served to be the person named as Defendant in the summons (SDCL 15-7-8).",
+        "qualificationTextUnserved": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and at the time of attempting service was an elector of the State of {{serverStateOfResidence}} (SDCL 15-6-4(c)).",
+        "requiredBodyClauses": [
+          "I knew the person served to be the person named as Defendant in the summons (SDCL 15-7-8)."
+        ],
+        "requiredFooterFields": [
+          "serverElectorState"
+        ]
+      }
+    },
+    "TN": {
+      "stateCode": "TN",
+      "stateName": "Tennessee",
+      "return": {
+        "stateCode": "TN",
+        "stateName": "Tennessee",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Proof of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Tenn. R. Civ. P. 4.03 requires prompt proof; summons packaging court-driven",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Uncertain if declaration accepted; stay affidavit-only until primary confirmation",
+        "sources": [
+          "Tenn. R. Civ. P. 4.03"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": "https://www.tncourts.gov/programs/self-help-center/legal-forms"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "TN",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "serverAddress"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": true,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Tenn. R. Civ. P. 4.03",
+          "Tenn. R. Civ. P. 72",
+          "Tenn. Code Ann. § 20-2-106"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, residing or having a business address as stated below, state that I am not less than eighteen (18) years of age and not a party to this action (Tenn. R. Civ. P. 4.01(2)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "serverAddress"
+        ]
+      }
+    },
+    "TX": {
+      "stateCode": "TX",
+      "stateName": "Texas",
+      "return": {
+        "stateCode": "TX",
+        "stateName": "Texas",
+        "allowDeclaration": true,
+        "declarationStatute": "Tex. R. Civ. P. 107(e); Tex. Civ. Prac. & Rem. Code § 132.001",
+        "requiresNotaryForReturn": false,
+        "affidavitTitle": "Certificate of Service",
+        "declarationTitle": "Return of Service",
+        "declarationFormText": "My name is ___, I am at least 18 years old, and my address is ___, ___, ___, ___, and ___. I declare under penalty of perjury that the foregoing is true and correct. Executed in ___ County, State of ___, on the ___ day of ___, ___",
+        "juratHints": "TRCP 107(e) allows penalty-of-perjury declaration; CPRC § 132.001 confirms UUDA adoption",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "TRCP 107(g) allows electronic/fax filing; Rule 107 form language must be substantially followed",
+        "sources": [
+          "Tex. R. Civ. P. 107",
+          "Tex. Civ. Prac. & Rem. Code § 132.001"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.txcourts.gov/rules-forms/rules-procedures/texas-rules-of-civil-procedure/"
+      },
+      "engineEnforcedDeclaration": true,
+      "content": {
+        "stateCode": "TX",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": true,
+            "wording": "The process came to hand on {receivedDate} at {receivedTime}."
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": true
+          },
+          "certificationFields": {
+            "required": true
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 16,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "texas107eDeclarationWithDOB"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Tex. R. Civ. P. 107",
+          "Tex. Civ. Prac. & Rem. Code § 132.001"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the outcome of this suit, and am certified by the Texas Judicial Branch Certification Commission to serve process, Certification No. {{licenseNumber}}, Expiration Date: {{licenseExpirationDate}} (Tex. R. Civ. P. 103; 107(b)(10)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "The process came to hand on the date and at the time stated above (Tex. R. Civ. P. 107(b)(4))."
+        ],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "licenseExpirationDate",
+          "serverAddress"
+        ]
+      }
+    },
+    "UT": {
+      "stateCode": "UT",
+      "stateName": "Utah",
+      "return": {
+        "stateCode": "UT",
+        "stateName": "Utah",
+        "allowDeclaration": true,
+        "declarationStatute": "Utah R. Civ. P. 4(e)(1); Utah Code Tit. 78B, Ch. 18a (UUDA)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Proof of Service",
+        "declarationFormText": "I declare under criminal penalty under the law of Utah that everything stated in this document is true. Signed at ___ (city, and state or country).",
+        "juratHints": "URCP 4(e)(1) expressly allows unsworn declaration for non-attorney/sheriff/constable/USMS servers",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Official proof form 1020GE uses unsworn declaration",
+        "sources": [
+          "Utah R. Civ. P. 4(e)",
+          "Utah Code Tit. 78B, Ch. 18a"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.utcourts.gov/resources/rules/urcp/"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "UT",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "felonyDisqualificationAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "nonAttorney",
+          "felonyDisqualification"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Utah R. Civ. P. 4(e)",
+          "Utah Code § 78B-18a-106",
+          "Utah Code § 78B-8-302(7)"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, declare that I am eighteen (18) years of age or older at the time of service, am neither a party to this action nor a party's attorney (Utah R. Civ. P. 4(d)(1)), and am not disqualified under Utah Code § 78B-8-302(7) (I have not been convicted of a felony sex offense requiring registration and am not a respondent under an active protective order or stalking injunction).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "signingCity",
+          "signingState"
+        ]
+      }
+    },
+    "VA": {
+      "stateCode": "VA",
+      "stateName": "Virginia",
+      "return": {
+        "stateCode": "VA",
+        "stateName": "Virginia",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "§ 8.01-325(B)(2): private server affidavit of qualifications + date/manner of service + name served; stamp/annotation required",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "72-hour return window; private-server status + server name/address/telephone must be annotated on return",
+        "sources": [
+          "Va. Code § 8.01-325"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://law.lis.virginia.gov/vacode/title8.01/chapter8/section8.01-325/"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "VA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "serverAddress",
+            "serverPhone",
+            "notInterestedAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": 3,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 16,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": true,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18",
+          "notInterested"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Va. Code § 8.01-325",
+          "Va. Code § 8.01-296"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, whose address and telephone number are stated below, being duly sworn, state that I am of age eighteen (18) years or older and am not a party to or otherwise interested in the subject matter in controversy in this action (Va. Code §§ 8.01-293, 8.01-325(3)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Notice: This return must be filed with the Clerk's Office within 72 hours after service (Va. Code § 8.01-294)."
+        ],
+        "requiredFooterFields": [
+          "serverAddress",
+          "serverPhone",
+          "notarizationDate"
+        ]
+      }
+    },
+    "VT": {
+      "stateCode": "VT",
+      "stateName": "Vermont",
+      "return": {
+        "stateCode": "VT",
+        "stateName": "Vermont",
+        "allowDeclaration": true,
+        "declarationStatute": "V.R.C.P. 43(h); 4 V.S.A. § 27b (eff. July 1, 2025)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Return of Service",
+        "declarationFormText": "I declare that the above statement is true and accurate to the best of my knowledge and belief. I understand that if the above statement is false, I will be subject to the penalty of perjury or to other sanctions in the discretion of the court.",
+        "juratHints": "Rule 43(h) applies to ANY affidavit/oath required by the rules with no exceptions; reaches 4(i) non-officer returns",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Indifferent-person appointment still required (4(c) + 12 V.S.A. § 731); 60-day service window",
+        "sources": [
+          "V.R.C.P. 43(h)",
+          "4 V.S.A. § 27b"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.vermontjudiciary.org/LC?sc=VRCP/43(h)"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "VT",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "courtAppointmentOrder"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": true,
+          "officerExceptionFields": [
+            "courtAppointmentOrder"
+          ]
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "sheriffOrIndifferentPerson"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "V.R.C.P. 4(g)",
+          "12 V.S.A. § 691"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am a Sheriff, Deputy Sheriff, Constable, or Indifferent Person specially appointed for this purpose by the Court pursuant to V.R.C.P. 4(c), or a person authorized to serve process in the place of out-of-state service under V.R.C.P. 4(e).",
+        "qualificationTextUnserved": "I, {{serverName}}, state that I am a person authorized to serve process — Sheriff, Deputy Sheriff, Constable, Indifferent Person specially appointed for this purpose by the Court, or a person authorized to serve process in the place of out-of-state service (V.R.C.P. 4(c), 4(e)).",
+        "requiredBodyClauses": [
+          "I endorsed the date of service upon the copy of the process left with the Defendant or other person (V.R.C.P. 4(i))."
+        ],
+        "requiredFooterFields": [
+          "serverAuthority",
+          "dateEndorsedOnCopyConfirm"
+        ]
+      }
+    },
+    "WA": {
+      "stateCode": "WA",
+      "stateName": "Washington",
+      "return": {
+        "stateCode": "WA",
+        "stateName": "Washington",
+        "allowDeclaration": false,
+        "declarationStatute": "RCW 5.50 (UUDA) - in-state only",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I declare under penalty of perjury under the law of the State of Washington that the foregoing is true and correct.",
+        "juratHints": "CR 4(g)(6) requires notarized affidavit for out-of-state personal service; in-state: declaration OK",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "court_dependent",
+        "nonServiceSameFamily": true,
+        "notes": "UUDA adopted but CR 4(g)(6) overrides for out-of-state service - notarized affidavit required",
+        "sources": [
+          "Wash. Super. Ct. Civ. R. 4(g)",
+          "RCW 5.50"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://www.courts.wa.gov/newsinfo/content/rules/CR%202020.pdf"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "WA",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": null,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "Wash. Super. Ct. Civ. R. 4(g)",
+          "RCW 4.28.180"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, not a party to this action (CR 4(c)), and am a Registered Process Server in and for {{registrationCounty}} County, State of Washington, Registration No. {{licenseNumber}} pursuant to RCW 18.180.010 and RCW 18.180.030.",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": [
+          "licenseNumber",
+          "registrationCounty",
+          "signingCity",
+          "signingState"
+        ]
+      }
+    },
+    "WI": {
+      "stateCode": "WI",
+      "stateName": "Wisconsin",
+      "return": {
+        "stateCode": "WI",
+        "stateName": "Wisconsin",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Routine proof = plain unsworn proof of service (§801.10(3), form-free, failure harmless); affidavit required ONLY upon challenge (§801.10(4)(a))",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Keep affidavit-only (conservative) for v1; document the challenge rule; §906.06(2m) substitute question OPEN",
+        "sources": [
+          "Wis. Stat. § 801.10"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/801/10"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "WI",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [
+            "knewPersonServedAttestation"
+          ],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 14,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": true,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "residentOfState",
+          "knewPersonServed"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Wis. Stat. § 801.10",
+          "Wis. Stat. § 887.015"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action. I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. § 801.10(4)(a)). At the time of service, I endorsed upon the copy of the summons served the date of service, the time of service, my signature, and my title, if any (Wis. Stat. § 801.10(2)).",
+        "qualificationTextUnserved": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action.",
+        "requiredBodyClauses": [
+          "I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. § 801.10(4)(a)).",
+          "At the time of service, I endorsed upon the copy of the summons served the date of service, the time of service, my signature, and my title, if any (Wis. Stat. § 801.10(2))."
+        ],
+        "requiredFooterFields": [
+          "serverStateOfResidence",
+          "endorsedServedCopyConfirm"
+        ]
+      }
+    },
+    "WV": {
+      "stateCode": "WV",
+      "stateName": "West Virginia",
+      "return": {
+        "stateCode": "WV",
+        "stateName": "West Virginia",
+        "allowDeclaration": false,
+        "declarationStatute": "",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "",
+        "juratHints": "Family form SCA-FC-132 exists; civil less standardized; affidavit practice common",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "no",
+        "nonServiceSameFamily": true,
+        "notes": "Secondary sources report declaration OK but not primary-verified; stay fail-closed",
+        "sources": [
+          "W. Va. R. Civ. P. 4"
+        ],
+        "confidence": "medium",
+        "primarySourceUrl": ""
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "WV",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": true,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 18,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": false,
+        "sources": [
+          "W. Va. R. Civ. P. 4(f)",
+          "W. Va. Code § 56-3-16"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age and not a party to the above-entitled action (W. Va. R. Civ. P. 4(c)(2); 4(h)(1)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [
+          "Service was not made on a Sunday in violation of W. Va. Code § 56-3-16."
+        ],
+        "requiredFooterFields": [
+          "notarizationDate"
+        ]
+      }
+    },
+    "WY": {
+      "stateCode": "WY",
+      "stateName": "Wyoming",
+      "return": {
+        "stateCode": "WY",
+        "stateName": "Wyoming",
+        "allowDeclaration": true,
+        "declarationStatute": "Wyo. Stat. § 1-2-104; W.R.C.P. 4(s)",
+        "requiresNotaryForReturn": true,
+        "affidavitTitle": "Affidavit of Service",
+        "declarationTitle": "Certificate of Service",
+        "declarationFormText": "I certify under penalty of false swearing that the foregoing is true.",
+        "juratHints": "Wyoming-specific phrase: 'penalty of false swearing' not 'penalty of perjury'; § 1-2-104 certification satisfies without notary",
+        "eSignAffidavit": "court_dependent",
+        "eSignDeclaration": "yes",
+        "nonServiceSameFamily": true,
+        "notes": "Engine must use the § 1-2-104 phrase exactly; false certification = false swearing under § 6-5-303(c)",
+        "sources": [
+          "Wyo. Stat. § 1-2-104",
+          "W.R.C.P. 4(s)"
+        ],
+        "confidence": "high",
+        "primarySourceUrl": "https://wyoleg.gov/Statutes/Statutes.aspx?Statute=1-2-104"
+      },
+      "engineEnforcedDeclaration": false,
+      "content": {
+        "stateCode": "WY",
+        "status": "verified",
+        "render": {
+          "cameToHand": {
+            "required": false,
+            "wording": ""
+          },
+          "documentsList": {
+            "required": true,
+            "label": "Documents served (all pleadings):"
+          },
+          "recipientCapacity": {
+            "required": false,
+            "wording": ""
+          },
+          "serverContactFields": [],
+          "physicalDescription": {
+            "required": false
+          },
+          "authorityFormula": null,
+          "nonServiceDiligence": {
+            "required": false
+          },
+          "certificationFields": {
+            "required": false
+          },
+          "instrumentNote": null
+        },
+        "execution": {
+          "sundayServiceBlocked": false,
+          "returnDeadlineDays": null,
+          "officerOnlyInState": false,
+          "officerExceptionFields": []
+        },
+        "abode": {
+          "allowed": true,
+          "minRecipientAge": 14,
+          "requiresFollowUpMail": false,
+          "requiresEvasionFacts": false,
+          "requiresNotAdverseParty": false,
+          "requiresPurportInfo": false,
+          "requiresKnewPersonAttestation": false,
+          "notes": "Co-resident of suitable age and discretion."
+        },
+        "attestations": [
+          "nonParty18"
+        ],
+        "requiredFields": [
+          "documentsServed",
+          "serviceDate",
+          "serviceTime",
+          "serviceAddress",
+          "serviceMethod",
+          "recipientName"
+        ],
+        "declarationPathVerified": true,
+        "sources": [
+          "Wyo. R. Civ. P. 4(l)",
+          "Wyo. Stat. § 1-2-104"
+        ],
+        "confidence": "high"
+      },
+      "qualification": {
+        "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to the above-entitled action (W.R.C.P. 4(c)(1)).",
+        "qualificationTextUnserved": "",
+        "requiredBodyClauses": [],
+        "requiredFooterFields": []
+      }
+    }
+  }
+}

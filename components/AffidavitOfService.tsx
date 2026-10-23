@@ -1,7 +1,19 @@
 'use client';
 
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useCallback, useEffect, useMemo, useRef } from 'react';
 import { readToolDraft, saveToolDraft, removeToolDraft, type ToolDraft } from '@/lib/local-tool-draft';
+import {
+  listJurisdictions,
+  normalizeStateCode,
+  parseVenue,
+  getReturnRule,
+  getContentRule,
+  getQualification,
+  getQualificationTokens,
+  resolveInstrument,
+  validateForPrint,
+} from '@/lib/jurisdiction';
+import type { InstrumentResolution } from '@/lib/jurisdiction';
 import { 
   Printer, 
   RotateCcw, 
@@ -25,6 +37,37 @@ interface Attempt {
   time: string;
   notes: string;
 }
+
+/** Plain-English label for an attestation token (screen only). */
+const ATTESTATION_LABELS: Record<string, string> = {
+  nonParty18: 'I am at least 18 years old and not a party to this action',
+  nonParty: 'I am not a party to this action',
+  legalAge: 'I am of legal age',
+  age21: 'I am at least 21 years old',
+  notRelatedThirdDegree: 'I am not related within the third degree by blood or marriage to any party (Ala. R. Civ. P. 4(i)(1)(B))',
+  officerOath: 'I am a peace officer or was specially appointed to make this service',
+  noInterest: 'I have no interest in this action',
+  nonAttorney: 'I am not an attorney for any party',
+  notAttorney: 'I am not an attorney for any party',
+  specialBailiffAppointment: 'I was specially appointed as bailiff to make this service',
+  courtAppointed: 'I was appointed by the court to make this service',
+  courtAppointed18: 'I was appointed by the court to make this service and am at least 18',
+  notRelated: 'I am not related to the person served',
+  knewPersonServed: 'I knew the person served to be the person named in the process',
+  knewIdenticalPerson: 'I knew the person served to be the identical person named in the process',
+  notInterested: 'I have no interest in this action',
+  notAdverseParty: 'I am not an adverse party to this action',
+  residentOfState: 'I am a resident of the state where service was made',
+  notEmployeeOrRelativeOfParty: 'I am not an employee or relative of any party',
+  sheriffOrIndifferentPerson: 'I am the sheriff or an indifferent person over 18',
+  electorOfAnyState: 'I am a qualified elector of some state',
+  felonyDisqualification: 'I have no felony conviction disqualifying me from serving process',
+  texas107eDeclarationWithDOB: 'Declaration under Tex. R. Civ. P. 107(e) includes my date of birth',
+};
+
+/** Attestations that hold on every sworn/unsworn return in every state. */
+const UNIVERSAL_ATTESTATIONS = new Set(['nonParty18', 'nonParty', 'legalAge', 'age21']);
+
 
 export default function AffidavitOfService() {
   // Document Type & Mode
@@ -70,6 +113,61 @@ export default function AffidavitOfService() {
   const [notaryState, setNotaryState] = useState('');
   const [notaryCounty, setNotaryCounty] = useState('');
   const [swornDayPhrase, setSwornDayPhrase] = useState('');
+
+  // ── Jurisdiction layer (filing court state drives the instrument) ──────────
+  /** Explicit filing-state choice ('' = not chosen). Wins over court-name parsing. */
+  const [courtStateCode, setCourtStateCode] = useState('');
+  /** True once the user has explicitly picked a state (guards auto-refill). */
+  const [courtStateTouched, setCourtStateTouched] = useState(false);
+  const JURISDICTIONS = useMemo(() => listJurisdictions(), []);
+  /** State parsed from the court name the user typed (e.g. "DISTRICT COURT OF TULSA COUNTY, OKLAHOMA"). */
+  const parsedCourtVenue = useMemo(() => parseVenue(courtName), [courtName]);
+  /** Effective filing state: explicit pick > parsed court name. Never a silent default. */
+  const effectiveCourtState = courtStateCode || (courtStateTouched ? '' : parsedCourtVenue.state);
+  const courtRule = useMemo(() => getReturnRule(effectiveCourtState), [effectiveCourtState]);
+  const courtContent = useMemo(() => getContentRule(effectiveCourtState), [effectiveCourtState]);
+  /** Show the user what was auto-detected without overwriting their input. */
+  const [venueNotice, setVenueNotice] = useState('');
+  useEffect(() => {
+    if (!courtStateTouched) {
+      setVenueNotice(
+        parsedCourtVenue.state && parsedCourtVenue.state !== effectiveCourtState
+          ? `Filing state detected from court name: ${getReturnRule(parsedCourtVenue.state).stateName}`
+          : '',
+      );
+    } else {
+      setVenueNotice('');
+    }
+  }, [parsedCourtVenue.state, effectiveCourtState, courtStateTouched]);
+
+  /** State where service physically happened — drives warnings only, never the instrument. */
+  const [serviceStateCode, setServiceStateCode] = useState('');
+  const serviceStateEffective = serviceStateCode || effectiveCourtState;
+
+  /** Per-state required inputs. */
+  const [cameToHandDate, setCameToHandDate] = useState('');
+  const [cameToHandTime, setCameToHandTime] = useState('');
+  const [attestationsAccepted, setAttestationsAccepted] = useState<string[]>([]);
+  /** Officer/peace-officer authority confirmation for officer-only service states. */
+  const [officerAuthorized, setOfficerAuthorized] = useState(false);
+
+  /** Attestation tokens this state requires beyond the universal set. */
+  const requiredAttestations = useMemo(() => {
+    const tokens = (courtContent?.attestations ?? []).filter(
+      (t) => !UNIVERSAL_ATTESTATIONS.has(String(t)),
+    );
+    return tokens as string[];
+  }, [courtContent]);
+  /** Attestation checkboxes the state requires and the user has NOT yet checked. */
+  const missingAttestations = useMemo(
+    () => requiredAttestations.filter((t) => !attestationsAccepted.includes(t)),
+    [requiredAttestations, attestationsAccepted],
+  );
+  const toggleAttestation = (token: string) => {
+    setAttestationsAccepted((prev) =>
+      prev.includes(token) ? prev.filter((t) => t !== token) : [...prev, token],
+    );
+  };
 
   // Attempts Log (Chronological)
   const [attempts, setAttempts] = useState<Attempt[]>([
@@ -117,6 +215,12 @@ export default function AffidavitOfService() {
     notaryCounty,
     swornDayPhrase,
     attempts,
+    courtStateCode,
+    serviceStateCode,
+    cameToHandDate,
+    cameToHandTime,
+    attestationsAccepted,
+    officerAuthorized,
   };
   const restoreDraft = (draft: ToolDraft<DraftValue>) => {
     const v = draft.value;
@@ -148,6 +252,13 @@ export default function AffidavitOfService() {
     if (typeof v.notaryState === 'string') setNotaryState(v.notaryState as string);
     if (typeof v.notaryCounty === 'string') setNotaryCounty(v.notaryCounty as string);
     if (typeof v.swornDayPhrase === 'string') setSwornDayPhrase(v.swornDayPhrase as string);
+    // Jurisdiction-layer draft fields (older drafts simply lack these keys).
+    if (typeof v.courtStateCode === 'string') { setCourtStateCode(v.courtStateCode as string); if (v.courtStateCode) setCourtStateTouched(true); }
+    if (typeof v.serviceStateCode === 'string') setServiceStateCode(v.serviceStateCode as string);
+    if (typeof v.cameToHandDate === 'string') setCameToHandDate(v.cameToHandDate as string);
+    if (typeof v.cameToHandTime === 'string') setCameToHandTime(v.cameToHandTime as string);
+    if (Array.isArray(v.attestationsAccepted)) setAttestationsAccepted((v.attestationsAccepted as string[]).map(String).filter(Boolean));
+    if (typeof v.officerAuthorized === 'boolean') setOfficerAuthorized(v.officerAuthorized as boolean);
     if (Array.isArray(v.attempts)) {
       const safe = v.attempts.slice(0, 8).filter((a): a is Attempt => a && typeof a.id === 'number' && typeof a.date === 'string' && typeof a.time === 'string' && typeof a.notes === 'string');
       if (safe.length) setAttempts(safe);
@@ -174,6 +285,55 @@ export default function AffidavitOfService() {
 
   const isDeclaration = docType.includes('DECLARATION');
   const isNonService = docType.includes('NON-SERVICE') || serviceMethod === 'non-service';
+
+  /** MM/DD/YYYY or user text -> yyyy-mm-dd for the Sunday check; unparseable text returns ''. */
+  const normalizeISODate = (raw: string): string => {
+    const m = raw.trim().match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})$/);
+    if (!m) return '';
+    const [, mm, dd, yyyy] = m;
+    const year = yyyy.length === 2 ? `20${yyyy}` : yyyy;
+    return `${year}-${mm.padStart(2, '0')}-${dd.padStart(2, '0')}`;
+  };
+
+  // ── Instrument gate: the filing state decides what may print ────────────────
+  // Requested instrument vs what the jurisdiction allows. Buttons are NOT the gate:
+  // resolved.docType is what actually renders, whatever the select box says.
+  const requestedInstrument: 'declaration' | 'affidavit' = isDeclaration ? 'declaration' : 'affidavit';
+  const instrument: InstrumentResolution = useMemo(
+    () => resolveInstrument(requestedInstrument, effectiveCourtState),
+    [requestedInstrument, effectiveCourtState],
+  );
+  /** What actually renders: the gate may have downgraded a declaration to an affidavit. */
+  const gatedIsDeclaration = instrument.docType === 'declaration';
+  const gatedDocType: DocumentType = gatedIsDeclaration
+    ? (isNonService ? 'DECLARATION OF NON-SERVICE' : 'DECLARATION OF SERVICE')
+    : (isNonService ? 'AFFIDAVIT OF NON-SERVICE' : 'AFFIDAVIT OF SERVICE');
+  /** True when the user asked for a declaration but the state forbids it. */
+  const declarationBlocked = isDeclaration && instrument.blocked;
+
+  // Print validation: filing-state requirements are errors; service-state risks are warnings.
+  const printCheck = useMemo(
+    () =>
+      validateForPrint({
+        courtState: effectiveCourtState,
+        serviceState: serviceStateEffective,
+        requested: requestedInstrument,
+        serviceDate: attempts.find((a) => a.date)?.date
+          ? normalizeISODate(attempts.find((a) => a.date)!.date)
+          : '',
+        cameToHandDate: cameToHandDate ? normalizeISODate(cameToHandDate) : '',
+        cameToHandTime,
+        documentsServed: documentsLine,
+        attestationsAccepted,
+        servedByAbode: serviceMethod === 'substituted-residence',
+        recipientAge: coResidentMinAge ? Number(coResidentMinAge) : null,
+        abodeFollowUpMailDate: '',
+        officerAuthorized,
+      }),
+    [effectiveCourtState, serviceStateEffective, requestedInstrument, attempts, cameToHandDate, cameToHandTime, documentsLine, attestationsAccepted, serviceMethod, coResidentMinAge, officerAuthorized],
+  );
+  const printErrors = printCheck.errors;
+  const printWarnings = printCheck.warnings;
 
   // Set default sworn date phrase and execution date
   useEffect(() => {
@@ -253,6 +413,19 @@ export default function AffidavitOfService() {
     const st = getParam('state', 'State');
     if (st) { setStateName(st); setNotaryState(st); }
 
+    // Jurisdiction params (symmetric with handleShare).
+    const cs = getParam('court_state', 'filing_state');
+    if (cs) { setCourtStateCode(normalizeStateCode(cs)); setCourtStateTouched(true); }
+    const ss = getParam('service_state');
+    if (ss) setServiceStateCode(normalizeStateCode(ss));
+    const rd = getParam('received_date', 'came_to_hand_date');
+    if (rd) setCameToHandDate(rd);
+    const rt = getParam('received_time', 'came_to_hand_time');
+    if (rt) setCameToHandTime(rt);
+    const at = getParam('attest');
+    if (at) setAttestationsAccepted(at.split(',').map((t) => t.trim()).filter(Boolean));
+    if (getParam('officer') === '1') setOfficerAuthorized(true);
+
     const method = getParam('method', 'service_method');
     const validMethods = ['personal','substituted-residence','substituted-business','corporate','posting','non-service','custom'];
     if (method && validMethods.includes(method)) setServiceMethod(method as typeof serviceMethod);
@@ -285,23 +458,35 @@ export default function AffidavitOfService() {
       else if (u.includes('NON-SERVICE')) { setDocType('AFFIDAVIT OF NON-SERVICE'); setServiceMethod('non-service'); }
       else setDocType('AFFIDAVIT OF SERVICE');
     }
+    // NOTE: a link carrying type=declaration for a state that blocks declarations is
+    // handled by the gate itself — instrument resolution runs on every render and
+    // the render path uses gatedDocType, so the link loads as an affidavit with a
+    // notice. Nothing here needs to inspect the state.
   }, []);
 
   const handlePrint = useCallback(() => {
+    // Render-path guard: printValidation errors mean the document is NOT legally
+    // printable as configured (blocked declaration, missing came-to-hand, missing
+    // attestations). Buttons are not the gate — this is.
+    if (printErrors.length > 0) {
+      setDraftNotice(`Cannot print yet: ${printErrors[0]}`);
+      return;
+    }
+    const printableType = gatedDocType;
     const originalTitle = document.title;
     if (caseNumber.trim()) {
-      document.title = `${caseNumber.trim()} - ${docType.replace(/\s+/g, '_')}`;
+      document.title = `${caseNumber.trim()} - ${printableType.replace(/\s+/g, '_')}`;
     } else {
-      document.title = docType;
+      document.title = printableType;
     }
     window.print();
     setTimeout(() => { document.title = originalTitle; }, 1000);
-  }, [caseNumber, docType]);
+  }, [caseNumber, gatedDocType, printErrors]);
 
   const handleShare = () => {
     if (typeof window === 'undefined') return;
     const url = new URL(window.location.origin + window.location.pathname);
-    url.searchParams.set('type', docType);
+    url.searchParams.set('type', gatedDocType);
     if (courtName) url.searchParams.set('court', courtName);
     if (caseNumber) url.searchParams.set('case', caseNumber);
     if (plaintiff) url.searchParams.set('plaintiff', plaintiff);
@@ -319,6 +504,12 @@ export default function AffidavitOfService() {
     if (coResidentMinAge) url.searchParams.set('co_resident_age', coResidentMinAge);
     if (county) url.searchParams.set('county', county);
     if (stateName) url.searchParams.set('state', stateName);
+    if (courtStateCode) url.searchParams.set('court_state', courtStateCode);
+    if (serviceStateCode) url.searchParams.set('service_state', serviceStateCode);
+    if (cameToHandDate) url.searchParams.set('received_date', cameToHandDate);
+    if (cameToHandTime) url.searchParams.set('received_time', cameToHandTime);
+    if (attestationsAccepted.length) url.searchParams.set('attest', attestationsAccepted.join(','));
+    if (officerAuthorized) url.searchParams.set('officer', '1');
     if (serviceMethod) url.searchParams.set('method', serviceMethod);
     if (acceptedBy) url.searchParams.set('accepted_by', acceptedBy);
     if (recipientTitle) url.searchParams.set('recipient_title', recipientTitle);
@@ -386,6 +577,13 @@ export default function AffidavitOfService() {
       setNotaryCounty('');
       setServiceMethod('substituted-residence');
       setAttempts([{ id: 1, date: '', time: '', notes: '' }]);
+      setCourtStateCode('');
+      setCourtStateTouched(false);
+      setServiceStateCode('');
+      setCameToHandDate('');
+      setCameToHandTime('');
+      setAttestationsAccepted([]);
+      setOfficerAuthorized(false);
     }
   };
 
@@ -410,6 +608,46 @@ export default function AffidavitOfService() {
   };
 
   const competencyAgePhrase = agePhrase(serverAge || '18');
+
+  // ── Per-state print wording (all derived from the bundle; nothing hand-written) ──
+  /** State-specific label for the documents line ("Documents served (all pleadings)"). */
+  const documentsLabel = useMemo(
+    () => courtContent?.render?.documentsList?.label || 'Documents',
+    [courtContent],
+  );
+
+  /** Qualification paragraph — '' when the state has none or a token is unfilled (never prints {{x}}). */
+  const qualificationParagraph = useMemo(
+    () =>
+      getQualification(effectiveCourtState, {
+        serverName,
+        licenseNumber: serverLicense,
+        registrationCounty: county,
+      }),
+    [effectiveCourtState, serverName, serverLicense, county],
+  );
+
+  /** Came-to-hand recital for FL/TX; '' unless the state requires it AND date/time are present. */
+  const cameToHandSentence = useMemo(() => {
+    const rule = courtContent?.render?.cameToHand;
+    if (!rule?.required || !cameToHandDate) return '';
+    return rule.wording
+      .replace('{receivedDate}', cameToHandDate)
+      .replace('{receivedTime}', cameToHandTime || '');
+  }, [courtContent, cameToHandDate, cameToHandTime]);
+
+  /** Exact statutory penalty sentence for a declaration (WY = "false swearing", FED = §1746). */
+  const declarationPenaltySentence = useMemo(() => {
+    if (!gatedIsDeclaration) return '';
+    const formText = (courtRule.declarationFormText || '').trim();
+    if (!formText) {
+      return `I state under penalty of perjury under the laws of the State of ${stateName || '__________'} that the foregoing is true and correct.`;
+    }
+    return formText;
+  }, [gatedIsDeclaration, courtRule, stateName]);
+
+  /** Statutory instrument note (e.g. FL §48.21 signed-not-notarized note) — small italics. */
+  const instrumentNote = courtContent?.render?.instrumentNote || '';
 
   // ServeTracker Statutory Execution Sentence
   const getExecutionSentence = () => {
@@ -571,14 +809,34 @@ export default function AffidavitOfService() {
             <div className="flex items-center gap-2">
               <span className="text-slate-400 font-semibold shrink-0">Document Mode:</span>
               <select
-                value={docType}
-                onChange={(e) => setDocType(e.target.value as DocumentType)}
+                value={gatedDocType}
+                onChange={(e) => {
+                  const next = e.target.value as DocumentType;
+                  // A disabled declaration option cannot be chosen via the select, but
+                  // keyboard/state changes go through the gate on render regardless.
+                  setDocType(next);
+                  if (next.includes('DECLARATION') && instrument.blocked) {
+                    setDraftNotice(
+                      `${instrument.reason}${instrument.citation ? ` (${instrument.citation})` : ''}`,
+                    );
+                  }
+                }}
                 className="bg-slate-800 border border-slate-700 text-white text-xs font-bold rounded-lg px-2.5 py-1.5 outline-none focus:border-blue-500 cursor-pointer w-full"
               >
                 <option value="AFFIDAVIT OF SERVICE">Affidavit of Service (Sworn &amp; Notarized)</option>
-                <option value="DECLARATION OF SERVICE">Declaration of Service (Penalty of Perjury)</option>
+                <option
+                  value="DECLARATION OF SERVICE"
+                  disabled={!courtRule.allowDeclaration}
+                >
+                  Declaration of Service{courtRule.allowDeclaration ? ` (${courtRule.declarationStatute})` : ' — Not permitted in this state'}
+                </option>
                 <option value="AFFIDAVIT OF NON-SERVICE">Affidavit of Non-Service (Notarized Log)</option>
-                <option value="DECLARATION OF NON-SERVICE">Declaration of Non-Service (Diligent Search)</option>
+                <option
+                  value="DECLARATION OF NON-SERVICE"
+                  disabled={!courtRule.allowDeclaration}
+                >
+                  Declaration of Non-Service{courtRule.allowDeclaration ? ` (${courtRule.declarationStatute})` : ' — Not permitted in this state'}
+                </option>
               </select>
             </div>
 
@@ -599,6 +857,122 @@ export default function AffidavitOfService() {
               </select>
             </div>
           </div>
+
+          {/* ── Filing jurisdiction picker + gate notice ─────────────────────────── */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1 border-t border-slate-800 text-xs">
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">
+                Court state (governs Affidavit vs Declaration):
+              </span>
+              <select
+                value={courtStateCode}
+                onChange={(e) => {
+                  setCourtStateCode(e.target.value);
+                  setCourtStateTouched(true);
+                  // Keep the free-text state fields aligned with the explicit pick.
+                  const name = JURISDICTIONS.find((j) => j.code === e.target.value)?.name || '';
+                  if (name) {
+                    setStateName(name);
+                    if (!notaryState) setNotaryState(name);
+                  }
+                }}
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500 cursor-pointer"
+              >
+                <option value="">— Detected from court name / unset —</option>
+                {JURISDICTIONS.map((j) => (
+                  <option key={j.code} value={j.code}>
+                    {j.name}{j.allowDeclaration ? '' : ' (affidavit only)'}
+                  </option>
+                ))}
+              </select>
+              {venueNotice && <span className="text-blue-300 text-[10px] block mt-0.5">{venueNotice}</span>}
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">
+                Service state (where papers were served — informational):
+              </span>
+              <select
+                value={serviceStateCode}
+                onChange={(e) => setServiceStateCode(e.target.value)}
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500 cursor-pointer"
+              >
+                <option value="">— Same as court state —</option>
+                {JURISDICTIONS.map((j) => (
+                  <option key={j.code} value={j.code}>
+                    {j.name}
+                  </option>
+                ))}
+              </select>
+              <span className="text-slate-500 text-[10px] block mt-0.5">Sunday / officer-only / abode-age notices come from this state; they never change the document type.</span>
+            </div>
+          </div>
+
+          {declarationBlocked && (
+            <div role="alert" className="rounded-lg bg-amber-950 border border-amber-700 p-2 text-xs text-amber-100">
+              <strong>{instrument.reason}</strong>
+              {instrument.citation && (
+                <span className="block text-amber-300/80 mt-0.5">Authority: {instrument.citation}</span>
+              )}
+              <span className="block text-amber-200/80 mt-0.5">Printing the notarized affidavit instead.</span>
+            </div>
+          )}
+
+          {/* ── Per-state required inputs (only where the state requires them) ── */}
+          {courtContent?.render?.cameToHand?.required && (
+            <div className="grid grid-cols-2 gap-2 pt-1 border-t border-slate-800 text-xs">
+              <div>
+                <span className="text-slate-400 font-semibold block mb-0.5">
+                  Date process received / came to hand ({courtRule.stateCode} requirement):
+                </span>
+                <input
+                  type="date"
+                  value={cameToHandDate}
+                  onChange={(e) => setCameToHandDate(e.target.value)}
+                  className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                />
+              </div>
+              <div>
+                <span className="text-slate-400 font-semibold block mb-0.5">Time received:</span>
+                <input
+                  type="time"
+                  value={cameToHandTime}
+                  onChange={(e) => setCameToHandTime(e.target.value)}
+                  className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                />
+              </div>
+            </div>
+          )}
+
+          {requiredAttestations.length > 0 && (
+            <div className="pt-1 border-t border-slate-800 text-xs">
+              <span className="text-slate-400 font-semibold block mb-0.5">
+                {courtRule.stateName} required attestations:
+              </span>
+              {requiredAttestations.map((token) => (
+                <label key={token} className="flex items-start gap-1.5 py-0.5 cursor-pointer text-slate-200">
+                  <input
+                    type="checkbox"
+                    checked={attestationsAccepted.includes(token)}
+                    onChange={() => toggleAttestation(token)}
+                    className="mt-0.5"
+                  />
+                  <span>{ATTESTATION_LABELS[token] || token}</span>
+                </label>
+              ))}
+            </div>
+          )}
+
+          {/* Print gate status — errors block printing, warnings need acknowledgement */}
+          {(printErrors.length > 0 || printWarnings.length > 0) && (
+            <div className="pt-1 border-t border-slate-800 text-xs space-y-1">
+              {printErrors.map((e, i) => (
+                <p key={`err-${i}`} className="text-red-300">✖ {e}</p>
+              ))}
+              {printWarnings.map((w, i) => (
+                <p key={`warn-${i}`} className="text-amber-300">⚠ {w}</p>
+              ))}
+            </div>
+          )}
 
           {/* Substituted / Corporate Helper Inputs */}
           {['substituted-residence', 'substituted-business', 'corporate'].includes(serviceMethod) && (
@@ -783,12 +1157,26 @@ export default function AffidavitOfService() {
 
           {/* Title */}
           <div className="text-center font-bold text-[11.5pt] uppercase underline my-2 tracking-wider">
-            {docType}
+            {gatedDocType}
           </div>
+
+          {/* Per-state qualification paragraph — only when the state has one and it fills cleanly. */}
+          {qualificationParagraph && (
+            <p className="text-justify text-[9.5pt] mb-2 leading-snug page-break-avoid">
+              {qualificationParagraph}
+            </p>
+          )}
+
+          {/* Came-to-hand recital (FL / TX) — renders only when the state requires it. */}
+          {cameToHandSentence && (
+            <p className="text-justify text-[9.5pt] mb-2 leading-snug page-break-avoid">
+              {cameToHandSentence}
+            </p>
+          )}
 
           {/* Competency — national (ServeManager-style), layout unchanged */}
           <p className="text-justify text-[10pt] mb-2 leading-snug">
-            {isDeclaration ? (
+            {gatedIsDeclaration ? (
               <>
                 I, <strong><input
                   type="text"
@@ -819,7 +1207,7 @@ export default function AffidavitOfService() {
 
           {/* Documents Line */}
           <div className="mb-1 text-[9.5pt]">
-            <strong className="uppercase font-bold text-[9pt] block">Documents:</strong>
+            <strong className="uppercase font-bold text-[9pt] block">{documentsLabel}:</strong>
             <input
               type="text"
               value={documentsLine}
@@ -943,11 +1331,14 @@ export default function AffidavitOfService() {
             </div>
           </div>
 
-          {isDeclaration && <p className="text-[9.5pt] leading-snug page-break-avoid mb-2">I state under penalty of perjury under the laws of the State of {stateName || '__________'} that the foregoing is true and correct.</p>}
+          {gatedIsDeclaration && declarationPenaltySentence && <p className="text-[9.5pt] leading-snug page-break-avoid mb-2">{declarationPenaltySentence}</p>}
+          {instrumentNote && (
+            <p className="text-[8.5pt] italic text-gray-600 leading-snug page-break-avoid mb-2">{instrumentNote}</p>
+          )}
 
           {/* ServeTracker Exact Signature & Notary Block */}
           <div className="sig-block pt-1 page-break-avoid">
-            {isDeclaration ? (
+            {gatedIsDeclaration ? (
               /* ─── UNSWORN DECLARATION FOOTER ─── */
               <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                 <tbody>
