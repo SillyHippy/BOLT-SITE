@@ -7,6 +7,11 @@ import Link from "next/link";
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
 const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwIiq716p6IsIem9wUcZsqHHYphdinA2DjVlp95qBs-MLXBB2fdi4Fy32LMhkM_R2Kl6A/exec";
+// ServeTracker intake relay (server-side holder of the scoped intake:write key; the key
+// itself never ships to the browser). RELAY_TOKEN is a shared secret that only authorizes
+// the relay to accept submissions — it is NOT the ServeTracker API key.
+const JLS_INTAKE_RELAY_URL = "https://intake.daemoncloud.party/submit";
+const JLS_RELAY_TOKEN = "jlsrelay_689adf1337d283b0a0ec65c7f2817f5268cdabca473d82d50c49c193cb02ac28";
 // ========================================
 
 const MAX_FILE_SIZE = 40 * 1024 * 1024; // 40MB (API limit is 50MB)
@@ -266,7 +271,33 @@ export function Footer() {
         await uploadFilesToDrive(clientName, caseNumber, email, notes);
       }
 
-      // Fire-and-forget: notify Zo Computer → Telegram instantly (zero AI credits)
+      // Fire-and-forget: ServeTracker intake relay (creates client + case in the SaaS).
+      // The relay holds the scoped intake:write API key server-side. Failure here must
+      // never block the form — Drive, notify, invoice, and email still run.
+      try {
+        const intakePayload: Record<string, string> = {};
+        Object.keys(data).forEach(key => { intakePayload[key] = data[key]; });
+        if (serviceTypes.length > 0) intakePayload['service_requirements'] = serviceTypes.join(', ');
+        if (addressTypes.length > 0) intakePayload['address_type'] = addressTypes.join(', ');
+        const idemKey = `web-${Date.now().toString(36)}-${(data['your_email_address'] || Math.random()).toString(36).slice(2)}`;
+        void fetch(JLS_INTAKE_RELAY_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'X-Relay-Token': JLS_RELAY_TOKEN, 'Idempotency-Key': idemKey },
+          body: JSON.stringify(intakePayload),
+        }).then(async (r) => {
+          if (!r.ok) { console.warn('Intake relay HTTP', r.status); return; }
+          const j = await r.json().catch(() => null);
+          if (j && j.caseCreated === false) {
+            console.warn('ServeTracker intake: case not created —', (j.errors || []).join('; '));
+          }
+        }).catch((err) => {
+          console.warn('ServeTracker intake relay request failed (non-blocking):', err);
+        });
+      } catch (intakeErr) {
+        console.warn('ServeTracker intake payload build failed (non-blocking):', intakeErr);
+      }
+
+      // Fire-and-forget: notify Zo Computer → SMS instantly (zero AI credits, no model)
       try {
         const notifyPayload = {
           name: data['firm_or_company_name'] || data['your_name'] || '',
@@ -277,6 +308,7 @@ export function Footer() {
           deadline: data['service_deadline'] || data['court_date'] || '',
           contactMethod: data['preferred_contact_method'] || '',
           details: data['service_instructions'] || data['additional_notes'] || '',
+          caseNumber: data['case_number'] || '',
         };
         void fetch('https://sillyhippy.zo.space/api/service-request', {
           method: 'POST',
