@@ -479,6 +479,12 @@ select.input-field {
     height: auto !important;
     overflow: visible !important;
   }
+  /* Auto-fit scaling is a screen-only convenience; printing uses natural size. */
+  .affidavit-fit-scale {
+    transform: none !important;
+    width: auto !important;
+    margin-bottom: 0 !important;
+  }
   header, footer, nav, aside, .fixed, .sticky, [aria-label="Call or contact Just Legal Solutions"], .no-print, .no-print-affidavit, .ui-glass-nav, .site-footer, #mobile-menu, .ui-mobile-safe-panel {
     display: none !important;
     visibility: hidden !important;

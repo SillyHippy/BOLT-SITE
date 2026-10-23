@@ -75,6 +75,25 @@ export default function AffidavitOfService() {
 
   // Case / Caption Details — blank defaults (no locale/brand baked in)
   const [courtName, setCourtName] = useState('');
+  // Auto-fit the paper to the viewport on small screens (Joe's phone: paper was wider
+  // than the screen and required sideways scrolling). The paper keeps its natural
+  // 8.5in width; we just scale the whole sheet down to fit, like viewing the print.
+  const paperFitRef = useRef<HTMLDivElement | null>(null);
+  const [paperScale, setPaperScale] = useState(1);
+  useEffect(() => {
+    const compute = () => {
+      const el = paperFitRef.current;
+      if (!el) return;
+      const available = el.clientWidth;
+      // 816px = 8.5in @ 96dpi; padding p-6 (24px x 2) sits INSIDE the scaled box
+      const natural = 816;
+      const scale = Math.min(1, available / natural);
+      setPaperScale(scale < 0.2 ? 0.2 : scale);
+    };
+    compute();
+    window.addEventListener('resize', compute);
+    return () => window.removeEventListener('resize', compute);
+  }, []);
   const [plaintiff, setPlaintiff] = useState('');
   const [defendant, setDefendant] = useState('');
   const [caseNumber, setCaseNumber] = useState('');
@@ -1055,7 +1074,18 @@ export default function AffidavitOfService() {
       </div>
 
       {/* ServeTracker Exact Legal Document Sheet */}
-      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12 overflow-x-auto">
+      <div onInput={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} onChange={() => { if (suppressAutosave.current) { suppressAutosave.current = false; setAvailableDraft(null); } }} className="affidavit-wrapper max-w-4xl mx-auto px-2 sm:px-4 pb-12">
+        <div ref={paperFitRef} className="w-full">
+          <div
+            className="affidavit-fit-scale"
+            style={{
+              width: '816px',
+              transform: `scale(${paperScale})`,
+              transformOrigin: 'top left',
+              // reserve the scaled height so nothing below jumps around
+              marginBottom: `${(1 - paperScale) * -816 * 1.29}px`,
+            }}
+          >
         <div
           className="affidavit-page bg-white text-black shadow-xl rounded-sm p-6 sm:p-8 border border-slate-300"
           style={{
@@ -1436,6 +1466,8 @@ export default function AffidavitOfService() {
             )}
           </div>
 
+        </div>
+          </div>
         </div>
       </div>
     </>
