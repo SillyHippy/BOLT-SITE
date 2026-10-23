@@ -501,14 +501,14 @@ const SitemapPage = () => {
 
       {/* Quick-jump nav */}
       <nav className="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-slate-200 shadow-sm">
-        <div className="container mx-auto px-4 py-3 flex gap-2 overflow-x-auto scrollbar-hide">
+        <div className="container mx-auto px-4 py-2.5 flex items-center gap-2 overflow-x-auto scrollbar-hide">
           {sections.map((s) => {
             const c = colorMap[s.color];
             return (
               <a
                 key={s.title}
                 href={`#${s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-                className={`shrink-0 whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full ${c.bg} ${c.link} ${c.bgHover} transition-colors`}
+                className={`shrink-0 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium leading-none h-9 px-3.5 rounded-full ${c.bg} ${c.link} ${c.bgHover} transition-colors`}
               >
                 {s.title}
               </a>
