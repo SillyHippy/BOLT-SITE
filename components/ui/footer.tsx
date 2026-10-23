@@ -271,14 +271,30 @@ export function Footer() {
         await uploadFilesToDrive(clientName, caseNumber, email, notes);
       }
 
-      // Fire-and-forget: ServeTracker intake relay (creates client + case in the SaaS).
-      // The relay holds the scoped intake:write API key server-side. Failure here must
-      // never block the form — Drive, notify, invoice, and email still run.
+      // Fire-and-forget: ServeTracker intake relay (creates client + case in the SaaS,
+      // then uploads the packet PDFs into the case). The relay holds the scoped
+      // intake:write API key server-side. Failure here must never block the form —
+      // Drive, notify, invoice, and email still run.
       try {
         const intakePayload: Record<string, string> = {};
         Object.keys(data).forEach(key => { intakePayload[key] = data[key]; });
         if (serviceTypes.length > 0) intakePayload['service_requirements'] = serviceTypes.join(', ');
         if (addressTypes.length > 0) intakePayload['address_type'] = addressTypes.join(', ');
+        // Attach the same files the Drive upload uses (base64 data URLs). The relay
+        // decodes them and uploads each into the ServeTracker case by number.
+        if (uploadFiles.length > 0) {
+          try {
+            const filesData = await Promise.all(
+              uploadFiles.map(async (fileItem) => {
+                const base64 = await fileToBase64(fileItem.file);
+                return { name: fileItem.file.name, type: fileItem.file.type, data: base64 };
+              })
+            );
+            intakePayload['_files'] = JSON.stringify(filesData);
+          } catch (fileErr) {
+            console.warn('Intake relay: file base64 build failed (non-blocking):', fileErr);
+          }
+        }
         const idemKey = `web-${Date.now().toString(36)}-${(data['your_email_address'] || Math.random()).toString(36).slice(2)}`;
         void fetch(JLS_INTAKE_RELAY_URL, {
           method: 'POST',
