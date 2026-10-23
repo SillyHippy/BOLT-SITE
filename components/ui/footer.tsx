@@ -260,21 +260,13 @@ export function Footer() {
       data['address_type'] = addressTypes.join(', ');
     }
 
-    try {
-      // Upload files to Google Drive if any files selected
-      if (uploadFiles.length > 0) {
-        const clientName = data['firm_or_company_name'] || '';
-        const caseNumber = data['case_number'] || '';
-        const email = data['your_email_address'] || '';
-        const notes = data['service_instructions'] || '';
-        
-        await uploadFilesToDrive(clientName, caseNumber, email, notes);
-      }
+    // Track ServeTracker case creation so the SMS text can report it accurately.
+    let caseCreated = false;
+    let intakePromise: Promise<void> = Promise.resolve();
 
-      // Fire-and-forget: ServeTracker intake relay (creates client + case in the SaaS,
-      // then uploads the packet PDFs into the case). The relay holds the scoped
-      // intake:write API key server-side. Failure here must never block the form —
-      // Drive, notify, invoice, and email still run.
+    try {
+      // Intake relay + SMS notify fire FIRST (before the slow Drive upload) so a hanging
+      // Drive request can never starve the ServeTracker case or the text notification.
       try {
         const intakePayload: Record<string, string> = {};
         Object.keys(data).forEach(key => { intakePayload[key] = data[key]; });
@@ -296,13 +288,14 @@ export function Footer() {
           }
         }
         const idemKey = `web-${Date.now().toString(36)}-${(data['your_email_address'] || Math.random()).toString(36).slice(2)}`;
-        void fetch(JLS_INTAKE_RELAY_URL, {
+        intakePromise = fetch(JLS_INTAKE_RELAY_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'X-Relay-Token': JLS_RELAY_TOKEN, 'Idempotency-Key': idemKey },
           body: JSON.stringify(intakePayload),
         }).then(async (r) => {
           if (!r.ok) { console.warn('Intake relay HTTP', r.status); return; }
           const j = await r.json().catch(() => null);
+          caseCreated = !!(j && j.caseCreated);
           if (j && j.caseCreated === false) {
             console.warn('ServeTracker intake: case not created —', (j.errors || []).join('; '));
           }
@@ -313,8 +306,21 @@ export function Footer() {
         console.warn('ServeTracker intake payload build failed (non-blocking):', intakeErr);
       }
 
-      // Fire-and-forget: notify Zo Computer → SMS instantly (zero AI credits, no model)
+      // Upload files to Google Drive if any files selected (AFTER the intake + notify
+      // legs have fired; its slowness can no longer starve them)
+      if (uploadFiles.length > 0) {
+        const clientName = data['firm_or_company_name'] || '';
+        const caseNumber = data['case_number'] || '';
+        const email = data['your_email_address'] || '';
+        const notes = data['service_instructions'] || '';
+
+        await uploadFilesToDrive(clientName, caseNumber, email, notes);
+      }
+
+      // Fire-and-forget: notify Zo Computer → SMS instantly (zero AI credits, no model).
+      // Wait briefly for the intake result so the text reports real case status.
       try {
+        await Promise.race([intakePromise, new Promise((res) => setTimeout(res, 8000))]);
         const notifyPayload = {
           name: data['firm_or_company_name'] || data['your_name'] || '',
           phone: data['your_phone_number'] || '',
@@ -325,6 +331,7 @@ export function Footer() {
           contactMethod: data['preferred_contact_method'] || '',
           details: data['service_instructions'] || data['additional_notes'] || '',
           caseNumber: data['case_number'] || '',
+          saasCaseCreated: caseCreated,
         };
         void fetch('https://sillyhippy.zo.space/api/service-request', {
           method: 'POST',
