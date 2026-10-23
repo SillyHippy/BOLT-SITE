@@ -1,8 +1,8 @@
 // Service Worker for Just Legal Solutions
 // Provides offline functionality and advanced caching for better mobile performance
 
-const CACHE_NAME = 'jls-v2026-10-19-rsc-fix-v3';
-const STATIC_CACHE_NAME = 'jls-static-v2026-10-19-rsc-fix-v3';
+const CACHE_NAME = 'jls-v2026-10-23-intake-v4';
+const STATIC_CACHE_NAME = 'jls-static-v2026-10-23-intake-v4';
 
 // Critical assets to cache immediately
 const CRITICAL_ASSETS = [
@@ -78,11 +78,23 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     (async () => {
       try {
-        // Try cache first for critical assets
-        if (CRITICAL_ASSETS.some(asset => url.pathname === asset)) {
-          const cachedResponse = await caches.match(request);
-          if (cachedResponse) {
-            return cachedResponse;
+        // NEVER cache-first HTML: pages always come from the network when online so
+        // deploys are visible. Cache is only an offline fallback. (A stale cached
+        // homepage kept Joe's phone running old form code after deploys.)
+        if (request.destination === 'document' || CRITICAL_ASSETS.some(asset => url.pathname === asset)) {
+          try {
+            const networkResponse = await fetch(request);
+            if (networkResponse.ok) {
+              const cache = await caches.open(CACHE_NAME);
+              cache.put(request, networkResponse.clone());
+            }
+            return networkResponse;
+          } catch (error) {
+            const cachedResponse = await caches.match(request);
+            if (cachedResponse) {
+              return cachedResponse;
+            }
+            return caches.match('/offline.html') || new Response('Offline', { status: 503 });
           }
         }
 
