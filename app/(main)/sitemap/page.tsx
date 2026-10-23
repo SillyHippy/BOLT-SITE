@@ -508,7 +508,7 @@ const SitemapPage = () => {
               <a
                 key={s.title}
                 href={`#${s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-                className={`whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full ${c.bg} ${c.link} ${c.bgHover} transition-colors`}
+                className={`shrink-0 whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full ${c.bg} ${c.link} ${c.bgHover} transition-colors`}
               >
                 {s.title}
               </a>
