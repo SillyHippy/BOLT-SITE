@@ -10,7 +10,7 @@ const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwIiq716
 // ServeTracker intake relay (server-side holder of the scoped intake:write key; the key
 // itself never ships to the browser). RELAY_TOKEN is a shared secret that only authorizes
 // the relay to accept submissions — it is NOT the ServeTracker API key.
-const JLS_INTAKE_RELAY_URL = "https://intake.daemoncloud.party/submit";
+const JLS_INTAKE_RELAY_URL = "https://sillyhippy.zo.space/api/service-request";
 const JLS_RELAY_TOKEN = "jlsrelay_689adf1337d283b0a0ec65c7f2817f5268cdabca473d82d50c49c193cb02ac28";
 // ========================================
 
@@ -288,9 +288,11 @@ export function Footer() {
           }
         }
         const idemKey = `web-${Date.now().toString(36)}-${(data['your_email_address'] || Math.random()).toString(36).slice(2)}`;
+        intakePayload['_intake'] = 'true';
+        intakePayload['_idem'] = idemKey;
         intakePromise = fetch(JLS_INTAKE_RELAY_URL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'X-Relay-Token': JLS_RELAY_TOKEN, 'Idempotency-Key': idemKey },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(intakePayload),
         }).then(async (r) => {
           if (!r.ok) { console.warn('Intake relay HTTP', r.status); return; }
@@ -317,32 +319,8 @@ export function Footer() {
         await uploadFilesToDrive(clientName, caseNumber, email, notes);
       }
 
-      // Fire-and-forget: notify Zo Computer → SMS instantly (zero AI credits, no model).
-      // Wait briefly for the intake result so the text reports real case status.
-      try {
-        await Promise.race([intakePromise, new Promise((res) => setTimeout(res, 8000))]);
-        const notifyPayload = {
-          name: data['firm_or_company_name'] || data['your_name'] || '',
-          phone: data['your_phone_number'] || '',
-          email: data['your_email_address'] || '',
-          serviceType: data['service_type'] || data['service_type_other_details'] || 'Process Service',
-          county: data['service_county'] || data['county'] || '',
-          deadline: data['service_deadline'] || data['court_date'] || '',
-          contactMethod: data['preferred_contact_method'] || '',
-          details: data['service_instructions'] || data['additional_notes'] || '',
-          caseNumber: data['case_number'] || '',
-          saasCaseCreated: caseCreated,
-        };
-        void fetch('https://sillyhippy.zo.space/api/service-request', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(notifyPayload),
-        }).catch((err) => {
-          console.warn('Zo notify request failed (non-blocking):', err);
-        });
-      } catch (notifyErr) {
-        console.warn('Zo notify payload build failed (non-blocking):', notifyErr);
-      }
+      // (SMS + ServeTracker intake both happen in the single space-route call above;
+      //  a second notify fetch here would double-text Joe.)
 
       // Fire-and-forget: ask the Apps Script backend to create a Helcim invoice
       // for this submission. The backend stores it in the Helcim Invoices sheet
