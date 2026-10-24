@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
     "branch": "live/2026-10-17c",
-    "commit": "f409aa5",
+    "commit": "4d68ebf",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -16,7 +16,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -113,7 +114,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18",
@@ -192,7 +194,7 @@
         "nonServiceSameFamily": true,
         "notes": "OVERTURN: Alabama uses endorsement model like Ohio; Form C-34 uses 'I certify...' with NO jurat and NO perjury block; 60-day unserved return window",
         "primarySourceUrl": "https://www.alacourt.gov/rulesofcourt.aspx",
-        "requiresNotaryForReturn": false,
+        "requiresNotaryForReturn": true,
         "sources": [
           "Ala. R. Civ. P. 4(i)(1)(C)"
         ],
@@ -212,7 +214,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -312,7 +315,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -410,13 +414,14 @@
       "content": {
         "abode": {
           "allowed": true,
-          "minRecipientAge": null,
+          "minRecipientAge": 18,
           "notes": "Co-resident of suitable age and discretion.",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -522,7 +527,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -618,7 +624,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "officerOath"
@@ -731,7 +738,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18",
@@ -831,7 +839,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -1027,7 +1036,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1101,17 +1111,17 @@
       },
       "return": {
         "affidavitTitle": "Return of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "Under penalties of perjury, I declare that I have read the foregoing Return of Service and that the facts stated in it are true.",
+        "declarationStatute": "Fla. Stat. 92.525(1)-(2); Fla. R. Civ. P. 1.070(b)",
+        "declarationTitle": "Return of Service",
         "eSignAffidavit": "yes",
         "eSignDeclaration": "no",
         "juratHints": "Fla. Stat. § 48.21 requires signed return-of-service form; e-signature expressly OK; NOT § 92.525 declaration",
         "nonServiceSameFamily": true,
         "notes": "TRAP: Do NOT auto-pick § 92.525 'declaration of service' for ordinary process. Generate § 48.21 return-of-service. Affidavit only if specific rule/order requires verification.",
-        "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/92.525",
+        "primarySourceUrl": "https://laws.flrules.org/2025/163",
         "requiresNotaryForReturn": false,
         "sources": [
           "Fla. Stat. § 48.031",
@@ -1134,7 +1144,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1234,7 +1245,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1335,7 +1347,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18",
@@ -1430,7 +1443,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -1523,7 +1537,8 @@
           "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1591,18 +1606,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "Under penalties as provided by law pursuant to Section 1-109 of the Code of Civil Procedure, the undersigned certifies that the statements set forth in this instrument are true and correct, except as to matters therein stated to be on information and belief and as to such matters the undersigned certifies as aforesaid that he verily believes the same to be true.",
+        "declarationStatute": "735 ILCS 5/1-109",
+        "declarationTitle": "Certificate of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
         "juratHints": "735 ILCS 5/2-202 requires private return by affidavit; 5/1-109 certification covers return/proof of service",
         "nonServiceSameFamily": true,
         "notes": "Certification under 1-109 has same force as sworn; no notary required",
-        "primarySourceUrl": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2017&ChapterID=62",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://www.ilga.gov/documents/legislation/ilcs/documents/073500050K9-107.htm",
+        "requiresNotaryForReturn": false,
         "sources": [
           "735 ILCS 5/2-202",
           "735 ILCS 5/1-109"
@@ -1623,7 +1638,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1684,18 +1700,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "low",
-        "declarationFormText": "",
-        "declarationStatute": "",
+        "declarationFormText": "I (we) affirm, under the penalties for perjury, that the foregoing representation(s) is (are) true.",
+        "declarationStatute": "Ind. Trial Rule 11(D) (eff. 2026-08-01; formerly 11(B)); Ind. Trial Rule 4.15(A)",
         "declarationTitle": "Affidavit of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "no",
         "juratHints": "Trial Rule 4; no mandatory PDF found; content rules still control",
         "nonServiceSameFamily": true,
         "notes": "Uncertain; stay fail-closed until primary confirmation",
-        "primarySourceUrl": "",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://rules.incourts.gov/Content/trial/rule11/current.htm",
+        "requiresNotaryForReturn": false,
         "sources": [
           "Ind. Trial Rule 4"
         ],
@@ -1715,7 +1731,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -1815,7 +1832,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "no"
         },
         "attestations": [
           "specialBailiffAppointment"
@@ -1918,7 +1936,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "courtAppointed"
@@ -2018,7 +2037,8 @@
           "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -2084,18 +2104,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
+        "declarationFormText": "Signed under the pains and penalties of perjury",
+        "declarationStatute": "G.L. c. 268 s. 1A; Mass. R. Civ. P. 4(f)",
         "declarationTitle": "Affidavit of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "no",
         "juratHints": "Mass. R. Civ. P. 4(f): non-sheriff/constable shall make affidavit; special appointment required for private servers",
         "nonServiceSameFamily": true,
         "notes": "No statewide private 'affidavit of service' for routine personal service; clerk/mail return receipts often control",
-        "primarySourceUrl": "https://www.mass.gov/rules-of-civil-procedure/rule-4-f-process",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://malegislature.gov/Laws/GeneralLaws/PartIV/TitleI/Chapter268/Section1A",
+        "requiresNotaryForReturn": false,
         "sources": [
           "Mass. R. Civ. P. 4(f)"
         ],
@@ -2115,7 +2135,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -2219,7 +2240,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -2309,14 +2331,15 @@
     "MI": {
       "content": {
         "abode": {
-          "allowed": true,
+          "allowed": false,
           "minRecipientAge": null,
           "notes": "Co-resident of suitable age and discretion.",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "no"
         },
         "attestations": [
           "nonParty18"
@@ -2414,7 +2437,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -2514,7 +2538,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -2610,7 +2635,8 @@
           "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -2698,13 +2724,14 @@
       "content": {
         "abode": {
           "allowed": false,
-          "minRecipientAge": null,
+          "minRecipientAge": 14,
           "notes": "Montana law does not permit substituted abode service on a competent adult; personal delivery or authorized agent required.",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "no"
         },
         "attestations": [
           "nonParty18"
@@ -2804,7 +2831,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "age21",
@@ -2911,7 +2939,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "legalAge",
@@ -3012,7 +3041,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -3103,14 +3133,15 @@
     "NH": {
       "content": {
         "abode": {
-          "allowed": true,
+          "allowed": false,
           "minRecipientAge": null,
           "notes": "Co-resident of suitable age and discretion.",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "no"
         },
         "attestations": [
           "nonParty18"
@@ -3209,7 +3240,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -3307,7 +3339,8 @@
           "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -3404,7 +3437,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": true,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18",
@@ -3471,18 +3505,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I DECLARE UNDER PENALTY OF PERJURY UNDER THE LAW OF THE STATE OF NEVADA THAT THE FOREGOING IS TRUE AND CORRECT.",
+        "declarationStatute": "NRS 53.045; NRCP 4(d)",
+        "declarationTitle": "Declaration of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
         "juratHints": "NRS 53.045 allows unsworn declaration; in-state vs out-of-state wording differs",
         "nonServiceSameFamily": true,
         "notes": "NRCP 4(d)(1) requires proof by affidavit; NRS 53.045 declaration substantively satisfies",
-        "primarySourceUrl": "https://www.leg.state.nv.us/NRS/NRS-053.html#NRS053Sec045",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://www.leg.state.nv.us/NRS/NRS-053.html",
+        "requiresNotaryForReturn": false,
         "sources": [
           "NRCP 4(d)",
           "NRS 53.045"
@@ -3503,7 +3537,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -3606,7 +3641,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "courtAppointed18"
@@ -3684,7 +3720,7 @@
         "nonServiceSameFamily": true,
         "notes": "OVERTURN: Ohio uses endorsement model, not affidavit/declaration for personal/residence service",
         "primarySourceUrl": "https://www.supremecourt.ohio.gov/JCS/CFC/RuleAmendments/2020/020420/CivR_4-1.pdf",
-        "requiresNotaryForReturn": false,
+        "requiresNotaryForReturn": true,
         "sources": [
           "Ohio Civ.R. 4.1"
         ],
@@ -3704,7 +3740,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -3804,7 +3841,8 @@
           "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "residentOfState",
@@ -3875,18 +3913,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I hereby declare that the above statement is true to the best of my knowledge and belief, and that I understand it is made for use as evidence in court and is subject to penalty for perjury.",
+        "declarationStatute": "ORS 194.800",
+        "declarationTitle": "Certificate of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
         "juratHints": "ORCP 1 E allows declaration in lieu of any affidavit; Certificate of Service is preferred",
         "nonServiceSameFamily": true,
         "notes": "ORCP 7 F(2)(a)(i) for non-sheriff certificate; publication proof: affidavit OR declaration per ORCP 7 F(2)(b)",
         "primarySourceUrl": "https://www.courts.oregon.gov/rules/Pages/default.aspx",
-        "requiresNotaryForReturn": true,
+        "requiresNotaryForReturn": false,
         "sources": [
           "ORCP 7 F",
           "ORCP 1 E"
@@ -3901,13 +3939,14 @@
       "content": {
         "abode": {
           "allowed": true,
-          "minRecipientAge": null,
+          "minRecipientAge": 18,
           "notes": "Co-resident of suitable age and discretion.",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18",
@@ -4009,7 +4048,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "nonParty18"
@@ -4106,7 +4146,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18",
@@ -4205,7 +4246,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "electorOfAnyState",
@@ -4308,7 +4350,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -4406,7 +4449,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18",
@@ -4507,7 +4551,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18",
@@ -4577,18 +4622,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I declare under criminal penalty under the law of Utah that the foregoing is true and correct.",
+        "declarationStatute": "Utah Code 78B-18a-106; URCP 4(e)(1); 78B-8-302(8)(c)",
+        "declarationTitle": "Proof of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
         "juratHints": "URCP 4(e)(1) expressly allows unsworn declaration for non-attorney/sheriff/constable/USMS servers",
         "nonServiceSameFamily": true,
         "notes": "Official proof form 1020GE uses unsworn declaration",
-        "primarySourceUrl": "https://www.utcourts.gov/resources/rules/urcp/",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://le.utah.gov/xcode/Title78B/Chapter18A/78B-18a-S106.html",
+        "requiresNotaryForReturn": false,
         "sources": [
           "Utah R. Civ. P. 4(e)",
           "Utah Code Tit. 78B, Ch. 18a"
@@ -4609,7 +4654,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": true
+          "requiresPurportInfo": true,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18",
@@ -4682,18 +4728,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
+        "declarationFormText": "I declare under penalty of perjury that the foregoing is true and correct.",
+        "declarationStatute": "Va. Code 8.01-4.3",
         "declarationTitle": "Affidavit of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "no",
         "juratHints": "§ 8.01-325(B)(2): private server affidavit of qualifications + date/manner of service + name served; stamp/annotation required",
         "nonServiceSameFamily": true,
         "notes": "72-hour return window; private-server status + server name/address/telephone must be annotated on return",
-        "primarySourceUrl": "https://law.lis.virginia.gov/vacode/title8.01/chapter8/section8.01-325/",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://law.lis.virginia.gov/vacode/title8.01/chapter1/section8.01-4.3/",
+        "requiresNotaryForReturn": false,
         "sources": [
           "Va. Code § 8.01-325"
         ],
@@ -4713,7 +4759,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "yes"
         },
         "attestations": [
           "sheriffOrIndifferentPerson"
@@ -4784,18 +4831,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I declare that the above statement is true and accurate to the best of my knowledge and belief. I understand that if the above statement is false, I will be subject to the penalty of perjury or to other sanctions in the discretion of the court.",
+        "declarationStatute": "V.R.C.P. 43(h); 4 V.S.A. 27b",
+        "declarationTitle": "Return of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
         "juratHints": "Rule 43(h) applies to ANY affidavit/oath required by the rules with no exceptions; reaches 4(i) non-officer returns",
         "nonServiceSameFamily": true,
         "notes": "Indifferent-person appointment still required (4(c) + 12 V.S.A. § 731); 60-day service window",
-        "primarySourceUrl": "https://www.vermontjudiciary.org/LC?sc=VRCP/43(h)",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://www.vtcourts.gov/sites/default/files/documents/PROMULGATED--VRCP-Deleting11%28e%29Amending43%28d%29%28h%2956%28c%29%281%29%282%29%286%29%28d%29%28h%29--STAMPED.pdf",
+        "requiresNotaryForReturn": false,
         "sources": [
           "V.R.C.P. 43(h)",
           "4 V.S.A. § 27b"
@@ -4816,7 +4863,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -4917,7 +4965,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "residentOfState",
@@ -4988,18 +5037,18 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I declare under the criminal penalty of false swearing that the information I have provided is true and accurate.",
+        "declarationStatute": "Wis. Stat. 887.015 (2023 Wis. Act 245); court forms FA-4120V / SC-5120V",
+        "declarationTitle": "Proof of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "no",
         "juratHints": "Routine proof = plain unsworn proof of service (§801.10(3), form-free, failure harmless); affidavit required ONLY upon challenge (§801.10(4)(a))",
         "nonServiceSameFamily": true,
         "notes": "Keep affidavit-only (conservative) for v1; document the challenge rule; §906.06(2m) substitute question OPEN",
-        "primarySourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/801/10",
-        "requiresNotaryForReturn": true,
+        "primarySourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/887/015",
+        "requiresNotaryForReturn": false,
         "sources": [
           "Wis. Stat. § 801.10"
         ],
@@ -5019,7 +5068,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
@@ -5116,7 +5166,8 @@
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
-          "requiresPurportInfo": false
+          "requiresPurportInfo": false,
+          "v2SubstituteStatus": "warn_unverified"
         },
         "attestations": [
           "nonParty18"
