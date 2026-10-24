@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
     "branch": "live/2026-10-17c",
-    "commit": "316434e",
+    "commit": "f409aa5",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -4871,33 +4871,35 @@
         "status": "verified"
       },
       "qualification": {
-        "qualificationText": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, not a party to this action (CR 4(c)), and am a Registered Process Server in and for {{registrationCounty}} County, State of Washington, Registration No. {{licenseNumber}} pursuant to RCW 18.180.010 and RCW 18.180.030.",
-        "qualificationTextUnserved": "",
+        "qualificationText": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, and not a party to this action (CR 4(c)); service was made in the State of {{serviceStateName}} by a person authorized under the law of that state (CR 4(e)(2); RCW 4.28.180).",
+        "qualificationTextUnserved": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, and not a party to this action (CR 4(c)).",
         "requiredBodyClauses": [],
         "requiredFooterFields": [
-          "licenseNumber",
-          "registrationCounty",
           "signingCity",
           "signingState"
         ]
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": false,
+        "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "",
-        "declarationStatute": "",
-        "declarationTitle": "Affidavit of Service",
+        "declarationFormText": "I declare under penalty of perjury under the law of the State of Washington that the foregoing is true and correct.",
+        "declarationStatute": "RCW 5.50.050",
+        "declarationTitle": "Declaration of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "court_dependent",
-        "juratHints": "CR 4(g)(6) requires notarized affidavit for out-of-state personal service; in-state: declaration OK",
+        "juratHints": "Unsworn declaration under RCW 5.50.050 has same effect as affidavit for returns incl. out-of-state service (CR 4(g)(6) oath before notary is an alternative, not a requirement); notarized affidavit also accepted.",
         "nonServiceSameFamily": true,
-        "notes": "UUDA adopted but CR 4(g)(6) overrides for out-of-state service - notarized affidavit required",
-        "primarySourceUrl": "https://www.courts.wa.gov/newsinfo/content/rules/CR%202020.pdf",
-        "requiresNotaryForReturn": true,
+        "notes": "RCW 5.50 (UUDA, foreign-declarations version since 2011) applies to returns incl. out-of-state service; declaration under RCW 5.50.050 valid proof. Verified 2026-10-24 against CR 4(c)/4(e)(2)/4(g), CR 5(b), RCW 4.28.180, RCW 5.50.010-.060.",
+        "primarySourceUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=5.50",
+        "requiresNotaryForReturn": false,
         "sources": [
-          "Wash. Super. Ct. Civ. R. 4(g)",
-          "RCW 5.50"
+          "RCW 5.50.010-.060",
+          "CR 4(c)",
+          "CR 4(e)(2)",
+          "CR 4(g)",
+          "RCW 4.28.180",
+          "RCW 4.28.080"
         ],
         "stateCode": "WA",
         "stateName": "Washington"

@@ -12,6 +12,7 @@ import {
   getQualificationTokens,
   resolveInstrument,
   validateForPrint,
+  STATES,
 } from '@/lib/jurisdiction';
 import type { InstrumentResolution } from '@/lib/jurisdiction';
 import { 
@@ -635,16 +636,31 @@ export default function AffidavitOfService() {
     [courtContent],
   );
 
-  /** Qualification paragraph — '' when the state has none or a token is unfilled (never prints {{x}}). */
-  const qualificationParagraph = useMemo(
-    () =>
-      getQualification(effectiveCourtState, {
-        serverName,
-        licenseNumber: serverLicense,
-        registrationCounty: county,
-      }),
-    [effectiveCourtState, serverName, serverLicense, county],
-  );
+  /**
+   * Qualification paragraph — '' when the state has none or a token is unfilled (never prints {{x}}).
+   * Out-of-state guard (2026-10-24): a venue qualification that asserts VENUE-state registration or
+   * licensing (AZ/CA/DE/HI/IL/MT/UT style recitals) is suppressed when the serve happened in a
+   * different state — the universal competency paragraph below stays (it recites authority where
+   * service was effected, which is always true). Never print a registration the server cannot have.
+   */
+  const outOfStateVenueQualBlocked =
+    !!serviceStateCode &&
+    normalizeStateCode(serviceStateCode) !== normalizeStateCode(effectiveCourtState);
+  const qualificationParagraph = useMemo(() => {
+    const text = getQualification(effectiveCourtState, {
+      serverName,
+      licenseNumber: serverLicense,
+      registrationCounty: county,
+      // WA (2026-10-24): recital cites the true state of service (CR 4(e)(2)/RCW 4.28.180),
+      // never the filing venue — an OK server on a WA case must not claim WA registration.
+      serviceStateName: STATES[serviceStateEffective]?.stateName || serviceStateEffective,
+    });
+    if (!text) return '';
+    if (outOfStateVenueQualBlocked && /registered|registration|licensed (process server|to serve)|license no\./i.test(text)) {
+      return '';
+    }
+    return text;
+  }, [effectiveCourtState, serverName, serverLicense, county, serviceStateEffective, outOfStateVenueQualBlocked]);
 
   /** Came-to-hand recital for FL/TX; '' unless the state requires it AND date/time are present. */
   const cameToHandSentence = useMemo(() => {
