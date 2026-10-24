@@ -1459,13 +1459,7 @@ export default function AffidavitOfService() {
                   onChange={(e) => setServerName(e.target.value)}
                   placeholder="Server Full Name"
                   className="font-bold border-b border-black outline-none px-1 bg-transparent min-w-[140px] screen-only"
-                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, declare under penalty of perjury under the laws of the State of <input
-                  type="text"
-                  value={stateName}
-                  onChange={(e) => setStateName(e.target.value)}
-                  placeholder="State"
-                  className="font-bold border-b border-black outline-none px-1 bg-transparent w-20 screen-only"
-                /><span className="print-only-inline hidden font-bold">{stateName || '_________'}</span> and the United States of America that I am over the age of {competencyAgePhrase} years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
+                /><span className="print-only-inline hidden font-bold">{serverName || '___________________________'}</span></strong>, declare under penalty of perjury under the laws of {courtRule.stateCode === 'FED' ? 'the United States of America' : `the State of ${courtRule.stateName}`} that I am over the age of {competencyAgePhrase} years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein{licenseClause}.
               </>
             ) : (
               <>
