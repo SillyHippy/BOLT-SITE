@@ -1,5 +1,6 @@
 'use client';
 
+import { ExecutionText } from './AffidavitExecutionText';
 import React, { useState, useCallback, useEffect, useMemo, useRef } from 'react';
 import { readToolDraft, saveToolDraft, removeToolDraft, type ToolDraft } from '@/lib/local-tool-draft';
 import {
@@ -12,6 +13,9 @@ import {
   getQualificationTokens,
   resolveInstrument,
   validateForPrint,
+  buildDeclarationVars,
+  fillDeclarationForm,
+  getRequiredFooterFields,
   STATES,
 } from '@/lib/jurisdiction';
 import type { InstrumentResolution } from '@/lib/jurisdiction';
@@ -66,8 +70,6 @@ const ATTESTATION_LABELS: Record<string, string> = {
   texas107eDeclarationWithDOB: 'Declaration under Tex. R. Civ. P. 107(e) includes my date of birth',
 };
 
-/** Attestations that hold on every sworn/unsworn return in every state. */
-const UNIVERSAL_ATTESTATIONS = new Set(['nonParty18', 'nonParty', 'legalAge', 'age21']);
 
 
 export default function AffidavitOfService() {
@@ -125,11 +127,24 @@ export default function AffidavitOfService() {
   // Comments / Narrative Notes (physical description goes here when needed)
   const [comments, setComments] = useState('');
 
-  // Declaration Execution Info
+  // Declaration / signing execution venue (physical place of signing — never court venue)
   const [execDate, setExecDate] = useState('');
+  /** Legacy combined "City, State" kept for old drafts/share links; prefer signingCity/State. */
   const [execCity, setExecCity] = useState('');
+  const [signingCity, setSigningCity] = useState('');
+  const [signingState, setSigningState] = useState('');
+  const [signingCounty, setSigningCounty] = useState('');
+  /** TX declaration DOB token. */
+  const [serverDob, setServerDob] = useState('');
+  const [licenseExpirationDate, setLicenseExpirationDate] = useState('');
+  /** Server's registration county (not the case caption county). */
+  const [registrationCounty, setRegistrationCounty] = useState('');
+  const [serviceFee, setServiceFee] = useState('');
+  /** Actual age of the person who accepted abode service. */
+  const [recipientAge, setRecipientAge] = useState('');
+  const [abodeFollowUpMailDate, setAbodeFollowUpMailDate] = useState('');
 
-  // Notary Block Info
+  // Notary Block Info — physical notarization venue (defaults from signing location, not court)
   const [notaryState, setNotaryState] = useState('');
   const [notaryCounty, setNotaryCounty] = useState('');
   const [swornDayPhrase, setSwornDayPhrase] = useState('');
@@ -171,13 +186,13 @@ export default function AffidavitOfService() {
   /** Officer/peace-officer authority confirmation for officer-only service states. */
   const [officerAuthorized, setOfficerAuthorized] = useState(false);
 
-  /** Attestation tokens this state requires beyond the universal set. */
+  /** Every required attestation must be explicitly reviewable. */
   const requiredAttestations = useMemo(() => {
     const tokens = (courtContent?.attestations ?? []).filter(
-      (t) => !UNIVERSAL_ATTESTATIONS.has(String(t)),
+      (t) => docType.includes('DECLARATION') || !/declaration/i.test(String(t)),
     );
     return tokens as string[];
-  }, [courtContent]);
+  }, [courtContent, docType]);
   /** Attestation checkboxes the state requires and the user has NOT yet checked. */
   const missingAttestations = useMemo(
     () => requiredAttestations.filter((t) => !attestationsAccepted.includes(t)),
@@ -231,6 +246,15 @@ export default function AffidavitOfService() {
     comments,
     execDate,
     execCity,
+    signingCity,
+    signingState,
+    signingCounty,
+    serverDob,
+    licenseExpirationDate,
+    registrationCounty,
+    serviceFee,
+    recipientAge,
+    abodeFollowUpMailDate,
     notaryState,
     notaryCounty,
     swornDayPhrase,
@@ -269,6 +293,15 @@ export default function AffidavitOfService() {
     if (typeof v.comments === 'string') setComments(v.comments as string);
     if (typeof v.execDate === 'string') setExecDate(v.execDate as string);
     if (typeof v.execCity === 'string') setExecCity(v.execCity as string);
+    if (typeof v.signingCity === 'string') setSigningCity(v.signingCity as string);
+    if (typeof v.signingState === 'string') setSigningState(v.signingState as string);
+    if (typeof v.signingCounty === 'string') setSigningCounty(v.signingCounty as string);
+    if (typeof v.serverDob === 'string') setServerDob(v.serverDob as string);
+    if (typeof v.licenseExpirationDate === 'string') setLicenseExpirationDate(v.licenseExpirationDate as string);
+    if (typeof v.registrationCounty === 'string') setRegistrationCounty(v.registrationCounty as string);
+    if (typeof v.serviceFee === 'string') setServiceFee(v.serviceFee as string);
+    if (typeof v.recipientAge === 'string') setRecipientAge(v.recipientAge as string);
+    if (typeof v.abodeFollowUpMailDate === 'string') setAbodeFollowUpMailDate(v.abodeFollowUpMailDate as string);
     if (typeof v.notaryState === 'string') setNotaryState(v.notaryState as string);
     if (typeof v.notaryCounty === 'string') setNotaryCounty(v.notaryCounty as string);
     if (typeof v.swornDayPhrase === 'string') setSwornDayPhrase(v.swornDayPhrase as string);
@@ -331,6 +364,35 @@ export default function AffidavitOfService() {
   /** True when the user asked for a declaration but the state forbids it. */
   const declarationBlocked = isDeclaration && instrument.blocked;
 
+  const declarationVars = useMemo(
+    () =>
+      buildDeclarationVars({
+        execDate,
+        signingCity: signingCity || execCity,
+        signingState,
+        signingCounty,
+        affiantName: serverName,
+        serverDob,
+        street: serverAddress,
+      }),
+    [execDate, signingCity, execCity, signingState, signingCounty, serverName, serverDob, serverAddress],
+  );
+
+  const footerFieldValues = useMemo(
+    () => ({
+      signingCity: signingCity || execCity,
+      signingState,
+      signingCounty,
+      serverAddress,
+      serverPhone,
+      licenseNumber: serverLicense,
+      licenseExpirationDate,
+      registrationCounty,
+      serviceFee,
+    }),
+    [signingCity, execCity, signingState, signingCounty, serverAddress, serverPhone, serverLicense, licenseExpirationDate, registrationCounty, serviceFee],
+  );
+
   // Print validation: filing-state requirements are errors; service-state risks are warnings.
   const printCheck = useMemo(
     () =>
@@ -346,11 +408,17 @@ export default function AffidavitOfService() {
         documentsServed: documentsLine,
         attestationsAccepted,
         servedByAbode: serviceMethod === 'substituted-residence',
-        recipientAge: coResidentMinAge ? Number(coResidentMinAge) : null,
-        abodeFollowUpMailDate: '',
+        recipientAge: recipientAge ? Number(recipientAge) : null,
+        abodeFollowUpMailDate,
         officerAuthorized,
+        execDate,
+        signingCity: signingCity || execCity,
+        signingState,
+        signingCounty,
+        footerFieldValues,
+        declarationVars,
       }),
-    [effectiveCourtState, serviceStateEffective, requestedInstrument, attempts, cameToHandDate, cameToHandTime, documentsLine, attestationsAccepted, serviceMethod, coResidentMinAge, officerAuthorized],
+    [effectiveCourtState, serviceStateEffective, requestedInstrument, attempts, cameToHandDate, cameToHandTime, documentsLine, attestationsAccepted, serviceMethod, recipientAge, abodeFollowUpMailDate, officerAuthorized, execDate, signingCity, execCity, signingState, signingCounty, footerFieldValues, declarationVars],
   );
   const printErrors = printCheck.errors;
   const printWarnings = printCheck.warnings;
@@ -429,9 +497,10 @@ export default function AffidavitOfService() {
     const coAge = getParam('co_resident_age', 'sub_age', 'substitute_age');
     if (coAge) setCoResidentMinAge(coAge);
     const cty = getParam('county', 'County');
-    if (cty) { setCounty(cty); setNotaryCounty(cty); }
+    if (cty) setCounty(cty);
     const st = getParam('state', 'State');
-    if (st) { setStateName(st); setNotaryState(st); }
+    if (st) setStateName(st);
+    // Notary / signing venue must NOT inherit court caption state/county (D4).
 
     // Jurisdiction params (symmetric with handleShare).
     const cs = getParam('court_state', 'filing_state');
@@ -456,6 +525,15 @@ export default function AffidavitOfService() {
       [['comments','notes'], setComments],
       [['exec_date','execution_date'], setExecDate],
       [['exec_city','execution_city'], setExecCity],
+      [['signing_city'], setSigningCity],
+      [['signing_state'], setSigningState],
+      [['signing_county'], setSigningCounty],
+      [['server_dob','dob'], setServerDob],
+      [['license_exp','license_expiration'], setLicenseExpirationDate],
+      [['registration_county','server_registration_county'], setRegistrationCounty],
+      [['service_fee','fee'], setServiceFee],
+      [['recipient_age','accepted_age'], setRecipientAge],
+      [['mail_date','abode_mail_date','follow_up_mail'], setAbodeFollowUpMailDate],
       [['notary_state'], setNotaryState],
       [['notary_county'], setNotaryCounty],
       [['sworn_day'], setSwornDayPhrase],
@@ -537,6 +615,15 @@ export default function AffidavitOfService() {
     if (comments) url.searchParams.set('comments', comments);
     if (execDate) url.searchParams.set('exec_date', execDate);
     if (execCity) url.searchParams.set('exec_city', execCity);
+    if (signingCity) url.searchParams.set('signing_city', signingCity);
+    if (signingState) url.searchParams.set('signing_state', signingState);
+    if (signingCounty) url.searchParams.set('signing_county', signingCounty);
+    if (serverDob) url.searchParams.set('server_dob', serverDob);
+    if (licenseExpirationDate) url.searchParams.set('license_exp', licenseExpirationDate);
+    if (registrationCounty) url.searchParams.set('registration_county', registrationCounty);
+    if (serviceFee) url.searchParams.set('service_fee', serviceFee);
+    if (recipientAge) url.searchParams.set('recipient_age', recipientAge);
+    if (abodeFollowUpMailDate) url.searchParams.set('mail_date', abodeFollowUpMailDate);
     if (notaryState) url.searchParams.set('notary_state', notaryState);
     if (notaryCounty) url.searchParams.set('notary_county', notaryCounty);
     if (swornDayPhrase) url.searchParams.set('sworn_day', swornDayPhrase);
@@ -593,6 +680,15 @@ export default function AffidavitOfService() {
       setServerAge('18');
       setCoResidentMinAge('');
       setExecCity('');
+      setSigningCity('');
+      setSigningState('');
+      setSigningCounty('');
+      setServerDob('');
+      setLicenseExpirationDate('');
+      setRegistrationCounty('');
+      setServiceFee('');
+      setRecipientAge('');
+      setAbodeFollowUpMailDate('');
       setNotaryState('');
       setNotaryCounty('');
       setServiceMethod('substituted-residence');
@@ -650,7 +746,8 @@ export default function AffidavitOfService() {
     const text = getQualification(effectiveCourtState, {
       serverName,
       licenseNumber: serverLicense,
-      registrationCounty: county,
+      registrationCounty: registrationCounty || county,
+      licenseExpirationDate,
       // WA (2026-10-24): recital cites the true state of service (CR 4(e)(2)/RCW 4.28.180),
       // never the filing venue — an OK server on a WA case must not claim WA registration.
       serviceStateName: STATES[serviceStateEffective]?.stateName || serviceStateEffective,
@@ -660,7 +757,7 @@ export default function AffidavitOfService() {
       return '';
     }
     return text;
-  }, [effectiveCourtState, serverName, serverLicense, county, serviceStateEffective, outOfStateVenueQualBlocked]);
+  }, [effectiveCourtState, serverName, serverLicense, registrationCounty, county, licenseExpirationDate, serviceStateEffective, outOfStateVenueQualBlocked]);
 
   /** Came-to-hand recital for FL/TX; '' unless the state requires it AND date/time are present. */
   const cameToHandSentence = useMemo(() => {
@@ -671,15 +768,25 @@ export default function AffidavitOfService() {
       .replace('{receivedTime}', cameToHandTime || '');
   }, [courtContent, cameToHandDate, cameToHandTime]);
 
-  /** Exact statutory penalty sentence for a declaration (WY = "false swearing", FED = §1746). */
+  /** Exact statutory penalty sentence for a declaration — placeholders filled from signing fields. */
   const declarationPenaltySentence = useMemo(() => {
     if (!gatedIsDeclaration) return '';
     const formText = (courtRule.declarationFormText || '').trim();
     if (!formText) {
-      return `I state under penalty of perjury under the laws of the State of ${stateName || '__________'} that the foregoing is true and correct.`;
+      const laws = courtRule.stateName || stateName || '__________';
+      return `I state under penalty of perjury under the laws of the State of ${laws} that the foregoing is true and correct.`;
     }
-    return formText;
-  }, [gatedIsDeclaration, courtRule, stateName]);
+    const filled = fillDeclarationForm(formText, declarationVars);
+    // Print gate blocks unresolved tokens; never ship raw `{placeholders}` on paper.
+    return filled.missing.length > 0 ? '' : filled.text;
+  }, [gatedIsDeclaration, courtRule, stateName, declarationVars]);
+
+  const neededFooterFields = useMemo(
+    () => getRequiredFooterFields(effectiveCourtState),
+    [effectiveCourtState],
+  );
+
+  const signingPlaceLabel = [signingCity || execCity, signingState].filter(Boolean).join(', ');
 
   /** Statutory instrument note (e.g. FL §48.21 signed-not-notarized note) — small italics. */
   const instrumentNote = courtContent?.render?.instrumentNote || '';
@@ -906,10 +1013,8 @@ export default function AffidavitOfService() {
                   setCourtStateTouched(true);
                   // Keep the free-text state fields aligned with the explicit pick.
                   const name = JURISDICTIONS.find((j) => j.code === e.target.value)?.name || '';
-                  if (name) {
-                    setStateName(name);
-                    if (!notaryState) setNotaryState(name);
-                  }
+                  if (name) setStateName(name);
+                  // Do not copy court state into the notary/signing venue.
                 }}
                 className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500 cursor-pointer"
               >
@@ -1023,18 +1128,41 @@ export default function AffidavitOfService() {
                 />
               </div>
               {serviceMethod === 'substituted-residence' && (
-                <div>
-                  <span className="text-slate-400 font-semibold block mb-0.5">Co-resident min age (optional):</span>
-                  <input
-                    type="text"
-                    inputMode="numeric"
-                    value={coResidentMinAge}
-                    onChange={(e) => setCoResidentMinAge(e.target.value.replace(/[^\d]/g, '').slice(0, 2))}
-                    placeholder="e.g. 15 (OK) / 16 (AR) / 18"
-                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
-                  />
-                  <span className="text-slate-500 text-[10px] block mt-0.5">Blank = “suitable age &amp; discretion” only (no number)</span>
-                </div>
+                <>
+                  <div>
+                    <span className="text-slate-400 font-semibold block mb-0.5">Co-resident min age (optional):</span>
+                    <input
+                      type="text"
+                      inputMode="numeric"
+                      value={coResidentMinAge}
+                      onChange={(e) => setCoResidentMinAge(e.target.value.replace(/[^\d]/g, '').slice(0, 2))}
+                      placeholder="e.g. 15 (OK) / 16 (AR) / 18"
+                      className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                    />
+                    <span className="text-slate-500 text-[10px] block mt-0.5">Printed age wording only — blank = “suitable age &amp; discretion”</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-400 font-semibold block mb-0.5">Actual recipient age:</span>
+                    <input
+                      type="text"
+                      inputMode="numeric"
+                      value={recipientAge}
+                      onChange={(e) => setRecipientAge(e.target.value.replace(/[^\d]/g, '').slice(0, 2))}
+                      placeholder="Age of person who accepted"
+                      className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                    />
+                  </div>
+                  <div>
+                    <span className="text-slate-400 font-semibold block mb-0.5">Follow-up mail date (if required):</span>
+                    <input
+                      type="text"
+                      value={abodeFollowUpMailDate}
+                      onChange={(e) => setAbodeFollowUpMailDate(e.target.value)}
+                      placeholder="MM/DD/YYYY"
+                      className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                    />
+                  </div>
+                </>
               )}
               {serviceMethod === 'corporate' && (
                 <div>
@@ -1048,6 +1176,107 @@ export default function AffidavitOfService() {
                   />
                 </div>
               )}
+            </div>
+          )}
+
+          {/* Signing venue — physical place of execution (never the filing court) */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-2 border-t border-slate-800 text-xs">
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Signing city</span>
+              <input
+                type="text"
+                value={signingCity}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setSigningCity(v);
+                  setExecCity([v, signingState].filter(Boolean).join(', '));
+                }}
+                placeholder="e.g. Tulsa"
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+              />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Signing state</span>
+              <input
+                type="text"
+                value={signingState}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setSigningState(v);
+                  setExecCity([signingCity, v].filter(Boolean).join(', '));
+                  if (!notaryState.trim()) setNotaryState(v);
+                }}
+                placeholder="e.g. Oklahoma"
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+              />
+            </div>
+            <div>
+              <span className="text-slate-400 font-semibold block mb-0.5">Signing county</span>
+              <input
+                type="text"
+                value={signingCounty}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setSigningCounty(v);
+                  if (!notaryCounty.trim()) setNotaryCounty(v);
+                }}
+                placeholder="e.g. Tulsa"
+                className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+              />
+              <span className="text-slate-500 text-[10px] block mt-0.5">Notary jurat defaults from these when blank</span>
+            </div>
+          </div>
+
+          {(gatedIsDeclaration || neededFooterFields.length > 0) && (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 pt-1 border-t border-slate-800 text-xs">
+              {neededFooterFields.includes('licenseExpirationDate') || effectiveCourtState === 'TX' ? (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">License expiration</span>
+                  <input
+                    type="text"
+                    value={licenseExpirationDate}
+                    onChange={(e) => setLicenseExpirationDate(e.target.value)}
+                    placeholder="MM/DD/YYYY"
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                  />
+                </div>
+              ) : null}
+              {neededFooterFields.includes('registrationCounty') || effectiveCourtState === 'CA' ? (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">Registration county</span>
+                  <input
+                    type="text"
+                    value={registrationCounty}
+                    onChange={(e) => setRegistrationCounty(e.target.value)}
+                    placeholder="Server registration county"
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                  />
+                </div>
+              ) : null}
+              {neededFooterFields.includes('serviceFee') ? (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">Service fee</span>
+                  <input
+                    type="text"
+                    value={serviceFee}
+                    onChange={(e) => setServiceFee(e.target.value)}
+                    placeholder="e.g. $75.00"
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                  />
+                </div>
+              ) : null}
+              {gatedIsDeclaration && (effectiveCourtState === 'TX' || /\{\s*serverDob\s*\}/.test(courtRule.declarationFormText || '')) ? (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">Server date of birth (TX declaration)</span>
+                  <input
+                    type="text"
+                    value={serverDob}
+                    onChange={(e) => setServerDob(e.target.value)}
+                    placeholder="MM/DD/YYYY"
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500"
+                  />
+                </div>
+              ) : null}
             </div>
           )}
 
@@ -1373,7 +1602,7 @@ export default function AffidavitOfService() {
               />
             ) : null}
             <div className={serviceMethod === 'custom' ? 'print-only hidden' : ''}>
-              <span dangerouslySetInnerHTML={{ __html: getExecutionSentence() }} />
+              <ExecutionText text={getExecutionSentence()} />
             </div>
           </div>
 
@@ -1415,17 +1644,63 @@ export default function AffidavitOfService() {
                         />
                         <span className="print-only-inline hidden font-bold">{execDate || '_________________'}</span>
                       </div>
-                      <div>
+                      <div className="mb-1">
                         <strong>At: </strong>
                         <input
                           type="text"
-                          value={execCity}
-                          onChange={(e) => setExecCity(e.target.value)}
-                          placeholder="City, State"
-                          className="font-bold border-b border-black bg-transparent outline-none w-36 screen-only"
+                          value={signingCity || execCity}
+                          onChange={(e) => {
+                            setSigningCity(e.target.value);
+                            setExecCity(e.target.value);
+                          }}
+                          placeholder="City"
+                          className="font-bold border-b border-black bg-transparent outline-none w-28 screen-only"
                         />
-                        <span className="print-only-inline hidden font-bold">{execCity || '_________________'}</span>
+                        <span className="print-only-inline hidden font-bold">{signingCity || execCity || '_________________'}</span>
+                        {', '}
+                        <input
+                          type="text"
+                          value={signingState}
+                          onChange={(e) => {
+                            const v = e.target.value;
+                            setSigningState(v);
+                            if (!notaryState.trim()) setNotaryState(v);
+                          }}
+                          placeholder="State"
+                          className="font-bold border-b border-black bg-transparent outline-none w-20 screen-only"
+                        />
+                        <span className="print-only-inline hidden font-bold">{signingState || '______'}</span>
                       </div>
+                      {(neededFooterFields.includes('signingCounty') || !!signingCounty) && (
+                        <div className="mb-1">
+                          <strong>County: </strong>
+                          <input
+                            type="text"
+                            value={signingCounty}
+                            onChange={(e) => {
+                              const v = e.target.value;
+                              setSigningCounty(v);
+                              if (!notaryCounty.trim()) setNotaryCounty(v);
+                            }}
+                            placeholder="County"
+                            className="font-bold border-b border-black bg-transparent outline-none w-24 screen-only"
+                          />
+                          <span className="print-only-inline hidden font-bold">{signingCounty || '______'}</span>
+                        </div>
+                      )}
+                      {courtRule.declarationFormText?.includes('{serverDob}') ? (
+                        <div>
+                          <strong>DOB: </strong>
+                          <input
+                            type="text"
+                            value={serverDob}
+                            onChange={(e) => setServerDob(e.target.value)}
+                            placeholder="MM/DD/YYYY"
+                            className="font-bold border-b border-black bg-transparent outline-none w-28 screen-only"
+                          />
+                          <span className="print-only-inline hidden font-bold">{serverDob || '_________________'}</span>
+                        </div>
+                      ) : null}
                     </td>
                   </tr>
                 </tbody>

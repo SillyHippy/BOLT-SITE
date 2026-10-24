@@ -26,5 +26,10 @@ export {
   getQualification,
   getQualificationTokens,
 } from './qualification';
+export {
+  buildDeclarationVars,
+  fillDeclarationForm,
+  parseExecutionDateParts,
+} from './declaration';
 export { resolveInstrument } from './instrument';
-export { validateForPrint } from './validate';
+export { getRequiredFooterFields, validateForPrint } from './validate';

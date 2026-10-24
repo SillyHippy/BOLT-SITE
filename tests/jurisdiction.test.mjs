@@ -26,18 +26,13 @@ import {
   validateForPrint,
 } from '../lib/jurisdiction/index.ts';
 
-/** The 22 jurisdictions whose return may be an unsworn declaration (SaaS jurisdictionReturnRules.json). */
+/** Canonical declaration allow-list from the current SaaS-generated bundle (9 jurisdictions). */
 const DECLARATION_STATES = [
-  'FED', 'CA', 'TX', 'OK', 'CO', 'UT', 'NV', 'OR', 'AZ', 'NY', 'PA',
-  'IL', 'MI', 'MN', 'KS', 'IA', 'HI', 'VT', 'ND', 'SD', 'WY', 'MD',
+  'CA', 'CO', 'FED', 'KS', 'NM', 'NY', 'OK', 'TX', 'WA',
 ];
 
-/** The 30 that fail closed to a notarized affidavit / return of service. */
-const BLOCKED_STATES = [
-  'WA', 'FL', 'GA', 'VA', 'NC', 'SC', 'NJ', 'MA', 'OH', 'AL', 'AR',
-  'CT', 'DE', 'LA', 'MS', 'MO', 'MT', 'NE', 'DC', 'AK', 'NH', 'RI',
-  'ME', 'TN', 'NM', 'KY', 'IN', 'ID', 'WV', 'WI',
-];
+/** Remaining jurisdictions fail closed to a notarized affidavit / return of service. */
+const BLOCKED_STATES = STATE_CODES.filter((code) => !DECLARATION_STATES.includes(code));
 
 const bundleTest = HAS_STATE_DATA ? test : test.skip;
 
@@ -178,11 +173,10 @@ describe('resolveInstrument', () => {
     }
   });
 
-  test('a blocked declaration request never returns a declaration for WA', () => {
+  test('WA declaration request is allowed under the current canonical allow-list', () => {
     const resolution = resolveInstrument('declaration', 'WA');
-    expect(resolution.docType).toBe('affidavit');
-    expect(resolution.blocked).toBe(true);
-    expect(resolution.reason.length).toBeGreaterThan(0);
+    expect(resolution.docType).toBe('declaration');
+    expect(resolution.blocked).toBe(false);
   });
 });
 
@@ -278,7 +272,8 @@ describe('52-state bundle parity', () => {
     expect(typeof GENERATED_FROM.commit).toBe('string');
   });
 
-  bundleTest('the 22 declaration jurisdictions resolve to declaration', () => {
+  bundleTest('the declaration jurisdictions resolve to declaration', () => {
+    expect(DECLARATION_STATES.length).toBe(9);
     for (const code of DECLARATION_STATES) {
       const rule = getReturnRule(code);
       expect(rule.allowDeclaration).toBe(true);
@@ -291,7 +286,8 @@ describe('52-state bundle parity', () => {
     }
   });
 
-  bundleTest('the 30 blocked jurisdictions resolve to affidavit plus blocked', () => {
+  bundleTest('blocked jurisdictions resolve to affidavit plus blocked', () => {
+    expect(BLOCKED_STATES.length).toBe(43);
     for (const code of BLOCKED_STATES) {
       const resolution = resolveInstrument('declaration', code);
       expect(resolution.docType).toBe('affidavit');
@@ -303,14 +299,12 @@ describe('52-state bundle parity', () => {
     }
   });
 
-  bundleTest('WA blocked resolution carries a plain-English reason and the citation', () => {
+  bundleTest('WA declaration is allowed with statute citation', () => {
     const resolution = resolveInstrument('declaration', 'WA');
-    expect(resolution.docType).toBe('affidavit');
-    expect(resolution.blocked).toBe(true);
+    expect(resolution.docType).toBe('declaration');
+    expect(resolution.blocked).toBe(false);
     expect(resolution.stateName).toBe('Washington');
-    expect(resolution.reason).toMatch(/affidavit|declaration/i);
-    expect(resolution.reason).not.toBe('STATE_REQUIRED');
-    expect(resolution.citation.length).toBeGreaterThan(0);
+    expect(resolution.statute.length).toBeGreaterThan(0);
   });
 
   bundleTest('getReturnRule agrees with the bundle for every state', () => {
@@ -324,7 +318,7 @@ describe('52-state bundle parity', () => {
     }
   });
 
-  bundleTest('the declaration allow-list matches the expected 22 exactly', () => {
+  bundleTest('the declaration allow-list matches the expected 9 exactly', () => {
     const allowed = STATE_CODES.filter((code) => getReturnRule(code).allowDeclaration).sort();
     expect(allowed).toEqual([...DECLARATION_STATES].sort());
   });

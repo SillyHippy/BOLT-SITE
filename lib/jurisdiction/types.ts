@@ -152,10 +152,20 @@ export interface PrintValidationInput {
   attestationsAccepted?: string[];
   /** True when service was by substituted service at the recipient's abode. */
   servedByAbode?: boolean;
+  /** Actual age of the person who accepted abode service (not the statutory minimum). */
   recipientAge?: number | null;
   abodeFollowUpMailDate?: string;
   /** True when the server is a peace officer or specially appointed person (officer-only states). */
   officerAuthorized?: boolean;
+  /** Physical signing / declaration execution venue (never the filing court). */
+  execDate?: string;
+  signingCity?: string;
+  signingState?: string;
+  signingCounty?: string;
+  /** Values keyed by qualification.requiredFooterFields token names. */
+  footerFieldValues?: Record<string, string | null | undefined>;
+  /** Vars for declarationFormText `{token}` substitution (D2). */
+  declarationVars?: Record<string, string | null | undefined>;
 }
 
 export interface PrintValidationResult {

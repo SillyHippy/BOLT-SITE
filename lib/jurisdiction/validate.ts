@@ -8,9 +8,37 @@
  *  - filing state -> arrived-at-hand, documents list, attestations (ERRORS when missing)
  *  - service state -> Sunday block, officer-only, abode age, follow-up mail (WARNINGS ONLY)
  */
+import { fillDeclarationForm } from './declaration';
 import { resolveInstrument } from './instrument';
+import { STATES } from './data';
 import { getContentRule, getReturnRule, normalizeStateCode } from './rules';
 import type { PrintValidationInput, PrintValidationResult } from './types';
+
+/** Footer tokens the public generator can collect today (others stay unenforced). */
+const ENFORCEABLE_FOOTER_FIELDS = new Set([
+  'signingCity',
+  'signingState',
+  'signingCounty',
+  'serverAddress',
+  'serverPhone',
+  'licenseNumber',
+  'licenseExpirationDate',
+  'registrationCounty',
+  'serviceFee',
+]);
+
+/** Human labels for missing footer / signing fields. */
+const FOOTER_LABELS: Record<string, string> = {
+  signingCity: 'signing city',
+  signingState: 'signing state',
+  signingCounty: 'signing county',
+  serverAddress: 'server address',
+  serverPhone: 'server phone',
+  licenseNumber: 'license number',
+  licenseExpirationDate: 'license expiration date',
+  registrationCounty: 'registration county',
+  serviceFee: 'service fee',
+};
 
 /** `yyyy-mm-dd` -> weekday, avoiding timezone drift (noon UTC is safe in every zone). */
 function isSunday(date?: string | null): boolean {
@@ -37,6 +65,31 @@ function appliesToInstrument(token: string, requested: PrintValidationInput['req
   return !/declaration/i.test(token);
 }
 
+/** Qualification.requiredFooterFields for a filing state (empty when unknown). */
+export function getRequiredFooterFields(stateCode?: string | null): string[] {
+  const code = normalizeStateCode(stateCode);
+  if (!code) return [];
+  const fields = STATES[code]?.qualification?.requiredFooterFields;
+  return Array.isArray(fields) ? fields.map(String) : [];
+}
+
+function footerValue(
+  input: PrintValidationInput,
+  key: string,
+): string {
+  const fromMap = input?.footerFieldValues?.[key];
+  if (fromMap !== undefined && fromMap !== null && String(fromMap).trim()) {
+    return String(fromMap).trim();
+  }
+  // Common aliases collected as top-level signing / credential fields.
+  const aliases: Record<string, string | undefined> = {
+    signingCity: input?.signingCity,
+    signingState: input?.signingState,
+    signingCounty: input?.signingCounty,
+  };
+  return String(aliases[key] ?? '').trim();
+}
+
 /**
  * Validate everything needed before printing a return.
  *
@@ -52,10 +105,13 @@ export function validateForPrint(input: PrintValidationInput = {}): PrintValidat
   const filingRule = getReturnRule(courtState);
   const serviceName = getReturnRule(serviceState).stateName || serviceState;
 
+  let declarationBlocked = false;
+
   // ---- Filing-state requirements: these block printing -------------------------------
   if (input?.requested === 'declaration') {
     const resolution = resolveInstrument('declaration', courtState);
     if (resolution.blocked) {
+      declarationBlocked = true;
       const label = resolution.stateName || courtState || 'this state';
       errors.push(
         resolution.reason === 'STATE_REQUIRED'
@@ -99,6 +155,41 @@ export function validateForPrint(input: PrintValidationInput = {}): PrintValidat
     if (missing.length > 0) {
       errors.push(
         `${filingRule.stateName || courtState} requires these attestations before printing: ${missing.join(', ')}.`,
+      );
+    }
+  }
+
+  // Declarations always need an execution date + place; requiredFooterFields that we collect
+  // are hard errors. Do not enforce when the instrument was already blocked to affidavit.
+  if (input?.requested === 'declaration' && !declarationBlocked) {
+    if (!String(input?.execDate ?? '').trim()) {
+      errors.push('A declaration requires the date of execution before printing.');
+    }
+    if (!String(input?.signingCity ?? '').trim() || !String(input?.signingState ?? '').trim()) {
+      errors.push('A declaration requires the city and state where it was executed before printing.');
+    }
+
+    const formText = String(filingRule.declarationFormText || '').trim();
+    if (formText) {
+      const filled = fillDeclarationForm(formText, input?.declarationVars);
+      if (filled.missing.length > 0) {
+        errors.push(
+          `${filingRule.stateName || courtState} declaration text is missing: ${filled.missing
+            .map((t) => `{${t}}`)
+            .join(', ')}.`,
+        );
+      }
+    }
+
+    const requiredFooter = getRequiredFooterFields(courtState).filter((f) =>
+      ENFORCEABLE_FOOTER_FIELDS.has(f),
+    );
+    const missingFooter = requiredFooter.filter((f) => !footerValue(input, f));
+    if (missingFooter.length > 0) {
+      errors.push(
+        `${filingRule.stateName || courtState} requires these signing fields before printing: ${missingFooter
+          .map((f) => FOOTER_LABELS[f] || f)
+          .join(', ')}.`,
       );
     }
   }
