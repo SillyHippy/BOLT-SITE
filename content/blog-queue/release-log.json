@@ -6136,6 +6136,44 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "mobile-notary-real-estate-documents-oklahoma",
+      "title": "Mobile Notary for Real Estate Documents in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-27T19:45:10.568Z",
+      "releaseDate": "2026-10-27",
+      "quality": {
+        "words": 3271,
+        "headings": 20,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-insurance-companies-claims-litigation-oklahoma",
+      "title": "Process Serving Insurance Companies in Oklahoma Explained",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-27T19:45:10.570Z",
+      "releaseDate": "2026-10-27",
+      "quality": {
+        "words": 4444,
+        "headings": 30,
+        "paragraphs": 44
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
