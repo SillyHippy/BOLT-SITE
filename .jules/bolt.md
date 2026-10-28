@@ -21,3 +21,7 @@
 ## 2026-05-24 - Pre-compute and cache heavy static mathematical operations
 **Learning:** For computationally expensive operations on static data (e.g., calculating haversine distances and sorting items in `lib/county-neighbors.ts`), executing the operations dynamically inside repetitive renders or static generation loops results in significant performance bottlenecks.
 **Action:** Implement an in-memory caching mechanism like a `Map` initialized at module load time to store previously computed results, shifting O(N log N) operations and repeated mathematical calculations to fast O(1) lookups during execution.
+
+## 2026-05-24 - Cache redundant directory reads during static generation
+**Learning:** During Next.js static generation (`generateStaticParams`), helper functions like `getCountySlugs()` and `getLocationSlugs()` are called repeatedly for every page being generated. Executing asynchronous `fs/promises.readdir` on every call creates unnecessary I/O overhead and slows down the build process, even when using non-blocking I/O.
+**Action:** Implement simple module-level caching (e.g., `let _slugsCache: string[] | null = null`) in data-fetching utility functions that read from the filesystem, ensuring the directory is only read once during the build lifecycle.
