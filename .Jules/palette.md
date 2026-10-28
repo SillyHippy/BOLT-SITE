@@ -19,3 +19,6 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+## 2026-10-28 - Added aria-label to inputs that only use placeholders
+**Learning:** Found several standalone `<input>` elements (such as a search bar, a PIN entry, and an email subscribe field) that relied solely on a `placeholder` attribute to convey their purpose. While visually acceptable, `placeholder` text is not a reliable substitute for a label for screen readers.
+**Action:** When a visible `<label>` cannot be added to an `<input>` due to design constraints, always provide an explicit `aria-label` attribute to ensure assistive technologies can announce the field's purpose properly.
