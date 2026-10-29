@@ -6174,6 +6174,44 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "home-notary-power-of-attorney-oklahoma",
+      "title": "Oklahoma Notary for Power of Attorney at Home",
+      "category": "Notary Services",
+      "releasedAt": "2026-10-29T20:06:55.952Z",
+      "releaseDate": "2026-10-29",
+      "quality": {
+        "words": 3110,
+        "headings": 14,
+        "paragraphs": 25
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-juvenile-court-confidentiality-oklahoma",
+      "title": "Process Serving in Juvenile Court: Oklahoma Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-10-29T20:06:55.958Z",
+      "releaseDate": "2026-10-29",
+      "quality": {
+        "words": 4438,
+        "headings": 42,
+        "paragraphs": 55
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [

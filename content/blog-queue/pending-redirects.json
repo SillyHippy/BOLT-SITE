@@ -71,13 +71,6 @@
       "inQueue": true,
       "updatedAt": "2026-08-22"
     },
-    "process-serving-juvenile-court-confidentiality-oklahoma": {
-      "target": "/blog/how-to-hire-a-process-server-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-08-22"
-    },
     "process-serving-tribal-land-mcgirt-jurisdiction-oklahoma": {
       "target": "/serving-legal-papers-on-tribal-land",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -142,6 +135,6 @@
       "updatedAt": "2026-08-22"
     }
   },
-  "lastPublishedSlug": "process-serving-family-law-paternity-adoption-custody-oklahoma",
-  "lastPublishedAt": "2026-10-20T18:50:30.593Z"
+  "lastPublishedSlug": "process-serving-juvenile-court-confidentiality-oklahoma",
+  "lastPublishedAt": "2026-10-29T20:06:55.954Z"
 }
