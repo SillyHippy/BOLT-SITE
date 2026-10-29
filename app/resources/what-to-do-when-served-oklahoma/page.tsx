@@ -316,6 +316,7 @@ export default function WhatToDoWhenServedPage() {
             <form className="flex flex-col sm:flex-row gap-3">
               <input
                 type="email"
+                aria-label="Email address for updates"
                 placeholder="Enter your email (optional)"
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-yellow-400"
               />
