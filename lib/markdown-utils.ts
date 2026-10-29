@@ -19,21 +19,16 @@ const EXISTING_COUNTY_PAGES = [
 
 const SKIP_FILES = ['tulsa-county-enhanced'];
 
-let _countySlugsCache: string[] | null = null;
-
 // ⚡ Bolt: Using asynchronous fs/promises to prevent blocking the Node.js event loop during I/O operations
 export async function getCountySlugs(): Promise<string[]> {
-  // ⚡ Bolt: Cache module-level to avoid redundant O(N) I/O during Next.js SSG
-  if (_countySlugsCache) return _countySlugsCache;
   const filesDir = await readdir(COUNTIES_DIR);
   const files = filesDir.filter((f) => f.endsWith('.md'));
-  _countySlugsCache = files
+  return files
     .map((f) => f.replace(/\.md$/, ''))
     .filter(
       (slug) =>
         !EXISTING_COUNTY_PAGES.includes(slug) && !SKIP_FILES.includes(slug)
     );
-  return _countySlugsCache;
 }
 
 export async function getCountyContent(slug: string): Promise<string> {
@@ -215,17 +210,12 @@ export function generateCountyFAQs(
 
 const LOCATIONS_DIR = join(process.cwd(), 'content', 'locations');
 
-let _locationSlugsCache: string[] | null = null;
-
 // ⚡ Bolt: Using asynchronous fs/promises for better concurrency in Server Components
 export async function getLocationSlugs(): Promise<string[]> {
-  // ⚡ Bolt: Cache module-level to avoid redundant O(N) I/O during Next.js SSG
-  if (_locationSlugsCache) return _locationSlugsCache;
   try {
     const filesDir = await readdir(LOCATIONS_DIR);
     const files = filesDir.filter((f) => f.endsWith('.md'));
-    _locationSlugsCache = files.map((f) => f.replace(/\.md$/, ''));
-    return _locationSlugsCache;
+    return files.map((f) => f.replace(/\.md$/, ''));
   } catch {
     return [];
   }
