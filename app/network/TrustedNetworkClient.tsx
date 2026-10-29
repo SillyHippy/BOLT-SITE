@@ -137,6 +137,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
               inputMode="numeric"
               maxLength={6}
               autoFocus
+              aria-label="Enter security PIN"
               placeholder="••••"
               value={pinInput}
               onChange={(e) => {
@@ -179,6 +180,7 @@ export default function TrustedNetworkClient({ servers }: { servers: ServerConta
             <Search className="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
+              aria-label="Search network by county, city, or server"
               placeholder="Search by County (e.g. Rogers, Oklahoma, Jackson), City, or Server..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
