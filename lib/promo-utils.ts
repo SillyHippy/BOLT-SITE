@@ -11,9 +11,6 @@ export const PROMO_END_DATE = new Date('April 30, 2026');
  * @param promoDescription - The promotional description (used during promo)
  * @returns The appropriate description for the current date
  */
-export function getPromoDescription(baseDescription: string, promoDescription: string): string {
-  // Static exports cannot use runtime date checks for metadata. 
-  // We explicitly return the promo description here. 
-  // Change to baseDescription when the promo ends.
-  return promoDescription;
+export function getPromoDescription(baseDescription: string, _promoDescription: string): string {
+  return baseDescription;
 }
