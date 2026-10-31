@@ -322,7 +322,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At Just Legal Solutions, we provide licensed, bonded process serving across all 77 Oklahoma counties with <Link href="/blog/choose-right-legal-support-partner-oklahoma">the qualities attorneys look for in a legal support partner</Link>: responsiveness, professional documentation, and deep familiarity with Oklahoma\u2019s child support enforcement system. We understand that when you hand us a contempt citation, you are not just asking us to deliver papers. You are asking us to help a custodial parent get the support their child is owed. We take that seriously. Visit our <Link href="/pricing">pricing page</Link> to learn more about our service levels, or <Link href="/contact">contact us</Link> to request service for your next child support enforcement case.
+            At Just Legal Solutions, we provide licensed, bonded process serving across all 77 Oklahoma counties with <Link href="/learn/attorney-hiring-process-server">the qualities attorneys look for in a legal support partner</Link>: responsiveness, professional documentation, and deep familiarity with Oklahoma\u2019s child support enforcement system. We understand that when you hand us a contempt citation, you are not just asking us to deliver papers. You are asking us to help a custodial parent get the support their child is owed. We take that seriously. Visit our <Link href="/pricing">pricing page</Link> to learn more about our service levels, or <Link href="/contact">contact us</Link> to request service for your next child support enforcement case.
           </p>
           </article>
           

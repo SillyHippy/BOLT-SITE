@@ -403,7 +403,7 @@ export default function BlogPost() {
             If you are staring at a calendar and realizing you have cases
             approaching the 180-day deadline,{' '}
             <Link
-              href="/services/process-serving/rush"
+              href="/same-day-process-server"
               className="text-blue-600 hover:underline"
             >
               rush service may be your lifeline

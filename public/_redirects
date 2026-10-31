@@ -441,6 +441,18 @@
 /downloads/what-to-do-when-served-oklahoma.pdf /downloads/JLS-Youve-Been-Served-Guide-v1.0.pdf 301
 /downloads/oklahoma-notarization-requirements.pdf /blog/mobile-notary-tulsa-guide 301
 
+# SEO package 3 — dead internal targets (2026-10-31). Keep ABOVE the interim blog-queue marker.
+/blog/choose-right-legal-support-partner-oklahoma /learn/attorney-hiring-process-server 301
+/blog/process-serving-for-healthcare-hospitals /blog/process-serving-healthcare-hospitals-oklahoma 301
+/blog/process-serving-rural-oklahoma-challenges-solutions /blog/serving-papers-rural-oklahoma 301
+/blog/special-process-server-appointment-authority-oklahoma /process-server-license-oklahoma 301
+/blog/what-to-expect-hiring-process-server-client-faq-oklahoma /blog/questions-to-ask-before-hiring-process-server 301
+/learn/oklahoma-process-server-requirements /process-server-license-oklahoma 301
+/services/document-retrieval /blog/oklahoma-document-retrieval-services 301
+/services/subpoena-service /subpoena-service 301
+/schedule /contact 301
+/services/process-serving/rush /same-day-process-server 301
+
 # ── interim blog queue redirects ──
 # regen: node scripts/audit-blog-queue-redirects.mjs
 /blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma /blog/proof-of-service-oklahoma-guide 301

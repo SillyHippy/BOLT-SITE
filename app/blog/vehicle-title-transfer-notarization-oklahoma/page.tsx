@@ -231,7 +231,7 @@ export default function BlogPost() {
           <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
             <p className="text-gray-800 font-medium m-0">
               Need a notary for your Oklahoma vehicle title transfer? Our mobile notaries come to you &mdash; at home, at work, or anywhere in the Oklahoma City metro.{' '}
-              <Link href="/schedule" className="text-blue-600 hover:underline font-semibold">
+              <Link href="/contact" className="text-blue-600 hover:underline font-semibold">
                 Schedule your appointment today
               </Link>.
             </p>

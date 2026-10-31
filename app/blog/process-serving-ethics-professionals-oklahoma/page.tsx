@@ -218,7 +218,7 @@ export default function BlogPost() {
 
           <p>Oklahoma statutes don't codify a specific ethics code — the state's requirements are procedural rather than philosophical. NAPPS membership fills this gap for professionals who choose to exceed minimum requirements. And membership signals something important: a public commitment to professional standards that goes beyond what the law demands. NAPPS members voluntarily subject themselves to disciplinary action for ethical violations. They choose accountability. That's the difference between a professional and someone who just happens to own a clipboard.</p>
 
-          <p>When vetting a process server, always ask about professional association membership. For a full checklist of what to ask, see our <Link href="/blog/what-to-expect-hiring-process-server-client-faq-oklahoma" className="text-blue-600 hover:underline">client FAQ on hiring a process server</Link>.</p>
+          <p>When vetting a process server, always ask about professional association membership. For a full checklist of what to ask, see our <Link href="/blog/questions-to-ask-before-hiring-process-server" className="text-blue-600 hover:underline">client FAQ on hiring a process server</Link>.</p>
 
           <h2>Sewer Service and Red Flags: How to Spot Unethical Process Servers</h2>
 
