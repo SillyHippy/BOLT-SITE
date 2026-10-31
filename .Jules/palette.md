@@ -19,3 +19,6 @@
 ## 2026-05-18 - Removed Nested Interactive Elements
 **Learning:** Found a `<Link>` nested inside a custom `<div role="button" tabIndex={0}>` used for a file dropzone. Nesting interactive elements (links inside buttons) is an accessibility violation that prevents screen readers from properly identifying the nested element and creates unpredictable focus and click events.
 **Action:** Always ensure interactive elements like links and buttons are not nested within other interactive elements. Move supplementary links outside of custom interactive containers.
+## 2026-10-24 - Radix UI Decorative Icon Accessibility
+**Learning:** Found several Radix UI primitives (Checkbox, RadioGroup, Command, Resizable) that included decorative lucide-react icons in their indicators or inputs without `aria-hidden="true"`. Since Radix handles the ARIA states (like `aria-checked`) directly on the wrapper elements, these icons cause redundant and confusing screen reader announcements.
+**Action:** When building or modifying UI components utilizing Radix UI primitives, always append `aria-hidden="true"` to interior decorative icons (e.g., `<Check>`, `<Circle>`, `<Search>`, `<GripVertical>`) that visually represent a state or action already communicated semantically by the parent primitive.
