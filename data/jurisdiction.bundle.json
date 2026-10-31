@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
     "branch": "live/2026-10-17c",
-    "commit": "4d68ebf",
+    "commit": "8b0bc51",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -3404,10 +3404,10 @@
       },
       "return": {
         "affidavitTitle": "Affidavit of Service",
-        "allowDeclaration": true,
+        "allowDeclaration": false,
         "confidence": "high",
-        "declarationFormText": "I affirm under penalty of perjury under the laws of the State of New Mexico that the foregoing is true and correct.",
-        "declarationStatute": "Rule 1-011(B) NMRA; Rule 23-115 NMRA",
+        "declarationFormText": "",
+        "declarationStatute": "",
         "declarationTitle": "Affidavit of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "no",
@@ -3415,7 +3415,7 @@
         "nonServiceSameFamily": true,
         "notes": "Form 4-206 fields: qualification recital (18+, not a party), 7 service-method checkboxes, fees, signature/title, sheriff-exempt jurat",
         "primarySourceUrl": "https://www.courtrules.net/new_mexico/new-mexico-civil-procedure/rule-1-011",
-        "requiresNotaryForReturn": false,
+        "requiresNotaryForReturn": true,
         "sources": [
           "NMRA 1-004(L)",
           "NMRA 1-011(B)",
