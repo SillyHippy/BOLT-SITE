@@ -506,7 +506,7 @@ export default function BlogPost() {
             motion to compel or for alternative service. And when you need to reach witnesses in
             rural areas, our knowledge of{' '}
             <Link
-              href="/blog/process-serving-rural-oklahoma-challenges-solutions"
+              href="/blog/serving-papers-rural-oklahoma"
               className="text-blue-600 hover:underline"
             >
               process serving in rural Oklahoma
