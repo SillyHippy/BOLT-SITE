@@ -6212,6 +6212,42 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "notarize-wills-estate-documents-oklahoma",
+      "title": "Notarizing Wills and Estate Documents in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-03T20:43:43.103Z",
+      "releaseDate": "2026-11-03",
+      "quality": {
+        "words": 3416,
+        "headings": 19,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-non-profits-advocacy-organizations-oklahoma",
+      "title": "Process Serving for Oklahoma Nonprofits: Complete Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-03T20:43:43.106Z",
+      "releaseDate": "2026-11-03",
+      "quality": {
+        "words": 4030,
+        "headings": 15,
+        "paragraphs": 40
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
