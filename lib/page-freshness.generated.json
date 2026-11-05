@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T20:43:44.098Z",
+  "generatedAt": "2026-11-05T21:24:15.517Z",
   "siteContentReviewDate": "2026-11-03",
   "defaultDatePublished": "2025-03-01",
   "pages": {
@@ -506,6 +506,12 @@
       "dateModified": "2026-11-03",
       "sourceFile": "app/blog/become-process-server-oklahoma/page.tsx",
       "fileMtime": "2026-11-03"
+    },
+    "/blog/business-contract-notary-oklahoma": {
+      "datePublished": "2025-03-01",
+      "dateModified": "2025-03-01",
+      "sourceFile": "app/blog/business-contract-notary-oklahoma/page.tsx",
+      "fileMtime": "2025-03-01"
     },
     "/blog/calendar-management-court-deadline-tracking-virtual-support-oklahoma": {
       "datePublished": "2025-03-01",
@@ -1103,9 +1109,9 @@
     },
     "/blog/notarize-wills-estate-documents-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2025-03-01",
+      "dateModified": "2026-11-03",
       "sourceFile": "app/blog/notarize-wills-estate-documents-oklahoma/page.tsx",
-      "fileMtime": "2025-03-01"
+      "fileMtime": "2026-11-03"
     },
     "/blog/notarizing-documents-incapacitated-individuals-oklahoma": {
       "datePublished": "2025-03-01",
@@ -1433,15 +1439,21 @@
     },
     "/blog/process-serving-non-profits-advocacy-organizations-oklahoma": {
       "datePublished": "2025-03-01",
-      "dateModified": "2025-03-01",
+      "dateModified": "2026-11-03",
       "sourceFile": "app/blog/process-serving-non-profits-advocacy-organizations-oklahoma/page.tsx",
-      "fileMtime": "2025-03-01"
+      "fileMtime": "2026-11-03"
     },
     "/blog/process-serving-oil-gas-companies-oklahoma": {
       "datePublished": "2025-03-01",
       "dateModified": "2026-11-03",
       "sourceFile": "app/blog/process-serving-oil-gas-companies-oklahoma/page.tsx",
       "fileMtime": "2026-11-03"
+    },
+    "/blog/process-serving-rural-oklahoma-challenges-solutions": {
+      "datePublished": "2025-03-01",
+      "dateModified": "2025-03-01",
+      "sourceFile": "app/blog/process-serving-rural-oklahoma-challenges-solutions/page.tsx",
+      "fileMtime": "2025-03-01"
     },
     "/blog/process-serving-small-business-owners-oklahoma": {
       "datePublished": "2025-03-01",

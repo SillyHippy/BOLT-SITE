@@ -996,6 +996,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://justlegalsolutions.org/blog/business-contract-notary-oklahoma</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/blog/calendar-management-court-deadline-tracking-virtual-support-oklahoma</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -1585,6 +1590,7 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/blog/notarize-wills-estate-documents-oklahoma</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1908,12 +1914,18 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/blog/process-serving-non-profits-advocacy-organizations-oklahoma</loc>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/blog/process-serving-oil-gas-companies-oklahoma</loc>
     <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/blog/process-serving-rural-oklahoma-challenges-solutions</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

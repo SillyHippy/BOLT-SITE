@@ -6248,6 +6248,46 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "business-contract-notary-oklahoma",
+      "title": "Oklahoma Notary for Business Contracts & Vendor Agreements",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-05T21:24:14.613Z",
+      "releaseDate": "2026-11-05",
+      "quality": {
+        "words": 3246,
+        "headings": 16,
+        "paragraphs": 28
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-rural-oklahoma-challenges-solutions",
+      "title": "Rural Oklahoma Process Serving: Challenges & Solutions",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-05T21:24:14.616Z",
+      "releaseDate": "2026-11-05",
+      "quality": {
+        "words": 4911,
+        "headings": 27,
+        "paragraphs": 59
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
