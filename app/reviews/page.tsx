@@ -300,7 +300,7 @@ export default function ReviewsPage() {
         <section className="py-16 px-4 bg-blue-900 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience 5-Star Service?</h2>
-            <p className="text-blue-200 text-lg mb-8">Join {allReviews.length}+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $60.</p>
+            <p className="text-blue-200 text-lg mb-8">Join {allReviews.length}+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $90.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all">
                 📞 (539) 367-6832

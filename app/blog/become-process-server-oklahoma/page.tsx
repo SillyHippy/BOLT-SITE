@@ -125,7 +125,7 @@ export default function BecomeProcessServerOklahoma2026() {
 
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Becoming a process server in Oklahoma requires licensing under <strong>12 O.S. § 158.1</strong>, passing a background check, and posting a bond. Process serving costs <strong>$35–$265</strong> per attempt, and Just Legal Solutions covers all <strong>77 counties</strong> with 24/7 availability.</p>
+          <p className="text-gray-800">Becoming a process server in Oklahoma requires licensing under <strong>12 O.S. § 158.1</strong>, passing a background check, and posting a bond. Process serving costs <strong>$40–$295</strong> per attempt, and Just Legal Solutions covers all <strong>77 counties</strong> with 24/7 availability.</p>
         </div>
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
@@ -405,7 +405,7 @@ export default function BecomeProcessServerOklahoma2026() {
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Rush/Same-day service</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$100 – $250 per serve</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$130 – $250 per serve</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Experienced independent</td>
@@ -592,7 +592,7 @@ export default function BecomeProcessServerOklahoma2026() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/oklahoma-process-server-laws" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">

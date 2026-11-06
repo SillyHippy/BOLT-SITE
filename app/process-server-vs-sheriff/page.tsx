@@ -8,7 +8,7 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Process Server vs Sheriff in Oklahoma | Cost, Speed & Reliability',
-  description: 'Process server vs sheriff in Oklahoma compared head-to-head. Private process serving starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Process server vs sheriff in Oklahoma compared head-to-head. Private process serving starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day, $265 after-hours rush. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'process server vs sheriff oklahoma, sheriff service of process tulsa, private process server cost, 12 OS 158.1, 12 OS 2004, sheriff fees oklahoma, private vs sheriff service, court-ready affidavit',
   alternates: { canonical: 'https://justlegalsolutions.org/process-server-vs-sheriff' },
   openGraph: {
@@ -29,8 +29,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'comparison',
-    'ai-summary': 'Private process servers in Oklahoma (licensed under 12 O.S. § 158.1) typically outperform sheriff service on speed, scheduling flexibility, and proof quality. Just Legal Solutions service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush, with GPS-verified affidavits. Sheriff fees in most Oklahoma counties are $40-50 per attempt with 2-4 week turnaround and weekday-only hours. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Sheriff: $40-50 per attempt, 2-4 week turnaround, weekday business hours. Private server (Just Legal Solutions): starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Both are authorized under 12 O.S. § 2004; private servers are bonded under 12 O.S. § 158.1. GPS-verified, all 77 counties, weekend and after-hours available, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Private process servers in Oklahoma (licensed under 12 O.S. § 158.1) typically outperform sheriff service on speed, scheduling flexibility, and proof quality. Just Legal Solutions service starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day, and $265 after-hours rush, with GPS-verified affidavits. Sheriff fees in most Oklahoma counties are $40-50 per attempt with 2-4 week turnaround and weekday-only hours. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Sheriff: $40-50 per attempt, 2-4 week turnaround, weekday business hours. Private server (Just Legal Solutions): starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day, $265 after-hours rush. Both are authorized under 12 O.S. § 2004; private servers are bonded under 12 O.S. § 158.1. GPS-verified, all 77 counties, weekend and after-hours available, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 
@@ -146,7 +146,7 @@ export default function ProcessServerVsSheriffPage() {
                 <tbody>
                   <tr className="bg-white">
                     <td className="border border-gray-200 px-4 py-3 font-medium">Cost</td>
-                    <td className="border border-gray-200 px-4 py-3">$35–$265 (flat, upfront)</td>
+                    <td className="border border-gray-200 px-4 py-3">$40–$295 (flat, upfront)</td>
                     <td className="border border-gray-200 px-4 py-3">$30–$50 + mileage (varies)</td>
                   </tr>
                   <tr className="bg-gray-50">
@@ -225,7 +225,7 @@ export default function ProcessServerVsSheriffPage() {
                   <tr className="bg-slate-50">
                     <td className="px-4 py-3 font-semibold text-gray-900">Cost per attempt</td>
                     <td className="px-4 py-3 text-gray-700">$40-50 typical sheriff fee</td>
-                    <td className="px-4 py-3 text-gray-700">Starts at $35 single-attempt, $60 standard with up to 3 attempts</td>
+                    <td className="px-4 py-3 text-gray-700">Starts at $40 single-attempt, $90 standard with up to 3 attempts</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-semibold text-gray-900">Hours of service</td>

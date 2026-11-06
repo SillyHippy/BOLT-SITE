@@ -191,7 +191,7 @@ export default function OklahomaCourthouseDirectoryPage() {
             <span className="text-2xl">📋</span>
             <div>
               <p className="font-bold text-gray-900">Need Process Serving?</p>
-              <p className="text-gray-600">Just Legal Solutions serves all 77 counties. From $60. Call{' '}
+              <p className="text-gray-600">Just Legal Solutions serves all 77 counties. From $90. Call{' '}
                 <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a>
               </p>
             </div>
@@ -305,7 +305,7 @@ export default function OklahomaCourthouseDirectoryPage() {
       <section className="py-14 px-4 bg-blue-900 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">Need to Serve Someone at an Oklahoma Courthouse?</h2>
-          <p className="text-blue-200 text-lg mb-8">Just Legal Solutions handles process serving and court filing assistance in all 77 Oklahoma counties. From $60.</p>
+          <p className="text-blue-200 text-lg mb-8">Just Legal Solutions handles process serving and court filing assistance in all 77 Oklahoma counties. From $90.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all">
               📞 (539) 367-6832

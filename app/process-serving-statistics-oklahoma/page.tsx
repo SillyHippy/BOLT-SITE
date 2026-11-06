@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     'ai-summary':
       'Oklahoma process serving statistics 2026: Average costs range $35-$400 by service type (routine $35-$75, rush $100-$175, same-day $150-$265, stake-out $200-$300, publication $250-$400). Success rates: personal ~85%, substituted ~78%, publication ~45%, certified mail ~70%. Turnaround: routine 3-5 business days, rush 24-48 hours, rural counties 5-10 business days. Tulsa County ~45,000 civil filings/year, ~12,000 requiring service. Statewide ~180,000 civil filings/year, ~55,000 serves annually across 77 counties. Estimates based on industry data and Oklahoma court records.',
     'ai-key-facts':
-      '77 Oklahoma counties; routine $35-$75; rush $100-$175; same-day $150-$265; personal service success ~85%; Tulsa County ~45,000 civil filings/year; statewide ~180,000 civil filings/year; ~55,000 serves annually; routine 3-5 business days; rush 24-48 hours; (539) 367-6832',
+      '77 Oklahoma counties; routine $40-$75; rush $130-$175; same-day $180-$295; personal service success ~85%; Tulsa County ~45,000 civil filings/year; statewide ~180,000 civil filings/year; ~55,000 serves annually; routine 3-5 business days; rush 24-48 hours; (539) 367-6832',
   },
 };
 
@@ -97,8 +97,8 @@ const faqItems = [
 // Cost by service type — estimates based on industry data and Oklahoma court records
 const costByServiceType = [
   { type: 'Routine', cost: '$35 - $75' },
-  { type: 'Rush (48 hr)', cost: '$100 - $175' },
-  { type: 'Same-day', cost: '$150 - $265' },
+  { type: 'Rush (48 hr)', cost: '$130 - $175' },
+  { type: 'Same-day', cost: '$180 - $295' },
   { type: 'Stake-out', cost: '$200 - $300' },
   { type: 'Service by publication', cost: '$250 - $400' },
 ];
@@ -145,8 +145,8 @@ const documentTypes = [
 
 // Cost comparison — estimates, comparison illustrative only
 const costComparison = [
-  { provider: 'Just Legal Solutions', routine: '$35-$75', rush: '$100-$175', sameDay: '$150-$265' },
-  { provider: 'ABC Legal (national)', routine: '$85-$125', rush: '$150-$200', sameDay: '$200-$300' },
+  { provider: 'Just Legal Solutions', routine: '$40-$75', rush: '$130-$175', sameDay: '$180-$295' },
+  { provider: 'ABC Legal (national)', routine: '$85-$125', rush: '$180-$200', sameDay: '$200-$300' },
   { provider: 'County Sheriff', routine: '$35-$50', rush: 'Limited', sameDay: 'Not offered' },
 ];
 
@@ -278,8 +278,8 @@ export default function OklahomaProcessServingStatistics2026() {
               <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
               <p className="text-gray-800 text-base">
                 In 2026, Oklahoma process serving costs <strong>$35-$400</strong> by service type
-                (routine <strong>$35-$75</strong>, rush <strong>$100-$175</strong>, same-day{' '}
-                <strong>$150-$265</strong>, stake-out <strong>$200-$300</strong>, publication{' '}
+                (routine <strong>$40-$75</strong>, rush <strong>$130-$175</strong>, same-day{' '}
+                <strong>$180-$295</strong>, stake-out <strong>$200-$300</strong>, publication{' '}
                 <strong>$250-$400</strong>). Average success rates are approximately{' '}
                 <strong>85%</strong> for personal service, <strong>78%</strong> for substituted
                 service, <strong>45%</strong> for service by publication, and <strong>70%</strong>{' '}

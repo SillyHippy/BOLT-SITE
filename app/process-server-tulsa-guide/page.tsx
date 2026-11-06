@@ -159,8 +159,8 @@ export default function ProcessServerTulsaGuide() {
             <h2 className="text-2xl font-semibold mb-2">Process Server Pricing Structure in Tulsa: 2025 Market Analysis</h2>
             <ul className="list-disc ml-6 mb-4">
               <li>Routine Service: $50-$150 per service</li>
-              <li>Rush Service: $100-$300 per service</li>
-              <li>Same-Day Service: $150-$500 per service</li>
+              <li>Rush Service: $130-$300 per service</li>
+              <li>Same-Day Service: $180-$500 per service</li>
               <li>Mileage, travel, and specialized services may incur additional fees</li>
             </ul>
           </section>

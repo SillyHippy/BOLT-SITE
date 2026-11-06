@@ -9,7 +9,7 @@ const canonicalUrl = 'https://justlegalsolutions.org/process-server-vs-certified
 export const metadata: Metadata = {
   title: 'Process Server vs Certified Mail in Oklahoma: Complete Comparison',
   description:
-    'Process server vs certified mail for Oklahoma legal service. Compare cost, speed, proof, success rate, and court acceptance. $35-$265 vs $7-$15. See which method wins.',
+    'Process server vs certified mail for Oklahoma legal service. Compare cost, speed, proof, success rate, and court acceptance. $40-$295 vs $7-$15. See which method wins.',
   keywords:
     'process server vs certified mail, certified mail vs process server Oklahoma, service of process comparison, Oklahoma process server cost, certified mail legal service, 12 O.S. 2004',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-summary':
-      'Process server vs certified mail in Oklahoma: A process server costs $35-$265, completes service in 24-72 hours with same-day available, provides a sworn affidavit with GPS verification, and has an ~85% success rate. Certified mail costs $7-$15, takes 3-10 business days, provides only a USPS signature card (unknown signer), and has a ~70% success rate. Oklahoma courts accept both under 12 O.S. § 2004, but personal service is the gold standard and certified mail is frequently contested.',
+      'Process server vs certified mail in Oklahoma: A process server costs $40-$295, completes service in 24-72 hours with same-day available, provides a sworn affidavit with GPS verification, and has an ~85% success rate. Certified mail costs $7-$15, takes 3-10 business days, provides only a USPS signature card (unknown signer), and has a ~70% success rate. Oklahoma courts accept both under 12 O.S. § 2004, but personal service is the gold standard and certified mail is frequently contested.',
     'ai-key-facts':
-      'Process server: $35-$265, 24-72hr, GPS affidavit, 85% success, court-testimony capable. Certified mail: $7-$15, 3-10 days, signature card only, 70% success, frequently contested. Oklahoma statute: 12 O.S. § 2004.',
+      'Process server: $40-$295, 24-72hr, GPS affidavit, 85% success, court-testimony capable. Certified mail: $7-$15, 3-10 days, signature card only, 70% success, frequently contested. Oklahoma statute: 12 O.S. § 2004.',
   },
 };
 
@@ -42,7 +42,7 @@ const faqItems = [
   {
     question: 'Is a process server better than certified mail?',
     answer:
-      'Yes. A process server provides personal delivery, GPS-verified proof, a notarized affidavit, and the ability to testify in court. Certified mail is cheaper ($7-$15 vs $35-$265) but has a lower success rate (~70% vs ~85%), no identity verification, and is frequently contested by defendants who claim they never received the documents.',
+      'Yes. A process server provides personal delivery, GPS-verified proof, a notarized affidavit, and the ability to testify in court. Certified mail is cheaper ($7-$15 vs $40-$295) but has a lower success rate (~70% vs ~85%), no identity verification, and is frequently contested by defendants who claim they never received the documents.',
   },
   {
     question: 'Does Oklahoma accept certified mail as valid service of process?',
@@ -52,7 +52,7 @@ const faqItems = [
   {
     question: 'How much does certified mail service cost compared to a process server?',
     answer:
-      'Certified mail costs approximately $7-$15 per attempt through USPS. A process server in Oklahoma costs $35 for a single attempt up to $265 for 2-hour emergency service. However, when certified mail fails (refusal, wrong address, unknown signer), you must re-serve — often ending up hiring a process server anyway, making the total cost higher.',
+      'Certified mail costs approximately $7-$15 per attempt through USPS. A process server in Oklahoma costs $40 for a single attempt up to $295 for 2-hour emergency service. However, when certified mail fails (refusal, wrong address, unknown signer), you must re-serve — often ending up hiring a process server anyway, making the total cost higher.',
   },
   {
     question: 'How fast is a process server compared to certified mail?',
@@ -72,7 +72,7 @@ const faqItems = [
 ];
 
 const comparisonData = [
-  { factor: 'Cost', processServer: '$35 – $265 (single attempt to emergency)', certifiedMail: '~$7 – $15 (USPS fee per attempt)' },
+  { factor: 'Cost', processServer: '$40 – $295 (single attempt to emergency)', certifiedMail: '~$7 – $15 (USPS fee per attempt)' },
   { factor: 'Speed', processServer: '24–72 hours (same-day available)', certifiedMail: '3–10 business days (no guarantee)' },
   { factor: 'Success Rate', processServer: '~85% (multiple attempts, skip tracing)', certifiedMail: '~70% (refusals = failed attempt)' },
   { factor: 'Proof of Service', processServer: 'Sworn affidavit + GPS stamp + testimony', certifiedMail: 'USPS signature card (unknown signer)' },
@@ -132,7 +132,7 @@ export default function ProcessServerVsCertifiedMail() {
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
           <p className="text-gray-800">
             <strong>A process server is better than certified mail</strong> for serving legal
-            documents in Oklahoma. A process server costs <strong>$35–$265</strong>, completes
+            documents in Oklahoma. A process server costs <strong>$40–$295</strong>, completes
             service in <strong>24–72 hours</strong>, and provides a <strong>notarized affidavit
             with GPS proof</strong>. Certified mail costs <strong>$7–$15</strong> but takes{' '}
             <strong>3–10 business days</strong>, provides only a <strong>USPS signature card</strong>{' '}
@@ -251,13 +251,13 @@ export default function ProcessServerVsCertifiedMail() {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-4 py-3 font-medium">First attempt fails, second succeeds</td>
-                  <td className="border border-gray-300 px-4 py-3">$60 – $150 (standard includes 3 attempts)</td>
+                  <td className="border border-gray-300 px-4 py-3">$90 – $180 (standard includes 3 attempts)</td>
                   <td className="border border-gray-300 px-4 py-3">$14 – $30 + delay</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-4 py-3 font-medium">Mail refused, must hire server anyway</td>
-                  <td className="border border-gray-300 px-4 py-3">$35 – $125</td>
-                  <td className="border border-gray-300 px-4 py-3">$7 – $15 (wasted) + $35 – $125 (server) = $42 – $140</td>
+                  <td className="border border-gray-300 px-4 py-3">$40 – $125</td>
+                  <td className="border border-gray-300 px-4 py-3">$7 – $15 (wasted) + $40 – $125 (server) = $42 – $140</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-4 py-3 font-medium">Service contested in court</td>
@@ -288,7 +288,7 @@ export default function ProcessServerVsCertifiedMail() {
         <section className="mb-8 bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-200 p-6 rounded-lg text-center">
           <h2 className="text-2xl font-bold text-green-900 mb-3">Need a Process Server in Oklahoma?</h2>
           <p className="mb-4 text-gray-700">
-            Single attempts start at $35. Same-day and 2-hour emergency service available.
+            Single attempts start at $40. Same-day and 2-hour emergency service available.
             All 77 counties. GPS-verified proof included.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

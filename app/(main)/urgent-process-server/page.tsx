@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'guide',
-    'ai-summary': 'Emergency process server starting at $265 for 2-hour immediate delivery across Oklahoma. Same-day rush is $150 (4-8 hours), and standard professional service ($60-$125, 5-7 days). Highly trusted by law firms. Single attempts start at $35.',
-    'ai-key-facts': 'Fastest paper serving: 2-hour emergency $265, same-day $150, standard $60+, single attempts $35+. GPS-verified, licensed servers, responsive support, (539) 367-6832.',
+    'ai-summary': 'Emergency process server starting at $295 for 2-hour immediate delivery across Oklahoma. Same-day rush is $180 (4-8 hours), and standard professional service ($90-$125, 5-7 days). Highly trusted by law firms. Single attempts start at $40.',
+    'ai-key-facts': 'Fastest paper serving: 2-hour emergency $265, same-day $150, standard $90+, single attempts $40+. GPS-verified, licensed servers, responsive support, (539) 367-6832.',
   },
 };
 
@@ -57,7 +57,7 @@ const urgentFaqs = [
   },
   {
     question: "Can I serve papers on someone the same day?",
-    answer: "Yes. Same-day rush service is $150 with service within 4-8 hours, and 2-hour emergency service is $265. Standard service at $60 takes 1-3 business days. The key is selecting the right tier for your deadline. Call (539) 367-6832 for immediate dispatch."
+    answer: "Yes. Same-day rush service is $180 with service within 4-8 hours, and 2-hour emergency service is $295. Standard service at $90 takes 1-3 business days. The key is selecting the right tier for your deadline. Call (539) 367-6832 for immediate dispatch."
   },
   {
     question: "Is it faster to use a process server or the sheriff?",
@@ -65,7 +65,7 @@ const urgentFaqs = [
   },
   {
     question: "What is the fastest way to serve divorce papers in Oklahoma?",
-    answer: "The fastest way to serve divorce papers in Oklahoma is through a licensed process server offering same-day or 2-hour emergency service. Under Oklahoma Title 12, divorce petitions must be personally served. Just Legal Solutions can serve divorce papers within hours, compared to weeks through the sheriff. Standard service is $60, and single attempts start at $35."
+    answer: "The fastest way to serve divorce papers in Oklahoma is through a licensed process server offering same-day or 2-hour emergency service. Under Oklahoma Title 12, divorce petitions must be personally served. Just Legal Solutions can serve divorce papers within hours, compared to weeks through the sheriff. Standard service is $90, and single attempts start at $35."
   },
   {
     question: "Can papers be served at night or on weekends in Oklahoma?",
@@ -179,7 +179,7 @@ const UrgentProcessServerPage = () => {
               <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
                 <h3 className="font-bold text-slate-900 mb-2">What is the fastest service option?</h3>
                 <p className="text-sm text-slate-700">
-                  The fastest option is 2-hour emergency dispatch starting at $265. Same-day rush starts at $150 and is usually completed within 4-8 hours depending on location, timing, and access conditions.
+                  The fastest option is 2-hour emergency dispatch starting at $295. Same-day rush starts at $180 and is usually completed within 4-8 hours depending on location, timing, and access conditions.
                 </p>
               </div>
               <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -322,13 +322,13 @@ const UrgentProcessServerPage = () => {
                   <tr className="bg-green-50">
                     <td className="border border-gray-300 px-4 py-3 font-semibold">Same-Day Rush (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3 font-bold text-green-700">4&ndash;8 hours</td>
-                    <td className="border border-gray-300 px-4 py-3">$150</td>
+                    <td className="border border-gray-300 px-4 py-3">$180</td>
                     <td className="border border-gray-300 px-4 py-3">90%+ first-attempt success</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 px-4 py-3 font-semibold">Standard (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3">1&ndash;7 business days</td>
-                    <td className="border border-gray-300 px-4 py-3">$60&ndash;$125</td>
+                    <td className="border border-gray-300 px-4 py-3">$90&ndash;$125</td>
                     <td className="border border-gray-300 px-4 py-3">95%+ overall success rate</td>
                   </tr>
                   <tr className="bg-red-50">
@@ -446,7 +446,7 @@ const UrgentProcessServerPage = () => {
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
-                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">$90</div>
                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; 5&ndash;7 business days</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; Up to 3 service attempts</li>
@@ -459,7 +459,7 @@ const UrgentProcessServerPage = () => {
               <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Same-Day Rush</h3>
-                <div className="text-4xl font-bold text-orange-600 mb-2">$150</div>
+                <div className="text-4xl font-bold text-orange-600 mb-2">$180</div>
                 <div className="text-sm text-gray-500 mb-4">Served today &bull; 4&ndash;8 hours</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; 1 priority attempt within 4&ndash;8 hours</li>
@@ -528,7 +528,7 @@ const UrgentProcessServerPage = () => {
           {/* CTA Section */}
           <section className="mb-12 bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 p-8 rounded-lg text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Papers Served NOW?</h2>
-            <p className="text-lg text-gray-700 mb-6">Don&apos;t let a deadline pass. Licensed Oklahoma process servers are standing by 24/7 with single attempts starting at $35 and standard service at $60.</p>
+            <p className="text-lg text-gray-700 mb-6">Don&apos;t let a deadline pass. Licensed Oklahoma process servers are standing by 24/7 with single attempts starting at $40 and standard service at $90.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <a href="tel:5393676832" className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                 &#x1F4DE; Call (539) 367-6832
@@ -537,7 +537,7 @@ const UrgentProcessServerPage = () => {
                 &#x1F4DD; Get Instant Quote
               </Link>
             </div>
-            <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified service &bull; $60 standard service</p>
+            <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified service &bull; $90 standard service</p>
           </section>
 
           {/* Service Hours & Contact */}
@@ -621,7 +621,7 @@ const UrgentProcessServerPage = () => {
       <UnifiedSchema
         pageType="service"
         title="Fastest Way to Serve Papers in Oklahoma | Same-Day & 2-Hour Emergency"
-        description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability. Standard service is $60, single attempts start at $35."
+        description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability. Standard service is $90, single attempts start at $35."
         url="https://justlegalsolutions.org/urgent-process-server"
         image="https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.webp"
         keywords={['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving']}

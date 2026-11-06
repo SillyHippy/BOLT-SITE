@@ -41,7 +41,7 @@ const localBusinessSchema = {
     },
   },
   image: 'https://justlegalsolutions.org/images/jls-logo.webp',
-  priceRange: '$35-$200',
+  priceRange: '$40-$295',
   description: 'Professional process serving with over 50 years combined industry experience',
 };
 

@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'What does corporate process serving cost?',
     answer:
-      'Standard service starts at $60 (up to three attempts). Single-attempt posting starts at $35. Rush and same-day options available. Multi-defendant or multi-location serves are quoted upfront.',
+      'Standard service starts at $90 (up to three attempts). Single-attempt posting starts at $40. Rush and same-day options available. Multi-defendant or multi-location serves are quoted upfront.',
   },
 ];
 

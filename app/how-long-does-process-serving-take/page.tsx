@@ -31,8 +31,8 @@ export const metadata: Metadata = {
 };
 
 const faqs = [
-    { question: "How long does standard process serving take?", answer: "Standard process serving through a licensed process server typically takes 1-7 business days. In the Tulsa metro area, most standard serves are completed within 1-3 days. Rural areas or difficult-to-reach locations may take up to 5-7 days. Standard service is $60 and includes up to 3 service attempts." },
-    { question: "How fast is same-day rush service?", answer: "Same-day rush service means a service attempt within 4-8 hours of submission for $150. To ensure same-day delivery, contact Just Legal Solutions before noon. You receive live phone updates throughout the process and a GPS-verified affidavit upon completion." },
+    { question: "How long does standard process serving take?", answer: "Standard process serving through a licensed process server typically takes 1-7 business days. In the Tulsa metro area, most standard serves are completed within 1-3 days. Rural areas or difficult-to-reach locations may take up to 5-7 days. Standard service is $90 and includes up to 3 service attempts." },
+    { question: "How fast is same-day rush service?", answer: "Same-day rush service means a service attempt within 4-8 hours of submission for $180. To ensure same-day delivery, contact Just Legal Solutions before noon. You receive live phone updates throughout the process and a GPS-verified affidavit upon completion." },
     { question: "What is the 180-day rule in Oklahoma?", answer: "Under Oklahoma 12 O.S. § 2004, a plaintiff must complete service of process within 180 days of filing the lawsuit. If service is not completed within this window, the court may dismiss the case without prejudice. This deadline makes timely service critical, especially in cases where the defendant is hard to locate." },
     { question: "Why does the sheriff take so long?", answer: "The county sheriff's office handles service as a secondary responsibility alongside patrol, arrests, court security, and other duties. Deputies serve papers during limited business hours, typically making one attempt per week. They don't offer tracking, status updates, or rush options. The result is an average of 2-6 weeks, compared to 1-3 days for a private process server." },
     { question: "What delays process serving?", answer: "Common delays include: defendant not at the service address (requires multiple attempts at different times), wrong or outdated address (requires skip tracing), defendant actively evading service, gated communities or secured buildings that restrict access, rural or remote locations, and weather events. Working with a professional process server minimizes these delays through skip tracing, varied-time attempts, and persistence." },
@@ -83,13 +83,13 @@ export default function HowLongPage() {
                                     <tr className="bg-orange-50">
                                         <td className="border border-gray-300 px-4 py-3 font-semibold">Same-Day Rush</td>
                                         <td className="border border-gray-300 px-4 py-3 font-bold text-orange-600">4&ndash;8 hours</td>
-                                        <td className="border border-gray-300 px-4 py-3">$150</td>
+                                        <td className="border border-gray-300 px-4 py-3">$180</td>
                                         <td className="border border-gray-300 px-4 py-3 text-sm">Deadline this week</td>
                                     </tr>
                                     <tr className="bg-green-50">
                                         <td className="border border-gray-300 px-4 py-3 font-semibold">Standard Process Server</td>
                                         <td className="border border-gray-300 px-4 py-3 font-bold text-green-600">1&ndash;7 business days</td>
-                                        <td className="border border-gray-300 px-4 py-3">$35&ndash;$125</td>
+                                        <td className="border border-gray-300 px-4 py-3">$40&ndash;$125</td>
                                         <td className="border border-gray-300 px-4 py-3 text-sm">No urgent deadline, routine cases</td>
                                     </tr>
                                     <tr>
@@ -145,7 +145,7 @@ export default function HowLongPage() {
 
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Papers Served Fast?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Standard 1-3 day service is $60. Same-day rush $150. 2-hour emergency $265.</p>
+                        <p className="text-lg text-gray-700 mb-6">Standard 1-3 day service is $90. Same-day rush $180. 2-hour emergency $295.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/same-day-process-server" className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x26A1; Same-Day Service</Link>

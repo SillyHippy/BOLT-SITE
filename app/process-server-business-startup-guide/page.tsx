@@ -1012,17 +1012,17 @@ export default function ProcessServerBusinessStartupGuide() {
                     <TableRow>
                       <TableCell className="font-medium">Rush Service</TableCell>
                       <TableCell>First attempt within 24-48 hours</TableCell>
-                      <TableCell className="text-right">$85 - $150</TableCell>
+                      <TableCell className="text-right">$85 - $180</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Same-Day Service</TableCell>
                       <TableCell>Attempt same day as received</TableCell>
-                      <TableCell className="text-right">$150 - $250</TableCell>
+                      <TableCell className="text-right">$180 - $250</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Stakeout/Waiting</TableCell>
                       <TableCell>Per hour surveillance</TableCell>
-                      <TableCell className="text-right">$50 - $100/hr</TableCell>
+                      <TableCell className="text-right">$50 - $130/hr</TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell className="font-medium">Additional Attempts</TableCell>

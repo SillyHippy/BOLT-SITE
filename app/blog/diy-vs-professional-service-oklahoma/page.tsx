@@ -126,7 +126,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
 
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">DIY process serving in Oklahoma risks <strong>improper service, case dismissal, and personal safety issues</strong> — licensed servers under <strong>12 O.S. § 158.1</strong> ensure valid service with GPS proof. Just Legal Solutions costs <strong>$35–$265</strong> across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+          <p className="text-gray-800">DIY process serving in Oklahoma risks <strong>improper service, case dismissal, and personal safety issues</strong> — licensed servers under <strong>12 O.S. § 158.1</strong> ensure valid service with GPS proof. Just Legal Solutions costs <strong>$40–$295</strong> across all <strong>77 counties</strong> — call <strong>(539) 367-6832</strong>.</p>
         </div>
 
           <div className="flex flex-wrap items-center gap-4 mt-6">
@@ -280,7 +280,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <p>No amount of money can restore a claim that&apos;s time-barred. This risk alone justifies professional service to ensure it&apos;s done right the first time.</p>
 
             <h3>Professional Service Costs Less Than You Think</h3>
-            <p>Professional <Link href="/pricing" className="text-blue-600 hover:underline">process serving in Oklahoma</Link> starts at just $60 for standard service in the Tulsa metro area. Even complex serves with multiple attempts rarely exceed $200. Compared to the potential costs of DIY service gone wrong, professional service is remarkably affordable insurance for your case.</p>
+            <p>Professional <Link href="/pricing" className="text-blue-600 hover:underline">process serving in Oklahoma</Link> starts at just $90 for standard service in the Tulsa metro area. Even complex serves with multiple attempts rarely exceed $295. Compared to the potential costs of DIY service gone wrong, professional service is remarkably affordable insurance for your case.</p>
 
             <h2>Benefits of Hiring a Professional Process Server</h2>
             <p>Licensed process servers provide value far beyond simply handing someone papers. Here&apos;s what you get when you hire a professional:</p>
@@ -379,7 +379,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
               <li>GPS-verified service with real-time tracking</li>
               <li>Court-ready affidavits and documentation</li>
               <li>98% first-attempt success rate</li>
-              <li>Transparent pricing starting at $60</li>
+              <li>Transparent pricing starting at $90</li>
               <li>24/7 emergency service available</li>
             </ul>
             <p>Whether you&apos;re an attorney managing multiple cases or an individual handling your first lawsuit, we ensure your papers are served properly, on time, and with full legal compliance.</p>
@@ -398,7 +398,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">– Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/oklahoma-process-server-laws" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">

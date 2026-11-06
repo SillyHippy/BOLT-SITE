@@ -261,7 +261,7 @@ export default function LoanSigningAgentOklahoma() {
                 <tbody>
                   {[
                     ['Refinance (no print)', '$75 – $125'],
-                    ['Refinance (with print)', '$100 – $175'],
+                    ['Refinance (with print)', '$130 – $175'],
                     ['Purchase / sale', '$125 – $200'],
                     ['Reverse mortgage', '$150 – $250'],
                     ['HELOC', '$75 – $150'],

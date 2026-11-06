@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/eviction-notice-service' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Eviction notice delivery service across Oklahoma. Covers 5-day notice for nonpayment (41 O.S. § 131), 15-day notice for lease violations, and 30-day notice for month-to-month termination (41 O.S. § 111). GPS-verified, from $35.',
+        'ai-summary': 'Eviction notice delivery service across Oklahoma. Covers 5-day notice for nonpayment (41 O.S. § 131), 15-day notice for lease violations, and 30-day notice for month-to-month termination (41 O.S. § 111). GPS-verified, from $40.',
         'ai-key-facts': 'Eviction notice service from $30, 5/15/30-day notices, 41 O.S. § 131-132, GPS-verified, same-day available, (539) 367-6832.',
     },
 };
@@ -106,7 +106,7 @@ export default function EvictionNoticeServicePage() {
                     <div className="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Eviction Notice Service in Oklahoma</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Need an eviction notice delivered?</strong> Just Legal Solutions serves 5-day, 15-day, and 30-day eviction notices across all 77 Oklahoma counties. Proper notice is the first step in the legal eviction process under Oklahoma Title 41. Every delivery is <strong>GPS-verified</strong> with a court-ready affidavit. Starting at <strong>$35</strong> with same-day rush available. Call <a href="tel:5393676832" className="text-orange-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Need an eviction notice delivered?</strong> Just Legal Solutions serves 5-day, 15-day, and 30-day eviction notices across all 77 Oklahoma counties. Proper notice is the first step in the legal eviction process under Oklahoma Title 41. Every delivery is <strong>GPS-verified</strong> with a court-ready affidavit. Starting at <strong>$40</strong> with same-day rush available. Call <a href="tel:5393676832" className="text-orange-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 

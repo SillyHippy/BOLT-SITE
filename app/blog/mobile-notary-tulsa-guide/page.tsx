@@ -204,7 +204,7 @@ export default function MobileNotaryTulsaGuide() {
                     ['Hospital / Nursing Home', '$25 + travel', 'Same-day and after-hours common'],
                     ['Jail Visit', '$25 + travel', 'Coordinated with facility'],
                     ['After-Hours / Weekend', 'add $25–$75', 'Typical surcharge range'],
-                    ['Holiday / Emergency', 'add $50–$100', 'Same-hour response available'],
+                    ['Holiday / Emergency', 'add $50–$130', 'Same-hour response available'],
                   ].map(([service, price, notes]) => (
                     <tr key={service} className="hover:bg-gray-50">
                       <td className="border border-gray-200 px-4 py-2 text-gray-700">{service}</td>

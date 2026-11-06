@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     'article:published_time': '2026-01-01',
     'article:modified_time': '2026-02-17',
     'ai-content-type': 'faq',
-    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $35-$265. Servers must be 18+, licensed, bonded ($5,000). Residential substituted service under § 2004(C)(1) permitted in some civil cases with resident 15+; subpoenas and entity/government service require personal delivery. Just Legal Solutions serves all 77 Oklahoma counties.',
-    'ai-key-facts': 'Process serving $35-$265; 18+ licensed bonded; residential substituted service under § 2004(C)(1) where permitted (resident 15+); subpoenas and entity/government service require personal delivery; publication requires court approval; (539) 367-6832',
+    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $40-$295. Servers must be 18+, licensed, bonded ($5,000). Residential substituted service under § 2004(C)(1) permitted in some civil cases with resident 15+; subpoenas and entity/government service require personal delivery. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-key-facts': 'Process serving $40-$295; 18+ licensed bonded; residential substituted service under § 2004(C)(1) where permitted (resident 15+); subpoenas and entity/government service require personal delivery; publication requires court approval; (539) 367-6832',
   },
 };
 
@@ -214,9 +214,9 @@ const faqCategories = [
           headers: ["Service Type", "Price Range", "Timeframe"],
           rows: [
             ["Standard Service", "$85 - $125", "5-7 business days"],
-            ["Rush Service", "$150 - $200", "Same/next day"],
+            ["Rush Service", "$180 - $200", "Same/next day"],
             ["Stakeout Service", "$75/hour", "Extended monitoring"],
-            ["Skip Tracing", "$50 - $150", "1-5 business days"],
+            ["Skip Tracing", "$50 - $180", "1-5 business days"],
             ["Additional Attempts", "$25 each", "As needed"]
           ]
         },

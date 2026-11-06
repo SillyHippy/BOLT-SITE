@@ -192,7 +192,7 @@ export default function VideosPage() {
             <div className="relative">
               <h2 className="text-3xl font-bold text-white mb-3">Need Process Serving in Oklahoma?</h2>
               <p className="text-blue-100 text-lg max-w-xl mx-auto mb-8">
-                Licensed, GPS-tracked service covering all 77 Oklahoma counties. Starting at <strong className="text-white">$60 flat-rate</strong> — no mileage, no hidden fees.
+                Licensed, GPS-tracked service covering all 77 Oklahoma counties. Starting at <strong className="text-white">$90 flat-rate</strong> — no mileage, no hidden fees.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link

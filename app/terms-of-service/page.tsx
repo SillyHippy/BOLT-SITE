@@ -90,9 +90,9 @@ export default function TermsOfServicePage() {
 
           <h2>3. Pricing and Payment</h2>
           <ul>
-            <li><strong>Standard service:</strong> Starts at $60 for Tulsa County and nearby areas. Surcharges apply for other counties and will be quoted upfront.</li>
-            <li><strong>Rush service:</strong> Starts at $100 (attempt within 72 hours).</li>
-            <li><strong>Same-day service:</strong> Starts at $150 (attempt within 24 hours, subject to availability).</li>
+            <li><strong>Standard service:</strong> Starts at $90 for Tulsa County and nearby areas. Surcharges apply for other counties and will be quoted upfront.</li>
+            <li><strong>Rush service:</strong> Starts at $130 (attempt within 72 hours).</li>
+            <li><strong>Same-day service:</strong> Starts at $180 (attempt within 24 hours, subject to availability).</li>
             <li><strong>Prepayment required</strong> for non-established clients. Established accounts may be invoiced net-30.</li>
             <li><strong>Late payment:</strong> A $40 late fee applies to overdue invoices, plus 0.5% per day on the outstanding balance until paid.</li>
           </ul>

@@ -556,7 +556,7 @@ export default function AttorneyServicesPage() {
                   </tr>
                   <tr className="hover:bg-gray-50">
                     <td className="px-6 py-4 font-medium text-gray-900">Typical Cost (Tulsa County)</td>
-                    <td className="px-6 py-4 text-center text-green-600 font-semibold">$60 flat rate</td>
+                    <td className="px-6 py-4 text-center text-green-600 font-semibold">$90 flat rate</td>
                     <td className="px-6 py-4 text-center text-gray-600">$50-75 + mileage</td>
                   </tr>
                 </tbody>
@@ -738,7 +738,7 @@ export default function AttorneyServicesPage() {
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Standard Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$60</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$90</div>
                 <p className="text-gray-600 mb-6">3-5 business days</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">
@@ -779,7 +779,7 @@ export default function AttorneyServicesPage() {
                   Most Popular
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Rush Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$150</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$180</div>
                 <p className="text-gray-600 mb-6">24-48 hours</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">
@@ -817,7 +817,7 @@ export default function AttorneyServicesPage() {
               
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$265</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$295</div>
                 <p className="text-gray-600 mb-6">Emergency service</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">

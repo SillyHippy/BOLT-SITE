@@ -4,7 +4,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Tulsa County Divorce Process Serving | Serve Divorce Papers Tulsa',
-    description: 'Professional divorce process serving in Tulsa County, Oklahoma. Serve divorce papers, petitions, and family law documents. Tulsa County Courthouse filing info, service requirements, and professional process servers from $60.',
+    description: 'Professional divorce process serving in Tulsa County, Oklahoma. Serve divorce papers, petitions, and family law documents. Tulsa County Courthouse filing info, service requirements, and professional process servers from $90.',
     keywords: ['tulsa county divorce process', 'divorce tulsa county', 'divorce paperwork tulsa', 'tulsa divorce documents', 'serve divorce papers tulsa', 'tulsa county divorce filing'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -12,21 +12,21 @@ export const metadata: Metadata = {
     robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
     openGraph: {
         title: 'Tulsa County Divorce Process Serving | Serve Divorce Papers Tulsa',
-        description: 'Professional divorce paper serving in Tulsa County. Licensed process servers for divorce petitions, summons, and family law documents. From $60.',
+        description: 'Professional divorce paper serving in Tulsa County. Licensed process servers for divorce petitions, summons, and family law documents. From $90.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.webp', width: 1200, height: 630, alt: 'Tulsa County Divorce Process Serving' }],
     },
   twitter: {
     card: 'summary_large_image',
     title: 'Tulsa County Divorce Process Serving | Serve Divorce Papers Tulsa',
-    description: 'Professional divorce process serving in Tulsa County, Oklahoma. Serve divorce papers, petitions, and family law documents. Tulsa County Courthouse filing info, service requirements, and professional process servers from $60.',
+    description: 'Professional divorce process serving in Tulsa County, Oklahoma. Serve divorce papers, petitions, and family law documents. Tulsa County Courthouse filing info, service requirements, and professional process servers from $90.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
     alternates: { canonical: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Divorce process serving for Tulsa County, Oklahoma. Covers how divorce papers are served, Tulsa County Courthouse filing, personal service requirements, contested vs uncontested, and professional service from $60.',
-        'ai-key-facts': 'Tulsa County divorce serving from $60, Courthouse at 500 S Denver Ave Ste 500, 20 days to respond after service, GPS-verified, (539) 367-6832.',
+        'ai-summary': 'Divorce process serving for Tulsa County, Oklahoma. Covers how divorce papers are served, Tulsa County Courthouse filing, personal service requirements, contested vs uncontested, and professional service from $90.',
+        'ai-key-facts': 'Tulsa County divorce serving from $90, Courthouse at 500 S Denver Ave Ste 500, 20 days to respond after service, GPS-verified, (539) 367-6832.',
     },
 };
 
@@ -61,7 +61,7 @@ export default function TulsaCountyDivorceProcessServingPage() {
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tulsa County Divorce Process Serving</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Need divorce papers served in Tulsa County?</strong> Just Legal Solutions provides professional, discreet service of divorce petitions, summons, and all family law documents throughout the Tulsa metro area. Every service is GPS-verified with a court-ready affidavit filed with the <strong>Tulsa County District Court</strong>. Standard service starts at <strong>$60</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Need divorce papers served in Tulsa County?</strong> Just Legal Solutions provides professional, discreet service of divorce petitions, summons, and all family law documents throughout the Tulsa metro area. Every service is GPS-verified with a court-ready affidavit filed with the <strong>Tulsa County District Court</strong>. Standard service starts at <strong>$90</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 
@@ -153,7 +153,7 @@ export default function TulsaCountyDivorceProcessServingPage() {
                                     <li>&#x2022; Spouse may sign a <strong>waiver of service</strong></li>
                                     <li>&#x2022; No evasion concerns—cooperation is the norm</li>
                                     <li>&#x2022; Can proceed to hearing after <strong>10-day waiting period</strong></li>
-                                    <li>&#x2022; Standard service ($60) is usually sufficient</li>
+                                    <li>&#x2022; Standard service ($90) is usually sufficient</li>
                                 </ul>
                             </div>
                             <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
@@ -318,27 +318,27 @@ export default function TulsaCountyDivorceProcessServingPage() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$90</div>
                                 <div className="text-sm text-gray-500 mb-4">5&ndash;7 business days</div>
                                 <p className="text-sm text-gray-600">Up to 3 attempts, GPS-verified, notarized affidavit, Tulsa County area.</p>
                             </div>
                             <div className="bg-white border-2 border-blue-300 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Rush</h3>
-                                <div className="text-4xl font-bold text-blue-600 mb-2">$150</div>
+                                <div className="text-4xl font-bold text-blue-600 mb-2">$180</div>
                                 <div className="text-sm text-gray-500 mb-4">1&ndash;2 business days</div>
                                 <p className="text-sm text-gray-600">Priority scheduling, live status updates, expedited affidavit.</p>
                             </div>
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold mb-2">Same-Day</h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">4&ndash;8 hours</div>
                                 <p className="text-sm text-gray-600">Same-day dispatch, real-time tracking, court filing included.</p>
                             </div>
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold mb-2">Emergency</h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch</div>
                                 <p className="text-sm text-gray-600">2-hour window, after-hours/weekend, protective order priority.</p>
                             </div>

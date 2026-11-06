@@ -11,7 +11,7 @@ import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
   title: 'Ultimate Guide to Process Serving in Oklahoma | Licensed & Bonded',
-  description: 'Complete Oklahoma process serving guide. Licensed professionals serving all 77 counties. Standard from $60, rush $100, same-day $150. GPS-tracked affidavits. Call (539) 367-6832.',
+  description: 'Complete Oklahoma process serving guide. Licensed professionals serving all 77 counties. Standard from $90, rush $130, same-day $180. GPS-tracked affidavits. Call (539) 367-6832.',
   keywords: [
     'oklahoma process serving guide',
     'oklahoma process server laws',
@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'comprehensive-guide',
-    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma under 12 O.S. §2004. Covers personal delivery, residential substituted service under § 2004(C)(1) where permitted, document-type restrictions (subpoenas, government, corporations require personal delivery), publication under § 2004(C)(3), costs ($35-$265), and affidavits. Just Legal Solutions serves all 77 Oklahoma counties.',
-    'ai-key-facts': '12 O.S. §2004 governs service; residential substituted service under § 2004(C)(1) where permitted; subpoenas and entity/government require personal delivery; no fixed prior attempts for abode service; costs $35-$265; affidavit required; all 77 counties; (539) 367-6832',
+    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma under 12 O.S. §2004. Covers personal delivery, residential substituted service under § 2004(C)(1) where permitted, document-type restrictions (subpoenas, government, corporations require personal delivery), publication under § 2004(C)(3), costs ($40-$295), and affidavits. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-key-facts': '12 O.S. §2004 governs service; residential substituted service under § 2004(C)(1) where permitted; subpoenas and entity/government require personal delivery; no fixed prior attempts for abode service; costs $40-$295; affidavit required; all 77 counties; (539) 367-6832',
     'article:published_time': '2024-01-01',
     'article:modified_time': new Date().toISOString(),
     'article:author': 'Just Legal Solutions',
@@ -98,7 +98,7 @@ const pageFaqs = [
   },
   {
     "question": "How much does process serving cost in Oklahoma?",
-    "answer": "Oklahoma process serving costs range from $79-$125 for standard service (5-7 days), $120-$160 for rush service (1-2 days), and $150-$225 for same-day service. Additional fees may apply for mileage beyond 40 miles ($0.70/mile), multiple attempts ($25 each), and skip tracing ($100-$250)."
+    "answer": "Oklahoma process serving costs range from $79-$125 for standard service (5-7 days), $120-$160 for rush service (1-2 days), and $180-$255 for same-day service. Additional fees may apply for mileage beyond 40 miles ($0.70/mile), multiple attempts ($25 each), and skip tracing ($130-$250)."
   },
   {
     "question": "Do I have to accept papers from a process server in Oklahoma?",
@@ -201,7 +201,7 @@ export default function UltimateGuidePage() {
                 <h3 className="text-xl font-bold mb-3">Quick Facts</h3>
                 <ul className="text-sm space-y-1">
                   <li>• Licensed & Bonded in All 77 Oklahoma Counties</li>
-                  <li>• Same-Day Service Available ($150-$225)</li>
+                  <li>• Same-Day Service Available ($180-$255)</li>
                   <li>• ⭐⭐⭐⭐⭐ 4.9/5 Star Customer Rating</li>
                   <li>• Free Consultation Available 24/7</li>
                 </ul>
@@ -666,13 +666,13 @@ export default function UltimateGuidePage() {
                     <tr>
                       <td className="border border-gray-300 p-3"><strong>Same-Day Service</strong></td>
                       <td className="border border-gray-300 p-3">Within 4-8 hours</td>
-                      <td className="border border-gray-300 p-3">$150 - $225</td>
+                      <td className="border border-gray-300 p-3">$180 - $255</td>
                       <td className="border border-gray-300 p-3">Immediate priority, same-day completion</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="border border-gray-300 p-3"><strong>Stakeout Service</strong></td>
                       <td className="border border-gray-300 p-3">Extended monitoring</td>
-                      <td className="border border-gray-300 p-3">$75 - $100/hour</td>
+                      <td className="border border-gray-300 p-3">$75 - $130/hour</td>
                       <td className="border border-gray-300 p-3">Surveillance, multiple attempt coordination</td>
                     </tr>
                   </tbody>

@@ -81,7 +81,7 @@ const faqs = [
   },
   {
     question: "How much does an affidavit of service cost in Oklahoma?",
-    answer: "The affidavit is included with any process serving job. At Just Legal Solutions, standard service starts at $60. Refer to our pricing page for the most up-to-date information. The affidavit with GPS verification and photo documentation is included at no extra charge."
+    answer: "The affidavit is included with any process serving job. At Just Legal Solutions, standard service starts at $90. Refer to our pricing page for the most up-to-date information. The affidavit with GPS verification and photo documentation is included at no extra charge."
   },
   {
     question: "What happens if service is done incorrectly in Oklahoma?",
@@ -384,7 +384,7 @@ export default function AffidavitGuide() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                  <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                  <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                   <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
                 </Link>
                 <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
@@ -393,7 +393,7 @@ export default function AffidavitGuide() {
                 </Link>
                 <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                   <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                  <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+                  <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $90 — no mileage fees, no hidden charges.</p>
                 </Link>
                 <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                   <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
@@ -419,7 +419,7 @@ export default function AffidavitGuide() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
@@ -428,7 +428,7 @@ export default function AffidavitGuide() {
               </Link>
               <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $90 — no mileage fees, no hidden charges.</p>
               </Link>
               <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
@@ -442,7 +442,7 @@ export default function AffidavitGuide() {
             <div className="relative p-8 md:p-12 text-center">
               <Shield className="w-16 h-16 text-yellow-500 mx-auto mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get Your GPS-Verified Affidavit of Service Today</h2>
-              <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">Ensure your documents are served correctly and your Affidavit of Service is unassailable. Professional process serving across all 77 Oklahoma counties, starting at $60.</p>
+              <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">Ensure your documents are served correctly and your Affidavit of Service is unassailable. Professional process serving across all 77 Oklahoma counties, starting at $90.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
                   Get a Free Quote

@@ -1,7 +1,8 @@
 /**
  * Single source of truth for service starting prices.
- * Base rates are used everywhere except the fuel-adjustment banner on /pricing,
- * which shows current rates (base + temporary adjustment) for affected services.
+ * Permanent starting rates (fuel/operating-cost reality baked in, Nov 2026).
+ * If fuel prices change, JLS adjusts pricing accordingly and passes savings
+ * on to the customer.
  */
 
 export type StartingPrice = {
@@ -15,36 +16,23 @@ export type StartingPrice = {
   note?: string;
 };
 
-/** Temporary fuel & operating-cost adjustment on fuel-dependent services. */
-export const FUEL_OPERATING_ADJUSTMENT = 30;
-
-/** When the current fuel adjustment took effect (display string). */
-export const FUEL_ADJUSTMENT_EFFECTIVE_DATE = 'July 19, 2026';
-
 /**
- * Service ids that receive the temporary fuel & operating-cost adjustment.
- * UI shows one shared ladder (standard / rush / same-day) for process serving + courier.
- * standard-courier / rush-courier remain as aliases of the same dollars for backward compat.
+ * Professional pricing disclaimer shown near rate tables.
  */
-export const FUEL_ADJUSTED_SERVICE_IDS = [
-  'standard',
-  'rush',
-  'same-day',
-  'standard-courier', // alias of standard
-  'rush-courier', // alias of rush
-] as const;
+export const PRICE_ADJUSTMENT_DISCLAIMER =
+  'Rates reflect current operating costs. If fuel prices change, we adjust our pricing accordingly — and pass savings on to our customers.';
 
-/** Base starting rates before temporary fuel adjustment. */
+/** Permanent starting rates (single ladder, process serving + courier shared). */
 export const BASE_PRICES: Record<string, number> = {
-  'single-attempt': 35,
-  standard: 60,
-  rush: 100,
-  'same-day': 150,
-  'triple-attempt': 225,
-  'after-hours-rush': 265,
+  'single-attempt': 40,
+  standard: 90,
+  rush: 130,
+  'same-day': 180,
+  'triple-attempt': 255,
+  'after-hours-rush': 295,
   // Aliases — same dollars as standard / rush (shared process + courier ladder)
-  'standard-courier': 60,
-  'rush-courier': 100,
+  'standard-courier': 90,
+  'rush-courier': 130,
   'notary-in-office': 20,
   'notary-mobile': 25,
   'skip-tracing': 50,
@@ -56,17 +44,12 @@ export function getBasePrice(id: string): number | undefined {
   return BASE_PRICES[id];
 }
 
-/** Current customer-facing rate (base + fuel adjustment where applicable). */
+/** Back-compat alias: the "current" rate is now the permanent rate. */
 export function getCurrentPrice(id: string): number | undefined {
-  const base = getBasePrice(id);
-  if (base === undefined) return undefined;
-  if ((FUEL_ADJUSTED_SERVICE_IDS as readonly string[]).includes(id)) {
-    return base + FUEL_OPERATING_ADJUSTMENT;
-  }
-  return base;
+  return BASE_PRICES[id];
 }
 
-/** Base starting price for SEO, hero copy, and site-wide "starts at" summaries. */
+/** Starting price for SEO, hero copy, and site-wide "starts at" summaries. */
 export function getStartingPrice(id: string): number | undefined {
   return getBasePrice(id);
 }
@@ -104,4 +87,4 @@ export function formatStartsAt(price: number): string {
 }
 
 /** The widest range used in schema priceRange properties. */
-export const PRICE_RANGE_DISPLAY = '$35-$265';
+export const PRICE_RANGE_DISPLAY = '$40-$295';

@@ -135,7 +135,7 @@ const serviceMethods = [
       'The defendant/respondent themselves (or the proper officer/agent for entities).',
     requirements:
       'Documents handed directly to the person; server must be 18+, licensed under § 158.1, sheriff, or court-appointed.',
-    typicalCost: '$35 – $125 (routine to rush)',
+    typicalCost: '$40 – $125 (routine to rush)',
   },
   {
     method: 'Substituted Service',

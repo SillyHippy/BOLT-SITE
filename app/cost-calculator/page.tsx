@@ -281,7 +281,7 @@ export default function CostCalculatorPage() {
 
           {/* Disclaimer + Cross-links */}
           <div className="mt-8 bg-white rounded-xl border border-gray-200 p-5 text-sm text-gray-600">
-            <p className="mb-3"><strong>About these estimates:</strong> Estimates include the temporary fuel and operating-cost adjustment on fuel-dependent services (effective July 19, 2026). Distance charges are estimates and will be confirmed before you commit. All quotes are free.</p>
+            <p className="mb-3"><strong>About these estimates:</strong> Rates reflect current operating costs. If fuel prices change, we adjust our pricing accordingly — and pass savings on to our customers. Distance charges are estimates and will be confirmed before you commit. All quotes are free.</p>
             <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-gray-100">
               <Link href="/pricing" className="text-blue-600 hover:underline font-medium">Full Pricing Page →</Link>
               <Link href="/contact" className="text-blue-600 hover:underline font-medium">Request Service →</Link>
@@ -300,7 +300,7 @@ export default function CostCalculatorPage() {
           {
             "@type": "Question",
             "name": "How much does a process server cost in Oklahoma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Standard process serving in Oklahoma starts at $60 for Tulsa County. Rush service (within 72 hours) starts at $100. Same-day service starts at $150. A temporary fuel and operating-cost adjustment currently applies to fuel-dependent services. Additional fees may apply for mileage, distant counties, printing, and add-on services. Use our cost calculator above to estimate your total." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Standard process serving in Oklahoma starts at $90 for Tulsa County. Rush service (within 72 hours) starts at $130. Same-day service starts at $180. If fuel prices change, we adjust our pricing accordingly and pass savings on to our customers. Additional fees may apply for mileage, distant counties, printing, and add-on services. Use our cost calculator above to estimate your total." },
           },
           {
             "@type": "Question",
@@ -310,7 +310,7 @@ export default function CostCalculatorPage() {
           {
             "@type": "Question",
             "name": "What is the cost for same-day process serving in Oklahoma?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Same-day process serving in Oklahoma starts at $150 for Tulsa County, with any applicable mileage, fuel adjustment, or county charges added. Same-day service guarantees an attempt within 24 hours of your order." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Same-day process serving in Oklahoma starts at $180 for Tulsa County, with any applicable mileage or county charges added. Same-day service guarantees an attempt within 24 hours of your order." },
           },
         ],
       })}} />

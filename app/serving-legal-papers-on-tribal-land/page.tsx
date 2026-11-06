@@ -108,7 +108,7 @@ const faqs = [
   {
     question: 'What are the fees for filing in tribal courts vs. Oklahoma state courts?',
     answer:
-      "Tribal court fees vary. The Cherokee Nation charges $100 to file a civil case and $5 per summons. The Muscogee (Creek) Nation charges $84 to file and $5 per summons. Oklahoma state court fees vary by county and case type, generally ranging from $85 to $200 for a new civil filing. Contact the tribal or state court clerk for the current fee schedule."
+      "Tribal court fees vary. The Cherokee Nation charges $130 to file a civil case and $5 per summons. The Muscogee (Creek) Nation charges $84 to file and $5 per summons. Oklahoma state court fees vary by county and case type, generally ranging from $85 to $200 for a new civil filing. Contact the tribal or state court clerk for the current fee schedule."
   },
   {
     question: 'Does Just Legal Solutions serve papers on tribal land in Oklahoma?',

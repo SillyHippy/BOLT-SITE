@@ -17,7 +17,7 @@ const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
     title: 'Process Serving Oklahoma | Licensed Servers, Starts at $35',
-    description: 'Oklahoma process serving: starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. All 77 counties. See full pricing online.',
+    description: 'Oklahoma process serving: starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day, $265 after-hours. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. All 77 counties. See full pricing online.',
     keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving', 'process server vs sheriff oklahoma', 'evasive defendant service', 'skip tracing oklahoma', 'GPS process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Process Serving Oklahoma | Starts at $35 Single-Attempt',
+        title: 'Process Serving Oklahoma | Starts at $40 Single-Attempt',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
         images: ['https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp'],
     },
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     other: {
         'ai-content-type': 'service-page',
         'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties under 12 O.S. § 2004. Personal delivery where required; residential substituted service under § 2004(C)(1) where permitted (not for subpoenas or entity/government service). Pricing from $35 single-attempt to $265 after-hours rush. Licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
-        'ai-key-facts': '$35-$265 tiered pricing; § 2004(C)(1) residential sub-service where permitted; subpoenas and entity/government require personal delivery; licensed § 158.1; GPS-verified; all 77 counties; https://justlegalsolutions.org/pricing; (539) 367-6832',
+        'ai-key-facts': '$40-$295 tiered pricing; § 2004(C)(1) residential sub-service where permitted; subpoenas and entity/government require personal delivery; licensed § 158.1; GPS-verified; all 77 counties; https://justlegalsolutions.org/pricing; (539) 367-6832',
         ...buildFreshnessMetadata({
             datePublished: processServingFreshness.datePublished,
             dateModified: processServingFreshness.dateModified,
@@ -77,7 +77,7 @@ const serviceFaqs = [
     },
     {
         question: "How much does process serving cost in Oklahoma?",
-        answer: "Process serving costs in Oklahoma vary by speed and complexity. Just Legal Solutions charges: Single attempts starting at $30, Standard service at $60 (5-7 business days, up to 3 attempts), Rush service at $100, Same-day rush service at $150 (4-8 hours), and 2-hour emergency service at $265. Mileage is included within Tulsa County; additional travel fees may apply for addresses outside the county. Skip tracing is available starting at $50 if the defendant's address is unknown."
+        answer: "Process serving costs in Oklahoma vary by speed and complexity. Just Legal Solutions charges: Single attempts starting at $30, Standard service at $90 (5-7 business days, up to 3 attempts), Rush service at $130, Same-day rush service at $180 (4-8 hours), and 2-hour emergency service at $295. Mileage is included within Tulsa County; additional travel fees may apply for addresses outside the county. Skip tracing is available starting at $50 if the defendant's address is unknown."
     },
     {
         question: "Do I need a licensed process server in Oklahoma?",
@@ -214,7 +214,7 @@ export default function ProcessServingPage() {
                             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
                                 <h3 className="font-bold text-slate-900 mb-2">What does process serving cost in Oklahoma?</h3>
                                 <p className="text-sm text-slate-700">
-                                    Process serving starts at $35 for a single attempt and $60 for standard service. Rush starts at $100, same-day at $150, and 2-hour emergency at $265. Final pricing depends on distance, attempts, and complexity.
+                                    Process serving starts at $40 for a single attempt and $90 for standard service. Rush starts at $130, same-day at $180, and 2-hour emergency at $295. Final pricing depends on distance, attempts, and complexity.
                                 </p>
                             </div>
                             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -480,7 +480,7 @@ export default function ProcessServingPage() {
                         <div className="grid md:grid-cols-3 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">Starting at $60</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">Starting at $90</div>
                                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; 5&ndash;7 business days</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Up to 3 service attempts</li>
@@ -493,7 +493,7 @@ export default function ProcessServingPage() {
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-2"><Link href="/same-day-process-server" className="hover:text-orange-600">Same-Day Rush</Link></h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">Starting at $150</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">Starting at $180</div>
                                 <div className="text-sm text-gray-500 mb-4">Same-day availability &bull; 4&ndash;8 hours</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; 1 priority attempt within 4&ndash;8 hours</li>
@@ -506,7 +506,7 @@ export default function ProcessServingPage() {
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-2"><Link href="/urgent-process-server" className="hover:text-red-600">2-Hour Emergency</Link></h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">Starting at $265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">Starting at $295</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch &bull; 2 hours</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Immediate dispatch</li>
@@ -840,7 +840,7 @@ export default function ProcessServingPage() {
                     {/* Final CTA */}
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Serve Papers?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $35 and standard service at $60 with GPS-verified proof.</p>
+                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $40 and standard service at $90 with GPS-verified proof.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                                 &#x1F4DE; Call (539) 367-6832
@@ -849,7 +849,7 @@ export default function ProcessServingPage() {
                                 &#x1F4DD; Get Free Quote
                             </Link>
                         </div>
-                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $35 for a single attempt</p>
+                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $40 for a single attempt</p>
                     </section>
 
                     {/* Compliance */}

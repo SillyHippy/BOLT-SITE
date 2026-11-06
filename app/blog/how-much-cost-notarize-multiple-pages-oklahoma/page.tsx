@@ -262,7 +262,7 @@ export default function MultiplePagesNotaryCostPage() {
                 <li>
                   <strong>Scenario 1:</strong> 25-page real estate deed, one
                   borrower signature to be acknowledged. Notary fee: $5.
-                  Travel fee: $35. Total: approximately $40.
+                  Travel fee: $40. Total: approximately $40.
                 </li>
                 <li>
                   <strong>Scenario 2:</strong> 3-page power of attorney,

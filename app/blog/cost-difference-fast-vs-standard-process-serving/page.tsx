@@ -5,7 +5,7 @@ import AeoProcessServingHubLinks from '@/components/seo/aeo-process-serving-hub-
 const faqs = [
   {
     question: "What is the actual cost difference between standard and rush process serving in Oklahoma?",
-    answer: "At Just Legal Solutions, our Standard Process Serving is $60, while Rush Service is $100 — a $40 difference. Same-Day Service is $150 ($90 more than standard), and After-Hours Rush Service is $265 ($205 more than standard). The key question is not just the price difference but the value: rush service prioritizes your job, assigns dedicated server resources, and dramatically reduces the time to completion. For cases with tight court deadlines, the additional cost is almost always justified by avoiding costly delays or continuances."
+    answer: "At Just Legal Solutions, our Standard Process Serving is $90, while Rush Service is $130 — a $40 difference. Same-Day Service is $180 ($90 more than standard), and After-Hours Rush Service is $295 ($205 more than standard). The key question is not just the price difference but the value: rush service prioritizes your job, assigns dedicated server resources, and dramatically reduces the time to completion. For cases with tight court deadlines, the additional cost is almost always justified by avoiding costly delays or continuances."
   },
   {
     question: "When should I pay for fast process serving instead of standard service?",
@@ -16,8 +16,8 @@ const faqs = [
     answer: "At Just Legal Solutions, we do not charge hidden fees — our pricing is fully transparent. However, some process serving companies may add surcharges that clients do not expect: mileage fees beyond a certain radius, multiple attempt fees, rush documentation fees, after-hours premiums, or filing fees. When comparing providers, always ask for the all-in price. Our published prices include the service tier, reasonable mileage within the county, up to the specified number of attempts, GPS documentation, and affidavit preparation. The only additional costs are for extraordinary circumstances like out-of-county travel or interstate coordination."
   },
   {
-    question: "Is same-day process serving really worth $150?",
-    answer: "Same-day service at $150 is worth the cost when the alternative is a missed court deadline. If you have a hearing scheduled for tomorrow morning and have not yet served the defendant, $150 to ensure service today is far less expensive than the cost of a continuance, additional attorney fees, or a dismissed case. For attorneys, same-day service can also protect client relationships by demonstrating responsiveness. For self-represented litigants, it can mean the difference between their case proceeding as scheduled or being delayed by weeks or months. We recommend same-day service for genuine emergencies where delay is not an option."
+    question: "Is same-day process serving really worth $180?",
+    answer: "Same-day service at $180 is worth the cost when the alternative is a missed court deadline. If you have a hearing scheduled for tomorrow morning and have not yet served the defendant, $180 to ensure service today is far less expensive than the cost of a continuance, additional attorney fees, or a dismissed case. For attorneys, same-day service can also protect client relationships by demonstrating responsiveness. For self-represented litigants, it can mean the difference between their case proceeding as scheduled or being delayed by weeks or months. We recommend same-day service for genuine emergencies where delay is not an option."
   },
   {
     question: "How do triple-attempt packages compare to single-attempt pricing?",
@@ -31,7 +31,7 @@ const faqs = [
 
 export const metadata: Metadata = {
   title: "What's the Cost Difference Between Fast and Standard Proc...",
-  description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush (\"00), same-day (\"50), or after-hours (Compare process servin",
+  description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($90), rush (\"00), same-day (\"50), or after-hours (Compare process servin",
   keywords: "fast process serving cost, rush vs standard service, process server pricing tiers explained, same day process serving price, how much does process serving cost oklahoma",
   openGraph: {
     images: [{
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Compare Oklahoma process serving tiers: standard ($60, 5-7 days), rush ($100, 1-3 days), same-day ($150), after-hours ($265). Faster tiers reduce risk of missing the 180-day service deadline under § 2004(I).',
-    'ai-key-facts': 'Standard $60 up to 3 attempts; rush $100; same-day $150; after-hours $265; 180-day deadline under § 2004(I); flat-rate no mileage; (539) 367-6832',
+    'ai-summary': 'Compare Oklahoma process serving tiers: standard ($90, 5-7 days), rush ($130, 1-3 days), same-day ($180), after-hours ($295). Faster tiers reduce risk of missing the 180-day service deadline under § 2004(I).',
+    'ai-key-facts': 'Standard $90 up to 3 attempts; rush $130; same-day $180; after-hours $295; 180-day deadline under § 2004(I); flat-rate no mileage; (539) 367-6832',
   
   },
 };
@@ -150,7 +150,7 @@ function UnifiedSchema() {
       {
         "@type": "BlogPosting",
         headline: "What's the Cost Difference Between Fast and Standard Process Serving?",
-        description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush ($100), same-day ($150), or after-hours ($265) service in Oklahoma. Transparent pricing, no hidden fees.",
+        description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($90), rush ($130), same-day ($180), or after-hours ($295) service in Oklahoma. Transparent pricing, no hidden fees.",
         url: "https://justlegalsolutions.org/blog/cost-difference-fast-vs-standard-process-serving",
         datePublished: "2024-02-05T08:00:00Z",
         dateModified: "2024-02-05T08:00:00Z",
@@ -207,7 +207,7 @@ export default function BlogPost() {
 
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Standard process serving in Oklahoma costs <strong>$35–$75</strong> with 2–3 day turnaround, while rush/same-day service ranges from <strong>$100–$265</strong>. Just Legal Solutions offers transparent pricing with GPS verification across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
+          <p className="text-gray-800">Standard process serving in Oklahoma costs <strong>$40–$75</strong> with 2–3 day turnaround, while rush/same-day service ranges from <strong>$130–$295</strong>. Just Legal Solutions offers transparent pricing with GPS verification across all <strong>77 Oklahoma counties</strong> — call <strong>(539) 367-6832</strong>.</p>
         </div>
         <p className="text-lg text-slate-600 mb-2">A side-by-side comparison of pricing tiers, value analysis, and when to choose each service level in Oklahoma.</p>
         <p className="text-sm text-slate-400 mb-10">Published February 5, 2024 by Just Legal Solutions</p>
@@ -219,9 +219,9 @@ export default function BlogPost() {
         <AuthorBox />
 
         <article className="prose prose-lg max-w-none text-slate-700">
-          <p className="text-lg leading-relaxed mb-6">If you are hiring a process server in Oklahoma for the first time — or even if you are an attorney who hires servers regularly — the range of pricing options can be confusing. Why does one company charge $60 while another charges $150 or $265 for what seems like the same service? What exactly do you get for the extra money? And most importantly, when is the premium for fast service actually worth paying?</p>
+          <p className="text-lg leading-relaxed mb-6">If you are hiring a process server in Oklahoma for the first time — or even if you are an attorney who hires servers regularly — the range of pricing options can be confusing. Why does one company charge $90 while another charges $180 or $295 for what seems like the same service? What exactly do you get for the extra money? And most importantly, when is the premium for fast service actually worth paying?</p>
 
-          <p className="leading-relaxed mb-6">At <strong>Just Legal Solutions</strong>, we believe in radical transparency about pricing. We publish our rates openly because we want clients to understand exactly what they are paying for and to make informed decisions based on their specific needs. In this guide, we will break down every service tier we offer — from our $35 Single-Attempt option to our $265 After-Hours Rush Service — comparing features, success rates, turnaround times, and the scenarios where each tier makes the most sense. With data from thousands of serves across all 77 Oklahoma counties, this is the most detailed pricing analysis available for Oklahoma process serving.</p>
+          <p className="leading-relaxed mb-6">At <strong>Just Legal Solutions</strong>, we believe in radical transparency about pricing. We publish our rates openly because we want clients to understand exactly what they are paying for and to make informed decisions based on their specific needs. In this guide, we will break down every service tier we offer — from our $40 Single-Attempt option to our $295 After-Hours Rush Service — comparing features, success rates, turnaround times, and the scenarios where each tier makes the most sense. With data from thousands of serves across all 77 Oklahoma counties, this is the most detailed pricing analysis available for Oklahoma process serving.</p>
 
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Complete Pricing Tier Breakdown</h2>
           <p className="leading-relaxed mb-6">Here is our complete pricing structure at Just Legal Solutions, with a detailed comparison of what is included at each level:</p>
@@ -238,12 +238,12 @@ export default function BlogPost() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                <tr><td className="px-4 py-3 text-sm font-medium">Single-Attempt</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$35</td><td className="px-4 py-3 text-sm text-slate-600">1</td><td className="px-4 py-3 text-sm text-slate-600">3-5 business days</td><td className="px-4 py-3 text-sm text-slate-600">Known-cooperative defendants</td></tr>
-                <tr><td className="px-4 py-3 text-sm font-medium">Standard</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$60</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">2-4 business days</td><td className="px-4 py-3 text-sm text-slate-600">Routine serves, flexible deadlines</td></tr>
-                <tr><td className="px-4 py-3 text-sm font-medium">Rush</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$100</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">24-48 hours</td><td className="px-4 py-3 text-sm text-slate-600">Tight deadlines, priority handling</td></tr>
-                <tr><td className="px-4 py-3 text-sm font-medium">Same-Day</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$150</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">Same day (within hours)</td><td className="px-4 py-3 text-sm text-slate-600">Emergencies, immediate court needs</td></tr>
+                <tr><td className="px-4 py-3 text-sm font-medium">Single-Attempt</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$40</td><td className="px-4 py-3 text-sm text-slate-600">1</td><td className="px-4 py-3 text-sm text-slate-600">3-5 business days</td><td className="px-4 py-3 text-sm text-slate-600">Known-cooperative defendants</td></tr>
+                <tr><td className="px-4 py-3 text-sm font-medium">Standard</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$90</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">2-4 business days</td><td className="px-4 py-3 text-sm text-slate-600">Routine serves, flexible deadlines</td></tr>
+                <tr><td className="px-4 py-3 text-sm font-medium">Rush</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$130</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">24-48 hours</td><td className="px-4 py-3 text-sm text-slate-600">Tight deadlines, priority handling</td></tr>
+                <tr><td className="px-4 py-3 text-sm font-medium">Same-Day</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$180</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">Same day (within hours)</td><td className="px-4 py-3 text-sm text-slate-600">Emergencies, immediate court needs</td></tr>
                 <tr><td className="px-4 py-3 text-sm font-medium">Triple-Attempt</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$200</td><td className="px-4 py-3 text-sm text-slate-600">3</td><td className="px-4 py-3 text-sm text-slate-600">3-7 days</td><td className="px-4 py-3 text-sm text-slate-600">Hard-to-serve, varied timing</td></tr>
-                <tr><td className="px-4 py-3 text-sm font-medium">After-Hours</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$265</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">24-48 hours (evening/weekend)</td><td className="px-4 py-3 text-sm text-slate-600">Dedicated off-hours, evasive targets</td></tr>
+                <tr><td className="px-4 py-3 text-sm font-medium">After-Hours</td><td className="px-4 py-3 text-sm font-bold text-blue-700">$295</td><td className="px-4 py-3 text-sm text-slate-600">1-2</td><td className="px-4 py-3 text-sm text-slate-600">24-48 hours (evening/weekend)</td><td className="px-4 py-3 text-sm text-slate-600">Dedicated off-hours, evasive targets</td></tr>
               </tbody>
             </table>
           </div>
@@ -253,32 +253,32 @@ export default function BlogPost() {
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Deep Dive: What You Get at Each Price Point</h2>
 
           <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Single-Attempt Service ($35): The Budget Option</h3>
-          <p className="leading-relaxed mb-6">Our Single-Attempt Service at $35 is the most affordable option and is designed for situations where you are confident the defendant will be at the address during business hours. You get one service attempt during standard hours (Monday-Friday, 8 AM-5 PM), GPS verification, and a completed affidavit. If the defendant is not home, additional attempts require upgrading to a higher tier.</p>
+          <p className="leading-relaxed mb-6">Our Single-Attempt Service at $40 is the most affordable option and is designed for situations where you are confident the defendant will be at the address during business hours. You get one service attempt during standard hours (Monday-Friday, 8 AM-5 PM), GPS verification, and a completed affidavit. If the defendant is not home, additional attempts require upgrading to a higher tier.</p>
 
           <p className="leading-relaxed mb-6"><strong>Best use case:</strong> You have confirmed the defendant works from home, is retired and home during the day, or has otherwise indicated they will accept service. We see attorneys use this tier frequently for routine uncontested matters where the defendant's attorney has already agreed to accept.</p>
 
-          <p className="leading-relaxed mb-6"><strong>Risk:</strong> If the single attempt fails, you have paid $35 and still need service. For many cases, the Standard Service at $60 is a better value because it includes a second attempt if the first is unsuccessful.</p>
+          <p className="leading-relaxed mb-6"><strong>Risk:</strong> If the single attempt fails, you have paid $40 and still need service. For many cases, the Standard Service at $90 is a better value because it includes a second attempt if the first is unsuccessful.</p>
 
-          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Standard Service ($60): The Reliable Default</h3>
-          <p className="leading-relaxed mb-6">Standard Service is our most popular tier and represents the sweet spot for most Oklahoma process serving needs. At $60, you get up to two attempts during standard business hours, full GPS documentation, timestamped photographs, a notarized affidavit, and proof delivery within 24-48 hours of successful service. If the first attempt misses, we automatically schedule a second attempt at a different time of day.</p>
+          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Standard Service ($90): The Reliable Default</h3>
+          <p className="leading-relaxed mb-6">Standard Service is our most popular tier and represents the sweet spot for most Oklahoma process serving needs. At $90, you get up to two attempts during standard business hours, full GPS documentation, timestamped photographs, a notarized affidavit, and proof delivery within 24-48 hours of successful service. If the first attempt misses, we automatically schedule a second attempt at a different time of day.</p>
 
           <p className="leading-relaxed mb-6"><strong>Best use case:</strong> Routine litigation with flexible timelines, cooperative or neutral defendants, cases where the court deadline is at least 10-14 days away. This tier handles approximately 70% of our standard residential serves successfully on the first or second attempt.</p>
 
           <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> At $60 with a high success rate and comprehensive documentation, Standard Service offers exceptional value. The cost of a failed serve — court delays, additional filing fees, frustrated clients — far exceeds the $60 investment in professional service.</p>
 
-          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Rush Service ($100): Priority Handling</h3>
-          <p className="leading-relaxed mb-6">Rush Service at $100 adds two critical elements to the Standard tier: priority queue placement and extended-hour availability. Your documents go to the front of our dispatch queue, meaning a server is assigned and on the road faster. Additionally, Rush includes attempts during early morning (starting at 7 AM) and early evening (until 7 PM) hours, giving broader coverage than the standard 8-5 window.</p>
+          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Rush Service ($130): Priority Handling</h3>
+          <p className="leading-relaxed mb-6">Rush Service at $130 adds two critical elements to the Standard tier: priority queue placement and extended-hour availability. Your documents go to the front of our dispatch queue, meaning a server is assigned and on the road faster. Additionally, Rush includes attempts during early morning (starting at 7 AM) and early evening (until 7 PM) hours, giving broader coverage than the standard 8-5 window.</p>
 
           <p className="leading-relaxed mb-6"><strong>Best use case:</strong> Cases with court deadlines within 5-7 days, defendants who are known to leave early or return late, situations where your client is asking for faster turnaround. The $40 premium over Standard is minimal when weighed against the risk of a court continuance.</p>
 
-          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> Our data shows that Rush Service has a 15-20% higher first-attempt success rate than Standard Service due to the extended hours and priority assignment. For time-sensitive cases, the $100 investment is almost always justified.</p>
+          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> Our data shows that Rush Service has a 15-20% higher first-attempt success rate than Standard Service due to the extended hours and priority assignment. For time-sensitive cases, the $130 investment is almost always justified.</p>
 
-          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Same-Day Service ($150): Emergency Response</h3>
+          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Same-Day Service ($180): Emergency Response</h3>
           <p className="leading-relaxed mb-6">Same-Day Service is our emergency tier. When you call before noon (and often even after noon depending on location and server availability), we dispatch a dedicated server immediately. Your documents are attempted within hours, not days. This tier includes morning, afternoon, and evening attempt windows, and our servers remain dedicated to your job until it is completed.</p>
 
           <p className="leading-relaxed mb-6"><strong>Best use case:</strong> Emergency temporary restraining orders, protective orders with imminent threat, court hearings scheduled for the next day, last-minute service that absolutely cannot wait. We have completed Same-Day serves at 3 PM for hearings the following morning at 9 AM.</p>
 
-          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> The $90 premium over Standard Service is insignificant when the alternative is a missed court date. For attorneys, a single continuance can cost more in billable hours than the $150 Same-Day fee. For individuals, a delayed hearing can mean weeks of additional stress and uncertainty.</p>
+          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> The $90 premium over Standard Service is insignificant when the alternative is a missed court date. For attorneys, a single continuance can cost more in billable hours than the $180 Same-Day fee. For individuals, a delayed hearing can mean weeks of additional stress and uncertainty.</p>
 
           <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">Triple-Attempt Package ($200): Maximum Coverage</h3>
           <p className="leading-relaxed mb-6">The Triple-Attempt Package is our strategic option for difficult serves. You get three separate attempts at different times: typically one weekday morning/afternoon, one weekday evening, and one weekend attempt. This varied timing dramatically increases the odds of catching the defendant at home.</p>
@@ -287,18 +287,18 @@ export default function BlogPost() {
 
           <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> At $200 for three attempts, the per-attempt cost is approximately $67 — only slightly more than Standard Service. If you suspect the defendant will be difficult to reach, the Triple-Attempt Package often saves money compared to purchasing multiple individual attempts.</p>
 
-          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">After-Hours Rush Service ($265): The Full-Court Press</h3>
+          <h3 className="text-xl font-bold text-slate-900 mt-8 mb-3">After-Hours Rush Service ($295): The Full-Court Press</h3>
           <p className="leading-relaxed mb-6">After-Hours Rush Service is our premium tier, combining all the benefits of Rush and Same-Day service with dedicated evening and weekend availability. A server is assigned exclusively to your case and attempts service during evening hours (5 PM-9 PM), weekend hours, or both. This tier also includes enhanced skip tracing research to verify the defendant's likely presence before attempts are made.</p>
 
           <p className="leading-relaxed mb-6"><strong>Best use case:</strong> Evasive defendants who actively avoid service, cases where intelligence suggests the defendant is only home at specific off-hours, high-stakes litigation where failure is not an option. We recommend this tier for defendants who have dodged previous service attempts.</p>
 
-          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> At $265, this is our most expensive tier, but it is also our most successful for difficult serves. When a case is worth tens of thousands of dollars or involves custody, protection, or significant financial stakes, the $265 fee is a small price for ensuring service is completed.</p>
+          <p className="leading-relaxed mb-6"><strong>Value analysis:</strong> At $295, this is our most expensive tier, but it is also our most successful for difficult serves. When a case is worth tens of thousands of dollars or involves custody, protection, or significant financial stakes, the $295 fee is a small price for ensuring service is completed.</p>
 
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Hidden Costs to Watch For</h2>
           <p className="leading-relaxed mb-6">When comparing process serving prices, it is essential to look beyond the headline rate. Some companies advertise low base prices but add fees that can double or triple the final cost. Here are common hidden charges to ask about:</p>
 
           <ul className="list-disc pl-6 space-y-2 mb-6">
-            <li><strong>Mileage fees:</strong> Some servers charge per mile beyond a small radius. In rural Oklahoma, this can add $50-$100 to a single serve.</li>
+            <li><strong>Mileage fees:</strong> Some servers charge per mile beyond a small radius. In rural Oklahoma, this can add $50-$130 to a single serve.</li>
             <li><strong>Attempt fees:</strong> Companies may charge for each attempt separately, meaning a "$40 serve" becomes $120 if three attempts are needed.</li>
             <li><strong>Affidavit/filing fees:</strong> Some companies charge extra to prepare the affidavit of service or to file it with the court.</li>
             <li><strong>Photo/GPS fees:</strong> Documentation that we include as standard may carry surcharges at other companies.</li>
@@ -314,7 +314,7 @@ export default function BlogPost() {
 
           <p className="leading-relaxed mb-6"><strong>Scenario 1:</strong> You choose the $35 Single-Attempt option. The defendant is not home. Your court deadline passes. You must file a motion for continuance ($50 filing fee), reschedule your attorney ($200+ in additional billable hours), and delay resolution by 30-60 days. Total cost of the "cheap" option: $280+ plus the stress and uncertainty of delay.</p>
 
-          <p className="leading-relaxed mb-6"><strong>Scenario 2:</strong> You choose the $100 Rush Service. The server attempts service the next morning during extended hours, successfully delivers the documents, and you receive proof of service the same day. Your case proceeds on schedule. Total cost: $100. Total stress: minimal.</p>
+          <p className="leading-relaxed mb-6"><strong>Scenario 2:</strong> You choose the $130 Rush Service. The server attempts service the next morning during extended hours, successfully delivers the documents, and you receive proof of service the same day. Your case proceeds on schedule. Total cost: $130. Total stress: minimal.</p>
 
           <p className="leading-relaxed mb-6">This is the value equation that too many clients overlook. Process serving is not an expense to minimize — it is a critical investment in your case's timely progression. The right service tier is the one that ensures service is completed within your deadline, not the one with the lowest sticker price.</p>
 
@@ -331,7 +331,7 @@ export default function BlogPost() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Conclusion</h2>
-          <p className="leading-relaxed mb-6">Understanding the cost differences between fast and standard process serving is about more than comparing numbers — it is about matching the right service level to your case's specific timeline, complexity, and stakes. At Just Legal Solutions, our pricing tiers are designed to give every client an appropriate option, from the $35 Single-Attempt service for simple, confirmed serves to the $265 After-Hours Rush Service for the most challenging, time-sensitive cases.</p>
+          <p className="leading-relaxed mb-6">Understanding the cost differences between fast and standard process serving is about more than comparing numbers — it is about matching the right service level to your case's specific timeline, complexity, and stakes. At Just Legal Solutions, our pricing tiers are designed to give every client an appropriate option, from the $40 Single-Attempt service for simple, confirmed serves to the $295 After-Hours Rush Service for the most challenging, time-sensitive cases.</p>
 
           <p className="leading-relaxed mb-6">Our transparent, all-inclusive pricing means you never face surprise charges. Our 50+ years of combined experience means we can recommend the right tier for your situation — we will never upsell you to a service level you do not need. And our <strong>4.9-star client rating</strong> across all 77 Oklahoma counties means you can trust that whatever tier you choose, the job will be done right.</p>
 

@@ -246,7 +246,7 @@ export default function BlogPost() {
             Here is the beautiful part of the virtual assistant model: you pay only for productive hours. No FICA taxes. No unemployment insurance. No health insurance. No office space. No equipment. No workers\' compensation. No PTO costs. No paying someone to browse social media between tasks. When your virtual assistant is not working on your matters, you are not paying them.
           </p>
           <p>
-            For a typical workload, the annual cost of a virtual legal assistant providing comparable support to an in-house paralegal ranges from $20,000 to $35,000. That is not a typo. You are getting similar output for less than half the cost, and in many cases, for less than one-third.
+            For a typical workload, the annual cost of a virtual legal assistant providing comparable support to an in-house paralegal ranges from $20,000 to $40,000. That is not a typo. You are getting similar output for less than half the cost, and in many cases, for less than one-third.
           </p>
           <p>
             The scalability is another major advantage. Need more help during trial prep? Ramp up the hours. Slow season in August? Scale back. Your staffing costs flex with your actual workload instead of remaining a fixed burden regardless of how many matters you are handling. Learn about our Oklahoma-based team and how we provide flexible support for law firms across all 77 counties.

@@ -139,7 +139,7 @@ export default function BlogPost() {
           </h1>
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">When choosing an Oklahoma process server, look for <strong>licensing under 12 O.S. § 158.1, bonding, GPS verification, court-compliant affidavits, statewide coverage, transparent pricing ($35–$265), and reviews</strong>. Just Legal Solutions meets all of these — <strong>(539) 367-6832</strong>.</p>
+          <p className="text-gray-800">When choosing an Oklahoma process server, look for <strong>licensing under 12 O.S. § 158.1, bonding, GPS verification, court-compliant affidavits, statewide coverage, transparent pricing ($40–$295), and reviews</strong>. Just Legal Solutions meets all of these — <strong>(539) 367-6832</strong>.</p>
         </div>
 
           <p className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">

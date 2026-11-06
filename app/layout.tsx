@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     default: 'Just Legal Solutions - Process Serving Oklahoma',
     template: '%s | Just Legal Solutions',
   },
-  description: 'Expert process serving starting at $60 flat rate — Tulsa, Broken Arrow, Sapulpa, Glenpool & all 77 Oklahoma counties. Same-day, rush & standard service. No mileage or hidden fees.',
+  description: 'Expert process serving starting at $90 flat rate — Tulsa, Broken Arrow, Sapulpa, Glenpool & all 77 Oklahoma counties. Same-day, rush & standard service. No mileage or hidden fees.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
     'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',

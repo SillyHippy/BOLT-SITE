@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing',
-    description: 'Professional legal courier services across Oklahoma. Courthouse filing, document pickup and delivery, file-stamped copy returns, and inter-office legal document transport. From $35.',
+    description: 'Professional legal courier services across Oklahoma. Courthouse filing, document pickup and delivery, file-stamped copy returns, and inter-office legal document transport. From $40.',
     keywords: ['legal courier services oklahoma', 'courthouse filing service', 'document delivery tulsa', 'legal document courier', 'court filing service oklahoma'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/courier-services' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Legal courier services across Oklahoma including courthouse filing, document pickup and delivery, file-stamped copy returns, and secure chain-of-custody transport. Distinct from process serving. From $35.',
+        'ai-summary': 'Legal courier services across Oklahoma including courthouse filing, document pickup and delivery, file-stamped copy returns, and secure chain-of-custody transport. Distinct from process serving. From $40.',
         'ai-key-facts': 'Legal courier from $30, courthouse filing, document delivery, statewide, chain-of-custody tracking, (539) 367-6832.',
     },
 };
@@ -70,7 +70,7 @@ export default function CourierServicesPage() {
                     <div className="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Legal Courier Services in Oklahoma</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Beyond process serving, Just Legal Solutions offers full legal courier services</strong> across Oklahoma. Courthouse filings, document pickups, file-stamped copy returns, and secure inter-office transport. Every delivery is tracked with chain-of-custody documentation. Starting at <strong>$35</strong>. Call <a href="tel:5393676832" className="text-teal-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Beyond process serving, Just Legal Solutions offers full legal courier services</strong> across Oklahoma. Courthouse filings, document pickups, file-stamped copy returns, and secure inter-office transport. Every delivery is tracked with chain-of-custody documentation. Starting at <strong>$40</strong>. Call <a href="tel:5393676832" className="text-teal-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 
@@ -109,7 +109,7 @@ export default function CourierServicesPage() {
                         <div className="grid md:grid-cols-3 gap-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard Delivery</h3>
-                                <div className="text-4xl font-bold text-teal-600 mb-2">$35</div>
+                                <div className="text-4xl font-bold text-teal-600 mb-2">$40</div>
                                 <div className="text-sm text-gray-500 mb-4">Same-county</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Pickup &amp; delivery</li>
@@ -149,7 +149,7 @@ export default function CourierServicesPage() {
 
                     <section className="mb-12 bg-gradient-to-r from-teal-50 to-blue-50 border-2 border-teal-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Need a Legal Courier?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Courthouse filings, document pickups, and secure transport. From $35.</p>
+                        <p className="text-lg text-gray-700 mb-6">Courthouse filings, document pickups, and secure transport. From $40.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>

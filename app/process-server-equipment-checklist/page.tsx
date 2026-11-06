@@ -153,7 +153,7 @@ const jsonLd = {
           name: 'Is body camera equipment necessary for process serving?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Body cameras are not legally required in Oklahoma but are increasingly recommended. They provide video evidence of service attempts, protect against false allegations, and can be valuable in court proceedings. Quality body cameras range from $100-$400.',
+            text: 'Body cameras are not legally required in Oklahoma but are increasingly recommended. They provide video evidence of service attempts, protect against false allegations, and can be valuable in court proceedings. Quality body cameras range from $130-$400.',
           },
         },
       ],
@@ -1092,7 +1092,7 @@ export default function ProcessServerEquipmentChecklist() {
                 <AccordionTrigger>Is body camera equipment necessary for process serving?</AccordionTrigger>
                 <AccordionContent>
                   <p className="text-muted-foreground">
-                    Body cameras are not legally required in Oklahoma but are increasingly recommended. They provide video evidence of service attempts, protect against false allegations, and can be valuable in court proceedings. Quality body cameras range from $100-$400. Many professional process servers consider them essential for liability protection and documentation quality.
+                    Body cameras are not legally required in Oklahoma but are increasingly recommended. They provide video evidence of service attempts, protect against false allegations, and can be valuable in court proceedings. Quality body cameras range from $130-$400. Many professional process servers consider them essential for liability protection and documentation quality.
                   </p>
                 </AccordionContent>
               </AccordionItem>

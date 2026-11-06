@@ -280,8 +280,8 @@ export default function OklahomaNotaryFeesGuide() {
             <ul>
               <li><strong>Before 8:00 AM or after 6:00 PM:</strong> $25–$50 surcharge</li>
               <li><strong>Weekends:</strong> $25–$50 surcharge</li>
-              <li><strong>Holidays:</strong> $50–$100 surcharge</li>
-              <li><strong>Emergency/Rush (same hour):</strong> $50–$100 surcharge</li>
+              <li><strong>Holidays:</strong> $50–$130 surcharge</li>
+              <li><strong>Emergency/Rush (same hour):</strong> $50–$130 surcharge</li>
             </ul>
             <p>At Just Legal Solutions, we offer <Link href="/hospital-notary">24/7 hospital and emergency notary services</Link> because some situations can&apos;t wait for business hours.</p>
 
@@ -319,9 +319,9 @@ export default function OklahomaNotaryFeesGuide() {
                     ['Power of attorney', '1–2', '$5 – $10', '$35 – $60'],
                     ['Real estate deed', '2–4', '$10 – $20', '$35 – $70'],
                     ['Loan closing package', '5–15', '$25 – $75', '$50 – $125'],
-                    ['Immigration I-864', '1–3', '$5 – $15', '$35 – $65'],
-                    ['Advance directive', '1–2', '$5 – $10', '$35 – $60'],
-                    ['Vehicle title transfer', '1–2', '$5 – $10', '$35 – $60'],
+                    ['Immigration I-864', '1–3', '$5 – $15', '$40 – $65'],
+                    ['Advance directive', '1–2', '$5 – $10', '$40 – $90'],
+                    ['Vehicle title transfer', '1–2', '$5 – $10', '$40 – $90'],
                   ].map(([doc, sigs, fee, total]) => (
                     <tr key={doc} className="hover:bg-gray-50">
                       <td className="border border-gray-200 px-4 py-2 text-gray-700">{doc}</td>
@@ -378,7 +378,7 @@ export default function OklahomaNotaryFeesGuide() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/mobile-notary" className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all group">

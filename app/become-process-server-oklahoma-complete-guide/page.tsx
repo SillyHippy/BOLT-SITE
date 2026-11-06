@@ -1054,11 +1054,11 @@ export default function BecomeProcessServerGuide() {
                   <div className="text-slate-500">Standard Service</div>
                 </div>
                 <div className="bg-white rounded p-3 text-center">
-                  <div className="font-bold text-slate-900">$100-150</div>
+                  <div className="font-bold text-slate-900">$130-150</div>
                   <div className="text-slate-500">Rush Service</div>
                 </div>
                 <div className="bg-white rounded p-3 text-center">
-                  <div className="font-bold text-slate-900">$150-250</div>
+                  <div className="font-bold text-slate-900">$180-250</div>
                   <div className="text-slate-500">Same-Day Service</div>
                 </div>
                 <div className="bg-white rounded p-3 text-center">

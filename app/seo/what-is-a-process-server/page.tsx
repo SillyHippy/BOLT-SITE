@@ -102,7 +102,7 @@ const faqSchema = {
       "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Oklahoma start at $35 per serve for a single attempt, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa is $60, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
+        "text": "Process serving costs in Oklahoma start at $40 per serve for a single attempt, with prices ranging up to $295 depending on urgency and location. Standard service in Tulsa is $90, same-day service costs $130 to $180, and 2-hour emergency service is $295. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
       }
     },
     {
@@ -312,7 +312,7 @@ const localBusinessSchema = {
       "closes": "23:59"
     }
   ],
-  "priceRange": "$35-$200",
+  "priceRange": "$40-$295",
   "foundingDate": "2025-03-01",
   "slogan": "Professional Process Serving Throughout Oklahoma - Licensed, Bonded, Available 24/7",
   "hasOfferCatalog": {
@@ -625,7 +625,7 @@ export default function WhatIsAProcessServerPage() {
         ]}
         conversationalAnswers={[
           "A process server is a licensed professional who delivers legal documents to ensure due process in Oklahoma. They must be at least 18 years old, licensed by the county court, and bonded for $5,000.",
-          "Process serving costs in Oklahoma range from $60-200 depending on urgency and location. Standard service in Tulsa starts at $60, same-day service costs $100-150, and emergency service ranges $150-200.",
+          "Process serving costs in Oklahoma range from $90-200 depending on urgency and location. Standard service in Tulsa starts at $90, same-day service costs $130-150, and emergency service ranges $180-200.",
           "Yes, divorce papers in Oklahoma require professional process service by a licensed third party to ensure legal validity. This protects due process rights and prevents bias.",
           "Standard process serving takes 24-48 hours in Oklahoma metro areas. Same-day service is available for urgent matters, while rural areas may take 2-3 days.",
           "Yes, licensed process servers in Oklahoma can work weekends and holidays for urgent legal matters, typically with a 25-50% surcharge for after-hours service.",
@@ -708,7 +708,7 @@ export default function WhatIsAProcessServerPage() {
                   <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-lg border border-blue-300 mb-4 shadow-2xl text-white">
                     <h3 className="text-xl font-bold mb-3 text-white">Need Process Service Today?</h3>
                     <div className="mb-4">
-                      <div className="text-3xl font-bold text-yellow-300">$35</div>
+                      <div className="text-3xl font-bold text-yellow-300">$40</div>
                       <div className="text-sm text-gray-100">Starting Rate • Tulsa Metro</div>
                       <div className="text-xs text-gray-200">Same-day available • All document types</div>
                     </div>
@@ -2611,11 +2611,11 @@ export default function WhatIsAProcessServerPage() {
                   <div className="space-y-4">
                     <div className="flex items-center justify-between p-3 bg-white rounded border">
                       <span className="font-medium">Tulsa Metro Routine</span>
-                      <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">$60-$100</span>
+                      <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">$90-$130</span>
                     </div>
                     <div className="flex items-center justify-between p-3 bg-white rounded border">
                       <span className="font-medium">Statewide Standard</span>
-                      <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">$75-$150</span>
+                      <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm">$75-$180</span>
                     </div>
                     <div className="flex items-center justify-between p-3 bg-white rounded border">
                       <span className="font-medium">Volume Discounts</span>
@@ -2633,7 +2633,7 @@ export default function WhatIsAProcessServerPage() {
                   <div className="space-y-4">
                     <div className="flex items-center justify-between p-3 bg-white rounded border">
                       <span className="font-medium">Same-Day Service</span>
-                      <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm">$150-$200</span>
+                      <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm">$180-$200</span>
                     </div>
                     <div className="flex items-center justify-between p-3 bg-white rounded border">
                       <span className="font-medium">2-4 Hour Emergency</span>

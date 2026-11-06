@@ -420,15 +420,15 @@ export default function OklahomaEvictionTimelinePage() {
               <h3 className="text-xl font-bold text-center mb-6">Eviction Service Pricing</h3>
               <div className="grid sm:grid-cols-3 gap-4">
                 <div className="bg-slate-700 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-emerald-400">$60</div>
+                  <div className="text-2xl font-bold text-emerald-400">$90</div>
                   <div className="text-sm text-slate-300">Standard Service</div>
                 </div>
                 <div className="bg-slate-700 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-amber-400">$150</div>
+                  <div className="text-2xl font-bold text-amber-400">$180</div>
                   <div className="text-sm text-slate-300">Rush Service</div>
                 </div>
                 <div className="bg-slate-700 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-red-400">$265</div>
+                  <div className="text-2xl font-bold text-red-400">$295</div>
                   <div className="text-sm text-slate-300">Same-Day Service</div>
                 </div>
               </div>

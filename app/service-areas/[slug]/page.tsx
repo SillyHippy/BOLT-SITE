@@ -243,7 +243,7 @@ export async function generateMetadata({
     ? `${locationName} Process Server OK | Starts at $30`
     : fullTitle;
   const description =
-    `Licensed process server in ${locationName}, OK. Service starts at $30 single-attempt and $60 standard; rush & same-day options available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
+    `Licensed process server in ${locationName}, OK. Service starts at $40 single-attempt and $90 standard; rush & same-day options available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
   return {
     title,

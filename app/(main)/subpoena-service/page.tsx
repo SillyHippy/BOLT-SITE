@@ -73,7 +73,7 @@ export default function SubpoenaServicePage() {
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Subpoena Service in Oklahoma</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Need a subpoena served before a hearing, deposition, or trial?</strong> Just Legal Solutions delivers witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas across all 77 Oklahoma counties. Every service is GPS-verified with a court-ready affidavit. Standard service is <strong>$60</strong>, same-day rush <strong>$150</strong>, 2-hour emergency <strong>$265</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Need a subpoena served before a hearing, deposition, or trial?</strong> Just Legal Solutions delivers witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas across all 77 Oklahoma counties. Every service is GPS-verified with a court-ready affidavit. Standard service is <strong>$90</strong>, same-day rush <strong>$180</strong>, 2-hour emergency <strong>$295</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 
@@ -124,21 +124,21 @@ export default function SubpoenaServicePage() {
                         <div className="grid md:grid-cols-3 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$35</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$40</div>
                                 <div className="text-sm text-gray-500 mb-4">5&ndash;7 business days</div>
                                 <p className="text-sm text-gray-600">Up to 3 attempts, GPS-verified, notarized affidavit, Tulsa County mileage included.</p>
                             </div>
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold mb-2">Same-Day Rush</h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">$150</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">$180</div>
                                 <div className="text-sm text-gray-500 mb-4">4&ndash;8 hours</div>
                                 <p className="text-sm text-gray-600">Priority attempt, live updates, expedited affidavit, court filing included.</p>
                             </div>
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold mb-2">2-Hour Emergency</h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch</div>
                                 <p className="text-sm text-gray-600">Immediate dispatch, direct communication with server, after-hours available.</p>
                             </div>
@@ -167,7 +167,7 @@ export default function SubpoenaServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $35." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
+            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $40." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
         </>
     );
 }

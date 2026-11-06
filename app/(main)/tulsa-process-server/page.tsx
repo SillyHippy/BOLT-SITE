@@ -28,13 +28,13 @@ const tulsaFreshness = getPageFreshness('/tulsa-process-server')!;
 
 // Enhanced SEO Metadata combining all Tulsa pages
 export const metadata: Metadata = {
-  title: 'Tulsa Process Server | Same-Day Service, Starts at $35',
-  description: 'Licensed & bonded Tulsa process server. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. GPS-verified, court-ready affidavits within 24 hrs. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
+  title: 'Tulsa Process Server | Same-Day Service, Starts at $40',
+  description: 'Licensed & bonded Tulsa process server. Service starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day. GPS-verified, court-ready affidavits within 24 hrs. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
   keywords: 'process server tulsa, tulsa process server, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, comprehensive process server tulsa, tulsa county legal services, certified process server tulsa, professional process server tulsa',
   other: {
     'ai-content-type': 'location-service',
-    'ai-summary': 'Just Legal Solutions is a licensed, bonded process server based in the Tulsa metro area serving Tulsa County and all of Oklahoma. Same-day and 2-hour emergency service available. Covers downtown Tulsa, Midtown, Brookside, Broken Arrow, Bixby, Jenks, Owasso, and surrounding areas. Process serving starts at $35 single-attempt and $60 standard. 50+ years combined experience. Available 24/7. Full pricing at https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Tulsa process server, licensed bonded insured, same-day and 2-hour emergency, serves all Tulsa County cities, starts at $35 single-attempt and $60 standard, 50+ years experience, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions is a licensed, bonded process server based in the Tulsa metro area serving Tulsa County and all of Oklahoma. Same-day and 2-hour emergency service available. Covers downtown Tulsa, Midtown, Brookside, Broken Arrow, Bixby, Jenks, Owasso, and surrounding areas. Process serving starts at $40 single-attempt and $90 standard. 50+ years combined experience. Available 24/7. Full pricing at https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Tulsa process server, licensed bonded insured, same-day and 2-hour emergency, serves all Tulsa County cities, starts at $40 single-attempt and $90 standard, 50+ years experience, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832',
     ...buildFreshnessMetadata({
       datePublished: tulsaFreshness.datePublished,
       dateModified: tulsaFreshness.dateModified,
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Tulsa Process Server | Same-Day Service, Starts at $35',
-    description: 'Licensed & bonded Tulsa process server. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. GPS-verified, court-ready affidavits. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
+    title: 'Tulsa Process Server | Same-Day Service, Starts at $40',
+    description: 'Licensed & bonded Tulsa process server. Service starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day. GPS-verified, court-ready affidavits. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/tulsa-process-server',
     siteName: 'Just Legal Solutions',
     images: [
@@ -267,7 +267,7 @@ export default function TulsaProcessServerPage() {
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="speakable-heading text-4xl font-bold mb-4">Tulsa Process Server - Professional Legal Document Delivery</h1>
-          <p className="speakable-summary text-lg text-gray-800 mb-4"><strong>Just Legal Solutions is a licensed, bonded, and insured process serving company in Tulsa, Oklahoma. Our servers are authorized under Oklahoma statute 12 O.S. § 158.1 to deliver legal documents — including summons, subpoenas, and eviction notices — to individuals and businesses in all 77 Oklahoma counties. Standard service starts at $60, rush service at $100, same-day rush at $150, and after-hours rush at $265.</strong></p>
+          <p className="speakable-summary text-lg text-gray-800 mb-4"><strong>Just Legal Solutions is a licensed, bonded, and insured process serving company in Tulsa, Oklahoma. Our servers are authorized under Oklahoma statute 12 O.S. § 158.1 to deliver legal documents — including summons, subpoenas, and eviction notices — to individuals and businesses in all 77 Oklahoma counties. Standard service starts at $90, rush service at $130, same-day rush at $180, and after-hours rush at $295.</strong></p>
           <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery. Same-day service available, GPS-verified proof, all of Tulsa County covered.</p>
           <div className="flex justify-center gap-4">
             <Button asChild>
@@ -1088,7 +1088,7 @@ export default function TulsaProcessServerPage() {
           'Legal Document Service',
           'Professional Process Serving'
         ]}
-        priceRange="$35-$200"
+        priceRange="$40-$200"
         aggregateRating={{
           ratingValue: 4.9,
           reviewCount: 156

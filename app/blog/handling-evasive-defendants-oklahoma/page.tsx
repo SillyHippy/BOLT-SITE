@@ -208,7 +208,7 @@ export default function EvasiveDefendantsPage() {
               </p>
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 <div className="bg-white rounded-lg p-4 border border-blue-100">
-                  <div className="text-2xl font-bold text-blue-600">$35</div>
+                  <div className="text-2xl font-bold text-blue-600">$40</div>
                   <div className="text-sm text-blue-700">Skip Tracing Service</div>
                 </div>
                 <div className="bg-white rounded-lg p-4 border border-blue-100">
@@ -339,7 +339,7 @@ export default function EvasiveDefendantsPage() {
             </ul>
 
             <p>
-              At Just Legal Solutions, we offer both traditional and AI-powered skip tracing services starting at $35. Our 50+ years of combined experience means we know which methods work best for different types of evasive defendants in Oklahoma.
+              At Just Legal Solutions, we offer both traditional and AI-powered skip tracing services starting at $40. Our 50+ years of combined experience means we know which methods work best for different types of evasive defendants in Oklahoma.
             </p>
 
             <h2>Stakeout Strategies and Legal Considerations</h2>
@@ -599,7 +599,7 @@ export default function EvasiveDefendantsPage() {
             </p>
 
             <p>
-              At Just Legal Solutions, we bring 50+ years of combined experience to every service attempt. Our professional process servers understand Oklahoma's legal requirements and have the skills, resources, and determination to serve even the most evasive defendants. With skip tracing services starting at $35 and AI-powered location technology available, we provide the comprehensive support you need to keep your case moving forward.
+              At Just Legal Solutions, we bring 50+ years of combined experience to every service attempt. Our professional process servers understand Oklahoma's legal requirements and have the skills, resources, and determination to serve even the most evasive defendants. With skip tracing services starting at $40 and AI-powered location technology available, we provide the comprehensive support you need to keep your case moving forward.
             </p>
 
             <p>
@@ -688,7 +688,7 @@ export default function EvasiveDefendantsPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
@@ -697,7 +697,7 @@ export default function EvasiveDefendantsPage() {
               </Link>
               <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $90 — no mileage fees, no hidden charges.</p>
               </Link>
               <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
@@ -711,7 +711,7 @@ export default function EvasiveDefendantsPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-2">Need Help with an Evasive Defendant?</h3>
                 <p className="text-blue-100">
-                  Our experienced process servers specialize in difficult serves. Skip tracing from $35.
+                  Our experienced process servers specialize in difficult serves. Skip tracing from $40.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -740,7 +740,7 @@ export default function EvasiveDefendantsPage() {
                 <Search className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900 group-hover:text-blue-700">Skip Tracing Services</h4>
-                  <p className="text-sm text-gray-600">Professional location services starting at $35</p>
+                  <p className="text-sm text-gray-600">Professional location services starting at $40</p>
                 </div>
               </Link>
               <Link href="/ai-skip-tracing-guide-oklahoma/" className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">

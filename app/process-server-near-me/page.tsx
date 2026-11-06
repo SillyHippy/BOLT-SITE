@@ -5,12 +5,12 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties',
-  description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked. Call (539) 367-6832.',
+  description: 'Find a licensed process server near you in Oklahoma. Same-day service from $90. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked. Call (539) 367-6832.',
   keywords: 'process server near me, process server near me oklahoma, process server tulsa ok, local process server, find process server, oklahoma process server, process serving near me',
   alternates: { canonical: 'https://justlegalsolutions.org/process-server-near-me' },
   openGraph: {
     title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties',
-    description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. GPS-tracked. Call (539) 367-6832.',
+    description: 'Find a licensed process server near you in Oklahoma. Same-day service from $90. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/process-server-near-me',
     siteName: 'Just Legal Solutions',
     images: [{
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties',
-    description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked.',
+    description: 'Find a licensed process server near you in Oklahoma. Same-day service from $90. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-089-process-server-near-me-hero.webp'],
   },
   robots: { index: true, follow: true },
@@ -80,11 +80,11 @@ export default function ProcessServerNearMePage() {
         pageType="service"
         url="https://justlegalsolutions.org/process-server-near-me"
         title="Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties"
-        description="Find a licensed process server near you in Oklahoma. Same-day service from $60."
+        description="Find a licensed process server near you in Oklahoma. Same-day service from $90."
         serviceDetails={{
           name: 'Process Server Near Me — Oklahoma',
           description: 'Licensed process server serving all 77 Oklahoma counties including Tulsa, Broken Arrow, OKC, and surrounding areas.',
-          price: '$60-$200',
+          price: '$90-$295',
           areaServed: ['Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Oklahoma City', 'All 77 Oklahoma Counties'],
           serviceType: ['Process Serving', 'Legal Document Delivery', 'Skip Tracing'],
         }}
@@ -101,7 +101,7 @@ export default function ProcessServerNearMePage() {
         faqItems={[
           { question: 'How do I find a process server near me in Oklahoma?', answer: 'Just Legal Solutions serves all 77 Oklahoma counties. Call (539) 367-6832 for same-day service anywhere in the state.' },
           { question: 'What is the closest process server to Tulsa?', answer: 'Just Legal Solutions is based in the Tulsa metro (Glenpool, OK) and serves all Tulsa County cities including Broken Arrow, Bixby, Jenks, and Owasso.' },
-          { question: 'How much does a process server near me cost in Oklahoma?', answer: 'Standard service starts at $60. Rush service is $100 and same-day emergency service is $150. No hidden fees.' },
+          { question: 'How much does a process server near me cost in Oklahoma?', answer: 'Standard service starts at $90. Rush service is $130 and same-day emergency service is $180. No hidden fees.' },
           { question: 'Do you serve documents on weekends or after hours?', answer: 'Yes. Just Legal Solutions offers 24/7 emergency service including Sundays and holidays.' },
         ]}
       />
@@ -140,7 +140,7 @@ export default function ProcessServerNearMePage() {
               <span className="text-yellow-400">Near You in Oklahoma</span>
             </h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Licensed, bonded, and GPS-tracked. Same-day service from <strong className="text-white">$60</strong> anywhere in Oklahoma — Tulsa, Broken Arrow, OKC, and all 77 counties.
+              Licensed, bonded, and GPS-tracked. Same-day service from <strong className="text-white">$90</strong> anywhere in Oklahoma — Tulsa, Broken Arrow, OKC, and all 77 counties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -170,7 +170,7 @@ export default function ProcessServerNearMePage() {
         <section className="bg-blue-50 border-y border-blue-100 py-8 px-4">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-800 leading-relaxed">
-              <strong>Looking for a process server near you in Oklahoma?</strong> Just Legal Solutions is a licensed and bonded Oklahoma process server based in the Tulsa metro area, serving clients across all 77 counties. Standard process serving starts at <strong>$60</strong>, with same-day emergency service available statewide. Call <strong>(539) 367-6832</strong> and we can typically dispatch within hours.
+              <strong>Looking for a process server near you in Oklahoma?</strong> Just Legal Solutions is a licensed and bonded Oklahoma process server based in the Tulsa metro area, serving clients across all 77 counties. Standard process serving starts at <strong>$90</strong>, with same-day emergency service available statewide. Call <strong>(539) 367-6832</strong> and we can typically dispatch within hours.
             </p>
           </div>
         </section>
@@ -181,9 +181,9 @@ export default function ProcessServerNearMePage() {
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">Service Rates — No Hidden Fees</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { name: 'Standard', price: '$60', time: 'Within 10 business days', note: 'Up to 3 attempts', color: 'border-gray-200' },
-                { name: 'Rush', price: '$100', time: 'Within 72 hours', note: 'Priority handling', color: 'border-blue-300' },
-                { name: 'Same-Day', price: '$150', time: 'Within 24 hours', note: '⭐ Most popular', color: 'border-yellow-400 shadow-lg' },
+                { name: 'Standard', price: '$90', time: 'Within 10 business days', note: 'Up to 3 attempts', color: 'border-gray-200' },
+                { name: 'Rush', price: '$130', time: 'Within 72 hours', note: 'Priority handling', color: 'border-blue-300' },
+                { name: 'Same-Day', price: '$180', time: 'Within 24 hours', note: '⭐ Most popular', color: 'border-yellow-400 shadow-lg' },
               ].map((tier) => (
                 <div key={tier.name} className={`bg-white border-2 ${tier.color} rounded-xl p-6 text-center`}>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{tier.name} Service</h3>
@@ -273,7 +273,7 @@ export default function ProcessServerNearMePage() {
                 { icon: '📍', title: 'GPS-Tracked Every Serve', desc: 'Every service attempt is GPS-stamped and time-logged. Your affidavit of service is court-ready and defensible.' },
                 { icon: '⚡', title: 'Same-Day Dispatch Available', desc: 'Need papers served today? Call before noon and we\'ll typically dispatch within hours across the Tulsa metro.' },
                 { icon: '⚖️', title: 'Licensed & Bonded in Oklahoma', desc: 'Fully licensed under 12 O.S. § 158.1. We carry E&O insurance and are registered with all 77 Oklahoma county courts.' },
-                { icon: '💰', title: 'Flat-Rate Pricing, No Surprises', desc: 'Standard from $60, rush $100, same-day $150. You\'re quoted upfront — no mileage fees, no hidden charges.' },
+                { icon: '💰', title: 'Flat-Rate Pricing, No Surprises', desc: 'Standard from $90, rush $130, same-day $180. You\'re quoted upfront — no mileage fees, no hidden charges.' },
                 { icon: '🌙', title: '24/7 Including Weekends', desc: 'Process serving doesn\'t stop at 5 PM. We\'re available evenings, weekends, and holidays for urgent matters.' },
                 { icon: '⭐', title: '4.9-Star Rated Across 156 Reviews', desc: 'Trusted by attorneys, law firms, property managers, and individuals across Oklahoma.' },
               ].map((item) => (
@@ -305,7 +305,7 @@ export default function ProcessServerNearMePage() {
                 },
                 {
                   q: 'How much does it cost to hire a process server near me in Tulsa?',
-                  a: 'Standard process serving in Tulsa County starts at $60 for up to 3 attempts. Rush service (within 72 hours) is $100. Same-day emergency service is $150. All pricing is flat-rate with no hidden fees.',
+                  a: 'Standard process serving in Tulsa County starts at $90 for up to 3 attempts. Rush service (within 72 hours) is $130. Same-day emergency service is $180. All pricing is flat-rate with no hidden fees.',
                 },
                 {
                   q: 'Can a process server serve papers on a Sunday in Oklahoma?',

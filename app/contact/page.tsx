@@ -14,7 +14,7 @@ const contactFreshness = getPageFreshness('/contact')!;
 
 export const metadata = {
   title: '(539) 367-6832 | Contact',
-  description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
+  description: 'Get a free quote for process serving in Oklahoma. Service starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
   keywords: [
     'contact process server',
     'oklahoma process server',
@@ -36,7 +36,7 @@ export const metadata = {
   },
   openGraph: {
     title: '(539) 367-6832 | Contact',
-    description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/contact',
@@ -53,7 +53,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '(539) 367-6832 | Contact',
-    description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $40 single-attempt, $90 standard, $130 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.webp'],
     site: '@ServeOK',
   },
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 "latitude": "36.154",
                 "longitude": "-95.9928"
               },
-              "priceRange": "$35-$200",
+              "priceRange": "$40-$295",
               "openingHours": ["Mo-Su 00:00-23:59"],
               "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
@@ -349,7 +349,7 @@ export default function ContactPage() {
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">How much does process serving cost?</h3>
-              <p className="text-gray-700">Standard service starts at $60 with all-inclusive flat-rate pricing — no mileage, no per-attempt fees, no hidden charges. View our complete <Link href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</Link> for all service options including same-day, rush, and statewide rates.</p>
+              <p className="text-gray-700">Standard service starts at $90 with all-inclusive flat-rate pricing — no mileage, no per-attempt fees, no hidden charges. View our complete <Link href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</Link> for all service options including same-day, rush, and statewide rates.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">Do you offer weekend or emergency service?</h3>
@@ -395,7 +395,7 @@ export default function ContactPage() {
                 "name": "How much does process serving cost in Oklahoma?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Standard service starts at $60 for Tulsa County and nearby areas. We offer various service levels including rush and same-day options. View our pricing page for complete details."
+                  "text": "Standard service starts at $90 for Tulsa County and nearby areas. We offer various service levels including rush and same-day options. View our pricing page for complete details."
                 }
               },
               {

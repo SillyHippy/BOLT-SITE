@@ -521,14 +521,14 @@ export default function BlogPost() {
                 href="/pricing"
                 className="text-blue-600 hover:underline"
               >
-                $35 single-attempt service
+                $40 single-attempt service
               </Link>{" "}
               for straightforward assignments to{" "}
               <Link
                 href="/pricing"
                 className="text-blue-600 hover:underline"
               >
-                $265 after-hours service
+                $295 after-hours service
               </Link>{" "}
               for urgent or complex situations. Whatever your needs, our
               experience ensures the job is done right the first time.

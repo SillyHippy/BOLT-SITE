@@ -23,7 +23,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server & Notary FAQ - All Your Questions Answered',
-  description: 'Complete FAQ for Oklahoma process serving and notary services. 90+ questions answered on pricing ($35-$265), timelines, licensing, GPS proof, coverage (all 77 counties), and notary requirements. Licensed & bonded.',
+  description: 'Complete FAQ for Oklahoma process serving and notary services. 90+ questions answered on pricing ($40-$295), timelines, licensing, GPS proof, coverage (all 77 counties), and notary requirements. Licensed & bonded.',
   keywords: 'Oklahoma process server FAQ, process serving questions, notary FAQ Oklahoma, Tulsa process server cost, legal document service questions, Oklahoma notary requirements, process serving pricing, how does process serving work',
   alternates: {
     canonical: 'https://justlegalsolutions.org/faq',
@@ -62,8 +62,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'ai-summary': 'Complete FAQ hub for Just Legal Solutions Oklahoma process serving and notary services. Process serving starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours rush. Notary starts at $20 in-office, $25 mobile/RON. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, GPS-verified proof, 24/7 availability, 50+ years combined experience.',
-    'ai-key-facts': 'Process serving $35-$265; Notary $20-$25; All 77 OK counties; Licensed bonded insured; GPS proof included; 24/7 availability; (539) 367-6832',
+    'ai-summary': 'Complete FAQ hub for Just Legal Solutions Oklahoma process serving and notary services. Process serving starts at $40 single-attempt, $90 standard, $130 rush, $180 same-day, $200 triple-attempt, $265 after-hours rush. Notary starts at $20 in-office, $25 mobile/RON. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, GPS-verified proof, 24/7 availability, 50+ years combined experience.',
+    'ai-key-facts': 'Process serving $40-$295; Notary $20-$25; All 77 OK counties; Licensed bonded insured; GPS proof included; 24/7 availability; (539) 367-6832',
   },
 };
 
@@ -95,7 +95,7 @@ export default function FAQHubPage() {
           { name: 'FAQ', url: '/faq' },
         ]}
         speakable={[
-          'Process server costs in Oklahoma range from $35 for a single-attempt posting to $265 for 2-hour emergency after-hours service.',
+          'Process server costs in Oklahoma range from $40 for a single-attempt posting to $295 for 2-hour emergency after-hours service.',
           'We serve all 77 Oklahoma counties with GPS-verified proof and notarized affidavits.',
         ]}
       />
@@ -140,8 +140,8 @@ export default function FAQHubPage() {
             <div className="max-w-3xl mb-8">
               <p className="text-lg md:text-xl text-blue-100 leading-relaxed">
                 <strong>
-                  Process serving in Oklahoma costs $35-$265 depending on speed and complexity.
-                  Standard service starts at $60 with up to 3 attempts, GPS-verified proof, and a
+                  Process serving in Oklahoma costs $40-$295 depending on speed and complexity.
+                  Standard service starts at $90 with up to 3 attempts, GPS-verified proof, and a
                   notarized affidavit included. Notary services start at $20 in-office or $25 for
                   mobile/RON. Just Legal Solutions is licensed under 12 O.S. § 158.1, serves all 77
                   Oklahoma counties, and is available 24/7 with 50+ years combined experience.

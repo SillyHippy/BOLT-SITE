@@ -3,24 +3,24 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Broken Arrow Process Server | Same-Day Service from $60',
-  description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
+  title: 'Broken Arrow Process Server | Same-Day Service from $90',
+  description: 'Licensed Broken Arrow process server. Standard from $90, rush $130, same-day $180. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
   keywords: 'broken arrow process server, process server broken arrow oklahoma, serve papers broken arrow, legal document service broken arrow ok, broken arrow process serving, wagoner county process server, tulsa county process server broken arrow',
   other: {
     'ai-content-type': 'location-service',
-    'ai-summary': 'Just Legal Solutions is a licensed process server serving Broken Arrow, Oklahoma. Standard service from $60, rush $100, same-day $150. Covers all Broken Arrow neighborhoods including The Rose District, New Town, South Broken Arrow, and Forest Ridge. GPS-tracked, court-ready affidavits same day. (539) 367-6832.',
-    'ai-key-facts': 'Broken Arrow process server, licensed bonded, standard $60, rush $100, same-day $150, GPS-tracked, Wagoner and Tulsa county, 24/7 available, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions is a licensed process server serving Broken Arrow, Oklahoma. Standard service from $90, rush $130, same-day $180. Covers all Broken Arrow neighborhoods including The Rose District, New Town, South Broken Arrow, and Forest Ridge. GPS-tracked, court-ready affidavits same day. (539) 367-6832.',
+    'ai-key-facts': 'Broken Arrow process server, licensed bonded, standard $90, rush $130, same-day $180, GPS-tracked, Wagoner and Tulsa county, 24/7 available, (539) 367-6832',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Broken Arrow Process Server | Same-Day Service from $60',
-    description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
+    title: 'Broken Arrow Process Server | Same-Day Service from $90',
+    description: 'Licensed Broken Arrow process server. Standard from $90, rush $130, same-day $180. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/broken-arrow-process-server' },
   openGraph: {
-    title: 'Broken Arrow Process Server | Same-Day Service from $60',
-    description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked. Call (539) 367-6832.',
+    title: 'Broken Arrow Process Server | Same-Day Service from $90',
+    description: 'Licensed Broken Arrow process server. Standard from $90, rush $130, same-day $180. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/broken-arrow-process-server',
     siteName: 'Just Legal Solutions',
     images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-059-broken-arrow-process-server-hero.webp', width: 1200, height: 630 }],
@@ -44,7 +44,7 @@ const neighborhoods = [
 const faqs = [
   {
     q: 'How much does a process server cost in Broken Arrow, Oklahoma?',
-    a: 'Standard process serving in Broken Arrow starts at $60 for up to 3 attempts. Rush service (within 72 hours) is $100. Same-day emergency service is $150. All rates are flat-rate with no hidden mileage fees.',
+    a: 'Standard process serving in Broken Arrow starts at $90 for up to 3 attempts. Rush service (within 72 hours) is $130. Same-day emergency service is $180. All rates are flat-rate with no hidden mileage fees.',
   },
   {
     q: 'How fast can you serve papers in Broken Arrow?',
@@ -70,12 +70,12 @@ export default function BrokenArrowProcessServerPage() {
       <UnifiedSchema
         pageType="service"
         url="https://justlegalsolutions.org/broken-arrow-process-server"
-        title="Broken Arrow Process Server | Same-Day Service from $60 | Just Legal Solutions"
-        description="Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready."
+        title="Broken Arrow Process Server | Same-Day Service from $90 | Just Legal Solutions"
+        description="Licensed Broken Arrow process server. Standard from $90, rush $130, same-day $180. GPS-tracked, court-ready."
         serviceDetails={{
           name: 'Process Server — Broken Arrow, Oklahoma',
           description: 'Licensed process server serving Broken Arrow, OK and surrounding Tulsa/Wagoner County areas.',
-          price: '$60-$200',
+          price: '$90-$295',
           areaServed: ['Broken Arrow', 'Wagoner County', 'Tulsa County', 'The Rose District', 'Forest Ridge'],
           serviceType: ['Process Serving', 'Legal Document Delivery', 'Skip Tracing'],
         }}
@@ -104,7 +104,7 @@ export default function BrokenArrowProcessServerPage() {
               <span className="text-yellow-400">Process Server</span>
             </h1>
             <p className="text-xl text-blue-100 mb-6 max-w-3xl">
-              Licensed, bonded, and GPS-tracked process serving in Broken Arrow, OK. Same-day service from <strong className="text-white">$60</strong>. All neighborhoods. All document types. Court-ready affidavits.
+              Licensed, bonded, and GPS-tracked process serving in Broken Arrow, OK. Same-day service from <strong className="text-white">$90</strong>. All neighborhoods. All document types. Court-ready affidavits.
             </p>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 max-w-2xl mb-8">
               <p className="text-white font-semibold text-lg mb-1">📍 Covering All of Broken Arrow</p>
@@ -125,7 +125,7 @@ export default function BrokenArrowProcessServerPage() {
         <section className="bg-blue-50 border-y border-blue-100 py-8 px-4">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-800 leading-relaxed">
-              <strong>Need a process server in Broken Arrow, Oklahoma?</strong> Just Legal Solutions provides licensed, GPS-tracked process serving throughout Broken Arrow and all surrounding Tulsa and Wagoner County areas. Standard service starts at <strong>$60</strong> with same-day options available. We serve all document types — divorce papers, eviction notices, subpoenas, protective orders, and more. Call <strong>(539) 367-6832</strong> for same-day dispatch.
+              <strong>Need a process server in Broken Arrow, Oklahoma?</strong> Just Legal Solutions provides licensed, GPS-tracked process serving throughout Broken Arrow and all surrounding Tulsa and Wagoner County areas. Standard service starts at <strong>$90</strong> with same-day options available. We serve all document types — divorce papers, eviction notices, subpoenas, protective orders, and more. Call <strong>(539) 367-6832</strong> for same-day dispatch.
             </p>
           </div>
         </section>
@@ -136,9 +136,9 @@ export default function BrokenArrowProcessServerPage() {
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">Broken Arrow Process Server Pricing</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
               {[
-                { name: 'Standard', price: '$60', time: 'Up to 10 business days', desc: '3 attempts at varied times', highlight: false },
-                { name: 'Rush', price: '$100', time: 'Within 72 hours', desc: 'Priority handling', highlight: false },
-                { name: 'Same-Day', price: '$150', time: 'Within 24 hours', desc: '⭐ Most requested', highlight: true },
+                { name: 'Standard', price: '$90', time: 'Up to 10 business days', desc: '3 attempts at varied times', highlight: false },
+                { name: 'Rush', price: '$130', time: 'Within 72 hours', desc: 'Priority handling', highlight: false },
+                { name: 'Same-Day', price: '$180', time: 'Within 24 hours', desc: '⭐ Most requested', highlight: true },
                 { name: 'Triple Rush', price: '$200', time: 'Within 72 hrs', desc: '3 guaranteed attempts', highlight: false },
               ].map((tier) => (
                 <div key={tier.name} className={`rounded-xl border-2 p-5 text-center ${tier.highlight ? 'border-yellow-400 bg-yellow-50 shadow-lg' : 'border-gray-200 bg-white'}`}>

@@ -575,7 +575,7 @@ export default function HowToServeSmallClaimsOklahoma() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/blog/how-to-serve-divorce-papers-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
@@ -609,7 +609,7 @@ export default function HowToServeSmallClaimsOklahoma() {
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Small claims in Oklahoma require <strong>personal service</strong> by a licensed process server per 12 O.S. § 2004. Costs range <strong>$35–$265</strong> — call <strong>(539) 367-6832</strong> for service across all <strong>77 counties</strong>.</p>
+          <p className="text-gray-800">Small claims in Oklahoma require <strong>personal service</strong> by a licensed process server per 12 O.S. § 2004. Costs range <strong>$40–$295</strong> — call <strong>(539) 367-6832</strong> for service across all <strong>77 counties</strong>.</p>
         </div>
             <div className="space-y-4">
               {faqs.map((faq, index) => (

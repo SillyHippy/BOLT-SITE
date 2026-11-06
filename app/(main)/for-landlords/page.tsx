@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'How much does eviction notice service cost in Oklahoma?',
     answer:
-      'Just Legal Solutions starts at $35 for a single-attempt posting and $60 for standard service (up to three attempts). Same-day service starts at $150 when you need notice served before a filing deadline. See /pricing for full rates.',
+      'Just Legal Solutions starts at $40 for a single-attempt posting and $90 for standard service (up to three attempts). Same-day service starts at $180 when you need notice served before a filing deadline. See /pricing for full rates.',
   },
   {
     question: 'Can you serve eviction notices on weekends in Oklahoma?',

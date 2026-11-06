@@ -23,7 +23,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 const url = 'https://justlegalsolutions.org/subpoena-service-oklahoma';
 const title = 'Subpoena Service Oklahoma | Witness, Deposition & Records Subpoenas | (539) 367-6832';
 const description =
-  'Oklahoma subpoena service by a licensed process server. Witness, deposition, records (subpoena duces tecum), and trial subpoenas served under 12 O.S. § 2004.1 across all 77 counties. Same-day and rush available. Starting at $60 standard · $100 rush.';
+  'Oklahoma subpoena service by a licensed process server. Witness, deposition, records (subpoena duces tecum), and trial subpoenas served under 12 O.S. § 2004.1 across all 77 counties. Same-day and rush available. Starting at $90 standard · $130 rush.';
 
 export const metadata: Metadata = {
   title,
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     'ai-summary':
       'Oklahoma subpoena service covering witness, deposition, records (duces tecum), and trial subpoenas under 12 O.S. § 2004.1, served by a licensed process server across all 77 counties.',
     'ai-key-facts':
-      'Types: witness, deposition, records duces tecum, trial. Governing law: 12 O.S. § 2004.1. Service area: all 77 Oklahoma counties. Pricing: standard $60, rush $100, same-day starting at $150.',
+      'Types: witness, deposition, records duces tecum, trial. Governing law: 12 O.S. § 2004.1. Service area: all 77 Oklahoma counties. Pricing: standard $90, rush $130, same-day starting at $180.',
   },
 };
 
@@ -90,7 +90,7 @@ const faqs = [
   {
     question: 'How much does it cost to serve a subpoena in Oklahoma?',
     answer:
-      "Our subpoena service starts at $60 for standard service (3-5 business days) and $100 for rush service (1-2 business days). Same-day and after-hours service is available starting at $150 depending on location. Additional fees apply for subpoenas requiring long-distance travel outside our primary Tulsa-metro coverage area, plus the statutory witness fee tendered at service. All pricing is posted on our /pricing page.",
+      "Our subpoena service starts at $90 for standard service (3-5 business days) and $130 for rush service (1-2 business days). Same-day and after-hours service is available starting at $180 depending on location. Additional fees apply for subpoenas requiring long-distance travel outside our primary Tulsa-metro coverage area, plus the statutory witness fee tendered at service. All pricing is posted on our /pricing page.",
   },
   {
     question: 'Can you serve a subpoena duces tecum on a hospital or corporation?',
@@ -125,7 +125,7 @@ const subpoenaTypes = [
     title: 'Witness Subpoena',
     description:
       'Compels a person to appear at trial, a hearing, or a deposition to give sworn testimony. Must include the statutory witness fee and mileage tendered at service.',
-    price: 'From $60',
+    price: 'From $90',
     color: 'blue',
   },
   {
@@ -133,7 +133,7 @@ const subpoenaTypes = [
     title: 'Subpoena Duces Tecum (Records)',
     description:
       'Commands a records custodian — hospital, bank, employer, phone carrier — to produce specified documents or ESI. HIPAA cover letters handled where required.',
-    price: 'From $60',
+    price: 'From $90',
     color: 'indigo',
   },
   {
@@ -141,7 +141,7 @@ const subpoenaTypes = [
     title: 'Trial Subpoena',
     description:
       "Compels a witness to appear at a scheduled court trial or hearing. Same-day and rush options available for short-fuse trial deadlines.",
-    price: 'From $100 rush',
+    price: 'From $130 rush',
     color: 'rose',
   },
   {
@@ -149,7 +149,7 @@ const subpoenaTypes = [
     title: 'Deposition Subpoena',
     description:
       "Commands appearance at a pretrial deposition for sworn testimony. Scheduled delivery to coordinate with the court reporter's availability.",
-    price: 'From $60',
+    price: 'From $90',
     color: 'emerald',
   },
   {
@@ -157,7 +157,7 @@ const subpoenaTypes = [
     title: 'Corporate Records Subpoena',
     description:
       "Served on a corporation's registered agent or designated records custodian for business records, employment files, or ESI production.",
-    price: 'From $60',
+    price: 'From $90',
     color: 'amber',
   },
   {
@@ -196,7 +196,7 @@ export default function SubpoenaServiceOklahomaPage() {
           name: 'Oklahoma Subpoena Service',
           description:
             'Licensed service of witness, deposition, records (duces tecum), and trial subpoenas across all 77 Oklahoma counties under 12 O.S. § 2004.1.',
-          price: '$60 standard · $100 rush',
+          price: '$90 standard · $130 rush',
           areaServed: ['Oklahoma'],
           serviceType: [
             'Subpoena service',
@@ -571,8 +571,8 @@ export default function SubpoenaServiceOklahomaPage() {
               Ready to serve your Oklahoma subpoena?
             </h2>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Licensed, bonded, NAPPS-listed, and statewide. Starting at $60 standard ·
-              $100 rush · same-day available in the Tulsa metro.
+              Licensed, bonded, NAPPS-listed, and statewide. Starting at $90 standard ·
+              $130 rush · same-day available in the Tulsa metro.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

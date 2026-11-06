@@ -133,7 +133,7 @@ export default function WhyChooseUs() {
                   '@type': 'State',
                   name: 'Oklahoma'
                 },
-                priceRange: '$35-$200',
+                priceRange: '$40-$295',
                 description: "Oklahoma's most trusted process server. Fast, reliable, and professional service with 24/7 support.",
                 aggregateRating: {
                   '@type': 'AggregateRating',

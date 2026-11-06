@@ -209,7 +209,7 @@ const faqSchema = {
       name: 'How much does it cost to serve bankruptcy papers in Oklahoma?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Just Legal Solutions offers competitive pricing for bankruptcy process serving in Oklahoma: Standard service (3-5 days) is $60, Rush service (24-48 hours) is $150, and Same-Day emergency service is $265. These prices include up to three attempts, GPS verification, photo documentation, and electronic proof of service. Additional fees may apply for multiple defendants, out-of-county service, or special circumstances.',
+        text: 'Just Legal Solutions offers competitive pricing for bankruptcy process serving in Oklahoma: Standard service (3-5 days) is $90, Rush service (24-48 hours) is $180, and Same-Day emergency service is $295. These prices include up to three attempts, GPS verification, photo documentation, and electronic proof of service. Additional fees may apply for multiple defendants, out-of-county service, or special circumstances.',
       },
     },
     {
@@ -603,7 +603,7 @@ export default function BankruptcyProcessServingPage() {
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Standard Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$60</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$90</div>
                 <p className="text-gray-600 mb-6">3-5 business days</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">
@@ -644,7 +644,7 @@ export default function BankruptcyProcessServingPage() {
                   Most Popular
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Rush Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$150</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$180</div>
                 <p className="text-gray-600 mb-6">24-48 hours</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">
@@ -682,7 +682,7 @@ export default function BankruptcyProcessServingPage() {
               
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Same-Day Service</h3>
-                <div className="text-4xl font-bold text-blue-600 mb-4">$265</div>
+                <div className="text-4xl font-bold text-blue-600 mb-4">$295</div>
                 <p className="text-gray-600 mb-6">Emergency service</p>
                 <ul className="text-left text-gray-700 space-y-3 mb-8">
                   <li className="flex items-center">
@@ -821,7 +821,7 @@ export default function BankruptcyProcessServingPage() {
                 },
                 {
                   question: 'How much does it cost to serve bankruptcy papers in Oklahoma?',
-                  answer: 'Just Legal Solutions offers competitive pricing for bankruptcy process serving in Oklahoma: Standard service (3-5 days) is $60, Rush service (24-48 hours) is $150, and Same-Day emergency service is $265. These prices include up to three attempts, GPS verification, photo documentation, and electronic proof of service. Additional fees may apply for multiple defendants, out-of-county service, or special circumstances.',
+                  answer: 'Just Legal Solutions offers competitive pricing for bankruptcy process serving in Oklahoma: Standard service (3-5 days) is $90, Rush service (24-48 hours) is $180, and Same-Day emergency service is $295. These prices include up to three attempts, GPS verification, photo documentation, and electronic proof of service. Additional fees may apply for multiple defendants, out-of-county service, or special circumstances.',
                 },
                 {
                   question: 'What is the difference between Chapter 7, Chapter 11, and Chapter 13 bankruptcy service?',

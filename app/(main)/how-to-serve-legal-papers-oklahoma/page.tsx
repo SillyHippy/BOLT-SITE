@@ -347,21 +347,21 @@ export default function HowToServeLegalPapersOklahomaPage() {
                                     </tr>
                                     <tr className="border-b border-gray-200 bg-blue-50">
                                         <td className="p-4 font-medium">Private Process Server (Standard)</td>
-                                        <td className="p-4 font-bold">$60</td>
+                                        <td className="p-4 font-bold">$90</td>
                                         <td className="p-4">5–7 days</td>
                                         <td className="p-4">⭐⭐⭐⭐⭐</td>
                                         <td className="p-4">Most civil cases, best overall value</td>
                                     </tr>
                                     <tr className="border-b border-gray-200">
                                         <td className="p-4 font-medium">Private Process Server (Rush)</td>
-                                        <td className="p-4 font-bold">$150</td>
+                                        <td className="p-4 font-bold">$180</td>
                                         <td className="p-4">1–2 days</td>
                                         <td className="p-4">⭐⭐⭐⭐⭐</td>
                                         <td className="p-4">Deadline-sensitive cases</td>
                                     </tr>
                                     <tr className="border-b border-gray-200 bg-blue-50">
                                         <td className="p-4 font-medium">Private Process Server (Emergency)</td>
-                                        <td className="p-4 font-bold">$265</td>
+                                        <td className="p-4 font-bold">$295</td>
                                         <td className="p-4">Same day / 2 hours</td>
                                         <td className="p-4">⭐⭐⭐⭐⭐</td>
                                         <td className="p-4">Emergencies, protective orders, deadlines</td>
@@ -519,27 +519,27 @@ export default function HowToServeLegalPapersOklahomaPage() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$90</div>
                                 <div className="text-sm text-gray-500 mb-4">5&ndash;7 business days</div>
                                 <p className="text-sm text-gray-600">Up to 3 attempts, GPS-verified, notarized affidavit included.</p>
                             </div>
                             <div className="bg-white border-2 border-blue-300 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Rush</h3>
-                                <div className="text-4xl font-bold text-blue-600 mb-2">$150</div>
+                                <div className="text-4xl font-bold text-blue-600 mb-2">$180</div>
                                 <div className="text-sm text-gray-500 mb-4">1&ndash;2 business days</div>
                                 <p className="text-sm text-gray-600">Priority scheduling, live updates, expedited affidavit.</p>
                             </div>
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold mb-2">Same-Day</h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">4&ndash;8 hours</div>
                                 <p className="text-sm text-gray-600">Same-day dispatch, real-time tracking, court filing included.</p>
                             </div>
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold mb-2">Emergency</h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch</div>
                                 <p className="text-sm text-gray-600">2-hour window, after-hours available, direct server contact.</p>
                             </div>
@@ -556,7 +556,7 @@ export default function HowToServeLegalPapersOklahomaPage() {
 
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Legal Papers Served in Oklahoma?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Licensed process servers ready to serve any legal document across all 77 Oklahoma counties. From $60.</p>
+                        <p className="text-lg text-gray-700 mb-6">Licensed process servers ready to serve any legal document across all 77 Oklahoma counties. From $90.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>

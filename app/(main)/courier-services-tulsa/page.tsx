@@ -6,12 +6,12 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Legal Courier Services Tulsa | Same-Day Courthouse Filing & Document Delivery',
-  description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. Process serving from $60. All 77 OK counties. (539) 367-6832.',
+  description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. Process serving from $90. All 77 OK counties. (539) 367-6832.',
   keywords: 'legal courier services, legal courier tulsa, courthouse filing service, legal document delivery, court filing services, same-day courier Oklahoma, secure document transport, legal courier Tulsa County',
   twitter: {
     card: 'summary_large_image',
     title: 'Legal Courier Services Tulsa | Same-Day Courthouse Filing & Document Delivery',
-    description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. Process serving from $60. All 77 OK counties. (539) 367-6832.',
+    description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. Process serving from $90. All 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   },
   alternates: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Legal Courier Services Tulsa | Courthouse Filing & Document Delivery',
-    description: 'Professional legal courier: courthouse filings, file-stamped copy retrieval, and secure document delivery for law firms. Same-day service starting at $35.',
+    description: 'Professional legal courier: courthouse filings, file-stamped copy retrieval, and secure document delivery for law firms. Same-day service starting at $40.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/courier-services-tulsa',
@@ -49,7 +49,7 @@ export default function CourierServicesTulsaPage() {
     },
     {
       question: 'How fast can you deliver legal documents in Tulsa?',
-      answer: 'Most standard deliveries within Tulsa County are completed within 2-4 hours. Same-day rush service is available for $150, and 2-hour emergency delivery is available for $265. Standard courier service starts at $35.'
+      answer: 'Most standard deliveries within Tulsa County are completed within 2-4 hours. Same-day rush service is available for $180, and 2-hour emergency delivery is available for $295. Standard courier service starts at $40.'
     },
     {
       question: 'What areas do your legal courier services cover?',
@@ -57,7 +57,7 @@ export default function CourierServicesTulsaPage() {
     },
     {
       question: 'How much do legal courier services cost?',
-      answer: 'Legal courier services start at $35 for standard local delivery in Tulsa County. Same-day rush delivery costs $150, and 2-hour emergency delivery is $265. Volume discounts are available for law firms with recurring needs. Call (539) 367-6832 for a custom quote.'
+      answer: 'Legal courier services start at $40 for standard local delivery in Tulsa County. Same-day rush delivery costs $180, and 2-hour emergency delivery is $295. Volume discounts are available for law firms with recurring needs. Call (539) 367-6832 for a custom quote.'
     }
   ];
 
@@ -67,15 +67,15 @@ export default function CourierServicesTulsaPage() {
         pageType="service"
         url="https://justlegalsolutions.org/courier-services-tulsa"
         title="Legal Courier Services Tulsa | Courthouse Filing & Document Delivery"
-        description="Professional legal courier services in Tulsa County: courthouse filings, file-stamped copy retrieval, and secure document delivery for law firms. Starting at $35."
+        description="Professional legal courier services in Tulsa County: courthouse filings, file-stamped copy retrieval, and secure document delivery for law firms. Starting at $40."
         serviceDetails={{
           name: "Legal Courier Services Tulsa",
           description: "Professional legal courier and document delivery services in Tulsa County with same-day and rush options available 24/7.",
-          price: "$35-$265",
+          price: "$40-$295",
           areaServed: ["Tulsa County", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool"],
           serviceType: ["Legal Document Delivery", "Court Filing", "File-Stamped Copy Retrieval", "Evidence Transport", "Same-Day Delivery"]
         }}
-        priceRange="$35-$265"
+        priceRange="$40-$295"
         aggregateRating={{
           ratingValue: 4.9,
           reviewCount: 156
@@ -113,7 +113,7 @@ export default function CourierServicesTulsaPage() {
         <section className="bg-blue-900 text-white pb-12">
           <div className="container mx-auto px-4 pt-16 text-center">
             <h2 className="text-3xl md:text-4xl font-extrabold">Tulsa County Legal Courier &amp; Document Delivery</h2>
-            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Same-day courthouse filing, file-stamped copy retrieval, and secure legal document transport &mdash; starting at $35 with 24/7 emergency service.</p>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Same-day courthouse filing, file-stamped copy retrieval, and secure legal document transport &mdash; starting at $40 with 24/7 emergency service.</p>
             <div className="flex justify-center mt-8">
               <Image src="/images/tulsa-courier-downtown.webp" width={600} height={350} alt="Legal courier services Tulsa County - professional document delivery" className="rounded-lg shadow-lg" />
             </div>
@@ -139,7 +139,7 @@ export default function CourierServicesTulsaPage() {
               <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">&#x1F4C4; File-Stamped Copy Pickup &amp; Delivery</h3>
                 <p className="text-gray-700 mb-2">Need a file-stamped copy retrieved from the courthouse? We pick up stamped copies, certified documents, and filed records and deliver them directly to your office or wherever you need them.</p>
-                <p className="text-sm text-green-700 font-semibold">Starting at $35 &bull; Same-day available</p>
+                <p className="text-sm text-green-700 font-semibold">Starting at $40 &bull; Same-day available</p>
               </div>
               <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">&#x2696;&#xFE0F; Delivery to Judges&apos; Chambers</h3>
@@ -220,7 +220,7 @@ export default function CourierServicesTulsaPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white p-5 rounded-lg shadow border-t-4 border-blue-500">
                 <h3 className="font-bold text-lg mb-2">&#x23F1;&#xFE0F; Time Savings</h3>
-                <p className="text-gray-600">A courthouse filing run takes 1&ndash;3 hours for an attorney or paralegal. At $200+/hour billable rates, a $35 courier delivery pays for itself many times over.</p>
+                <p className="text-gray-600">A courthouse filing run takes 1&ndash;3 hours for an attorney or paralegal. At $200+/hour billable rates, a $40 courier delivery pays for itself many times over.</p>
               </div>
               <div className="bg-white p-5 rounded-lg shadow border-t-4 border-green-500">
                 <h3 className="font-bold text-lg mb-2">&#x1F512; Chain of Custody</h3>
@@ -241,7 +241,7 @@ export default function CourierServicesTulsaPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Delivery</h3>
-                <div className="text-4xl font-bold text-green-600 mb-2">$35</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">$40</div>
                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; Tulsa County</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; GPS-tracked delivery</li>
@@ -252,7 +252,7 @@ export default function CourierServicesTulsaPage() {
               <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">RUSH</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Same-Day Rush</h3>
-                <div className="text-4xl font-bold text-orange-600 mb-2">$150</div>
+                <div className="text-4xl font-bold text-orange-600 mb-2">$180</div>
                 <div className="text-sm text-gray-500 mb-4">Guaranteed same-day</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; Priority dispatch</li>
@@ -305,7 +305,7 @@ export default function CourierServicesTulsaPage() {
               <span className="block text-gray-700">Emergency availability</span>
             </div>
             <div>
-              <span className="block text-3xl font-bold text-blue-800">$35</span>
+              <span className="block text-3xl font-bold text-blue-800">$40</span>
               <span className="block text-gray-700">Starting rate</span>
             </div>
           </div>
@@ -363,7 +363,7 @@ export default function CourierServicesTulsaPage() {
         <section className="bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-200 py-10 text-center">
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Legal Courier Service Today?</h2>
-            <p className="text-lg text-gray-700 mb-6">Professional legal document delivery starting at $35. Available 24/7 for emergency needs across all 77 Oklahoma counties.</p>
+            <p className="text-lg text-gray-700 mb-6">Professional legal document delivery starting at $40. Available 24/7 for emergency needs across all 77 Oklahoma counties.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <a href="tel:5393676832" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                 &#x1F4DE; Call (539) 367-6832
@@ -372,7 +372,7 @@ export default function CourierServicesTulsaPage() {
                 &#x1F4DD; Get Instant Quote
               </Link>
             </div>
-            <p className="text-sm text-gray-600">Same-day service &bull; GPS tracking &bull; Chain-of-custody documentation &bull; $35 starting</p>
+            <p className="text-sm text-gray-600">Same-day service &bull; GPS tracking &bull; Chain-of-custody documentation &bull; $40 starting</p>
           </div>
         </section>
 
@@ -403,7 +403,7 @@ export default function CourierServicesTulsaPage() {
               </Link>
               <Link href="/pricing" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Service Pricing Guide</h3>
-                <p className="text-sm text-gray-600 mt-1">Transparent rates for all services starting at $35</p>
+                <p className="text-sm text-gray-600 mt-1">Transparent rates for all services starting at $40</p>
               </Link>
             </div>
           </div>

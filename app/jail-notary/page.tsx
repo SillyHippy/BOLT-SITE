@@ -340,7 +340,7 @@ export default function JailNotaryPage() {
                 <div className="flex items-center gap-2 mb-6">
                   <DollarSign className="w-8 h-8 text-indigo-600" />
                   <div>
-                    <p className="text-2xl font-bold text-gray-900">$150 – $300<span className="text-base font-normal text-gray-600"> / facility visit</span></p>
+                    <p className="text-2xl font-bold text-gray-900">$180 – $300<span className="text-base font-normal text-gray-600"> / facility visit</span></p>
                     <p className="text-gray-600 text-sm">Plus $10 – $25 per notarized signature</p>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ export default function JailNotaryPage() {
                   { label: 'Facility Location', desc: 'Tulsa-area: base rate. OKC-area: base + mileage. Rural: premium rates for extended travel.' },
                   { label: 'Security Level', desc: 'Minimum/medium: standard rates. Maximum security: premium due to enhanced clearance.' },
                   { label: 'Urgency', desc: 'Standard (5–7 business days): standard rates. Expedited (24–48 hours): premium rates.' },
-                  { label: 'Additional Fees', desc: 'After-hours: +$50. Holiday: +$75. Document prep assistance: $50–$100. Return delivery: $75–$150.' },
+                  { label: 'Additional Fees', desc: 'After-hours: +$50. Holiday: +$75. Document prep assistance: $50–$130. Return delivery: $75–$180.' },
                 ].map((item) => (
                   <div key={item.label} className="bg-gray-50 rounded-xl p-4 border border-gray-200">
                     <p className="font-semibold text-gray-900 mb-1">{item.label}</p>

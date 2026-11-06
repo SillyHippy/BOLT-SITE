@@ -69,7 +69,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How quickly can you file a document for me?',
-    answer: 'For Tulsa County, same-day filing is available if we receive the documents by mid-morning. Rush courier service starts at $100 for hard deadlines. eFiling can often be completed within hours of receipt. Always tell us about statute deadlines up front so we can prioritize correctly.'
+    answer: 'For Tulsa County, same-day filing is available if we receive the documents by mid-morning. Rush courier service starts at $130 for hard deadlines. eFiling can often be completed within hours of receipt. Always tell us about statute deadlines up front so we can prioritize correctly.'
   },
   {
     question: 'Do I have to use eFiling, or can I file paper documents?',
@@ -158,7 +158,7 @@ export default function TulsaCourtFilingGuide() {
                 <li>📑 <strong>Required:</strong> petition, civil cover sheet, summons, fee</li>
                 <li>🚚 <strong>Our courier:</strong> starts at $25 plus court costs</li>
               </ul>
-              <p className="text-blue-700 text-sm mt-3">See full pricing at <Link href="/pricing" className="underline">/pricing</Link>. Process serving starts at $35 and can be triggered the moment your filing is stamped.</p>
+              <p className="text-blue-700 text-sm mt-3">See full pricing at <Link href="/pricing" className="underline">/pricing</Link>. Process serving starts at $40 and can be triggered the moment your filing is stamped.</p>
             </div>
 
             <h2>The Tulsa County District Court at a Glance</h2>

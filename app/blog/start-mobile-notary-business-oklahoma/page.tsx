@@ -63,7 +63,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How much can I charge as a mobile notary in Oklahoma?',
-    answer: 'Oklahoma law caps the notarization fee at $5 per traditional notarial act under 49 O.S. \u00a7 5, and $25 per remote online notarization under 49 O.S. \u00a7 209. There is no fee for notarizing absentee ballot affidavits. However, and this is the key to your income, travel fees are NOT regulated by the state and are fully negotiable between you and your client. Most mobile notaries in Oklahoma charge $25 to $75 for travel depending on distance and location, plus after-hours surcharges of $25 to $50 for evenings, weekends, and holidays. A typical single-signature mobile appointment totals $35 to $80. If you specialize as a Notary Signing Agent handling loan documents, you can earn $75 to $200 per signing appointment.',
+    answer: 'Oklahoma law caps the notarization fee at $5 per traditional notarial act under 49 O.S. \u00a7 5, and $25 per remote online notarization under 49 O.S. \u00a7 209. There is no fee for notarizing absentee ballot affidavits. However, and this is the key to your income, travel fees are NOT regulated by the state and are fully negotiable between you and your client. Most mobile notaries in Oklahoma charge $25 to $75 for travel depending on distance and location, plus after-hours surcharges of $25 to $50 for evenings, weekends, and holidays. A typical single-signature mobile appointment totals $40 to $80. If you specialize as a Notary Signing Agent handling loan documents, you can earn $75 to $200 per signing appointment.',
   },
   {
     question: 'What is the $10,000 notary bond, and do I need it?',

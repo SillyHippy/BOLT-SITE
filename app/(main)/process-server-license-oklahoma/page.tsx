@@ -333,27 +333,27 @@ export default function ProcessServerLicenseOklahomaPage() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$90</div>
                                 <div className="text-sm text-gray-500 mb-4">5&ndash;7 business days</div>
                                 <p className="text-sm text-gray-600">Up to 3 attempts, GPS-verified, notarized affidavit included.</p>
                             </div>
                             <div className="bg-white border-2 border-blue-300 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Rush</h3>
-                                <div className="text-4xl font-bold text-blue-600 mb-2">$150</div>
+                                <div className="text-4xl font-bold text-blue-600 mb-2">$180</div>
                                 <div className="text-sm text-gray-500 mb-4">1&ndash;2 business days</div>
                                 <p className="text-sm text-gray-600">Priority scheduling, live updates, expedited affidavit.</p>
                             </div>
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold mb-2">Same-Day</h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">4&ndash;8 hours</div>
                                 <p className="text-sm text-gray-600">Same-day dispatch, real-time tracking, court filing included.</p>
                             </div>
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold mb-2">Emergency</h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">$295</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch</div>
                                 <p className="text-sm text-gray-600">2-hour window, after-hours available, direct server contact.</p>
                             </div>

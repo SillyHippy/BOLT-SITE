@@ -9,8 +9,8 @@ import Link from 'next/link';
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Costs by County | $60–$150 Pricing Guide',
-  description: 'Compare Oklahoma process server costs across all 77 counties. Standard from $60, rush $100, same-day $150. Transparent pricing for attorneys & law firms. Call (539) 367-6832.',
+  title: 'Oklahoma Process Serving Costs by County | $90–$180 Pricing Guide',
+  description: 'Compare Oklahoma process server costs across all 77 counties. Standard from $90, rush $130, same-day $180. Transparent pricing for attorneys & law firms. Call (539) 367-6832.',
   keywords: 'Oklahoma process serving costs, county pricing comparison, legal service budget, process server fees by county, Tulsa county rates, Oklahoma legal costs',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
@@ -137,13 +137,13 @@ export default function OklahomaProcessServingCostsComparison() {
               <tbody>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2">Standard Service</td>
-                  <td className="border border-gray-300 px-4 py-2 font-semibold text-green-600">$85 - $100</td>
+                  <td className="border border-gray-300 px-4 py-2 font-semibold text-green-600">$85 - $130</td>
                   <td className="border border-gray-300 px-4 py-2">$90 - $110</td>
-                  <td className="border border-gray-300 px-4 py-2">$100 - $125</td>
+                  <td className="border border-gray-300 px-4 py-2">$130 - $125</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 px-4 py-2">Rush Service</td>
-                  <td className="border border-gray-300 px-4 py-2 font-semibold text-green-600">$150 - $175</td>
+                  <td className="border border-gray-300 px-4 py-2 font-semibold text-green-600">$180 - $175</td>
                   <td className="border border-gray-300 px-4 py-2">$160 - $185</td>
                   <td className="border border-gray-300 px-4 py-2">$175 - $200</td>
                 </tr>
@@ -171,7 +171,7 @@ export default function OklahomaProcessServingCostsComparison() {
                 <li>More servers available</li>
                 <li>Competitive pricing</li>
               </ul>
-              <p className="text-lg font-semibold text-green-600">$85 - $100 Standard</p>
+              <p className="text-lg font-semibold text-green-600">$85 - $130 Standard</p>
             </div>
             
             <div className="bg-yellow-50 border border-yellow-200 p-6 rounded">

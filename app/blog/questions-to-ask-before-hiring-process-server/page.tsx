@@ -120,7 +120,7 @@ export default function QuestionsToAskProcessServerPage() {
             </h1>
         <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
-          <p className="text-gray-800">Before hiring an Oklahoma process server, ask about <strong>licensing under 12 O.S. § 158.1, bonding, turnaround time, fees ($35–$265), GPS verification, and coverage of all 77 counties</strong>. Confirm they provide court-compliant Return of Service affidavits. Just Legal Solutions meets all of these — <strong>(539) 367-6832</strong>.</p>
+          <p className="text-gray-800">Before hiring an Oklahoma process server, ask about <strong>licensing under 12 O.S. § 158.1, bonding, turnaround time, fees ($40–$295), GPS verification, and coverage of all 77 counties</strong>. Confirm they provide court-compliant Return of Service affidavits. Just Legal Solutions meets all of these — <strong>(539) 367-6832</strong>.</p>
         </div>
 
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">

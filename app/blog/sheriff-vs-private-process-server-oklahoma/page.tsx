@@ -292,23 +292,23 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
                 <tbody>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Standard service (Tulsa metro)</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$60.00 - $85.00</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$90.00 - $85.00</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Standard service (Oklahoma City metro)</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$60.00 - $85.00</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$90.00 - $85.00</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Rural/remote counties</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$100.00 - $125.00</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$130.00 - $125.00</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Rush/same-day service</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$150.00 - $200.00</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$180.00 - $200.00</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Emergency (2-hour) service</td>
-                    <td className="px-4 py-3 text-sm text-gray-700">$265.00+</td>
+                    <td className="px-4 py-3 text-sm text-gray-700">$295.00+</td>
                   </tr>
                   <tr className="border-b">
                     <td className="px-4 py-3 text-sm text-gray-700">Skip tracing</td>
@@ -750,7 +750,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
             <p>The choice between sheriff&apos;s service and a private process server ultimately depends on your specific needs, timeline, and budget. While the sheriff&apos;s office offers a lower upfront cost, private process servers provide faster service, higher success rates, and the flexibility that many cases require.</p>
             <p>At Just Legal Solutions, we understand that every case is unique. That&apos;s why we offer:</p>
             <ul>
-              <li><strong>Transparent pricing</strong> starting at just $35 for single-attempt service</li>
+              <li><strong>Transparent pricing</strong> starting at just $40 for single-attempt service</li>
               <li><strong>Same-day and rush service</strong> when time is critical</li>
               <li><strong>Statewide coverage</strong> throughout all 77 Oklahoma counties</li>
               <li><strong>GPS-verified service</strong> with photo documentation</li>
@@ -774,7 +774,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1"> – Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/oklahoma-process-serving-costs-comparison" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">

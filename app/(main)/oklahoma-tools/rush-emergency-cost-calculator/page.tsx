@@ -189,7 +189,7 @@ export default function RushEmergencyCostCalculator() {
               {[
                 { key: 'afterHours' as const, label: 'After-Hours (+$50)', state: afterHours, setter: setAfterHours },
                 { key: 'weekend' as const, label: 'Weekend (+$75)', state: weekend, setter: setWeekend },
-                { key: 'holiday' as const, label: 'Holiday (+$100)', state: holiday, setter: setHoliday },
+                { key: 'holiday' as const, label: 'Holiday (+$130)', state: holiday, setter: setHoliday },
               ].map((addon) => (
                 <button
                   key={addon.key}
@@ -290,7 +290,7 @@ export default function RushEmergencyCostCalculator() {
                 {[
                   { tier: 'Standard' as const, time: '1–3 business days', metro: '$65–$85', rural: '$85–$110', best: 'Non-urgent cases' },
                   { tier: 'Rush' as const, time: 'Within 24 hours', metro: '$120–$160', rural: '$160–$210', best: 'Upcoming deadlines' },
-                  { tier: 'Same-Day' as const, time: 'Attempt today', metro: '$175–$225', rural: '$225–$290', best: 'Same-day filings' },
+                  { tier: 'Same-Day' as const, time: 'Attempt today', metro: '$175–$255', rural: '$255–$290', best: 'Same-day filings' },
                   { tier: 'Emergency' as const, time: 'Within 4 hours', metro: '$275–$350', rural: '$350–$450', best: 'Critical time limits' },
                 ].map((row, i) => (
                   <tr
@@ -316,7 +316,7 @@ export default function RushEmergencyCostCalculator() {
             {[
               { name: 'After-Hours Service', price: '+$50', desc: 'Service attempts outside normal business hours (before 8 AM or after 6 PM).' },
               { name: 'Weekend Service', price: '+$75', desc: 'Saturday or Sunday service attempts when courts and businesses are closed.' },
-              { name: 'Holiday Service', price: '+$100', desc: 'Service on recognized state or federal holidays. Limited availability.' },
+              { name: 'Holiday Service', price: '+$130', desc: 'Service on recognized state or federal holidays. Limited availability.' },
             ].map((addon) => (
               <div key={addon.name} className="bg-white border rounded-lg p-4">
                 <div className="flex justify-between items-center mb-2">

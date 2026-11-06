@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does a notary charge per signature in Oklahoma?',
-    answer: 'Under Oklahoma law (Title 49 O.S. § 1-101 et seq.), the maximum fee a notary public can charge for an acknowledgment or jurat is $5 per signature. However, many notaries and mobile notary services bundle this into an overall service fee that includes travel, convenience, and administrative costs. When you hire a mobile notary, you can expect to pay anywhere from $35 to $100+ total depending on your location, the number of documents, and any additional services required.',
+    answer: 'Under Oklahoma law (Title 49 O.S. § 1-101 et seq.), the maximum fee a notary public can charge for an acknowledgment or jurat is $5 per signature. However, many notaries and mobile notary services bundle this into an overall service fee that includes travel, convenience, and administrative costs. When you hire a mobile notary, you can expect to pay anywhere from $40 to $130+ total depending on your location, the number of documents, and any additional services required.',
   },
   {
     question: 'Are mobile notary fees regulated by Oklahoma law?',
