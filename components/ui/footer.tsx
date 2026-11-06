@@ -10,8 +10,8 @@ const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwIiq716
 // ServeTracker intake relay (server-side holder of the scoped intake:write key; the key
 // itself never ships to the browser). RELAY_TOKEN is a shared secret that only authorizes
 // the relay to accept submissions — it is NOT the ServeTracker API key.
-const JLS_INTAKE_RELAY_URL = "https://sillyhippy.zo.space/api/service-request";
-const JLS_RELAY_TOKEN = "jlsrelay_689adf1337d283b0a0ec65c7f2817f5268cdabca473d82d50c49c193cb02ac28";
+const JLS_INTAKE_RELAY_URL = process.env.NEXT_PUBLIC_JLS_INTAKE_RELAY_URL || "https://intake-staging.daemoncloud.party/submit";
+const JLS_RELAY_TOKEN = process.env.NEXT_PUBLIC_JLS_RELAY_TOKEN || "staging_relay_token";
 // ========================================
 
 const MAX_FILE_SIZE = 25 * 1024 * 1024; // 25MB — aligned with ServeTracker SaaS sniff limit
