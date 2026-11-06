@@ -10,12 +10,12 @@ const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwIiq716
 // ServeTracker intake relay (server-side holder of the scoped intake:write key; the key
 // itself never ships to the browser). RELAY_TOKEN is a shared secret that only authorizes
 // the relay to accept submissions — it is NOT the ServeTracker API key.
-const JLS_INTAKE_RELAY_URL = "https://sillyhippy.zo.space/api/service-request";
-const JLS_RELAY_TOKEN = "jlsrelay_689adf1337d283b0a0ec65c7f2817f5268cdabca473d82d50c49c193cb02ac28";
+const JLS_INTAKE_RELAY_URL = process.env.NEXT_PUBLIC_JLS_INTAKE_RELAY_URL || "https://intake-staging.daemoncloud.party/submit";
+const JLS_RELAY_TOKEN = process.env.NEXT_PUBLIC_JLS_RELAY_TOKEN || "staging_relay_token";
 // ========================================
 
-const MAX_FILE_SIZE = 40 * 1024 * 1024; // 40MB (API limit is 50MB)
-const ALLOWED_EXTENSIONS = ["pdf", "doc", "docx", "jpg", "jpeg", "png"];
+const MAX_FILE_SIZE = 25 * 1024 * 1024; // 25MB — aligned with ServeTracker SaaS sniff limit
+const ALLOWED_EXTENSIONS = ["pdf", "jpg", "jpeg", "png"]; // DOC/DOCX dropped: SaaS rejects them
 
 interface UploadFile {
   file: File;
@@ -27,8 +27,13 @@ interface UploadFile {
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
+  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'partial', 'error'
   const [honeypot, setHoneypot] = useState(""); // Spam protection - should stay empty
+  // Stable idempotency key per form mount: minted once when the Footer mounts, reused
+  // for every submit attempt from this form instance so double-clicks collapse to one
+  // case server-side (relay durable store). A NEW key is minted after a successful
+  // submit (next legit submission must be allowed through).
+  const idemKeyRef = useRef(`web-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`);
   
   // File upload states
   const [uploadFiles, setUploadFiles] = useState<UploadFile[]>([]);
@@ -50,10 +55,10 @@ export function Footer() {
   const validateFile = (file: File): string | null => {
     const ext = file.name.split(".").pop()?.toLowerCase() || "";
     if (!ALLOWED_EXTENSIONS.includes(ext)) {
-      return `File type .${ext} not allowed. Accepted: PDF, DOC, DOCX, JPG, PNG`;
+      return `File type .${ext} not allowed. Accepted: PDF, JPG, PNG`;
     }
     if (file.size > MAX_FILE_SIZE) {
-      return `File exceeds 100MB limit`;
+      return `File exceeds 25MB limit`;
     }
     return null;
   };
@@ -260,20 +265,35 @@ export function Footer() {
       data['address_type'] = addressTypes.join(', ');
     }
 
-    // Track ServeTracker case creation so the SMS text can report it accurately.
-    let caseCreated = false;
-    let intakePromise: Promise<void> = Promise.resolve();
+    // Track ServeTracker case creation so the receipt can report it truthfully.
+    // Release A hardening (2026-11-06): the intake relay call is AWAITED and its real
+    // result gates the Thank-You. A stable per-mount idempotency key makes double-clicks
+    // one case. Honeypot gates the ENTIRE submit (relay + Drive + email), not just uploads.
+    let intakeResult: { caseCreated: boolean; caseId?: string; clientMatch?: string; documents?: { uploaded: number; total: number }; errors: string[] } | null = null;
+    let driveOk = true;
+
+    // Honeypot: any bot that filled the hidden field gets a fake success and NOTHING fires.
+    if (honeypot) {
+      console.log("Spam detected via honeypot — silently dropping submission");
+      setSubmissionStatus("success");
+      form.reset();
+      return;
+    }
+
+    // Stable idempotency key per form mount: double-clicks reuse the SAME key, so the
+    // relay's durable store collapses them into one case. Minted once per open form.
+    const idemKey = idemKeyRef.current;
 
     try {
-      // Intake relay + SMS notify fire FIRST (before the slow Drive upload) so a hanging
-      // Drive request can never starve the ServeTracker case or the text notification.
+      // Intake relay FIRST and AWAITED (before the slow Drive upload) — the Thank-You
+      // now depends on the case actually being created.
       try {
         const intakePayload: Record<string, string> = {};
         Object.keys(data).forEach(key => { intakePayload[key] = data[key]; });
         if (serviceTypes.length > 0) intakePayload['service_requirements'] = serviceTypes.join(', ');
         if (addressTypes.length > 0) intakePayload['address_type'] = addressTypes.join(', ');
         // Attach the same files the Drive upload uses (base64 data URLs). The relay
-        // decodes them and uploads each into the ServeTracker case by number.
+        // decodes them and uploads each into the ServeTracker case by its UUID.
         if (uploadFiles.length > 0) {
           try {
             const filesData = await Promise.all(
@@ -284,78 +304,60 @@ export function Footer() {
             );
             intakePayload['_files'] = JSON.stringify(filesData);
           } catch (fileErr) {
-            console.warn('Intake relay: file base64 build failed (non-blocking):', fileErr);
+            console.warn('Intake relay: file base64 build failed:', fileErr);
           }
         }
-        const idemKey = `web-${Date.now().toString(36)}-${(data['your_email_address'] || Math.random()).toString(36).slice(2)}`;
         intakePayload['_intake'] = 'true';
         intakePayload['_idem'] = idemKey;
-        intakePromise = fetch(JLS_INTAKE_RELAY_URL, {
+        const intakeResp = await fetch(JLS_INTAKE_RELAY_URL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'Idempotency-Key': idemKey, 'X-Relay-Token': JLS_RELAY_TOKEN },
           body: JSON.stringify(intakePayload),
-        }).then(async (r) => {
-          if (!r.ok) { console.warn('Intake relay HTTP', r.status); return; }
-          const j = await r.json().catch(() => null);
-          caseCreated = !!(j && j.caseCreated);
-          if (j && j.caseCreated === false) {
-            console.warn('ServeTracker intake: case not created —', (j.errors || []).join('; '));
-          }
-        }).catch((err) => {
-          console.warn('ServeTracker intake relay request failed (non-blocking):', err);
         });
+        const j = await intakeResp.json().catch(() => null);
+        if (j && typeof j.caseCreated === 'boolean') {
+          intakeResult = {
+            caseCreated: j.caseCreated,
+            caseId: j.caseId,
+            clientMatch: j.clientMatch,
+            documents: j.documents,
+            errors: Array.isArray(j.errors) ? j.errors : [],
+          };
+        } else if (intakeResp.status === 409) {
+          intakeResult = { caseCreated: false, errors: ['duplicate-key'] };
+        } else {
+          intakeResult = { caseCreated: false, errors: [`relay-http-${intakeResp.status}`] };
+        }
+        if (!intakeResult.caseCreated) {
+          console.warn('ServeTracker intake: case not created —', (intakeResult.errors || []).join('; '));
+        }
       } catch (intakeErr) {
-        console.warn('ServeTracker intake payload build failed (non-blocking):', intakeErr);
+        console.warn('ServeTracker intake relay request failed:', intakeErr);
+        intakeResult = { caseCreated: false, errors: ['relay-unreachable'] };
       }
 
-      // Upload files to Google Drive if any files selected (AFTER the intake + notify
-      // legs have fired; its slowness can no longer starve them)
+      // Upload files to Google Drive if any files selected (AFTER the intake call; its
+      // slowness can no longer starve the case creation, which already completed).
       if (uploadFiles.length > 0) {
         const clientName = data['firm_or_company_name'] || '';
         const caseNumber = data['case_number'] || '';
         const email = data['your_email_address'] || '';
         const notes = data['service_instructions'] || '';
 
-        await uploadFilesToDrive(clientName, caseNumber, email, notes);
+        const driveResult = await uploadFilesToDrive(clientName, caseNumber, email, notes);
+        driveOk = !!driveResult?.success;
       }
 
       // (SMS + ServeTracker intake both happen in the single space-route call above;
       //  a second notify fetch here would double-text Joe.)
-
-      // Fire-and-forget: ask the Apps Script backend to create a Helcim invoice
-      // for this submission. The backend stores it in the Helcim Invoices sheet
-      // and emails admin a Pay-Now link to forward manually. Failures here must
-      // never block the form UX — admin still gets the FormSubmit email below.
-      try {
-        const invoicePayload = {
-          action: 'createInvoice',
-          serviceType: data['service_type'] || data['service_type_other_details'] || 'Other',
-          clientName: data['firm_or_company_name'] || '',
-          email: data['your_email_address'] || '',
-          phone: data['your_phone_number'] || '',
-          street: data['your_address_street'] || '',
-          city: data['your_address_city'] || '',
-          state: data['your_address_state'] || '',
-          zip: data['your_address_zip'] || '',
-          caseNumber: data['case_number'] || '',
-          plaintiff: data['plaintiff_petitioner'] || '',
-          defendant: data['defendant_respondent'] || '',
-        };
-        void fetch(GOOGLE_APPS_SCRIPT_URL, {
-          method: 'POST',
-          redirect: 'follow',
-          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-          body: JSON.stringify(invoicePayload),
-        }).catch((err) => {
-          console.warn('Helcim invoice create request failed (non-blocking):', err);
-        });
-      } catch (invErr) {
-        console.warn('Helcim invoice payload build failed (non-blocking):', invErr);
-      }
+      // NOTE (Release A): the browser-side createInvoice call is REMOVED. Invoicing is
+      // server-side only, per the approved fee allowlist — an anonymous public form must
+      // never be able to mint invoices. Zero auto-invoice until Joe signs the allowlist.
 
       console.log("Submitting form data:", JSON.stringify(data, null, 2));
-      
-      // Use FormSubmit's AJAX endpoint with JSON data
+
+      // Use FormSubmit's AJAX endpoint with JSON data — secondary audit email only;
+      // its success no longer gates the Thank-You.
       const response = await fetch('https://formsubmit.co/ajax/info@JustLegalSolutions.org', {
         method: 'POST',
         headers: {
@@ -367,27 +369,22 @@ export function Footer() {
 
       const responseText = await response.text();
       console.log("FormSubmit Response Status:", response.status);
-      console.log("FormSubmit Response:", responseText);
 
-      if (response.ok) {
-        try {
-          const result = JSON.parse(responseText);
-          console.log("Form submitted successfully:", result);
-          if (result.success === "true" || result.success === true) {
-            setSubmissionStatus("success");
-            form.reset();
-          } else {
-            console.error("FormSubmit returned unexpected response:", result);
-            setSubmissionStatus("error");
-          }
-        } catch {
-          // Response was OK but not JSON
-          console.log("Non-JSON success response");
+      // ---- Truthful receipt (Release A): Thank-You only when the CASE was created ----
+      if (intakeResult?.caseCreated) {
+        const docInfo = intakeResult.documents;
+        const docsOk = !docInfo || docInfo.total === 0 || docInfo.uploaded === docInfo.total;
+        if (docsOk && driveOk) {
           setSubmissionStatus("success");
-          form.reset();
+        } else {
+          // Case exists but docs/Drive incomplete — tell the user honestly.
+          setSubmissionStatus("partial");
         }
+        // New idempotency key for the NEXT legitimate submission.
+        idemKeyRef.current = `web-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+        form.reset();
       } else {
-        console.error("Form submission failed with status:", response.status, responseText);
+        // Case creation failed or relay unreachable — NEVER show Thank-You.
         setSubmissionStatus("error");
       }
     } catch (error) {
@@ -442,6 +439,11 @@ export function Footer() {
                 <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
                     <p className="text-gray-700">Your service request was submitted successfully. <strong className="text-blue-700 font-medium block mt-2">Please check your email for a confirmation receipt and a list of your uploaded documents.</strong></p>
+                </div>
+            ) : submissionStatus === 'partial' ? (
+                <div className="text-center py-10" role="alert">
+                    <h3 className="text-2xl font-bold text-amber-600 mb-2">Received — With a Note</h3>
+                    <p className="text-gray-700">Your request was received and a job was created, but one or more of your documents may not have finished uploading. Please email your documents to info@JustLegalSolutions.org referencing your case number so nothing is missed.</p>
                 </div>
             ) : submissionStatus === 'error' ? (
                 <div className="text-center py-10" role="alert">
@@ -621,7 +623,7 @@ export function Footer() {
                     Browse Files
                   </span>
                   <span id="upload-help-text" className="block text-xs text-gray-500 mt-2">
-                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
+                    Accepted: PDF, JPG, PNG • Max 25MB per file
                   </span>
                 </button>
                 <p className="text-xs text-gray-500 mt-3 text-center">

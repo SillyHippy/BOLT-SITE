@@ -272,6 +272,9 @@ function generateSitemap() {
     '/process-serving-for-debt-collection',
     '/process-serving-for-insurance-companies',
     '/process-serving-for-property-managers',
+    '/process-serving-for-lenders',
+    '/submit-a-job',
+    '/volume-pricing',
     '/rush-vs-standard-vs-same-day-service',
 
     // Notary Service Pages (priority 0.9)
@@ -481,6 +484,9 @@ function generateSitemap() {
       '/process-serving-for-debt-collection',
       '/process-serving-for-insurance-companies',
       '/process-serving-for-property-managers',
+      '/process-serving-for-lenders',
+      '/submit-a-job',
+      '/volume-pricing',
     ].includes(urlPath)) {
       priority = '0.9';
       changefreq = 'weekly';

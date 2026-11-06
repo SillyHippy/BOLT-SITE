@@ -87,8 +87,8 @@ export function Navbar() {
             <Link href="/service-areas" className={navLinkClass(!!pathname?.startsWith('/service-areas'))} aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined} prefetch={false}>
               Service Areas
             </Link>
-            <Link href="/virtual-assistant-services" className={navLinkClass(pathname === '/virtual-assistant-services')} aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined} prefetch={false}>
-              VA Services
+            <Link href="/volume-pricing" className={navLinkClass(pathname === '/volume-pricing')} aria-current={pathname === '/volume-pricing' ? 'page' : undefined} prefetch={false}>
+              Volume Pricing
             </Link>
             <Link 
               href="/#courier-services" 
@@ -215,13 +215,13 @@ export function Navbar() {
               Service Areas
             </Link>
             <Link
-              href="/virtual-assistant-services"
-              className={mobileNavLinkClass(pathname === '/virtual-assistant-services')}
+              href="/volume-pricing"
+              className={mobileNavLinkClass(pathname === '/volume-pricing')}
               onClick={() => setIsMobileMenuOpen(false)}
-              aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}
+              aria-current={pathname === '/volume-pricing' ? 'page' : undefined}
               prefetch={false}
             >
-              VA Services
+              Volume Pricing
             </Link>
             <Link
               href="/#courier-services"
