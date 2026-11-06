@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, Mail, Clock, CheckCircle, FileText, MapPin, ShieldCheck, HelpCircle } from 'lucide-react';
+import { Phone, Mail, Clock, CheckCircle, FileText, MapPin, ShieldCheck, HelpCircle, MessageSquare } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -191,7 +191,7 @@ export default function SubmitAJobPage() {
               <div><div className="font-semibold text-gray-900">Call</div><div className="text-gray-600 text-sm">(539) 367-6832</div></div>
             </a>
             <a href="sms:5393676832" className="flex items-center gap-3 bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-blue-400 transition-colors">
-              <Phone className="w-6 h-6 text-blue-600 shrink-0" />
+              <MessageSquare className="w-6 h-6 text-blue-600 shrink-0" />
               <div><div className="font-semibold text-gray-900">Text</div><div className="text-gray-600 text-sm">(539) 367-6832</div></div>
             </a>
             <a href="mailto:info@justlegalsolutions.org" className="flex items-center gap-3 bg-slate-50 border border-slate-200 rounded-lg p-5 hover:border-blue-400 transition-colors">
