@@ -371,16 +371,16 @@ export default function PricingPage() {
             </section>
 
             {/* Pricing policy notice */}
-            <div className="bg-blue-50 border-2 border-blue-200 rounded-2xl text-left px-5 py-6 md:px-8 shadow-md mt-8 max-w-5xl mx-auto">
+            <div className="bg-white border-4 border-red-600 rounded-2xl text-left px-5 py-6 md:px-8 shadow-lg mt-8 max-w-5xl mx-auto">
               <div className="flex flex-col md:flex-row md:items-start gap-4">
-                <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0" aria-hidden="true">
-                  <Scale className="h-6 w-6 text-blue-700" />
+                <div className="h-12 w-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0" aria-hidden="true">
+                  <Scale className="h-6 w-6 text-red-600" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-blue-700 mb-1">Pricing policy</p>
-                  <h2 className="font-bold text-blue-950 text-xl md:text-2xl">Straightforward Rates, No Temporary Surcharges</h2>
-                  <p className="text-blue-900 mt-2 leading-relaxed">
-                    {PRICE_ADJUSTMENT_DISCLAIMER} Rates below are our current starting rates for the Glenpool / Tulsa County primary area — close-in zones often run less, and out-of-area travel may add distance charges.
+                  <p className="text-xs font-bold uppercase tracking-wider text-red-600 mb-1">Pricing update</p>
+                  <h2 className="font-bold text-red-600 text-xl md:text-2xl">The Temporary Price Adjustment Is Now Permanent</h2>
+                  <p className="text-gray-900 mt-2 leading-relaxed">
+                    Due to the continuous increase in fuel and operating costs, our temporary price adjustment has become our permanent pricing. If fuel prices come back down, we will adjust our pricing accordingly and pass the savings on to our customers. Rates below are our current starting rates for the Glenpool / Tulsa County primary area — close-in zones often run less, and out-of-area travel may add distance charges.
                   </p>
                 </div>
               </div>
