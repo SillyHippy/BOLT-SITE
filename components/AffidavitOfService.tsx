@@ -11,6 +11,7 @@ import {
   getContentRule,
   getQualification,
   getQualificationTokens,
+  getRequiredBodyClauses,
   resolveInstrument,
   validateForPrint,
   buildDeclarationVars,
@@ -139,6 +140,14 @@ export default function AffidavitOfService() {
   const [licenseExpirationDate, setLicenseExpirationDate] = useState('');
   /** Server's registration county (not the case caption county). */
   const [registrationCounty, setRegistrationCounty] = useState('');
+  /**
+   * Server's LICENSE/residence state (e.g. OK). Source of the WI residency recital
+   * ("adult resident of the State of X", {{serverStateOfResidence}}) and the SD elector
+   * recital — same semantics as the SaaS fix (commit 843d7d0): the license state fills
+   * the recital; when unknown the qualification paragraph drops to the generic recital
+   * rather than printing a half-filled recital. (Phase-1 W1)
+   */
+  const [licenseState, setLicenseState] = useState('');
   const [serviceFee, setServiceFee] = useState('');
   /** Actual age of the person who accepted abode service. */
   const [recipientAge, setRecipientAge] = useState('');
@@ -252,6 +261,7 @@ export default function AffidavitOfService() {
     serverDob,
     licenseExpirationDate,
     registrationCounty,
+    licenseState,
     serviceFee,
     recipientAge,
     abodeFollowUpMailDate,
@@ -299,6 +309,7 @@ export default function AffidavitOfService() {
     if (typeof v.serverDob === 'string') setServerDob(v.serverDob as string);
     if (typeof v.licenseExpirationDate === 'string') setLicenseExpirationDate(v.licenseExpirationDate as string);
     if (typeof v.registrationCounty === 'string') setRegistrationCounty(v.registrationCounty as string);
+    if (typeof v.licenseState === 'string') setLicenseState(v.licenseState as string);
     if (typeof v.serviceFee === 'string') setServiceFee(v.serviceFee as string);
     if (typeof v.recipientAge === 'string') setRecipientAge(v.recipientAge as string);
     if (typeof v.abodeFollowUpMailDate === 'string') setAbodeFollowUpMailDate(v.abodeFollowUpMailDate as string);
@@ -531,6 +542,7 @@ export default function AffidavitOfService() {
       [['server_dob','dob'], setServerDob],
       [['license_exp','license_expiration'], setLicenseExpirationDate],
       [['registration_county','server_registration_county'], setRegistrationCounty],
+      [['license_state','server_license_state','residency_state'], setLicenseState],
       [['service_fee','fee'], setServiceFee],
       [['recipient_age','accepted_age'], setRecipientAge],
       [['mail_date','abode_mail_date','follow_up_mail'], setAbodeFollowUpMailDate],
@@ -621,6 +633,7 @@ export default function AffidavitOfService() {
     if (serverDob) url.searchParams.set('server_dob', serverDob);
     if (licenseExpirationDate) url.searchParams.set('license_exp', licenseExpirationDate);
     if (registrationCounty) url.searchParams.set('registration_county', registrationCounty);
+    if (licenseState) url.searchParams.set('license_state', licenseState);
     if (serviceFee) url.searchParams.set('service_fee', serviceFee);
     if (recipientAge) url.searchParams.set('recipient_age', recipientAge);
     if (abodeFollowUpMailDate) url.searchParams.set('mail_date', abodeFollowUpMailDate);
@@ -751,13 +764,18 @@ export default function AffidavitOfService() {
       // WA (2026-10-24): recital cites the true state of service (CR 4(e)(2)/RCW 4.28.180),
       // never the filing venue — an OK server on a WA case must not claim WA registration.
       serviceStateName: STATES[serviceStateEffective]?.stateName || serviceStateEffective,
+      // WI residency / SD elector recitals (Phase-1 W1, mirroring SaaS 843d7d0): filled
+      // from the server's LICENSE state. Unknown license state leaves the token
+      // unresolved, so the whole recital is dropped and the generic competency
+      // paragraph prints instead — never a half-filled recital on a sworn page.
+      serverStateOfResidence: STATES[normalizeStateCode(licenseState)]?.stateName || licenseState || '',
     });
     if (!text) return '';
     if (outOfStateVenueQualBlocked && /registered|registration|licensed (process server|to serve)|license no\./i.test(text)) {
       return '';
     }
     return text;
-  }, [effectiveCourtState, serverName, serverLicense, registrationCounty, county, licenseExpirationDate, serviceStateEffective, outOfStateVenueQualBlocked]);
+  }, [effectiveCourtState, serverName, serverLicense, registrationCounty, county, licenseExpirationDate, serviceStateEffective, licenseState, outOfStateVenueQualBlocked]);
 
   /** Came-to-hand recital for FL/TX; '' unless the state requires it AND date/time are present. */
   const cameToHandSentence = useMemo(() => {
@@ -767,6 +785,24 @@ export default function AffidavitOfService() {
       .replace('{receivedDate}', cameToHandDate)
       .replace('{receivedTime}', cameToHandTime || '');
   }, [courtContent, cameToHandDate, cameToHandTime]);
+
+  /**
+   * State-required literal body clauses (Phase-1 W2, mirroring SaaS dc083d1) —
+   * e.g. NC § 1-75.10(a)(1)b knew-person, FL § 48.031(5) endorsement recital —
+   * printed as their own paragraphs after the qualification recital, deduped
+   * against text existing paths already emitted (qualification recital, came-to-hand
+   * recital). Token-key / `{{formula}}` clauses stay owned by their existing paths.
+   */
+  const requiredBodyClauses = useMemo(() => {
+    return getRequiredBodyClauses(effectiveCourtState, {
+      successfulServe: !isNonService,
+      // The came-to-hand recital prints as a body paragraph only when the
+      // received date/time are real (the site never derives an "on or about" fallback).
+      stampPrinted: !!cameToHandSentence,
+      abodeMethod: /residence|abode|usual place/i.test(serviceMethod || ''),
+      haystack: [qualificationParagraph, cameToHandSentence],
+    });
+  }, [effectiveCourtState, isNonService, cameToHandSentence, serviceMethod, qualificationParagraph]);
 
   /** Exact statutory penalty sentence for a declaration — placeholders filled from signing fields. */
   const declarationPenaltySentence = useMemo(() => {
@@ -1253,6 +1289,20 @@ export default function AffidavitOfService() {
                   />
                 </div>
               ) : null}
+              {getQualificationTokens(effectiveCourtState).includes('serverStateOfResidence') ? (
+                <div>
+                  <span className="text-slate-400 font-semibold block mb-0.5">Server license / residence state</span>
+                  <input
+                    type="text"
+                    value={licenseState}
+                    onChange={(e) => setLicenseState(e.target.value)}
+                    placeholder="Two-letter state (e.g. OK)"
+                    maxLength={2}
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded px-2 py-1 outline-none focus:border-blue-500 uppercase"
+                  />
+                  <span className="text-slate-500 text-[10px] block mt-0.5">Fills the residency recital (WI / SD)</span>
+                </div>
+              ) : null}
               {neededFooterFields.includes('serviceFee') ? (
                 <div>
                   <span className="text-slate-400 font-semibold block mb-0.5">Service fee</span>
@@ -1440,6 +1490,16 @@ export default function AffidavitOfService() {
             <p className="text-justify text-[9.5pt] mb-2 leading-snug page-break-avoid">
               {qualificationParagraph}
             </p>
+          )}
+
+          {/* State-required literal body clauses (Phase-1 W2) — each its own paragraph,
+              deduped against the recitals above; React escapes the text. */}
+          {requiredBodyClauses.length > 0 && (
+            requiredBodyClauses.map((clause, i) => (
+              <p key={`rbc-${i}`} className="text-justify text-[9.5pt] mb-2 leading-snug page-break-avoid">
+                {clause}
+              </p>
+            ))
           )}
 
           {/* Came-to-hand recital (FL / TX) — renders only when the state requires it. */}

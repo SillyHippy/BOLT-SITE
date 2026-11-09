@@ -106,6 +106,7 @@
     "esbuild": "^0.25.7",
     "eslint": "^9.39.4",
     "glob": "^11.0.3",
+    "happy-dom": "^21.0.4",
     "lovable-tagger": "^1.1.8",
     "pdf-lib": "^1.17.1"
   }

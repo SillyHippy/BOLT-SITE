@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
-    "branch": "live/2026-10-17c",
-    "commit": "96cff3a",
+    "branch": "feat/bulk-invites-integration-main",
+    "commit": "2f8f92a",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -1114,7 +1114,7 @@
         "allowDeclaration": true,
         "confidence": "high",
         "declarationFormText": "Under penalties of perjury, I declare that I have read the foregoing Return of Service and that the facts stated in it are true.",
-        "declarationStatute": "Fla. Stat. 92.525(1)-(2); Fla. R. Civ. P. 1.070(b)",
+        "declarationStatute": "Fla. Stat. 48.21 signed return-of-service (Fla. R. Civ. P. 1.070(b))",
         "declarationTitle": "Return of Service",
         "eSignAffidavit": "yes",
         "eSignDeclaration": "no",
@@ -1155,6 +1155,7 @@
         "execution": {
           "officerExceptionFields": [],
           "officerOnlyInState": false,
+          "returnDeadlineBusinessDays": true,
           "returnDeadlineDays": 5,
           "sundayServiceBlocked": false
         },
@@ -1635,7 +1636,7 @@
           "minRecipientAge": null,
           "notes": "Co-resident of suitable age and discretion.",
           "requiresEvasionFacts": false,
-          "requiresFollowUpMail": false,
+          "requiresFollowUpMail": true,
           "requiresKnewPersonAttestation": false,
           "requiresNotAdverseParty": false,
           "requiresPurportInfo": false,
@@ -1695,7 +1696,9 @@
       "qualification": {
         "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to this action (Ind. R. Trial P. 4.12 / 4.15).",
         "qualificationTextUnserved": "",
-        "requiredBodyClauses": [],
+        "requiredBodyClauses": [
+          "A copy of the summons and complaint was sent by first class mail to the address on the summons of the person being served, and this fact must be shown upon this return (Ind. R. Trial P. 4.1(B))."
+        ],
         "requiredFooterFields": []
       },
       "return": {
@@ -2549,7 +2552,7 @@
         "execution": {
           "officerExceptionFields": [],
           "officerOnlyInState": false,
-          "returnDeadlineDays": null,
+          "returnDeadlineDays": 30,
           "sundayServiceBlocked": false
         },
         "render": {
@@ -2594,7 +2597,7 @@
         "status": "verified"
       },
       "qualification": {
-        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and duly appointed/authorized to serve process pursuant to Mo. Sup. Ct. R. 54.13(a) / 54.14 (Appointment/Registration No. {{licenseNumber}}).",
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, am duly appointed/authorized to serve process, and make this affidavit as to the time, place and manner of service pursuant to Mo. R. Civ. P. 54.20 / 54.21 / 54.22 (Appointment/Registration No. {{licenseNumber}}).",
         "qualificationTextUnserved": "",
         "requiredBodyClauses": [],
         "requiredFooterFields": [
@@ -2613,11 +2616,14 @@
         "eSignDeclaration": "no",
         "juratHints": "§ 506.180.2: private server shall make affidavit as to time, place and manner; out-of-state oath before any empowered officer",
         "nonServiceSameFamily": true,
-        "notes": "Rule 54.20 cite unverified - use § 506.180 statute instead",
+        "notes": "Verified 2026-11-09: Rules 54.20/54.21/54.22 (not 55.01, not 54.13(a)/54.14) are the operative proof rules; 54.20 non-officer affidavit as to time, place and manner; 54.21 30-day return clock, extension to 90 days only by court order; 54.22 prima facie + impeachment. 54.20(f) refusal-on-return mode not yet rendered.",
         "primarySourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=506.192",
         "requiresNotaryForReturn": true,
         "sources": [
-          "Mo. Rev. Stat. § 506.180"
+          "Mo. Rev. Stat. 506.180",
+          "Mo. R. Civ. P. 54.20",
+          "Mo. R. Civ. P. 54.21",
+          "Mo. R. Civ. P. 54.22"
         ],
         "stateCode": "MO",
         "stateName": "Missouri"
@@ -2789,7 +2795,7 @@
         "status": "verified"
       },
       "qualification": {
-        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action (M. R. Civ. P. 4(d)(2)), and am a Registered Process Server in {{registrationCounty}} County, State of Montana (Reg. No. {{licenseNumber}}), or exempt from registration under Mont. Code Ann. § 25-1-1101 as a person making ten (10) or fewer services per calendar year.",
+        "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action (M. R. Civ. P. 4(d)(2)), and am a Registered Process Server in {{registrationCounty}} County, State of Montana (Reg. No. {{licenseNumber}}), or exempt from registration under Mont. Code Ann. § 25-1-1101 as a person making ten (10) or fewer services per calendar year. I further state that I am of legal age and knew the person served to be the person named in the papers served (M. R. Civ. P. 4(r)(4)).",
         "qualificationTextUnserved": "",
         "requiredBodyClauses": [],
         "requiredFooterFields": [
@@ -3052,7 +3058,7 @@
         "execution": {
           "officerExceptionFields": [],
           "officerOnlyInState": false,
-          "returnDeadlineDays": null,
+          "returnDeadlineDays": 20,
           "sundayServiceBlocked": false
         },
         "render": {
@@ -3096,7 +3102,7 @@
         "status": "verified"
       },
       "qualification": {
-        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action, and duly appointed to serve this process pursuant to Neb. Rev. Stat. §§ 25-506.01 / 25-507 (or authorized by the law of the jurisdiction where out-of-state service was made pursuant to Neb. Rev. Stat. § 25-540).",
+        "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action{{courtAppointmentOrder}}.",
         "qualificationTextUnserved": "",
         "requiredBodyClauses": [
           "cameToHandDate"
@@ -3298,7 +3304,8 @@
         "qualificationText": "I, {{serverName}}, residing or having a business address as stated below, state that I am a competent adult at least eighteen (18) years of age, not a party to this action, and have no direct interest in the litigation (N.J. Ct. R. 4:4-3(a); 4:4-7).",
         "qualificationTextUnserved": "",
         "requiredBodyClauses": [
-          "Physical description of person served: Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}."
+          "Physical description of person served: Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}.",
+          "I am not a sheriff or a court appointee; the facts of my diligent inquiry regarding defendant's place of abode, business, or employment are as stated in this affidavit (N.J. Ct. R. 4:4-7)."
         ],
         "requiredFooterFields": [
           "serverAddress",
@@ -3397,7 +3404,9 @@
       "qualification": {
         "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to the above-entitled action (Rule 1-004(D)(1) NMRA).",
         "qualificationTextUnserved": "",
-        "requiredBodyClauses": [],
+        "requiredBodyClauses": [
+          "If service was made by social media, e-mail, or text message, this affidavit includes copies of the messages sent, the e-mail address, social media user name, and/or phone number used, the dates of such service, and the date of mailing (NMRA Rule 1-004(L))."
+        ],
         "requiredFooterFields": [
           "serviceFee"
         ]
@@ -3635,8 +3644,8 @@
       "content": {
         "abode": {
           "allowed": true,
-          "minRecipientAge": 16,
-          "notes": "Co-resident of suitable age and discretion.",
+          "minRecipientAge": null,
+          "notes": "Co-resident of suitable age and discretion (Ohio Civ.R. 4.1(C)(2)(a) — no fixed age; former 16 invented an age on a sworn page).",
           "requiresEvasionFacts": false,
           "requiresFollowUpMail": false,
           "requiresKnewPersonAttestation": false,
@@ -3916,7 +3925,7 @@
         "allowDeclaration": true,
         "confidence": "high",
         "declarationFormText": "I hereby declare that the above statement is true to the best of my knowledge and belief, and that I understand it is made for use as evidence in court and is subject to penalty for perjury.",
-        "declarationStatute": "ORS 194.800",
+        "declarationStatute": "ORCP 1 E(1)",
         "declarationTitle": "Certificate of Service",
         "eSignAffidavit": "court_dependent",
         "eSignDeclaration": "yes",
@@ -4206,7 +4215,8 @@
         "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age and am neither an attorney in nor a party to this action (SCRCP 4(c)).",
         "qualificationTextUnserved": "",
         "requiredBodyClauses": [
-          "Service was not made on Sunday in violation of S.C. Code Ann. § 15-9-17."
+          "Service was not made on Sunday in violation of S.C. Code Ann. § 15-9-17.",
+          "If the name and address of the person actually served were not known, this affidavit states a description of the person actually served in lieu of that name and address (SCRCP 4(g))."
         ],
         "requiredFooterFields": [
           "notarizationDate"
@@ -5024,11 +5034,11 @@
         "status": "verified"
       },
       "qualification": {
-        "qualificationText": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action. I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. § 801.10(4)(a)). At the time of service, I endorsed upon the copy of the summons served the date of service, the time of service, my signature, and my title, if any (Wis. Stat. § 801.10(2)).",
+        "qualificationText": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action. I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. § 801.10(4)(a)). At the time of service, I endorsed upon the copy of the summons served my signature, and my title, if any, together with the time and date of service, the place and manner of service, and upon whom service was made (Wis. Stat. § 801.10(2)).",
         "qualificationTextUnserved": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action.",
         "requiredBodyClauses": [
           "I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. § 801.10(4)(a)).",
-          "At the time of service, I endorsed upon the copy of the summons served the date of service, the time of service, my signature, and my title, if any (Wis. Stat. § 801.10(2))."
+          "At the time of service, I endorsed upon the copy of the summons served my signature, and my title, if any, together with the time and date of service, the place and manner of service, and upon whom service was made (Wis. Stat. § 801.10(2))."
         ],
         "requiredFooterFields": [
           "serverStateOfResidence",

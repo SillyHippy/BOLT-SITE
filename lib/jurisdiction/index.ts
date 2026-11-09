@@ -25,6 +25,7 @@ export {
   fillQualificationTemplate,
   getQualification,
   getQualificationTokens,
+  getRequiredBodyClauses,
 } from './qualification';
 export {
   buildDeclarationVars,
