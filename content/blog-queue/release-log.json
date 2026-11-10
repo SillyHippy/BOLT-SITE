@@ -6288,6 +6288,46 @@
         "FAQ answers short: 3 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "vehicle-title-bill-sale-notary-oklahoma",
+      "title": "Oklahoma Notary for Vehicle Titles & Bills of Sale",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-10T21:06:31.603Z",
+      "releaseDate": "2026-11-10",
+      "quality": {
+        "words": 3431,
+        "headings": 18,
+        "paragraphs": 32
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-title-companies-escrow-closing-documents-oklahoma",
+      "title": "Process Serving for Oklahoma Title Companies: Full Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-10T21:06:31.607Z",
+      "releaseDate": "2026-11-10",
+      "quality": {
+        "words": 4677,
+        "headings": 31,
+        "paragraphs": 45
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
