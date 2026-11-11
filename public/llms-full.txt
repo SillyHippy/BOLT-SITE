@@ -817,6 +817,7 @@ PAYMENT TERMS & POLICIES:
 New Clients:
 - Prepayment required before service begins
 - Accepted methods: Credit/debit cards, ACH, checks, cash
+- ACH payments: please allow 5-10 business days for funds to clear before service commencement; all other payment methods place you on the schedule immediately
 - Ensures immediate resource dedication to your case
 
 Established/Contract Clients:

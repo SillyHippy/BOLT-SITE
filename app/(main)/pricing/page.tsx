@@ -791,6 +791,11 @@ export default function PricingPage() {
                   <p className="text-gray-700">
                     <strong>Prepayment is required for non-established clients.</strong> This ensures we can dedicate our resources to your case without delay.
                   </p>
+                  <div className="mt-4 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3">
+                    <p className="text-sm text-amber-900">
+                      <strong>ACH payments:</strong> Please allow <strong>5&ndash;10 business days</strong> for funds to clear before service commencement. All other payment methods place you on the schedule immediately.
+                    </p>
+                  </div>
                   <p className="text-gray-700 mt-4">
                     For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
                   </p>
