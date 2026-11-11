@@ -426,7 +426,7 @@ export default function PricingPage() {
                 <div className="bg-slate-100 px-5 py-3 border-b border-slate-200">
                   <div className="flex items-center gap-2 text-slate-700">
                     <Clock className="h-4 w-4" />
-                    <span className="text-sm font-bold">First attempt generally within the first week</span>
+                    <span className="text-sm font-bold">First attempt guaranteed within 10 business days, but generally within the first week</span>
                   </div>
                 </div>
                 <div className="flex flex-col flex-grow p-6">
@@ -434,7 +434,7 @@ export default function PricingPage() {
                   <p className="mt-3 text-4xl font-extrabold tracking-tight text-green-600">${getBasePrice('standard')}</p>
                   <p className="text-xs font-medium text-gray-500 mt-1 mb-4">base starting price</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
-                    Standard handling within our system. First attempt generally within the first week — timelines may vary by location.
+                    Standard handling within our system. First attempt guaranteed within 10 business days, but generally within the first week.
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="text-xs font-semibold rounded-md bg-blue-50 text-blue-800 px-2 py-1">Process serving</span>
@@ -447,7 +447,7 @@ export default function PricingPage() {
                     </summary>
                     <ul className="mt-3 space-y-2 text-sm text-gray-600">
                       <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Up to 3 service attempts</li>
-                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt generally within the first week (timelines may vary by location)</li>
+                      <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />First attempt guaranteed within 10 business days, but generally within the first week</li>
                       <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Court-ready affidavit of service</li>
                       <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Same $90 base for courier delivery</li>
                     </ul>
