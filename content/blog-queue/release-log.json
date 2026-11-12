@@ -6328,6 +6328,46 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-apostille-vs-notary",
+      "title": "Oklahoma Apostille vs Notary: Which One Do You Need?",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-12T21:47:29.520Z",
+      "releaseDate": "2026-11-12",
+      "quality": {
+        "words": 2922,
+        "headings": 16,
+        "paragraphs": 33
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 3 answers under 20 words"
+      ],
+      "mode": "published"
+    },
+    {
+      "slug": "process-serving-tribal-land-mcgirt-jurisdiction-oklahoma",
+      "title": "McGirt & Post-McGirt Process Serving: A 2026 Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-12T21:47:29.530Z",
+      "releaseDate": "2026-11-12",
+      "quality": {
+        "words": 5363,
+        "headings": 28,
+        "paragraphs": 48
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
