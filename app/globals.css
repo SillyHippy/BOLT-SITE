@@ -522,4 +522,25 @@ select.input-field {
   .blog-shell main > section.p-6 {
     padding: 1.25rem 1rem;
   }
+
+  /* Gradient-hero family (~116 pages): phone-sized H1 and tighter hero padding.
+     text-4xl = 36px is a desktop headline; on a phone it wraps to 4-5 lines and
+     pushes real content below the fold. 1.75rem = 28px matches the compact
+     article family. Hero sections keep their own pt-28 (nav clearance). */
+  .blog-shell h1.text-4xl {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .blog-shell section[class*="pt-28"] {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .blog-shell section[class*="pt-28"] nav[aria-label="Breadcrumb"] {
+    flex-wrap: wrap;
+    row-gap: 0.25rem;
+    margin-bottom: 1rem;
+  }
 }
