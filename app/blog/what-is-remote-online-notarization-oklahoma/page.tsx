@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-is-remote-online-notarization-oklahoma' },
   other: {
     'article:published_time': '2026-04-24',
-    'article:modified_time': '2026-04-24',
+    'article:modified_time': '2026-11-11',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Remote online notarization (RON) is now legal in Oklahoma. Learn how RON works step-by-step, technology requirements, Oklahoma law, and how it compares to tradi Includes Oklahoma notary compliance context and practical document guidance.',
@@ -84,17 +84,21 @@ export default function BlogPost() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <main className="max-w-4xl mx-auto px-4 py-8">
-        <nav className="text-sm text-gray-600 mb-4">
+        <nav aria-label="Breadcrumb" className="text-sm leading-relaxed text-gray-600 mb-3 md:mb-4">
           <Link href="/">Home</Link> <ChevronRight className="inline w-4 h-4" /> <Link href="/blog">Blog</Link> <ChevronRight className="inline w-4 h-4" /> <span>What is Remote Online Notarization in Oklahoma</span>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">What is Remote Online Notarization and How Does It Work in Oklahoma?</h1>
-        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-6">
+        <h1 className="text-[1.75rem] leading-tight sm:text-3xl md:text-4xl font-bold mb-3">What is Remote Online Notarization and How Does It Work in Oklahoma?</h1>
+        <p className="flex flex-wrap gap-x-3 gap-y-1 text-sm text-gray-600 mb-4 md:mb-6">
+          <span className="whitespace-nowrap">Published <time dateTime="2026-04-24">April 24, 2026</time></span>
+          <span className="whitespace-nowrap">Updated <time dateTime="2026-11-11">November 11, 2026</time></span>
+        </p>
+        <div className="bg-green-50 border-2 border-green-300 p-4 rounded-lg mb-5 md:mb-6">
           <h2 className="text-lg font-bold text-green-900 mb-2">Quick Answer</h2>
           <p className="text-gray-800">Remote Online Notarization (RON) in Oklahoma lets you <strong>notarize documents via audio-video technology</strong> with an approved platform, permitted under Oklahoma law and Secretary of State rules. Signers need a government-issued photo ID and internet access. Just Legal Solutions offers RON — <strong>(539) 367-6832</strong>.</p>
         </div>
 
-        <p className="text-gray-600 mb-8 text-lg">
+        <p className="text-gray-600 mb-6 md:mb-8 text-base md:text-lg">
           Remote online notarization — commonly called RON — has transformed how documents get notarized in Oklahoma and across the country. If you have ever struggled to find time to meet a notary in person, driven across town only to realize you forgot your ID, or needed a document notarized while traveling out of state, RON offers a convenient, secure alternative. In this comprehensive guide, we will explain exactly what remote online notarization is, how it works under Oklahoma law, the technology you need, how it compares to traditional in-person notarization, and what you should know before choosing this option. At Just Legal Solutions, we have helped hundreds of Oklahoma clients complete remote notarizations efficiently and securely.
         </p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
@@ -199,9 +203,12 @@ export default function BlogPost() {
             The RON platform itself provides the secure infrastructure: encrypted video conferencing, tamper-evident document handling, electronic signature capture, credential analysis software, knowledge-based authentication systems, digital certificate management, and secure cloud storage of recordings. At Just Legal Solutions, we use state-approved RON platforms that meet all Oklahoma Secretary of State requirements. You do not need to download any special software — most platforms run directly in your web browser.
           </p>
 
-          <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-5" aria-label="Online notarization resource">
-            <div className="inline-block rounded-md bg-slate-900 px-4 py-3 mb-3">
-              <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
+          <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online notarization resource">
+            <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+              <div className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3">
+                <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
+              </div>
+              <p className="text-sm font-semibold text-slate-700">Example online notarization platform</p>
             </div>
             <p className="mb-2">
               Wondering what an online notarization platform looks like in practice?{' '}
@@ -246,6 +253,11 @@ export default function BlogPost() {
           <h3 className="text-xl font-semibold mb-3 mt-6">Recording and Audit Trail</h3>
           <p className="mb-4">
             Every RON session is video recorded and stored, creating a permanent record of the entire notarization. This recording serves as powerful evidence if the notarization is ever challenged. Traditional notarization relies on the notary's journal entry and your word — there is no video record. The RON audit trail captures timestamps, IP addresses, document hashes, and every action taken during the session.
+          </p>
+          <p className="mb-4 text-gray-700">
+            In-person notarizations still depend on a good journal entry. For notaries who want a simple way to keep one,{' '}
+            <a href="https://notarylog.net/features" className="text-blue-600 hover:underline">Notary-Log</a>{' '}
+            is a free, open-source, lightweight journal you can self-host. It is built for in-person notarial acts, not RON sessions, and whether it meets your journal requirements depends on your state&apos;s rules. <em>Disclosure: Notary-Log is a project of the owner of Just Legal Solutions.</em>
           </p>
         </section>
 
@@ -334,7 +346,7 @@ export default function BlogPost() {
         articleDetails={{
           headline: 'What is Remote Online Notarization and How Does It Work in Oklahoma?',
           datePublished: '2026-04-24',
-          dateModified: '2026-04-24',
+          dateModified: '2026-11-11',
           author: 'Just Legal Solutions Team',
           image: 'https://justlegalsolutions.org/images/jls-logo.webp',
         }}

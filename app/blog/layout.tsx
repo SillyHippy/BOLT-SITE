@@ -10,13 +10,13 @@ import BlogLastUpdated from '@/components/ui/blog-last-updated';
 // at /about/joseph-iannazzi.
 export default function BlogLayout({ children }: { children: ReactNode }) {
   return (
-    <>
+    <div className="blog-shell">
       {children}
       <div className="max-w-4xl mx-auto px-4 pb-12">
         <BlogLastUpdated />
         <CountyLinksCTA />
         <AuthorBio />
       </div>
-    </>
+    </div>
   );
 }

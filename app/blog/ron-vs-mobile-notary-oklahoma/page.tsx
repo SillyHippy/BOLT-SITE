@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: 'Complete comparison guide to help you choose between RON and mobile notary services in Oklahoma.',
     type: 'article',
     publishedTime: '2024-01-15T00:00:00Z',
-    modifiedTime: '2024-01-15T00:00:00Z',
+    modifiedTime: '2026-11-11T00:00:00Z',
     authors: ['Joseph Iannazzi'],
   },
   other: {
@@ -95,45 +95,45 @@ export default function RonVsMobileNotaryPage() {
         title="Remote Online Notarization vs Mobile Notary in Oklahoma"
         description="Compare Remote Online Notarization (RON) vs Mobile Notary services in Oklahoma. Learn about Oklahoma RON laws, costs, document types, and which notary service is right for your needs."
         author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
-        datePublished="2026-05-23"
-        dateModified="2026-05-23"
+        datePublished="2024-01-15"
+        dateModified="2026-11-11"
       />
       <Navbar />
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
-        <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white pt-20 pb-8 md:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-2 text-blue-200 text-sm mb-4">
+            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-blue-200 text-sm mb-3 md:mb-4">
               <Link href="/blog/" className="hover:text-white transition-colors">Blog</Link>
-              <ChevronRight className="w-4 h-4" />
+              <ChevronRight className="w-4 h-4" aria-hidden="true" />
               <span>Notary Services</span>
-            </div>
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+            </nav>
+            <h1 className="text-[1.75rem] sm:text-3xl md:text-5xl font-bold mb-3 md:mb-6 leading-tight">
               Remote Online Notarization vs Mobile Notary in Oklahoma
             </h1>
-            <p className="text-xl text-blue-100 mb-6 max-w-3xl">
+            <p className="text-base sm:text-lg md:text-xl text-blue-100 mb-4 md:mb-6 max-w-3xl">
               A comprehensive guide to choosing between RON and mobile notary services.
               Understand Oklahoma laws, costs, security features, and which option fits your needs.
             </p>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-blue-200">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-blue-200">
               <span className="flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-blue-700 flex items-center justify-center text-white font-semibold">J</span>
+                <span className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-blue-700 flex items-center justify-center text-white font-semibold" aria-hidden="true">J</span>
                 Joseph Iannazzi
               </span>
-              <span>|</span>
-              <span>Published: January 15, 2024</span>
-              <span>|</span>
-              <span>Updated: January 15, 2024</span>
+              <span className="hidden sm:inline" aria-hidden="true">|</span>
+              <span className="whitespace-nowrap">Published: <time dateTime="2024-01-15">January 15, 2024</time></span>
+              <span className="hidden sm:inline" aria-hidden="true">|</span>
+              <span className="whitespace-nowrap">Updated: <time dateTime="2026-11-11">November 11, 2026</time></span>
             </div>
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <article className="prose prose-lg prose-blue max-w-none">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
+          <article className="prose md:prose-lg prose-blue max-w-none">
             {/* Quick Answer Box */}
-            <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
-              <h2 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
-                <CheckCircle className="w-6 h-6 text-blue-600" />
+            <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-4 my-4 md:p-6 md:my-8">
+              <h2 className="text-lg md:text-xl font-bold text-blue-900 mb-3 md:mb-4 flex items-center gap-2">
+                <CheckCircle className="w-6 h-6 shrink-0 text-blue-600" />
                 Quick Answer: Which Notary Service Should You Choose?
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
@@ -167,7 +167,7 @@ export default function RonVsMobileNotaryPage() {
             </div>
 
             {/* Introduction */}
-            <p className="lead text-xl text-gray-700 leading-relaxed">
+            <p className="lead text-lg md:text-xl text-gray-700 leading-relaxed">
               <strong>Remote Online Notarization (RON)</strong> and <strong>mobile notary services</strong> represent
               the two primary modern alternatives to traditional in-office notarization in Oklahoma. While both
               methods provide legally valid notarization under Oklahoma law, they differ significantly in process,
@@ -610,6 +610,13 @@ export default function RonVsMobileNotaryPage() {
               </li>
             </ul>
 
+            <p>
+              Mobile notaries also keep the journal for in-person acts. If you are a notary looking for a simple option,{' '}
+              <a href="https://notarylog.net/features" className="text-blue-600 hover:underline">Notary-Log</a>{' '}
+              is a free, open-source, lightweight journal you can self-host. It is meant for in-person notarizations, not RON, and whether it fits your journal requirements depends on your state&apos;s rules.{' '}
+              <em>Disclosure: Notary-Log is a project of the owner of Just Legal Solutions.</em>
+            </p>
+
             {/* Cost Comparison */}
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6 flex items-center gap-3">
               <DollarSign className="w-7 h-7 text-blue-600" />
@@ -783,11 +790,19 @@ export default function RonVsMobileNotaryPage() {
               and recipient requirements.
             </p>
 
-            <p>
+            <aside className="not-prose my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online and mobile notarization resource">
+              <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+                <div className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3">
+                  <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
+                </div>
+                <p className="text-sm font-semibold text-slate-700">Another provider to compare</p>
+              </div>
+              <p className="text-gray-700">
               If you want to compare another provider before booking,{' '}
               <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
               offers both remote online notarization and mobile notary services. That makes it a useful example of why the choice is not simply online versus in person: start with what your document requires, then compare availability, total cost, and the help you need. Confirm acceptance with your document recipient before scheduling.
             </p>
+            </aside>
 
             <p>
               Consider these final questions when making your choice:

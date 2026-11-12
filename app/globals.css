@@ -497,3 +497,29 @@ select.input-field {
     position: static !important;
   }
 }
+
+/* Blog mobile repairs (shared, scoped to app/blog/layout.tsx `.blog-shell`).
+   The main nav is fixed (h-14 + safe-area inset). Blog families whose <main>
+   starts with breadcrumbs and only py-8/py-12 top padding put the breadcrumb
+   under the nav, so clear it here. Full-bleed hero families (main without
+   py-8/py-12) handle their own top padding. */
+.blog-shell main.py-8,
+.blog-shell main.py-12 {
+  padding-top: calc(3.5rem + env(safe-area-inset-top, 0px) + 1rem);
+}
+
+@media (max-width: 640px) {
+  /* Compact, readable comparison tables on phones (no tap-target or zoom changes). */
+  .blog-shell main table :is(th, td) {
+    padding: 0.5rem 0.625rem;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Card-style article sections lose less width to padding on narrow screens. */
+  .blog-shell main > section.p-6 {
+    padding: 1.25rem 1rem;
+  }
+}
