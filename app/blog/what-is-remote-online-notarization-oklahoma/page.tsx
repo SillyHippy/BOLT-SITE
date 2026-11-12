@@ -107,14 +107,14 @@ export default function BlogPost() {
 
         <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online notarization resource">
           <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
-            <a href="https://onenotary.com/" rel="nofollow" className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3 hover:bg-slate-700 transition-colors" aria-label="Visit OneNotary">
+            <a href="https://onenotary.com/" className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3 hover:bg-slate-700 transition-colors" aria-label="Visit OneNotary">
               <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
             </a>
             <p className="text-sm font-semibold text-slate-700">Example online notarization platform</p>
           </div>
           <p className="mb-2">
             Looking for an online notarization platform to compare alongside our RON service?{' '}
-            <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
+            <a href="https://onenotary.com/" className="text-blue-600 hover:underline">OneNotary</a>{' '}
             is one option to explore. It offers remote online notarization as well as mobile notary services, so you can review both approaches before deciding what fits your documents. Check current availability and pricing, and confirm that the organization receiving your documents accepts your chosen notarization method.
           </p>
           <p className="text-sm text-slate-600">OneNotary is a separate provider; this resource link does not change how you book with Just Legal Solutions.</p>

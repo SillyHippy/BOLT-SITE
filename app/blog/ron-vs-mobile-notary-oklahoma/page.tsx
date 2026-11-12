@@ -186,14 +186,14 @@ export default function RonVsMobileNotaryPage() {
 
             <aside className="not-prose my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online and mobile notarization resource">
               <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
-                <a href="https://onenotary.com/" rel="nofollow" className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3 hover:bg-slate-700 transition-colors" aria-label="Visit OneNotary">
+                <a href="https://onenotary.com/" className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3 hover:bg-slate-700 transition-colors" aria-label="Visit OneNotary">
                   <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
                 </a>
                 <p className="text-sm font-semibold text-slate-700">Another provider to compare</p>
               </div>
               <p className="text-gray-700">
                 Comparing providers before you book?{' '}
-                <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
+                <a href="https://onenotary.com/" className="text-blue-600 hover:underline">OneNotary</a>{' '}
                 offers both remote online notarization and mobile notary services, so it is a useful example of why the choice is not simply online versus in person: start with what your document requires, then compare availability, total cost, and the help you need. Confirm acceptance with your document recipient before scheduling.
               </p>
               <p className="mt-2 text-sm text-slate-600">OneNotary is a separate provider; this resource link does not change how you book with Just Legal Solutions.</p>
