@@ -105,6 +105,21 @@ export default function BlogPost() {
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
         <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
 
+        <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online notarization resource">
+          <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <div className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3">
+              <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
+            </div>
+            <p className="text-sm font-semibold text-slate-700">Example online notarization platform</p>
+          </div>
+          <p className="mb-2">
+            Looking for an online notarization platform to compare alongside our RON service?{' '}
+            <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
+            is one option to explore. It offers remote online notarization as well as mobile notary services, so you can review both approaches before deciding what fits your documents. Check current availability and pricing, and confirm that the organization receiving your documents accepts your chosen notarization method.
+          </p>
+          <p className="text-sm text-slate-600">OneNotary is a separate provider; this resource link does not change how you book with Just Legal Solutions.</p>
+        </aside>
+
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">What Exactly Is Remote Online Notarization?</h2>
           <p className="mb-4">
@@ -202,21 +217,6 @@ export default function BlogPost() {
           <p className="mb-4">
             The RON platform itself provides the secure infrastructure: encrypted video conferencing, tamper-evident document handling, electronic signature capture, credential analysis software, knowledge-based authentication systems, digital certificate management, and secure cloud storage of recordings. At Just Legal Solutions, we use state-approved RON platforms that meet all Oklahoma Secretary of State requirements. You do not need to download any special software — most platforms run directly in your web browser.
           </p>
-
-          <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-4 sm:p-5" aria-label="Online notarization resource">
-            <div className="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
-              <div className="inline-flex shrink-0 items-center rounded-md bg-slate-900 px-4 py-3">
-                <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
-              </div>
-              <p className="text-sm font-semibold text-slate-700">Example online notarization platform</p>
-            </div>
-            <p className="mb-2">
-              Wondering what an online notarization platform looks like in practice?{' '}
-              <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
-              is one option to explore. It offers remote online notarization as well as mobile notary services, so you can review both approaches before deciding what fits your documents. Check current availability and pricing, and confirm that the organization receiving your documents accepts your chosen notarization method.
-            </p>
-            <p className="text-sm text-slate-600">OneNotary is a separate provider; this resource link does not change how you book with Just Legal Solutions.</p>
-          </aside>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Security Features</h3>
           <p className="mb-4">
