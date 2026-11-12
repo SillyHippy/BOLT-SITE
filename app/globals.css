@@ -601,3 +601,119 @@ select.input-field {
     line-height: 1.7;
   }
 }
+
+/* ── FINAL mobile overrides (every blog layout family) ──────────────────────
+   These load after Tailwind so they win on equal specificity; !important is
+   used deliberately because @tailwindcss/typography sets its own font sizes
+   through CSS variables that plain overrides lose to.
+   Verified target: breadcrumb children share ONE horizontal center line,
+   16px body copy, H1 26-28px, hero under 60% of a 390px viewport. */
+@media (max-width: 640px) {
+  /* ALL breadcrumbs — hero families and inline-main families alike. */
+  .blog-shell [aria-label="Breadcrumb"],
+  .blog-shell main > nav:not([aria-label]) {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    column-gap: 0.5rem !important;
+    row-gap: 0 !important;
+    line-height: 1 !important;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .blog-shell [aria-label="Breadcrumb"] > *,
+  .blog-shell main > nav:not([aria-label]) > * {
+    display: inline-flex !important;
+    align-items: center !important;
+    vertical-align: middle !important;
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+    line-height: 1 !important;
+    font-size: 0.8125rem !important;
+    margin: 0 !important;
+  }
+
+  .blog-shell [aria-label="Breadcrumb"] svg,
+  .blog-shell main > nav:not([aria-label]) svg {
+    display: block !important;
+    width: 14px !important;
+    height: 14px !important;
+    min-width: 14px !important;
+    margin: 0 !important;
+    position: static !important;
+  }
+
+  /* Body copy: 16px on phones (typography plugin ships 18px prose-lg). */
+  .blog-shell article,
+  .blog-shell article.prose,
+  .blog-shell article.prose-lg {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+
+  .blog-shell article p,
+  .blog-shell article li,
+  .blog-shell article td,
+  .blog-shell article blockquote {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+
+  .blog-shell article h2 {
+    font-size: 1.3125rem !important;
+    line-height: 1.3 !important;
+    margin-top: 1.75rem !important;
+    margin-bottom: 0.625rem !important;
+  }
+
+  .blog-shell article h3 {
+    font-size: 1.125rem !important;
+    line-height: 1.35 !important;
+    margin-top: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  /* Headlines: phone scale, never a desktop 36-48px billboard. */
+  .blog-shell h1 {
+    font-size: 1.625rem !important;
+    line-height: 1.22 !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  /* Heroes keep nav clearance but stop eating the screen. */
+  .blog-shell section[class*="pt-28"],
+  .blog-shell section[class*="py-24"],
+  .blog-shell div[class*="pt-28"],
+  .blog-shell div[class*="py-24"] {
+    padding-top: 4.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+
+  .blog-shell section[class*="pt-28"] > div,
+  .blog-shell section[class*="py-24"] > div {
+    padding-top: 0 !important;
+  }
+
+  /* Lead/intro paragraphs get the same 16px, not a 20px shout. */
+  .blog-shell .lead,
+  .blog-shell p[class*="text-xl"],
+  .blog-shell p[class*="text-lg"] {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .blog-shell h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .blog-shell section[class*="pt-28"],
+  .blog-shell section[class*="py-24"] {
+    padding-top: 4rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}
