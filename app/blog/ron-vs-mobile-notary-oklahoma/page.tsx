@@ -784,6 +784,12 @@ export default function RonVsMobileNotaryPage() {
             </p>
 
             <p>
+              If you want to compare another provider before booking,{' '}
+              <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
+              offers both remote online notarization and mobile notary services. That makes it a useful example of why the choice is not simply online versus in person: start with what your document requires, then compare availability, total cost, and the help you need. Confirm acceptance with your document recipient before scheduling.
+            </p>
+
+            <p>
               Consider these final questions when making your choice:
             </p>
 

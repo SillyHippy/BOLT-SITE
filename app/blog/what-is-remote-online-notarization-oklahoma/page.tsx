@@ -199,6 +199,18 @@ export default function BlogPost() {
             The RON platform itself provides the secure infrastructure: encrypted video conferencing, tamper-evident document handling, electronic signature capture, credential analysis software, knowledge-based authentication systems, digital certificate management, and secure cloud storage of recordings. At Just Legal Solutions, we use state-approved RON platforms that meet all Oklahoma Secretary of State requirements. You do not need to download any special software — most platforms run directly in your web browser.
           </p>
 
+          <aside className="my-6 rounded-lg border border-slate-200 bg-slate-50 p-5" aria-label="Online notarization resource">
+            <div className="inline-block rounded-md bg-slate-900 px-4 py-3 mb-3">
+              <img src="/images/onenotary-logo-white.svg" alt="OneNotary" width={166} height={36} loading="lazy" />
+            </div>
+            <p className="mb-2">
+              Wondering what an online notarization platform looks like in practice?{' '}
+              <a href="https://onenotary.com/" rel="nofollow" className="text-blue-600 hover:underline">OneNotary</a>{' '}
+              is one option to explore. It offers remote online notarization as well as mobile notary services, so you can review both approaches before deciding what fits your documents. Check current availability and pricing, and confirm that the organization receiving your documents accepts your chosen notarization method.
+            </p>
+            <p className="text-sm text-slate-600">OneNotary is a separate provider; this resource link does not change how you book with Just Legal Solutions.</p>
+          </aside>
+
           <h3 className="text-xl font-semibold mb-3 mt-6">Security Features</h3>
           <p className="mb-4">
             RON platforms employ bank-level security: 256-bit SSL encryption for all communications, multi-factor authentication for signer access, digital certificate technology that creates tamper-evident seals, secure cloud storage with redundant backups, and detailed audit trails capturing every action during the session. These security measures actually make RON more secure and auditable than traditional paper-based notarization, where the only record is the notary's journal entry.
