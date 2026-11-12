@@ -538,9 +538,66 @@ select.input-field {
     padding-bottom: 2rem;
   }
 
+  /* Hero breadcrumbs: keep every crumb and arrow on ONE baseline row.
+     items-center + nowrap prevents the crooked wrapped arrows. */
   .blog-shell section[class*="pt-28"] nav[aria-label="Breadcrumb"] {
-    flex-wrap: wrap;
-    row-gap: 0.25rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    row-gap: 0;
     margin-bottom: 1rem;
+  }
+
+  .blog-shell section[class*="pt-28"] nav[aria-label="Breadcrumb"] * {
+    flex-shrink: 0;
+    white-space: nowrap;
+    line-height: 1rem;
+  }
+
+  /* Compact-family breadcrumb (Home > Blog > Title inline nav) — same rule. */
+  .blog-shell main > nav:not([aria-label]) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    line-height: 1.25rem;
+  }
+
+  .blog-shell main > nav:not([aria-label]) > * {
+    flex-shrink: 0;
+    white-space: nowrap;
+    align-items: center;
+    display: inline-flex;
+  }
+
+  /* prose-lg = 18px body on phones. Articles read at 16px like the compact
+     family. Headings scale down proportionally (h2 20px, h3 18px). */
+  .blog-shell article.prose-lg {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .blog-shell article.prose-lg h2 {
+    font-size: 1.375rem;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .blog-shell article.prose-lg h3 {
+    font-size: 1.125rem;
+    line-height: 1.35;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .blog-shell article.prose-lg p,
+  .blog-shell article.prose-lg li {
+    font-size: 1rem;
+    line-height: 1.7;
   }
 }
