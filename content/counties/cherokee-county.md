@@ -136,7 +136,7 @@ Whether your case involves a routine divorce filing in Cherokee County District 
 ## Related Service Areas
 
 - [Process Serving in Oklahoma](/process-serving)
-- [Other Oklahoma Counties](/counties/)
+- [Other Oklahoma Counties](/counties)
 - [Tahlequah Legal Services](/service-areas/tahlequah)
 
 ---

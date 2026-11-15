@@ -212,22 +212,22 @@ const relatedResources = [
   {
     title: 'Oklahoma Process Server Forms & Templates',
     description: 'Downloadable return of service forms, affidavit templates, and service logs.',
-    href: '/resources/oklahoma-process-server-forms-templates',
+    href: '/oklahoma-process-server-forms-templates',
   },
   {
     title: 'Process Server Equipment Checklist',
     description: 'Complete guide to essential gear for Oklahoma process servers.',
-    href: '/resources/process-server-equipment-checklist',
+    href: '/process-server-equipment-checklist',
   },
   {
     title: 'Process Server Safety Guide',
     description: 'Safety protocols and best practices for field service work.',
-    href: '/resources/process-server-safety-guide-oklahoma',
+    href: '/process-server-safety-guide-oklahoma',
   },
   {
     title: 'Become a Process Server in Oklahoma',
     description: 'Step-by-step guide to getting licensed in Oklahoma.',
-    href: '/resources/become-process-server-oklahoma-complete-guide',
+    href: '/become-process-server-oklahoma-complete-guide',
   },
 ];
 
