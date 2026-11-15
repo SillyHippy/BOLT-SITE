@@ -716,7 +716,7 @@ export default function GPSTrackedProcessServing() {
                   href: 'https://www.napps.org',
                 },
               ].map((resource, i) => (
-                <a key={i} href={resource.href} target="_blank" rel="noopener noreferrer" className="block bg-gray-50 hover:bg-blue-50 rounded-xl p-5 transition-colors border border-gray-200 hover:border-blue-300">
+                <a key={i} href={resource.href} target="_blank" rel={resource.href.includes('napps.org') ? 'noopener noreferrer' : 'nofollow noopener noreferrer'} className="block bg-gray-50 hover:bg-blue-50 rounded-xl p-5 transition-colors border border-gray-200 hover:border-blue-300">
                   <h3 className="font-semibold text-gray-800 mb-2 text-sm">{resource.label} ↗</h3>
                   <p className="text-xs text-gray-600">{resource.desc}</p>
                 </a>

@@ -20,8 +20,15 @@ export default function MarkdownContent({ content }: { content: string }) {
         remarkPlugins={[remarkGfm]}
         components={{
           a({ href, children, ...props }) {
+            const isExternal = /^https?:\/\//.test(href ?? '');
+            const ownProfile =
+              /just-legal-solutions\.(myhelcim\.com|helcim\.app)|g\.page|notarylog\.net|napps\.org|chamberofcommerce\.com|nationalprocessservernetwork\.com|facebook\.com|linkedin\.com|instagram\.com|google\.com\/maps|maps\.google\.com|bbb\.org|youtube\.com|snapdocs\.com/.test(href ?? '');
             return (
-              <a href={rewriteMdHref(href) ?? href} {...props}>
+              <a
+                href={rewriteMdHref(href) ?? href}
+                {...(isExternal && !ownProfile ? { rel: 'nofollow noopener noreferrer', target: '_blank' } : {})}
+                {...props}
+              >
                 {children}
               </a>
             );

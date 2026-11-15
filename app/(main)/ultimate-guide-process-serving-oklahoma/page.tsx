@@ -90,7 +90,7 @@ const pageFaqs = [
   },
   {
     "question": "Where can I find the official Oklahoma process server application form?",
-    "answer": "The official form is <strong>AOC 595</strong> available at: <a href='https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf</a>. This form is required for all new process server license applications in Oklahoma."
+    "answer": "The official form is <strong>AOC 595</strong> available at: <a href='https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312' target='_blank' rel='nofollow noopener noreferrer' className='text-blue-600 hover:underline'>https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf</a>. This form is required for all new process server license applications in Oklahoma."
   },
   {
     "question": "What does it cost to renew an Oklahoma process server license?",

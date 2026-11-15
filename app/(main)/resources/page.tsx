@@ -331,7 +331,7 @@ const ResourcesPage = () => {
           <ul className="space-y-3 ml-0 md:ml-12">
             {externalResources.map((resource) => (
               <li key={resource.name} className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex flex-col sm:flex-row sm:items-center gap-2">
-                <a href={resource.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-700 hover:underline flex items-center gap-1.5 flex-shrink-0">
+                <a href={resource.url} target="_blank" rel="nofollow noopener noreferrer" className="font-semibold text-blue-700 hover:underline flex items-center gap-1.5 flex-shrink-0">
                   <ExternalLink className="w-4 h-4" />
                   {resource.name}
                 </a>
