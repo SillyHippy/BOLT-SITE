@@ -187,7 +187,7 @@ export default function BlogPost() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><Link href="/blog/digital-proof-service-gps-photos-documentation" className="text-blue-600 hover:underline">Digital Proof of Service: GPS and Photo Documentation</Link></li>
             <li><Link href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step" className="text-blue-600 hover:underline">How to Serve Legal Papers in Oklahoma: Step-by-Step</Link></li>
-            <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
+            <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
             <li><Link href="/blog/subpoena-service-oklahoma-rules" className="text-blue-600 hover:underline">Subpoena Service in Oklahoma: Rules and Best Practices</Link></li>
           </ul>
         </section>

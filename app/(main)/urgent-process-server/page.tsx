@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -128,7 +126,6 @@ const howToSteps = [
 const UrgentProcessServerPage = () => {
   return (
     <>
-      <Navbar />
       <div className="min-h-screen bg-white">
         {/* Emergency Alert Banner */}
         <div className="bg-red-600 text-white py-3 text-center">
@@ -630,7 +627,6 @@ const UrgentProcessServerPage = () => {
         faqItems={urgentFaqs}
         howToSteps={howToSteps}
       />
-      <Footer />
     </>
   );
 };

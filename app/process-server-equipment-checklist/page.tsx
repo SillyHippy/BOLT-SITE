@@ -581,7 +581,7 @@ export default function ProcessServerEquipmentChecklist() {
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-amber-800 mb-2">Vehicle Maintenance Reminder</h4>
+                  <h3 className="font-semibold text-amber-800 mb-2">Vehicle Maintenance Reminder</h3>
                   <p className="text-amber-700">
                     Regular vehicle maintenance is crucial for process servers. A breakdown during a time-sensitive service can result in missed deadlines and lost clients. Budget for oil changes, tire rotations, and preventive maintenance. Keep maintenance records for tax deduction purposes.
                   </p>
@@ -621,7 +621,7 @@ export default function ProcessServerEquipmentChecklist() {
                             <span className="font-bold text-primary">{app.name.charAt(0)}</span>
                           </div>
                           <div>
-                            <h4 className="font-semibold">{app.name}</h4>
+                            <h3 className="font-semibold">{app.name}</h3>
                             <p className="text-sm text-muted-foreground">{app.use}</p>
                           </div>
                         </div>
@@ -724,7 +724,7 @@ export default function ProcessServerEquipmentChecklist() {
                         {item.priority} Priority
                       </Badge>
                     </div>
-                    <h4 className="font-semibold text-lg mb-2">{item.item}</h4>
+                    <h3 className="font-semibold text-lg mb-2">{item.item}</h3>
                     <p className="text-sm text-muted-foreground">{item.description}</p>
                   </CardContent>
                 </Card>
@@ -786,7 +786,7 @@ export default function ProcessServerEquipmentChecklist() {
             </div>
 
             <div className="mt-8 p-6 bg-blue-50 border border-blue-200 rounded-lg">
-              <h4 className="font-semibold text-blue-800 mb-3">Dress Code Tips</h4>
+              <h3 className="font-semibold text-blue-800 mb-3">Dress Code Tips</h3>
               <div className="grid md:grid-cols-2 gap-4 text-blue-700">
                 <ul className="space-y-2">
                   <li>• Avoid clothing with logos or slogans</li>
@@ -827,7 +827,7 @@ export default function ProcessServerEquipmentChecklist() {
                         {item.essential ? 'Essential' : 'Recommended'}
                       </Badge>
                     </div>
-                    <h4 className="font-semibold text-lg mb-2">{item.item}</h4>
+                    <h3 className="font-semibold text-lg mb-2">{item.item}</h3>
                     <p className="text-sm text-muted-foreground">{item.description}</p>
                   </CardContent>
                 </Card>
@@ -931,7 +931,7 @@ export default function ProcessServerEquipmentChecklist() {
               <div className="flex items-start gap-3">
                 <DollarSign className="w-6 h-6 text-green-600 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-green-800 mb-2">Tax Deductions</h4>
+                  <h3 className="font-semibold text-green-800 mb-2">Tax Deductions</h3>
                   <p className="text-green-700">
                     Most process server equipment and supplies are tax-deductible business expenses. Keep all receipts and maintain detailed records of purchases. Consult with a tax professional to maximize your deductions. Common deductible items include vehicle expenses, equipment purchases, phone bills, office supplies, and professional development costs.
                   </p>
@@ -973,7 +973,7 @@ export default function ProcessServerEquipmentChecklist() {
             </div>
 
             <div className="mt-8 p-6 bg-purple-50 border border-purple-200 rounded-lg">
-              <h4 className="font-semibold text-purple-800 mb-3">Shopping Tips</h4>
+              <h3 className="font-semibold text-purple-800 mb-3">Shopping Tips</h3>
               <div className="grid md:grid-cols-2 gap-4 text-purple-700">
                 <ul className="space-y-2">
                   <li>• Compare prices across multiple retailers</li>
@@ -1134,7 +1134,7 @@ export default function ProcessServerEquipmentChecklist() {
                     Learn about CLEET certification, training requirements, and licensing fees in Oklahoma.
                   </p>
                   <Button variant="outline" asChild className="w-full">
-                    <Link href="/how-to-become-process-server-oklahoma">Read Guide</Link>
+                    <Link href="/blog/become-process-server-oklahoma">Read Guide</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -1148,7 +1148,7 @@ export default function ProcessServerEquipmentChecklist() {
                     Learn about our professional process serving services throughout Oklahoma.
                   </p>
                   <Button variant="outline" asChild className="w-full">
-                    <Link href="/services">View Services</Link>
+                    <Link href="/pricing">View Services</Link>
                   </Button>
                 </CardContent>
               </Card>

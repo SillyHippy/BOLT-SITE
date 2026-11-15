@@ -180,7 +180,7 @@ export default function HowToApostilleDocumentOklahoma() {
             </div>
 
             <h2>What Is an Apostille?</h2>
-            <p>An <strong>apostille</strong> is a certificate that authenticates the origin of a public document — such as a birth certificate, court order, or notarized document — for use in foreign countries that are members of the <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer">Hague Apostille Convention</a>.</p>
+            <p>An <strong>apostille</strong> is a certificate that authenticates the origin of a public document — such as a birth certificate, court order, or notarized document — for use in foreign countries that are members of the <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer nofollow">Hague Apostille Convention</a>.</p>
             <p>The apostille certifies three things:</p>
             <ul>
               <li>The <strong>authenticity of the signature</strong> on the document</li>

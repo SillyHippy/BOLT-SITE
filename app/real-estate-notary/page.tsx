@@ -549,10 +549,10 @@ export default function RealEstateNotaryPage() {
             <div className="text-center mt-8">
               <p className="text-gray-600 mb-2">Industry Resources:</p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://www.alta.org/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                <a href="https://www.alta.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-600 hover:underline text-sm">
                   American Land Title Association (ALTA) ↗
                 </a>
-                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-600 hover:underline text-sm">
                   Oklahoma Secretary of State ↗
                 </a>
                 <a href="https://www.nationalnotary.org/signing-agents" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-600 hover:underline text-sm">

@@ -474,7 +474,7 @@ export default function TitleCompanyNotaryServicesPage() {
                 
                 <div className="space-y-4">
                   <div className="bg-blue-800 p-4 rounded-lg">
-                    <h4 className="font-bold text-yellow-400 mb-2">Notarization Required (16 O.S. § 26)</h4>
+                    <h3 className="font-bold text-yellow-400 mb-2">Notarization Required (16 O.S. § 26)</h3>
                     <p className="text-blue-100 text-sm">
                       All deeds must be acknowledged before a notary public or other authorized officer before they can be recorded with the county clerk.
                     </p>
@@ -672,7 +672,7 @@ export default function TitleCompanyNotaryServicesPage() {
             
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-xl text-center shadow-sm">
-                <h4 className="font-bold text-gray-900 mb-2">Tulsa County</h4>
+                <h3 className="font-bold text-gray-900 mb-2">Tulsa County</h3>
                 <p className="text-gray-600 text-sm">Tulsa, Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa</p>
               </div>
               <div className="bg-white p-6 rounded-xl text-center shadow-sm">

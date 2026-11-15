@@ -364,7 +364,7 @@ export default function PricingPage() {
                   private process server vs county sheriff
                 </Link>
                 {' · '}
-                <Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline hover:text-blue-900">
+                <Link href="/pricing" className="text-blue-700 underline hover:text-blue-900">
                   county-by-county pricing guide
                 </Link>
               </p>
@@ -877,7 +877,7 @@ export default function PricingPage() {
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Server Pricing Guide</h3>
                 <p className="text-sm text-gray-600 mt-1">Detailed breakdown of process serving costs across Oklahoma</p>
               </Link>
-              <Link href="/oklahoma-process-serving-costs-comparison" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <Link href="/pricing" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Serving Costs Comparison</h3>
                 <p className="text-sm text-gray-600 mt-1">Compare process serving fees across Oklahoma providers</p>
               </Link>

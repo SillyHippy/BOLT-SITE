@@ -594,10 +594,10 @@ export default function CourthouseFilingServices() {
                       { mistake: 'Wet signature required but not obtained', detail: 'Some Oklahoma filings require original signatures in wet ink, not electronic signatures. Submitting a document that requires a wet signature via eFiling results in rejection.' },
                     ].map((item, i) => (
                       <div key={i} className="bg-white rounded-lg p-4 border border-amber-200">
-                        <h4 className="font-semibold text-amber-900 text-sm mb-1 flex items-center gap-2">
+                        <h3 className="font-semibold text-amber-900 text-sm mb-1 flex items-center gap-2">
                           <AlertTriangle className="w-4 h-4 text-amber-600 flex-shrink-0" />
                           {item.mistake}
-                        </h4>
+                        </h3>
                         <p className="text-amber-800 text-xs">{item.detail}</p>
                       </div>
                     ))}
@@ -621,7 +621,7 @@ export default function CourthouseFilingServices() {
                 <div className="bg-white rounded-xl p-6 flex-1 shadow-sm border border-gray-100">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Arrive Before the Cutoff</h3>
                   <p className="text-gray-600">
-                    Both Tulsa County and Creek County clerks&apos; offices close for filings at 4:30 PM, Monday through Friday. Arriving before 2:00 PM is strongly recommended for same-day service to allow time for any document issues to be resolved before cutoff. Court holidays follow the Oklahoma state holiday schedule — verify current hours and closures on the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Tulsa County Court Clerk</a> page or the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Oklahoma Courts official website</a>.
+                    Both Tulsa County and Creek County clerks&apos; offices close for filings at 4:30 PM, Monday through Friday. Arriving before 2:00 PM is strongly recommended for same-day service to allow time for any document issues to be resolved before cutoff. Court holidays follow the Oklahoma state holiday schedule — verify current hours and closures on the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Tulsa County Court Clerk</a> page or the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Oklahoma Courts official website</a>.
                   </p>
                 </div>
               </div>
@@ -639,7 +639,7 @@ export default function CourthouseFilingServices() {
                 <div className="bg-white rounded-xl p-6 flex-1 shadow-sm border border-gray-100">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Filing Fees Are Assessed and Paid</h3>
                   <p className="text-gray-600">
-                    The clerk calculates filing fees based on document type and case category. Oklahoma district courts accept cash, checks, and credit cards at most locations. Filing fees for new civil petitions typically range from $75 to $250 depending on case type and amount in controversy. For exact current fee schedules, reference the <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Oklahoma Statutes Title 12</a>. We pay filing fees on your behalf and invoice you directly. See our <Link href="/pricing" className="text-blue-700 font-semibold hover:underline">pricing page</Link> for our service fees.
+                    The clerk calculates filing fees based on document type and case category. Oklahoma district courts accept cash, checks, and credit cards at most locations. Filing fees for new civil petitions typically range from $75 to $250 depending on case type and amount in controversy. For exact current fee schedules, reference the <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Oklahoma Statutes Title 12</a>. We pay filing fees on your behalf and invoice you directly. See our <Link href="/pricing" className="text-blue-700 font-semibold hover:underline">pricing page</Link> for our service fees.
                   </p>
                 </div>
               </div>
@@ -718,16 +718,16 @@ export default function CourthouseFilingServices() {
                 <h3 className="font-semibold text-gray-800 mb-3">External Legal Authority Resources</h3>
                 <p className="text-gray-600 text-sm mb-3">Key external resources for Oklahoma filing procedures and legal requirements.</p>
                 <div className="space-y-2">
-                  <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Oklahoma Courts official website ↗
                   </a>
-                  <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Tulsa County Court Clerk ↗
                   </a>
-                  <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Oklahoma Statutes Title 12 ↗
                   </a>
-                  <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Oklahoma Bar Association ↗
                   </a>
                   <a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">

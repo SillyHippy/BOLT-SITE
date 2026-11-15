@@ -312,7 +312,7 @@ export default function HighProfileServiceProtocolsTulsa() {
           <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
             <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">Process Server Best Practices Checklist 2026</Link></li>
-            <li><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Process Serving Costs Comparison</Link></li>
+            <li><Link href="/pricing" className="text-blue-700 underline">Process Serving Costs Comparison</Link></li>
             <li><Link href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service of Process</Link></li>
           </ul>
         </section>

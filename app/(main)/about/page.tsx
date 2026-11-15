@@ -1,6 +1,4 @@
 import { Metadata } from 'next';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -57,7 +55,6 @@ export default function AboutPage() {
       />
       
       <div className="min-h-screen bg-white">
-        <Navbar />
         {/* Hero Section with Profile Layout */}
         <div className="bg-gradient-to-r from-blue-50 to-gray-50 py-16">
           <div className="container mx-auto px-4 max-w-6xl">
@@ -414,9 +411,9 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-3">Learn More:</h3>
                   <ul className="space-y-2">
-                    <li><a href="https://justlegalsolutions.org" className="text-white hover:text-blue-200 underline">Our Services</a></li>
-                    <li><a href="https://justlegalsolutions.org/service-areas" className="text-white hover:text-blue-200 underline">View Our Full Service Area</a></li>
-                    <li><a href="https://justlegalsolutions.org/contact" className="text-white hover:text-blue-200 underline">Request a Quote Online</a></li>
+                    <li><a href="https://justlegalsolutions.org" className="text-white hover:text-blue-200 underline" rel="nofollow noopener noreferrer">Our Services</a></li>
+                    <li><a href="https://justlegalsolutions.org/service-areas" className="text-white hover:text-blue-200 underline" rel="nofollow noopener noreferrer">View Our Full Service Area</a></li>
+                    <li><a href="https://justlegalsolutions.org/contact" className="text-white hover:text-blue-200 underline" rel="nofollow noopener noreferrer">Request a Quote Online</a></li>
                     <li><Link href="/why-choose-us" className="text-white hover:text-blue-200 underline">Why Choose Just Legal Solutions</Link></li>
                     <li><Link href="/resources" className="text-white hover:text-blue-200 underline">Legal Resources & Guides</Link></li>
                     <li><Link href="/process-server-tulsa-guide" className="text-white hover:text-blue-200 underline">Tulsa Process Server Guide</Link></li>
@@ -428,7 +425,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

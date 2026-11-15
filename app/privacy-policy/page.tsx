@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-3xl mx-auto prose prose-gray prose-lg">
           <p>
             Just Legal Solutions ("Company," "we," "us," or "our") operates the website{' '}
-            <a href="https://justlegalsolutions.org">justlegalsolutions.org</a> (the "Site"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our Site or use our services.
+            <a href="https://justlegalsolutions.org" rel="nofollow noopener noreferrer">justlegalsolutions.org</a> (the "Site"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our Site or use our services.
           </p>
 
           <h2>1. Information We Collect</h2>

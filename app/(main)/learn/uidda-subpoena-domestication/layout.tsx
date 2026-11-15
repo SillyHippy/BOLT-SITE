@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "UIDDA Subpoena Domestication in Oklahoma | Just Legal Solutions",
+  description: "A complete guide to domesticating out-of-state subpoenas under the Uniform Interstate Depositions and Discovery Act.",
   alternates: {
     canonical: '/learn/uidda-subpoena-domestication',
   },

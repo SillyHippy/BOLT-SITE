@@ -160,7 +160,7 @@ export default function ProcessServingHOABlog() {
           </p>
 
           <p>
-            In Oklahoma, community associations operate under distinct statutory schemes that create specific requirements for legal actions against homeowners. Homeowners associations fall under the <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">Real Estate Development Act (60 O.S. §§851-858)</a>, while condominium associations are governed by the <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">Unit Ownership Estate Act (60 O.S. §§501-530)</a>. Both types of associations must comply with <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">Oklahoma civil procedure requirements under 12 O.S. §2004</a> when serving legal documents.
+            In Oklahoma, community associations operate under distinct statutory schemes that create specific requirements for legal actions against homeowners. Homeowners associations fall under the <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">Real Estate Development Act (60 O.S. §§851-858)</a>, while condominium associations are governed by the <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">Unit Ownership Estate Act (60 O.S. §§501-530)</a>. Both types of associations must comply with <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">Oklahoma civil procedure requirements under 12 O.S. §2004</a> when serving legal documents.
           </p>
 
           <LocalPromoBanner zips={[]} />
@@ -210,7 +210,7 @@ export default function ProcessServingHOABlog() {
           </p>
 
           <p>
-            Under <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">60 O.S. §524</a>, condominium associations have specific lien rights for unpaid common expenses that are prioritized over most other liens except property taxes and first mortgages. This statutory priority makes proper service even more critical, as mortgage holders must be named and served in foreclosure proceedings.
+            Under <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">60 O.S. §524</a>, condominium associations have specific lien rights for unpaid common expenses that are prioritized over most other liens except property taxes and first mortgages. This statutory priority makes proper service even more critical, as mortgage holders must be named and served in foreclosure proceedings.
           </p>
 
           <h2>Serving Individual Homeowners in Oklahoma Communities</h2>
@@ -222,7 +222,7 @@ export default function ProcessServingHOABlog() {
           <h3>Personal Service Requirements Under 12 O.S. §2004</h3>
 
           <p>
-            Oklahoma law specifies several methods for serving individual defendants under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">12 O.S. §2004</a>. The preferred method is <strong>personal service</strong>—delivering copies of the summons and petition directly to the defendant. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave copies at the person's dwelling with a person 15 years of age or older who resides there. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas and entity or government service require personal delivery.
+            Oklahoma law specifies several methods for serving individual defendants under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">12 O.S. §2004</a>. The preferred method is <strong>personal service</strong>—delivering copies of the summons and petition directly to the defendant. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave copies at the person's dwelling with a person 15 years of age or older who resides there. Title 12 does not prescribe a fixed number of prior personal attempts before that method. Subpoenas and entity or government service require personal delivery.
           </p>
 
           <p>
@@ -248,11 +248,11 @@ export default function ProcessServingHOABlog() {
           <h3>Service on Incorporated Associations</h3>
 
           <p>
-            Most Oklahoma HOAs and condominium associations are incorporated entities, either as nonprofit corporations or other corporate forms. Under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">12 O.S. §2004(3)</a>, service on a corporation is made by delivering copies to an officer, managing agent, or registered agent authorized to receive service.
+            Most Oklahoma HOAs and condominium associations are incorporated entities, either as nonprofit corporations or other corporate forms. Under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">12 O.S. §2004(3)</a>, service on a corporation is made by delivering copies to an officer, managing agent, or registered agent authorized to receive service.
           </p>
 
           <p>
-            Oklahoma corporations, including community associations, must maintain a registered agent with the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer">Oklahoma Secretary of State</a>. Professional process servers verify the current registered agent designation before attempting service, as this information can change when associations change management companies or board leadership.
+            Oklahoma corporations, including community associations, must maintain a registered agent with the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Secretary of State</a>. Professional process servers verify the current registered agent designation before attempting service, as this information can change when associations change management companies or board leadership.
           </p>
 
           <h3>Service on Management Companies</h3>
@@ -304,13 +304,13 @@ export default function ProcessServingHOABlog() {
           </p>
 
           <p>
-            Under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">12 O.S. §§759-762</a>, foreclosure sales must be conducted by the sheriff with the property appraised by three court-appointed appraisers. The property cannot be sold for less than two-thirds of the appraised value. Professional process serving ensures that all required parties receive proper notice at each stage of this complex process.
+            Under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">12 O.S. §§759-762</a>, foreclosure sales must be conducted by the sheriff with the property appraised by three court-appointed appraisers. The property cannot be sold for less than two-thirds of the appraised value. Professional process serving ensures that all required parties receive proper notice at each stage of this complex process.
           </p>
 
           <h3>Condominium-Specific Service Considerations</h3>
 
           <p>
-            Condominium associations in Oklahoma operate under the Unit Ownership Estate Act, which creates some unique service considerations. Under <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">60 O.S. §524</a>, condominium liens for unpaid assessments have specific priority rules that can affect foreclosure proceedings and the parties who must be served.
+            Condominium associations in Oklahoma operate under the Unit Ownership Estate Act, which creates some unique service considerations. Under <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">60 O.S. §524</a>, condominium liens for unpaid assessments have specific priority rules that can affect foreclosure proceedings and the parties who must be served.
           </p>
 
           <p>
@@ -320,7 +320,7 @@ export default function ProcessServingHOABlog() {
           <h3>Out-of-State Owner Considerations</h3>
 
           <p>
-            Oklahoma community associations often have out-of-state owners who purchased properties as investments or vacation homes. Serving these owners requires understanding of out-of-state service procedures under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">12 O.S. §2004</a> and potentially coordinating with process servers in other jurisdictions.
+            Oklahoma community associations often have out-of-state owners who purchased properties as investments or vacation homes. Serving these owners requires understanding of out-of-state service procedures under <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">12 O.S. §2004</a> and potentially coordinating with process servers in other jurisdictions.
           </p>
 
           <p>
@@ -370,7 +370,7 @@ export default function ProcessServingHOABlog() {
           </p>
 
           <p>
-            Professional process servers bring expertise in <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer">Oklahoma civil procedure</a>, knowledge of community association law, and experience navigating the unique challenges of gated communities and residential service. They provide the documentation courts require and can testify to service attempts if proceedings are challenged.
+            Professional process servers bring expertise in <a href="https://oksenate.gov/sites/default/files/2019-12/os12.pdf" target="_blank" rel="noopener noreferrer nofollow">Oklahoma civil procedure</a>, knowledge of community association law, and experience navigating the unique challenges of gated communities and residential service. They provide the documentation courts require and can testify to service attempts if proceedings are challenged.
           </p>
 
           <p>
@@ -404,7 +404,7 @@ export default function ProcessServingHOABlog() {
           </p>
 
           <p>
-            We provide <strong>GPS-tracked service attempts</strong>, detailed documentation for court proceedings, and experience navigating gated communities and other access challenges. Our team understands the requirements of <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">Oklahoma's Real Estate Development Act</a> and <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer">Unit Ownership Estate Act</a>, ensuring that your association's legal documents are served properly and efficiently.
+            We provide <strong>GPS-tracked service attempts</strong>, detailed documentation for court proceedings, and experience navigating gated communities and other access challenges. Our team understands the requirements of <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">Oklahoma's Real Estate Development Act</a> and <a href="https://oksenate.gov/sites/default/files/2019-12/os60.pdf" target="_blank" rel="noopener noreferrer nofollow">Unit Ownership Estate Act</a>, ensuring that your association's legal documents are served properly and efficiently.
           </p>
 
           <div className="not-prose bg-gradient-to-br from-blue-900 to-blue-800 rounded-xl p-8 text-white my-8">
@@ -432,10 +432,10 @@ export default function ProcessServingHOABlog() {
 
           <h2>Related Resources</h2>
           <ul>
-            <li><Link href="/services/process-serving/">Professional Process Serving Services</Link></li>
-            <li><Link href="/services/court-filing/">Court Document Filing Services</Link></li>
-            <li><Link href="/blog/oklahoma-process-server-requirements/">Oklahoma Process Server Requirements</Link></li>
-            <li><Link href="/blog/eviction-notice-service-oklahoma/">Eviction Notice Service in Oklahoma</Link></li>
+            <li><Link href="/process-serving">Professional Process Serving Services</Link></li>
+            <li><Link href="/courthouse-filing-services">Court Document Filing Services</Link></li>
+            <li><Link href="/oklahoma-process-server-best-practices-checklist">Oklahoma Process Server Requirements</Link></li>
+            <li><Link href="/blog/how-to-serve-eviction-notices-in-oklahoma">Eviction Notice Service in Oklahoma</Link></li>
             <li><Link href="/blog/oklahoma-landlord-tenant-eviction-timelines">Landlord-Tenant eviction timelines</Link></li>
           </ul>
         </article>

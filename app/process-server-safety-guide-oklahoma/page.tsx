@@ -211,7 +211,7 @@ export default function ProcessServerSafetyGuide() {
           <div className="flex items-start gap-3">
             <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-semibold text-amber-800 mb-2">Important Safety Disclaimer</h3>
+              <h2 className="font-semibold text-amber-800 mb-2">Important Safety Disclaimer</h2>
               <p className="text-amber-700 text-sm">
                 This guide provides general safety information for educational purposes only. 
                 It does not constitute legal advice or professional security training. Process 
@@ -643,10 +643,10 @@ export default function ProcessServerSafetyGuide() {
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-              <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
+              <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-green-600" />
                 Parking Strategies
-              </h4>
+              </h3>
               <ul className="space-y-2 text-slate-700 text-sm">
                 <li>• Park facing your exit route</li>
                 <li>• Leave room to pull forward without backing up</li>
@@ -998,10 +998,10 @@ export default function ProcessServerSafetyGuide() {
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-slate-200">
-                <h4 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
                   <AlertTriangle className="w-5 h-5 text-amber-500" />
                   {item.scenario}
-                </h4>
+                </h3>
                 <div className="grid md:grid-cols-2 gap-4 text-sm">
                   <div>
                     <span className="font-medium text-red-700">Risks:</span>
@@ -1317,21 +1317,21 @@ export default function ProcessServerSafetyGuide() {
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Resources</h2>
           <div className="grid md:grid-cols-3 gap-4">
             <Link 
-              href="/how-to-become-process-server-oklahoma/"
+              href="/blog/become-process-server-oklahoma"
               className="bg-white p-5 rounded-lg shadow-sm border border-slate-200 hover:shadow-md transition-shadow"
             >
               <h3 className="font-semibold text-slate-900 mb-2">Become a Process Server</h3>
               <p className="text-slate-600 text-sm">Complete guide to starting your career in Oklahoma</p>
             </Link>
             <Link 
-              href="/oklahoma-process-server-requirements/"
+              href="/oklahoma-process-server-best-practices-checklist"
               className="bg-white p-5 rounded-lg shadow-sm border border-slate-200 hover:shadow-md transition-shadow"
             >
               <h3 className="font-semibold text-slate-900 mb-2">Oklahoma Requirements</h3>
               <p className="text-slate-600 text-sm">CLEET licensing and state requirements</p>
             </Link>
             <Link 
-              href="/process-server-training-oklahoma/"
+              href="/process-server-license-oklahoma"
               className="bg-white p-5 rounded-lg shadow-sm border border-slate-200 hover:shadow-md transition-shadow"
             >
               <h3 className="font-semibold text-slate-900 mb-2">Training Programs</h3>

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "Service Method Wizard | Just Legal Solutions",
+  description: "Answer 5 questions to find the right Oklahoma process serving method for your specific situation.",
   alternates: {
     canonical: '/oklahoma-tools/service-method-wizard',
   },

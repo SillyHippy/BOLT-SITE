@@ -262,7 +262,7 @@ export default function ProcessServingForPropertyManagers() {
                     Oklahoma evictions often spike during winter months &mdash; December through February &mdash; when economic pressures, holiday spending, and cold weather intersect with rental payment difficulties. Property managers who wait until a tenant is already months behind risk losing revenue across multiple properties simultaneously during peak filing periods when court dockets are busiest.
                   </p>
                   <p className="text-gray-700 mb-4">
-                    Planning ahead means establishing your eviction service workflow <em>before</em> the seasonal spike hits. Under the <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Oklahoma Residential Landlord and Tenant Act</a> and as administered by <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">Oklahoma Courts</a>, notice and FED summons requirements are strictly enforced regardless of season. Pre-qualify your notice types, set up your account, and be ready to submit batch requests the moment nonpayment occurs.
+                    Planning ahead means establishing your eviction service workflow <em>before</em> the seasonal spike hits. Under the <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline">Oklahoma Residential Landlord and Tenant Act</a> and as administered by <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline">Oklahoma Courts</a>, notice and FED summons requirements are strictly enforced regardless of season. Pre-qualify your notice types, set up your account, and be ready to submit batch requests the moment nonpayment occurs.
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <Link href="/eviction-notice-service" className="text-blue-600 hover:text-blue-800 underline font-medium text-sm">Eviction notice service →</Link>
@@ -705,10 +705,10 @@ export default function ProcessServingForPropertyManagers() {
                 </ul>
                 <h3 className="text-lg font-bold text-gray-800 mb-4 mt-6">External Authority Resources</h3>
                 <ul className="space-y-3">
-                  <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Statutes Title 12 — Landlord &amp; Tenant Act (OSCN)</a></li>
-                  <li><a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
+                  <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Statutes Title 12 — Landlord &amp; Tenant Act (OSCN)</a></li>
+                  <li><a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
                   <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
-                  <li><a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Bar Association — Find a Landlord-Tenant Attorney</a></li>
+                  <li><a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Bar Association — Find a Landlord-Tenant Attorney</a></li>
                 </ul>
               </div>
             </div>

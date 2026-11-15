@@ -365,7 +365,7 @@ export default function OklahomaEvictionTimelinePage() {
                   <div className="flex items-start gap-3">
                     <item.icon className="w-6 h-6 text-red-500 shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-bold text-red-800 mb-2">{item.issue}</h4>
+                      <h3 className="font-bold text-red-800 mb-2">{item.issue}</h3>
                       <p className="text-red-700 text-sm">{item.solution}</p>
                     </div>
                   </div>

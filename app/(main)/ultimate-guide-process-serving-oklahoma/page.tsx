@@ -198,7 +198,7 @@ export default function UltimateGuidePage() {
                 </div>
               </div>
               <div className="bg-white bg-opacity-10 p-4 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Quick Facts</h3>
+                <h2 className="text-xl font-bold mb-3">Quick Facts</h2>
                 <ul className="text-sm space-y-1">
                   <li>• Licensed & Bonded in All 77 Oklahoma Counties</li>
                   <li>• Same-Day Service Available ($180-$255)</li>
@@ -249,7 +249,7 @@ export default function UltimateGuidePage() {
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-medium">Official Form</td>
-                      <td className="py-3 px-4"><a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN AOC 595</a></td>
+                      <td className="py-3 px-4"><a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">OSCN AOC 595</a></td>
                     </tr>
                     <tr>
                       <td className="py-3 px-4 font-medium">Renewal Timeline</td>
@@ -269,7 +269,7 @@ export default function UltimateGuidePage() {
             <CardContent>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div>
-                  <h4 className="font-bold text-blue-800 mb-2">Legal Foundation</h4>
+                  <h3 className="font-bold text-blue-800 mb-2">Legal Foundation</h3>
                   <ul className="text-sm space-y-1">
                     <li><a href="#quick-start" className="text-blue-600 hover:underline">⭐ Quick Start Guide</a></li>
                     <li><a href="#what-is-process-serving" className="text-blue-600 hover:underline">What is Process Serving?</a></li>
@@ -443,7 +443,7 @@ export default function UltimateGuidePage() {
 
               <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
                 <h4 className="font-bold text-yellow-800 mb-3">Licensing Process Steps</h4>
-                <p className="text-sm mb-3"><strong>Required Form:</strong> <a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Private Process Server Application (OSCN Form AOC 595)</a></p>
+                <p className="text-sm mb-3"><strong>Required Form:</strong> <a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Private Process Server Application (OSCN Form AOC 595)</a></p>
                 <ol className="list-decimal pl-5 space-y-2 text-sm">
                   <li><strong>Application Submission:</strong> Complete verified application form prescribed by Administrative Office of Courts</li>
                   <li><strong>Documentation Requirements:</strong> Provide two recent passport-style photographs and proof of residency</li>
@@ -509,7 +509,7 @@ export default function UltimateGuidePage() {
                     <div className="md:w-1/2 md:text-right md:pr-8">
                       <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
                         <h4 className="font-bold text-purple-800">Step 3: Complete Application Form</h4>
-                        <p className="text-sm text-gray-600 mt-2">Download and fill out <a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">OSCN Form AOC 595</a>. Get 2 passport photos.</p>
+                        <p className="text-sm text-gray-600 mt-2">Download and fill out <a href="https://www.oscn.net/forms/aoc/private-process-server/process-server-application.pdf?d=202320312" target="_blank" rel="noopener noreferrer nofollow" className="text-purple-600 hover:underline">OSCN Form AOC 595</a>. Get 2 passport photos.</p>
                         <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: 1 day • Cost: ~$15 for photos</p>
                       </div>
                     </div>
@@ -1705,7 +1705,7 @@ export default function UltimateGuidePage() {
                   <a 
                     href="https://www.okppsa.org" 
                     target="_blank" 
-                    rel="noopener noreferrer" 
+                    rel="noopener noreferrer nofollow" 
                     className="inline-flex items-center text-green-600 hover:text-green-800 font-semibold"
                   >
                     Visit OKPPSA Website →

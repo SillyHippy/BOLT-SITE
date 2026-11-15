@@ -69,7 +69,7 @@ function Navbar() {
       <Link href="/" className="text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors">Just Legal Solutions</Link>
       <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-700">
         <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
-        <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
+        <Link href="/pricing" className="hover:text-blue-700 transition-colors">Services</Link>
         <Link href="/pricing" className="hover:text-blue-700 transition-colors">Pricing</Link>
         <Link href="/blog" className="hover:text-blue-700 transition-colors">Blog</Link>
         <Link href="/contact" className="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors">Contact Us</Link>
@@ -107,7 +107,7 @@ function Footer() {
         <div>
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
+            <li><Link href="/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
             <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
             <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
             <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>
@@ -290,7 +290,7 @@ export default function BlogPost() {
             <li>The proof of service is filed with the court within required timeframes</li>
           </ul>
 
-          <p className="leading-relaxed mb-6">At Just Legal Solutions, every serve — regardless of day or time — generates a comprehensive <Link href="/services/process-serving" className="text-blue-700 hover:underline">proof of service</Link> package that includes GPS coordinates, timestamped photographs, a detailed affidavit, and any relevant notes about the interaction. This thorough documentation ensures that even after-hours serves hold up under judicial scrutiny in any Oklahoma court, from Tulsa County District Court to the Oklahoma Supreme Court.</p>
+          <p className="leading-relaxed mb-6">At Just Legal Solutions, every serve — regardless of day or time — generates a comprehensive <Link href="/process-serving" className="text-blue-700 hover:underline">proof of service</Link> package that includes GPS coordinates, timestamped photographs, a detailed affidavit, and any relevant notes about the interaction. This thorough documentation ensures that even after-hours serves hold up under judicial scrutiny in any Oklahoma court, from Tulsa County District Court to the Oklahoma Supreme Court.</p>
 
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">24/7 Process Serving: Is It Really Available in Oklahoma?</h2>
           <p className="leading-relaxed mb-6">While the term "24/7 process serving" sounds appealing, it is important to understand what it actually means in practice. True round-the-clock dispatch — where a server is available to leave immediately at any hour of the night — is rare in Oklahoma outside of major metropolitan areas. Most reputable process serving companies, including ours, offer extended hours rather than literal 24/7 immediate dispatch.</p>

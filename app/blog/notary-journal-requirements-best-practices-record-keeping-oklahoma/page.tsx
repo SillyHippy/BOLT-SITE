@@ -189,7 +189,7 @@ export default function BlogPost() {
             <p className="text-blue-800 mb-4">
               Just Legal Solutions provides professional notary services statewide — including traditional, RON, and absentee ballot notarizations — with full journal compliance and retention protocols. We serve all 77 Oklahoma counties.
             </p>
-            <Link href="/services" className="text-blue-700 font-medium hover:underline">
+            <Link href="/pricing" className="text-blue-700 font-medium hover:underline">
               Explore our notary services →
             </Link>
           </div>
@@ -312,7 +312,7 @@ export default function BlogPost() {
             Finally, make the mindset shift from &quot;journal-keeping as optional best practice&quot; to &quot;journal-keeping as professional non-negotiable.&quot; Even though journaling is voluntary for traditional acts, the legal protection a journal provides is invaluable. It is your evidence. Your defense. Your professional record. Treat it with the seriousness it deserves.
           </p>
           <p>
-            <em>Note: HB 2265 died in the Senate Judiciary Committee when the 2026 legislative session adjourned on May 14, 2026, and did not become law. We recommend confirming current requirements with the <a href="https://www.oklegislature.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Legislature website</a> or the <a href="https://www.sos.ok.gov/notary/default.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> for the most up-to-date information.</em>
+            <em>Note: HB 2265 died in the Senate Judiciary Committee when the 2026 legislative session adjourned on May 14, 2026, and did not become law. We recommend confirming current requirements with the <a href="https://www.oklegislature.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Legislature website</a> or the <a href="https://www.sos.ok.gov/notary/default.aspx" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> for the most up-to-date information.</em>
           </p>
           </article>
           

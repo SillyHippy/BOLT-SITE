@@ -188,7 +188,7 @@ export default function MoundsProcessServerPage() {
               <h3 className="font-semibold text-blue-700">Kiefer →</h3>
               <p className="text-gray-600 text-sm mt-1">12 miles north. Historic Creek County town, home of Kiefer Castle.</p>
             </Link>
-            <Link href="/service-areas/beggs" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/service-areas/okmulgee" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Beggs →</h3>
               <p className="text-gray-600 text-sm mt-1">15 miles south. Historic Creek County town on Highway 75.</p>
             </Link>

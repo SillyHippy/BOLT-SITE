@@ -129,9 +129,9 @@ export default function AttorneysGuidePage() {
                       <p className="font-bold">Professional Guide</p>
                     </div>
                   </div>
-                  <h3 className="text-2xl font-bold leading-tight">
+                  <h2 className="text-2xl font-bold leading-tight">
                     Attorney's Guide to Hiring a Process Server
-                  </h3>
+                  </h2>
                 </div>
                 
                 <div className="space-y-3">
@@ -305,7 +305,7 @@ export default function AttorneysGuidePage() {
                     <span className="text-white font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900 mb-1">Protect Your Cases</h4>
+                    <h3 className="font-bold text-slate-900 mb-1">Protect Your Cases</h3>
                     <p className="text-slate-600">
                       Improper service can derail cases, delay judgments, and expose your 
                       firm to malpractice claims. Learn how to ensure proper service every time.
@@ -394,7 +394,7 @@ export default function AttorneysGuidePage() {
                 <div className="flex items-start gap-3">
                   <Shield className="w-6 h-6 text-blue-400 flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-bold text-white mb-1">Proper Licensing</h4>
+                    <h3 className="font-bold text-white mb-1">Proper Licensing</h3>
                     <p className="text-slate-400 text-sm">
                       Valid state license and bonding requirements
                     </p>

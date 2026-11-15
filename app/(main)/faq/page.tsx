@@ -1,8 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Navbar from '@/components/ui/navbar';
-import Footer from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LastUpdated from '@/components/ui/last-updated';
 import { FAQ_HUB_CATEGORIES, FAQ_HUB_TOTAL, allFaqItems } from '@/data/faq-hub';
@@ -83,7 +81,6 @@ const faqCategories = FAQ_HUB_CATEGORIES.map((cat) => ({
 export default function FAQHubPage() {
   return (
     <>
-      <Navbar />
       <UnifiedSchema
         pageType="faq"
         url="https://justlegalsolutions.org/faq"
@@ -389,7 +386,6 @@ export default function FAQHubPage() {
           <LastUpdated pathname="/faq" label="Last reviewed" className="text-sm text-gray-500" />
         </div>
       </main>
-      <Footer />
     </>
   );
 }

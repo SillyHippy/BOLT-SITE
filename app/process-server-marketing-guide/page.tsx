@@ -1424,20 +1424,20 @@ export default function ProcessServerMarketingGuidePage() {
             <div className="mb-16">
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Resources</h2>
               <div className="grid md:grid-cols-2 gap-4">
-                <Link href="/how-to-become-a-process-server-oklahoma/">
+                <Link href="/blog/become-process-server-oklahoma">
                   <Card className="hover:shadow-md transition-shadow cursor-pointer h-full">
                     <CardContent className="p-5">
-                      <h4 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
+                      <h3 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
                         <ArrowRight className="h-4 w-4 text-blue-600" />
                         How to Become a Process Server in Oklahoma
-                      </h4>
+                      </h3>
                       <p className="text-sm text-slate-600">
                         Complete guide to CLEET licensing, training requirements, and starting your career.
                       </p>
                     </CardContent>
                   </Card>
                 </Link>
-                <Link href="/process-server-equipment-guide/">
+                <Link href="/process-server-equipment-checklist">
                   <Card className="hover:shadow-md transition-shadow cursor-pointer h-full">
                     <CardContent className="p-5">
                       <h4 className="font-semibold text-slate-900 mb-2 flex items-center gap-2">
@@ -1475,7 +1475,7 @@ export default function ProcessServerMarketingGuidePage() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
-                  <Link href="/request-service/">
+                  <Link href="/contact">
                     Request Service
                   </Link>
                 </Button>

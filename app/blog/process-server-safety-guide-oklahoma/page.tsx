@@ -508,7 +508,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/skip-tracing-success-story-tulsa-case-study"
+                href="/blog/skip-tracing-oklahoma-guide"
                 className="text-blue-600 hover:underline"
               >
                 Skip Tracing Success Story: Tulsa Case Study
@@ -516,7 +516,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/common-process-serving-mistakes-oklahoma"
+                href="/process-serving-mistakes-guide"
                 className="text-blue-600 hover:underline"
               >
                 Common Process Serving Mistakes to Avoid in Oklahoma

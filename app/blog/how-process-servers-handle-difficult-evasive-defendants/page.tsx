@@ -157,7 +157,7 @@ export default function DifficultDefendantsPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we specialize in difficult serves across all 77 Oklahoma
@@ -392,7 +392,7 @@ export default function DifficultDefendantsPage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we leverage technology throughout our difficult serve
@@ -502,16 +502,16 @@ export default function DifficultDefendantsPage() {
               <a
                 href="https://justlegalsolutions.org/pricing"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our pricing structure accounts for the complexity of each case:
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Difficult Serve Pricing Options
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Triple-Attempt Service:</strong> our triple-attempt rate — Three
@@ -580,7 +580,7 @@ export default function DifficultDefendantsPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>{" "}
               at{" "}

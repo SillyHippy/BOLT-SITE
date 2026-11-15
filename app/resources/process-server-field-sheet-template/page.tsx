@@ -474,7 +474,7 @@ export default function ProcessServerFieldSheetTemplate() {
             </Link>
 
             <Link 
-              href="/services/process-serving/"
+              href="/process-serving"
               className="group bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg hover:border-blue-300 transition-all"
             >
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors">

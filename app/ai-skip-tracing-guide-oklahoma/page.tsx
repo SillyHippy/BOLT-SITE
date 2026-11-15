@@ -376,8 +376,8 @@ export default function AISkipTracingGuideOklahoma() {
             <p><strong>Specialized Tools:</strong> Brandwatch (Social Media), Esri ArcGIS (Geographic), Alphamoon AI (Document Analysis).</p>
             <h3 className="text-2xl font-semibold mt-4 mb-3">Regulatory & Compliance Resources</h3>
             <ul className="list-disc ml-6 space-y-2">
-              <li><a href="https://www.ftc.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Federal Trade Commission (FTC)</a> for FCRA compliance.</li>
-              <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Supreme Court Network (OSCN)</a> for state court rules.</li>
+              <li><a href="https://www.ftc.gov" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Federal Trade Commission (FTC)</a> for FCRA compliance.</li>
+              <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Supreme Court Network (OSCN)</a> for state court rules.</li>
               <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">National Association of Professional Process Servers (NAPPS)</a> for industry standards.</li>
             </ul>
         </section>
@@ -395,30 +395,30 @@ export default function AISkipTracingGuideOklahoma() {
               <h3 className="text-2xl font-semibold mb-3">AI & Legal Technology</h3>
               <ul className="list-disc ml-6 space-y-2 text-blue-600">
                 <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">National Association of Professional Process Servers (NAPPS)</a></li>
-                <li><a href="https://www.csail.mit.edu" target="_blank" rel="noopener noreferrer" className="hover:underline">MIT CSAIL</a></li>
-                <li><a href="https://www.computer.org" target="_blank" rel="noopener noreferrer" className="hover:underline">IEEE Computer Society</a></li>
-                <li><a href="https://www.acm.org" target="_blank" rel="noopener noreferrer" className="hover:underline">Association for Computing Machinery (ACM)</a></li>
-                <li><a href="https://www.iltanet.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">International Legal Technology Association (ILTA)</a></li>
-                <li><a href="https://www.americanbar.org/groups/departments_offices/legal_technology_resources/" target="_blank" rel="noopener noreferrer" className="hover:underline">ABA Legal Technology Resource Center</a></li>
+                <li><a href="https://www.csail.mit.edu" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">MIT CSAIL</a></li>
+                <li><a href="https://www.computer.org" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">IEEE Computer Society</a></li>
+                <li><a href="https://www.acm.org" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Association for Computing Machinery (ACM)</a></li>
+                <li><a href="https://www.iltanet.org/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">International Legal Technology Association (ILTA)</a></li>
+                <li><a href="https://www.americanbar.org/groups/departments_offices/legal_technology_resources/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">ABA Legal Technology Resource Center</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3">Government, Regulation, and Compliance</h3>
               <ul className="list-disc ml-6 space-y-2 text-blue-600">
-                <li><a href="https://www.ftc.gov/business-guidance/resources/fair-credit-reporting-act" target="_blank" rel="noopener noreferrer" className="hover:underline">Fair Credit Reporting Act (FTC)</a></li>
-                <li><a href="https://www.consumerfinance.gov/compliance/compliance-resources/" target="_blank" rel="noopener noreferrer" className="hover:underline">CFPB FCRA Resources</a></li>
-                <li><a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener noreferrer" className="hover:underline">NIST Cybersecurity Framework</a></li>
-                <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="hover:underline">Oklahoma State Courts Network (OSCN)</a></li>
-                <li><a href="https://www.sos.ok.gov" target="_blank" rel="noopener noreferrer" className="hover:underline">Oklahoma Secretary of State</a></li>
+                <li><a href="https://www.ftc.gov/business-guidance/resources/fair-credit-reporting-act" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Fair Credit Reporting Act (FTC)</a></li>
+                <li><a href="https://www.consumerfinance.gov/compliance/compliance-resources/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">CFPB FCRA Resources</a></li>
+                <li><a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">NIST Cybersecurity Framework</a></li>
+                <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Oklahoma State Courts Network (OSCN)</a></li>
+                <li><a href="https://www.sos.ok.gov" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Oklahoma Secretary of State</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-3">Key Skip Tracing Resource Articles</h3>
               <ul className="list-disc ml-6 space-y-2 text-blue-600">
-                <li><a href="https://processserver.io/the-most-effective-skip-tracing-databases-and-tools/" target="_blank" rel="noopener noreferrer" className="hover:underline">ProcessServer.io: Effective Skip Tracing Databases</a></li>
-                <li><a href="https://www.tracers.com/blog/emerging-technologies-in-skip-tracing-what-the-future-holds/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tracers: Emerging Technologies in Skip Tracing</a></li>
-                <li><a href="https://skipify.ai" target="_blank" rel="noopener noreferrer" className="hover:underline">Skipify.ai</a></li>
-                <li><a href="https://360legal.net/blog/ethical-considerations-in-skip-tracing/" target="_blank" rel="noopener noreferrer" className="hover:underline">360 Legal: Ethical Considerations</a></li>
+                <li><a href="https://processserver.io/the-most-effective-skip-tracing-databases-and-tools/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">ProcessServer.io: Effective Skip Tracing Databases</a></li>
+                <li><a href="https://www.tracers.com/blog/emerging-technologies-in-skip-tracing-what-the-future-holds/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Tracers: Emerging Technologies in Skip Tracing</a></li>
+                <li><a href="https://skipify.ai" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">Skipify.ai</a></li>
+                <li><a href="https://360legal.net/blog/ethical-considerations-in-skip-tracing/" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">360 Legal: Ethical Considerations</a></li>
               </ul>
             </div>
           </div>
@@ -430,7 +430,7 @@ export default function AISkipTracingGuideOklahoma() {
             <ul className="list-none space-y-1">
                 <li><strong>Phone:</strong> <a href="tel:5393676832" className="text-blue-700 hover:underline">(539) 367-6832</a></li>
                 <li><strong>Email:</strong> <a href="/contact" className="text-blue-700 hover:underline">info@JustLegalSolutions.org</a></li>
-                <li><strong>Website:</strong> <a href="https://justlegalsolutions.org" className="text-blue-700 hover:underline">justlegalsolutions.org</a></li>
+                <li><strong>Website:</strong> <a href="https://justlegalsolutions.org" className="text-blue-700 hover:underline" rel="nofollow noopener noreferrer">justlegalsolutions.org</a></li>
                 <li><strong>Service Area:</strong> All 77 Oklahoma Counties</li>
             </ul>
         </section>

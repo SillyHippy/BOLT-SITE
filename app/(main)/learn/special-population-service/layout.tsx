@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "Special Population Service Guide | Just Legal Solutions",
+  description: "How to serve process on military members, incarcerated individuals, minors, tribal members, businesses, and government agencies in Oklahoma.",
   alternates: {
     canonical: '/learn/special-population-service',
   },

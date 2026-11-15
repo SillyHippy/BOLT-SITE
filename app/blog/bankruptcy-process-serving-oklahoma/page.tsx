@@ -365,7 +365,7 @@ export default function BankruptcyProcessServingGuide() {
             <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-sm">
               <div className="flex items-center gap-2 mb-3">
                 <Building2 className="w-5 h-5 text-blue-600" />
-                <h4 className="font-bold text-gray-900">Northern District</h4>
+                <h3 className="font-bold text-gray-900">Northern District</h3>
               </div>
               <p className="text-sm text-gray-600 mb-2"><strong>Location:</strong> Tulsa</p>
               <p className="text-sm text-gray-600 mb-2"><strong>Counties:</strong> 26 counties in northeast Oklahoma</p>
@@ -579,14 +579,14 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <p>
-            At <Link href="/services/process-serving/">Just Legal Solutions</Link>, our licensed process servers (Licensed) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
+            At <Link href="/process-serving">Just Legal Solutions</Link>, our licensed process servers (Licensed) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
           </p>
 
           <div className="not-prose bg-green-50 border border-green-200 rounded-xl p-6 my-8">
-            <h4 className="font-bold text-green-900 mb-4 flex items-center gap-2">
+            <h3 className="font-bold text-green-900 mb-4 flex items-center gap-2">
               <Shield className="w-5 h-5" />
               Our Bankruptcy Process Serving Services
-            </h4>
+            </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <ul className="space-y-2 text-green-800">
                 <li className="flex items-start gap-2">
@@ -710,7 +710,7 @@ export default function BankruptcyProcessServingGuide() {
                 (539) 367-6832
               </a>
               <Link
-                href="/services/process-serving/"
+                href="/process-serving"
                 className="inline-flex items-center justify-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
               >
                 View Process Serving Services

@@ -241,11 +241,11 @@ export default function BlogPost() {
             brilliant in state court sometimes find themselves scrambling when a federal case gets 
             dismissed for defective service. If you want to brush up on the state side as a 
             comparison, see our guide to{' '}
-            <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">
+            <Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">
               Oklahoma&apos;s 180-day state rule
             </Link>.
             {' '}For professional support, our{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving team</Link>{' '}
+            <Link href="/process-serving" className="text-blue-600 hover:underline">process serving team</Link>{' '}
             handles both state and federal matters across all 77 Oklahoma counties.
           </p>
 
@@ -397,7 +397,7 @@ export default function BlogPost() {
             serve anywhere in Oklahoma within 24-48 hours. We understand the urgency of federal 
             deadlines and prioritize federal court service accordingly. For a refresher on how 
             different the state timeline is, read our guide to{' '}
-            <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">
+            <Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">
               understanding Oklahoma&apos;s state service deadline
             </Link>.
           </p>
@@ -598,9 +598,9 @@ export default function BlogPost() {
             Check the official court websites directly:
           </p>
           <ul>
-            <li><strong>Northern District:</strong> <a href="https://www.oknd.uscourts.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">oknd.uscourts.gov</a></li>
-            <li><strong>Western District:</strong> <a href="https://www.okwd.uscourts.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">okwd.uscourts.gov</a></li>
-            <li><strong>Eastern District:</strong> <a href="https://www.oked.uscourts.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">oked.uscourts.gov</a></li>
+            <li><strong>Northern District:</strong> <a href="https://www.oknd.uscourts.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">oknd.uscourts.gov</a></li>
+            <li><strong>Western District:</strong> <a href="https://www.okwd.uscourts.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">okwd.uscourts.gov</a></li>
+            <li><strong>Eastern District:</strong> <a href="https://www.oked.uscourts.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">oked.uscourts.gov</a></li>
           </ul>
           <p>
             If you need help navigating CM/ECF or managing filings across multiple districts, 

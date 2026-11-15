@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "Electronic Filing & E-Service in Oklahoma | Just Legal Solutions",
+  description: "A practical guide to Oklahoma's e-filing pilot program and electronic service rules under 12 O.S. § 2004.5.",
   alternates: {
     canonical: '/learn/electronic-filing-service',
   },

@@ -159,7 +159,7 @@ export default function RestrainingOrderServicePage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have served hundreds of protective orders across all 77
@@ -258,9 +258,9 @@ export default function RestrainingOrderServicePage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Protective Order Service Timeline Requirements
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Emergency Ex Parte Orders:</strong> Must be served
@@ -288,14 +288,14 @@ export default function RestrainingOrderServicePage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have structured our{" "}
               <a
                 href="https://justlegalsolutions.org/pricing"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 pricing and services
               </a>{" "}
               specifically to address these time-sensitive needs. Our same-day
@@ -518,7 +518,7 @@ export default function RestrainingOrderServicePage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we recognize that protective order service is not just another

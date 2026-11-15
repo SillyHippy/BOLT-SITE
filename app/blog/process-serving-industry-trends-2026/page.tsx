@@ -187,7 +187,7 @@ export default function BlogPost() {
             </p>
             <p>
               The practical takeaway: line up a{' '}
-              <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+              <Link href="/process-serving" className="text-blue-600 hover:underline">
                 licensed process serving partner
               </Link>{' '}
               before docket volume spikes. Coverage in all 77 counties matters when your defendant lives three hours from the nearest metro server.

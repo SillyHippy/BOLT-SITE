@@ -455,7 +455,7 @@ export default function ServingLegalPapersOklahomaGuide() {
               <p>
                 <strong>Cross-Deputization Agreements:</strong> The Chickasaw Nation maintains cross-deputization agreements with Elmore City Police Department (effective 8/9/2021), multiple school districts and municipalities, and updated agreements with District Attorney offices across their jurisdictional area.
               </p>
-              <p>Website: <a href="https://www.chickasaw.net" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">chickasaw.net ↗</a></p>
+              <p>Website: <a href="https://www.chickasaw.net" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">chickasaw.net ↗</a></p>
             </div>
 
             <h3 className="text-2xl font-semibold">E. Serving Papers in the Osage Nation</h3>
@@ -474,7 +474,7 @@ export default function ServingLegalPapersOklahomaGuide() {
               <p>
                 <strong>Cross-Deputization Agreements:</strong> The Osage Nation maintains tobacco tax compact amendments (effective 1/30/2025) and law enforcement cooperative agreements with state agencies.
               </p>
-              <p>Website: <a href="https://www.osagenation-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">osagenation-nsn.gov ↗</a></p>
+              <p>Website: <a href="https://www.osagenation-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">osagenation-nsn.gov ↗</a></p>
             </div>
 
             <h3 className="text-2xl font-semibold">F. Serving Papers in the Seminole Nation</h3>
@@ -494,7 +494,7 @@ export default function ServingLegalPapersOklahomaGuide() {
               <p>
                 <strong>Cross-Deputization Agreements:</strong> The Seminole Nation has a state addendum to deputation agreement (effective 11/29/2021) and tobacco tax compact amendments (1/3/2025 and 4/18/2025).
               </p>
-              <p>Website: <a href="https://www.sno-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">sno-nsn.gov ↗</a></p>
+              <p>Website: <a href="https://www.sno-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">sno-nsn.gov ↗</a></p>
             </div>
 
             <h3 className="text-2xl font-semibold">G. Serving Papers in the Quapaw Nation</h3>
@@ -515,7 +515,7 @@ export default function ServingLegalPapersOklahomaGuide() {
               <p>
                 <strong>Cross-Deputization Agreements:</strong> Cross-deputization agreement (effective 3/1/2022), law enforcement agreements with Oklahoma Highway Patrol (1/28/2022), and certificate of approval with City of Commerce (12/30/2024).
               </p>
-              <p>Website: <a href="https://www.quapawtribe.com" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">quapawtribe.com ↗</a></p>
+              <p>Website: <a href="https://www.quapawtribe.com" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">quapawtribe.com ↗</a></p>
             </div>
           </div>
 
@@ -702,7 +702,7 @@ export default function ServingLegalPapersOklahomaGuide() {
           <h3 className="text-2xl font-semibold">Legal Statutes and Court Rules</h3>
           <ul className="list-disc ml-6 space-y-2">
             <li>
-              <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Oklahoma Rules of Civil Procedure, Title 12, Oklahoma Statutes (OSCN) ↗</a>
+              <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Rules of Civil Procedure, Title 12, Oklahoma Statutes (OSCN) ↗</a>
             </li>
             <li>Rules for District Courts of Oklahoma, Rule 30. Standards for Recognition of Judicial Proceedings in Tribal Courts.</li>
             <li>Choctaw Nation Code of Civil Procedure.</li>
@@ -718,7 +718,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                     href="https://www.cherokeecourts.org/"
                     className="text-blue-700 underline"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     https://www.cherokeecourts.org/
                   </a>
@@ -735,7 +735,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                     href="https://creekdistrictcourt.com/"
                     className="text-blue-700 underline"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     https://creekdistrictcourt.com/
                   </a>
@@ -746,7 +746,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                     href="https://creeksupremecourt.com/"
                     className="text-blue-700 underline"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     https://creeksupremecourt.com/
                   </a>
@@ -757,7 +757,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                     href="https://law.muscogeenation.com/"
                     className="text-blue-700 underline"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     https://law.muscogeenation.com/
                   </a>
@@ -773,7 +773,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                     href="https://www.choctawnationcourt.com/"
                     className="text-blue-700 underline"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                   >
                     https://www.choctawnationcourt.com/
                   </a>
@@ -791,7 +791,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                 href="https://www.narf.org/nill/triballaw/"
                 className="text-blue-700 underline"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
               >
                 https://www.narf.org/nill/triballaw/
               </a>
@@ -802,7 +802,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                 href="https://thorpe.law.ou.edu/"
                 className="text-blue-700 underline"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
               >
                 https://thorpe.law.ou.edu/
               </a>
@@ -875,10 +875,10 @@ export default function ServingLegalPapersOklahomaGuide() {
                 <a href="https://www.napps.org" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">→ NAPPS — National Association of Professional Process Servers ↗</a>
               </li>
               <li>
-                <a href="https://www.okbar.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ Oklahoma Bar Association — Attorney Referral ↗</a>
+                <a href="https://www.okbar.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">→ Oklahoma Bar Association — Attorney Referral ↗</a>
               </li>
               <li>
-                <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ Oklahoma Civil Procedure — Title 12, Oklahoma Statutes (OSCN) ↗</a>
+                <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">→ Oklahoma Civil Procedure — Title 12, Oklahoma Statutes (OSCN) ↗</a>
               </li>
             </ul>
           </div>

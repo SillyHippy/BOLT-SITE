@@ -183,7 +183,7 @@ export default function OklahomaCourthouseDirectoryPage() {
             <div>
               <p className="font-bold text-gray-900">Online Case Research</p>
               <p className="text-gray-600">All Oklahoma court records available at{' '}
-                <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">oscn.net</a>
+                <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">oscn.net</a>
               </p>
             </div>
           </div>
@@ -291,10 +291,10 @@ export default function OklahomaCourthouseDirectoryPage() {
             <div className="bg-white border border-gray-200 rounded-xl p-5">
               <h3 className="font-bold text-gray-900 mb-2">💻 Online Resources</h3>
               <ul className="space-y-1">
-                <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN.net — Case Search</a></li>
-                <li><a href="https://efile.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma eFiling</a></li>
-                <li><a href="https://www.oscn.net/static/forms/index.asp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Court Forms Library</a></li>
-                <li><a href="https://www.oscn.net/applications/oscn/findAppeals.asp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Appellate Courts</a></li>
+                <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">OSCN.net — Case Search</a></li>
+                <li><a href="https://efile.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma eFiling</a></li>
+                <li><a href="https://www.oscn.net/static/forms/index.asp" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Court Forms Library</a></li>
+                <li><a href="https://www.oscn.net/applications/oscn/findAppeals.asp" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Appellate Courts</a></li>
               </ul>
             </div>
           </div>

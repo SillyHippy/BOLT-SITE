@@ -211,7 +211,7 @@ export default function JailNotaryPage() {
                   return (
                     <div key={item.title} className="bg-white/10 backdrop-blur-lg rounded-2xl p-5 border border-white/10">
                       <Icon className="w-8 h-8 text-purple-200 mb-3" />
-                      <h3 className="text-lg font-semibold">{item.title}</h3>
+                      <h2 className="text-lg font-semibold">{item.title}</h2>
                       <p className="text-sm text-indigo-100">{item.desc}</p>
                     </div>
                   );

@@ -365,7 +365,7 @@ export default function CanYouAvoidBeingServedOklahoma() {
             <ul>
               <li><strong><Link href="/blog/oklahoma-default-judgment-guide" className="text-blue-600 hover:underline">Oklahoma Default Judgment Guide</Link></strong> &mdash; Learn what default judgments are, how they happen, and what you can do if one is entered against you.</li>
               <li><strong><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services</Link></strong> &mdash; Discover how professional process servers locate hard-to-find defendants using advanced investigative techniques.</li>
-              <li><strong><Link href="/substitute-service-oklahoma" className="text-blue-600 hover:underline">Substitute Service in Oklahoma</Link></strong> &mdash; Understand when and how papers can be left with someone else at your residence.</li>
+              <li><strong><Link href="/blog/substitute-service-oklahoma" className="text-blue-600 hover:underline">Substitute Service in Oklahoma</Link></strong> &mdash; Understand when and how papers can be left with someone else at your residence.</li>
               <li><strong><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link></strong> &mdash; Get answers to common questions about process serving in Oklahoma.</li>
             </ul>
 
@@ -398,7 +398,7 @@ export default function CanYouAvoidBeingServedOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Skip Tracing Services</span>
                 <p className="text-sm text-gray-600 mt-1"> — Discover how professional process servers locate hard-to-find defendants using advanced investigative techniques.</p>
               </Link>
-              <Link href="/substitute-service-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/blog/substitute-service-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Substitute Service in Oklahoma</span>
                 <p className="text-sm text-gray-600 mt-1"> — Understand when and how papers can be left with someone else at your residence.</p>
               </Link>

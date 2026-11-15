@@ -353,7 +353,7 @@ export default function MobileVsBankPage() {
             Meet Your Notary <ArrowRight size={16} />
           </Link>
           <span className="text-gray-400">|</span>
-          <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
+          <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline inline-flex items-center gap-1">
             OK Notary Commission Lookup <ExternalLink size={14} />
           </a>
         </div>

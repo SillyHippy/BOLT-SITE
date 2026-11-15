@@ -283,7 +283,7 @@ export default function ImmigrationDocumentNotaryPage() {
             {heroHighlights.map((item) => (
               <div key={item.title} className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 text-center">
                 <item.icon className="w-8 h-8 text-blue-300 mx-auto mb-3" />
-                <h3 className="font-bold text-lg mb-1">{item.title}</h3>
+                <h2 className="font-bold text-lg mb-1">{item.title}</h2>
                 <p className="text-blue-200 text-sm">{item.desc}</p>
               </div>
             ))}
@@ -718,7 +718,7 @@ export default function ImmigrationDocumentNotaryPage() {
             ))}
           </div>
           <div className="mt-8 text-center text-sm text-gray-500">
-            <p>Need legal immigration advice? Visit the <a href="https://www.uscis.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">USCIS website</a> or find a licensed immigration attorney through the <a href="https://www.ailalawyer.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">American Immigration Lawyers Association</a>.</p>
+            <p>Need legal immigration advice? Visit the <a href="https://www.uscis.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">USCIS website</a> or find a licensed immigration attorney through the <a href="https://www.ailalawyer.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">American Immigration Lawyers Association</a>.</p>
           </div>
         </div>
       </section>

@@ -216,7 +216,7 @@ export default function BlogPost() {
             deposition notices. A single bad faith case might require service on a claims examiner
             in Tulsa, a supervisor in Oklahoma City, and an underwriting manager in Lawton — all
             within a compressed discovery window. That is where experienced{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+            <Link href="/process-serving" className="text-blue-600 hover:underline">
               process serving
             </Link>{' '}
             becomes essential.
@@ -295,7 +295,7 @@ export default function BlogPost() {
 
           <p>
             Working with{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+            <Link href="/process-serving" className="text-blue-600 hover:underline">
               licensed process servers who understand Oklahoma's insurance service rules
             </Link>{' '}
             can save you from these costly mistakes. Under <strong>12 O.S. § 158.1</strong>, any
@@ -347,7 +347,7 @@ export default function BlogPost() {
           <p>
             Timing matters in every one of these.{' '}
             <Link
-              href="/blog/oklahoma-180-day-rule-service-process-explained"
+              href="/blog/oklahoma-180-day-rule-service-process"
               className="text-blue-600 hover:underline"
             >
               Oklahoma's 180-day service rule
@@ -498,7 +498,7 @@ export default function BlogPost() {
 
           <p>
             At Just Legal Solutions, our{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+            <Link href="/process-serving" className="text-blue-600 hover:underline">
               experienced process servers for complex insurance litigation statewide
             </Link>{' '}
             use GPS-tracked attempts, timestamped photographs, and detailed affidavits to document
@@ -525,7 +525,7 @@ export default function BlogPost() {
               attempts and real-time status updates.
             </p>
             <Link
-              href="/services/process-serving"
+              href="/process-serving"
               className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
             >
               Learn About Our Process Serving
@@ -681,7 +681,7 @@ export default function BlogPost() {
             least seven days for records production, and verify whether you are dealing with a
             domestic or foreign insurer before choosing your service method. With these rules in
             mind, and with experienced{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+            <Link href="/process-serving" className="text-blue-600 hover:underline">
               licensed process servers
             </Link>{' '}
             handling your assignments, you can navigate Oklahoma insurance litigation with

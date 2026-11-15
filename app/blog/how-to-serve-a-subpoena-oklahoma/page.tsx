@@ -187,7 +187,7 @@ export default function HowToServeSubpoenaOklahoma() {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">
-              <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Subpoena Service at a Glance</h3>
+              <h2 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Subpoena Service at a Glance</h2>
               <ul className="text-blue-800 space-y-1 mt-2">
                 <li>• Personal service is the preferred and most legally secure method under <strong>12 O.S. § 2004</strong></li>
                 <li>• Witness fees and mileage must be tendered <strong>at the time of service</strong></li>
@@ -254,7 +254,7 @@ export default function HowToServeSubpoenaOklahoma() {
 
             <h2>Service Requirements Under 12 O.S. § 2004</h2>
             <p>
-              Oklahoma&apos;s civil procedure statute, 12 O.S. § 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer">view full statute on OSCN</a>), governs how legal process — including subpoenas — must be served. While subpoenas have their own specific rules within the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer">Oklahoma Rules of Civil Procedure</a>, the core requirements of proper service align with the general civil procedure standards. Understanding these standards before dispatching a process server ensures that the service accomplished is legally enforceable and cannot be challenged on procedural grounds.
+              Oklahoma&apos;s civil procedure statute, 12 O.S. § 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow">view full statute on OSCN</a>), governs how legal process — including subpoenas — must be served. While subpoenas have their own specific rules within the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Rules of Civil Procedure</a>, the core requirements of proper service align with the general civil procedure standards. Understanding these standards before dispatching a process server ensures that the service accomplished is legally enforceable and cannot be challenged on procedural grounds.
             </p>
 
             <h3>Personal Service: The Preferred Method</h3>
@@ -371,7 +371,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li>Court costs and attorney fees imposed on the non-compliant party</li>
             </ul>
             <p>
-              Courts take subpoena compliance seriously because the entire system of civil and criminal justice depends on witnesses and evidence being available when needed. For information about how Oklahoma handles refusal to accept legal process, see our guide on what happens if someone refuses service. If you have received a subpoena and have concerns about compliance, consult an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer">Oklahoma attorney</a> immediately — do not simply ignore it.
+              Courts take subpoena compliance seriously because the entire system of civil and criminal justice depends on witnesses and evidence being available when needed. For information about how Oklahoma handles refusal to accept legal process, see our guide on what happens if someone refuses service. If you have received a subpoena and have concerns about compliance, consult an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma attorney</a> immediately — do not simply ignore it.
             </p>
             <p>
               For professional, documented subpoena service across Oklahoma, contact Just Legal Solutions&apos; subpoena service team or visit our process serving page to learn more about our capabilities.

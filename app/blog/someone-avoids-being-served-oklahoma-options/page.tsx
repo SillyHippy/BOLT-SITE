@@ -503,7 +503,7 @@ export default function BlogPost() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>
               <Link
-                href="/blog/common-process-serving-mistakes-oklahoma"
+                href="/process-serving-mistakes-guide"
                 className="text-blue-600 hover:underline"
               >
                 Common Process Serving Mistakes to Avoid in Oklahoma

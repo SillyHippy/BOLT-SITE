@@ -281,7 +281,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><Link href="/blog/complete-guide-to-hiring-process-server-oklahoma" className="text-blue-600 hover:underline">The Complete Guide to Hiring a Process Server in Oklahoma</Link></li>
-            <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">10 Common Process Serving Mistakes That Can Ruin Your Case</Link></li>
+            <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">10 Common Process Serving Mistakes That Can Ruin Your Case</Link></li>
             <li><Link href="/blog/rush-same-day-process-serving-importance" className="text-blue-600 hover:underline">Why Rush and Same-Day Process Serving Matters for Your Case</Link></li>
             <li><Link href="/blog/standard-vs-rush-vs-same-day-process-serving" className="text-blue-600 hover:underline">Standard vs Rush vs Same-Day Process Serving: What's the Difference?</Link></li>
           </ul>

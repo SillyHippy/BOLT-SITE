@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "VPO & Protective Order Service in Oklahoma | Just Legal Solutions",
+  description: "Learn how Victim Protective Orders are filed, served, and enforced in Oklahoma. Covers the 24-hour priority service rule, the service process, what happens",
   alternates: {
     canonical: '/learn/vpo-protective-order-service',
   },

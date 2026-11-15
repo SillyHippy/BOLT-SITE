@@ -80,7 +80,7 @@ export default function OklahomaCaseLawServiceProcess() {
         {/* Disclaimer */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8 rounded-r-lg">
           <p className="text-sm text-yellow-800 font-medium">
-            <strong>DISCLAIMER:</strong> This is an educational summary, not legal advice. Always read the full opinion on <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN</a> or consult a licensed attorney before relying on any case law for your specific matter. Case holdings should be verified against the original text; summaries below are simplified for general understanding.
+            <strong>DISCLAIMER:</strong> This is an educational summary, not legal advice. Always read the full opinion on <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">OSCN</a> or consult a licensed attorney before relying on any case law for your specific matter. Case holdings should be verified against the original text; summaries below are simplified for general understanding.
           </p>
         </div>
 

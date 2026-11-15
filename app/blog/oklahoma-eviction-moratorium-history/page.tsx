@@ -282,7 +282,7 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
             <p><strong>Legal Aid Services of Oklahoma</strong></p>
             <ul>
               <li>Phone: (888) 534-5243</li>
-              <li>Website: <a href="https://legalaidok.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">legalaidok.org</a></li>
+              <li>Website: <a href="https://legalaidok.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">legalaidok.org</a></li>
               <li>Serves low-income Oklahomans statewide</li>
             </ul>
             <p><strong>OCU Housing Eviction Legal Assistance Program (HELP)</strong></p>

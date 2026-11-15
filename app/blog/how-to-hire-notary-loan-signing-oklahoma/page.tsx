@@ -162,7 +162,7 @@ export default function HireLoanSigningNotaryPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our certified signing agents have handled thousands of loan
@@ -209,9 +209,9 @@ export default function HireLoanSigningNotaryPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 What a Loan Signing Agent Does
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Verifies borrower identity:</strong> Confirms all
@@ -271,7 +271,7 @@ export default function HireLoanSigningNotaryPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , every loan signing agent on our team holds current NNA
@@ -374,9 +374,9 @@ export default function HireLoanSigningNotaryPage() {
             </p>
 
             <div className="bg-blue-50 rounded-lg p-6 my-6 border border-blue-100">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Step-by-Step: The Loan Signing Process
-              </h4>
+              </h3>
               <ol className="space-y-3 text-gray-700 list-decimal pl-5">
                 <li>
                   <strong>Preparation:</strong> The signing agent receives
@@ -554,7 +554,7 @@ export default function HireLoanSigningNotaryPage() {
               <a
                 href="https://justlegalsolutions.org/contact"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 schedule online
               </a>{" "}
               for a free quote. Whether you need a single signing or a

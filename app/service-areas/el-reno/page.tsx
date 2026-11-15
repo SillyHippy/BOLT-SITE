@@ -210,15 +210,15 @@ export default function ElRenoProcessServerPage() {
               <h3 className="font-semibold text-blue-700">Oklahoma City →</h3>
               <p className="text-gray-600 text-sm mt-1">25 miles east via I-40. State capital and Oklahoma County seat.</p>
             </Link>
-            <Link href="/service-areas/calumet" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Calumet →</h3>
               <p className="text-gray-600 text-sm mt-1">15 miles west. Small Canadian County community.</p>
             </Link>
-            <Link href="/service-areas/geary" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Geary →</h3>
               <p className="text-gray-600 text-sm mt-1">20 miles west. Rural community in Blaine County.</p>
             </Link>
-            <Link href="/service-areas/union-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+            <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
               <h3 className="font-semibold text-blue-700">Union City →</h3>
               <p className="text-gray-600 text-sm mt-1">10 miles south. Small community on Highway 81.</p>
             </Link>

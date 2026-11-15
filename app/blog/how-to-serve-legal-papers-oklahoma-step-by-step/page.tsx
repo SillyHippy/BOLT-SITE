@@ -147,7 +147,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><Link href="/blog/complete-guide-to-hiring-process-server-oklahoma" className="text-blue-600 hover:underline">The Complete Guide to Hiring a Process Server in Oklahoma (2026)</Link></li>
-            <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
+            <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
             <li><Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">Understanding Oklahoma&apos;s 180-Day Rule for Service of Process</Link></li>
             <li><Link href="/blog/someone-avoids-being-served-oklahoma-options" className="text-blue-600 hover:underline">What to Do When Someone Avoids Being Served in Oklahoma</Link></li>
           </ul>

@@ -308,28 +308,28 @@ export default function FutureOfProcessServingPage() {
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.oscn.net/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">Oklahoma Supreme Court Network (OSCN)</a>
+                <a href="https://www.oscn.net/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">Oklahoma Supreme Court Network (OSCN)</a>
                 <p className="text-sm text-text-muted">Monitor court rule changes, e-filing updates, and district court notices.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.ok.gov/cleet/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">CLEET</a>
+                <a href="https://www.ok.gov/cleet/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">CLEET</a>
                 <p className="text-sm text-text-muted">Follow training requirements, certification updates, and safety standards.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.napps.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">NAPPS</a>
+                <a href="https://www.napps.org/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">NAPPS</a>
                 <p className="text-sm text-text-muted">Stay current on national industry trends, consolidation news, and best practices. Joseph Iannazzi of Just Legal Solutions is NAPPS member #14801.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://oklegislature.gov/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">Oklahoma Legislature</a>
+                <a href="https://oklegislature.gov/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">Oklahoma Legislature</a>
                 <p className="text-sm text-text-muted">Track bills affecting process servers, electronic service rules, and court administration.</p>
               </div>
             </div>

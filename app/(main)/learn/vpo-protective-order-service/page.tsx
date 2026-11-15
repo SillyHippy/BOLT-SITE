@@ -220,7 +220,7 @@ export default function VPOProtectiveOrderServicePage() {
               <a
                 href="https://www.ocadvsa.org"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="underline text-navy hover:text-gold"
               >
                 www.ocadvsa.org

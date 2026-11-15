@@ -283,28 +283,28 @@ export default function BecomeProcessServerPage() {
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.ok.gov/cleet/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">CLEET (Council on Law Enforcement Education and Training)</a>
+                <a href="https://www.ok.gov/cleet/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">CLEET (Council on Law Enforcement Education and Training)</a>
                 <p className="text-sm text-text-muted">Find approved training courses, certification details, and law enforcement education resources.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.oscn.net/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">OSCN (Oklahoma Supreme Court Network)</a>
+                <a href="https://www.oscn.net/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">OSCN (Oklahoma Supreme Court Network)</a>
                 <p className="text-sm text-text-muted">Access court forms, rules, case records, and district court contact information.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://www.napps.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">NAPPS (National Association of Professional Process Servers)</a>
+                <a href="https://www.napps.org/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">NAPPS (National Association of Professional Process Servers)</a>
                 <p className="text-sm text-text-muted">Join the national professional association, access industry resources, and network with other servers. Joseph Iannazzi, owner of Just Legal Solutions, is NAPPS member #14801.</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <span className="text-gold font-bold text-lg">&rarr;</span>
               <div>
-                <a href="https://oklegislature.gov/" target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold">Oklahoma Legislature</a>
+                <a href="https://oklegislature.gov/" target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-navy hover:text-gold">Oklahoma Legislature</a>
                 <p className="text-sm text-text-muted">Read the full text of HB 1162 and other laws that affect process servers in Oklahoma.</p>
               </div>
             </div>

@@ -362,7 +362,7 @@ export default function SubstituteServiceOklahoma() {
               <li>Argument that the method will provide actual notice</li>
             </ul>
             <p><strong>Step 3: File with the Court</strong></p>
-            <p>Submit your motion to the district court clerk where the case is pending. In Tulsa County, this means filing at the Tulsa County District Court, or through the <a href="https://efile.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN e-filing system</a>.</p>
+            <p>Submit your motion to the district court clerk where the case is pending. In Tulsa County, this means filing at the Tulsa County District Court, or through the <a href="https://efile.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">OSCN e-filing system</a>.</p>
             <p><strong>Step 4: Proposed Order</strong></p>
             <p>Include a proposed order for the judge to sign, granting permission for the specific substitute service method requested.</p>
             <p><strong>Step 5: Serve the Motion</strong></p>
@@ -463,7 +463,7 @@ export default function SubstituteServiceOklahoma() {
               <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about process serving</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Tulsa Process Server Services</Link> &mdash; Same-day service throughout Tulsa County</li>
             </ul>
-            <p>For the complete text of Oklahoma&apos;s service of process statutes, visit the <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma State Courts Network</a>.</p>
+            <p>For the complete text of Oklahoma&apos;s service of process statutes, visit the <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma State Courts Network</a>.</p>
             <p>Substitute service requires careful attention to legal details. One mistake in documentation or procedure can delay your case or give the defendant grounds to challenge service.</p>
             <p>At <strong>Just Legal Solutions</strong>, we specialize in legally compliant substitute service throughout Oklahoma. Our licensed process servers understand the nuances of 12 O.S. § 2004 and ensure every service is documented to withstand court scrutiny.</p>
             <p><strong>What we offer:</strong></p>

@@ -122,7 +122,7 @@ export default function OklahomaNotarizationRequirementsPage() {
                       <FileCheck className="w-6 h-6 text-yellow-400" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-gray-900">Guide Topics</h3>
+                      <h2 className="font-bold text-gray-900">Guide Topics</h2>
                       <p className="text-sm text-gray-500">Official SOS Reference</p>
                     </div>
                   </div>
@@ -310,7 +310,7 @@ export default function OklahomaNotarizationRequirementsPage() {
                     <FileCheck className="w-5 h-5 text-blue-700" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900 mb-1">Oklahoma Notaries Public</h4>
+                    <h3 className="font-bold text-gray-900 mb-1">Oklahoma Notaries Public</h3>
                     <p className="text-gray-600">
                       Keep this handy reference at your desk or in your mobile notary kit 
                       for quick access to requirements and procedures.
@@ -376,7 +376,7 @@ export default function OklahomaNotarizationRequirementsPage() {
             The Secretary of State publishes the current guide. Open the official PDF directly; no email required.
           </p>
           <a
-            href="https://sos.ok.gov/forms/notary/NotaryPublicGuide.pdf" target="_blank" rel="noopener noreferrer"
+            href="https://sos.ok.gov/forms/notary/NotaryPublicGuide.pdf" target="_blank" rel="noopener noreferrer nofollow"
             className="inline-flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg transition-colors text-lg"
           >
             <Download className="w-5 h-5" />

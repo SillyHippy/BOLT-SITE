@@ -149,7 +149,7 @@ export default function BlogPost() {
           <p className="mb-4"><strong>Mistake 3: Providing incomplete information.</strong> The more details you provide about the person being served, the higher your success rate. Include physical descriptions, vehicle information, work schedules, and any other intelligence that might help locate them.</p>
           <p className="mb-4"><strong>Mistake 4: Waiting too long to hire.</strong> Remember the <Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">180-day rule under 12 O.S. 2004</Link>. If you wait until the last minute to hire a process server, you risk running out of time. Hire early to allow for multiple attempts if needed.</p>
           <p className="mb-4"><strong>Mistake 5: Not asking about GPS verification.</strong> In today\'s legal environment, GPS-verified proof of service is the gold standard. Do not settle for handwritten notes or unverified claims about where and when service occurred.</p>
-          <p className="mb-4">For more details on avoiding these and other pitfalls, see our article on <Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">common process serving mistakes in Oklahoma</Link>.</p>
+          <p className="mb-4">For more details on avoiding these and other pitfalls, see our article on <Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">common process serving mistakes in Oklahoma</Link>.</p>
         </section>
 
         {/* RELATED ARTICLES */}
@@ -157,7 +157,7 @@ export default function BlogPost() {
           <h2 className="text-2xl font-semibold mb-4">Related Articles</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><Link href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step" className="text-blue-600 hover:underline">How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma</Link></li>
-            <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
+            <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
             <li><Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">Understanding Oklahoma&apos;s 180-Day Rule for Service of Process</Link></li>
             <li><Link href="/blog/process-server-vs-sheriff-oklahoma" className="text-blue-600 hover:underline">Process Server vs. Sheriff: Which Is Better in Oklahoma?</Link></li>
           </ul>

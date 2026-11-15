@@ -156,7 +156,7 @@ export default function NotaryVsLawyerPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we field calls from clients who ask us to "explain what this
@@ -465,7 +465,7 @@ export default function NotaryVsLawyerPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our notaries are trained to recognize the boundary between
@@ -487,9 +487,9 @@ export default function NotaryVsLawyerPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Situations Requiring a Notary
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>Notarizing a signature on a deed or mortgage</li>
                 <li>Swearing to an affidavit's truthfulness</li>
@@ -587,7 +587,7 @@ export default function NotaryVsLawyerPage() {
               <a
                 href="https://justlegalsolutions.org/contact"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 schedule online
               </a>
               . If your needs require legal advice, we will be happy to refer

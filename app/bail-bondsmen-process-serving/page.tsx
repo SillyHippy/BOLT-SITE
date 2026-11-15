@@ -303,7 +303,7 @@ export default function BailBondsmenProcessServingPage() {
               <a
                 href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=85268"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="text-rose-700 hover:text-rose-800 underline"
               >
                 59 O.S. § 1332

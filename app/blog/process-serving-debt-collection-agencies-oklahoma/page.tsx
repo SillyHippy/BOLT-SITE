@@ -240,7 +240,7 @@ export default function BlogPost() {
             service workflow involves crossing your fingers and hoping the
             sheriff gets there in time, it may be time to{' '}
             <Link
-              href="/services/process-serving"
+              href="/process-serving"
               className="text-blue-600 hover:underline"
             >
               look at a more reliable solution
@@ -326,7 +326,7 @@ export default function BlogPost() {
             you to the courthouse door and the Oklahoma statutes that govern
             how papers must be delivered once you file.{' '}
             <Link
-              href="/blog/oklahoma-180-day-rule-service-process-explained"
+              href="/blog/oklahoma-180-day-rule-service-process"
               className="text-blue-600 hover:underline"
             >
               Learn more about Oklahoma's service rules in our 180-day rule
@@ -488,7 +488,7 @@ export default function BlogPost() {
           <p>
             For debt collection agencies serving defendants across the state,{' '}
             <Link
-              href="/services/process-serving"
+              href="/process-serving"
               className="text-blue-600 hover:underline"
             >
               working with a process serving partner who covers all 77
@@ -676,7 +676,7 @@ export default function BlogPost() {
             Ready to switch from sheriff service to a faster, more reliable
             option?{' '}
             <Link
-              href="/services/process-serving"
+              href="/process-serving"
               className="text-blue-600 hover:underline"
             >
               View our process serving solutions

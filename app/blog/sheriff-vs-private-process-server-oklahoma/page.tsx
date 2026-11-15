@@ -739,7 +739,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
             </div>
             <p>Learn more about process serving in Oklahoma with these helpful guides:</p>
             <ul>
-              <li><strong><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></strong> – Detailed breakdown of costs across Oklahoma counties and service types</li>
+              <li><strong><Link href="/pricing" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></strong> – Detailed breakdown of costs across Oklahoma counties and service types</li>
               <li><strong><Link href="/same-day-process-server" className="text-blue-600 hover:underline">Same-Day Process Server Services</Link></strong> – When you need documents served urgently in Tulsa and surrounding areas</li>
               <li><strong><Link href="/pricing" className="text-blue-600 hover:underline">How Much Does a Process Server Cost in Oklahoma?</Link></strong> – Transparent pricing for all service levels with no hidden fees</li>
               <li><strong><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link></strong> – Answers to common questions about process serving requirements and procedures</li>
@@ -777,7 +777,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $40</span>
                 <p className="text-sm text-gray-600 mt-1"> – Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
-              <Link href="/oklahoma-process-serving-costs-comparison" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Pricing Guide</span>
                 <p className="text-sm text-gray-600 mt-1"> – Detailed breakdown of costs across Oklahoma counties and service types</p>
               </Link>

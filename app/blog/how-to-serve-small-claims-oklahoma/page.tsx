@@ -187,7 +187,7 @@ export default function HowToServeSmallClaimsOklahoma() {
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">
-              <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Small Claims: Key Numbers to Know</h3>
+              <h2 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Small Claims: Key Numbers to Know</h2>
               <ul className="text-blue-800 space-y-1 mt-2">
                 <li>• Jurisdictional limit: <strong>$10,000</strong> in claimed damages</li>
                 <li>• Hearing typically scheduled: <strong>30–60 days</strong> after service of defendant</li>
@@ -230,10 +230,10 @@ export default function HowToServeSmallClaimsOklahoma() {
               <li>The injury or damage occurred</li>
             </ul>
             <p>
-              Filing in the wrong county can result in the case being transferred or dismissed on a motion by the defendant. Take time before filing to confirm the proper venue. When in doubt, contact the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer">district court clerk&apos;s office</a> for guidance — clerks can tell you whether a case is properly filed in their court without providing legal advice.
+              Filing in the wrong county can result in the case being transferred or dismissed on a motion by the defendant. Take time before filing to confirm the proper venue. When in doubt, contact the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">district court clerk&apos;s office</a> for guidance — clerks can tell you whether a case is properly filed in their court without providing legal advice.
             </p>
             <p>
-              When you file, the court clerk will collect your filing fee (which varies by county and claim amount) and issue a summons and notice of the hearing date. This summons, along with a copy of your petition, is what must be served on the defendant. Keep copies of everything you file — you will need them for the hearing. Our courthouse filing services can assist with court filings at the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts.
+              When you file, the court clerk will collect your filing fee (which varies by county and claim amount) and issue a summons and notice of the hearing date. This summons, along with a copy of your petition, is what must be served on the defendant. Keep copies of everything you file — you will need them for the hearing. Our courthouse filing services can assist with court filings at the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow">Tulsa County Court Clerk</a> and other Oklahoma district courts.
             </p>
 
             <h2>Service Methods Allowed for Small Claims in Oklahoma</h2>

@@ -578,7 +578,7 @@ export default function OklahomaProcessServingStatistics2026() {
             </div>
             <p>
               See also our <Link href="/process-server-vs-sheriff">process server vs. sheriff</Link>{' '}
-              comparison and our <Link href="/oklahoma-process-serving-costs-comparison">full costs comparison guide</Link>.
+              comparison and our <Link href="/pricing">full costs comparison guide</Link>.
             </p>
 
             {/* County-by-County Coverage */}
@@ -650,7 +650,7 @@ export default function OklahomaProcessServingStatistics2026() {
                 in Oklahoma.
               </li>
               <li>
-                Statutory references under <a href="https://www.oscn.net/applications/oscn/Index.asp?ftdb=statutes&level=1&id=12">Title 12 O.S. § 2004</a>{' '}
+                Statutory references under <a href="https://www.oscn.net/applications/oscn/Index.asp?ftdb=statutes&level=1&id=12" rel="nofollow noopener noreferrer">Title 12 O.S. § 2004</a>{' '}
                 and 12 O.S. § 158.1.
               </li>
             </ul>

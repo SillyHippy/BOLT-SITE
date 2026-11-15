@@ -734,7 +734,7 @@ export default function JosephCredentialsPage() {
             <div className="text-center mt-8">
               <p className="text-gray-600 mb-2">Verify Credentials:</p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                   Oklahoma Secretary of State ↗
                 </a>
                 <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">

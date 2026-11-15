@@ -152,7 +152,7 @@ export default function BecomeProcessServerOklahoma2026() {
             <p>This comprehensive guide walks you through everything you need to know about becoming a licensed process server in Oklahoma in 2026&mdash;from eligibility requirements and licensing costs to what the day-to-day work actually looks like.</p>
 
             <h2>Do You Need a License to Be a Process Server in Oklahoma?</h2>
-            <p><strong>Yes, Oklahoma requires all private process servers to be licensed.</strong> Under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12&level=1" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, any person who serves legal documents for compensation must obtain a license through the district court system. Operating as an unlicensed process server is a misdemeanor offense in Oklahoma.</p>
+            <p><strong>Yes, Oklahoma requires all private process servers to be licensed.</strong> Under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12&level=1" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, any person who serves legal documents for compensation must obtain a license through the district court system. Operating as an unlicensed process server is a misdemeanor offense in Oklahoma.</p>
 
             <h3>Who Can Serve Process in Oklahoma?</h3>
             <p>Oklahoma law allows service of process to be performed by three categories of individuals:</p>
@@ -363,7 +363,7 @@ export default function BecomeProcessServerOklahoma2026() {
             <h3>Self-Study Resources</h3>
             <p>If you prefer to learn independently, study these resources:</p>
             <ul>
-              <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12&level=1" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Statutes Title 12 (Civil Procedure)</a></li>
+              <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12&level=1" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Statutes Title 12 (Civil Procedure)</a></li>
               <li>12 O.S. § 2004 (Service of Process)</li>
               <li>12 O.S. § 158.1 (Process Server Licensing)</li>
               <li>Local court rules for your county</li>

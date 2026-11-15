@@ -460,7 +460,7 @@ export default function BlogPost() {
 
           {/* End-article CTA */}
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 my-10 text-center">
-            <h4 className="text-xl font-semibold text-blue-900 mb-3">Oklahoma Patent Documents Deserve a Notary Who Understands IP</h4>
+            <h3 className="text-xl font-semibold text-blue-900 mb-3">Oklahoma Patent Documents Deserve a Notary Who Understands IP</h3>
             <p className="text-blue-800 mb-6 max-w-2xl mx-auto">
               Just Legal Solutions brings years of experience notarizing patent documents for Oklahoma inventors, startups, and university tech transfer offices. From inventor oaths to patent assignments, apostille services for foreign filings to remote online notarization — we provide professional, licensed support across all 77 Oklahoma counties.
             </p>
