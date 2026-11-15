@@ -80,7 +80,7 @@ export default function GlossaryPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
         {terms.map((t, i) => (
           <div key={i} id={t.term.toLowerCase().replace(/\s+/g, '-')} className="border-b border-gray-200 pb-4">
-            <h3 className="font-semibold text-navy mb-1">{t.term}</h3>
+            <h2 className="font-semibold text-navy mb-1">{t.term}</h2>
             <p className="text-sm text-text-muted leading-relaxed">{t.def}</p>
           </div>
         ))}

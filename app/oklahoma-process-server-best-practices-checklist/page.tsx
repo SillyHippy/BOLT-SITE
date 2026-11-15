@@ -664,7 +664,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                             <div className="flex items-start gap-3">
                               <AlertTriangle className={`w-5 h-5 ${colors.text} flex-shrink-0 mt-0.5`} />
                               <div>
-                                <h4 className={`font-bold ${colors.text} mb-1`}>{item.title}</h4>
+                                <h3 className={`font-bold ${colors.text} mb-1`}>{item.title}</h3>
                                 <p className="text-gray-700 text-sm">{item.message}</p>
                               </div>
                             </div>
@@ -674,7 +674,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                         {/* Callout */}
                         {item.type === 'callout' && (
                           <div className={`${colors.bgLight} rounded-xl p-5 border ${colors.border}`}>
-                            <h4 className={`font-bold ${colors.text} mb-2`}>{item.title}</h4>
+                            <h3 className={`font-bold ${colors.text} mb-2`}>{item.title}</h3>
                             <p className="text-gray-700 italic">&ldquo;{item.content}&rdquo;</p>
                           </div>
                         )}
