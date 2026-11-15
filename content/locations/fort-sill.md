@@ -144,7 +144,7 @@ Just Legal Solutions also provides service in:
 - [Lawton, OK](/service-areas/lawton) — Adjacent city (Comanche County)
 - [Chickasha, OK](/service-areas/chickasha) — 1 hour northeast (Grady County)
 - [Altus, OK](/service-areas/altus) — 1 hour west (Jackson County)
-- [Duncan, OK](/service-areas/duncan) — 45 minutes east (Stephens County)
+- [Duncan, OK](/service-areas/lawton) — 45 minutes east (Stephens County)
 
 ---
 

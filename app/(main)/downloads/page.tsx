@@ -211,7 +211,7 @@ const CLUSTERS: ResourceCluster[] = [
         slug: 'JLS-OK-Service-Of-Process-FAQ-v1.0',
         title: 'Oklahoma Service of Process FAQ',
         description: '20+ Q&A organized by topic with deadline summary table.',
-        internalHref: '/oklahoma-process-server-faq-2026',
+        internalHref: '/oklahoma-process-server-faq',
       },
       {
         slug: 'JLS-OK-Statutes-Quick-Reference-v1.0',
