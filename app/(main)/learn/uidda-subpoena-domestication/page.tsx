@@ -34,19 +34,19 @@ export const metadata: Metadata = {
 const citations = [
   {
     title: '12 O.S. § 3253 — Interstate Depositions and Discovery (UIDDA)',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=3253&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=3253&title=12',
     description:
       'Oklahoma Uniform Interstate Depositions and Discovery Act implementation for domesticating out-of-state subpoenas.',
   },
   {
     title: '12 O.S. § 2004.1 — Service of Subpoenas',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
     description:
       'Methods and requirements for service of subpoenas in Oklahoma civil cases.',
   },
   {
     title: '28A O.S. § 28-81 — Witness Fees',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
     description:
       'Witness fee rates in Oklahoma including daily attendance fees and mileage reimbursement.',
   },

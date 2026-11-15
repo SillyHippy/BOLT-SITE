@@ -50,19 +50,19 @@ export default function EvictionServiceGuidePage() {
   const citations = [
     {
       title: '41 O.S. § 111 — Forcible Entry and Detainer (Eviction) Service',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=111&title=41',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=111&title=41',
       description:
         'Governs service of eviction notices and forcible entry and detainer proceedings in Oklahoma.',
     },
     {
       title: '12 O.S. § 2004 — Methods of Service of Process',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       description:
         'General service of process rules applicable to eviction proceedings.',
     },
     {
       title: '12 O.S. § 2006 — Computation of Time',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2006&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2006&title=12',
       description:
         'Rules for computing time periods under Oklahoma civil procedure, including court holidays.',
     },

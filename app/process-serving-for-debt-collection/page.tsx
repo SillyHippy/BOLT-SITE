@@ -831,7 +831,7 @@ export default function ProcessServingForDebtCollection() {
                 <h3 className="text-lg font-bold text-gray-800 mb-4 mt-6">External Authority Resources</h3>
                 <ul className="space-y-3">
                   <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Statutes Title 12 (OSCN)</a></li>
-                  <li><a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
+                  <li><a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
                   <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
                   <li><a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Bar Association</a></li>
                   <li><a href="https://www.consumer.ftc.gov/articles/debt-collection-faqs" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">FTC — Debt Collection FAQs</a></li>

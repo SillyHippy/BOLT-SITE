@@ -94,7 +94,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
         details:
           'Before the court will authorize publication, you must demonstrate due diligence in locating the defendant. This includes checking last-known address, contacting relatives, searching public records, and potentially hiring a skip tracer. Once authorized, publish once per week for three consecutive weeks in a qualified newspaper. The defendant has 41 days after final publication to respond. Publication is expensive, slow, and often a last resort — but it satisfies due process when other methods fail.',
         statute: '12 O.S. § 2004(C)(3)',
-        statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+        statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
         pros: ['Allows case to proceed when defendant cannot be found', 'Satisfies due process requirements'],
         cons: ['Slow — minimum 3 weeks plus 41 days', 'Expensive — newspaper fees are costly', 'Lower response rate than personal service'],
       };
@@ -106,7 +106,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'When you need to serve a subpoena or motion but lack a current address, a professional skip tracer can search databases, utility records, social media, and other sources to locate the individual. Once located, personal service follows. This combines investigative work with traditional service and is typically faster than publication.',
       statute: '12 O.S. § 2004(A)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Higher success rate than publication', 'Maintains personal service advantages'],
       cons: ['Requires additional skip trace fee (+$75)', 'Adds time to the process', 'Not guaranteed to locate the person'],
     };
@@ -121,7 +121,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Under Oklahoma law, you may serve a corporation by delivering copies to its registered agent at the registered office. If the registered agent cannot be served, you may serve the Oklahoma Secretary of State as the corporation\'s statutory agent. This method is reliable, creates a clear record of service, and avoids the challenges of serving individual officers directly. Always verify the current registered agent through the Oklahoma Secretary of State\'s business entity database before attempting service.',
       statute: '12 O.S. § 2004(C)(1)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Reliable — corporations must maintain a registered agent', 'Clear legal framework', 'Good documentation'],
       cons: ['May be slower than direct service', 'Requires verifying current registered agent'],
     };
@@ -151,7 +151,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Under Oklahoma law, serving an incarcerated person typically involves coordinating with the facility\'s legal mail department or the warden\'s office. The process server delivers the documents to the facility, which then provides them to the inmate. Some facilities have specific procedures and time windows for legal service. This method adds a facility-processing layer but is generally reliable. Plan for additional time due to facility intake procedures.',
       statute: '12 O.S. § 2004(F)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Defendant is locatable', 'Facility provides documentation', 'Reliable delivery'],
       cons: ['Additional facility fee (+$25)', 'Subject to facility schedules and intake delays', 'May take extra time'],
     };
@@ -166,7 +166,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Oklahoma law requires service on a minor to include delivery of the summons and petition to the minor personally, plus a copy to the minor\'s parent, guardian, or person having legal custody. If no parent or guardian can be found after reasonable inquiry, the court may authorize service on another appropriate adult or by another method. Serving minors involves extra steps but ensures due process protections for young defendants.',
       statute: '12 O.S. § 2004(B)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Legally compliant for minor defendants', 'Protects minor\'s due process rights'],
       cons: ['Requires locating and serving two people', 'Adds time and cost', 'More complex logistics'],
     };
@@ -181,7 +181,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Under 22 O.S. § 60.4, protective orders receive priority handling. Law enforcement typically serves VPOs, but private process servers can also handle these with the proper urgency. Same-day or next-day service is essential. The respondent must be personally served because VPOs carry significant legal consequences, including restrictions on firearm possession and potential criminal penalties for violation.',
       statute: '22 O.S. § 60.4',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=60.4&title=22',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=60.4&title=22',
       pros: ['Priority handling available', 'Full legal protection for petitioner once served', 'Personal service ensures respondent is aware'],
       cons: ['Must be done urgently', 'Respondent may evade service', 'Higher cost for rush service'],
     };
@@ -196,7 +196,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Emergency service is designed for time-sensitive situations — pending hearings, TROs, imminent deadlines, or court-ordered same-day service. The server will attempt service at home and work addresses, using stakeout techniques if necessary. This is the fastest and most reliable method but carries premium pricing. Call Just Legal Solutions at (539) 367-6832 for immediate emergency dispatch.',
       statute: '12 O.S. § 2004(A)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Fastest possible service', 'Multiple same-day attempts', 'Direct proof of service'],
       cons: ['Highest cost tier', 'Not guaranteed if subject is unreachable', 'May require stakeout time'],
     };
@@ -210,7 +210,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Rush personal service is ideal when you have an approaching deadline but do not need same-day completion. The process server will make the first attempt within hours of receiving the documents, with follow-up attempts as needed. This balances speed and cost effectively, and provides the reliability of personal service with affidavit documentation.',
       statute: '12 O.S. § 2004(A)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Fast turnaround', 'Reliable personal service', 'Documented with affidavit'],
       cons: ['Higher fee than standard service', 'Still requires locating the defendant'],
     };
@@ -225,7 +225,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
       details:
         'Starting with the last known address is a reasonable first step. If the person no longer resides there, neighbors or the current occupant may provide forwarding information. If service fails, a skip trace adds database searches and investigative techniques to locate the current address. This two-phase approach is cost-effective — you only pay for skip tracing if the initial attempt fails.',
       statute: '12 O.S. § 2004(A)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       pros: ['Cost-effective two-phase approach', 'Skip trace only if needed', 'High success rate'],
       cons: ['Adds time if skip trace is needed', 'Additional skip trace fee if upgraded'],
     };
@@ -239,7 +239,7 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
     details:
       'Personal service means delivering the summons and petition directly to the named defendant. Under 12 O.S. § 2004(A), this is accomplished by delivering a copy of the summons and petition to the defendant personally. This method provides the strongest legal foundation for your case, is the hardest for a defendant to challenge, and creates clear evidence of service via the server\'s affidavit. For most individual defendants with a known home or work address, personal service is the recommended approach.',
     statute: '12 O.S. § 2004(A)',
-    statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     pros: ['Highest legal validity', 'Hard to challenge', 'Clear proof via affidavit', 'Creates personal jurisdiction'],
     cons: ['Defendant may evade service', 'Requires knowing their location', 'May need multiple attempts'],
   };
@@ -249,12 +249,12 @@ function getRecommendation(answers: Record<number, string>): Recommendation {
 const CITATIONS = [
   {
     title: '12 O.S. § 2004 — Methods of Service of Process',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description: 'Oklahoma statutes governing methods of service of process.',
   },
   {
     title: '12 O.S. § 2006 — Computation of Time',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2006&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2006&title=12',
     description: 'Rules for computing time periods under Oklahoma civil procedure.',
   },
   {

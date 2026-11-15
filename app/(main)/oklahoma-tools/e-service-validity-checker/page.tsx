@@ -97,7 +97,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
           'After the defendant enters an appearance, you may seek consent for subsequent electronic service.',
         ],
         statute: '12 O.S. § 2004.5 — Electronic Service',
-        statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+        statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
         warning: 'Attempting to serve a summons electronically without proper personal service may result in the court lacking personal jurisdiction over the defendant.',
       };
     }
@@ -118,7 +118,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
         'After the defendant has been properly served and enters an appearance, electronic service may be used for subsequent filings if consent is obtained.',
       ],
       statute: '12 O.S. § 2004.5 — Electronic Service',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     };
   }
 
@@ -144,7 +144,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
         'If the defendant has an attorney, service on the attorney may satisfy requirements under 12 O.S. § 2004(E).',
       ],
       statute: '12 O.S. § 2004.5(B)',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     };
   }
 
@@ -170,7 +170,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
           'Document the written consent for electronic service in your case file.',
         ],
         statute: '12 O.S. § 2004.5 & 12 O.S. § 2004.1',
-        statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+        statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
         warning: 'Subpoenas have unique requirements. Even with consent, verify whether your specific court requires personal service.',
       };
     }
@@ -195,7 +195,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
           'Follow up to confirm the defendant received the documents.',
         ],
         statute: '12 O.S. § 2004.5(B)',
-        statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+        statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
         warning: 'E-filing system access is separate from consent. If the defendant cannot access the e-filing portal, electronic service may be ineffective even if legally valid.',
       };
     }
@@ -220,7 +220,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
         'If the defendant claims non-receipt, the delivery confirmation from the e-filing system serves as evidence.',
       ],
       statute: '12 O.S. § 2004.5 — Electronic Service',
-      statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+      statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     };
   }
 
@@ -237,7 +237,7 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
       'Review 12 O.S. § 2004.5 directly for the full statutory text.',
     ],
     statute: '12 O.S. § 2004.5',
-    statuteUrl: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+    statuteUrl: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
   };
 }
 
@@ -245,17 +245,17 @@ function getValidityResult(answers: Record<number, string>): ValidityResult {
 const CITATIONS = [
   {
     title: '12 O.S. § 2004.5 — Electronic Service',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     description: 'Rules governing electronic service of process in Oklahoma, including consent requirements.',
   },
   {
     title: '12 O.S. § 2004 — Methods of Service of Process',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description: 'Traditional methods of service including personal, substituted, and publication.',
   },
   {
     title: '12 O.S. § 2004.1 — Service of Subpoenas',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
     description: 'Methods and requirements for service of subpoenas in Oklahoma.',
   },
 ];
@@ -334,7 +334,7 @@ export default function EServiceValidityChecker() {
           Oklahoma began expanding electronic service capabilities in 2024, but the
           rules are not universal. Under{' '}
           <a
-            href="https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12"
+            href="https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12"
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-indigo-600 underline hover:text-indigo-800"

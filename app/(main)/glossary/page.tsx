@@ -73,8 +73,8 @@ export default function GlossaryPage() {
       title="Process Serving Glossary"
       description="Oklahoma-specific terms and definitions for process serving, civil procedure, and legal service."
       citations={[
-        { title: '12 O.S. § 2004', url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12', description: 'Methods of Service of Process' },
-        { title: '12 O.S. § 158.1', url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12', description: 'Licensed Process Servers' },
+        { title: '12 O.S. § 2004', url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12', description: 'Methods of Service of Process' },
+        { title: '12 O.S. § 158.1', url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12', description: 'Licensed Process Servers' },
       ]}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">

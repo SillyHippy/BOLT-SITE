@@ -73,12 +73,12 @@ export default function RushEmergencyCostCalculator() {
   const citationSources = [
     {
       title: '12 O.S. \u00A7 2004 \u2014 Methods of Service of Process',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       description: 'General service of process requirements in Oklahoma.',
     },
     {
       title: '12 O.S. \u00A7 158.1 \u2014 Licensed Process Servers',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
       description: 'Licensing and regulatory framework for Oklahoma process servers.',
     },
   ];

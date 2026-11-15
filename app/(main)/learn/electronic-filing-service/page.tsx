@@ -34,13 +34,13 @@ export const metadata: Metadata = {
 const citations = [
   {
     title: '12 O.S. § 2004.5 — Electronic Service',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     description:
       'Rules governing electronic service of process in Oklahoma, including consent requirements and permitted filings.',
   },
   {
     title: '12 O.S. § 2004 — Methods of Service of Process',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Oklahoma statutes governing methods of service of process including personal service, substituted service, service by publication, and service by mail.',
   },
@@ -52,7 +52,7 @@ const citations = [
   },
   {
     title: 'Oklahoma Electronic Transactions Act',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=15-101&title=12A',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=15-101&title=12A',
     description:
       'Governs electronic signatures and records in Oklahoma, including applicability to court documents.',
   },

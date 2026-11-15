@@ -38,13 +38,13 @@ export default function VPOProtectiveOrderServicePage() {
   const citations = [
     {
       title: '22 O.S. § 60.4 — Protective Order Service',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=60.4&title=22',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=60.4&title=22',
       description:
         'Requires priority service of protective orders within 24 hours; governs who may serve and how service is documented.',
     },
     {
       title: '12 O.S. § 2004 — Methods of Service of Process',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       description:
         'General service of process rules applicable to VPO proceedings including personal and substituted service.',
     },

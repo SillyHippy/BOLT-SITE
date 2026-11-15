@@ -50,12 +50,12 @@ export default function SubpoenaWitnessFeeCalculator() {
   const citationSources = [
     {
       title: '28A O.S. \u00A7 28-81 \u2014 Witness Fees',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
       description: 'Oklahoma statute establishing witness fee rates including daily attendance fees and mileage reimbursement.',
     },
     {
       title: '12 O.S. \u00A7 2004.1 \u2014 Service of Subpoenas',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
       description: 'Methods and requirements for service of subpoenas in Oklahoma civil cases.',
     },
   ];

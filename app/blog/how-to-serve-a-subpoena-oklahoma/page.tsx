@@ -254,7 +254,7 @@ export default function HowToServeSubpoenaOklahoma() {
 
             <h2>Service Requirements Under 12 O.S. § 2004</h2>
             <p>
-              Oklahoma&apos;s civil procedure statute, 12 O.S. § 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow">view full statute on OSCN</a>), governs how legal process — including subpoenas — must be served. While subpoenas have their own specific rules within the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Rules of Civil Procedure</a>, the core requirements of proper service align with the general civil procedure standards. Understanding these standards before dispatching a process server ensures that the service accomplished is legally enforceable and cannot be challenged on procedural grounds.
+              Oklahoma&apos;s civil procedure statute, 12 O.S. § 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow">view full statute on OSCN</a>), governs how legal process — including subpoenas — must be served. While subpoenas have their own specific rules within the <a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Rules of Civil Procedure</a>, the core requirements of proper service align with the general civil procedure standards. Understanding these standards before dispatching a process server ensures that the service accomplished is legally enforceable and cannot be challenged on procedural grounds.
             </p>
 
             <h3>Personal Service: The Preferred Method</h3>

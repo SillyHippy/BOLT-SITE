@@ -182,17 +182,17 @@ export default function CanIServeMyOwnPapers() {
   const citationSources = [
     {
       title: '12 O.S. \u00A7 2004 \u2014 Methods of Service of Process',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       description: 'Requires service by a disinterested person over the age of 18. Parties generally cannot serve their own documents.',
     },
     {
       title: '12 O.S. \u00A7 2004.1 \u2014 Service of Subpoenas',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.1&title=12',
       description: 'Subpoena service requirements and who may serve.',
     },
     {
       title: '41 O.S. \u00A7 111 \u2014 Forcible Entry and Detainer',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=111&title=41',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=111&title=41',
       description: 'Eviction service requirements prohibiting self-service by landlords.',
     },
   ];

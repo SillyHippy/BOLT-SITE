@@ -621,7 +621,7 @@ export default function CourthouseFilingServices() {
                 <div className="bg-white rounded-xl p-6 flex-1 shadow-sm border border-gray-100">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Arrive Before the Cutoff</h3>
                   <p className="text-gray-600">
-                    Both Tulsa County and Creek County clerks&apos; offices close for filings at 4:30 PM, Monday through Friday. Arriving before 2:00 PM is strongly recommended for same-day service to allow time for any document issues to be resolved before cutoff. Court holidays follow the Oklahoma state holiday schedule — verify current hours and closures on the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Tulsa County Court Clerk</a> page or the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Oklahoma Courts official website</a>.
+                    Both Tulsa County and Creek County clerks&apos; offices close for filings at 4:30 PM, Monday through Friday. Arriving before 2:00 PM is strongly recommended for same-day service to allow time for any document issues to be resolved before cutoff. Court holidays follow the Oklahoma state holiday schedule — verify current hours and closures on the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Tulsa County Court Clerk</a> page or the <a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">Oklahoma Courts official website</a>.
                   </p>
                 </div>
               </div>
@@ -718,7 +718,7 @@ export default function CourthouseFilingServices() {
                 <h3 className="font-semibold text-gray-800 mb-3">External Legal Authority Resources</h3>
                 <p className="text-gray-600 text-sm mb-3">Key external resources for Oklahoma filing procedures and legal requirements.</p>
                 <div className="space-y-2">
-                  <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Oklahoma Courts official website ↗
                   </a>
                   <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">

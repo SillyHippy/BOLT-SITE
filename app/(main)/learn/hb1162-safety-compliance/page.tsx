@@ -40,7 +40,7 @@ const citations = [
   },
   {
     title: '12 O.S. § 158.1 — Licensed Process Servers',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
     description:
       'Licensing requirements for private process servers in Oklahoma including bond, age, residency, and CLEET requirements.',
   },
@@ -52,7 +52,7 @@ const citations = [
   },
   {
     title: '12 O.S. § 2004 — Methods of Service of Process',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Oklahoma statutes governing methods of service of process including personal service, substituted service, service by publication, and service by mail.',
   },

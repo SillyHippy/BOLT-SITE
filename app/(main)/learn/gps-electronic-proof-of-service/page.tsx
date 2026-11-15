@@ -29,7 +29,7 @@ export default function GPSElectronicProofOfServicePage() {
   const citations = [
     {
       title: 'Oklahoma Electronic Transactions Act',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=15-101&title=12A',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=15-101&title=12A',
       description:
         'Governs electronic signatures and records in Oklahoma, including admissibility of electronic documents in court.',
     },
@@ -41,7 +41,7 @@ export default function GPSElectronicProofOfServicePage() {
     },
     {
       title: '12 O.S. § 158.1 — Licensed Process Servers',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
       description:
         'Licensing requirements for private process servers, including documentation and record-keeping standards.',
     },

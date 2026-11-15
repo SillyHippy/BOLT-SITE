@@ -7,7 +7,7 @@ import { ResourceRelatedLinks } from '@/components/ui/resource-related-links';
 const citations = [
   {
     title: '12 O.S. \u00a7 158.1 \u2014 Licensed Process Servers',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
     description: 'Oklahoma statutes governing licensing requirements for private process servers.',
   },
   {

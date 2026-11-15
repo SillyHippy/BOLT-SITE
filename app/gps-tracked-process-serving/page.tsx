@@ -628,7 +628,7 @@ export default function GPSTrackedProcessServing() {
                 The chain of custody for GPS evidence includes: device assignment log, session activation timestamp, route data from origin to service address, coordinate and timestamp capture at moment of service, geotagged photograph hash, and encrypted transmission to our secure servers. This chain is preserved and available for court subpoena or production in discovery.
               </p>
               <p className="text-blue-800">
-                When courts evaluate digital evidence authenticity under Oklahoma evidentiary standards, the integrity of this chain — not just the raw data — determines admissibility. Our documentation practices are designed to satisfy authentication challenges before they arise. See the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-700 hover:underline font-medium">Oklahoma Courts</a> portal for district court procedures and evidence submission requirements.
+                When courts evaluate digital evidence authenticity under Oklahoma evidentiary standards, the integrity of this chain — not just the raw data — determines admissibility. Our documentation practices are designed to satisfy authentication challenges before they arise. See the <a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-700 hover:underline font-medium">Oklahoma Courts</a> portal for district court procedures and evidence submission requirements.
               </p>
             </div>
           </div>
@@ -708,7 +708,7 @@ export default function GPSTrackedProcessServing() {
                 {
                   label: 'Oklahoma Courts Official Site',
                   desc: 'Official portal for the Oklahoma court system including district court locations, eCourts eFiling, and case access.',
-                  href: 'https://www.courts.ok.gov/',
+                  href: 'https://oklahoma.gov/',
                 },
                 {
                   label: 'NAPPS — National Assoc. of Professional Process Servers',

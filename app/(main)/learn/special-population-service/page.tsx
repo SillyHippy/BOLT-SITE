@@ -40,13 +40,13 @@ const citations = [
   },
   {
     title: '12 O.S. § 2004 — Methods of Service of Process',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Oklahoma statutes governing methods of service of process including personal service, substituted service, service by publication, and service by mail.',
   },
   {
     title: '12 O.S. § 2004(I) — 180-Day Service Deadline',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Requires summons and petition to be served within 180 days of filing; case may be dismissed for failure to serve.',
   },

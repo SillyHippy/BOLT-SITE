@@ -134,19 +134,19 @@ function getDaysRemaining(target: Date): number {
 const CITATIONS = [
   {
     title: '12 O.S. § 2004(I) — 180-Day Service Deadline',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Requires summons and petition to be served within 180 days of filing; case may be dismissed for failure to serve.',
   },
   {
     title: '12 O.S. § 2006 — Computation of Time',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2006&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2006&title=12',
     description:
       'Rules for computing time periods under Oklahoma civil procedure, including court holidays and extensions.',
   },
   {
     title: '12 O.S. § 2004(C)(3) — Service by Publication',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
     description:
       'Requirements for service by publication including due diligence, newspaper selection, and minimum publication period.',
   },
@@ -390,7 +390,7 @@ export default function ServiceDeadlineCalculator() {
           <p className="text-text-dark text-sm mb-2">
             Under{' '}
             <a
-              href="https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12"
+              href="https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="text-indigo-600 underline hover:text-indigo-800"
@@ -420,7 +420,7 @@ export default function ServiceDeadlineCalculator() {
             days to file an answer or other responsive pleading. This deadline is
             computed under{' '}
             <a
-              href="https://okpublic.oscn.net/forms/view.php?type=statute&num=2006&title=12"
+              href="https://www.oscn.net/forms/view.php?type=statute&num=2006&title=12"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="text-indigo-600 underline hover:text-indigo-800"

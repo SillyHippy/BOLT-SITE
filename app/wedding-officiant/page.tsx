@@ -692,7 +692,7 @@ export default function WeddingOfficiantPage() {
                   Under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST43" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">43 O.S. &sect; 7 (Oklahoma Marriage Laws, Title 43)</a>, the State of Oklahoma authorizes ordained ministers, judges, justices of the peace, and rabbis to solemnize marriages. Joseph W. Iannazzi has been ordained since April 30, 2017, through The Monastery (Universal Life Church), satisfying all statutory requirements to legally perform your ceremony.
                 </p>
                 <p className="text-gray-700">
-                  Unlike some officiants who obtained overnight ordinations, Joseph&apos;s credentials are verifiable through The Monastery&apos;s official records, giving you and the county clerk complete confidence in the legality of your union. Additional information on marriage procedures can be found on the <a href="https://www.courts.ok.gov/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Courts website</a>.
+                  Unlike some officiants who obtained overnight ordinations, Joseph&apos;s credentials are verifiable through The Monastery&apos;s official records, giving you and the county clerk complete confidence in the legality of your union. Additional information on marriage procedures can be found on the <a href="https://oklahoma.gov/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Courts website</a>.
                 </p>
               </div>
               <div className="bg-rose-50 border border-rose-100 rounded-xl p-6">

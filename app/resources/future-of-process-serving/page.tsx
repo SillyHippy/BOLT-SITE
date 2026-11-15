@@ -12,7 +12,7 @@ const citations = [
   },
   {
     title: '12 O.S. \u00a7 2004.5 \u2014 Electronic Service',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004.5&title=12',
     description: 'Rules governing electronic service of process in Oklahoma.',
   },
   {

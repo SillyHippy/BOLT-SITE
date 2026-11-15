@@ -318,7 +318,7 @@ export default function HowToServeDivorcePapersOklahoma() {
 
             <h2>Proof of Service Requirements</h2>
             <p>
-              After your spouse is served, the process server must complete a sworn <Link href="/affidavit-of-service" className="text-blue-600 hover:underline"><strong>affidavit of service</strong></Link> (sometimes called a Return of Service) and file it with the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">district court</a>. This document is the official legal record that service occurred and must include:
+              After your spouse is served, the process server must complete a sworn <Link href="/affidavit-of-service" className="text-blue-600 hover:underline"><strong>affidavit of service</strong></Link> (sometimes called a Return of Service) and file it with the <a href="https://oklahoma.gov/" target="_blank" rel="noopener noreferrer nofollow">district court</a>. This document is the official legal record that service occurred and must include:
             </p>
             <ul>
               <li>The full name of the person served</li>

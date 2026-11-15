@@ -65,12 +65,12 @@ export default function PublicationTimelineCalculator() {
   const citationSources = [
     {
       title: '12 O.S. \u00A7 2004(C)(3) \u2014 Service by Publication',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2004&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2004&title=12',
       description: 'Requirements for service by publication including due diligence, 3 consecutive weeks, and 41-day waiting period.',
     },
     {
       title: '12 O.S. \u00A7 2006 \u2014 Computation of Time',
-      url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=2006&title=12',
+      url: 'https://www.oscn.net/forms/view.php?type=statute&num=2006&title=12',
       description: 'Rules for computing time periods under Oklahoma civil procedure.',
     },
   ];

@@ -124,12 +124,12 @@ const SPECIAL_CONDITIONS: SpecialCondition[] = [
 const CITATIONS = [
   {
     title: '12 O.S. § 158.1 — Licensed Process Servers',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=158.1&title=12',
     description: 'Licensing requirements for private process servers in Oklahoma.',
   },
   {
     title: '28A O.S. § 28-81 — Witness Fees',
-    url: 'https://okpublic.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
+    url: 'https://www.oscn.net/forms/view.php?type=statute&num=28-81&title=28A',
     description: 'Witness fee rates in Oklahoma.',
   },
 ];
