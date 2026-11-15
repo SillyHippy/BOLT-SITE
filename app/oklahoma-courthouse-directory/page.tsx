@@ -230,7 +230,7 @@ export default function OklahomaCourthouseDirectoryPage() {
                       <a
                         href={`https://maps.google.com/?q=${encodeURIComponent(ch.address)}`}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="nofollow noopener noreferrer"
                         className="hover:text-blue-600 hover:underline"
                       >
                         {ch.address}

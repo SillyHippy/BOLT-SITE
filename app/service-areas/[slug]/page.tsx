@@ -507,7 +507,7 @@ export default async function LocationPage({
                     <a
                       href={`https://www.oscn.net/courts/counties/${courthouse.oscnSlug}`}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="nofollow noopener noreferrer"
                       className="inline-flex items-center gap-2 bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium px-4 py-2 rounded-lg text-sm transition"
                     >
                       <Scale className="w-4 h-4" />

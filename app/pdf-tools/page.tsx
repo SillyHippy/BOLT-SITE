@@ -438,7 +438,7 @@ export default function PDFToolsPage() {
                     <a
                       href={`https://tools.pdf24.org/en/${activeToolData.widgetSlug}`}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="nofollow noopener noreferrer"
                       className="text-gray-500 hover:text-gray-600 text-sm flex items-center gap-1"
                     >
                       <ExternalLink className="w-4 h-4" />

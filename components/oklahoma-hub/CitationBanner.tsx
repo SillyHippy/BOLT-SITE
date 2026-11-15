@@ -23,7 +23,7 @@ export default function CitationBanner({ citations }: CitationBannerProps) {
                 <a
                   href={cite.url}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="underline hover:text-indigo-700 transition-colors"
                 >
                   {cite.title}

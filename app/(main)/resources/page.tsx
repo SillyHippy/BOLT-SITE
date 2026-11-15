@@ -310,7 +310,7 @@ const ResourcesPage = () => {
                     <span className="mx-2 text-gray-500">—</span>
                     {statute.title}
                   </h3>
-                  <a href={statute.oscnUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-blue-600 hover:underline whitespace-nowrap flex-shrink-0">
+                  <a href={statute.oscnUrl} target="_blank" rel="nofollow noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-blue-600 hover:underline whitespace-nowrap flex-shrink-0">
                     <ExternalLink className="w-3.5 h-3.5" />
                     View on OSCN
                   </a>
