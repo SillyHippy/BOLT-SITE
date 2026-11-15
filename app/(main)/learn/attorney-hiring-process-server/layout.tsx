@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Attorney's Guide to Hiring a Process Server in Oklahoma | Just Legal Solutions",
+  title: "Attorney's Guide to Hiring a Process Server in Oklahoma",
   description: "A vendor-neutral guide for Oklahoma attorneys on how to hire a licensed process server. Covers license verification, key questions to ask, red flags to avo",
   alternates: {
     canonical: '/learn/attorney-hiring-process-server',

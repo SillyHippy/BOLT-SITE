@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Service by Publication in Oklahoma | Just Legal Solutions",
+  title: "Service by Publication in Oklahoma",
   description: "Complete step-by-step guide to Oklahoma service by publication, including due diligence requirements, timeline, and an interactive publication date calcula",
   alternates: {
     canonical: '/learn/service-by-publication',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Eviction Service of Process in Oklahoma | Just Legal Solutions",
+  title: "Eviction Service of Process in Oklahoma",
   description: "A step-by-step guide to Oklahoma eviction service of process. Covers the 14-day compressed timeline, notice requirements, who can serve eviction papers, co",
   alternates: {
     canonical: '/learn/eviction-service-guide',

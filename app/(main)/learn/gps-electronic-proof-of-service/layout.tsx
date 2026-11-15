@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "GPS & Electronic Proof of Service | Just Legal Solutions",
+  title: "GPS & Electronic Proof of Service",
   description: "Learn why GPS documentation matters for process servers, what Oklahoma courts accept as proof of service, metadata requirements, photo best practices, and ",
   alternates: {
     canonical: '/learn/gps-electronic-proof-of-service',

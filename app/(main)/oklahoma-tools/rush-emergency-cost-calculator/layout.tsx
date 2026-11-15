@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Rush & Emergency Cost Calculator | Just Legal Solutions",
+  title: "Rush & Emergency Cost Calculator",
   description: "Compare estimated costs for standard, rush, same-day, and emergency process serving across Oklahoma.",
   alternates: {
     canonical: '/oklahoma-tools/rush-emergency-cost-calculator',

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "E-Service Validity Checker | Just Legal Solutions",
+  title: "E-Service Validity Checker",
   description: "Check whether electronic service of process is valid under Oklahoma law for your specific situation.",
   alternates: {
     canonical: '/oklahoma-tools/e-service-validity-checker',

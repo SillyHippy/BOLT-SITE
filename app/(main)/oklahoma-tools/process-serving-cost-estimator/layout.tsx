@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Process Serving Cost Estimator | Just Legal Solutions",
+  title: "Process Serving Cost Estimator",
   description: "Estimate the cost of process serving in any Oklahoma county. Get itemized pricing for service speed, additional defendants, and special conditions.",
   alternates: {
     canonical: '/oklahoma-tools/process-serving-cost-estimator',

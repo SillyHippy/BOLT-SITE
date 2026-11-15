@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: "Subpoena Witness Fee Calculator | Just Legal Solutions",
+  title: "Subpoena Witness Fee Calculator",
   description: "Calculate witness fees and mileage reimbursement for subpoenaed witnesses in Oklahoma under 28A O.S. \u00A7 28-81.",
   alternates: {
     canonical: '/oklahoma-tools/subpoena-witness-fee-calculator',
