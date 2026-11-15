@@ -177,11 +177,6 @@ const ResourcesPage = () => {
       preview: "Transparent pricing guide for process serving across Oklahoma—standard, rush, same-day, and stakeout rates for all 77 counties."
     },
     {
-      title: "Oklahoma Process Serving Costs Comparison",
-      url: "/oklahoma-process-serving-costs-comparison",
-      preview: "Compare process serving costs across different Oklahoma providers. Understand what you should expect to pay for standard and rush service."
-    },
-    {
       title: "AI Skip Tracing Guide for Oklahoma",
       url: "/ai-skip-tracing-guide-oklahoma",
       preview: "How AI-powered skip tracing helps locate hard-to-find individuals using database searching, public records analysis, and investigative techniques."
