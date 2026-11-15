@@ -69,7 +69,7 @@ function Navbar() {
       <Link href="/" className="text-xl font-bold text-blue-900 hover:text-blue-700 transition-colors">Just Legal Solutions</Link>
       <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-700">
         <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
-        <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
+        <Link href="/pricing" className="hover:text-blue-700 transition-colors">Services</Link>
         <Link href="/pricing" className="hover:text-blue-700 transition-colors">Pricing</Link>
         <Link href="/blog" className="hover:text-blue-700 transition-colors">Blog</Link>
         <Link href="/contact" className="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors">Contact Us</Link>
@@ -104,7 +104,7 @@ function Footer() {
         <div>
           <h3 className="text-white font-bold text-lg mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/services/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
+            <li><Link href="/process-serving" className="hover:text-white transition-colors">Process Serving</Link></li>
             <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Rush Service</Link></li>
             <li><Link href="/same-day-process-server" className="hover:text-white transition-colors">Same-Day Service</Link></li>
             <li><Link href="/mobile-notary" className="hover:text-white transition-colors">Notary Services</Link></li>

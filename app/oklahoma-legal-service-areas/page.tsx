@@ -312,13 +312,13 @@ export default function OklahomaLegalServiceAreas() {
           <h2 className="text-2xl font-semibold mb-2">Suburban Communities and Expanding Development Areas</h2>
           
           <div className="mb-6">
-            <h4 className="text-lg font-semibold mb-2">Norman and Cleveland County Service Operations</h4>
+            <h3 className="text-lg font-semibold mb-2">Norman and Cleveland County Service Operations</h3>
             <p className="italic mb-2">Population: 125,000+ | Service Complexity: Medium | Response Time: 24-48 hours</p>
             <p className="mb-4">
               Norman&apos;s unique combination of university community, growing suburbs, and established residential areas requires specialized service approaches that respect academic schedules and community sensitivities.
             </p>
             
-            <h5 className="font-semibold mb-2">University of Oklahoma Campus Area:</h5>
+            <h4 className="font-semibold mb-2">University of Oklahoma Campus Area:</h4>
             <ul className="list-disc ml-6 mb-4">
               <li>Student population service considerations and timing optimization</li>
               <li>University policy coordination for on-campus service requirements</li>
@@ -364,13 +364,13 @@ export default function OklahomaLegalServiceAreas() {
           <h2 className="text-2xl font-semibold mb-2">Rural Territory Coverage and Specialized Protocols</h2>
           
           <div className="mb-6">
-            <h4 className="text-lg font-semibold mb-2">Western Oklahoma Agricultural Region Service</h4>
+            <h3 className="text-lg font-semibold mb-2">Western Oklahoma Agricultural Region Service</h3>
             <p className="italic mb-2">Counties: Canadian, Grady, Caddo, Washita, Custer, Roger Mills, Dewey, Blaine</p>
             <p className="mb-4">
               Rural western Oklahoma presents unique challenges including vast distances, agricultural scheduling considerations, and limited infrastructure that require specialized service strategies.
             </p>
             
-            <h5 className="font-semibold mb-2">Agricultural Community Service Considerations:</h5>
+            <h4 className="font-semibold mb-2">Agricultural Community Service Considerations:</h4>
             <ul className="list-disc ml-6 mb-4">
               <li>Farming and ranching schedule awareness for optimal contact timing</li>
               <li>Seasonal agricultural activity coordination (planting, harvest, cattle operations)</li>

@@ -881,7 +881,7 @@ export default function TulsaProcessServerPage() {
                   <p><strong>General Hours:</strong> Monday–Friday, 8:00 AM – 5:00 PM</p>
                   <p><strong>Filing Cutoff:</strong> Filings typically close at 4:30 PM; confirm with the clerk for current hours.</p>
                   <p><strong>Court Website:</strong> <Button asChild variant="link" className="p-0 h-auto">
-                    <a href="https://www.tulsacountydistrictcourt.org/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.tulsacountydistrictcourt.org/" target="_blank" rel="noopener noreferrer nofollow">
                       Visit Court Website
                     </a>
                   </Button></p>
@@ -910,7 +910,7 @@ export default function TulsaProcessServerPage() {
                   </div>
                   <div className="mt-3">
                     <p><strong>Oklahoma Statutes:</strong> <Button asChild variant="link" className="p-0 h-auto">
-                      <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=438505" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=438505" target="_blank" rel="noopener noreferrer nofollow">
                         View Process Service Laws
                       </a>
                     </Button></p>
@@ -994,13 +994,13 @@ export default function TulsaProcessServerPage() {
             <p>500 S Denver Ave, Tulsa, OK 74103</p>
             <p>(918) 596-5000</p>
             <Button asChild variant="link">
-              <a href="https://www.oscn.net/dockets/search.aspx?db=tulsa" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
+              <a href="https://www.oscn.net/dockets/search.aspx?db=tulsa" target="_blank" rel="noopener noreferrer nofollow">Visit Court Website</a>
             </Button>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
             <h3 className="text-xl font-bold mb-2">Oklahoma Process Service Statutes</h3>
             <Button asChild variant="link">
-              <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=430303" target="_blank" rel="noopener noreferrer">View Statutes</a>
+              <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=430303" target="_blank" rel="noopener noreferrer nofollow">View Statutes</a>
             </Button>
           </div>
         </section>

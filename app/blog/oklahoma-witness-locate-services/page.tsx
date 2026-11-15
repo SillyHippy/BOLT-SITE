@@ -441,7 +441,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/skip-tracing-success-story-tulsa-case-study"
+                href="/blog/skip-tracing-oklahoma-guide"
                 className="text-blue-600 hover:underline"
               >
                 Skip Tracing Success Story: Tulsa Case Study

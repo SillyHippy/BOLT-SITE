@@ -416,7 +416,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">Learn more about our process serving approach</Link> for sensitive documents across Oklahoma. We understand that some papers require more than delivery — they require discretion, preparation, and genuine care.
+            <Link href="/process-serving" className="text-blue-600 hover:underline">Learn more about our process serving approach</Link> for sensitive documents across Oklahoma. We understand that some papers require more than delivery — they require discretion, preparation, and genuine care.
           </p>
 
           <h2>The Hidden Side — How Process Servers Protect Their Own Emotional Wellbeing</h2>
@@ -569,7 +569,7 @@ export default function BlogPost() {
                 Contact Just Legal Solutions
               </Link>
               <Link
-                href="/services/process-serving"
+                href="/process-serving"
                 className="inline-block bg-white text-blue-600 border border-blue-600 font-medium px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors text-center"
               >
                 Learn About Our Process Serving

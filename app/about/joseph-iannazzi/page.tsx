@@ -604,7 +604,7 @@ export default function JosephIannazziPage() {
               <a
                 href="https://www.issuewire.com/founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-1839846063085062"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="block bg-gray-50 border border-gray-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition"
               >
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
@@ -652,7 +652,7 @@ export default function JosephIannazziPage() {
               <a
                 href="https://www.reddit.com/r/smallbusiness/comments/1miclr8/lessons_learned_running_a_legal_process_serving/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="block bg-gray-50 border border-gray-200 rounded-xl p-5 hover:border-blue-300 hover:shadow-sm transition"
               >
                 <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">

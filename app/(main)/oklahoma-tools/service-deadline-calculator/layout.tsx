@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "Service Deadline Calculator | Just Legal Solutions",
+  description: "Calculate Oklahoma process serving deadlines based on your filing date. Account for court holidays and business days.",
   alternates: {
     canonical: '/oklahoma-tools/service-deadline-calculator',
   },

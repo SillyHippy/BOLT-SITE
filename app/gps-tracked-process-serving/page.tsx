@@ -584,7 +584,7 @@ export default function GPSTrackedProcessServing() {
                     When the GPS data package was presented alongside the sworn affidavit, the motion to quash was denied. The eviction proceeded on schedule, saving the property manager weeks of delay and additional legal expense. Without GPS documentation, the case would have devolved into a credibility battle — the classic &ldquo;swearing contest&rdquo; that courts find difficult to resolve in the plaintiff&apos;s favor.
                   </p>
                   <p className="text-sm text-gray-500 italic">
-                    This example reflects the typical outcome in GPS-verified service disputes. Specific case details have been generalized to protect client privacy. For legal questions about your specific matter, consult a licensed Oklahoma attorney or contact the <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Bar Association</a>.
+                    This example reflects the typical outcome in GPS-verified service disputes. Specific case details have been generalized to protect client privacy. For legal questions about your specific matter, consult a licensed Oklahoma attorney or contact the <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Bar Association</a>.
                   </p>
                 </div>
               </div>
@@ -597,7 +597,7 @@ export default function GPSTrackedProcessServing() {
           <div className="container mx-auto px-4 max-w-5xl">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">How GPS Coordinates Supplement Your Affidavit Under 12 O.S. § 2004</h2>
             <p className="text-center text-gray-600 mb-10 max-w-3xl mx-auto">
-              Oklahoma&apos;s proof of service requirements are codified under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">12 O.S. § 2004</a>. GPS data doesn&apos;t replace the affidavit — it powerfully supplements it, creating a two-layer evidentiary record that is far more difficult to challenge. For comprehensive legal context, see our <Link href="/oklahoma-process-server-laws" className="text-blue-700 font-semibold hover:underline">Oklahoma process server laws guide</Link>.
+              Oklahoma&apos;s proof of service requirements are codified under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline font-medium">12 O.S. § 2004</a>. GPS data doesn&apos;t replace the affidavit — it powerfully supplements it, creating a two-layer evidentiary record that is far more difficult to challenge. For comprehensive legal context, see our <Link href="/oklahoma-process-server-laws" className="text-blue-700 font-semibold hover:underline">Oklahoma process server laws guide</Link>.
             </p>
             <div className="grid md:grid-cols-2 gap-10">
               <div>
@@ -628,7 +628,7 @@ export default function GPSTrackedProcessServing() {
                 The chain of custody for GPS evidence includes: device assignment log, session activation timestamp, route data from origin to service address, coordinate and timestamp capture at moment of service, geotagged photograph hash, and encrypted transmission to our secure servers. This chain is preserved and available for court subpoena or production in discovery.
               </p>
               <p className="text-blue-800">
-                When courts evaluate digital evidence authenticity under Oklahoma evidentiary standards, the integrity of this chain — not just the raw data — determines admissibility. Our documentation practices are designed to satisfy authentication challenges before they arise. See the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline font-medium">Oklahoma Courts</a> portal for district court procedures and evidence submission requirements.
+                When courts evaluate digital evidence authenticity under Oklahoma evidentiary standards, the integrity of this chain — not just the raw data — determines admissibility. Our documentation practices are designed to satisfy authentication challenges before they arise. See the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-700 hover:underline font-medium">Oklahoma Courts</a> portal for district court procedures and evidence submission requirements.
               </p>
             </div>
           </div>

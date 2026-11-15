@@ -684,7 +684,7 @@ export default function BecomeProcessServerGuide() {
                   <div className="absolute left-2 w-5 h-5 bg-blue-600 rounded-full border-4 border-white shadow"></div>
                   <div className="ml-12 bg-white border border-slate-200 rounded-lg p-4 flex-1">
                     <span className="text-sm font-semibold text-blue-600">{item.day}</span>
-                    <h4 className="font-bold text-slate-900">{item.title}</h4>
+                    <h3 className="font-bold text-slate-900">{item.title}</h3>
                     <p className="text-slate-600 text-sm">{item.desc}</p>
                   </div>
                 </div>
@@ -718,7 +718,7 @@ export default function BecomeProcessServerGuide() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-slate-900 mb-3">What OSBI Checks</h4>
+                <h3 className="font-semibold text-slate-900 mb-3">What OSBI Checks</h3>
                 <ul className="space-y-2">
                   {[
                     'Criminal history (Oklahoma and national)',
@@ -789,7 +789,7 @@ export default function BecomeProcessServerGuide() {
             </div>
 
             <div className="bg-blue-50 rounded-lg p-5">
-              <h4 className="font-semibold text-blue-900 mb-3">What the Bond Covers</h4>
+              <h3 className="font-semibold text-blue-900 mb-3">What the Bond Covers</h3>
               <p className="text-blue-800 text-sm mb-3">
                 The surety bond protects clients and the public against financial losses resulting from:
               </p>
@@ -830,10 +830,10 @@ export default function BecomeProcessServerGuide() {
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white border border-slate-200 rounded-xl p-6">
-              <h4 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
+              <h3 className="font-semibold text-slate-900 mb-3 flex items-center gap-2">
                 <Shield className="w-5 h-5 text-blue-600" />
                 Errors & Omissions (E&O) Insurance
-              </h4>
+              </h3>
               <p className="text-slate-600 text-sm mb-4">
                 Protects against claims of negligence, mistakes, or failure to perform professional duties. 
                 Highly recommended for all process servers.
@@ -897,7 +897,7 @@ export default function BecomeProcessServerGuide() {
 
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div>
-                <h4 className="font-semibold text-slate-900 mb-3">Recommended Training Topics</h4>
+                <h3 className="font-semibold text-slate-900 mb-3">Recommended Training Topics</h3>
                 <ul className="space-y-2">
                   {[
                     'Oklahoma Rules of Civil Procedure',
@@ -982,7 +982,7 @@ export default function BecomeProcessServerGuide() {
               }
             ].map((cat, i) => (
               <div key={i} className="bg-white border border-slate-200 rounded-lg p-5">
-                <h4 className="font-semibold text-slate-900 mb-3">{cat.category}</h4>
+                <h3 className="font-semibold text-slate-900 mb-3">{cat.category}</h3>
                 <ul className="space-y-1">
                   {cat.items.map((item, j) => (
                     <li key={j} className="text-sm text-slate-600 flex items-center gap-2">
@@ -1006,7 +1006,7 @@ export default function BecomeProcessServerGuide() {
           <div className="bg-white border border-slate-200 rounded-xl p-6 md:p-8">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="font-semibold text-slate-900 mb-4">Business Structure Options</h4>
+                <h3 className="font-semibold text-slate-900 mb-4">Business Structure Options</h3>
                 <div className="space-y-4">
                   {[
                     { name: 'Sole Proprietorship', desc: 'Simplest structure, personal liability', best: 'Solo operators starting out' },
@@ -1152,10 +1152,10 @@ export default function BecomeProcessServerGuide() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Related Resources</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <Link 
-              href="/blog/become-a-process-server-oklahoma/" 
+              href="/blog/become-process-server-oklahoma" 
               className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-lg transition-all"
             >
-              <h4 className="font-semibold text-slate-900 mb-2">Getting Started Guide</h4>
+              <h3 className="font-semibold text-slate-900 mb-2">Getting Started Guide</h3>
               <p className="text-slate-600 text-sm">
                 Read our introductory blog post for a quick overview of becoming a process server in Oklahoma.
               </p>
@@ -1170,7 +1170,7 @@ export default function BecomeProcessServerGuide() {
               </p>
             </Link>
             <Link 
-              href="/process-server-tulsa/" 
+              href="/tulsa-process-server" 
               className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-lg transition-all"
             >
               <h4 className="font-semibold text-slate-900 mb-2">Tulsa Process Server Services</h4>
@@ -1179,7 +1179,7 @@ export default function BecomeProcessServerGuide() {
               </p>
             </Link>
             <Link 
-              href="/resources/process-server-forms-oklahoma/" 
+              href="/oklahoma-process-server-forms-templates" 
               className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-lg transition-all"
             >
               <h4 className="font-semibold text-slate-900 mb-2">Process Server Forms</h4>

@@ -295,7 +295,7 @@ export default function HowToFileProtectiveOrderOklahoma() {
             <p>The Administrative Office of the Courts provides standard forms for protective order petitions. You can obtain these forms:</p>
             <ul>
               <li>From the court clerk&apos;s office</li>
-              <li>From the <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma State Courts Network (OSCN)</a> website</li>
+              <li>From the <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma State Courts Network (OSCN)</a> website</li>
               <li>At the Family Safety Center (for qualifying domestic violence cases)</li>
             </ul>
             <p><strong>Important Form Tips:</strong></p>
@@ -525,8 +525,8 @@ export default function HowToFileProtectiveOrderOklahoma() {
 
             <h3>External Resources</h3>
             <ul>
-              <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma State Courts Network (OSCN)</a> &mdash; Access forms, court records, and legal information</li>
-              <li><a href="https://www.okbar.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Bar Association</a> &mdash; Find attorney referrals and legal resources</li>
+              <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma State Courts Network (OSCN)</a> &mdash; Access forms, court records, and legal information</li>
+              <li><a href="https://www.okbar.com" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Bar Association</a> &mdash; Find attorney referrals and legal resources</li>
               <li><Link href="tel:1-800-522-7233" className="text-blue-600 hover:underline">Oklahoma Safe-Line</Link> &mdash; 24/7 domestic violence hotline: 1-800-522-SAFE (7233)</li>
             </ul>
             <p>At Just Legal Solutions, we understand that serving protective orders requires speed, discretion, and absolute reliability. When your safety depends on proper service, you need a process serving company that treats your case with the urgency it deserves.</p>

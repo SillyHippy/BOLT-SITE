@@ -336,7 +336,7 @@ export default function EServiceValidityChecker() {
           <a
             href="https://okpublic.oscn.net/forms/view.php?type=statute&num=2004.5&title=12"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="text-indigo-600 underline hover:text-indigo-800"
           >
             12 O.S. § 2004.5

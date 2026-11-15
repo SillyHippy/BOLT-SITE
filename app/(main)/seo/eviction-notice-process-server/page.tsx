@@ -801,7 +801,7 @@ export default function EvictionNoticeProcessServer() {
                     <a
                       href="https://oksc.oscn.net/forms/"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="text-blue-700 font-semibold underline hover:text-blue-900"
                     >
                       Oklahoma Supreme Court Official Forms
@@ -815,7 +815,7 @@ export default function EvictionNoticeProcessServer() {
                     <a
                       href="https://oklaw.org/legal-aid-self-help-forms"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="text-blue-700 font-semibold underline hover:text-blue-900"
                     >
                       Legal Aid Services of Oklahoma — Self-Help Forms
@@ -829,7 +829,7 @@ export default function EvictionNoticeProcessServer() {
                     <a
                       href="https://oklaw.org/issues/housing/landlord-and-tenant-problems"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="text-blue-700 font-semibold underline hover:text-blue-900"
                     >
                       Legal Aid Services of Oklahoma — Landlord and Tenant Problems
@@ -843,7 +843,7 @@ export default function EvictionNoticeProcessServer() {
                     <a
                       href="https://oklaw.org/resource/eviction-for-non-payment-of-rent"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="text-blue-700 font-semibold underline hover:text-blue-900"
                     >
                       Legal Aid — Eviction for Non-Payment of Rent

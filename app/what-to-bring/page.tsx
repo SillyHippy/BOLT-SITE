@@ -294,7 +294,7 @@ export default function WhatToBringPage() {
         <h3 className="font-bold mb-4">Official Resources</h3>
         <ul className="space-y-2 text-sm">
           <li>
-            <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
+            <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline inline-flex items-center gap-1">
               Oklahoma Secretary of State - Notary Division <ExternalLink size={14} />
             </a>
           </li>

@@ -512,7 +512,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/common-process-serving-mistakes-oklahoma"
+                href="/process-serving-mistakes-guide"
                 className="text-blue-600 hover:underline"
               >
                 Common Process Serving Mistakes in Oklahoma

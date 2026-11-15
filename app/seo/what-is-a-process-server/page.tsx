@@ -695,7 +695,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
 
                   <div className="bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20 mb-4">
-                    <h4 className="font-bold mb-2">Professional Credentials:</h4>
+                    <h3 className="font-bold mb-2">Professional Credentials:</h3>
                     <ul className="text-sm space-y-1">
                       <li>• Oklahoma-Licensed Process Server (All Counties)</li>
                       <li>• $5,000 Surety Bond • Professional Liability Insurance</li>

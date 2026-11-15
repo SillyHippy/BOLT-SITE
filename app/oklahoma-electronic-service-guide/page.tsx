@@ -270,7 +270,7 @@ export default function OklahomaElectronicServiceGuide() {
           <div className="mb-4">
             <h4 className="text-lg font-semibold mb-2">Professional Email Structure Requirements:</h4>
             <p className="italic">
-              <em>This guide is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Electronic service implementation should be coordinated with legal counsel to ensure compliance with specific case requirements and court rules. Check <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN</a> or the local court’s website for current electronic service and consent forms—do not rely on unofficial or outdated forms.</em>
+              <em>This guide is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Electronic service implementation should be coordinated with legal counsel to ensure compliance with specific case requirements and court rules. Check <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">OSCN</a> or the local court’s website for current electronic service and consent forms—do not rely on unofficial or outdated forms.</em>
             </p>
           </div>
         </section>

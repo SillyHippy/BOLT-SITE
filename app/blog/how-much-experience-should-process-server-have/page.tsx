@@ -499,7 +499,7 @@ export default function BlogPost() {
               Oklahoma attorneys, law firms, and individual litigants place
               in our expertise. When you need{" "}
               <Link
-                href="/services/process-serving"
+                href="/process-serving"
                 className="text-blue-600 hover:underline"
               >
                 professional process serving

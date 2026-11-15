@@ -217,7 +217,7 @@ export default function TulsaProcessServerFaqPage() {
               {STARTING_PRICES.map((tier) => (
                 <div key={tier.id} className="bg-blue-50 rounded-lg p-4 border border-blue-100">
                   <div className="flex items-baseline justify-between">
-                    <h3 className="font-bold text-blue-900 text-sm">{tier.label}</h3>
+                    <h2 className="font-bold text-blue-900 text-sm">{tier.label}</h2>
                     <span className="text-lg font-extrabold text-blue-700">${tier.startsAt}<span className="text-xs font-normal text-gray-500">+</span></span>
                   </div>
                   {tier.note && <p className="text-xs text-gray-600 mt-1">{tier.note}</p>}

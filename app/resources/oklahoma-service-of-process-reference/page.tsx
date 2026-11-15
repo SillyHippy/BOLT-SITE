@@ -353,7 +353,7 @@ export default function OklahomaServiceOfProcessReference() {
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold text-amber-800 mb-2">Important Legal Notice</h4>
+                  <h3 className="font-semibold text-amber-800 mb-2">Important Legal Notice</h3>
                   <p className="text-amber-700">
                     This reference card is provided for informational purposes only and does not constitute legal advice. Statutes are subject to change. Always verify current law through official sources or consult with an attorney for specific legal questions. Last updated January 2024.
                   </p>
@@ -656,7 +656,7 @@ export default function OklahomaServiceOfProcessReference() {
                       </Link>
                     </Button>
                     <Button variant="outline" asChild>
-                      <Link href="/services">
+                      <Link href="/pricing">
                         View Our Services
                       </Link>
                     </Button>
@@ -682,7 +682,7 @@ export default function OklahomaServiceOfProcessReference() {
             <p>
               This reference card is provided as a free educational resource. 
               <Link href="/privacy-policy" className="text-primary hover:underline ml-1">Privacy Policy</Link> | 
-              <Link href="/terms" className="text-primary hover:underline ml-1">Terms of Use</Link>
+              <Link href="/terms-of-service" className="text-primary hover:underline ml-1">Terms of Use</Link>
             </p>
           </div>
         </div>

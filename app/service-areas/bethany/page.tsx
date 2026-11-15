@@ -447,11 +447,11 @@ export default function BethanyProcessServerPage() {
                 <h3 className="font-semibold text-blue-700">Yukon →</h3>
                 <p className="text-gray-600 text-sm mt-1">20 miles west. Canadian County. Population 25,529.</p>
               </Link>
-              <Link href="/service-areas/the-village" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
                 <h3 className="font-semibold text-blue-700">The Village →</h3>
                 <p className="text-gray-600 text-sm mt-1">15 miles east. Oklahoma County suburb.</p>
               </Link>
-              <Link href="/service-areas/warr-acres" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
                 <h3 className="font-semibold text-blue-700">Warr Acres →</h3>
                 <p className="text-gray-600 text-sm mt-1">10 miles southeast. Oklahoma County community.</p>
               </Link>
@@ -529,7 +529,7 @@ export default function BethanyProcessServerPage() {
                     <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
                     <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
-                    <li><Link href="/family-law-service-guide-oklahoma" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
                   </ul>
                 </div>
                 

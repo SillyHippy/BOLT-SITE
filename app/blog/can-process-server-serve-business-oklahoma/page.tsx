@@ -521,7 +521,7 @@ export default function BlogPost() {
               When your case involves a business defendant, don't leave
               service to chance. Our{" "}
               <Link
-                href="/services/process-serving"
+                href="/process-serving"
                 className="text-blue-600 hover:underline"
               >
                 professional process serving

@@ -116,7 +116,7 @@ export default function BlogPost() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><Link href="/blog/divorce-papers-served-oklahoma-tulsa" className="text-blue-600 hover:underline">How Divorce Papers Are Served in Oklahoma: A Tulsa Attorney's Guide</Link></li>
             <li><Link href="/blog/rush-same-day-process-serving-importance" className="text-blue-600 hover:underline">Why Rush and Same-Day Process Serving Matters for Oklahoma Attorneys</Link></li>
-            <li><Link href="/blog/skip-tracing-success-story-tulsa-case-study" className="text-blue-600 hover:underline">Skip Tracing Success Story: Tulsa Case Study</Link></li>
+            <li><Link href="/blog/skip-tracing-oklahoma-guide" className="text-blue-600 hover:underline">Skip Tracing Success Story: Tulsa Case Study</Link></li>
             <li><Link href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step" className="text-blue-600 hover:underline">How to Serve Legal Papers in Oklahoma: A Step-by-Step Guide</Link></li>
           </ul>
         </section>

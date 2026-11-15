@@ -203,7 +203,7 @@ export default function BlogPost() {
             Now here is the good news: a solo attorney can set up a client portal in under 24 hours.
             It is not the massive IT project many fear. The technology has matured to the point where
             implementation is straightforward, and the benefits begin immediately. At{' '}
-            <Link href="/services" className="text-blue-600 hover:underline">
+            <Link href="/pricing" className="text-blue-600 hover:underline">
               Just Legal Solutions
             </Link>,
             we offer secure portal access as part of our process serving, notary, and courier
@@ -432,7 +432,7 @@ export default function BlogPost() {
             from a rural Oklahoma county that was completed that afternoon. The GPS coordinates, the
             timestamp, the photograph, the notarized affidavit. All of it. No phone call required. No
             waiting for morning.{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">
+            <Link href="/process-serving" className="text-blue-600 hover:underline">
               Track every service attempt, download affidavits, and access GPS data through your
               secure portal
             </Link>.
@@ -502,7 +502,7 @@ export default function BlogPost() {
               assistant support — all accessible through one portal, across all 77 Oklahoma counties.
             </p>
             <Link
-              href="/services"
+              href="/pricing"
               className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
             >
               Learn More About Our Services
@@ -602,12 +602,12 @@ export default function BlogPost() {
               Related Legal Guides
             </h2>
             <div className="grid sm:grid-cols-2 gap-6">
-              <Link href="/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma" className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
+              <Link href="/blog/proof-of-service-oklahoma-guide" className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
                 <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase mb-2 block">GPS Tracking</span>
                 <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors mb-2">GPS Tracking in Process Serving</h3>
                 <p className="text-sm text-gray-600">How GPS technology is transforming accountability and proof of service in Oklahoma.</p>
               </Link>
-              <Link href="/blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma" className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
+              <Link href="/blog/proof-of-service-oklahoma-guide" className="group block bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
                 <span className="text-xs font-semibold tracking-wider text-blue-600 uppercase mb-2 block">Digital Signatures</span>
                 <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-700 transition-colors mb-2">Electronic Proof of Service & Digital Signatures</h3>
                 <p className="text-sm text-gray-600">Court acceptance of digital signatures and electronic proof of service in Oklahoma.</p>

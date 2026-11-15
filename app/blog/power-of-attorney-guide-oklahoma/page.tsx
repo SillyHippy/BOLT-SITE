@@ -566,10 +566,10 @@ export default function PowerOfAttorneyGuideOklahoma() {
           </div>
 
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 my-6 not-prose">
-            <h4 className="font-bold text-yellow-800 mb-2 flex items-center gap-2">
+            <h3 className="font-bold text-yellow-800 mb-2 flex items-center gap-2">
               <AlertTriangle className="w-5 h-5" />
               Important Note on Notary Fees
-            </h4>
+            </h3>
             <p className="text-yellow-800 text-sm">
               Oklahoma law sets maximum notary fees at <strong>$5 per signature</strong> for
               traditional in-person notarization. Remote Online Notarization (RON) fees are
@@ -650,10 +650,10 @@ export default function PowerOfAttorneyGuideOklahoma() {
 
           <div className="grid md:grid-cols-2 gap-6 my-6 not-prose">
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-              <h4 className="font-bold text-red-800 mb-2 flex items-center gap-2">
+              <h3 className="font-bold text-red-800 mb-2 flex items-center gap-2">
                 <AlertTriangle className="w-5 h-5" />
                 Failing to Notarize
-              </h4>
+              </h3>
               <p className="text-red-800 text-sm">
                 An unnotarized POA is not legally valid in Oklahoma. Banks, healthcare providers,
                 and courts will not accept it. Always have your POA properly notarized.

@@ -352,7 +352,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <p>The acknowledgment must be in writing and filed with the court.</p>
 
             <h3>Small Claims Court Certified Mail</h3>
-            <p>In <a href="https://oklaw.org/resource/small-claims-court" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Small Claims Court</a>, the court clerk can serve the defendant by certified mail as part of the standard process. This is the most common &quot;DIY&quot; option, though technically the clerk&mdash;not you&mdash;is performing the service.</p>
+            <p>In <a href="https://oklaw.org/resource/small-claims-court" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Small Claims Court</a>, the court clerk can serve the defendant by certified mail as part of the standard process. This is the most common &quot;DIY&quot; option, though technically the clerk&mdash;not you&mdash;is performing the service.</p>
             <p>If certified mail fails, you must then use sheriff or private process server service at your own expense.</p>
 
             <h3>Out-of-State Service</h3>

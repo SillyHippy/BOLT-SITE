@@ -689,10 +689,10 @@ export default function WeddingOfficiantPage() {
               <div className="bg-rose-50 border border-rose-100 rounded-xl p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Legal Authorization Under Oklahoma Law</h3>
                 <p className="text-gray-700 mb-4">
-                  Under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST43" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">43 O.S. &sect; 7 (Oklahoma Marriage Laws, Title 43)</a>, the State of Oklahoma authorizes ordained ministers, judges, justices of the peace, and rabbis to solemnize marriages. Joseph W. Iannazzi has been ordained since April 30, 2017, through The Monastery (Universal Life Church), satisfying all statutory requirements to legally perform your ceremony.
+                  Under <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST43" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">43 O.S. &sect; 7 (Oklahoma Marriage Laws, Title 43)</a>, the State of Oklahoma authorizes ordained ministers, judges, justices of the peace, and rabbis to solemnize marriages. Joseph W. Iannazzi has been ordained since April 30, 2017, through The Monastery (Universal Life Church), satisfying all statutory requirements to legally perform your ceremony.
                 </p>
                 <p className="text-gray-700">
-                  Unlike some officiants who obtained overnight ordinations, Joseph&apos;s credentials are verifiable through The Monastery&apos;s official records, giving you and the county clerk complete confidence in the legality of your union. Additional information on marriage procedures can be found on the <a href="https://www.courts.ok.gov/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Oklahoma Courts website</a>.
+                  Unlike some officiants who obtained overnight ordinations, Joseph&apos;s credentials are verifiable through The Monastery&apos;s official records, giving you and the county clerk complete confidence in the legality of your union. Additional information on marriage procedures can be found on the <a href="https://www.courts.ok.gov/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">Oklahoma Courts website</a>.
                 </p>
               </div>
               <div className="bg-rose-50 border border-rose-100 rounded-xl p-6">
@@ -845,7 +845,7 @@ export default function WeddingOfficiantPage() {
                 <div className="text-3xl mb-3">⚖️</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Courthouse Ceremonies (Tulsa County)</h3>
                 <p className="text-gray-700 text-sm">
-                  The <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk&apos;s office</a> is where you obtain your marriage license before the ceremony. Joseph regularly performs courthouse-style ceremonies that are professional, dignified, and efficient&mdash;ideal for couples who want a legally complete ceremony without the elaborate planning.
+                  The <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">Tulsa County Court Clerk&apos;s office</a> is where you obtain your marriage license before the ceremony. Joseph regularly performs courthouse-style ceremonies that are professional, dignified, and efficient&mdash;ideal for couples who want a legally complete ceremony without the elaborate planning.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-rose-50 to-pink-50 border border-rose-100 rounded-2xl p-6">
@@ -888,7 +888,7 @@ export default function WeddingOfficiantPage() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Get Your Marriage License from the County Clerk</h3>
                   <p className="text-gray-700">
-                    Both parties must appear in person at the county court clerk&apos;s office. In Tulsa County, visit the <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a>. You&apos;ll need a <strong>valid government-issued photo ID</strong> (driver&apos;s license, passport, or state ID) and your <strong>Social Security number</strong>. The fee is approximately $50, reducible to as low as $5 with proof of premarital counseling (43 O.S. &sect; 5.1). Oklahoma has no residency requirement&mdash;couples from any state or country are welcome.
+                    Both parties must appear in person at the county court clerk&apos;s office. In Tulsa County, visit the <a href="https://courtclerk.tulsacounty.org/" className="text-rose-600 underline" target="_blank" rel="noopener noreferrer nofollow">Tulsa County Court Clerk</a>. You&apos;ll need a <strong>valid government-issued photo ID</strong> (driver&apos;s license, passport, or state ID) and your <strong>Social Security number</strong>. The fee is approximately $50, reducible to as low as $5 with proof of premarital counseling (43 O.S. &sect; 5.1). Oklahoma has no residency requirement&mdash;couples from any state or country are welcome.
                   </p>
                 </div>
               </div>

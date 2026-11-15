@@ -417,7 +417,7 @@ export default function BlogPost() {
             <p>
               Whether you need{" "}
               <Link
-                href="/services/process-serving"
+                href="/process-serving"
                 className="text-blue-600 hover:underline"
               >
                 standard process serving

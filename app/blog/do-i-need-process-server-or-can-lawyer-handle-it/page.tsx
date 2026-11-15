@@ -155,7 +155,7 @@ export default function DoINeedProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>{" "}
               comes from both attorneys and self-represented litigants: "Do I
@@ -213,9 +213,9 @@ export default function DoINeedProcessServerPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Attorney Service Cost Breakdown
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   Average Oklahoma attorney hourly rate: <strong>$250/hour</strong>
@@ -242,7 +242,7 @@ export default function DoINeedProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/pricing"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our standard service is <strong>our standard rate</strong> — a flat fee that
@@ -319,7 +319,7 @@ export default function DoINeedProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 after-hours service
               </a>{" "}
               at Just Legal Solutions is specifically designed for defendants
@@ -441,7 +441,7 @@ export default function DoINeedProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we navigate these requirements daily across all 77 Oklahoma
@@ -525,7 +525,7 @@ export default function DoINeedProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 process serving services
               </a>{" "}
               across all 77 Oklahoma counties.

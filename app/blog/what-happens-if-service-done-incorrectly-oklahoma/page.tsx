@@ -158,7 +158,7 @@ export default function ImproperServicePage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have seen firsthand how improper service can derail cases,
@@ -317,7 +317,7 @@ export default function ImproperServicePage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we understand the time pressure involved in service of
@@ -460,9 +460,9 @@ export default function ImproperServicePage() {
             </p>
 
             <div className="bg-blue-50 rounded-lg p-6 my-6 border border-blue-100">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Checklist for Proper Oklahoma Service
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   ✅ Hire a licensed, bonded Oklahoma process server
@@ -499,7 +499,7 @@ export default function ImproperServicePage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have built our reputation on getting service right the

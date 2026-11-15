@@ -662,7 +662,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/oklahoma-process-server-laws"
+                href="/oklahoma-process-server-laws"
                 className="text-blue-600 hover:underline"
               >
                 Oklahoma Process Server Laws

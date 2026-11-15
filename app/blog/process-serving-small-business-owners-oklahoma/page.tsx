@@ -211,7 +211,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
 
             <h3>Service Requirements in Contract Cases</h3>
             <p>When suing for breach of contract, proper service is critical. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, service must be made within 180 days of filing the petition. Where permitted under 12 O.S. § 2004(C)(1), residential substituted service may leave copies with a person at least 15 years old who resides at the defendant&apos;s dwelling. Subpoenas and entity or government service require personal delivery to specified persons.</p>
-            <p>For business defendants, service on the registered agent is usually the most reliable method. You can find registered agent information through the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> business entity search.</p>
+            <p>For business defendants, service on the registered agent is usually the most reliable method. You can find registered agent information through the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> business entity search.</p>
 
             <h3>Common Contract Disputes for Small Businesses</h3>
             <ul>
@@ -223,7 +223,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             </ul>
 
             <h2>Mechanic&apos;s Lien Actions</h2>
-            <p>For contractors, subcontractors, and suppliers in Oklahoma&apos;s construction industry, mechanic&apos;s liens are a powerful tool for securing payment. These liens are governed by <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">42 O.S. §§ 141-176</a>.</p>
+            <p>For contractors, subcontractors, and suppliers in Oklahoma&apos;s construction industry, mechanic&apos;s liens are a powerful tool for securing payment. These liens are governed by <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">42 O.S. §§ 141-176</a>.</p>
 
             <h3>What Is a Mechanic&apos;s Lien?</h3>
             <p>A mechanic&apos;s lien is a legal claim against real property for unpaid work or materials. It &quot;attaches&quot; to the property itself, meaning the owner cannot sell or refinance without addressing the lien. This gives contractors and suppliers significant leverage to collect what they&apos;re owed.</p>
@@ -237,7 +237,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             <p>Missing these deadlines means losing your lien rights entirely.</p>
 
             <h3>Pre-Lien Notice Requirements</h3>
-            <p>Under <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">42 O.S. § 142.6</a>, contractors and subcontractors must send pre-lien notice in certain situations:</p>
+            <p>Under <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">42 O.S. § 142.6</a>, contractors and subcontractors must send pre-lien notice in certain situations:</p>
             <ul>
               <li>Required for commercial properties when the claim exceeds $10,000</li>
               <li>Must be sent within <strong>75 days</strong> after the last date of supplying materials, services, labor, or equipment</li>
@@ -256,10 +256,10 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             </ul>
 
             <h3>Enforcing a Mechanic&apos;s Lien</h3>
-            <p>A mechanic&apos;s lien doesn&apos;t last forever. Under <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">42 O.S. §§ 171-172</a>, you must file a foreclosure lawsuit within <strong>1 year</strong> of filing the lien statement. Failure to do so renders the lien invalid and unenforceable.</p>
+            <p>A mechanic&apos;s lien doesn&apos;t last forever. Under <a href="https://oklahoma.gov/content/dam/ok/en/cib/documents/rules/Lien%20Laws%20PDF%20Title%2042%20from%20CIB%20website%20March%202024.pdf" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">42 O.S. §§ 171-172</a>, you must file a foreclosure lawsuit within <strong>1 year</strong> of filing the lien statement. Failure to do so renders the lien invalid and unenforceable.</p>
 
             <h3>Discharging a Mechanic&apos;s Lien</h3>
-            <p>Property owners have options if they believe a lien is invalid. Under <a href="https://basslaw.net/immediate-discharge-of-mechanics-and-materialmens-liens/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">42 O.S. § 176</a>, an owner can discharge a lien immediately by depositing 125% of the lien amount with the county clerk as a bond or cash. This allows property sales to proceed while the underlying dispute is resolved.</p>
+            <p>Property owners have options if they believe a lien is invalid. Under <a href="https://basslaw.net/immediate-discharge-of-mechanics-and-materialmens-liens/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">42 O.S. § 176</a>, an owner can discharge a lien immediately by depositing 125% of the lien amount with the county clerk as a bond or cash. This allows property sales to proceed while the underlying dispute is resolved.</p>
 
             <h2>Debt Collection for Small Businesses</h2>
             <p>Collecting unpaid debts is one of the most common reasons small businesses turn to the courts. Here&apos;s how to approach it:</p>

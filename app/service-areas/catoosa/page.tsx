@@ -285,7 +285,7 @@ export default function CatoosaProcessServer() {
                     <a 
                       href="https://maps.google.com/maps?q=Catoosa,+OK"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener noreferrer nofollow"
                       className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                     >
                       📍 View Larger Map & Directions

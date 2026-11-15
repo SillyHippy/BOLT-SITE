@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
+  title: "HB 1162 Safety & Compliance Guide | Just Legal Solutions",
+  description: "Process server safety requirements, background checks, and on-the-job protocols under Oklahoma law.",
   alternates: {
     canonical: '/learn/hb1162-safety-compliance',
   },

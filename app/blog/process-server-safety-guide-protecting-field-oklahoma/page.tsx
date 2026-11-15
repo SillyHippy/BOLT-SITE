@@ -306,7 +306,7 @@ export default function BlogPost() {
             Modern technology has transformed process server safety. <strong>GPS tracking</strong> on your phone creates a documented record of your route in real time — invaluable both for proof of service and as evidence if something goes wrong. <strong>Body cameras</strong> provide documented proof of service attempts and can capture critical evidence in case of assault or threats. Many insurance carriers and legal malpractice policies now expect or require body camera footage for high-risk serves.
           </p>
           <p>
-            <strong>Mobile safety apps</strong> allow you to share your location in real time with a trusted contact. Some apps feature silent panic buttons that can alert emergency contacts or law enforcement without drawing attention. Explore what works for your setup and use it consistently. For details on how we handle <Link href="/services/process-serving" className="text-blue-600 hover:underline">proper documentation and proof of service</Link>, contact our team.
+            <strong>Mobile safety apps</strong> allow you to share your location in real time with a trusted contact. Some apps feature silent panic buttons that can alert emergency contacts or law enforcement without drawing attention. Explore what works for your setup and use it consistently. For details on how we handle <Link href="/process-serving" className="text-blue-600 hover:underline">proper documentation and proof of service</Link>, contact our team.
           </p>
 
           <h3>Communication Protocols — The Check-In System</h3>

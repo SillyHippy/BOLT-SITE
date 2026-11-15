@@ -166,7 +166,7 @@ export default function WeekendAfterHoursNotaryPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we specialize in exactly these situations — and the answer is
@@ -304,9 +304,9 @@ export default function WeekendAfterHoursNotaryPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Common After-Hours Notarization Scenarios
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Real estate closings:</strong> Documents must be
@@ -449,7 +449,7 @@ export default function WeekendAfterHoursNotaryPage() {
               <a
                 href="https://justlegalsolutions.org/pricing"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we provide transparent, all-in quotes with no hidden fees.
@@ -466,9 +466,9 @@ export default function WeekendAfterHoursNotaryPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 After-Hours Notarization Checklist
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Call as early as possible:</strong> Even if it is
@@ -559,7 +559,7 @@ export default function WeekendAfterHoursNotaryPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our mobile notary service is available seven days a week

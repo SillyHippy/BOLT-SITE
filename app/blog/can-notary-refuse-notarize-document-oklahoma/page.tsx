@@ -160,7 +160,7 @@ export default function NotaryRefusalPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we field questions about notary refusals regularly from clients
@@ -254,9 +254,9 @@ export default function NotaryRefusalPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Acceptable Identification for Oklahoma Notarization
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   Oklahoma driver's license or state-issued ID card (current)
@@ -280,7 +280,7 @@ export default function NotaryRefusalPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we always advise clients to bring a current government-issued
@@ -444,7 +444,7 @@ export default function NotaryRefusalPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we handle multilingual notarizations regularly and can arrange
@@ -461,9 +461,9 @@ export default function NotaryRefusalPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Before Your Notary Appointment
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>Ensure the document is complete — no blank spaces</li>
                 <li>
@@ -527,7 +527,7 @@ export default function NotaryRefusalPage() {
               <a
                 href="https://justlegalsolutions.org/contact"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 schedule online
               </a>
               . Our mobile notaries come to you, seven days a week, with same-day

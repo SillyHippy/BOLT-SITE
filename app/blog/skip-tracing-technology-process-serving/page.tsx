@@ -328,7 +328,7 @@ export default function BlogPost() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>
               <Link
-                href="/blog/skip-tracing-success-story-tulsa-case-study"
+                href="/blog/skip-tracing-oklahoma-guide"
                 className="text-blue-600 hover:underline"
               >
                 Skip Tracing Success Story: A Tulsa Case Study

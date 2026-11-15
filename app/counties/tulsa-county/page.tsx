@@ -910,7 +910,7 @@ export default function TulsaCountyProcessServer() {
                 <div>
                   <h4 className="font-semibold text-blue-900 mb-3">Cost & Comparison</h4>
                   <div className="space-y-2">
-                    <Link href="/oklahoma-process-serving-costs-comparison" className="block text-blue-600 hover:text-blue-800 text-sm">
+                    <Link href="/pricing" className="block text-blue-600 hover:text-blue-800 text-sm">
                       Cost Comparison Guide
                     </Link>
                     <Link href="/pricing" className="block text-blue-600 hover:text-blue-800 text-sm">

@@ -302,7 +302,7 @@ export default function EvictionServiceGuidePage() {
         <h2>Common Mistakes Landlords Make</h2>
         <div className="grid md:grid-cols-2 gap-4 my-6">
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-            <h4 className="font-semibold text-amber-800 mb-1">Wrong notice period</h4>
+            <h3 className="font-semibold text-amber-800 mb-1">Wrong notice period</h3>
             <p className="text-sm text-amber-700">
               Using a 5-day notice for a lease violation that requires 10 days, or vice versa, can
               get the case dismissed.

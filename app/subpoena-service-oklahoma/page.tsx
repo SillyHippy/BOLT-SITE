@@ -297,7 +297,7 @@ export default function SubpoenaServiceOklahomaPage() {
               <a
                 href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=436470"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="text-blue-700 hover:text-blue-800 underline"
               >
                 12 O.S. § 2004.1

@@ -176,7 +176,7 @@ export default function EvictionNoticeGuide() {
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-              <h3 className="text-xl font-bold text-blue-900 mt-0 mb-2">The Short Answer: Age 12 or Age 15?</h3>
+              <h2 className="text-xl font-bold text-blue-900 mt-0 mb-2">The Short Answer: Age 12 or Age 15?</h2>
               <p className="m-0 text-blue-800">
                 No, Oklahoma does not use the same age rule for both stages of an eviction. For the landlord&apos;s initial written notice, the law allows service on a family member over <strong>age 12</strong> residing with the tenant under 41 O.S. § 111(E). For the later FED court summons, Oklahoma uses an <strong>over-15</strong> standard under 12 O.S. § 1148.5. Mixing those rules up is a common reason eviction cases get challenged or delayed.
               </p>

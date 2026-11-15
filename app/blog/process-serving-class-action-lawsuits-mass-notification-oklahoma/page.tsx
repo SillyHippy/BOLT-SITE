@@ -269,7 +269,7 @@ export default function BlogPost() {
 
           <p className="bg-blue-50 p-6 rounded-lg my-8">
             <strong>Need help navigating class action notice requirements?</strong> Understanding the rules is only half the battle — executing compliant notice requires professional support.{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline font-medium">
+            <Link href="/process-serving" className="text-blue-600 hover:underline font-medium">
               Contact Just Legal Solutions
             </Link>{' '}
             for licensed process serving that covers both defendant service and class member notice support across all 77 Oklahoma counties.
@@ -315,7 +315,7 @@ export default function BlogPost() {
 
           <p className="bg-blue-50 p-6 rounded-lg my-8">
             <strong>Handling a class action in Oklahoma?</strong> Just Legal Solutions' licensed process servers work across all 77 counties to support defendant service and mass notification compliance. We coordinate with your notice administrators and ensure every phase meets Oklahoma and federal requirements.{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline font-medium">Learn about our process serving services</Link>{' '}
+            <Link href="/process-serving" className="text-blue-600 hover:underline font-medium">Learn about our process serving services</Link>{' '}
             or{' '}
             <Link href="/contact" className="text-blue-600 hover:underline font-medium">contact us today</Link>.
           </p>
@@ -436,7 +436,7 @@ export default function BlogPost() {
           <h3 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Planning a Class Action in Oklahoma? Start with Proper Service.</h3>
           <p>
             Class action notice requirements are complex, but they do not have to be overwhelming. At Just Legal Solutions, our licensed process servers work across all 77 Oklahoma counties, supporting both defendant service and class member notice coordination. We understand the intersection of federal Rule 23, Oklahoma's 12 O.S. § 2023, and the CAFA 90-day rule — and we put that knowledge to work for your firm.{' '}
-            <Link href="/services/process-serving" className="text-blue-600 hover:underline">Learn more about our process serving services</Link>,{' '}
+            <Link href="/process-serving" className="text-blue-600 hover:underline">Learn more about our process serving services</Link>,{' '}
             <Link href="/contact" className="text-blue-600 hover:underline">contact us for a consultation</Link>, or visit our{' '}
             <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>{' '}
             for current service rates.

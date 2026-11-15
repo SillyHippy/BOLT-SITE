@@ -230,11 +230,11 @@ export default function WhatToDoWhenServedPapersOklahoma() {
 
             <h3>How to Find an Attorney in Oklahoma</h3>
             <p><strong>Oklahoma Bar Association Resources</strong></p>
-            <p>The <a href="https://www.okbar.org/findalawyer/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Bar Association</a> provides an online directory called &quot;Oklahoma Find A Lawyer&quot; where you can search for attorneys by practice area and location. While the OBA does not provide direct referrals, their directory is a valuable starting point.</p>
+            <p>The <a href="https://www.okbar.org/findalawyer/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Bar Association</a> provides an online directory called &quot;Oklahoma Find A Lawyer&quot; where you can search for attorneys by practice area and location. While the OBA does not provide direct referrals, their directory is a valuable starting point.</p>
             <p><strong>Tulsa County Bar Association Lawyer Referral Service</strong></p>
-            <p>If you&apos;re in the Tulsa area, the <a href="https://www.tulsabar.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Tulsa County Bar Association</a> operates a lawyer referral service. For a $25 referral fee, they will connect you with an attorney who practices in the area of law you need. This fee includes a 30-minute consultation to discuss your case.</p>
+            <p>If you&apos;re in the Tulsa area, the <a href="https://www.tulsabar.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Tulsa County Bar Association</a> operates a lawyer referral service. For a $25 referral fee, they will connect you with an attorney who practices in the area of law you need. This fee includes a 30-minute consultation to discuss your case.</p>
             <p><strong>Legal Aid Services of Oklahoma</strong></p>
-            <p>If you cannot afford an attorney, <a href="https://legalaidok.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Legal Aid Services of Oklahoma</a> provides free civil legal assistance to low-income Oklahomans. They handle cases involving:</p>
+            <p>If you cannot afford an attorney, <a href="https://legalaidok.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Legal Aid Services of Oklahoma</a> provides free civil legal assistance to low-income Oklahomans. They handle cases involving:</p>
             <ul>
               <li>Family law (divorce, custody, child support)</li>
               <li>Housing and eviction defense</li>
@@ -242,7 +242,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
               <li>Public benefits</li>
               <li>Domestic violence</li>
             </ul>
-            <p>Contact them at (888) 534-5243 or visit <a href="https://oklaw.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">oklaw.org</a> for more information.</p>
+            <p>Contact them at (888) 534-5243 or visit <a href="https://oklaw.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">oklaw.org</a> for more information.</p>
             <p><strong>Law School Clinics</strong></p>
             <p>Both the University of Oklahoma and University of Tulsa operate legal clinics where law students, supervised by licensed attorneys, provide free or low-cost legal services:</p>
             <ul>
@@ -250,7 +250,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
               <li><strong>TU Law Legal Clinic:</strong> (918) 631-5799</li>
             </ul>
             <p><strong>Oklahoma Free Legal Answers</strong></p>
-            <p>The Oklahoma Bar Association sponsors <a href="https://www.okbar.org/a2j/resources/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Free Legal Answers</a>, where you can submit legal questions online and receive answers from volunteer attorneys at no cost. This is not a substitute for full representation, but it can help you understand your situation better.</p>
+            <p>The Oklahoma Bar Association sponsors <a href="https://www.okbar.org/a2j/resources/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">Oklahoma Free Legal Answers</a>, where you can submit legal questions online and receive answers from volunteer attorneys at no cost. This is not a substitute for full representation, but it can help you understand your situation better.</p>
 
             <h3>What to Bring to Your First Attorney Meeting</h3>
             <p>When you meet with a lawyer, bring:</p>
@@ -378,7 +378,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
               <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Common questions about how process serving works in Oklahoma</li>
               <li><Link href="/blog/oklahoma-default-judgment-guide" className="text-blue-600 hover:underline">Oklahoma Default Judgment Guide</Link> &mdash; What happens when defendants don&apos;t respond and how default judgments work</li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> &mdash; Legal requirements for serving papers in Oklahoma</li>
-              <li><Link href="/blog/how-long-to-respond-lawsuit-oklahoma" className="text-blue-600 hover:underline">How Long Do You Have to Respond to a Lawsuit in Oklahoma?</Link> &mdash; Detailed breakdown of response deadlines</li>
+              <li><Link href="/blog/how-long-respond-lawsuit-oklahoma" className="text-blue-600 hover:underline">How Long Do You Have to Respond to a Lawsuit in Oklahoma?</Link> &mdash; Detailed breakdown of response deadlines</li>
             </ul>
             <p>Getting served with legal papers is never pleasant, but understanding the process helps you respond appropriately and protect your rights. At Just Legal Solutions, we&apos;re licensed Oklahoma process servers who have delivered thousands of legal documents across all 77 Oklahoma counties. We understand what you&apos;re going through because we see it every day.</p>
             <p>If you have questions about service of process, need papers served on someone else, or want to verify that service was completed properly in your case, we&apos;re here to help.</p>
@@ -417,7 +417,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws</span>
                 <p className="text-sm text-gray-600 mt-1">Legal requirements for serving papers in Oklahoma</p>
               </Link>
-              <Link href="/blog/how-long-to-respond-lawsuit-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/blog/how-long-respond-lawsuit-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How Long Do You Have to Respond to a Lawsuit in Oklahoma?</span>
                 <p className="text-sm text-gray-600 mt-1">Detailed breakdown of response deadlines</p>
               </Link>

@@ -124,7 +124,7 @@ export default function NotaryLawsPage() {
 
             <div className="flex-1 max-w-sm">
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
-                <h3 className="text-white font-semibold mb-4">Quick Facts</h3>
+                <h2 className="text-white font-semibold mb-4">Quick Facts</h2>
                 <div className="space-y-3">
                   {[
                     { label: 'Traditional Fee', value: '$5/act max' },
@@ -622,17 +622,17 @@ export default function NotaryLawsPage() {
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-4">Official Oklahoma Resources</h3>
                 <ul className="space-y-3">
-                  <li><a href="https://www.sos.ok.gov/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Oklahoma Secretary of State — Notary Division</a></li>
-                  <li><a href="https://www.sos.ok.gov/notary/filing/Default.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Notary Application Portal</a></li>
-                  <li><a href="https://www.sos.ok.gov/notary/verify.aspx" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Verify a Notary Commission</a></li>
-                  <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST49" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Oklahoma Notary Statutes (Title 49)</a></li>
+                  <li><a href="https://www.sos.ok.gov/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Oklahoma Secretary of State — Notary Division</a></li>
+                  <li><a href="https://www.sos.ok.gov/notary/filing/Default.aspx" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Notary Application Portal</a></li>
+                  <li><a href="https://www.sos.ok.gov/notary/verify.aspx" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Verify a Notary Commission</a></li>
+                  <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST49" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />Oklahoma Notary Statutes (Title 49)</a></li>
                 </ul>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-4">National Resources</h3>
                 <ul className="space-y-3">
                   <li><a href="https://www.nationalnotary.org/oklahoma" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />National Notary Association — Oklahoma</a></li>
-                  <li><a href="https://www.oklahomanotary.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />American Association of Notaries — Oklahoma</a></li>
+                  <li><a href="https://www.oklahomanotary.com" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />American Association of Notaries — Oklahoma</a></li>
                 </ul>
                 <h3 className="font-bold text-gray-900 mt-6 mb-4">Our Notary Services</h3>
                 <ul className="space-y-3">

@@ -370,7 +370,7 @@ export default function HospitalNotaryPage() {
                   return (
                     <div key={item.title} className="bg-white/10 backdrop-blur-lg rounded-2xl p-5 border border-white/10">
                       <Icon className="w-8 h-8 text-rose-200 mb-3" />
-                      <h3 className="text-lg font-semibold">{item.title}</h3>
+                      <h2 className="text-lg font-semibold">{item.title}</h2>
                       <p className="text-sm text-indigo-100">{item.desc}</p>
                     </div>
                   );
@@ -829,10 +829,10 @@ export default function HospitalNotaryPage() {
           <div className="text-center mt-8">
             <p className="text-gray-600 mb-2">Official Resources:</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+              <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                 Oklahoma Secretary of State ↗
               </a>
-              <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+              <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                 Hague Apostille Convention ↗
               </a>
               <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">

@@ -742,11 +742,11 @@ export default function ServingGovernmentEntitiesPage() {
         <div className="not-prose my-12">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Related Articles</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/oklahoma-process-server-laws/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
+            <Link href="/oklahoma-process-server-laws" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-blue-700 mb-2">Oklahoma Process Server Laws 2026</h3>
               <p className="text-sm text-gray-600">Complete guide to Oklahoma's process serving statutes and requirements.</p>
             </Link>
-            <Link href="/blog/serving-business-entities-oklahoma/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
+            <Link href="/blog/serve-business-corporation-oklahoma" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-blue-700 mb-2">Serving Business Entities in Oklahoma</h3>
               <p className="text-sm text-gray-600">Learn how to properly serve corporations, LLCs, and other business entities.</p>
             </Link>

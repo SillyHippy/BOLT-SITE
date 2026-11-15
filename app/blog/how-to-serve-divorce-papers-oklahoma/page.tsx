@@ -213,7 +213,7 @@ export default function HowToServeDivorcePapersOklahoma() {
 
             <h2>Service Methods Under 12 O.S. § 2004</h2>
             <p>
-              Oklahoma Statutes Title 12, Section 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer">view full statute on OSCN</a>) governs the methods by which civil process — including divorce papers — may be served. The statute provides several recognized methods, each with specific rules and appropriate circumstances. For a complete breakdown of Oklahoma&apos;s service rules, see our Oklahoma Process Server Laws guide.
+              Oklahoma Statutes Title 12, Section 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer nofollow">view full statute on OSCN</a>) governs the methods by which civil process — including divorce papers — may be served. The statute provides several recognized methods, each with specific rules and appropriate circumstances. For a complete breakdown of Oklahoma&apos;s service rules, see our Oklahoma Process Server Laws guide.
             </p>
 
             <h3>Personal Service (Preferred Method)</h3>
@@ -313,12 +313,12 @@ export default function HowToServeDivorcePapersOklahoma() {
               If your spouse is an active-duty member of the U.S. military, the federal Servicemembers Civil Relief Act (SCRA) provides significant legal protections that affect your divorce proceedings. A servicemember can request that the court stay (pause) the proceedings for the duration of active duty plus 60 days. You are required to check and disclose whether your spouse is on active military duty when filing and when seeking a default.
             </p>
             <p>
-              Failing to comply with SCRA requirements can result in the default judgment being vacated years later, even after the divorce is finalized. Always consult with an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer">Oklahoma family law attorney</a> if your spouse is in the military.
+              Failing to comply with SCRA requirements can result in the default judgment being vacated years later, even after the divorce is finalized. Always consult with an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer nofollow">Oklahoma family law attorney</a> if your spouse is in the military.
             </p>
 
             <h2>Proof of Service Requirements</h2>
             <p>
-              After your spouse is served, the process server must complete a sworn <Link href="/affidavit-of-service" className="text-blue-600 hover:underline"><strong>affidavit of service</strong></Link> (sometimes called a Return of Service) and file it with the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer">district court</a>. This document is the official legal record that service occurred and must include:
+              After your spouse is served, the process server must complete a sworn <Link href="/affidavit-of-service" className="text-blue-600 hover:underline"><strong>affidavit of service</strong></Link> (sometimes called a Return of Service) and file it with the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer nofollow">district court</a>. This document is the official legal record that service occurred and must include:
             </p>
             <ul>
               <li>The full name of the person served</li>
@@ -328,7 +328,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               <li>The server&apos;s signature under oath</li>
             </ul>
             <p>
-              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our courthouse filing services can handle filing your proof of service with the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
+              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our courthouse filing services can handle filing your proof of service with the <a href="https://courtclerk.tulsacounty.org/" target="_blank" rel="noopener noreferrer nofollow">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
             </p>
             <p>
               A professionally prepared affidavit typically includes a physical description of the person served, the exact address and circumstances of service, notes on any obstacles encountered, and GPS-validated timestamps confirming the server&apos;s presence at the service location. This level of detail makes the document virtually unassailable if challenged.

@@ -546,7 +546,7 @@ export default function PDFToolsPage() {
             <a
               href="https://tools.pdf24.org/en/ocr-pdf"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="block rounded-xl border-2 border-dashed border-amber-300 bg-amber-50 p-6 hover:bg-amber-100 hover:border-amber-400 transition-all group"
             >
               <div className="flex items-start gap-4">

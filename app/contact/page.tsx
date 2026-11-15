@@ -186,7 +186,7 @@ export default function ContactPage() {
               <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
                 <a href="tel:5393676832" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
                   <Phone className="h-8 w-8 text-white mx-auto mb-3 group-hover:scale-110 transition-transform" />
-                  <h3 className="font-bold text-white mb-1">Call Us</h3>
+                  <h2 className="font-bold text-white mb-1">Call Us</h2>
                   <p className="text-blue-100 font-semibold">(539) 367-6832</p>
                 </a>
                 <a href="/contact" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">

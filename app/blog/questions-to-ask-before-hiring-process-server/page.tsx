@@ -160,7 +160,7 @@ export default function QuestionsToAskProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have served thousands of legal documents across all 77
@@ -272,7 +272,7 @@ export default function QuestionsToAskProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/pricing"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our standard service is our standard rate, which includes professional
@@ -352,7 +352,7 @@ export default function QuestionsToAskProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/coverage"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 all 77 Oklahoma counties
               </a>{" "}
               from our Tulsa headquarters, with established networks and
@@ -513,7 +513,7 @@ export default function QuestionsToAskProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org/services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>{" "}
               is available for these critical situations.
@@ -636,7 +636,7 @@ export default function QuestionsToAskProcessServerPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we have built our reputation on getting service right the first

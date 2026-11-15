@@ -502,7 +502,7 @@ export default function BlogPost() {
               process server — you're partnering with a team that treats
               your case with the seriousness it deserves. Our{" "}
               <Link
-                href="/services/process-serving"
+                href="/process-serving"
                 className="text-blue-600 hover:underline"
               >
                 process serving

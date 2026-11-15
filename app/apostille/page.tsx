@@ -1005,13 +1005,13 @@ export default function ApostillePage() {
             <div className="text-center mt-8">
               <p className="text-gray-600 mb-2">Official Resources:</p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                   Hague Apostille Convention (1961) ↗
                 </a>
-                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                   Oklahoma Secretary of State ↗
                 </a>
-                <a href="https://travel.state.gov/content/travel/en/records-and-authentications.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                <a href="https://travel.state.gov/content/travel/en/records-and-authentications.html" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                   U.S. State Dept. Authentication ↗
                 </a>
               </div>

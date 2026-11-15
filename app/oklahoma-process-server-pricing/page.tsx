@@ -448,7 +448,7 @@ export default function OklahomaProcessServerPricing2026() {
         <section className="mb-8" aria-labelledby="related-heading">
           <h2 id="related-heading" className="text-3xl font-semibold mb-4">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Oklahoma Process Serving Costs by County Comparison</Link></li>
+            <li><Link href="/pricing" className="text-blue-700 underline">Oklahoma Process Serving Costs by County Comparison</Link></li>
             <li><Link href="/oklahoma-process-server-faq" className="text-blue-700 underline">Oklahoma Process Server FAQ 2026</Link></li>
             <li><Link href="/oklahoma-process-server-technology" className="text-blue-700 underline">Process Server Technology Trends</Link></li>
             <li><Link href="/service-areas" className="text-blue-700 underline">View All Oklahoma Service Areas</Link></li>

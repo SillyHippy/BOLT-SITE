@@ -387,7 +387,7 @@ export default function BlogPost() {
           </ul>
 
           <p>
-            <Link href="/services/process-serving/" className="text-blue-600 hover:text-blue-800 underline">
+            <Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">
               Just Legal Solutions offers professional protective order service
             </Link>{' '}
             with rush and same-day options, GPS tracking, and comprehensive documentation for court filing.
@@ -859,7 +859,7 @@ export default function BlogPost() {
             <h3 className="text-lg font-bold text-gray-900 mb-4">Related Articles</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/blog/oklahoma-process-server-requirements/" className="text-blue-600 hover:text-blue-800 underline">
+                <Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:text-blue-800 underline">
                   Oklahoma Process Server Requirements and Licensing
                 </Link>
               </li>
@@ -869,7 +869,7 @@ export default function BlogPost() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/same-day-process-serving-oklahoma/" className="text-blue-600 hover:text-blue-800 underline">
+                <Link href="/same-day-process-server" className="text-blue-600 hover:text-blue-800 underline">
                   Same-Day Process Serving in Oklahoma: What You Need to Know
                 </Link>
               </li>

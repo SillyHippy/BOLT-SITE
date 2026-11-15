@@ -161,7 +161,7 @@ export default function MultiplePagesNotaryCostPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>{" "}
               is some variation of: "I only had one document, but it was 20
@@ -205,9 +205,9 @@ export default function MultiplePagesNotaryCostPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Oklahoma Notary Fee Structure
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Per notarial act (acknowledgment/jurat):</strong> Up
@@ -255,9 +255,9 @@ export default function MultiplePagesNotaryCostPage() {
             </p>
 
             <div className="bg-blue-50 rounded-lg p-6 my-6 border border-blue-100">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 Pricing Scenarios
-              </h4>
+              </h3>
               <ul className="space-y-3 text-gray-700">
                 <li>
                   <strong>Scenario 1:</strong> 25-page real estate deed, one
@@ -338,7 +338,7 @@ export default function MultiplePagesNotaryCostPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we regularly provide custom quotes for clients with multiple
@@ -422,7 +422,7 @@ export default function MultiplePagesNotaryCostPage() {
               <a
                 href="https://justlegalsolutions.org"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , we offer evening and weekend mobile notary appointments
@@ -460,7 +460,7 @@ export default function MultiplePagesNotaryCostPage() {
               <a
                 href="https://justlegalsolutions.org/notary-services"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Just Legal Solutions
               </a>
               , our certified signing agents are National Notary Association
@@ -479,9 +479,9 @@ export default function MultiplePagesNotaryCostPage() {
             </p>
 
             <div className="bg-gray-50 rounded-lg p-6 my-6 border border-gray-200">
-              <h4 className="font-semibold text-gray-900 mb-3">
+              <h3 className="font-semibold text-gray-900 mb-3">
                 How to Save on Multi-Document Notarization
-              </h4>
+              </h3>
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <strong>Consolidate signatures:</strong> Have all documents
@@ -547,7 +547,7 @@ export default function MultiplePagesNotaryCostPage() {
               <a
                 href="https://justlegalsolutions.org/contact"
                 className="text-blue-600 hover:underline font-medium"
-              >
+               rel="nofollow noopener noreferrer">
                 Contact us today
               </a>{" "}
               for fast, friendly pricing from Oklahoma's trusted mobile notary

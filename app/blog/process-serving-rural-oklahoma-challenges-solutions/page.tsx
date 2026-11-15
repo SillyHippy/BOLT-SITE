@@ -183,7 +183,7 @@ export default function BlogPost() {
 
           <p>The geographic reality is this: Oklahoma is not just "spread out." It is spread out across wildly diverse terrain — from the flat wheat fields of the Panhandle to the rugged Kiamichi Mountains in Pushmataha County. Each region presents its own navigation, weather, and logistics challenges. And when you need <strong>process serving in rural counties across Oklahoma</strong>, those challenges directly affect your case timeline, your budget, and your client's access to justice.</p>
 
-          <p>This is exactly why <Link href="/services/process-serving" className="text-blue-600 hover:underline">professional process serving across all 77 Oklahoma counties</Link> matters. A firm that only covers the I-35 and I-40 corridors cannot solve the desert problem. Statewide coverage is not a marketing claim — it is an access-to-justice necessity.</p>
+          <p>This is exactly why <Link href="/process-serving" className="text-blue-600 hover:underline">professional process serving across all 77 Oklahoma counties</Link> matters. A firm that only covers the I-35 and I-40 corridors cannot solve the desert problem. Statewide coverage is not a marketing claim — it is an access-to-justice necessity.</p>
 
           <h2>The Five Unique Challenges of Rural Process Serving in Oklahoma</h2>
 
@@ -283,7 +283,7 @@ export default function BlogPost() {
 
           <p>Best practices include: photographing landmarks with embedded GPS metadata, documenting odometer readings at serve locations, saving offline maps before departing for the day, and cross-referencing county parcel GIS data for property boundary verification. A photo of the mailbox at "Route 2, Box 45" with GPS coordinates embedded in the EXIF data is far more compelling to a court than a server simply stating they were there.</p>
 
-          <p>For more on how GPS technology transforms process serving, see our article on <Link href="/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma" className="text-blue-600 hover:underline">how GPS tracking improves process serving accountability</Link> in Oklahoma.</p>
+          <p>For more on how GPS technology transforms process serving, see our article on <Link href="/blog/proof-of-service-oklahoma-guide" className="text-blue-600 hover:underline">how GPS tracking improves process serving accountability</Link> in Oklahoma.</p>
 
           <h3>Offline-Capable Tools and Satellite Communication for Dead Zones</h3>
 
@@ -379,7 +379,7 @@ export default function BlogPost() {
 
           <p>The strategies we have outlined in this article — bundling serves into route-optimized multi-county runs, providing complete defendant information upfront, allowing flexible timing, and choosing servers with established rural networks — can reduce your rural serving costs by half or more. More importantly, they can mean the difference between a case that proceeds on schedule and one that gets dismissed at the 200-day mark because service could not be completed in time.</p>
 
-          <p>From the Oklahoma Panhandle to the Kiamichi Mountains, <Link href="/services/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions covers all 77 Oklahoma counties</Link> with licensed, experienced process servers who understand the realities of rural service. We bring the expertise, equipment, and local knowledge needed to get your papers served — no matter how remote the location. We are bonded, licensed under <strong>12 O.S. § 158.1</strong>, and committed to ensuring that geography never determines justice in Oklahoma.</p>
+          <p>From the Oklahoma Panhandle to the Kiamichi Mountains, <Link href="/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions covers all 77 Oklahoma counties</Link> with licensed, experienced process servers who understand the realities of rural service. We bring the expertise, equipment, and local knowledge needed to get your papers served — no matter how remote the location. We are bonded, licensed under <strong>12 O.S. § 158.1</strong>, and committed to ensuring that geography never determines justice in Oklahoma.</p>
 
           <p className="text-gray-700 italic mt-8">
             Need a rural Oklahoma process server who can handle the challenges of remote counties?{' '}

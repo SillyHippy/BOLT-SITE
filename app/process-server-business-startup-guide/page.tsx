@@ -379,7 +379,7 @@ export default function ProcessServerBusinessStartupGuide() {
             </div>
 
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <h4 className="font-semibold text-blue-900 mb-3">Recommendation for New Process Servers</h4>
+              <h3 className="font-semibold text-blue-900 mb-3">Recommendation for New Process Servers</h3>
               <p className="text-blue-800">
                 Most new process servers should start with an <strong>LLC</strong> for the liability protection 
                 and professional credibility it provides. The cost (typically $100-300 in Oklahoma) is minimal 
@@ -642,7 +642,7 @@ export default function ProcessServerBusinessStartupGuide() {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border rounded-lg p-6">
-                  <h4 className="font-semibold text-slate-900 mb-3">Business Registration</h4>
+                  <h3 className="font-semibold text-slate-900 mb-3">Business Registration</h3>
                   <ul className="space-y-2 text-slate-600 text-sm">
                     <li>• Register with Oklahoma Secretary of State</li>
                     <li>• Obtain EIN from IRS</li>
@@ -748,7 +748,7 @@ export default function ProcessServerBusinessStartupGuide() {
             </div>
 
             <div className="bg-slate-50 border rounded-lg p-6">
-              <h4 className="font-semibold text-slate-900 mb-4">Finding Insurance Providers</h4>
+              <h3 className="font-semibold text-slate-900 mb-4">Finding Insurance Providers</h3>
               <p className="text-slate-600 mb-4">
                 Look for insurers that specialize in professional liability for legal support services. 
                 Recommended providers include:
@@ -901,7 +901,7 @@ export default function ProcessServerBusinessStartupGuide() {
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-medium text-slate-800 mb-2">Target Firms</h4>
+                      <h3 className="font-medium text-slate-800 mb-2">Target Firms</h3>
                       <ul className="space-y-1 text-slate-600 text-sm">
                         <li>• Family law practices</li>
                         <li>• Personal injury attorneys</li>
@@ -1051,7 +1051,7 @@ export default function ProcessServerBusinessStartupGuide() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white border rounded-lg p-6">
-                <h4 className="font-semibold text-slate-900 mb-3">Pricing Factors to Consider</h4>
+                <h3 className="font-semibold text-slate-900 mb-3">Pricing Factors to Consider</h3>
                 <ul className="space-y-2 text-slate-600 text-sm">
                   <li>• Your experience and credentials</li>
                   <li>• Geographic location (urban vs. rural)</li>
@@ -1159,10 +1159,10 @@ export default function ProcessServerBusinessStartupGuide() {
               </div>
 
               <div className="bg-slate-50 border rounded-lg p-6">
-                <h4 className="font-semibold text-slate-900 mb-4">Tax Considerations for Process Servers</h4>
+                <h3 className="font-semibold text-slate-900 mb-4">Tax Considerations for Process Servers</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h5 className="font-medium text-slate-800 mb-2">Quarterly Estimated Taxes</h5>
+                    <h4 className="font-medium text-slate-800 mb-2">Quarterly Estimated Taxes</h4>
                     <p className="text-slate-600 text-sm mb-4">
                       As a self-employed process server, you must pay quarterly estimated taxes 
                       to avoid penalties. Set aside 25-30% of net income for taxes.
@@ -1254,7 +1254,7 @@ export default function ProcessServerBusinessStartupGuide() {
                 <CardContent>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-medium text-slate-800 mb-3">Service Expansion</h4>
+                      <h3 className="font-medium text-slate-800 mb-3">Service Expansion</h3>
                       <ul className="space-y-2 text-slate-600 text-sm">
                         <li>• Skip tracing services</li>
                         <li>• Court filing services</li>
@@ -1446,7 +1446,7 @@ export default function ProcessServerBusinessStartupGuide() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
-                  <Link href="/careers/">Join Our Network</Link>
+                  <Link href="/contact">Join Our Network</Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                   <Link href="/contact/">Contact Us</Link>
@@ -1469,7 +1469,7 @@ export default function ProcessServerBusinessStartupGuide() {
           <section className="border-t pt-16">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">Related Resources</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <Link href="/how-to-become-a-process-server-in-oklahoma/" className="group">
+              <Link href="/blog/become-process-server-oklahoma" className="group">
                 <Card className="h-full transition-shadow hover:shadow-lg">
                   <CardContent className="pt-6">
                     <Scale className="w-8 h-8 text-blue-600 mb-4" />
@@ -1482,7 +1482,7 @@ export default function ProcessServerBusinessStartupGuide() {
                   </CardContent>
                 </Card>
               </Link>
-              <Link href="/oklahoma-process-server-requirements/" className="group">
+              <Link href="/oklahoma-process-server-best-practices-checklist" className="group">
                 <Card className="h-full transition-shadow hover:shadow-lg">
                   <CardContent className="pt-6">
                     <FileText className="w-8 h-8 text-blue-600 mb-4" />

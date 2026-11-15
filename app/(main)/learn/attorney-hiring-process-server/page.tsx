@@ -206,7 +206,7 @@ export default function AttorneyHiringProcessServerPage() {
         </p>
         <div className="grid md:grid-cols-2 gap-4 my-6">
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-            <h4 className="font-semibold text-red-800 mb-1">Cannot prove licensure</h4>
+            <h3 className="font-semibold text-red-800 mb-1">Cannot prove licensure</h3>
             <p className="text-sm text-red-700">
               If a server hesitates to provide a license number or cannot name their issuing court,
               walk away.

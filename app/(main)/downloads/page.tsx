@@ -377,11 +377,11 @@ export default function DownloadsPage() {
               <li>
                 Statute citations were accurate at the publication date. Always verify current rules
                 at{' '}
-                <a className="underline" href="https://www.oklegislature.gov" target="_blank" rel="noopener noreferrer">
+                <a className="underline" href="https://www.oklegislature.gov" target="_blank" rel="noopener noreferrer nofollow">
                   oklegislature.gov
                 </a>{' '}
                 and{' '}
-                <a className="underline" href="https://www.oscn.net" target="_blank" rel="noopener noreferrer">
+                <a className="underline" href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow">
                   oscn.net
                 </a>.
               </li>

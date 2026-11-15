@@ -15,11 +15,11 @@ export default function Disclaimer({ pageTitle }: { pageTitle?: string }) {
         Sources cited include Oklahoma Statutes, Oklahoma Rules of Civil Procedure, and court
         administrative materials. Citations are accurate to the best of our knowledge as of the
         publication date. Always verify statutes at{' '}
-        <a href="https://www.oklegislature.gov" target="_blank" rel="noopener noreferrer" className="underline">
+        <a href="https://www.oklegislature.gov" target="_blank" rel="noopener noreferrer nofollow" className="underline">
           oklegislature.gov
         </a>{' '}
         or court rules at{' '}
-        <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="underline">
+        <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer nofollow" className="underline">
           oscn.net
         </a>
         .

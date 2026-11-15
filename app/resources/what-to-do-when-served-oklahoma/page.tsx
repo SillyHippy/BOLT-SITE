@@ -77,7 +77,7 @@ export default function WhatToDoWhenServedPage() {
             <div className="hidden md:block">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="text-6xl mb-4">📄</div>
-                <h3 className="text-2xl font-bold mb-4">Inside This Guide:</h3>
+                <h2 className="text-2xl font-bold mb-4">Inside This Guide:</h2>
                 <ul className="space-y-3 text-blue-100">
                   <li className="flex items-start gap-3">
                     <span className="text-yellow-400 font-bold">✓</span>
@@ -371,7 +371,7 @@ export default function WhatToDoWhenServedPage() {
               <a
                 href="https://www.oscn.net/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                 className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
               >
                 Visit OSCN.net
