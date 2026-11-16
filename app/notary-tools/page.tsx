@@ -21,7 +21,7 @@ export default function NotaryToolsPage() {
   return <main className="mx-auto max-w-4xl px-4 py-12 text-slate-900">
     <h1 className="text-3xl font-bold">Official Oklahoma Notary Resources</h1>
     <p className="mt-4">Start with the Secretary of State publications. Traditional in-person journal keeping is recommended, not generally mandatory. Remote online notarization has separate journal and audiovisual-record requirements. Check the current rules for your act.</p>
-    <ul className="mt-8 space-y-3">{official.map(([title,href,description]) => <li key={href} className="rounded-xl border border-slate-200 p-4"><a href={href} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-[44px] items-center font-semibold text-blue-800 underline">{title}</a><p className="text-sm text-slate-600">{description}</p></li>)}</ul>
+    <ul className="mt-8 space-y-3">{official.map(([title,href,description]) => <li key={href} className="rounded-xl border border-slate-200 p-4"><a href={href} target="_blank" rel="nofollow noopener noreferrer" className="inline-flex min-h-[44px] items-center font-semibold text-blue-800 underline">{title}</a><p className="text-sm text-slate-600">{description}</p></li>)}</ul>
     <p className="mt-8 rounded-xl bg-slate-50 p-4">The separate phone journal at <a className="text-blue-800 underline" href="https://notarylog.net/" target="_blank" rel="noopener noreferrer">notarylog.net</a> is a journal tool, not a remote-online notarization platform or certificate library. Bring the correct certificate for the act.</p>
     <p className="mt-5 text-sm text-slate-600">Information, not legal advice. <Link className="text-blue-800 underline" href="/pdf-tools">PDF tools</Link>.</p>
   </main>;

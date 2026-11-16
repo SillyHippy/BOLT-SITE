@@ -142,7 +142,7 @@ const pageFaqs = [
   },
   {
     "question": "What professional associations should Oklahoma process servers join?",
-    "answer": "Recommended associations include: <strong>National Association of Professional Process Servers (NAPPS)</strong> at <a href='https://www.napps.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>napps.org</a> for nationwide directory and education, and <strong>Oklahoma Sooner Private Process Server Association (OKPPSA)</strong> at <a href='https://www.okppsa.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>okppsa.org</a> for state-specific training and advocacy. Both provide networking, legislative updates, and professional credibility that can lead to more client referrals."
+    "answer": "Recommended associations include: <strong>National Association of Professional Process Servers (NAPPS)</strong> at <a href='https://www.napps.org' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:underline'>napps.org</a> for nationwide directory and education, and <strong>Oklahoma Sooner Private Process Server Association (OKPPSA)</strong> at <a href='https://www.okppsa.org' target='_blank' rel='nofollow noopener noreferrer' className='text-blue-600 hover:underline'>okppsa.org</a> for state-specific training and advocacy. Both provide networking, legislative updates, and professional credibility that can lead to more client referrals."
   },
   {
     "question": "What is substituted service and when is it used in Oklahoma?",
