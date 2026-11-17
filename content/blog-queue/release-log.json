@@ -71,7 +71,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:13:05.198Z",
       "quality": {
@@ -105,7 +105,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:15:32.409Z",
       "quality": {
@@ -190,7 +190,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:15:49.716Z",
       "quality": {
@@ -993,7 +993,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:16:22.343Z",
       "quality": {
@@ -1813,7 +1813,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:16:45.580Z",
       "quality": {
@@ -2650,7 +2650,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:19:25.673Z",
       "quality": {
@@ -3402,7 +3402,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-24T06:19:53.334Z",
       "quality": {
@@ -4239,7 +4239,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-04-28T16:47:11.053Z",
       "quality": {
@@ -4375,7 +4375,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "releasedAt": "2026-05-19T17:34:46.234Z",
       "quality": {
@@ -6368,6 +6368,42 @@
         "FAQ answers short: 1 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-immigration-form-limits",
+      "title": "Oklahoma Notary for Immigration Forms: Legal Limits",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-17T22:44:08.294Z",
+      "releaseDate": "2026-11-17",
+      "quality": {
+        "words": 3235,
+        "headings": 16,
+        "paragraphs": 29
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma",
+      "title": "Rush vs. Standard vs. Same-Day Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-17T22:44:08.298Z",
+      "releaseDate": "2026-11-17",
+      "quality": {
+        "words": 5618,
+        "headings": 34,
+        "paragraphs": 72
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6594,7 +6630,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "failedChecks": [
         "SEO/schema: metadata.description is 135 chars (must be 150-160)",
@@ -7360,7 +7396,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "failedChecks": [
         "SEO/schema: metadata.description is 135 chars (must be 150-160)",
@@ -8074,7 +8110,7 @@
     },
     {
       "slug": "25-faq-process-serving-oklahoma",
-      "title": "25 FAQ About Process Serving in Oklahoma \u2014 Answered",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
       "category": "Process Serving",
       "failedChecks": [
         "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
