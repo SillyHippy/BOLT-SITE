@@ -6404,6 +6404,44 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "notary-deaf-blind-signers-oklahoma",
+      "title": "Notarizing Documents for Deaf or Blind Signers in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-19T22:37:11.706Z",
+      "releaseDate": "2026-11-19",
+      "quality": {
+        "words": 3411,
+        "headings": 17,
+        "paragraphs": 29
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "serving-active-duty-military-personnel-scra-compliance-oklahoma",
+      "title": "Serving Active-Duty Military in Oklahoma: SCRA Guide",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-19T22:37:11.713Z",
+      "releaseDate": "2026-11-19",
+      "quality": {
+        "words": 4095,
+        "headings": 24,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [

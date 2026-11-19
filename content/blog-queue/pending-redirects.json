@@ -92,13 +92,6 @@
       "inQueue": true,
       "updatedAt": "2026-08-22"
     },
-    "serving-active-duty-military-personnel-scra-compliance-oklahoma": {
-      "target": "/blog/how-to-hire-a-process-server-oklahoma",
-      "reason": "Queued post — interim redirect until weekly publish",
-      "inboundLinkCount": 1,
-      "inQueue": true,
-      "updatedAt": "2026-08-22"
-    },
     "track-legal-documents-transit-gps-proof-delivery-oklahoma": {
       "target": "/blog/document-courier-vs-regular-mail-law-firms-oklahoma",
       "reason": "Queued post — interim redirect until weekly publish",
@@ -128,6 +121,6 @@
       "updatedAt": "2026-08-22"
     }
   },
-  "lastPublishedSlug": "process-serving-tribal-land-mcgirt-jurisdiction-oklahoma",
-  "lastPublishedAt": "2026-11-12T21:47:29.524Z"
+  "lastPublishedSlug": "serving-active-duty-military-personnel-scra-compliance-oklahoma",
+  "lastPublishedAt": "2026-11-19T22:37:11.709Z"
 }
