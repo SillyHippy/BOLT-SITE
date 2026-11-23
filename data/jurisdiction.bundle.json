@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
-    "branch": "feat/bulk-invites-integration-main",
-    "commit": "fbfb20d",
+    "branch": "main",
+    "commit": "57e2c6c",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -4624,7 +4624,10 @@
       "qualification": {
         "qualificationText": "I, {{serverName}}, declare that I am eighteen (18) years of age or older at the time of service, am neither a party to this action nor a party's attorney (Utah R. Civ. P. 4(d)(1)), and am not disqualified under Utah Code § 78B-8-302(7) (I have not been convicted of a felony sex offense requiring registration and am not a respondent under an active protective order or stalking injunction).",
         "qualificationTextUnserved": "",
-        "requiredBodyClauses": [],
+        "requiredBodyClauses": [
+          "If serving as a licensed private investigator (agent, registrant, or apprentice) under Utah Code 78B-8-302(5): I verbally identified myself as a process server to the person served and printed my name and PI license number on the first page of each document served.",
+          "Utah Code 78B-8-302(8)(f): a private investigator serving process must legibly print the private investigator's identification number on the return of service."
+        ],
         "requiredFooterFields": [
           "signingCity",
           "signingState"
