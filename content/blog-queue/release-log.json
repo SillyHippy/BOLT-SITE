@@ -6442,6 +6442,44 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "oklahoma-notary-identification-credible-witness",
+      "title": "Oklahoma Notary Identification Rules and Credible Witnesses",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-24T23:41:55.308Z",
+      "releaseDate": "2026-11-24",
+      "quality": {
+        "words": 3353,
+        "headings": 19,
+        "paragraphs": 30
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "serving-subpoenas-social-media-companies-tech-platforms-oklahoma",
+      "title": "Serve Subpoenas on Social Media & Tech in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-24T23:41:55.311Z",
+      "releaseDate": "2026-11-24",
+      "quality": {
+        "words": 4849,
+        "headings": 32,
+        "paragraphs": 53
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [
+        "FAQ answers short: 2 answers under 20 words"
+      ],
+      "mode": "published"
     }
   ],
   "failures": [
