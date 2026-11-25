@@ -117,6 +117,30 @@ export function fillDeclarationForm(
   return { text, missing: Array.from(new Set(missing)) };
 }
 
+/**
+ * Split a typed declarant address line ("564 E 138th Pl, Glenpool, OK 74033")
+ * into street / city / state / zip. Returns null when the line does not end in a
+ * "City, State ZIP" tail — the caller then falls back to the signing venue fields.
+ */
+export function parseDeclarantAddress(raw?: string | null): {
+  street: string;
+  city: string;
+  state: string;
+  zip: string;
+} | null {
+  const text = String(raw ?? '').trim();
+  if (!text) return null;
+  const m = text.match(/^(.+?)[,;]\s*([^,;]+?)[,;]\s*([A-Za-z]{2}|[A-Za-z][A-Za-z]*(?:\s[A-Za-z]+)*?)\s+(\d{5}(?:-\d{4})?)\s*$/);
+  if (!m) return null;
+  const [, street, city, state, zip] = m;
+  return {
+    street: street.trim(),
+    city: city.trim(),
+    state: state.trim(),
+    zip: zip.trim(),
+  };
+}
+
 /** Build the standard var map used by declaration form text from collected fields. */
 export function buildDeclarationVars(input: {
   execDate?: string;
@@ -127,6 +151,14 @@ export function buildDeclarationVars(input: {
   affiantName?: string;
   serverDob?: string;
   street?: string;
+  /** Declarant-mailing-address city (falls back to the signing city). */
+  addressCity?: string;
+  /** Declarant-mailing-address state (falls back to the signing state). */
+  addressState?: string;
+  /** Declarant-mailing-address ZIP — required by CPRC §132.001(d) (TX). */
+  addressZip?: string;
+  /** Declarant country — site callers pass 'USA'. */
+  country?: string;
 }): Record<string, string> {
   const parts = parseExecutionDateParts(input.execDate);
   const city = String(input.signingCity || input.execCity || '').trim();
@@ -146,11 +178,29 @@ export function buildDeclarationVars(input: {
     vars.execState = state;
     vars.execStateOrCountry = state;
   }
+  // Declarant mailing-address tokens (CPRC §132.001(d) requires street, city,
+  // state, zip AND country on a TX unsworn declaration). Fall back to the
+  // signing venue so a server signing at home still fills the address.
+  const addressCity = String(input.addressCity || city || '').trim();
+  if (addressCity) vars.city = addressCity;
+  const addressState = String(input.addressState || state || '').trim();
+  if (addressState) vars.state = addressState;
+  const zip = String(input.addressZip || '').trim();
+  if (zip) vars.zip = zip;
+  const country = String(input.country || '').trim();
+  if (country) vars.country = country;
   if (county) vars.execCounty = county;
   const name = String(input.affiantName || '').trim();
   if (name) vars.affiantName = name;
-  const dob = String(input.serverDob || '').trim();
-  if (dob) vars.serverDob = dob;
+  const dobRaw = String(input.serverDob || '').trim();
+  if (dobRaw) {
+    // §132.001(d) reads "date of birth is ______" — print a readable date, not
+    // a raw ISO/machine format, matching the SaaS render ("January 14, 1992").
+    const dobParts = parseExecutionDateParts(dobRaw);
+    vars.serverDob = dobParts
+      ? `${dobParts.month} ${Number(dobParts.date.split('/')[1])}, ${dobParts.year}`
+      : dobRaw;
+  }
   const street = String(input.street || '').trim();
   if (street) vars.street = street;
   return vars;

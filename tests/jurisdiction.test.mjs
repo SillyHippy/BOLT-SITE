@@ -26,9 +26,9 @@ import {
   validateForPrint,
 } from '../lib/jurisdiction/index.ts';
 
-/** Canonical declaration allow-list from the current SaaS-generated bundle (19 jurisdictions, state-rules v2 2026-10-24). */
+/** Canonical declaration allow-list from the current SaaS-generated bundle (18 jurisdictions; NM flipped to notarized-affidavit-only in SaaS state-rules v2 on 2026-10-31). */
 const DECLARATION_STATES = [
-  'CA', 'CO', 'FED', 'FL', 'IL', 'IN', 'KS', 'MA', 'NM', 'NV',
+  'CA', 'CO', 'FED', 'FL', 'IL', 'IN', 'KS', 'MA', 'NV',
   'NY', 'OK', 'OR', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI',
 ];
 
@@ -274,7 +274,7 @@ describe('52-state bundle parity', () => {
   });
 
   bundleTest('the declaration jurisdictions resolve to declaration', () => {
-    expect(DECLARATION_STATES.length).toBe(19);
+    expect(DECLARATION_STATES.length).toBe(18);
     for (const code of DECLARATION_STATES) {
       const rule = getReturnRule(code);
       expect(rule.allowDeclaration).toBe(true);

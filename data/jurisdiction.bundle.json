@@ -1,7 +1,7 @@
 {
   "generatedFrom": {
     "branch": "main",
-    "commit": "57e2c6c",
+    "commit": "6eafca2",
     "repo": "servetracker-saas"
   },
   "schemaVersion": 1,
@@ -4531,7 +4531,7 @@
         "affidavitTitle": "Certificate of Service",
         "allowDeclaration": true,
         "confidence": "high",
-        "declarationFormText": "My name is {affiantName}, my date of birth is {serverDob}, and my address is {street}. I declare under penalty of perjury that the foregoing is true and correct. Executed in {execCounty} County, State of {execState}, on the {dayOrdinal} day of {month}, {year}.",
+        "declarationFormText": "My name is {affiantName}, my date of birth is {serverDob}, and my address is {street}, {city}, {state} {zip}, and {country}. I declare under penalty of perjury that the foregoing is true and correct. Executed in {execCounty} County, State of {execState}, on the {dayOrdinal} day of {month}, {year}.",
         "declarationStatute": "Tex. R. Civ. P. 107(e)",
         "declarationTitle": "Return of Service",
         "eSignAffidavit": "court_dependent",

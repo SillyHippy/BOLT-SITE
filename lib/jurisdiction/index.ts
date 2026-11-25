@@ -30,6 +30,7 @@ export {
 export {
   buildDeclarationVars,
   fillDeclarationForm,
+  parseDeclarantAddress,
   parseExecutionDateParts,
 } from './declaration';
 export { resolveInstrument } from './instrument';

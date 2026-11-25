@@ -16,6 +16,7 @@ import {
   validateForPrint,
   buildDeclarationVars,
   fillDeclarationForm,
+  parseDeclarantAddress,
   getRequiredFooterFields,
   STATES,
 } from '@/lib/jurisdiction';
@@ -375,6 +376,12 @@ export default function AffidavitOfService() {
   /** True when the user asked for a declaration but the state forbids it. */
   const declarationBlocked = isDeclaration && instrument.blocked;
 
+  /** Declarant mailing address (CPRC §132.001(d)): the typed street line may carry a
+   *  "City, State ZIP" tail — split it so the TX jurat's {city}/{state}/{zip} tokens
+   *  fill without double-printing the tail inside {street}. No tail → null, and the
+   *  signing city/state serve as the address fallback in buildDeclarationVars. */
+  const declarantAddress = useMemo(() => parseDeclarantAddress(serverAddress), [serverAddress]);
+
   const declarationVars = useMemo(
     () =>
       buildDeclarationVars({
@@ -384,9 +391,13 @@ export default function AffidavitOfService() {
         signingCounty,
         affiantName: serverName,
         serverDob,
-        street: serverAddress,
+        street: declarantAddress?.street || serverAddress,
+        addressCity: declarantAddress?.city,
+        addressState: declarantAddress?.state,
+        addressZip: declarantAddress?.zip,
+        country: 'USA',
       }),
-    [execDate, signingCity, execCity, signingState, signingCounty, serverName, serverDob, serverAddress],
+    [execDate, signingCity, execCity, signingState, signingCounty, serverName, serverDob, serverAddress, declarantAddress],
   );
 
   const footerFieldValues = useMemo(
@@ -1752,7 +1763,7 @@ export default function AffidavitOfService() {
                             placeholder="MM/DD/YYYY"
                             className="font-bold border-b border-black bg-transparent outline-none w-28 screen-only"
                           />
-                          <span className="print-only-inline hidden font-bold">{serverDob || '_________________'}</span>
+                          <span className="print-only-inline hidden font-bold">{declarationVars.serverDob || serverDob || '_________________'}</span>
                         </div>
                       ) : null}
                     </td>
