@@ -6480,6 +6480,42 @@
         "FAQ answers short: 2 answers under 20 words"
       ],
       "mode": "published"
+    },
+    {
+      "slug": "loan-signing-agent-vs-mobile-notary-oklahoma",
+      "title": "Loan Signing Agent vs Mobile Notary in Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-11-26T23:35:14.178Z",
+      "releaseDate": "2026-11-26",
+      "quality": {
+        "words": 3460,
+        "headings": 17,
+        "paragraphs": 34
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "special-process-server-appointment-authority-oklahoma",
+      "title": "Special Process Server in Oklahoma: Appointment & Authority",
+      "category": "Process Serving",
+      "releasedAt": "2026-11-26T23:35:14.181Z",
+      "releaseDate": "2026-11-26",
+      "quality": {
+        "words": 4127,
+        "headings": 27,
+        "paragraphs": 34
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
